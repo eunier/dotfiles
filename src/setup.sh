@@ -14,6 +14,7 @@ sh ~/.dotfiles/src/vscode.sh
 sh ~/.dotfiles/src/git.sh
 sh ~/.dotfiles/src/dconf.sh
 sh ~/.dotfiles/src/tree.sh
+sh ~/.dotfiles/src/autostart.sh
 
 sudo timeshift --create --comments "after"
 
@@ -23,3 +24,4 @@ yadm push
 yadm status
 
 fastfetch
+pwd
