@@ -2,5 +2,6 @@ git clone git@github.com:eunier/dotfiles.git ~/Projects/com/github/eunier/dotfil
 git clone git@gitlab.com:yunieralvarez/repo-resources.git ~/Projects/com/gitlab/yunieralvarez/repo-resources
 git clone git@gitlab.com:yunieralvarez/repo.git ~/Projects/com/gitlab/yunieralvarez/repo
 
+touch ~/.dotfiles/src/git/git-repos-before.txt
 tree ~/Projects -L 4 -a > ~/.dotfiles/src/git/git-repos-after.txt
 sh ~/.dotfiles/src/git/git-sync-remote.sh

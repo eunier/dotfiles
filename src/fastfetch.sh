@@ -4,6 +4,8 @@ fi
 
 cp ~/.config/fastfetch/config.jsonc ~/.dotfiles/src/fastfetch/fastfetch-config-after.jsonc
 
+touch ~/.dotfiles/src/fastfetch/fastfetch-output-before.txt
+
 fastfetch --logo none --structure os > ~/.dotfiles/src/fastfetch/fastfetch-output-after.txt
 fastfetch --logo none --structure kernel >> ~/.dotfiles/src/fastfetch/fastfetch-output-after.txt
 fastfetch --logo none --structure packages >> ~/.dotfiles/src/fastfetch/fastfetch-output-after.txt

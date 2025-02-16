@@ -8,6 +8,7 @@ flatpak install flathub \
   io.github.ronniedroid.concessio \
   md.obsidian.Obsidian
 
+touch ~/.dotfiles/src/flatpak/flatpak-list-before.txt
 flatpak list > ~/.dotfiles/src/flatpak/flatpak-list-after.txt
 
 # TODO add ts script to remove any app not on the install list and remove data

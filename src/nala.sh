@@ -46,6 +46,8 @@ sudo nala install \
     yadm \
     zen-browser
 
+touch ~/.dotfiles/src/nala/nala-list-installed-before.txt
+
 nala list \
     --all-versions \
     --full \
