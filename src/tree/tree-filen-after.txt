@@ -1,104 +1,92 @@
-[drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 16:07]  /home/yunieralvarez/.config/autostart
-└── [-rw-rw-r-- yunieralvarez yunieralvarez         183 Feb 15 16:07]  @filendesktop.desktop
-
-1 directory, 1 file
-[drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 16:07]  /home/yunieralvarez/.config/autostart
-└── [-rw-rw-r-- yunieralvarez yunieralvarez         183 Feb 15 16:07]  @filendesktop.desktop
-
-1 directory, 1 file
-[drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 16:07]  /home/yunieralvarez/.config/autostart
-└── [-rw-rw-r-- yunieralvarez yunieralvarez         183 Feb 15 16:07]  @filendesktop.desktop
-
-1 directory, 1 file
-[drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 15:44]  /home/yunieralvarez/.config/@filen
-├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  desktop
-│   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  blob_storage
-│   │   └── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  bf4b5dcf-62a1-4928-a4a2-54424ab0657e
-│   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  Cache
-│   │   └── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  Cache_Data
-│   │       ├── [-rw------- yunieralvarez yunieralvarez      457363 Feb 15 15:44]  4a0445749e14151f_0
-│   │       ├── [-rw------- yunieralvarez yunieralvarez        7258 Feb 15 15:44]  5283edf90cf4ab50_0
-│   │       ├── [-rw------- yunieralvarez yunieralvarez        5578 Feb 15 15:44]  fa7d6a1ce7e4ef55_0
-│   │       ├── [-rw------- yunieralvarez yunieralvarez          24 Feb 15 15:44]  index
-│   │       └── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  index-dir
-│   │           └── [-rw------- yunieralvarez yunieralvarez         120 Feb 15 15:44]  the-real-index
-│   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  Code Cache
-│   │   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  js
-│   │   │   ├── [-rw------- yunieralvarez yunieralvarez         252 Feb 15 15:44]  0a74379363cd06a5_0
-│   │   │   ├── [-rw------- yunieralvarez yunieralvarez          24 Feb 15 15:44]  index
-│   │   │   └── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  index-dir
-│   │   │       └── [-rw------- yunieralvarez yunieralvarez          72 Feb 15 15:44]  the-real-index
-│   │   └── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  wasm
-│   │       ├── [-rw------- yunieralvarez yunieralvarez          24 Feb 15 15:44]  index
-│   │       └── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  index-dir
-│   │           └── [-rw------- yunieralvarez yunieralvarez          48 Feb 15 15:44]  the-real-index
-│   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  Crashpad
-│   │   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  attachments
-│   │   ├── [-rw-rw-r-- yunieralvarez yunieralvarez          36 Feb 15 15:44]  client_id
-│   │   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  completed
-│   │   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  new
-│   │   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  pending
-│   │   └── [-rw------- yunieralvarez yunieralvarez          40 Feb 15 15:44]  settings.dat
-│   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  DawnGraphiteCache
-│   │   ├── [-rw------- yunieralvarez yunieralvarez        8192 Feb 15 15:44]  data_0
-│   │   ├── [-rw------- yunieralvarez yunieralvarez      270336 Feb 15 15:44]  data_1
-│   │   ├── [-rw------- yunieralvarez yunieralvarez        8192 Feb 15 15:44]  data_2
-│   │   ├── [-rw------- yunieralvarez yunieralvarez        8192 Feb 15 15:44]  data_3
-│   │   └── [-rw------- yunieralvarez yunieralvarez      262512 Feb 15 15:44]  index
-│   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  DawnWebGPUCache
-│   │   ├── [-rw------- yunieralvarez yunieralvarez        8192 Feb 15 15:44]  data_0
-│   │   ├── [-rw------- yunieralvarez yunieralvarez      270336 Feb 15 15:44]  data_1
-│   │   ├── [-rw------- yunieralvarez yunieralvarez        8192 Feb 15 15:44]  data_2
-│   │   ├── [-rw------- yunieralvarez yunieralvarez        8192 Feb 15 15:44]  data_3
-│   │   └── [-rw------- yunieralvarez yunieralvarez      262512 Feb 15 15:44]  index
-│   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  Dictionaries
-│   │   └── [-rw-rw-r-- yunieralvarez yunieralvarez      451968 Feb 15 15:44]  en-US-10-1.bdic
-│   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  GPUCache
-│   │   ├── [-rw------- yunieralvarez yunieralvarez       45056 Feb 15 15:44]  data_0
-│   │   ├── [-rw------- yunieralvarez yunieralvarez      270336 Feb 15 15:44]  data_1
-│   │   ├── [-rw------- yunieralvarez yunieralvarez     1056768 Feb 15 15:44]  data_2
-│   │   ├── [-rw------- yunieralvarez yunieralvarez        8192 Feb 15 15:44]  data_3
-│   │   └── [-rw------- yunieralvarez yunieralvarez      262512 Feb 15 15:44]  index
-│   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  IndexedDB
-│   │   └── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  filendesktop_bundle_0.indexeddb.leveldb
-│   │       ├── [-rw------- yunieralvarez yunieralvarez        6723 Feb 15 15:44]  000003.log
-│   │       ├── [-rw------- yunieralvarez yunieralvarez          16 Feb 15 15:44]  CURRENT
-│   │       ├── [-rw------- yunieralvarez yunieralvarez           0 Feb 15 15:44]  LOCK
-│   │       ├── [-rw------- yunieralvarez yunieralvarez         313 Feb 15 15:44]  LOG
-│   │       └── [-rw------- yunieralvarez yunieralvarez          23 Feb 15 15:44]  MANIFEST-000001
-│   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  Local Storage
-│   │   └── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  leveldb
-│   │       ├── [-rw------- yunieralvarez yunieralvarez        1541 Feb 15 15:44]  000003.log
-│   │       ├── [-rw------- yunieralvarez yunieralvarez          16 Feb 15 15:44]  CURRENT
-│   │       ├── [-rw------- yunieralvarez yunieralvarez           0 Feb 15 15:44]  LOCK
-│   │       ├── [-rw------- yunieralvarez yunieralvarez         257 Feb 15 15:44]  LOG
-│   │       └── [-rw------- yunieralvarez yunieralvarez          41 Feb 15 15:44]  MANIFEST-000001
-│   ├── [-rw------- yunieralvarez yunieralvarez         646 Feb 15 15:44]  Network Persistent State
-│   ├── [-rw------- yunieralvarez yunieralvarez          57 Feb 15 15:44]  Preferences
-│   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  Session Storage
-│   │   ├── [-rw------- yunieralvarez yunieralvarez         258 Feb 15 15:44]  000003.log
-│   │   ├── [-rw------- yunieralvarez yunieralvarez          16 Feb 15 15:44]  CURRENT
-│   │   ├── [-rw------- yunieralvarez yunieralvarez           0 Feb 15 15:44]  LOCK
-│   │   ├── [-rw------- yunieralvarez yunieralvarez         245 Feb 15 15:44]  LOG
-│   │   └── [-rw------- yunieralvarez yunieralvarez          41 Feb 15 15:44]  MANIFEST-000001
-│   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  Shared Dictionary
-│   │   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  cache
-│   │   │   ├── [-rw------- yunieralvarez yunieralvarez          24 Feb 15 15:44]  index
-│   │   │   └── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  index-dir
-│   │   │       └── [-rw------- yunieralvarez yunieralvarez          48 Feb 15 15:44]  the-real-index
-│   │   ├── [-rw------- yunieralvarez yunieralvarez       45056 Feb 15 15:44]  db
-│   │   └── [-rw------- yunieralvarez yunieralvarez           0 Feb 15 15:44]  db-journal
-│   ├── [-rw------- yunieralvarez yunieralvarez         355 Feb 15 15:44]  TransportSecurity
-│   ├── [-rw------- yunieralvarez yunieralvarez       36864 Feb 15 15:44]  Trust Tokens
-│   ├── [-rw------- yunieralvarez yunieralvarez           0 Feb 15 15:44]  Trust Tokens-journal
-│   └── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  WebStorage
-│       ├── [-rw------- yunieralvarez yunieralvarez       40960 Feb 15 15:44]  QuotaManager
-│       └── [-rw------- yunieralvarez yunieralvarez           0 Feb 15 15:44]  QuotaManager-journal
-├── [drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 15:44]  logs
-│   ├── [-rw-rw-r-- yunieralvarez yunieralvarez         482 Feb 15 15:44]  desktop.log
-│   └── [-rw-rw-r-- yunieralvarez yunieralvarez           0 Feb 15 15:44]  desktop-worker.log
-├── [drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 15:44]  s3
-└── [drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 15:44]  webdav
+/home/yunieralvarez/.config/@filen
+├── desktop
+│   ├── blob_storage
+│   │   └── bf4b5dcf-62a1-4928-a4a2-54424ab0657e
+│   ├── Cache
+│   │   └── Cache_Data
+│   │       ├── 4a0445749e14151f_0
+│   │       ├── 5283edf90cf4ab50_0
+│   │       ├── fa7d6a1ce7e4ef55_0
+│   │       ├── index
+│   │       └── index-dir
+│   │           └── the-real-index
+│   ├── Code Cache
+│   │   ├── js
+│   │   │   ├── 0a74379363cd06a5_0
+│   │   │   ├── index
+│   │   │   └── index-dir
+│   │   │       └── the-real-index
+│   │   └── wasm
+│   │       ├── index
+│   │       └── index-dir
+│   │           └── the-real-index
+│   ├── Crashpad
+│   │   ├── attachments
+│   │   ├── client_id
+│   │   ├── completed
+│   │   ├── new
+│   │   ├── pending
+│   │   └── settings.dat
+│   ├── DawnGraphiteCache
+│   │   ├── data_0
+│   │   ├── data_1
+│   │   ├── data_2
+│   │   ├── data_3
+│   │   └── index
+│   ├── DawnWebGPUCache
+│   │   ├── data_0
+│   │   ├── data_1
+│   │   ├── data_2
+│   │   ├── data_3
+│   │   └── index
+│   ├── Dictionaries
+│   │   └── en-US-10-1.bdic
+│   ├── GPUCache
+│   │   ├── data_0
+│   │   ├── data_1
+│   │   ├── data_2
+│   │   ├── data_3
+│   │   └── index
+│   ├── IndexedDB
+│   │   └── filendesktop_bundle_0.indexeddb.leveldb
+│   │       ├── 000003.log
+│   │       ├── CURRENT
+│   │       ├── LOCK
+│   │       ├── LOG
+│   │       └── MANIFEST-000001
+│   ├── Local Storage
+│   │   └── leveldb
+│   │       ├── 000003.log
+│   │       ├── CURRENT
+│   │       ├── LOCK
+│   │       ├── LOG
+│   │       └── MANIFEST-000001
+│   ├── Network Persistent State
+│   ├── Preferences
+│   ├── Session Storage
+│   │   ├── 000003.log
+│   │   ├── CURRENT
+│   │   ├── LOCK
+│   │   ├── LOG
+│   │   └── MANIFEST-000001
+│   ├── Shared Dictionary
+│   │   ├── cache
+│   │   │   ├── index
+│   │   │   └── index-dir
+│   │   │       └── the-real-index
+│   │   ├── db
+│   │   └── db-journal
+│   ├── TransportSecurity
+│   ├── Trust Tokens
+│   ├── Trust Tokens-journal
+│   └── WebStorage
+│       ├── QuotaManager
+│       └── QuotaManager-journal
+├── logs
+│   ├── desktop.log
+│   └── desktop-worker.log
+├── s3
+└── webdav
 
 33 directories, 56 files
 [drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 15:44]  /home/yunieralvarez/.config/@filen

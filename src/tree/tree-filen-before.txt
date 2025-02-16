@@ -1,15 +1,94 @@
-[drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 16:07]  /home/yunieralvarez/.config/autostart
-└── [-rw-rw-r-- yunieralvarez yunieralvarez         183 Feb 15 16:07]  @filendesktop.desktop
+/home/yunieralvarez/.config/@filen
+├── desktop
+│   ├── blob_storage
+│   │   └── bf4b5dcf-62a1-4928-a4a2-54424ab0657e
+│   ├── Cache
+│   │   └── Cache_Data
+│   │       ├── 4a0445749e14151f_0
+│   │       ├── 5283edf90cf4ab50_0
+│   │       ├── fa7d6a1ce7e4ef55_0
+│   │       ├── index
+│   │       └── index-dir
+│   │           └── the-real-index
+│   ├── Code Cache
+│   │   ├── js
+│   │   │   ├── 0a74379363cd06a5_0
+│   │   │   ├── index
+│   │   │   └── index-dir
+│   │   │       └── the-real-index
+│   │   └── wasm
+│   │       ├── index
+│   │       └── index-dir
+│   │           └── the-real-index
+│   ├── Crashpad
+│   │   ├── attachments
+│   │   ├── client_id
+│   │   ├── completed
+│   │   ├── new
+│   │   ├── pending
+│   │   └── settings.dat
+│   ├── DawnGraphiteCache
+│   │   ├── data_0
+│   │   ├── data_1
+│   │   ├── data_2
+│   │   ├── data_3
+│   │   └── index
+│   ├── DawnWebGPUCache
+│   │   ├── data_0
+│   │   ├── data_1
+│   │   ├── data_2
+│   │   ├── data_3
+│   │   └── index
+│   ├── Dictionaries
+│   │   └── en-US-10-1.bdic
+│   ├── GPUCache
+│   │   ├── data_0
+│   │   ├── data_1
+│   │   ├── data_2
+│   │   ├── data_3
+│   │   └── index
+│   ├── IndexedDB
+│   │   └── filendesktop_bundle_0.indexeddb.leveldb
+│   │       ├── 000003.log
+│   │       ├── CURRENT
+│   │       ├── LOCK
+│   │       ├── LOG
+│   │       └── MANIFEST-000001
+│   ├── Local Storage
+│   │   └── leveldb
+│   │       ├── 000003.log
+│   │       ├── CURRENT
+│   │       ├── LOCK
+│   │       ├── LOG
+│   │       └── MANIFEST-000001
+│   ├── Network Persistent State
+│   ├── Preferences
+│   ├── Session Storage
+│   │   ├── 000003.log
+│   │   ├── CURRENT
+│   │   ├── LOCK
+│   │   ├── LOG
+│   │   └── MANIFEST-000001
+│   ├── Shared Dictionary
+│   │   ├── cache
+│   │   │   ├── index
+│   │   │   └── index-dir
+│   │   │       └── the-real-index
+│   │   ├── db
+│   │   └── db-journal
+│   ├── TransportSecurity
+│   ├── Trust Tokens
+│   ├── Trust Tokens-journal
+│   └── WebStorage
+│       ├── QuotaManager
+│       └── QuotaManager-journal
+├── logs
+│   ├── desktop.log
+│   └── desktop-worker.log
+├── s3
+└── webdav
 
-1 directory, 1 file
-[drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 16:07]  /home/yunieralvarez/.config/autostart
-└── [-rw-rw-r-- yunieralvarez yunieralvarez         183 Feb 15 16:07]  @filendesktop.desktop
-
-1 directory, 1 file
-[drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 16:07]  /home/yunieralvarez/.config/autostart
-└── [-rw-rw-r-- yunieralvarez yunieralvarez         183 Feb 15 16:07]  @filendesktop.desktop
-
-1 directory, 1 file
+33 directories, 56 files
 [drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 15:44]  /home/yunieralvarez/.config/@filen
 ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  desktop
 │   ├── [drwx------ yunieralvarez yunieralvarez        4096 Feb 15 15:44]  blob_storage
