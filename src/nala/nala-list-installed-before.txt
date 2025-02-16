@@ -24397,6 +24397,10 @@ mount 2.40.4-3 [Debian/trixie main]
      This package provides the mount(8), umount(8), swapon(8),
      swapoff(8), and losetup(8) commands.
 
+mullvad-vpn 2025.4 [SparkyLinux/sisters main]
+├── is installed
+└── Mullvad VPN client
+
 multiarch-support 2.28-10 [local]
 ├── is installed
 └── Transitional package to ensure multiarch compatibility

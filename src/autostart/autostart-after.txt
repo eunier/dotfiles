@@ -1,8 +1,10 @@
 /home/yunieralvarez/.config/autostart
-└── @filendesktop.desktop
+├── @filendesktop.desktop
+└── mullvad-vpn.desktop
 
-1 directory, 1 file
-[drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 16:07]  /home/yunieralvarez/.config/autostart
-└── [-rw-rw-r-- yunieralvarez yunieralvarez         183 Feb 15 16:07]  @filendesktop.desktop
+1 directory, 2 files
+[drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 20:38]  /home/yunieralvarez/.config/autostart
+├── [-rw-rw-r-- yunieralvarez yunieralvarez         183 Feb 15 16:07]  @filendesktop.desktop
+└── [-rw-rw-r-- yunieralvarez yunieralvarez         195 Feb 15 20:38]  mullvad-vpn.desktop
 
-1 directory, 1 file
+1 directory, 2 files
