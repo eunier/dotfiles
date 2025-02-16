@@ -1,4 +1,4 @@
-7zip 24.09+dfsg-3 [Debian/trixie main]
+7zip 24.09+dfsg-4 [Debian/trixie main]
 ├── is installed
 └── 7-Zip file archiver with a high compression ratio
      7-Zip is a file archiver with a high compression ratio. The main features
@@ -5943,7 +5943,7 @@ gir1.2-gtk-3.0 3.24.48-4 [Debian/trixie main]
      This package can be used by other packages using the GIRepository format to
      generate dynamic bindings.
 
-gir1.2-gtk-4.0 4.16.12+ds-3 [Debian/trixie main]
+gir1.2-gtk-4.0 4.17.4+ds-4 [Debian/trixie main]
 ├── is installed
 └── GTK graphical user interface library -- gir bindings
      GTK is a multi-platform toolkit for creating graphical user
@@ -7413,7 +7413,7 @@ gstreamer1.0-x 1.24.12-1 [Debian/trixie main]
      for standard Xlib support and for the Xv extension, as well as the
      plugin for Pango-based text rendering and overlay.
 
-gtk-update-icon-cache 4.16.12+ds-3 [Debian/trixie main]
+gtk-update-icon-cache 4.17.4+ds-4 [Debian/trixie main]
 ├── is installed
 └── icon theme caching utility
      gtk-update-icon-cache creates mmap()able cache files for icon themes.
@@ -11603,14 +11603,14 @@ libexempi8 2.6.5-1+b1 [Debian/trixie main]
      using a subset of RDF. Most notably XMP supports embedding metadata in PDF
      and many image formats, though it is designed to support nearly any file type.
 
-libexif12 0.6.24-2 [Debian/trixie main]
+libexif12 0.6.25-1 [Debian/trixie main]
 ├── is installed
 └── library to parse EXIF files
      Most digital cameras produce EXIF files, which are JPEG files with
      extra tags that contain information about the image. The EXIF library
      allows you to parse an EXIF file and read the data from those tags.
 
-libexiv2-28 0.28.3+dfsg-2 [Debian/trixie main]
+libexiv2-28 0.28.4+dfsg-1 [Debian/trixie main]
 ├── is installed
 └── EXIF/IPTC/XMP metadata manipulation library
      Exiv2 is a C++ library and a command line utility to manage image metadata.
@@ -11630,7 +11630,7 @@ libexiv2-28 0.28.3+dfsg-2 [Debian/trixie main]
         thumbnails
       * set and delete methods for Exif thumbnails
 
-libexiv2-data 0.28.3+dfsg-2 [Debian/trixie main]
+libexiv2-data 0.28.4+dfsg-1 [Debian/trixie main]
 ├── is installed
 └── EXIF/IPTC/XMP metadata manipulation library - shared data
      Exiv2 is a C++ library and a command line utility to manage image metadata.
@@ -13787,7 +13787,7 @@ libgtk-3-common 3.24.48-4 [Debian/trixie main]
      .
      This package contains the common files which the libraries need.
 
-libgtk-4-1 4.16.12+ds-3 [Debian/trixie main]
+libgtk-4-1 4.17.4+ds-4 [Debian/trixie main]
 ├── is installed
 └── GTK graphical user interface library
      GTK is a multi-platform toolkit for creating graphical user
@@ -13797,7 +13797,7 @@ libgtk-4-1 4.16.12+ds-3 [Debian/trixie main]
      .
      This package contains the shared libraries.
 
-libgtk-4-common 4.16.12+ds-3 [Debian/trixie main]
+libgtk-4-common 4.17.4+ds-4 [Debian/trixie main]
 ├── is installed
 └── common files for the GTK graphical user interface library
      GTK is a multi-platform toolkit for creating graphical user
@@ -13898,7 +13898,7 @@ libgtksourceview-4-common 4.8.4-5 [Debian/trixie main]
      (gettext), Python, R, Ruby, sh, SQL, Tcl, Texinfo, VB.NET, Verilog, VHDL and
      XML.
 
-libgtksourceview-5-0 5.15.0-1 [Debian/trixie main]
+libgtksourceview-5-0 5.15.0-3 [Debian/trixie main]
 ├── is installed
 └── shared libraries for the GTK 4 syntax highlighting widget
      GtkSourceView is a text widget that extends the standard GTK 4 text widget
@@ -13908,7 +13908,7 @@ libgtksourceview-5-0 5.15.0-1 [Debian/trixie main]
      This package contains the shared libraries required by applications to use
      this widget.
 
-libgtksourceview-5-common 5.15.0-1 [Debian/trixie main]
+libgtksourceview-5-common 5.15.0-3 [Debian/trixie main]
 ├── is installed
 └── common files for the GTK 4 syntax highlighting widget
      GtkSourceView is a text widget that extends the standard GTK 4 text widget
@@ -21560,7 +21560,7 @@ libv4lconvert0t64 1.28.1-1 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libva-drm2 2.22.0-1+b1 [Debian/trixie main]
+libva-drm2 2.22.0-2 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- DRM runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -21574,7 +21574,7 @@ libva-drm2 2.22.0-1+b1 [Debian/trixie main]
      .
      This package provides the libva-drm library.
 
-libva-drm2:i386 2.22.0-1+b1 [Debian/trixie main]
+libva-drm2:i386 2.22.0-2 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- DRM runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -21588,7 +21588,7 @@ libva-drm2:i386 2.22.0-1+b1 [Debian/trixie main]
      .
      This package provides the libva-drm library.
 
-libva-glx2 2.22.0-1+b1 [Debian/trixie main]
+libva-glx2 2.22.0-2 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- GLX runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -21602,7 +21602,7 @@ libva-glx2 2.22.0-1+b1 [Debian/trixie main]
      .
      This package provides the libva-glx library.
 
-libva-glx2:i386 2.22.0-1+b1 [Debian/trixie main]
+libva-glx2:i386 2.22.0-2 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- GLX runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -21616,7 +21616,7 @@ libva-glx2:i386 2.22.0-1+b1 [Debian/trixie main]
      .
      This package provides the libva-glx library.
 
-libva-x11-2 2.22.0-1+b1 [Debian/trixie main]
+libva-x11-2 2.22.0-2 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- X11 runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -21630,7 +21630,7 @@ libva-x11-2 2.22.0-1+b1 [Debian/trixie main]
      .
      This package provides the libva-x11 library.
 
-libva-x11-2:i386 2.22.0-1+b1 [Debian/trixie main]
+libva-x11-2:i386 2.22.0-2 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- X11 runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -21644,7 +21644,7 @@ libva-x11-2:i386 2.22.0-1+b1 [Debian/trixie main]
      .
      This package provides the libva-x11 library.
 
-libva2 2.22.0-1+b1 [Debian/trixie main]
+libva2 2.22.0-2 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -21658,7 +21658,7 @@ libva2 2.22.0-1+b1 [Debian/trixie main]
      .
      This package provides the main libva library.
 
-libva2:i386 2.22.0-1+b1 [Debian/trixie main]
+libva2:i386 2.22.0-2 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -28257,14 +28257,14 @@ uuid-runtime 2.40.4-3 [Debian/trixie main]
      large numbers of threads trying to grab UUIDs running on different CPUs.
      It is used by libuuid as well as the uuidgen program.
 
-va-driver-all 2.22.0-1+b1 [Debian/trixie main]
+va-driver-all 2.22.0-2 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API -- driver metapackage
      This package depends on the full suite of drivers for the Video Acceleration
      API (VA API). It does not provide any drivers itself, and may be removed if
      you wish to only have certain drivers installed.
 
-va-driver-all:i386 2.22.0-1+b1 [Debian/trixie main]
+va-driver-all:i386 2.22.0-2 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API -- driver metapackage
      This package depends on the full suite of drivers for the Video Acceleration
@@ -29109,7 +29109,7 @@ xserver-xorg-video-intel 2:2.99.917+git20210115-1 [Debian/trixie main]
      2007 and newer). You can try uninstalling this driver and let the
      server use its built-in modesetting driver instead.
 
-xserver-xorg-video-nouveau 1:1.0.17-3 [Debian/trixie main]
+xserver-xorg-video-nouveau 1:1.0.18-1 [Debian/trixie main]
 ├── is installed
 └── X.Org X server -- Nouveau display driver
      This driver for the X.Org X server (see xserver-xorg for a further description)
@@ -29163,7 +29163,7 @@ xserver-xorg-video-vmware 1:13.4.0-1 [Debian/trixie main]
      .
      This package is built from the X.org xf86-video-vmware driver module.
 
-xterm 396-1 [Debian/trixie main]
+xterm 397-1 [Debian/trixie main]
 ├── is installed
 └── X terminal emulator
      xterm is a terminal emulator for the X Window System.  It provides DEC VT102

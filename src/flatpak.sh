@@ -6,6 +6,7 @@ flatpak install flathub \
   com.github.tchx84.Flatseal \
   com.spotify.Client \
   dev.geopjr.Calligraphy \
+  dev.tchx84.Gameeky \
   io.github.fabrialberio.pinapp \
   io.github.josephmawa.Egghead \
   io.github.revisto.drum-machine \
