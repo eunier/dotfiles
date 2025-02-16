@@ -644,8 +644,6 @@
 │   ├── node.sh
 │   ├── setup.sh
 │   ├── tree
-│   │   ├── tree-autostart-after.txt
-│   │   ├── tree-filen-after.txt
 │   │   └── tree-output.txt
 │   ├── tree.sh
 │   ├── vscode
@@ -1258,4 +1256,4 @@ node_modules
     ├── webidl.d.ts
     └── websocket.d.ts
 
-122 directories, 1137 files
+122 directories, 1135 files
