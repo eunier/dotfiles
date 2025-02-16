@@ -38,6 +38,7 @@ sudo nala install \
     libxrandr-dev \
     mesa-utils \
     morewaita \
+    mullvad-vpn \
     picard \
     steam-launcher \
     timeshift \
