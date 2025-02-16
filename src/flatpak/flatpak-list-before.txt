@@ -1,6 +1,7 @@
 LibreSprite	com.github.libresprite.LibreSprite	1.0	stable	system
 Flatseal	com.github.tchx84.Flatseal	2.3.0	stable	system
 Spotify	com.spotify.Client	1.2.52.442.g01893f92	stable	system
+Calligraphy	dev.geopjr.Calligraphy	1.1.0	stable	system
 Pins	io.github.fabrialberio.pinapp	2.0.1	stable	system
 Egghead	io.github.josephmawa.Egghead	0.1.1	stable	system
 Concessio	io.github.ronniedroid.concessio	v0.1.9	stable	system
