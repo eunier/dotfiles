@@ -2,6 +2,7 @@ if ! [ -f "$HOME/.config/fastfetch/config.jsonc" ]; then
   fastfetch --gen-config
 fi
 
+touch ~/.dotfiles/src/fastfetch/fastfetch-config-before.jsonc
 cp ~/.config/fastfetch/config.jsonc ~/.dotfiles/src/fastfetch/fastfetch-config-after.jsonc
 
 touch ~/.dotfiles/src/fastfetch/fastfetch-output-before.txt

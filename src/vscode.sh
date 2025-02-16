@@ -17,6 +17,9 @@ code --update-extensions
 touch ~/.dotfiles/src/vscode/vscode-extensions-before.txt
 code --list-extensions > ~/.dotfiles/src/vscode/vscode-extensions-after.txt
 
+touch ~/.dotfiles/src/vscode/vscode-settings-before.jsonc
 cp ~/.config/Code/User/settings.json ~/.dotfiles/src/vscode/vscode-settings-after.jsonc
+
+touch ~/.dotfiles/src/vscode/vscode-keybindings-before.jsonc
 cp ~/.config/Code/User/keybindings.json ~/.dotfiles/src/vscode/vscode-keybindings-after.jsonc
 

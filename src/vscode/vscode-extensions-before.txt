@@ -1,0 +1,13 @@
+aswinkumar863.sort-editors
+biomejs.biome
+chrisdias.vscode-opennewinstance
+esbenp.prettier-vscode
+gruntfuggly.todo-tree
+jannisx11.batch-rename-extension
+maattdd.gitless
+maptz.regionfolder
+pkief.material-icon-theme
+richie5um2.vscode-sort-json
+streetsidesoftware.code-spell-checker
+zhuangtongfa.material-theme
+ziglang.vscode-zig
