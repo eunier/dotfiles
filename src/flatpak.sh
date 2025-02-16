@@ -4,6 +4,7 @@ flatpak update
 flatpak install flathub \
   com.github.libresprite.LibreSprite \
   com.github.tchx84.Flatseal \
+  com.mardojai.ForgeSparks \
   com.spotify.Client \
   dev.geopjr.Calligraphy \
   dev.tchx84.Gameeky \
