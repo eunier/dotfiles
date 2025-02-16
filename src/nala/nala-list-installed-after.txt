@@ -5642,6 +5642,15 @@ gir1.2-atspi-2.0 2.55.2-1 [Debian/trixie main]
      This package can be used by other packages using the GIRepository format to
      generate dynamic bindings
 
+gir1.2-ayatanaappindicator3-0.1 0.5.93+really-3 [Debian/trixie main]
+├── is installed
+└── Typelib files for libayatana-appindicator3-1 (GTK-3+ version)
+     A library and indicator to take menus from applications and place them in
+     the panel.
+     .
+     This package can be used by other packages using the GIRepository format
+     to generate dynamic bindings (GTK-3+ version).
+
 gir1.2-evince-3.0 46.3.1-1+b1 [Debian/trixie main]
 ├── is installed
 └── GObject introspection data for the evince libraries
@@ -27684,6 +27693,32 @@ swtpm-tools 0.7.1-1.5 [Debian/trixie main]
           tool basically simulates TPM manufacturing where certificates are
           written into the NVRAM of the TPM
       - swtpm_cert: Creation of certificates for the TPM (x509)
+
+syncthing 1.27.7~ds1-5 [Debian/trixie main]
+├── is installed
+└── decentralized file synchronization
+     Syncthing is an application that lets you synchronize your files across
+     multiple devices. This means the creation, modification or deletion of files
+     on one machine will automatically be replicated to your other devices.
+     Syncthing does not upload your data to the cloud but exchanges your data
+     across your machines as soon as they are online at the same time.
+     .
+     This package contains the main binary: syncthing.
+
+syncthing-gtk 0.9.4.4+ds+git20221205+12a9702d29ab-6 [Debian/trixie main]
+├── is installed
+└── GTK3-based GUI and notification area icon for syncthing
+     A GTK3-based GUI for Syncthing that supports:
+     .
+      * Adding / editing / deleting nodes
+      * Adding / editing / deleting repositories
+      * Restart / shutdown server
+      * Editing daemon settings
+      * Quick initial configuration using a wizard
+     .
+     It also provides desktop integration with various file managers
+     (Nautilus, Nemo and Caja) as well as with the desktop
+     environment in the form of an app indicator.
 
 system-config-printer-common 1.5.18-3 [Debian/trixie main]
 ├── is installed

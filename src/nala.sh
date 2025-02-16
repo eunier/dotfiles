@@ -42,6 +42,7 @@ sudo nala install \
     mullvad-vpn \
     picard \
     steam-launcher \
+    syncthing-gtk \
     timeshift \
     tree \
     update-glx \
