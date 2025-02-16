@@ -9,7 +9,6 @@
 │           └── repo-resources
 └── workspaces
     ├── dotfiles.code-workspace
-    ├── repo.code-workspace
     └── top-down-game.code-workspace
 
-10 directories, 3 files
+10 directories, 2 files
