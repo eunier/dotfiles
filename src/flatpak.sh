@@ -8,6 +8,7 @@ flatpak install flathub \
   dev.geopjr.Calligraphy \
   io.github.fabrialberio.pinapp \
   io.github.josephmawa.Egghead \
+  io.github.revisto.drum-machine \
   io.github.ronniedroid.concessio \
   md.obsidian.Obsidian
 
