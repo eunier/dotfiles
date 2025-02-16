@@ -1,0 +1,12 @@
+/home/yunieralvarez/Projects
+├── com
+│   └── gitlab
+│       └── yunieralvarez
+│           ├── repo
+│           └── repo-resources
+└── workspaces
+    ├── dotfiles.code-workspace
+    ├── repo.code-workspace
+    └── top-down-game.code-workspace
+
+7 directories, 3 files

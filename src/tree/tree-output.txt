@@ -1,0 +1,68 @@
+.
+├── bun.lock
+├── package.json
+├── README.md
+├── src
+│   ├── apt.sh
+│   ├── autostart
+│   │   ├── autostart-after.txt
+│   │   └── autostart-before.txt
+│   ├── autostart.sh
+│   ├── bun.sh
+│   ├── dconf
+│   │   ├── dconf-after.conf
+│   │   └── dconf-before.conf
+│   ├── dconf.sh
+│   ├── diff
+│   │   ├── diff-autostart.sh
+│   │   ├── diff-dconf.sh
+│   │   ├── diff-fastfetch-config.sh
+│   │   ├── diff-fastfetch-output.sh
+│   │   ├── diff-flatpak-list.sh
+│   │   ├── diff-git-repos.sh
+│   │   ├── diff-nala-list-installed.sh
+│   │   ├── diff-vscode-extensions.sh
+│   │   ├── diff-vscode-keybindings.sh
+│   │   ├── diff-vscode-settings.sh
+│   │   └── diff-zig-version-list.sh
+│   ├── diff.sh
+│   ├── fastfetch
+│   │   ├── fastfetch-config-after.jsonc
+│   │   ├── fastfetch-config-before.jsonc
+│   │   ├── fastfetch-output-after.txt
+│   │   └── fastfetch-output-before.txt
+│   ├── fastfetch.sh
+│   ├── flatpak
+│   │   ├── flatpak-list-after.txt
+│   │   └── flatpak-list-before.txt
+│   ├── flatpak.sh
+│   ├── git
+│   │   ├── git-repos-after.txt
+│   │   ├── git-repos-before.txt
+│   │   └── git-sync-remote.sh
+│   ├── git.sh
+│   ├── nala
+│   │   ├── nala-list-installed-after.txt
+│   │   └── nala-list-installed-before.txt
+│   ├── nala.sh
+│   ├── node.sh
+│   ├── setup.sh
+│   ├── tree
+│   │   └── tree-output.txt
+│   ├── tree.sh
+│   ├── vscode
+│   │   ├── vscode-extensions-after.txt
+│   │   ├── vscode-extensions-before.txt
+│   │   ├── vscode-keybindings-after.jsonc
+│   │   ├── vscode-keybindings-before.jsonc
+│   │   ├── vscode-settings-after.jsonc
+│   │   └── vscode-settings-before.jsonc
+│   ├── vscode.sh
+│   ├── yadm.sh
+│   ├── zig
+│   │   ├── zig-version-list-after.txt
+│   │   └── zig-version-list-before.txt
+│   └── zig.sh
+└── tsconfig.json
+
+12 directories, 54 files

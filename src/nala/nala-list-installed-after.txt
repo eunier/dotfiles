@@ -1,0 +1,3612 @@
+7zip 24.09+dfsg-3 [Debian/trixie main]
+├── is installed
+└── 7-Zip file archiver with a high compression ratio
+     7-Zip is a file archiver with a high compression ratio. The main features
+     of 7-Zip are:
+      * High compression ratio in 7z format with LZMA and LZMA2 compression
+      * Supported formats:
+          * Packing / unpacking: 7z, XZ, BZIP2, GZIP, TAR, ZIP and WIM
+          * Unpacking only: AR, ARJ, CAB, CHM, CPIO, CramFS, DMG, EXT, FAT,
+              GPT, HFS, IHEX, ISO, LZH, LZMA, MBR, MSI, NSIS, NTFS, QCOW2,
+              RPM, SquashFS, UDF, UEFI, VDI, VHD, VMDK, WIM, XAR and Z.
+      * For ZIP and GZIP formats, 7-Zip provides a compression ratio that is
+          2-10 % better than the ratio provided by PKZip and WinZip
+      * Strong AES-256 encryption in 7z and ZIP formats
+      * Powerful command line version
+     .
+     "7zip" provides:
+      * /usr/bin/7z:  Full featured with plugin functionality.
+      * /usr/bin/7za: Major formats/features only.
+      * /usr/bin/7zr: LZMA (.7z, .lzma, .xz) only. Minimal executable.
+     .
+     Note: The unRAR code was dropped to keep compatible with DFSG.
+           Install 7zip-rar package in non-free section to use RAR files.
+
+accountsservice 23.13.9-7 [Debian/trixie main]
+├── is installed
+└── query and manipulate user account information
+     The AccountService project provides a set of D-Bus
+     interfaces for querying and manipulating user account
+     information and an implementation of these interfaces,
+     based on the useradd, usermod and userdel commands.
+
+acl 2.3.2-2+b1 [Debian/trixie main]
+├── is installed
+└── access control list - utilities
+     This package contains the getfacl and setfacl utilities needed for
+     manipulating access control lists. It also contains the chacl IRIX
+     compatible utility.
+
+acpi 1.7-3 [Debian/trixie main]
+├── is installed
+└── displays information on ACPI devices
+     Attempts to replicate the functionality of the 'old' apm command on
+     ACPI systems, including battery and thermal information. Does not support
+     ACPI suspending, only displays information about ACPI devices.
+
+acpi-fakekey 0.143-5.2 [Debian/trixie main]
+├── is installed
+└── tool to generate fake key events
+     This package contains a small tool that can be used to generate key events as
+     if the corresponding key was pressed. It is used by scripts processing ACPI
+     events to translate these events to key presses but can also be used
+     separately.
+
+acpi-support 0.143-5.2 [Debian/trixie main]
+├── is installed
+└── scripts for handling many ACPI events
+     This package contains scripts to react to various ACPI events. It only
+     includes scripts for events that can be supported with some level of
+     safety cross platform.
+     .
+     It is able to:
+      * Detect loss and gain of AC power, lid closure, and the press of a
+        number of specific buttons (on Asus, IBM, Lenovo, Panasonic, Sony
+        and Toshiba laptops).
+      * Suspend, hibernate and resume the computer, with workarounds for
+        hardware that needs it.
+      * On some laptops, set screen brightness.
+     .
+     Besides some system tools acpi-support recommends vbetool to be able to power
+     off the screen and some screensavers to be able to lock the screen on lid
+     close.
+
+acpi-support-base 0.143-5.2 [Debian/trixie main]
+├── is installed
+└── scripts for handling base ACPI events such as the power button
+     This package contains scripts to react to various base ACPI events
+     such as the power button. For more extensive ACPI support, including support
+     for suspend-to-RAM and for various laptop features, install the package
+     "acpi-support".
+
+acpid 1:2.0.34-1+b1 [Debian/trixie main]
+├── is installed
+└── Advanced Configuration and Power Interface event daemon
+     Modern computers support the Advanced Configuration and Power Interface (ACPI)
+     to allow intelligent power management on your system and to query battery and
+     configuration status.
+     .
+     ACPID is a completely flexible, totally extensible daemon for delivering
+     ACPI events. It listens on netlink interface (or on the deprecated file
+     /proc/acpi/event), and when an event occurs, executes programs to handle the
+     event. The programs it executes are configured through a set of configuration
+     files, which can be dropped into place by packages or by the admin.
+
+adduser 3.137 [Debian/trixie main]
+├── is installed
+└── add and remove users and groups
+     This package includes the 'adduser' and 'deluser' commands for creating
+     and removing users.
+     .
+      - 'adduser' creates new users and groups and adds existing users to
+        existing groups;
+      - 'deluser' removes users and groups and removes users from a given
+        group.
+     .
+     Adding users with 'adduser' is much easier than adding them manually.
+     'Adduser' will choose UID and GID values that conform to Debian policy,
+     create a home directory, copy skeletal user configuration, and
+     automate setting initial values for the user's password, real name
+     and so on.
+     .
+     'Deluser' can back up and remove users' home directories
+     and mail spool or all the files they own on the system.
+     .
+     A custom script can be executed after each of the commands.
+     .
+     'Adduser' and 'Deluser' are intended to be used by the local
+     administrator in lieu of the tools from the 'useradd' suite, and
+     they provide support for easy use from Debian package maintainer
+     scripts, functioning as kind of a policy layer to make those scripts
+     easier and more stable to write and maintain.
+
+adwaita-icon-theme 47.0-2 [Debian/trixie main]
+├── is installed
+└── default icon theme of GNOME
+     This package contains the default icon theme used by the GNOME desktop.
+     The icons are used in core apps like Settings, Files, and GNOME Shell.
+     .
+     Other apps are recommended to include their own icons using the GNOME
+     Design Team's Icon Development Kit.
+
+alsa-utils 1.2.13-1 [Debian/trixie main]
+├── is installed
+└── Utilities for configuring and using ALSA
+     Included tools:
+      - alsactl: advanced controls for ALSA sound drivers
+      - alsaloop: create loopbacks between PCM capture and playback devices
+      - alsamixer: curses mixer
+      - alsaucm: alsa use case manager
+      - amixer: command line mixer
+      - amidi: read from and write to ALSA RawMIDI ports
+      - aplay, arecord: command line playback and recording
+      - aplaymidi, arecordmidi: command line MIDI playback and recording
+      - aconnect, aseqnet, aseqdump: command line MIDI sequencer control
+      - iecset: set or dump IEC958 status bits
+      - speaker-test: speaker test tone generator
+     .
+     ALSA is the Advanced Linux Sound Architecture.
+
+amd64-microcode 3.20240820.1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Platform firmware and microcode for AMD CPUs and SoCs
+     This package contains microcode patches for AMD AMD64
+     processors.  AMD releases microcode patches to correct
+     processor behavior as documented in the respective processor
+     revision guides.
+     .
+     This package includes the required firmware to enable AMD
+     SEV (Secure Encrypted Virtualization) functionality.
+     .
+     This package also includes AMD TAs (Trusted Applications)
+     required by AMD platform drivers such as AMD PMF (Platform
+     Management Framework).
+     .
+     For Intel processors, please refer to the intel-microcode package.
+
+anacron 2.3-41 [Debian/trixie main]
+├── is installed
+└── cron-like program that doesn't go by time
+     Anacron (like "anac(h)ronistic") is a periodic command scheduler.  It
+     executes commands at intervals specified in days.  Unlike cron, it
+     does not assume that the system is running continuously.  It can
+     therefore be used to control the execution of daily, weekly, monthly,
+     and yearly jobs (or anything with a period of n days), on systems that
+     don't run 24 hours a day.  When installed and configured properly,
+     Anacron will make sure that the commands are run at the specified
+     intervals as closely as machine uptime permits.
+     .
+     This package is pre-configured to execute the daily jobs of the
+     Debian system.  You should install this program if your system isn't
+     powered on 24 hours a day to make sure the maintenance jobs of other
+     Debian packages are executed each day.
+
+ant 1.10.15-1 [Debian/trixie main]
+├── is installed
+└── Java based build tool like make
+     Apache Ant is a Java library and command-line tool whose mission is to drive
+     processes described in build files as targets and extension points dependent
+     upon each other. The main known usage of Ant is the build of Java applications.
+     Ant supplies a number of built-in tasks allowing to compile, assemble, test
+     and run Java applications. Ant can also be used effectively to build non Java
+     applications, for instance C or C++ applications. More generally, Ant can be
+     used to pilot any type of process which can be described in terms of targets
+     and tasks.
+     .
+     This package contains the scripts and the core tasks libraries.
+
+ant-optional 1.10.15-1 [Debian/trixie main]
+├── is installed
+└── Java based build tool like make - optional libraries
+     Apache Ant is a Java library and command-line tool whose mission is to drive
+     processes described in build files as targets and extension points dependent
+     upon each other. The main known usage of Ant is the build of Java applications.
+     Ant supplies a number of built-in tasks allowing to compile, assemble, test
+     and run Java applications. Ant can also be used effectively to build non Java
+     applications, for instance C or C++ applications. More generally, Ant can be
+     used to pilot any type of process which can be described in terms of targets
+     and tasks.
+     .
+     This package contains the optional tasks libraries.
+
+apache2-bin 2.4.63-1 [Debian/trixie main]
+├── is installed
+└── Apache HTTP Server (modules and other binary files)
+     The Apache HTTP Server Project's goal is to build a secure, efficient and
+     extensible HTTP server as standards-compliant open source software. The
+     result has long been the number one web server on the Internet.
+     .
+     This package contains the binaries only and does not set up a working
+     web-server instance. Install the "apache2" package to get a fully working
+     instance.
+
+apg 2.2.3.dfsg.1-7 [Debian/trixie main]
+├── is installed
+└── Automated Password Generator - Standalone version
+     APG (Automated Password Generator) is the tool set for random
+     password generation. It generates some random words of required type
+     and prints them to standard output. This binary package contains only
+     the standalone version of apg.
+     Advantages:
+      * Built-in ANSI X9.17 RNG (Random Number Generator)(CAST/SHA1)
+      * Built-in password quality checking system (now it has support for Bloom
+        filter for faster access)
+      * Two Password Generation Algorithms:
+         1. Pronounceable Password Generation Algorithm (according to NIST
+            FIPS 181)
+         2. Random Character Password Generation Algorithm with 35
+            configurable modes of operation
+      * Configurable password length parameters
+      * Configurable amount of generated passwords
+      * Ability to initialize RNG with user string
+      * Support for /dev/random
+      * Ability to crypt() generated passwords and print them as additional output.
+      * Special parameters to use APG in script
+      * Ability to log password generation requests for network version
+      * Ability to control APG service access using tcpd
+      * Ability to use password generation service from any type of box (Mac,
+        WinXX, etc.) that connected to network
+      * Ability to enforce remote users to use only allowed type of password
+        generation
+     The client/server version of apg has been deliberately omitted.
+     .
+     Please note that there are security flaws in pronounceable
+     password generation schemes (see Ganesan / Davis "A New Attack on
+     Random Pronounceable Password Generators", in "Proceedings of the 17th
+     National Computer Security Conference (NCSC), Oct. 11-14, 1994
+     (Volume 1)", http://csrc.nist.gov/publications/history/nissc/
+     1994-17th-NCSC-proceedings-vol-1.pdf, pages 203-216)
+     .
+     Also note that the FIPS 181 standard from 1993 has been withdrawn by NIST in
+     2015 with no superseding publication. This means that the document is
+     considered by its publicher as obsolete and not been updated to reference
+     current or revised voluntary industry standards, federal specifications, or
+     federal data standards.
+     .
+     apg has not seen upstream attention since 2003, upstream is not answering
+     e-mail, and the upstream web page (http://www.adel.nursat.kz/apg/) has been
+     gone for years.  The Debian maintainer plans to discontinue apg maintenance as
+     soon as an actually maintained software with a comparable feature set becomes
+     available.
+
+apparmor 3.1.7-2 [Debian/trixie main]
+├── is installed
+└── user-space parser utility for AppArmor
+     apparmor provides the system initialization scripts needed to use the
+     AppArmor Mandatory Access Control system, including the AppArmor Parser
+     which is required to convert AppArmor text profiles into machine-readable
+     policies that are loaded into the kernel for use with the AppArmor Linux
+     Security Module.
+
+appstream 1.0.4-1 [Debian/trixie main]
+├── is installed
+└── Software component metadata management
+     AppStream is a metadata specification which permits software components to
+     provide information about themselves to automated systems and end-users
+     before the software is actually installed.
+     The AppStream project provides facilities to easily access and transform
+     this metadata, as well as a few additional services to allow building
+     feature-rich software centers and similar applications.
+     .
+     This package provides tools to generate, maintain and query the AppStream
+     data pool of installed and available software, and enables integration
+     with the APT package manager.
+     .
+     The 'appstreamcli' tool can be used for accessing the software component
+     pool as well as for working with AppStream metadata directly, including
+     validating it for compliance with the specification.
+
+apt 2.9.28 [Debian/trixie main]
+├── is installed
+└── commandline package manager
+     This package provides commandline tools for searching and
+     managing as well as querying information about packages
+     as a low-level access to all features of the libapt-pkg library.
+     .
+     These include:
+      * apt-get for retrieval of packages and information about them
+        from authenticated sources and for installation, upgrade and
+        removal of packages together with their dependencies
+      * apt-cache for querying available information about installed
+        as well as installable packages
+      * apt-cdrom to use removable media as a source for packages
+      * apt-config as an interface to the configuration settings
+      * apt-extracttemplates is used by debconf to prompt for configuration
+        questions before installation.
+
+apt-config-icons 1.0.4-1 [Debian/trixie main]
+├── is installed
+└── APT configuration snippet to enable icon downloads
+     This package contains an APT configuration snippet that enables the
+     download of an icon tarball containing application icons for display in
+     software centers.
+     Icons get downloaded directly from the archive via regular cache updates,
+     and match the software currently available in the respective archive suites.
+     .
+     This snippet enables icons of the default icon size set in the AppStream
+     specification for software centers, 64x64px. It also enables downloads
+     of smaller 48x48px icons.
+
+apt-listchanges 4.8 [Debian/trixie main]
+├── is installed
+└── package change history notification tool
+     The tool apt-listchanges can compare a new version of a
+     package with the one currently installed and show what has been
+     changed, by extracting the relevant entries from the Debian changelog
+     and NEWS files.
+     .
+     It can be run on several .deb archives at a time to get a list of all
+     changes that would be caused by installing or upgrading a group of
+     packages. When configured as an APT plugin it will do this
+     automatically during upgrades.
+
+apt-utils 2.9.28 [Debian/trixie main]
+├── is installed
+└── package management related utility programs
+     This package contains some less used commandline utilities related
+     to package management with APT.
+     .
+      * apt-ftparchive is used to create Packages and other index files
+        needed to publish an archive of Debian packages
+      * apt-sortpkgs is a Packages/Sources file normalizer.
+
+aptitude 0.8.13-6.1 [Debian/trixie main]
+├── is installed
+└── terminal-based package manager
+     aptitude is a package manager with a number of useful features,
+     including: a mutt-like syntax for matching packages in a flexible
+     manner, dselect-like persistence of user actions, the ability to
+     retrieve and display the Debian changelog of most packages, and a
+     command-line mode similar to that of apt-get.
+     .
+     aptitude is also Y2K-compliant, non-fattening, naturally cleansing,
+     and housebroken.
+
+aptitude-common 0.8.13-6.1 [Debian/trixie main]
+├── is installed
+└── architecture independent files for the aptitude package manager
+     aptitude is a package manager with a number of useful features,
+     including: a mutt-like syntax for matching packages in a flexible
+     manner, dselect-like persistence of user actions, the ability to
+     retrieve and display the Debian changelog of most packages, and a
+     command-line mode similar to that of apt-get.
+     .
+     This package contains the data files and translations used by
+     aptitude.
+
+aspell 0.60.8.1-3 [Debian/trixie main]
+├── is installed
+└── GNU Aspell spell-checker
+     GNU Aspell is a spell-checker which can be used either as a standalone
+     application or embedded in other programs.  Its main feature is that it
+     does a much better job of suggesting possible spellings than just about
+     any other spell-checker available for the English language, including
+     Ispell and Microsoft Word.  It also has many other technical
+     enhancements over Ispell such as using shared memory for dictionaries
+     and intelligently handling personal dictionaries when more than one
+     Aspell process is open at once.
+     .
+     Aspell is designed to be a drop-in replacement for Ispell.
+
+aspell-en 2020.12.07-0-1 [Debian/trixie main]
+├── is installed
+└── English dictionary for GNU Aspell
+     This package contains all the required files to add support for English
+     language to the GNU Aspell spell checker.
+     .
+     American, British, Canadian and Australian spellings are included.
+
+at 3.2.5-2.1 [Debian/trixie main]
+├── is installed
+└── Delayed job execution and batch processing
+     At and batch read shell commands from standard input
+     storing them as a job to be scheduled for execution in the
+     future.
+     .
+     Use
+      at    to run the job at a specified time
+      batch to run the job when system load levels permit
+
+at-spi2-common 2.55.2-1 [Debian/trixie main]
+├── is installed
+└── Assistive Technology Service Provider Interface (common files)
+     This package contains the common resource files of GNOME Accessibility.
+
+at-spi2-core 2.55.2-1 [Debian/trixie main]
+├── is installed
+└── Assistive Technology Service Provider Interface (D-Bus core)
+     This package contains the core components of GNOME Accessibility.
+
+atmel-firmware 1.3-7.1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Firmware for Atmel at76c50x wireless networking chips.
+     The drivers for these chips in the Linux kernel do not include
+     the firmware; this firmware needs to be loaded by the host on most
+     cards using these chips. This package provides the firmware images
+     which should be automatically loaded as needed by the hotplug
+     system. It also provides a small loader utility which can be used to
+     accomplish the same thing when hotplug is not in use.
+
+avahi-autoipd 0.8-16 [Debian/trixie main]
+├── is installed
+└── Avahi IPv4LL network address configuration daemon
+     Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
+     It allows programs to publish and discover services and hosts
+     running on a local network with no specific configuration. For
+     example you can plug into a network and instantly find printers to
+     print to, files to look at and people to talk to.
+     .
+     This tool implements IPv4LL, "Dynamic Configuration of IPv4 Link-Local
+     Addresses" (IETF RFC3927), a protocol for automatic IP address
+     configuration from the link-local 169.254.0.0/16 range without the
+     need for a central server. It is primarily intended to be used in
+     ad-hoc networks which lack a DHCP server.
+
+avahi-daemon 0.8-16 [Debian/trixie main]
+├── is installed
+└── Avahi mDNS/DNS-SD daemon
+     Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
+     It allows programs to publish and discover services and hosts
+     running on a local network with no specific configuration. For
+     example you can plug into a network and instantly find printers to
+     print to, files to look at and people to talk to.
+     .
+     This package contains the Avahi Daemon which represents your machine
+     on the network and allows other applications to publish and resolve
+     mDNS/DNS-SD records.
+
+b43-fwcutter 1:019-13 [Debian/trixie contrib]
+├── is installed
+└── utility for extracting Broadcom 43xx firmware
+     This package provides a tool for extracting BCM43xx wireless chip
+     firmware from Broadcom's proprietary driver files.
+     .
+     It is used by the firmware-b43(legacy)-installer packages as part of
+     the automated process of downloading and installing firmware.
+
+baobab 47.0-1 [Debian/trixie main]
+├── is installed
+└── GNOME disk usage analyzer
+     Disk Usage Analyzer is a graphical, menu-driven application to analyse
+     disk usage in a GNOME environment. It can easily scan either the whole
+     filesystem tree, or a specific user-requested directory branch (local or
+     remote).
+     .
+     It also auto-detects in real-time any changes made to your home
+     directory as far as any mounted/unmounted device. Disk Usage Analyzer
+     also provides a full graphical treemap window for each selected folder.
+
+base-files 13.sparky8~2 [SparkyLinux/sisters main]
+├── is installed
+└── Debian base system miscellaneous files
+     This package contains the basic filesystem hierarchy of a Debian system, and
+     several important miscellaneous files, such as /etc/debian_version,
+     /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+     and the text of several common licenses in use on Debian systems.
+
+base-files 13.6 [Debian/trixie main]
+└── Debian base system miscellaneous files
+     This package contains the basic filesystem hierarchy of a Debian system, and
+     several important miscellaneous files, such as /etc/debian_version,
+     /etc/host.conf, /etc/issue, /etc/motd, /etc/profile, and others,
+     and the text of several common licenses in use on Debian systems.
+
+base-passwd 3.6.6 [Debian/trixie main]
+├── is installed
+└── Debian base system master password and group files
+     These are the canonical master copies of the user database files
+     (/etc/passwd and /etc/group), containing the Debian-allocated user and
+     group IDs. The update-passwd tool is provided to keep the system databases
+     synchronized with these master files.
+
+bash 5.2.37-1 [Debian/trixie main]
+├── is installed
+└── GNU Bourne Again SHell
+     Bash is an sh-compatible command language interpreter that executes
+     commands read from the standard input or from a file.  Bash also
+     incorporates useful features from the Korn and C shells (ksh and csh).
+     .
+     Bash is ultimately intended to be a conformant implementation of the
+     IEEE POSIX Shell and Tools specification (IEEE Working Group 1003.2).
+     .
+     The Programmable Completion Code, by Ian Macdonald, is now found in
+     the bash-completion package.
+
+bash-completion 1:2.16.0-7 [Debian/trixie main]
+├── is installed
+└── programmable completion for the bash shell
+     bash completion extends bash's standard completion behavior to achieve
+     complex command lines with just a few keystrokes.  This project was
+     conceived to produce programmable completion routines for the most
+     common Linux/UNIX commands, reducing the amount of typing sysadmins
+     and programmers need to do on a daily basis.
+
+bc 1.07.1-4 [Debian/trixie main]
+├── is installed
+└── GNU bc arbitrary precision calculator language
+     GNU bc is an interactive algebraic language with arbitrary precision which
+     follows the POSIX 1003.2 draft standard, with several extensions including
+     multi-character variable names, an `else' statement and full Boolean
+     expressions.  GNU bc does not require the separate GNU dc program.
+
+bind9-dnsutils 1:9.20.4-4 [Debian/trixie main]
+├── is installed
+└── Clients provided with BIND 9
+     The Berkeley Internet Name Domain (BIND 9) implements an Internet domain
+     name server.  BIND 9 is the most widely-used name server software on the
+     Internet, and is supported by the Internet Software Consortium, www.isc.org.
+     .
+     This package delivers various client programs related to DNS that are
+     derived from the BIND 9 source tree.
+     .
+      - dig - query the DNS in various ways
+      - nslookup - the older way to do it
+      - nsupdate - perform dynamic updates (See RFC2136)
+
+bind9-host 1:9.20.4-4 [Debian/trixie main]
+├── is installed
+└── DNS Lookup Utility
+     This package provides the 'host' DNS lookup utility in the form that
+     is bundled with the BIND 9 sources.
+
+bind9-libs 1:9.20.4-4 [Debian/trixie main]
+├── is installed
+└── Shared Libraries used by BIND 9
+     The Berkeley Internet Name Domain (BIND 9) implements an Internet domain
+     name server.  BIND 9 is the most widely-used name server software on the
+     Internet, and is supported by the Internet Software Consortium, www.isc.org.
+     .
+     This package contains a bundle of shared libraries used by BIND 9.
+
+binutils 2.44-1 [Debian/trixie main]
+├── is installed
+└── GNU assembler, linker and binary utilities
+     The programs in this package are used to assemble, link and manipulate
+     binary and object files.  They may be used in conjunction with a compiler
+     and various libraries to build programs.
+
+binutils-common 2.44-1 [Debian/trixie main]
+├── is installed
+└── Common files for the GNU assembler, linker and binary utilities
+     This package contains the localization files used by binutils packages for
+     various target architectures and parts of the binutils documentation. It is
+     not useful on its own.
+
+binutils-x86-64-linux-gnu 2.44-1 [Debian/trixie main]
+├── is installed
+└── GNU binary utilities, for x86-64-linux-gnu target
+     This package provides GNU assembler, linker and binary utilities
+     for the x86-64-linux-gnu target.
+     .
+     You don't need this package unless you plan to cross-compile programs
+     for x86-64-linux-gnu and x86-64-linux-gnu is not your native
+     platform.
+
+bluetooth 5.79-1 [Debian/trixie main]
+├── is installed
+└── Bluetooth support (metapackage)
+     This package provides all of the different plugins supported
+     by the Bluez bluetooth stack.
+
+bluez 5.79-1 [Debian/trixie main]
+├── is installed
+└── Bluetooth tools and daemons
+     This package contains tools and system daemons for using Bluetooth devices.
+     .
+     BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+     project distributed under GNU General Public License (GPL).
+
+bluez-firmware 1.2-11.1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Firmware for Bluetooth devices
+     This firmware is required for operation of Bluetooth dongles based on
+     the Broadcom BCM203x and Raspberry Pi chipset.
+
+bluez-obexd 5.79-1 [Debian/trixie main]
+├── is installed
+└── bluez obex daemon
+     This package contains a OBEX(OBject EXchange) daemon.
+     .
+     OBEX is communication protocol to facilitate the exchange of the binary
+     object between the devices.
+     .
+     This was the software that is independent as obexd, but this has been
+     integrated into BlueZ from BlueZ 5.0.
+     .
+     BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
+     project distributed under GNU General Public License (GPL).
+
+bogofilter 1.2.5-1+b4 [Debian/trixie main]
+├── is installed
+└── fast Bayesian spam filter (meta package)
+     This package implements a fast Bayesian spam filter along the lines suggested
+     by Paul Graham in his article "A Plan For Spam".
+     .
+     This version substantially improves on Paul's proposal by doing smarter
+     lexical analysis.  In particular, hostnames and IP addresses are retained
+     as recognition features rather than broken up. Various kinds of MTA
+     cruft such as dates and message-IDs are discarded so as not to bloat
+     the word lists.
+
+bogofilter-bdb 1.2.5-1+b4 [Debian/trixie main]
+├── is installed
+└── fast Bayesian spam filter (Berkeley DB)
+     This package implements a fast Bayesian spam filter along the lines suggested
+     by Paul Graham in his article "A Plan For Spam".
+     .
+     This version substantially improves on Paul's proposal by doing smarter
+     lexical analysis.  In particular, hostnames and IP addresses are retained
+     as recognition features rather than broken up. Various kinds of MTA
+     cruft such as dates and message-IDs are discarded so as not to bloat
+     the word lists.
+     .
+     This package provides the bdb database backend.
+
+bogofilter-common 1.2.5-1+b4 [Debian/trixie main]
+├── is installed
+└── fast Bayesian spam filter (common files)
+     This package implements a fast Bayesian spam filter along the lines suggested
+     by Paul Graham in his article "A Plan For Spam".
+     .
+     This version substantially improves on Paul's proposal by doing smarter
+     lexical analysis.  In particular, hostnames and IP addresses are retained
+     as recognition features rather than broken up. Various kinds of MTA
+     cruft such as dates and message-IDs are discarded so as not to bloat
+     the word lists.
+     .
+     This package provides files that are common for all database backends.
+
+bolt 0.9.8-1 [Debian/trixie main]
+├── is installed
+└── system daemon to manage thunderbolt 3 devices
+     Thunderbolt 3 features different security modes that require
+     devices to be authorized before they can be used. The D-Bus API can be
+     used to list devices, enroll them (authorize and store them in the
+     local database) and forget them again (remove previously enrolled
+     devices). It also emits signals if new devices are connected (or
+     removed). During enrollment devices can be set to be automatically
+     authorized as soon as they are connected.  A command line tool, called
+     boltctl, can be used to control the daemon and perform all the above
+     mentioned tasks.
+
+bsd-mailx 8.1.2-0.20220412cvs-1 [Debian/trixie main]
+├── is installed
+└── simple mail user agent
+     bsd-mailx is the traditional simple command-line-mode mail user agent.
+     Even if you don't use it, it may be required by other programs.
+     .
+     The /usr/bin/mail command provided by this package is a very simple one,
+     and does not include many features that can be found in more advanced
+     mail user agents.
+     .
+     For example bsd-mailx DOES NOT support:
+      - MIME           (i.e. no attachments, no UTF-8 or other charsets support);
+      - SMTP protocol  (/usr/sbin/sendmail interface only is used);
+      - POP3/IMAP      (bsd-mailx reads local mailboxes only);
+      - maildir format (traditional mbox only format is supported).
+     .
+     If the above features are needed, please consider installing another package
+     providing similar /usr/bin/mail interface:
+      - s-nail package,
+      - or mailutils package.
+
+bsdextrautils 2.40.4-3 [Debian/trixie main]
+├── is installed
+└── extra utilities from 4.4BSD-Lite
+     This package contains some extra BSD utilities: col, colcrt, colrm, column,
+     hd, hexdump, look, ul.
+     Other BSD utilities are provided by bsdutils and calendar.
+
+bsdmainutils 12.1.8 [Debian/trixie main]
+├── is installed
+└── Transitional package for more utilities from FreeBSD
+     This is a transitional package, it can be safely removed.
+
+bsdutils 1:2.40.4-3 [Debian/trixie main]
+├── is installed
+└── basic utilities from 4.4BSD-Lite
+     This package contains the bare minimum of BSD utilities needed for a Debian
+     system: logger, renice, script, scriptlive, scriptreplay and wall. The
+     remaining standard BSD utilities are provided by bsdextrautils.
+
+btrfs-progs 6.12-1+b1 [Debian/trixie main]
+├── is installed
+└── Checksumming Copy on Write Filesystem utilities
+     Btrfs is a copy on write filesystem for Linux aimed at implementing
+     advanced features while focusing on fault tolerance, repair and easy
+     administration.
+     .
+     This package contains utilities (mkfs, fsck) used to work with btrfs
+     and an utility (btrfs-convert) to make a btrfs filesystem from an ext3.
+
+bubblewrap 0.11.0-2 [Debian/trixie main]
+├── is installed
+└── utility for unprivileged chroot and namespace manipulation
+     bubblewrap uses Linux namespaces to launch unprivileged containers.
+     These containers can be used to sandbox semi-trusted applications such
+     as Flatpak apps, image/video thumbnailers and web browser components,
+     or to run programs in a different library stack such as a Flatpak runtime
+     or a different Debian release.
+     .
+     By default, this package relies on a kernel with user namespaces enabled.
+     Official Debian and Ubuntu kernels are suitable.
+     .
+     On kernels without user namespaces, system administrators can make the
+     bwrap executable setuid root, allowing it to create unprivileged
+     containers even though ordinary user processes cannot.
+
+build-essential 12.12 [Debian/trixie main]
+├── is installed
+└── Informational list of build-essential packages
+     If you do not plan to build Debian packages, you don't need this
+     package.  Starting with dpkg (>= 1.14.18) this package is required
+     for building Debian packages.
+     .
+     This package contains an informational list of packages which are
+     considered essential for building Debian packages.  This package also
+     depends on the packages on that list, to make it easy to have the
+     build-essential packages installed.
+     .
+     If you have this package installed, you only need to install whatever
+     a package specifies as its build-time dependencies to build the
+     package.  Conversely, if you are determining what your package needs
+     to build-depend on, you can always leave out the packages this
+     package depends on.
+     .
+     This package is NOT the definition of what packages are
+     build-essential; the real definition is in the Debian Policy Manual.
+     This package contains merely an informational list, which is all
+     most people need.   However, if this package and the manual disagree,
+     the manual is correct.
+
+busybox 1:1.37.0-4 [Debian/trixie main]
+├── is installed
+└── Tiny utilities for small and embedded systems
+     BusyBox combines tiny versions of many common UNIX utilities into a single
+     small executable. It provides minimalist replacements for the most common
+     utilities you would usually find on your desktop system (i.e., ls, cp, mv,
+     mount, tar, etc.). The utilities in BusyBox generally have fewer options than
+     their full-featured GNU cousins; however, the options that are included
+     provide the expected functionality and behave very much like their GNU
+     counterparts.
+     .
+     This package installs the BusyBox binary but does not install
+     symlinks for any of the supported utilities. Some of the utilities
+     can be used in the system by installing the busybox-syslogd,
+     udhcpc or udhcpd packages.
+
+bzip2 1.0.8-6 [Debian/trixie main]
+├── is installed
+└── high-quality block-sorting file compressor - utilities
+     bzip2 is a freely available, patent free, data compressor.
+     .
+     bzip2 compresses files using the Burrows-Wheeler block-sorting text
+     compression algorithm, and Huffman coding.  Compression is generally
+     considerably better than that achieved by more conventional
+     LZ77/LZ78-based compressors, and approaches the performance of the PPM
+     family of statistical compressors.
+     .
+     The archive file format of bzip2 (.bz2) is incompatible with that of its
+     predecessor, bzip (.bz).
+
+ca-certificates 20241223 [Debian/trixie main]
+├── is installed
+└── Common CA certificates
+     Contains the certificate authorities shipped with Mozilla's browser to allow
+     SSL-based applications to check for the authenticity of SSL connections.
+     .
+     Please note that Debian can neither confirm nor deny whether the
+     certificate authorities whose certificates are included in this package
+     have in any way been audited for trustworthiness or RFC 3647 compliance.
+     Full responsibility to assess them belongs to the local system
+     administrator.
+
+ca-certificates-java 20240118 [Debian/trixie main]
+├── is installed
+└── Common CA certificates (JKS keystore)
+     This package uses the hooks of the ca-certificates package to update the
+     cacerts JKS keystore used for many java runtimes.
+
+calendar 12.1.8 [Debian/trixie main]
+├── is installed
+└── display upcoming dates and provide reminders
+     This package contains the "calendar" program commonly found on BSD-style
+     systems, which displays upcoming relevant dates on a wide variety of
+     calendars.
+
+code 1.97.2-1739406807 [SparkyLinux/sisters main]
+├── is installed
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.97.1-1739197498 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.97.0-1738713410 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.96.4-1736991114 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.96.3-1736454372 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.96.2-1734607745 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.96.1-1734461655 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.96.0-1733888194 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.95.3-1731513102 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.95.2-1730981514 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.95.1-1730355339 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.95.0-1730153583 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.94.2-1728494015 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.94.1-1728111316 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.94.0-1727878498 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.93.1-1726079302 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.93.0-1725459079 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.92.2-1723660989 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.92.1-1723066302 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.92.0-1722473020 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.91.1-1720564633 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.91.0-1719861592 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.90.2-1718751586 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.90.1-1718141439 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.90.0-1717531825 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.89.1-1715060508 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.89.0-1714530869 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.88.1-1712771838 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.88.0-1712152114 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.87.2-1709912201 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.87.1-1709685762 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.87.0-1709078641 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.86.2-1707854558 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.86.1-1707298119 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.86.0-1706698139 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.85.2-1705561292 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.85.1-1702462158 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.85.0-1701902998 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.84.2-1699528352 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.84.1-1699275408 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.84.0-1698839401 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.83.1-1696982868 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.83.0-1696350811 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.82.3-1696245001 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.82.2-1694671812 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.82.1-1694163687 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.82.0-1694039253 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.81.1-1691620686 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.81.0-1690980880 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.80.2-1690491597 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.80.1-1689183569 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.80.0-1688479026 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.79.2-1686734195 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.79.1-1686587647 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.79.0-1686149120 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.78.2-1683731010 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.78.1-1683194560 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.78.0-1683145611 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.77.3-1681292746 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.77.2-1680777128 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.77.1-1680651665 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.77.0-1680085573 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.76.2-1678817801 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.76.1-1678294265 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.76.0-1677667493 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.75.1-1675893397 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.75.0-1675266613 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.74.3-1673284829 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.74.2-1671533413 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.74.1-1671015296 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.74.0-1670260027 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.73.1-1667967334 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.73.0-1667318785 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.72.2-1665614327 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.72.1-1665423861 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.72.0-1664926972 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.71.2-1663191218 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.71.1-1662667267 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.71.0-1662018389 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.70.2-1660629410 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.70.1-1660113095 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.70.0-1659589288 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.69.2-1658162013 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.69.1-1657615746 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.69.0-1657183742 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.68.1-1655263094 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.68.0-1654690107 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.67.2-1652812855 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.67.1-1651841865 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.67.0-1651667246 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.66.2-1649664567 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.66.1-1649257842 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.66.0-1648620611 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.65.2-1646927742 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.65.1-1646706496 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.65.0-1646220682 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.64.2-1644445741 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.64.1-1644255817 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.64.0-1643863948 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.63.2-1639562499 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.63.1-1639448820 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.63.0-1638855526 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.62.3-1637137107 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.62.2-1636665017 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.62.1-1636111026 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.62.0-1635954068 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.61.2-1634656828 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.61.1-1634175470 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.61.0-1633631387 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.60.2-1632313585 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.60.1-1631294805 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.60.0-1630494279 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.59.1-1629375198 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.59.0-1628120042 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.58.2-1626302803 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.58.1-1626158276 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.58.0-1625728071 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.57.1-1623937013 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.57.0-1623259737 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.56.2-1620838498 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.56.1-1620296372 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.56.0-1620166262 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.55.2-1618307277 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.55.1-1617808414 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.55.0-1617120720 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.54.3-1615806378 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.54.2-1615424848 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.54.1-1614898113 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.54.0-1614738538 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.53.2-1613044664 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.53.1-1612827767 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.53.0-1612368357 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.52.1-1608136922 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.52.0-1607640828 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+code 1.51.1-1605051630 [code stable/stable main]
+└── Code editing. Redefined.
+     Visual Studio Code is a new choice of tool that combines the simplicity of
+     a code editor with what developers need for the core edit-build-debug cycle.
+     See https://code.visualstudio.com/docs/setup/linux for installation
+     instructions and FAQ.
+
+coinor-libcbc3.1 2.10.12+ds-1 [Debian/trixie main]
+├── is installed
+└── Coin-or branch-and-cut mixed integer programming solver (shared libraries)
+     Cbc (Coin-or branch and cut) is an open-source mixed integer programming
+     solver written in C++. It can be used as a callable library or as a
+     stand-alone executable.
+     .
+     This package contains the shared libraries.
+
+coinor-libcgl1 0.60.9+ds-1 [Debian/trixie main]
+├── is installed
+└── COIN-OR Cut Generation Library
+     The Cut Generation Library (Cgl) is an open collection of cutting plane
+     implementations ("cut generators") for use in teaching, research, and
+     applications.
+     .
+     Cgl is part of the larger COIN-OR initiative (Computational Infrastructure
+     for Operations Research) and can be used with other COIN-OR packages that
+     make use of cuts, such as the mixed-integer linear programming solver Cbc.
+     .
+     This package contains the binaries and libraries.
+
+coinor-libclp1 1.17.10+ds-1 [Debian/trixie main]
+├── is installed
+└── Coin-or linear programming solver (shared libraries)
+     Clp (Coin-or linear programming) is an open-source linear programming solver
+     written in C++. It is primarily meant to be used as a callable library, but a
+     basic, stand-alone executable version is also available. It is designed to
+     find solutions of constrained linear mathematical optimization problems.
+     .
+     This package contains the Clp callable libraries, including the
+     OSI Clp interface.
+
+coinor-libcoinmp0 1.8.4+dfsg-2 [Debian/trixie main]
+├── is installed
+└── Simple C API for COIN-OR Solvers Clp and Cbc -- library
+     The Coin-MP optimizer is an open source solver, it is part of the COIN-OR
+     project which is an initiative to spur the development of open-source software
+     for the operations research community.
+     .
+     CoinMP is a C-API library that supports most of the functionality of CLP
+     (Coin LP), CBC (Coin Branch-and-Cut), and CGL (Cut Generation Library)
+     projects.
+
+coinor-libcoinutils3v5 2.11.11+ds-3 [Debian/trixie main]
+├── is installed
+└── COIN-OR collection of utility classes (shared libraries)
+     CoinUtils (COIN-OR Utilities) is a collection of classes and functions
+     that are generally useful to more than one COIN-OR project.  These include
+     classes for vectors, matrices, mps file reading, and functions for
+     floating-point comparisons.
+     .
+     The Computational Infrastructure for Operations Research (COIN-OR, or simply
+     COIN) project is an initiative to spur the development of open source software
+     for the operations research community.
+     .
+     This package contains the shared libraries.
+
+coinor-libosi1v5 0.108.10+ds-1+b1 [Debian/trixie main]
+├── is installed
+└── COIN-OR Open Solver Interface
+     Osi (Open Solver Interface) provides an abstract C++ base class to a generic
+     linear programming (LP) solver, along with derived classes for specific
+     solvers. Many applications may be able to use the Osi to insulate themselves
+     from a specific LP solver.
+     .
+     Osi is part of the larger COIN-OR initiative (Computational Infrastructure
+     for Operations Research).
+     .
+     This package contains the abstract Osi base library; implementations for
+     different solvers are provided separately. The OsiClp interface is provided
+     by the clp source package.
+
+colord 1.4.7-1+b2 [Debian/trixie main]
+├── is installed
+└── system service to manage device colour profiles -- system daemon
+     colord is a system service that makes it easy to manage, install and generate
+     colour profiles to accurately colour manage input and output devices.
+     .
+     It provides a D-Bus API for system frameworks to query, a persistent data
+     store, and a mechanism for session applications to set system policy.
+     .
+     This package contains the dbus-activated colord system daemon.
+
+colord-data 1.4.7-1 [Debian/trixie main]
+├── is installed
+└── system service to manage device colour profiles -- data files
+     colord is a system service that makes it easy to manage, install and generate
+     colour profiles to accurately colour manage input and output devices.
+     .
+     It provides a D-Bus API for system frameworks to query, a persistent data
+     store, and a mechanism for session applications to set system policy.
+     .
+     This package contains data for the colord system daemon.
+
+console-data 2:1.12-9 [Debian/trixie main]
+├── is installed
+└── keymaps, fonts, charset maps, fallback tables for 'kbd'.
+     This package provides the standard data files for the Linux console tools.
+     .
+     This includes keyboard definitions (keymaps), console fonts for various
+     encodings, maps defining the standard charsets for use by text applications,
+     and fallback tables allowing to approximate an unavailable character's glyph
+     with the glyph of another character in the current font.
+
+console-setup 1.234 [Debian/trixie main]
+├── is installed
+└── console font and keymap setup program
+     This package provides the console with the same keyboard
+     configuration scheme as the X Window System. As a result, there is no
+     need to duplicate or change the keyboard files just to make simple
+     customizations such as the use of dead keys, the key functioning as
+     AltGr or Compose key, the key(s) to switch between Latin and
+     non-Latin mode, etc.
+     .
+     The package also installs console fonts supporting many of the
+     world's languages.  It provides an unified set of font faces - the
+     classic VGA, the simplistic Fixed, and the cleaned Terminus,
+     TerminusBold and TerminusBoldVGA.
+
+console-setup-linux 1.234 [Debian/trixie main]
+├── is installed
+└── Linux specific part of console-setup
+     This package includes fonts in psf format and definitions of various
+     8-bit charmaps.
+
+coreutils 9.5-1+b1 [Debian/trixie main]
+├── is installed
+└── GNU core utilities
+     This package contains the basic file, shell and text manipulation
+     utilities which are expected to exist on every operating system.
+     .
+     Specifically, this package includes:
+     arch base64 basename cat chcon chgrp chmod chown chroot cksum comm cp
+     csplit cut date dd df dir dircolors dirname du echo env expand expr
+     factor false flock fmt fold groups head hostid id install join link ln
+     logname ls md5sum mkdir mkfifo mknod mktemp mv nice nl nohup nproc numfmt
+     od paste pathchk pinky pr printenv printf ptx pwd readlink realpath rm
+     rmdir runcon sha*sum seq shred sleep sort split stat stty sum sync tac
+     tail tee test timeout touch tr true truncate tsort tty uname unexpand
+     uniq unlink users vdir wc who whoami yes
+
+cpio 2.15+dfsg-2 [Debian/trixie main]
+├── is installed
+└── GNU cpio -- a program to manage archives of files
+     GNU cpio is a tool for creating and extracting archives, or copying
+     files from one place to another.  It handles a number of cpio formats
+     as well as reading and writing tar files.
+
+cpp 4:14.2.0-1 [Debian/trixie main]
+├── is installed
+└── GNU C preprocessor (cpp)
+     The GNU C preprocessor is a macro processor that is used automatically
+     by the GNU C compiler to transform programs before actual compilation.
+     .
+     This package has been separated from gcc for the benefit of those who
+     require the preprocessor but not the compiler.
+     .
+     This is a dependency package providing the default GNU C preprocessor.
+
+cpp-14 14.2.0-16 [Debian/trixie main]
+├── is installed
+└── GNU C preprocessor
+     A macro processor that is used automatically by the GNU C compiler
+     to transform programs before actual compilation.
+     .
+     This package has been separated from gcc for the benefit of those who
+     require the preprocessor but not the compiler.
+
+cpp-14-x86-64-linux-gnu 14.2.0-16 [Debian/trixie main]
+├── is installed
+└── GNU C preprocessor for x86_64-linux-gnu
+     A macro processor that is used automatically by the GNU C compiler
+     to transform programs before actual compilation.
+     .
+     This package has been separated from gcc for the benefit of those who
+     require the preprocessor configured for x86_64-linux-gnu architecture but not
+     the compiler.
+
+cpp-x86-64-linux-gnu 4:14.2.0-1 [Debian/trixie main]
+├── is installed
+└── GNU C preprocessor (cpp) for the amd64 architecture
+     The GNU C preprocessor is a macro processor that is used automatically
+     by the GNU C compiler to transform programs before actual compilation.
+     .
+     This package has been separated from gcc for the benefit of those who
+     require the preprocessor but not the cross-compiler for amd64 architecture.
+     .
+     This is a dependency package providing the default GNU C preprocessor
+     for the amd64 architecture.
+
+cracklib-runtime 2.9.6-5.2 [Debian/trixie main]
+├── is installed
+└── runtime support for password checker library cracklib2
+     Run-time support programs which use the shared library in libcrack2
+     including programs to build the password dictionary databases used by
+     the functions in the shared library.
+
+cron 3.0pl1-192 [Debian/trixie main]
+├── is installed
+└── process scheduling daemon
+     The cron daemon is a background process that runs particular programs at
+     particular times (for example, every minute, day, week, or month), as
+     specified in a crontab. By default, users may also create crontabs of
+     their own so that processes are run on their behalf.
+     .
+     Output from the commands is usually mailed to the system administrator
+     (or to the user in question); you should probably install a mail system
+     as well so that you can receive these messages.
+     .
+     This cron package does not provide any system maintenance tasks. Basic
+     periodic maintenance tasks are provided by other packages, such
+     as checksecurity.
+
+cron-daemon-common 3.0pl1-192 [Debian/trixie main]
+├── is installed
+└── process scheduling daemon's configuration files
+     The cron daemon is a background process that runs particular programs at
+     particular times (for example, every minute, day, week, or month), as
+     specified in a crontab. By default, users may also create crontabs of
+     their own so that processes are run on their behalf.
+     .
+     This package provides configuration files which must be there to
+     define scheduled process sets.
+
+cryptsetup 2:2.7.5-1 [Debian/trixie main]
+├── is installed
+└── disk encryption support - startup scripts
+     Cryptsetup provides an interface for configuring encryption on block
+     devices (such as /home or swap partitions), using the Linux kernel
+     device mapper target dm-crypt. It features integrated Linux Unified Key
+     Setup (LUKS) support.
+     .
+     Cryptsetup is backwards compatible with the on-disk format of cryptoloop,
+     but also supports more secure formats. This package includes support for
+     automatically configuring encrypted devices at boot time via the config
+     file /etc/crypttab. Additional features are cryptoroot support through
+     initramfs-tools and several supported ways to read a passphrase or key.
+     .
+     This package provides the cryptdisks_start and _stop wrappers, as well as
+     luksformat.
+
+cryptsetup-bin 2:2.7.5-1 [Debian/trixie main]
+├── is installed
+└── disk encryption support - command line tools
+     Cryptsetup provides an interface for configuring encryption on block
+     devices (such as /home or swap partitions), using the Linux kernel
+     device mapper target dm-crypt. It features integrated Linux Unified Key
+     Setup (LUKS) support.
+     .
+     This package provides the cryptsetup, integritysetup and veritysetup
+     utilities.
+
+cryptsetup-initramfs 2:2.7.5-1 [Debian/trixie main]
+├── is installed
+└── disk encryption support - initramfs integration
+     Cryptsetup provides an interface for configuring encryption on block
+     devices (such as /home or swap partitions), using the Linux kernel
+     device mapper target dm-crypt. It features integrated Linux Unified Key
+     Setup (LUKS) support.
+     .
+     This package provides initramfs integration for cryptsetup.
+
+cryptsetup-run 2:2.6.1-4 [local]
+├── is installed
+└── transitional dummy package for cryptsetup
+     This is a transitional dummy package to get upgrading systems to install the
+     cryptsetup package. It can safely be removed once no other package depends on
+     it.
+
+cups 2.4.10-2+b1 [Debian/trixie main]
+├── is installed
+└── Common UNIX Printing System(tm) - PPD/driver support, web interface
+     The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+     general replacement for lpd and the like.  It supports the Internet
+     Printing Protocol (IPP), and has its own filtering driver model for
+     handling various document types.
+     .
+     This package provides the parts of CUPS which are needed for using printer
+     drivers.
+
+cups-browsed 1.28.17-5+b2 [Debian/trixie main]
+├── is installed
+└── OpenPrinting CUPS Filters - cups-browsed
+     This package provides cups-browsed, a daemon which browses the Bonjour
+     broadcasts of shared remote CUPS printers and makes the printers
+     available locally, replacing the CUPS broadcasting/browsing which was
+     dropped in CUPS 1.6.x. This way the old behavior of having the remote
+     printers available automatically is now re-implemented with Bonjour.
+     .
+     cups-browsed is also useful with a CUPS >= 1.6 client to allow the
+     latter to browse the printer list of CUPS < 1.6 servers (by using the
+     old 'cups' protocol in BrowseRemoteProtocols).
+     .
+     cups-browsed is also useful with a CUPS >= 1.6 server to allow CUPS <
+     1.6 clients to browse its printer list (by using the old 'cups'
+     protocol in BrowseLocalProtocols).
+
+cups-client 2.4.10-2+b1 [Debian/trixie main]
+├── is installed
+└── Common UNIX Printing System(tm) - client programs (SysV)
+     The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+     general replacement for lpd and the like.  It supports the Internet
+     Printing Protocol (IPP), and has its own filtering driver model for
+     handling various document types.
+     .
+     This package provides the System V style print client programs.
+
+cups-common 2.4.10-2 [Debian/trixie main]
+├── is installed
+└── Common UNIX Printing System(tm) - common files
+     The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+     general replacement for lpd and the like.  It supports the Internet
+     Printing Protocol (IPP), and has its own filtering driver model for
+     handling various document types.
+     .
+     This package provides common files for CUPS server and client packages.
+
+cups-core-drivers 2.4.10-2+b1 [Debian/trixie main]
+├── is installed
+└── Common UNIX Printing System(tm) - driverless printing
+     The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+     general replacement for lpd and the like.  It supports the Internet
+     Printing Protocol (IPP), and has its own filtering driver model for
+     handling various document types.
+     .
+     This package provides the parts of CUPS which are needed for driverless
+     printing on IPP printers with common data formats.
+
+cups-daemon 2.4.10-2+b1 [Debian/trixie main]
+├── is installed
+└── Common UNIX Printing System(tm) - daemon
+     The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+     general replacement for lpd and the like.  It supports the Internet
+     Printing Protocol (IPP), and has its own filtering driver model for
+     handling various document types.
+     .
+     This package provides the CUPS scheduler/daemon.
+
+cups-filters 1.28.17-5+b2 [Debian/trixie main]
+├── is installed
+└── OpenPrinting CUPS Filters - Main Package
+     This package provides additional CUPS filters which are not provided
+     by the CUPS project itself. This includes filters for a PDF based
+     printing workflow.
+     .
+     This package contains the filters for printing with drivers/PPDs and
+     for converting non-PDF input files to PDF.
+
+cups-filters-core-drivers 1.28.17-5+b2 [Debian/trixie main]
+├── is installed
+└── OpenPrinting CUPS Filters - Driverless printing
+     This package provides additional CUPS filters which are not provided
+     by the CUPS project itself. This includes filters for a PDF based
+     printing workflow.
+     .
+     This package contains only the filters needed for driverless printing of
+     PDF input files on IPP printers with known, common languages (PDF,
+     PostScript, PWG Raster, Apple Raster, PCL).
+
+cups-ipp-utils 2.4.10-2+b1 [Debian/trixie main]
+├── is installed
+└── Common UNIX Printing System(tm) - IPP developer/admin utilities
+     The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+     general replacement for lpd and the like.  It supports the Internet
+     Printing Protocol (IPP), and has its own filtering driver model for
+     handling various document types.
+     .
+     This package provides IPP utilities for developers and system administrators
+
+cups-pk-helper 0.2.6-2.1 [Debian/trixie main]
+├── is installed
+└── PolicyKit helper to configure cups with fine-grained privileges
+     This package provides a PolicyKit helper to configure cups with
+     fine-grained privileges. For example, it's possible to let users
+     enable/disable printers without requiring a password, while still
+     requiring a password for editing printer settings.
+
+cups-ppdc 2.4.10-2+b1 [Debian/trixie main]
+├── is installed
+└── Common UNIX Printing System(tm) - PPD manipulation utilities
+     The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+     general replacement for lpd and the like.  It supports the Internet
+     Printing Protocol (IPP), and has its own filtering driver model for
+     handling various document types.
+     .
+     This package provides utilities to generate and manipulate PPD files.
+
+cups-server-common 2.4.10-2 [Debian/trixie main]
+├── is installed
+└── Common UNIX Printing System(tm) - server common files
+     The Common UNIX Printing System (or CUPS(tm)) is a printing system and
+     general replacement for lpd and the like.  It supports the Internet
+     Printing Protocol (IPP), and has its own filtering driver model for
+     handling various document types.
+     .
+     This package provides common files for CUPS server.
+
+curl 8.12.0+git20250209.89ed161+ds-1 [Debian/trixie main]
+├── is installed
+└── command line tool for transferring data with URL syntax
+     curl is a command line tool for transferring data with URL syntax, supporting
+     DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3,
+     POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.
+     .
+     curl supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading, HTTP form
+     based upload, proxies, cookies, user+password authentication (Basic, Digest,
+     NTLM, Negotiate, kerberos...), file transfer resume, proxy tunneling and a
+     busload of other useful tricks.
+
+dash 0.5.12-12 [Debian/trixie main]
+├── is installed
+└── POSIX-compliant shell
+     The Debian Almquist Shell (dash) is a POSIX-compliant shell derived
+     from ash.
+     .
+     Since it executes scripts faster than bash, and has fewer library
+     dependencies (making it more robust against software or hardware
+     failures), it is used as the default system shell on Debian systems.
+
+db5.1-util 5.1.29-9 [local]
+├── is installed
+└── Berkeley v5.1 Database Utilities
+     This package provides different tools for manipulating databases
+     in the Berkeley v5.1 database format, and includes:
+      - db5.1_archive: write the pathnames of the log files no longer in use.
+      - db5.1_checkpoint: daemon process to monitor the database log and
+        checkpoint it periodically.
+      - db5.1_deadlock: traverse the database environment lock region and
+        abort lock requests when a deadlock is detected.
+      - db5.1_load: loads (and creates) a database from standard input.
+      - db5.1_dump: read a database file and write it in a format understood
+        by db4.{2..8}_load.
+      - db5.1_printlog: dump log files in human readable format.
+      - db5.1_stat: display statistics for Berkeley DB environments.
+      - db5.1_upgrade: upgrades the version of files and the databases they
+        contain.
+      - db5.1_verify: check the structure of files and their databases.
+
+dbus 1.16.0-1 [Debian/trixie main]
+├── is installed
+└── simple interprocess messaging system (system message bus)
+     D-Bus is a message bus, used for sending messages between applications.
+     Conceptually, it fits somewhere in between raw sockets and CORBA in
+     terms of complexity.
+     .
+     D-Bus supports broadcast messages, asynchronous messages (thus
+     decreasing latency), authentication, and more. It is designed to be
+     low-overhead; messages are sent using a binary protocol, not using
+     XML. D-Bus also supports a method call mapping for its messages, but
+     it is not required; this makes using the system quite simple.
+     .
+     It comes with several bindings, including GLib, Python, Qt and Java.
+     .
+     This package provides a fully-functional D-Bus system bus with activation
+     support, used for communication between system services, and depends on
+     most of the other components of the reference implementation of D-Bus.
+     .
+     To provide a complete D-Bus session bus, install one of the packages
+     that implement the dbus-session-bus virtual package, such as
+     dbus-user-session. The recommended implementation is indicated by
+     the default-dbus-session-bus virtual package.
+
+dbus-bin 1.16.0-1 [Debian/trixie main]
+├── is installed
+└── simple interprocess messaging system (command line utilities)
+     D-Bus is a message bus, used for sending messages between applications.
+     Conceptually, it fits somewhere in between raw sockets and CORBA in
+     terms of complexity.
+     .
+     This package contains the D-Bus command-line utilities such as dbus-send
+     and dbus-monitor.
+
+dbus-daemon 1.16.0-1 [Debian/trixie main]
+├── is installed
+└── simple interprocess messaging system (reference message bus)
+     D-Bus is a message bus, used for sending messages between applications.
+     Conceptually, it fits somewhere in between raw sockets and CORBA in
+     terms of complexity.
+     .
+     This package contains dbus-daemon, the reference implementation of a
+     D-Bus message bus, and dbus-run-session, a utility to start a temporary
+     session dbus-daemon in a constrained environment or for automated tests.
+     .
+     To provide a complete D-Bus session bus, install one of the packages
+     that implement the dbus-session-bus virtual package, such as
+     dbus-user-session. The recommended implementation is indicated by
+     the default-dbus-session-bus virtual package.
+
+dbus-session-bus-common 1.16.0-1 [Debian/trixie main]
+├── is installed
+└── simple interprocess messaging system (session bus configuration)
+     D-Bus is a message bus, used for sending messages between applications.
+     Conceptually, it fits somewhere in between raw sockets and CORBA in
+     terms of complexity.
+     .
+     This package contains the configuration files defining the behaviour of
+     the D-Bus session bus, used for applications and per-user services.
+     These are used by the reference implementation in the dbus package,
+     and by the reimplementation in the dbus-broker package.
+     .
+     To provide a complete D-Bus session bus, install one of the packages
+     that implement the dbus-session-bus virtual package, such as
+     dbus-user-session. The recommended implementation is indicated by
+     the default-dbus-session-bus virtual package.
+
+dbus-system-bus-common 1.16.0-1 [Debian/trixie main]
+├── is installed
+└── simple interprocess messaging system (system bus configuration)
+     D-Bus is a message bus, used for sending messages between applications.
+     Conceptually, it fits somewhere in between raw sockets and CORBA in
+     terms of complexity.
+     .
+     This package contains the configuration files defining the behaviour of
+     the D-Bus system bus, used for system services such as networking and
+     storage management services. It is also responsible for creating the
+     'messagebus' system user account used to run the system bus.
+     These are used by the reference implementation in the dbus package,
+     and by the reimplementation in the dbus-broker package.
+     .
+     To provide a complete D-Bus system bus, install one of the packages
+     that implement the dbus-system-bus virtual package, such as dbus.
+     The recommended implementation is indicated by the default-dbus-system-bus
+     virtual package.
+
+dbus-user-session 1.16.0-1 [Debian/trixie main]
+├── is installed
+└── simple interprocess messaging system (systemd --user integration)
+     D-Bus is a message bus, used for sending messages between applications.
+     Conceptually, it fits somewhere in between raw sockets and CORBA in
+     terms of complexity.
+     .
+     On systemd systems, this package opts in to the session model in which
+     a user's session starts the first time they log in, and does not end
+     until all their login sessions have ended. This model merges all
+     parallel non-graphical login sessions (text mode, ssh, cron, etc.), and up
+     to one graphical session, into a single "user-session" or "super-session"
+     within which all background D-Bus services are shared.
+     .
+     Multiple graphical sessions per user are not currently supported in this
+     mode; as a result, it is particularly suitable for gdm, which responds to
+     requests to open a parallel graphical session by switching to the existing
+     graphical session and unlocking it.
+     .
+     To retain dbus' traditional session semantics, in which login sessions
+     are artificially isolated from each other, remove this package and install
+     dbus-x11 instead.
+     .
+     See the dbus package description for more information about D-Bus in general.
+
+dbus-x11 1.16.0-1 [Debian/trixie main]
+├── is installed
+└── simple interprocess messaging system (X11 deps)
+     D-Bus is a message bus, used for sending messages between applications.
+     Conceptually, it fits somewhere in between raw sockets and CORBA in
+     terms of complexity.
+     .
+     This package contains the dbus-launch utility, which automatically
+     launches one D-Bus session bus per X11 display per user. If the
+     dbus-user-session package is also installed, it takes precedence over
+     this package.
+     .
+     See the dbus description for more information about D-Bus in general.
+
+dc 1.07.1-4 [Debian/trixie main]
+├── is installed
+└── GNU dc arbitrary precision reverse-polish calculator
+     GNU dc is a reverse-polish desk calculator which supports unlimited
+     precision arithmetic.  It also allows you to define and call macros.
+     .
+     A reverse-polish calculator stores numbers on a stack. Entering a number
+     pushes it on the stack.  Arithmetic operations pop arguments off the
+     stack and push the results.
+
+dconf-cli 0.40.0-5 [Debian/trixie main]
+├── is installed
+└── simple configuration storage system - utilities
+     DConf is a low-level key/value database designed for storing desktop
+     environment settings.
+     .
+     This package contains the command line tools. Note that DConf is not
+     connected with the older Debian package named dconf.
+
+dconf-editor 45.0.1-2 [Debian/trixie main]
+├── is installed
+└── simple configuration storage system - graphical editor
+     DConf is a low-level key/value database designed for storing desktop
+     environment settings.
+     .
+     This package contains a graphical editor for settings stored in dconf.
+
+dconf-gsettings-backend 0.40.0-5 [Debian/trixie main]
+├── is installed
+└── simple configuration storage system - GSettings back-end
+     DConf is a low-level key/value database designed for storing desktop
+     environment settings.
+     .
+     This package contains a back-end for GSettings. It is needed by
+     applications accessing settings through GSettings to set custom values
+     and listen for changes.
+
+dconf-service 0.40.0-5 [Debian/trixie main]
+├── is installed
+└── simple configuration storage system - D-Bus service
+     DConf is a low-level key/value database designed for storing desktop
+     environment settings.
+     .
+     This package contains the DConf service, which applications talk to
+     using D-Bus in order to obtain their settings. It is mostly used by the
+     GSettings backend.
+
+deb-multimedia-keyring 2024.9.1 [Unofficial Multimedia Packages/trixie main]
+├── is installed
+└── GnuPG archive key of the deb-multimedia repository
+     The deb-multimedia repository digitally signs its Release files. This
+     package contains the repository key used for that.
+
+debconf 1.5.89 [Debian/trixie main]
+├── is installed
+└── Debian configuration management system
+     Debconf is a configuration management system for debian packages. Packages
+     use Debconf to ask questions when they are installed.
+
+debconf-i18n 1.5.89 [Debian/trixie main]
+├── is installed
+└── full internationalization support for debconf
+     This package provides full internationalization for debconf, including
+     translations into all available languages, support for using translated
+     debconf templates, and support for proper display of multibyte character
+     sets.
+
+debian-archive-keyring 2023.4 [Debian/trixie main]
+├── is installed
+└── GnuPG archive keys of the Debian archive
+     The Debian project digitally signs its Release files. This package
+     contains the archive keys used for that.
+
+debian-faq 12.2 [Debian/trixie main]
+├── is installed
+└── Debian Frequently Asked Questions
+     In this package you will find the Debian GNU/Linux FAQ, which gives
+     frequently asked questions (with their answers!) about the Debian distribution
+     (Debian GNU/Linux and others) and about the Debian project.
+     Some answers assume some knowledge of Unix-like operating systems.
+     However, as little prior knowledge as possible is assumed: answers to general
+     beginners questions will be kept simple.
+     .
+     This document is available at https://www.debian.org/doc/manuals/debian-faq/
+     as well as from the Debian file server at https://deb.debian.org/debian/doc/FAQ
+     and mirrors thereof.
+     .
+     The document is supplied in HTML, PDF, and plain text.
+     .
+     If you're new to Debian, and like to read documentation from your local system,
+     without using the network, install this package.
+
+debianutils 5.21 [Debian/trixie main]
+├── is installed
+└── Miscellaneous utilities specific to Debian
+     This package provides a number of small utilities which are used
+     primarily by the installation scripts of Debian packages, although
+     you may use them directly.
+     .
+     The specific utilities included are:
+     add-shell installkernel ischroot remove-shell run-parts savelog
+     update-shells which
+
+default-jre 2:1.21-76 [Debian/trixie main]
+├── is installed
+└── Standard Java or Java compatible Runtime
+     This dependency package points to the Java runtime, or Java compatible
+     runtime recommended for this architecture, which is
+     openjdk-21-jre for amd64.
+
+default-jre-headless 2:1.21-76 [Debian/trixie main]
+├── is installed
+└── Standard Java or Java compatible Runtime (headless)
+     This dependency package points to the Java runtime, or Java compatible
+     runtime recommended for this architecture, which is
+     openjdk-21-jre-headless for amd64.
+     .
+     The package is used as dependency for packages not needing a
+     graphical display during runtime.
+
+desktop-base 13.0.0~pre1 [Debian/trixie main]
+├── is installed
+└── common files for the Debian Desktop
+     This package contains various miscellaneous files which are used by
+     Debian Desktop installations.  Currently, it provides some
+     Debian-related artwork and themes, .desktop files containing links to
+     Debian related material (suitable for placement on a user's desktop),
+     and other common files between the available desktop environments
+     such as GNOME and KDE.
+
+desktop-file-utils 0.28-1 [Debian/trixie main]
+├── is installed
+└── Utilities for .desktop files
+     Some utilities to make dealing with .desktop files easier:
+      * update-desktop-database -- update the desktop-MIME mapping
+      * desktop-file-validate -- validate a desktop file
+      * desktop-file-install -- install a desktop file, munging en route.
+
+dialog 1.3-20250116-1 [Debian/trixie main]
+├── is installed
+└── Displays user-friendly dialog boxes from shell scripts
+     This application provides a method of displaying several different types
+     of dialog boxes from shell scripts.  This allows a developer of a script
+     to interact with the user in a much friendlier manner.
+     .
+     The following types of boxes are at your disposal:
+      yes/no           Typical query style box with "Yes" and "No" answer buttons
+      menu             A scrolling list of menu choices with single entry selection
+      input            Query style box with text entry field
+      message          Similar to the yes/no box, but with only an "Ok" button
+      text             A scrollable text box that works like a simple file viewer
+      info             A message display that allows asynchronous script execution
+      checklist        Similar to the menu box, but allowing multiple selections
+      radiolist        Checklist style box allowing single selections
+      gauge            Typical "progress report" style box
+      tail             Allows viewing the end of files (tail) that auto updates
+      background tail  Similar to tail but runs in the background.
+      editbox          Allows editing an existing file
+
+dictionaries-common 1.30.4 [Debian/trixie main]
+├── is installed
+└── spelling dictionaries - common utilities
+     This package provides utilities shared between all wordlists and spelling
+     dictionaries for Ispell, Aspell, or MySpell/Hunspell. It also includes
+     support infrastructure for software using them (such as JED and Mutt),
+     and some patched spell-checking Lisp files for better Emacs integration.
+     .
+     More information about the availability of these dictionaries and their
+     naming conventions is available in the README.Debian file.
+
+diffutils 1:3.10-2 [Debian/trixie main]
+├── is installed
+└── File comparison utilities
+     The diffutils package provides the diff, diff3, sdiff, and cmp programs.
+     .
+     `diff' shows differences between two files, or each corresponding file
+     in two directories.  `cmp' shows the offsets and line numbers where
+     two files differ.  `cmp' can also show all the characters that
+     differ between the two files, side by side.  `diff3' shows differences
+     among three files.  `sdiff' merges two files interactively.
+     .
+     The set of differences produced by `diff' can be used to distribute
+     updates to text files (such as program source code) to other people.
+     This method is especially useful when the differences are small compared
+     to the complete files.  Given `diff' output, the `patch' program can
+     update, or "patch", a copy of the file.
+
+dirmngr 2.2.46-1+b1 [Debian/trixie main]
+├── is installed
+└── GNU privacy guard - network certificate management service
+     dirmngr is a server for managing and downloading OpenPGP and X.509
+     certificates, as well as updates and status signals related to those
+     certificates.  For OpenPGP, this means pulling from the public
+     HKP/HKPS keyservers, or from LDAP servers.  For X.509 this includes
+     Certificate Revocation Lists (CRLs) and Online Certificate Status
+     Protocol updates (OCSP).  It is capable of using Tor for network
+     access.
+     .
+     dirmngr is used for network access by gpg, gpgsm, and dirmngr-client,
+     among other tools.  Unless this package is installed, the parts of
+     the GnuPG suite that try to interact with the network will fail.
+
+discover 2.1.2-10.1 [Debian/trixie main]
+├── is installed
+└── hardware identification system
+     Discover is a hardware identification system based on the libdiscover2
+     library.  Discover provides a flexible interface that programs can
+     use to report a wide range of information about the hardware that is
+     installed on a Linux system.  In addition to reporting information,
+     Discover includes support for doing hardware detection at boot time.
+
+discover-data 2.2013.01.13+nmu1 [Debian/trixie main]
+├── is installed
+└── Data lists for Discover hardware detection system
+     The Discover hardware detection library uses XML data files to describe
+     software interfaces to various ATA, PCI, PMCMIA, SCSI, and USB devices.
+     While the Discover library can retrieve data from anywhere on the net, it is
+     often convenient to have a set of Discover XML data files on one's system;
+     thus, this package.
+
+distro-info-data 0.63 [Debian/trixie main]
+├── is installed
+└── information about the distributions' releases (data files)
+     Information about all releases of Debian and Ubuntu. The distro-info script
+     will give you the codename for e.g. the latest stable release of your
+     distribution. To get information about a specific distribution there are the
+     debian-distro-info and the ubuntu-distro-info scripts.
+     .
+     This package contains the data files.
+
+dmeventd 2:1.02.201-1 [Debian/trixie main]
+├── is installed
+└── Linux Kernel Device Mapper event daemon
+     The Linux Kernel Device Mapper is the LVM (Linux Logical Volume Management)
+     Team's implementation of a minimalistic kernel-space driver that handles
+     volume management, while keeping knowledge of the underlying device layout
+     in user-space.  This makes it useful for not only LVM, but software raid,
+     and other drivers that create "virtual" block devices.
+     .
+     This package contains a daemon to monitor events of devmapper devices.
+
+dmidecode 3.6-2 [Debian/trixie main]
+├── is installed
+└── SMBIOS/DMI table decoder
+     Dmidecode reports information about the system's hardware as described in the
+     system BIOS according to the SMBIOS/DMI standard.
+     .
+     This information typically includes system manufacturer, model name, serial
+     number, BIOS version, asset tag as well as a lot of other details of varying
+     level of interest and reliability depending on the manufacturer. This will
+     often include usage status for the CPU sockets, expansion slots (e.g. AGP, PCI,
+     ISA) and memory module slots, and the list of I/O ports (e.g. serial, parallel,
+     USB).
+     .
+     Beware that DMI data have proven to be too unreliable to be blindly trusted.
+     Dmidecode does not scan the hardware, it only reports what the BIOS told it to.
+
+dmsetup 2:1.02.201-1 [Debian/trixie main]
+├── is installed
+└── Linux Kernel Device Mapper userspace library
+     The Linux Kernel Device Mapper is the LVM (Linux Logical Volume Management)
+     Team's implementation of a minimalistic kernel-space driver that handles
+     volume management, while keeping knowledge of the underlying device layout
+     in user-space.  This makes it useful for not only LVM, but software raid,
+     and other drivers that create "virtual" block devices.
+     .
+     This package contains a utility for modifying device mappings.
+
+dns-root-data 2024071801 [Debian/trixie main]
+├── is installed
+└── DNS root hints and DNSSEC trust anchor
+     This package contains various root zone related data as published
+     by IANA to be used by various DNS software as a common source
+     of DNS root zone data, namely:
+     .
+      * Root Hints (root.hints)
+      * Root Trust Anchors (root.key, root.ds)
+
+dnsmasq-base 2.91~test9-1 [Debian/trixie main]
+├── is installed
+└── Small caching DNS proxy and DHCP/TFTP server - executable
+     This package contains the dnsmasq executable and documentation, but
+     not the infrastructure required to run it as a system daemon. For
+     that, install the dnsmasq package.
+
+dnsutils 1:9.20.4-4 [Debian/trixie main]
+├── is installed
+└── Transitional package for bind9-dnsutils
+     This is a transitional package. It can safely be removed.
+
+doc-debian 11.3+nmu1 [Debian/trixie main]
+├── is installed
+└── Debian Project documentation and other documents
+     The Debian Project is an association of individuals who have made
+     common cause to create a free operating system.
+     .
+     In this package, you will find:
+       * Debian Linux Manifesto,
+       * Constitution for the Debian Project,
+       * Debian Social Contract,
+       * Debian Free Software Guidelines.
+     .
+     Additionally provided are:
+       * Debian Bug Tracking System documentation, and
+       * Introduction to the Debian mailing lists.
+     .
+     All of these files are available at http://ftp.debian.org/debian/doc/ and
+     mirrors thereof.
+
+docbook-xml 4.5-13 [Debian/trixie main]
+├── is installed
+└── standard XML documentation system for software and systems
+     DocBook is an XML document type definition (DTD).  That is, it
+     contains the "DocBook" document structure.  This is used by authors
+     or editors writing documents in the DocBook XML format.  DocBook was
+     designed for books, articles, or reference documentation about
+     technical matters or software.  It has emerged as an open, standard
+     DTD in the software industry, and is the documentation system of
+     choice for many free software projects.
+     .
+     This package contains the XML DTD for DocBook, which describes the
+     formal structure for documents following this format.  If you wish to
+     author DocBook documents using SGML rather than XML, use the
+     'docbook' package.  You will need other packages in order to edit
+     (psgml), validate (opensp, libxml2-utils) or format (docbook-xsl,
+     docbook-dsssl) DocBook documents.
+     .
+     This package ships with the latest DocBook 4.5 XML DTD, as well as a
+     selected set of legacy DTDs for use with older documents, including
+     4.0, 4.1.2, 4.2, 4.3 and 4.4.
+
+dosfstools 4.2-1.1 [Debian/trixie main]
+├── is installed
+└── utilities for making and checking MS-DOS FAT filesystems
+     The dosfstools package includes the mkfs.fat and fsck.fat utilities, which
+     respectively make and check MS-DOS FAT filesystems.
+
+dpkg 1.22.15 [Debian/trixie main]
+├── is installed
+└── Debian package management system
+     This package provides the low-level infrastructure for handling the
+     installation and removal of Debian software packages.
+     .
+     For Debian package development tools, install dpkg-dev.
+
+dpkg-dev 1.22.15 [Debian/trixie main]
+├── is installed
+└── Debian package development tools
+     This package provides the development tools (including dpkg-source)
+     required to unpack, build and upload Debian source packages.
+     .
+     Most Debian source packages will require additional tools to build;
+     for example, most packages need make and the C compiler gcc.
+
+dracut-install 105-3 [Debian/trixie main]
+├── is installed
+└── dracut is an event driven initramfs infrastructure (dracut-install)
+     This package just contains the dracut-install command to be used by
+     initramfs generating tools.
+
+e2fslibs 1.45.6-1 [local]
+├── is installed
+└── transitional package to libext2fs2
+     This is a transitional package to libext2fs2. It can safely be removed.
+
+e2fsprogs 1.47.2-1 [Debian/trixie main]
+├── is installed
+└── ext2/ext3/ext4 file system utilities
+     The ext2, ext3 and ext4 file systems are successors of the original ext
+     ("extended") file system. They are the main file system types used for
+     hard disks on Debian and other Linux systems.
+     .
+     This package contains programs for creating, checking, and maintaining
+     ext2/3/4-based file systems.  It also includes the "badblocks" program,
+     which can be used to scan for bad blocks on a disk or other storage device.
+
+efibootmgr 18-2 [Debian/trixie main]
+├── is installed
+└── Interact with the EFI Boot Manager
+     This is a Linux user-space application to modify the Intel Extensible
+     Firmware Interface (EFI) Boot Manager configuration. This application can
+     create and destroy boot entries, change the boot order, change the next
+     running boot option, and more.
+     .
+     Additional information about (U)EFI can be found at http://www.uefi.org/.
+     .
+     Note: efibootmgr requires that the kernel module efivars be loaded prior
+     to use. 'modprobe efivars' should do the trick if it does not
+     automatically load.
+
+eject 2.40.4-3 [Debian/trixie main]
+├── is installed
+└── ejects CDs and operates CD-Changers under Linux
+     This program will eject CD-ROMs (assuming your drive supports the CDROMEJECT
+     ioctl). It also allows setting the autoeject feature.
+     .
+     On supported ATAPI/IDE multi-disc CD-ROM changers, it allows changing
+     the active disc.
+     .
+     You can also use eject to properly disconnect external mass-storage
+     devices like digital cameras or portable music players.
+
+elinks 0.18.0-1+b1 [Debian/trixie main]
+├── is installed
+└── advanced text-mode WWW browser
+     ELinks is a feature-rich program for browsing the web in text mode.  It is
+     like enhanced Lynx and Links.  The most noteworthy features of ELinks are:
+     .
+      * Lots of protocols (local files, finger, HTTP(S), FTP, IPv4/6 etc.)
+      * Internationalized domain names
+      * Persistent cookies, HTTP authentication and proxy authentication
+      * Tabbed browsing, good looking menus and dialogs, and key-binding manager
+      * History browsing and typeahead searches
+      * Forms history and completion, and history in commonly used input dialogs
+      * CSS support and support for browser scripting (Perl, Lua, Guile etc.)
+      * Tables and frames rendering, and configurable color support
+      * Compressed and background (non-blocking) downloads, and download resuming
+     .
+     This package is based on elinks fork, since original elinks seems to be no
+     longer maintained.
+
+elinks-data 0.18.0-1 [Debian/trixie main]
+├── is installed
+└── advanced text-mode WWW browser - data files
+     ELinks is a feature-rich program for browsing the web in text mode.  It is
+     like enhanced Lynx and Links.  The most noteworthy features of ELinks are:
+     .
+      * Lots of protocols (local files, finger, HTTP(S), FTP, IPv4/6 etc.)
+      * Internationalized domain names
+      * Persistent cookies, HTTP authentication and proxy authentication
+      * Tabbed browsing, good looking menus and dialogs, and key-binding manager
+      * History browsing and typeahead searches
+      * Forms history and completion, and history in commonly used input dialogs
+      * CSS support and support for browser scripting (Perl, Lua, Guile etc.)
+      * Tables and frames rendering, and configurable color support
+      * Compressed and background (non-blocking) downloads, and download resuming
+     .
+     This package contains the data files that are necessary to use ELinks.
+
+emacsen-common 3.0.5 [Debian/trixie main]
+├── is installed
+└── Common facilities for all emacsen
+     This package contains code that is needed by all the (x)emacs
+     packages.  It will be automatically installed when needed.
+
+enchant-2 2.8.2+dfsg1-3 [Debian/trixie main]
+├── is installed
+└── Wrapper for various spell checker engines (binary programs)
+     Enchant is a generic spell checking library which uses existing
+     spell checker engines such as ispell, aspell and myspell as its backends.
+     .
+     Enchant steps in to provide uniformity and conformity on top of these
+     libraries, and implement certain features that may be lacking in any
+     individual provider library.
+     .
+     This package contains standalone runtime binary programs.
+
+epiphany-browser 48~beta-1 [Debian/trixie main]
+├── is installed
+└── Intuitive GNOME web browser
+     Epiphany is a simple yet powerful GNOME web browser targeted at
+     non-technical users. Its principles are simplicity and standards
+     compliance.
+     .
+     Simplicity is achieved by a well designed user interface and reliance
+     on external applications for performing external tasks (such as reading
+     email). Simplicity does not mean less features; Epiphany has everything
+     a modern web browser is expected to have.
+     .
+     Standards compliance is achieved on the HTML side by using the
+     WebKitGTK+ rendering engine (which is based on the engine used by
+     Apple Safari and Google Chrome); and on the user interface side by
+     closely following the GNOME Human Interface Guidelines (HIG) and by
+     close integration with the GNOME desktop.
+
+epiphany-browser-data 48~beta-1 [Debian/trixie main]
+├── is installed
+└── Data files for the GNOME web browser
+     Epiphany is a simple yet powerful GNOME web browser targeted at
+     non-technical users. Its principles are simplicity and standards
+     compliance.
+     .
+     This package contains the common files, artwork and translations for
+     Epiphany.
+
+espeak-ng-data 1.52.0+dfsg-4 [Debian/trixie main]
+├── is installed
+└── Multi-lingual software speech synthesizer: speech data files
+     eSpeak NG is a software speech synthesizer for English, and some other
+     languages.
+     .
+     This package contains necessary synthesizer data files needed
+     for the espeak-ng program and the shared library.
+
+evince 46.3.1-1+b1 [Debian/trixie main]
+├── is installed
+└── Document (PostScript, PDF) viewer
+     Evince is a simple multi-page document viewer.  It can display and print
+     PostScript (PS), Encapsulated PostScript (EPS), DjVu, DVI, Portable
+     Document Format (PDF) and XML Paper Specification (XPS) files.
+     When supported by the document, it also allows searching for text,
+     copying text to the clipboard, hypertext navigation, and
+     table-of-contents bookmarks.
+
+evince-common 46.3.1-1 [Debian/trixie main]
+├── is installed
+└── Document (PostScript, PDF) viewer - common files
+     Evince is a simple multi-page document viewer.  It can display and print
+     PostScript (PS), Encapsulated PostScript (EPS), DjVu, DVI, Portable
+     Document Format (PDF) and XML Paper Specification (XPS) files.
+     When supported by the document, it also allows searching for text,
+     copying text to the clipboard, hypertext navigation, and
+     table-of-contents bookmarks.
+     .
+     This package contains architecture-independent files for evince.
+
+evolution 3.55.2-1 [Debian/trixie main]
+├── is installed
+└── groupware suite with mail client and organizer
+     Evolution is a groupware suite which integrates mail, calendar,
+     address book, to-do list and memo tools.
+     .
+     Additional features include integration with Exchange
+     servers, newsgroup client, LDAP support and web calendars
+     .
+     The following plugins belonging to the "base" set are included.
+      - calendar-file
+      - calendar-http
+      - itip-formatter
+      - default-source
+      - addressbook-file
+      - mark-all-read
+      - publish-calendar
+      - caldav
+      - imap-features
+      - google-account-setup
+      - webdav-account-setup
+      - calendar-weather
+      - sa-junk-plugin
+      - bogo-junk-pluginm
+
+evolution-common 3.55.2-1 [Debian/trixie main]
+├── is installed
+└── architecture independent files for Evolution
+     Evolution is a groupware suite which integrates mail, calendar,
+     address book, to-do list and memo tools.
+     .
+     This package contains the architecture independent files needed
+     by the evolution package.
+
+evolution-data-server 3.55.2-1 [Debian/trixie main]
+├── is installed
+└── evolution database backend server
+     The data server, called "Evolution Data Server" is responsible for managing
+     mail, calendar, addressbook, tasks and memo information.
+
+evolution-data-server-common 3.55.2-1 [Debian/trixie main]
+├── is installed
+└── architecture independent files for Evolution Data Server
+     The data server, called "Evolution Data Server" is responsible for managing
+     calendar and addressbook information.
+     .
+     This package contains the architecture independent files needed
+     by the evolution-data-server package.
+
+evolution-ews 3.55.2-1 [Debian/trixie main]
+├── is installed
+└── Exchange Web Services integration for Evolution
+     This package allows the Evolution mail and groupware suite to connect
+     to Microsoft Exchange servers using the Exchange Web Services interface.
+     .
+     It works in a very similar way to the Evolution Exchange connector, but
+     it supports the Exchange 2007 version.
+
+evolution-ews-core 3.55.2-1 [Debian/trixie main]
+├── is installed
+└── Exchange Web Services integration for GNOME
+     This package allows GNOME apps other than Evolution to connect
+     to Microsoft Exchange servers using the Exchange Web Services interface.
+     .
+     It works in a very similar way to the Evolution Exchange connector, but
+     it supports the Exchange 2007 version.
+
+evolution-plugin-bogofilter 3.55.2-1 [Debian/trixie main]
+├── is installed
+└── standard plugins for Evolution (bogofilter)
+     Evolution is a groupware suite which integrates mail, calendar,
+     address book, to-do list and memo tools.
+     .
+     This package includes the bogofilter spam filter module for Evolution.
+
+evolution-plugin-pstimport 3.55.2-1 [Debian/trixie main]
+├── is installed
+└── standard plugins for Evolution (pstimport)
+     Evolution is a groupware suite which integrates mail, calendar,
+     address book, to-do list and memo tools.
+     .
+     This package includes a plugin for Evolution that enables importing
+     Microsoft Outlook messages from a PST file.
+
+evolution-plugins 3.55.2-1 [Debian/trixie main]
+├── is installed
+└── standard plugins for Evolution
+     Evolution is a groupware suite which integrates mail, calendar,
+     address book, to-do list and memo tools.
+     .
+     This package includes plugins for evolution. The plugins belong
+     to the set of "standard" plugins, which are useful, but not
+     necessary for a functioning application.
+     .
+     The following standard plugins are included.
+      - attachment-reminder
+      - bbdb
+      - dbx-import
+      - email-custom-header
+      - face
+      - mailing-list-actions
+      - mail-notification
+      - mail-to-task
+      - prefer-plain
+      - save-calendar
+      - sender-validator
+      - templates
+
+exfatprogs 1.2.7-3 [Debian/trixie main]
+├── is installed
+└── exFAT file system utilities
+     Tools to manage extended file allocation table filesystem.
+     This package provides tools to create, check, dump and label
+     the filesystem. It contains
+      - mkfs.exfat to create an exFAT filesystem
+      - fsck.exfat to check and repair an exFAT filesystem
+      - tune.exfat to print and edit the volume label or serial
+      - dump.exfat to show on-disk information of an exFAT filesystem
+      - exfat2img to dump exFAT metadata
+     The tools included in this package are the exfatprogs
+     maintained by Samsung and LG engineers, who provided Linux exFAT
+     support.
+
+exim4 4.98-3 [Debian/trixie main]
+├── is installed
+└── metapackage to ease Exim MTA (v4) installation
+     Exim (v4) is a mail transport agent. exim4 is the metapackage depending
+     on the essential components for a basic exim4 installation.
+     .
+     The Debian exim4 packages have their own web page,
+     http://wiki.debian.org/PkgExim4. There is also a Debian-specific
+     FAQ list. Information about the way the Debian packages are
+     configured can be found in
+     /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
+     information about the way the Debian binary packages are built. The
+     very extensive upstream documentation is shipped in
+     /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
+     configuration process in a standard setup, invoke dpkg-reconfigure
+     exim4-config. There is a Debian-centered mailing list,
+     pkg-exim4-users@lists.alioth.debian.org. Please ask Debian-specific
+     questions there, and only write to the upstream exim-users mailing
+     list if you are sure that your question is not Debian-specific. You
+     can find the subscription web page on
+     http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+
+exim4-base 4.98-3+b1 [Debian/trixie main]
+├── is installed
+└── support files for all Exim MTA (v4) packages
+     Exim (v4) is a mail transport agent. exim4-base provides the support
+     files needed by all exim4 daemon packages. You need an additional package
+     containing the main executable. The available packages are:
+     .
+      exim4-daemon-light
+      exim4-daemon-heavy
+     .
+     If you build exim4 from the source package locally, you can also
+     build an exim4-daemon-custom package tailored to your own feature set.
+     .
+     The Debian exim4 packages have their own web page,
+     http://wiki.debian.org/PkgExim4. There is also a Debian-specific
+     FAQ list. Information about the way the Debian packages are
+     configured can be found in
+     /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
+     information about the way the Debian binary packages are built. The
+     very extensive upstream documentation is shipped in
+     /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
+     configuration process in a standard setup, invoke dpkg-reconfigure
+     exim4-config. There is a Debian-centered mailing list,
+     pkg-exim4-users@lists.alioth.debian.org. Please ask Debian-specific
+     questions there, and only write to the upstream exim-users mailing
+     list if you are sure that your question is not Debian-specific. You
+     can find the subscription web page on
+     http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+
+exim4-config 4.98-3 [Debian/trixie main]
+├── is installed
+└── configuration for the Exim MTA (v4)
+     Exim (v4) is a mail transport agent. exim4-config provides the configuration
+     for the exim4 daemon packages. The configuration framework has been split
+     off the main package to allow sites to replace the configuration scheme
+     with their own without having to change the actual exim4 packages.
+     .
+     Sites with special configuration needs (having a lot of identically
+     configured machines for example) can use this to distribute their own
+     custom configuration via the packaging system, using the magic
+     available with dpkg's conffile handling, without having to do local
+     changes on all of these machines.
+     .
+     The Debian exim4 packages have their own web page,
+     http://wiki.debian.org/PkgExim4. There is also a Debian-specific
+     FAQ list. Information about the way the Debian packages are
+     configured can be found in
+     /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
+     information about the way the Debian binary packages are built. The
+     very extensive upstream documentation is shipped in
+     /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
+     configuration process in a standard setup, invoke dpkg-reconfigure
+     exim4-config. There is a Debian-centered mailing list,
+     pkg-exim4-users@lists.alioth.debian.org. Please ask Debian-specific
+     questions there, and only write to the upstream exim-users mailing
+     list if you are sure that your question is not Debian-specific. You
+     can find the subscription web page on
+     http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+
+exim4-daemon-heavy 4.98-3+b1 [Debian/trixie main]
+├── is installed
+└── Exim MTA (v4) daemon with extended features, including exiscan-acl
+     Exim (v4) is a mail transport agent. This package contains the exim4
+     daemon with extended features. In addition to the features already
+     supported by exim4-daemon-light, exim4-daemon-heavy includes LDAP,
+     sqlite, PostgreSQL and MySQL data lookups, SASL and SPA SMTP authentication,
+     embedded Perl interpreter, and the content scanning extension
+     (formerly known as "exiscan-acl") for integration of virus scanners
+     and spamassassin.
+     .
+     The Debian exim4 packages have their own web page,
+     http://wiki.debian.org/PkgExim4. There is also a Debian-specific
+     FAQ list. Information about the way the Debian packages are
+     configured can be found in
+     /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
+     information about the way the Debian binary packages are built. The
+     very extensive upstream documentation is shipped in
+     /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
+     configuration process in a standard setup, invoke dpkg-reconfigure
+     exim4-config. There is a Debian-centered mailing list,
+     pkg-exim4-users@lists.alioth.debian.org. Please ask Debian-specific
+     questions there, and only write to the upstream exim-users mailing
+     list if you are sure that your question is not Debian-specific. You
+     can find the subscription web page on
+     http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+
+exo-utils 4.20.0-1 [Debian/trixie main]
+├── is installed
+└── Utility files for libexo
+     This package contains the Xfce settings plugin and the utility files for
+     libexo-2-0 which are:
+       - exo-desktop-item-edit
+       - exo-open
+
+fakeroot 1.37-1 [Debian/trixie main]
+├── is installed
+└── tool for simulating superuser privileges
+     fakeroot provides a fake "root environment" by means of LD_PRELOAD and
+     SysV IPC (or TCP) trickery. It puts wrappers around getuid(), chown(),
+     stat(), and other file-manipulation functions, so that unprivileged
+     users can (for instance) populate .deb archives with root-owned files;
+     various build tools use fakeroot for this by default.
+     .
+     This package contains fakeroot command and the daemon that remembers
+     fake ownership/permissions of files manipulated by fakeroot
+     processes.
+
+fastfetch 2.35.0+dfsg-1 [Debian/trixie main]
+├── is installed
+└── neofetch-like tool for fetching system information
+     Fastfetch is a neofetch-like tool for fetching system information and
+     displaying them in a pretty way. It is written mainly in C, with
+     performance and customizability in mind.
+
+fdisk 2.40.4-3 [Debian/trixie main]
+├── is installed
+└── collection of partitioning utilities
+     This package contains the classic fdisk, sfdisk and cfdisk partitioning
+     utilities from the util-linux suite.
+     .
+     The utilities included in this package allow you to partition
+     your hard disk. The utilities supports both modern and legacy
+     partition tables (eg. GPT, MBR, etc).
+     .
+     The fdisk utility is the classical text-mode utility.
+     The cfdisk utility gives a more userfriendly curses based interface.
+     The sfdisk utility is mostly for automation and scripting uses.
+
+file 1:5.45-3+b1 [Debian/trixie main]
+├── is installed
+└── Recognize the type of data in a file using "magic" numbers
+     The file command is "a file type guesser", a command-line tool that
+     tells you in words what kind of data a file contains.
+     .
+     This package contains the file program itself.
+
+file-roller 44.5-1 [Debian/trixie main]
+├── is installed
+└── archive manager for GNOME
+     File-roller is an archive manager for the GNOME environment. It allows you to:
+     .
+      * Create and modify archives.
+      * View the content of an archive.
+      * View a file contained in an archive.
+      * Extract files from the archive.
+     .
+     File-roller supports the following formats:
+      * Tar (.tar) archives, including those compressed with
+        gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),
+        compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),
+        lzma (.tar.lzma) and xz (.tar.xz)
+      * Zip archives (.zip)
+      * Jar archives (.jar, .ear, .war)
+      * 7z archives (.7z)
+      * iso9660 CD images (.iso)
+      * Lha archives (.lzh)
+      * Archiver archives (.ar)
+      * Comic book archives (.cbz)
+      * Single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),
+        compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)
+     .
+     File-roller can extract following formats:
+      * Cabinet archives (.cab)
+      * Debian binary packages (.deb)
+      * Xar archives (.xar)
+     .
+     File-roller doesn't perform archive operations by itself, but relies on
+     standard tools for this.
+
+filen 3.0.47 [local]
+├── is installed
+└── Filen Desktop Client
+      Filen Desktop Client
+
+findutils 4.10.0-3 [Debian/trixie main]
+├── is installed
+└── utilities for finding files--find, xargs
+     GNU findutils provides utilities to find files meeting specified
+     criteria and perform various actions on the files which are found.
+     This package contains 'find' and 'xargs'; however, 'locate' has
+     been split off into a separate package.
+
+firebird-utils 4.0.5.3140.ds6-15 [Debian/trixie main]
+├── is installed
+└── Firebird command line utilities wrapper
+     firebird-utils contains a wrapper script which allows running specific
+     version of firebird utilities like gbak or isql-fb. If no version is
+     specified, the latest available is used.
+
+firebird4.0-common 4.0.5.3140.ds6-15 [Debian/trixie main]
+├── is installed
+└── common files for firebird 4.0 server, client and utilities
+     Common files for the Firebird server, client and user utilities.
+     .
+     These include the support scripts as well as configuration files in
+     /etc/firebird/4.0.
+
+firebird4.0-common-doc 4.0.5.3140.ds6-15 [Debian/trixie main]
+├── is installed
+└── copyright, licensing and changelogs of firebird4.0
+     Copyright, licensing information and upstream changelog of firebird4.0.
+     .
+     Due to the size of the upstream change log and copyright/licensing summary,
+     keeping them in a separate package saves space on mirrors and when installing
+     firebird4.0 packages.
+
+firebird4.0-server-core 4.0.5.3140.ds6-15 [Debian/trixie main]
+├── is installed
+└── Firebird engine core
+     Firebird database engine and support libraries. This package is required for
+     embedded (serverless) access to local databases with the tools packaged in
+     firebird4.0-utils or other binaries linked to the firebird client library,
+     libfbclient2.
+     .
+     The rest of the binaries needed for running a full-featured,
+     remotely-accessible Firebird server are in the firebird4.0-server package.
+
+firebird4.0-utils 4.0.5.3140.ds6-15 [Debian/trixie main]
+├── is installed
+└── Firebird command line utilities
+     This package contains the utilities for managing Firebird databases:
+      * isql-fb -- interactive console (original name isql)
+      * gbak -- backup and restore databases
+      * gfix -- check and repair databases
+      * gsec -- manage users and roles
+      * fbstat -- analyze databases (original name gstat)
+      * nbackup -- incremental backup and file-level copy
+      * gpre -- preprocess sources with embedded SQL
+
+firefox-esr 128.7.0esr-1 [Debian/trixie main]
+├── is installed
+└── Mozilla Firefox web browser - Extended Support Release (ESR)
+     Firefox ESR is a powerful, extensible web browser with support for modern
+     web application technologies.
+
+firmware-amd-graphics 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for AMD/ATI graphics chips
+     This package contains the binary firmware for AMD/ATI graphics chips
+     supported by the radeon, amdgpu and r128 drivers.
+
+firmware-atheros 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for Qualcomm Atheros wireless cards
+     This package contains the binary firmware for USB wireless network and
+     Bluetooth cards supported by the ar5523, ath3k, ath6kl_sdio, ath6kl_usb,
+     ath10k, ath11k, or wilc6210 drivers.
+
+firmware-b43-installer 1:019-13 [Debian/trixie contrib]
+├── is installed
+└── firmware installer for the b43 driver
+     This package downloads and installs the firmware needed by the b43
+     kernel driver for some Broadcom 43xx wireless network cards.
+     .
+     Supported chipsets:
+      * BCM4306/3 (chip revision 3 only);
+      * BCM4311 (NOT PCI Id 14e4:4313);
+      * BCM4312;
+      * BCM43131;
+      * BCM4318;
+      * BCM4321 (only partial support, not all versions tested);
+      * BCM43217;
+      * BCM4322 (only partial support for some versions, not all versions tested);
+      * BCM43222 (not all versions tested);
+      * BCM43224 (not all versions tested);
+      * BCM43225;
+      * BCM43227;
+      * BCM43228;
+      * BCM4331;
+      * BCM47xx (detection not reliable, may not support all versions).
+
+firmware-b43legacy-installer 1:019-13 [Debian/trixie contrib]
+├── is installed
+└── firmware installer for the b43legacy driver
+     This package downloads and installs the firmware needed by the b43legacy
+     kernel driver for some Broadcom 43xx wireless network cards.
+     .
+     Supported chipsets:
+      * BCM4301;
+      * BCM4306/2;
+      * BCM4306.
+
+firmware-bnx2 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for Broadcom NetXtremeII
+     This package contains the binary firmware for Broadcom NetXtremeII network
+     adapters supported by the bnx2 driver.
+
+firmware-bnx2x 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for Broadcom NetXtreme II 10Gb
+     This package contains the binary firmware for Broadcom NetXtreme II 10Gb
+     network adapters supported by the bnx2x driver.
+
+firmware-brcm80211 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for Broadcom/Cypress 802.11 wireless cards
+     This package contains the binary firmware for wireless network cards
+     supported by the brcmsmac or brcmfmac driver.
+
+firmware-intelwimax 20210818-1 [local]
+├── is installed
+└── Binary firmware for Intel WiMAX Connection
+     This package contains the binary firmware for Intel WiMAX Connection
+     devices supported by the i2400m-usb driver.
+     .
+     Contents:
+      * Intel WiMAX Connection 2400 USB firmware, version 1.4
+        (i2400m-fw-usb-1.4.sbcf)
+      * Intel WiMAX Connection 2400 USB firmware, version 1.5
+        (i2400m-fw-usb-1.5.sbcf)
+      * Intel WiMAX/WiFi Link 6050 USB firmware, version 1.5
+        (i6050-fw-usb-1.5.sbcf)
+
+firmware-ipw2x00 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
+     This package contains the binary firmware for Intel Pro Wireless 2100,
+     2200 and 2915 cards supported by the ipw2100 and ipw2200 drivers.
+     .
+     This firmware is covered by the Intel Pro Wireless 2100 and 2200/2915
+     License.  You must agree to the terms of this license before it is
+     installed.
+
+firmware-ivtv 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for iTVC15-family MPEG codecs (ivtv and pvrusb2 drivers)
+     This package contains the binary firmware for TV cards with Conexant
+     iTVC15-family MPEG codecs, supported by the ivtv and pvrusb2 drivers.
+     .
+     This firmware is covered by the Hauppauge End-User Firmware License
+     Agreement.  You must agree to the terms of this license before it is
+     installed.
+
+firmware-iwlwifi 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for Intel Wireless cards
+     This package contains the binary firmware for Intel Wireless cards
+     supported by the iwl3945, iwl4965, and iwlwifi drivers.
+
+firmware-libertas 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for Marvell wireless cards
+     This package contains the binary firmware for wireless network cards with
+     Marvell and NXP 88W8xxx chips supported by the libertas_cs, libertas_sdio,
+     libertas_spi, libertas_tf_usb, mwifiex_pcie, mwifiex_sdio, mwifiex_usb,
+     mwl8k and usb8xxx drivers.
+
+firmware-linux 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for various drivers in the Linux kernel (metapackage)
+     This package depends on both free and non-free firmware which may be used
+     with drivers in the Linux kernel.
+
+firmware-linux-free 20241210-1 [Debian/trixie main]
+├── is installed
+└── Binary firmware for various drivers in the Linux kernel
+     This package provides firmware which was previously included in the Linux
+     kernel and which is compliant with the Debian Free Software Guidelines.
+
+firmware-linux-nonfree 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for various drivers in the Linux kernel (metapackage)
+     This package depends on non-free firmware which may be used with drivers
+     in the Linux kernel.
+
+firmware-misc-nonfree 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for various drivers in the Linux kernel
+     This package contains the binary firmware for various drivers in the Linux
+     kernel.  This is a collection of firmware blobs which are not individually
+     large enough to warrant a standalone package.
+
+firmware-myricom 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for Myri-10G Ethernet adapters
+     This package contains the binary firmware for Myricom Myri-10G Ethernet
+     adapters supported by the myri10ge driver.
+
+firmware-netxen 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for QLogic Intelligent Ethernet (3000 and 3100 Series)
+     This package contains the binary firmware for QLogic (formerly NetXen)
+     Intelligent network adapters supported by the netxen_nic and qlcnic
+     drivers.
+
+firmware-qlogic 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for QLogic HBAs
+     This package contains the binary firmware for QLogic Infiniband, SCSI,
+     Fibre Channel/FCoE adapters and Converged Network Adapters supported by
+     the bfa, bna, ip_iband, qed, qla1280 and qla2xxx drivers.
+
+firmware-realtek 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for Realtek wired/Wi-Fi/BT adapters
+     This package contains the binary firmware for Realtek Ethernet, Wi-Fi and
+     Bluetooth adapters supported by various drivers.
+
+firmware-ti-connectivity 20241210-1 [Debian/trixie non-free-firmware]
+├── is installed
+└── Binary firmware for TI Connectivity Wi-Fi and BT/FM/GPS adapters
+     This package contains the binary firmware for Texas Instruments WL1251,
+     WL127x, WL128x and WL18xx wireless network chips supported by the wl1251,
+     wl12xx and wl18xx drivers and BT/FM/GPS chips supported by the st_drv
+     driver.
+
+firmware-zd1211 1:1.5-13 [Debian/trixie non-free-firmware]
+├── is installed
+└── binary firmware for the zd1211rw wireless driver
+     This package contains the firmware to be used with the zd1211rw Linux kernel
+     driver for USB wireless dongles based on the following chipsets:
+     .
+      * ZyDAS ZD1211
+      * ZyDAS ZD1211B
+      * Atheros AR5007UG (alternatively known as AR2524/AR5524)
+     .
+     For more information, see also:
+     http://wiki.debian.org/zd1211rw
+
+fish 3.7.1-1 [Debian/trixie main]
+├── is installed
+└── friendly interactive shell
+     Fish is a shell geared towards interactive use.  Its features are focused on
+     user friendliness and discoverability.  The language syntax is simple but
+     incompatible with other shell languages.
+
+fish-common 3.7.1-1 [Debian/trixie main]
+├── is installed
+└── friendly interactive shell (architecture-independent files)
+     Fish is a shell geared towards interactive use.  Its features are focused on
+     user friendliness and discoverability.  The language syntax is simple but
+     incompatible with other shell languages.
+     .
+     This package contains the common fish files shared by all architectures.
+
+flatpak 1.16.0-1 [Debian/trixie main]
+├── is installed
+└── Application deployment framework for desktop apps
+     Flatpak installs, manages and runs sandboxed desktop application bundles.
+     Application bundles run partially isolated from the wider system, using
+     containerization techniques such as namespaces to prevent direct access
+     to system resources. Resources from outside the sandbox can be accessed
+     via "portal" services, which are responsible for access control; for
+     example, the Documents portal displays an "Open" dialog outside the
+     sandbox, then allows the application to access only the selected file.
+     .
+     Each application uses a specified "runtime", or set of libraries, which is
+     available as /usr inside its sandbox. This can be used to run application
+     bundles with multiple, potentially incompatible sets of dependencies within
+     the same desktop environment.
+     .
+     This package contains the services and executables needed to install and
+     launch sandboxed applications, and the portal services needed to provide
+     limited access to resources outside the sandbox.
+
+folks-common 0.15.9-5 [Debian/trixie main]
+├── is installed
+└── library to aggregates people into metacontacts (common files)
+     libfolks is a library that aggregates people from multiple sources
+     (eg, Telepathy connection managers and eventually evolution data server,
+     Facebook, etc.) to create metacontacts.
+     .
+     This package contains common files (translations) used by folks components.
+
+fontconfig 2.15.0-2 [Debian/trixie main]
+├── is installed
+└── generic font configuration library - support binaries
+     Fontconfig is a font configuration and customization library, which
+     does not depend on the X Window System. It is designed to locate
+     fonts within the system and select them according to requirements
+     specified by applications.
+     .
+     Fontconfig is not a rasterization library, nor does it impose a
+     particular rasterization library on the application. The X-specific
+     library 'Xft' uses fontconfig along with freetype to specify and
+     rasterize fonts.
+     .
+     This package contains a program to maintain the fontconfig cache
+     (fc-cache), a sample program to list installed fonts (fc-list), a program
+     to test the matching rules (fc-match) and a program to dump the binary
+     cache files in string form (fc-cat). It no longer makes fonts managed by defoma
+     available to fontconfig applications.
+
+fontconfig-config 2.15.0-2 [Debian/trixie main]
+├── is installed
+└── generic font configuration library - configuration
+     Fontconfig is a font configuration and customization library, which
+     does not depend on the X Window System. It is designed to locate
+     fonts within the system and select them according to requirements
+     specified by applications.
+     .
+     This package contains the configuration files and scripts for fontconfig.
+
+fonts-cantarell 0.303.1-2 [Debian/trixie main]
+├── is installed
+└── sans serif font family designed for on-screen readability
+     The Cantarell font family is designed as a contemporary Humanist sans serif
+     and is particularly designed for on-screen reading on mobile devices at small
+     sizes, such as phones and tablets.
+     .
+     This is the open font officially chosen by default for the GNOME 3 desktop and
+     for Fedora branding materials.
+     .
+     Regular and bold weights are provided for now. Italics are planned.
+     .
+     Each font file currently contains 391 glyphs, and fully support the
+     following writing systems: Basic Latin, Western European, Catalan,
+     Baltic, Turkish, Central European, Dutch and Afrikaans.
+
+fonts-cascadia-code 2407.24-1 [Debian/trixie main]
+├── is installed
+└── monospaced font designed to enhance appearance of Windows Terminal
+     Cascadia Code is a monospaced font shipped by Microsoft. It includes
+     programming ligatures and is intended for use in terminal applications
+     as well as text editors.
+
+fonts-crosextra-caladea 20200211-2 [Debian/trixie main]
+├── is installed
+└── Serif font metric-compatible with the Cambria font
+     Caladea is metric-compatible with the Cambria font. This font is a serif
+     typeface family based on Huerta Tipográfica’s Cambo.
+
+fonts-crosextra-carlito 20230309-2 [Debian/trixie main]
+├── is installed
+└── Sans-serif font metric-compatible with Calibri font
+     Carlito is metric-compatible with Calibri font. Carlito comes in regular, bold,
+     italic, and bold italic. The family covers Latin-Greek-Cyrillic (not a
+     complete set, though) with about 2,000 glyphs. It has the same character
+     coverage as Calibri. This font is sans-serif typeface family based on Lato.
+
+fonts-dejavu 2.37-8 [Debian/trixie main]
+├── is installed
+└── metapackage to pull in fonts-dejavu-core, -mono and -extra
+     DejaVu provides an expanded version of the Vera font family aiming for
+     quality and broader Unicode coverage while retaining the original Vera
+     style. DejaVu currently works towards conformance with the Multilingual
+     European Standards (MES-1 and MES-2) for Unicode coverage. The DejaVu
+     fonts provide serif, sans and monospaced variants.
+     .
+     Use this package if you want all DejaVu variants.
+     .
+     DejaVu fonts are intended for use on low-resolution devices (mainly
+     computer screens) but can be used in printing as well.
+
+fonts-dejavu-core 2.37-8 [Debian/trixie main]
+├── is installed
+└── Vera font family derivate with additional characters
+     DejaVu provides an expanded version of the Vera font family aiming for
+     quality and broader Unicode coverage while retaining the original Vera
+     style. DejaVu currently works towards conformance with the Multilingual
+     European Standards (MES-1 and MES-2) for Unicode coverage. The DejaVu
+     fonts provide serif, sans and monospaced variants.
+     .
+     This package only contains the sans, sans-bold, serif and serif-bold
+     variants. For additional variants, see the fonts-dejavu-mono and
+     fonts-dejavu-extra packages.
+     .
+     DejaVu fonts are intended for use on low-resolution devices (mainly
+     computer screens) but can be used in printing as well.
+
+fonts-dejavu-extra 2.37-8 [Debian/trixie main]
+├── is installed
+└── Vera font family derivate with additional characters (extra variants)
+     DejaVu provides an expanded version of the Vera font family aiming for
+     quality and broader Unicode coverage while retaining the original Vera
+     style. DejaVu currently works towards conformance with the Multilingual
+     European Standards (MES-1 and MES-2) for Unicode coverage. The DejaVu
+     fonts provide serif, sans and monospaced variants.
+     .
+     This package includes additional variants, such as oblique, italic,
+     bold-oblique, bold-italic and the condensed forms.
+     .
+     DejaVu fonts are intended for use on low-resolution devices (mainly
+     computer screens) but can be used in printing as well.
+
+fonts-dejavu-mono 2.37-8 [Debian/trixie main]
+├── is installed
+└── Vera font family derivate with additional characters
+     DejaVu provides an expanded version of the Vera font family aiming for
+     quality and broader Unicode coverage while retaining the original Vera
+     style. DejaVu currently works towards conformance with the Multilingual
+     European Standards (MES-1 and MES-2) for Unicode coverage. The DejaVu
+     fonts provide serif, sans and monospaced variants.
+     .
+     This package only contains the monospaced variants. For additional
+     variants, see the fonts-dejavu-core and fonts-dejavu-extra packages.
+     .
+     DejaVu fonts are intended for use on low-resolution devices (mainly
+     computer screens) but can be used in printing as well.
+
+fonts-droid-fallback 1:8.1.0r7-1~1.gbp36536b [Debian/trixie main]
+├── is installed
+└── handheld device font with extensive style and language support (fallback)
+     This package provides DroidSans Fallback variants, Fallback and
+     FallbackFull.
+     .
+     Each contains extensive character set coverage including
+     Western Europe, Eastern/Central Europe, Baltic, Cyrillic, Greek and
+     Turkish support. The Droid Sans regular font also includes support for
+     Arabic, Simplified and Traditional Chinese, Hebrew, Japanese, Korean and
+     Thai.
+     .
+     Droid was designed by Ascender's Steve Matteson and hinted to provide
+     optimal quality for screen text.
+     .
+     Please note that fonts-noto grew out of fonts-droid and is the same but
+     better.  You need fonts-droid-fallback (former fonts-droid) in case you
+     need to deal with some legacy documents.
+
+fonts-font-awesome 5.0.10+really4.7.0~dfsg-4.1 [Debian/trixie main]
+├── is installed
+└── iconic font designed for use with Twitter Bootstrap
+     This font contains about 249 various icon glyphs. Glyphs are designed
+     as scalable vector graphics hence display very well at any screen
+     size. This font was basically designed to be used with the Twitter
+     bootstrap  library but can be used in other places also.
+     .
+     This package also provides Sass and LESS files to use webfonts from
+     this package.
+     .
+     Please note that this package provides Font Awesome 4
+     (not Font Awesome 5 or Font Awesome 6
+     which are different fonts with different licensing).
+
