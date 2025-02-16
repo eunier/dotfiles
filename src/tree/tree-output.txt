@@ -616,6 +616,7 @@
 │   │   ├── diff-flatpak-list.sh
 │   │   ├── diff-git-repos.sh
 │   │   ├── diff-nala-list-installed.sh
+│   │   ├── diff-tree.sh
 │   │   ├── diff-vscode-extensions.sh
 │   │   ├── diff-vscode-keybindings.sh
 │   │   ├── diff-vscode-settings.sh
@@ -1257,4 +1258,4 @@ node_modules
     ├── webidl.d.ts
     └── websocket.d.ts
 
-122 directories, 1136 files
+122 directories, 1137 files
