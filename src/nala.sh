@@ -54,5 +54,3 @@ nala list \
     --installed \
     --verbose \
         > ~/.dotfiles/src/nala/nala-list-installed-after.txt
-
-# TODO add ts script to remove anything not here, careful not to delete important apps
