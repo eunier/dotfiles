@@ -5,6 +5,8 @@ flatpak install flathub \
   com.github.libresprite.LibreSprite \
   com.github.tchx84.Flatseal \
   com.spotify.Client \
+  io.github.fabrialberio.pinapp \
+  io.github.josephmawa.Egghead \
   io.github.ronniedroid.concessio \
   md.obsidian.Obsidian
 
