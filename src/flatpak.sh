@@ -10,5 +10,3 @@ flatpak install flathub \
 
 touch ~/.dotfiles/src/flatpak/flatpak-list-before.txt
 flatpak list > ~/.dotfiles/src/flatpak/flatpak-list-after.txt
-
-# TODO add ts script to remove any app not on the install list and remove data
