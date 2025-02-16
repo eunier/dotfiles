@@ -427,6 +427,33 @@ atmel-firmware 1.3-7.1 [Debian/trixie non-free-firmware]
      system. It also provides a small loader utility which can be used to
      accomplish the same thing when hotplug is not in use.
 
+augeas-lenses 1.14.1-1 [Debian/trixie main]
+├── is installed
+└── Set of lenses needed by libaugeas0 to parse config files
+     Augeas parses configuration files described in lenses into a tree structure,
+     which it exposes through its public API. Changes made through the API are
+     written back to the initially read files.
+     .
+     Lenses are the building blocks of the file <-> tree transformation; they
+     combine parsing a file and building the tree (the get transformation), with
+     turning the tree back into an (updated) file (the put transformation).
+     .
+     The transformation works very hard to preserve comments and formatting
+     details. It is controlled by ``lens'' definitions that describe the file
+     format and the transformation into a tree. This package includes the official
+     set of lenses.
+
+augeas-tools 1.14.1-1+b3 [Debian/trixie main]
+├── is installed
+└── Augeas command line tools
+     Augeas is a configuration editing tool. It parses configuration files in their
+     native formats and transforms them into a tree. Configuration changes are made
+     by manipulating this tree and saving it back into native config files.
+     .
+     This package provides command line tools based on libaugeas0:
+     - augtool, a tool to manage configuration files.
+     - augparse, a testing and debugging tool for augeas lenses.
+
 avahi-autoipd 0.8-16 [Debian/trixie main]
 ├── is installed
 └── Avahi IPv4LL network address configuration daemon
@@ -5525,6 +5552,24 @@ geary 46.0-6 [Debian/trixie main]
      can easily read an entire discussion without having to click from message
      to message.
 
+genisoimage 9:1.1.11-4 [Debian/trixie main]
+├── is installed
+└── Creates ISO-9660 CD-ROM filesystem images
+     genisoimage is a pre-mastering program for creating ISO-9660 CD-ROM
+     filesystem images, which can then be written to CD or DVD media using
+     the wodim program. genisoimage includes support for making bootable
+     "El Torito" CDs, as well as CDs with support for the
+     Macintosh HFS filesystem.
+     .
+     The package also includes extra tools useful for working with ISO images:
+      * mkzftree - create ISO-9660 image with compressed contents
+      * dirsplit - easily separate large directory contents into disks of
+        predefined size
+      * geteltorito - extract an El Torito boot image from a CD image
+     .
+     Please install cdrkit-doc if you want most of the documentation and
+     README files.
+
 geoclue-2.0 2.7.2-2 [Debian/trixie main]
 ├── is installed
 └── geoinformation service
@@ -6327,6 +6372,17 @@ gnome-bluetooth-sendto 47.1-1 [Debian/trixie main]
      The GNOME Bluetooth Send To app is an easy way to send files
      to a Bluetooth device.
 
+gnome-boxes 47.0-1 [Debian/trixie main]
+├── is installed
+└── Simple GNOME app to access virtual systems
+     GNOME Boxes is a desktop client to view or use local virtual machines.
+     Boxes is intentionally simple and easy to use.
+     .
+     Hardware virtualization is required.
+     .
+     Previously, GNOME Boxes could also be used to connect to remote computers,
+     but that feature is now provided by the GNOME Connections app.
+
 gnome-browser-connector 42.1-5 [Debian/trixie main]
 ├── is installed
 └── GNOME Shell extensions integration for web browsers
@@ -6812,6 +6868,31 @@ gnupg-utils 2.2.46-1+b1 [Debian/trixie main]
       * migrate-pubring-from-classic-gpg -- use only "modern" formats
       * symcryptrun -- use simple symmetric encryption tool in GnuPG framework
       * watchgnupg -- watch socket-based logs
+
+gnutls-bin 3.8.9-2 [Debian/trixie main]
+├── is installed
+└── GNU TLS library - commandline utilities
+     GnuTLS is a portable library which implements the Transport Layer
+     Security (TLS 1.0, 1.1, 1.2, 1.3) and Datagram
+     Transport Layer Security (DTLS 1.0, 1.2) protocols.
+     .
+     GnuTLS features support for:
+      - certificate path validation, as well as DANE and trust on first use.
+      - the Online Certificate Status Protocol (OCSP).
+      - public key methods, including RSA and Elliptic curves, as well as password
+        and key authentication methods such as SRP and PSK protocols.
+      - all the strong encryption algorithms, including AES and Camellia.
+      - CPU-assisted cryptography with VIA padlock and AES-NI instruction sets.
+      - HSMs and cryptographic tokens, via PKCS #11.
+     .
+     This package contains a commandline interface to the GNU TLS library, which
+     can be used to set up secure connections from e.g. shell scripts, debugging
+     connection issues or managing certificates.
+     .
+     Useful utilities include:
+      - TLS termination: gnutls-cli, gnutls-serv
+      - key and certificate management: certtool, ocsptool, p11tool
+      - credential management: srptool, psktool
 
 gpg 2.2.46-1+b1 [Debian/trixie main]
 ├── is installed
@@ -7648,6 +7729,39 @@ ibus-gtk4 1.5.32~beta1-1 [Debian/trixie main]
      .
      This package contains the GTK4 IM module.
 
+ibverbs-providers 55.0-1 [Debian/trixie main]
+├── is installed
+└── User space provider drivers for libibverbs
+     libibverbs is a library that allows userspace processes to use RDMA
+     "verbs" as described in the InfiniBand Architecture Specification and
+     the RDMA Protocol Verbs Specification.  iWARP ethernet NICs support
+     RDMA over hardware-offloaded TCP/IP, while InfiniBand is a
+     high-throughput, low-latency networking technology.  InfiniBand host
+     channel adapters (HCAs) and iWARP NICs commonly support direct
+     hardware access from userspace (kernel bypass), and libibverbs
+     supports this when available.
+     .
+     An RDMA driver consists of a kernel portion and a user space portion.
+     This package contains the user space verbs drivers:
+     .
+      - bnxt_re: Broadcom NetXtreme-E RoCE HCAs
+      - cxgb4: Chelsio T4 iWARP HCAs
+      - efa: Amazon Elastic Fabric Adapter
+      - erdma: Alibaba Elastic RDMA (iWarp) Adapter
+      - hfi1verbs: Intel Omni-Path HFI
+      - hns: HiSilicon Hip06 SoC
+      - ipathverbs: QLogic InfiniPath HCAs
+      - irdma: Intel Ethernet Connection RDMA
+      - mana: Microsoft Azure Network Adapter
+      - mlx4: Mellanox ConnectX-3 InfiniBand HCAs
+      - mlx5: Mellanox Connect-IB/X-4+ InfiniBand HCAs
+      - mthca: Mellanox InfiniBand HCAs
+      - ocrdma: Emulex OneConnect RDMA/RoCE device
+      - qedr: QLogic QL4xxx RoCE HCAs
+      - rxe: A software implementation of the RoCE protocol
+      - siw: A software implementation of the iWarp protocol
+      - vmw_pvrdma: VMware paravirtual RDMA device
+
 ienglish-common 3.4.06-1 [Debian/trixie main]
 ├── is installed
 └── Common files for British and American ispell dictionaries
@@ -7909,6 +8023,20 @@ iputils-ping 3:20240905-1 [Debian/trixie main]
      .
      This package includes a ping6 utility which supports IPv6 network
      connections.
+
+ipxe-qemu 1.21.1+git20220113.fbbdc3926+dfsg-4 [Debian/trixie main]
+├── is installed
+└── PXE boot firmware - ROM images for qemu
+     iPXE is network boot firmware.  It supports a variety of network cards,
+     including some wireless cards, and variety of network protocols (traditional
+     DHCP, BOOTP and TFTP and also HTTP, iSCSI, SAN via FCoE and Infiniband). It
+     supports scripting.
+     .
+     It is possible to use iPXE as a PXE ROM in the network card or to
+     chainload it from other boot methods.
+     .
+     This package provides boot code for the qemu emulated network cards
+     as boot ROMs.
 
 isc-dhcp-client 4.4.3-P1-5+b1 [Debian/trixie main]
 ├── is installed
@@ -8776,6 +8904,17 @@ libaudit1 1:4.0.2-2+b1 [Debian/trixie main]
      applications to use the audit framework. It is used to monitor systems for
      security related events.
 
+libaugeas0 1.14.1-1+b3 [Debian/trixie main]
+├── is installed
+└── Augeas configuration editing library and API
+     Augeas is a configuration editing tool. It parses configuration files in their
+     native formats and transforms them into a tree. Configuration changes are made
+     by manipulating this tree and saving it back into native config files.
+     .
+     The transformation works very hard to preserve comments and formatting
+     details. It is controlled by ``lens'' definitions that describe the file
+     format and the transformation into a tree.
+
 libauthen-sasl-perl 2.1700-1 [Debian/trixie main]
 ├── is installed
 └── Authen::SASL - SASL Authentication framework
@@ -9127,6 +9266,15 @@ libblkid1:i386 2.40.4-3 [Debian/trixie main]
      quickly and easily find block devices by filesystem UUID or label.
      This allows system administrators to avoid specifying filesystems by
      hard-coded device names and use a logical naming system instead.
+
+libblkio1 1.5.0-2 [Debian/trixie main]
+├── is installed
+└── Block device I/O library (runtime files)
+     libblkio is a library for high-performance block device I/O with support
+     for multi-queue devices. A C API is provided so that applications can use
+     the library from most programming languages.
+     .
+     This package provides the shared library for libblkio.
 
 libblockdev-crypto2 2.28-2 [local]
 ├── is installed
@@ -9505,6 +9653,18 @@ libcaca0 0.99.beta20-5 [Debian/trixie main]
      .
      This package contains the shared library for libcaca.
 
+libcacard0 1:2.8.0-3+b2 [Debian/trixie main]
+├── is installed
+└── Virtual Common Access Card (CAC) Emulator (runtime library)
+     This emulator is designed to provide emulation of actual smart cards to a
+     virtual card reader running in a guest virtual machine. The emulated smart
+     cards can be representations of real smart cards, where the necessary
+     functions such as signing, card removal/insertion, etc. are mapped to real,
+     physical cards which are shared with the client machine the emulator is
+     running on, or the cards could be pure software constructs.
+     .
+     This package provides the runtime library.
+
 libcairo-gobject-perl 1.005-4+b4 [Debian/trixie main]
 ├── is installed
 └── integrate Cairo into the Glib type system in Perl
@@ -9715,6 +9875,28 @@ libcap2:i386 1:2.66-5+b1 [Debian/trixie main]
      powerful root privilege into a set of distinct privileges.
      .
      This package contains the shared library.
+
+libcapstone5 5.0.5-1+b1 [Debian/trixie main]
+├── is installed
+└── lightweight multi-architecture disassembly framework - library
+     Capstone is a lightweight multi-platform, multi-architecture disassembly
+     framework.
+     .
+     Features:
+      - Support hardware architectures: ARM, ARM64 (aka ARMv8), Mips, PowerPC &
+     Intel.
+      - Clean/simple/lightweight/intuitive architecture-neutral API.
+      - Provide details on disassembled instructions (called "decomposer" by some
+     others).
+      - Provide some semantics of the disassembled instruction, such as list of
+     implicit registers read & written.
+      - Implemented in pure C language, with bindings for Java, OCaml and Python
+     ready to use and Ruby, C#, GO & Vala available on git repos.
+      - Native support for Windows & *nix (with OS X, Linux, *BSD & Solaris
+     confirmed).
+      - Thread-safe by design.
+      - Special support for embedding into firmware or OS kernel.
+      - Distributed under the open source BSD license.
 
 libcbor0.10 0.10.2-2 [Debian/trixie main]
 ├── is installed
@@ -10461,6 +10643,16 @@ libdavs2-16:i386 1.7-dmo1+b1 [Unofficial Multimedia Packages/trixie main]
      AVS2 can provide more efficient compression for certain video applications
      such as surveillance as well as low-delay communication such as
      videoconferencing.
+
+libdaxctl1 77-2.2+b2 [Debian/trixie main]
+├── is installed
+└── Utility library for managing the device DAX subsystem
+     "DAX" are file system extensions to bypass the page cache and block layer to
+     mmap persistent memory, from a PMEM block device, directly into a process
+     address space.
+     .
+     This package contains a utility library used by applications to manage the
+     device DAX subsystem in the Linux kernel.
 
 libdazzle-1.0-0 3.44.0-3 [Debian/trixie main]
 ├── is installed
@@ -11387,6 +11579,20 @@ libevview3-3t64 46.3.1-1+b1 [Debian/trixie main]
      This package contains libevview, which provides GTK+ widgets for displaying
      documents.
 
+libexecs1 1.4-2+b2 [Debian/trixie main]
+├── is installed
+└── C library for commands execution
+     s2argv converts a command string into an argv array for execv, execvp,
+     execvpe. execs is like execv taking a string instead of an argv.
+     Similarly execsp and execspe are the counterpart of execvp and execvpe,
+     respectively, using command strings.
+     coprocv, coprocvp, coprocvpe, coprocs, coprocsp execute a command in
+     coprocessing mode.
+     The following functions all work without using a shell:
+     esystem, system_eexecsp execute a command with its arguments from a string.
+     popen_nosh, popen_execsp and pclose_nosh pipe stream to or from a process.
+     system_nosh executes a command with its arguments from a string.
+
 libexempi8 2.6.5-1+b1 [Debian/trixie main]
 ├── is installed
 └── library to parse XMP metadata (Library)
@@ -11604,6 +11810,11 @@ libfdk-aac2:i386 2.0.2-1 [Debian/trixie non-free]
      This package contains the files needed to run a program compiled using
      The Fraunhofer FDK AAC Codec Library.
 
+libfdt1 1.7.2-2+b1 [Debian/trixie main]
+├── is installed
+└── Flat Device Trees manipulation library
+     This is a library containing functions for manipulating Flat Device Trees.
+
 libffado2 2.4.9-1+b2 [Debian/trixie main]
 ├── is installed
 └── FFADO API
@@ -11813,6 +12024,15 @@ libflute-java 1:1.1.6-5 [Debian/trixie main]
      modelled on the SAX API for XML parsers.
      .
      This package contains the library.
+
+libfmt10 10.1.1+ds1-4 [Debian/trixie main]
+├── is installed
+└── fast type-safe C++ formatting library -- library
+     This library provides fast, type-safe, small, C++11-aware replacement of
+     (s)printf and related machinery. In some cases it's noticeably faster
+     than boost::format, boost::lexical_cast and even sprintf itself.
+     .
+     This package contains the shared library.
 
 libfolks-eds26 0.15.9-5 [Debian/trixie main]
 ├── is installed
@@ -12467,11 +12687,50 @@ libgexiv2-2 0.14.3-1+b1 [Debian/trixie main]
      .
      This package contains the shared library.
 
+libgfapi0 11.1-5+b1 [Debian/trixie main]
+├── is installed
+└── GlusterFS gfapi shared library
+     GlusterFS is a clustered file-system capable of scaling to several
+     petabytes. It aggregates various storage bricks over Infiniband RDMA
+     or TCP/IP interconnect into one large parallel network file
+     system. GlusterFS is one of the most sophisticated file system in
+     terms of features and extensibility. It borrows a powerful concept
+     called Translators from GNU Hurd kernel. Much of the code in GlusterFS
+     is in userspace and easily manageable.
+     .
+     This package contains libgfapi.
+
 libgfortran5 14.2.0-16 [Debian/trixie main]
 ├── is installed
 └── Runtime library for GNU Fortran applications
      Library needed for GNU Fortran applications linked against the
      shared library.
+
+libgfrpc0 11.1-5+b1 [Debian/trixie main]
+├── is installed
+└── GlusterFS libgfrpc shared library
+     GlusterFS is a clustered file-system capable of scaling to several
+     petabytes. It aggregates various storage bricks over Infiniband RDMA
+     or TCP/IP interconnect into one large parallel network file
+     system. GlusterFS is one of the most sophisticated file system in
+     terms of features and extensibility. It borrows a powerful concept
+     called Translators from GNU Hurd kernel. Much of the code in GlusterFS
+     is in userspace and easily manageable.
+     .
+     This package contains libgfrpc.
+
+libgfxdr0 11.1-5+b1 [Debian/trixie main]
+├── is installed
+└── GlusterFS libgfxdr shared library
+     GlusterFS is a clustered file-system capable of scaling to several
+     petabytes. It aggregates various storage bricks over Infiniband RDMA
+     or TCP/IP interconnect into one large parallel network file
+     system. GlusterFS is one of the most sophisticated file system in
+     terms of features and extensibility. It borrows a powerful concept
+     called Translators from GNU Hurd kernel. Much of the code in GlusterFS
+     is in userspace and easily manageable.
+     .
+     This package contains libgfxdr.
 
 libgif7 5.2.2-1+b1 [Debian/trixie main]
 ├── is installed
@@ -12679,6 +12938,19 @@ libglu1-mesa 9.0.2-1.1+b3 [Debian/trixie main]
      .
      This package provides the SGI implementation of GLU provided by the
      Mesa project (ergo the "-mesa" suffix).
+
+libglusterfs0 11.1-5+b1 [Debian/trixie main]
+├── is installed
+└── GlusterFS shared library
+     GlusterFS is a clustered file-system capable of scaling to several
+     petabytes. It aggregates various storage bricks over Infiniband RDMA
+     or TCP/IP interconnect into one large parallel network file
+     system. GlusterFS is one of the most sophisticated file system in
+     terms of features and extensibility. It borrows a powerful concept
+     called Translators from GNU Hurd kernel. Much of the code in GlusterFS
+     is in userspace and easily manageable.
+     .
+     This package contains libglusterfs.
 
 libglvnd0 1.7.0-1+b2 [Debian/trixie main]
 ├── is installed
@@ -14140,6 +14412,23 @@ libibus-1.0-5 1.5.32~beta1-1 [Debian/trixie main]
      .
      This package contains the shared library.
 
+libibverbs1 55.0-1 [Debian/trixie main]
+├── is installed
+└── Library for direct userspace use of RDMA (InfiniBand/iWARP)
+     libibverbs is a library that allows userspace processes to use RDMA
+     "verbs" as described in the InfiniBand Architecture Specification and
+     the RDMA Protocol Verbs Specification.  iWARP ethernet NICs support
+     RDMA over hardware-offloaded TCP/IP, while InfiniBand is a
+     high-throughput, low-latency networking technology.  InfiniBand host
+     channel adapters (HCAs) and iWARP NICs commonly support direct
+     hardware access from userspace (kernel bypass), and libibverbs
+     supports this when available.
+     .
+     For this library to be useful, a device-specific plug-in module
+     should also be installed.
+     .
+     This package contains the shared library.
+
 libical3t64 3.0.19-4 [Debian/trixie main]
 ├── is installed
 └── iCalendar library implementation in C (runtime)
@@ -14499,6 +14788,18 @@ libiptcdata0 1.0.5-2.3 [Debian/trixie main]
      files such as images. The library provides routines for parsing,
      viewing, modifying, and saving this metadata.
 
+libiscsi7 1.20.0-4 [Debian/trixie main]
+├── is installed
+└── iSCSI client shared library
+     Libiscsi is a clientside library to implement the iSCSI protocol
+     that can be used to access resource of an iSCSI Target.
+     .
+     The library is fully async with regards to iscsi commands and scsi
+     tasks, but a sync layer is also provided for ease of use for simpler
+     applications.
+     .
+     This package contains the library itself.
+
 libisl23 0.27-1 [Debian/trixie main]
 ├── is installed
 └── manipulating sets and relations of integer points bounded by linear constraints
@@ -14510,6 +14811,17 @@ libisl23 0.27-1 [Debian/trixie main]
      based on generalized basis reduction.
      .
      This package contains the runtime library.
+
+libisns0t64 0.101-1+b1 [Debian/trixie main]
+├── is installed
+└── Internet Storage Name Service - shared libraries
+     Open-iSNS is an implementation of the Internet Storage Name Service
+     (iSNS), according to RFC 4171, which facilitates automated discovery,
+     management, and configuration of iSCSI and Fibre Channel devices on a
+     TCP/IP network.
+     .
+     This package provides the libisns shared library for use in client
+     applications.
 
 libisoburn1t64 1.5.6-1.2+b1 [Debian/trixie main]
 ├── is installed
@@ -16165,6 +16477,16 @@ libncursesw6 6.5+20250125-2 [Debian/trixie main]
      This package contains the shared libraries necessary to run programs
      compiled with ncursesw, which includes support for wide characters.
 
+libndctl6 77-2.2+b2 [Debian/trixie main]
+├── is installed
+└── Utility library for managing the libnvdimm subsystem
+     The nvdimm subsystem defines a kernel device model and control message
+     interface for platform NVDIMM resources like those defined by the ACPI 6+ NFIT
+     (NVDIMM Firmware Interface Table).
+     .
+     This package contains a utility library for managing the libnvdimm
+     (non-volatile memory device) sub-system in the Linux kernel.
+
 libndp0 1.9-1+b1 [Debian/trixie main]
 ├── is installed
 └── Library for Neighbor Discovery Protocol
@@ -16548,6 +16870,16 @@ libnss-myhostname 257.2-3 [Debian/trixie main]
      .
      Installing this package automatically adds myhostname to /etc/nsswitch.conf.
 
+libnss-mymachines 257.2-3 [Debian/trixie main]
+├── is installed
+└── nss module to resolve hostnames for local container instances
+     nss-mymachines is a plugin for the GNU Name Service Switch (NSS) functionality
+     of the GNU C Library (glibc) providing hostname resolution for local containers
+     that are registered with systemd-machined.service(8). The container names are
+     resolved to IP addresses of the specific container, ordered by their scope.
+     .
+     Installing this package automatically adds mymachines to /etc/nsswitch.conf.
+
 libnss-nis 3.1-5+b1 [Debian/trixie main]
 ├── is installed
 └── NSS module for using NIS as a naming service
@@ -16864,6 +17196,29 @@ libopenh264-7:i386 2.5.0+dfsg-1 [Debian/trixie main]
      OpenH264 is a codec library which supports H.264 encoding and decoding.
      It is suitable for use in real time applications such as WebRTC.
 
+libopeniscsiusr 2.1.10-3 [Debian/trixie main]
+├── is installed
+└── iSCSI userspace library
+     The Open-iSCSI project is a high-performance, transport independent,
+     multi-platform implementation of RFC3720 iSCSI.
+     .
+     Open-iSCSI is partitioned into user and kernel parts.
+     .
+     The kernel portion of Open-iSCSI is a from-scratch code
+     licensed under GPL. The kernel part implements iSCSI data path
+     (that is, iSCSI Read and iSCSI Write), and consists of three
+     loadable modules: scsi_transport_iscsi.ko, libiscsi.ko and iscsi_tcp.ko.
+     .
+     User space contains the entire control plane: configuration
+     manager, iSCSI Discovery, Login and Logout processing,
+     connection-level error processing, Nop-In and Nop-Out handling,
+     and (in the future:) Text processing, iSNS, SLP, Radius, etc.
+     .
+     The user space Open-iSCSI consists of a daemon process called
+     iscsid, and a management utility iscsiadm.
+     .
+     This package contains the iSCSI userspace library.
+
 libopenjp2-7 2.5.3-1 [Debian/trixie main]
 ├── is installed
 └── JPEG 2000 image compression/decompression library
@@ -16996,6 +17351,18 @@ libosinfo-1.0-0 1.12.0-2 [Debian/trixie main]
      programming languages.
      .
      This package contains the shared library.
+
+libosinfo-bin 1.12.0-2 [Debian/trixie main]
+├── is installed
+└── Tools for querying the osinfo database via libosinfo
+     libosinfo is a GObject based library API for managing information about
+     operating systems, hypervisors and the (virtual) hardware devices they
+     can support. It includes a database containing device metadata and
+     provides APIs to match/identify optimal devices for deploying an
+     operating system on a hypervisor.
+     .
+     This package contains the runtime files to detect operating systems and query
+     the database.
 
 libosinfo-l10n 1.12.0-2 [Debian/trixie main]
 ├── is installed
@@ -17445,6 +17812,18 @@ libpgm-5.3-0t64 5.3.128~dfsg-2.1+b1 [Debian/trixie main]
      .
      This is the runtime package for programs that use the OpenPGM library.
 
+libphodav-3.0-0 3.0-9+b2 [Debian/trixie main]
+├── is installed
+└── WebDAV server implementation using libsoup
+     phởdav is a WebDAV server implementation using libsoup (RFC 4918).
+
+libphodav-3.0-common 3.0-9 [Debian/trixie main]
+├── is installed
+└── WebDAV server implementation using libsoup (common files)
+     phởdav is a WebDAV server implementation using libsoup (RFC 4918).
+     .
+     This package contains the translations files.
+
 libphonenumber8 8.13.51+ds-4 [Debian/trixie main]
 ├── is installed
 └── parsing/formatting/validating phone numbers
@@ -17555,6 +17934,19 @@ libplymouth5 24.004.60-2+b2 [Debian/trixie main]
      boot animation while the boot process happens in the background.
      .
      This package contains the shared libraries.
+
+libpmem1 1.13.1-1.1+b1 [Debian/trixie main]
+├── is installed
+└── Persistent Memory low level support library, v1 runtime
+     libpmem provides low level persistent memory support.  In particular, support
+     for the persistent memory instructions for flushing changes to pmem is
+     provided.
+     .
+     This library is provided for software which tracks every store to pmem and
+     needs to flush those changes to durability.  Most developers will find higher
+     level libraries like libpmemobj to be much more convenient.
+     .
+     This package provides binary runtime for version 1 of the API.
 
 libpng16-16t64 1.6.46-4 [Debian/trixie main]
 ├── is installed
@@ -18152,6 +18544,14 @@ librabbitmq4 0.15.0-1 [Debian/trixie main]
      .
      This package includes the library itself.
 
+librados2 18.2.4+ds-13 [Debian/trixie main]
+├── is installed
+└── RADOS distributed object store client library
+     RADOS is a reliable, autonomic distributed object storage cluster
+     developed as part of the Ceph distributed storage system.  This is a
+     shared library allowing applications to access the distributed object
+     store using a simple file-like interface.
+
 libraptor2-0 2.0.16-4+b1 [Debian/trixie main]
 ├── is installed
 └── Raptor 2 RDF syntax library
@@ -18214,6 +18614,14 @@ libraw23t64 0.21.3-1+b1 [Debian/trixie main]
      .
      This package contains the shared library.
 
+librbd1 18.2.4+ds-13 [Debian/trixie main]
+├── is installed
+└── RADOS block device client library
+     RBD is a block device striped across multiple distributed objects
+     in RADOS, a reliable, autonomic distributed object storage cluster
+     developed as part of the Ceph distributed storage system.  This is a
+     shared library allowing applications to manage these block devices.
+
 librdf0t64 1.0.17-4+b1 [Debian/trixie main]
 ├── is installed
 └── Redland Resource Description Framework (RDF) library
@@ -18228,6 +18636,24 @@ librdf0t64 1.0.17-4+b1 [Debian/trixie main]
      backed storages, the librdf-storage-postgresql, librdf-storage-mysql,
      librdf-storage-sqlite or librdf-storage-virtuoso packages should be
      installed.
+
+librdmacm1t64 55.0-1 [Debian/trixie main]
+├── is installed
+└── Library for managing RDMA connections
+     librdmacm is a library that allows applications to set up reliable
+     connected and unreliable datagram transfers when using RDMA adapters.
+     It provides a transport-neutral interface in the sense that the same
+     code can be used for both InfiniBand and iWARP adapters.  The
+     interface is based on sockets, but adapted for queue pair (QP) based
+     semantics: communication must use a specific RDMA device, and data
+     transfers are message-based.
+     .
+     librdmacm only provides communication management (connection setup
+     and tear-down) and works in conjunction with the verbs interface
+     provided by libibverbs, which provides the interface used to actually
+     transfer data.
+     .
+     This package contains the shared library.
 
 libre2-11 20240501-3+b1 [Debian/trixie main]
 ├── is installed
@@ -18938,6 +19364,14 @@ libsane1 1.3.1-1 [Debian/trixie main]
      xsane. Command line frontend scanimage, saned and sane-find-scanner are
      available in the sane-utils package.
 
+libsanlock-client1 3.8.5-3+b3 [Debian/trixie main]
+├── is installed
+└── Shared storage lock manager (client library)
+     Sanlock ensures that single disk cannot be used by more than
+     one running VM at a time, across any host in a network.
+     .
+     This package contains the public shared library for libvirt.
+
 libsasl2-2 2.1.28+dfsg1-8+b1 [Debian/trixie main]
 ├── is installed
 └── Cyrus SASL - authentication abstraction library
@@ -19344,6 +19778,14 @@ libslang2 2.3.3-5+b2 [Debian/trixie main]
      as jed and slrn). If you plan on doing development with S-Lang, you will
      need the companion -dev package as well.
 
+libslirp0 4.8.0-1+b1 [Debian/trixie main]
+├── is installed
+└── General purpose TCP-IP emulator library
+     libslirp is a user-mode networking library used by virtual machines,
+     containers or various tools.
+     .
+     This package contains the library itself.
+
 libsm6 2:1.2.4-1 [Debian/trixie main]
 ├── is installed
 └── X11 Session Management library
@@ -19721,6 +20163,34 @@ libspf2-2t64 1.2.10-8.3 [Debian/trixie main]
      that it is coming from. This prevents email forgery, commonly used by
      spammers, scammers and email viruses/worms.
 
+libspice-client-glib-2.0-8 0.42-2.1+b1 [Debian/trixie main]
+├── is installed
+└── GObject for communicating with Spice servers (runtime library)
+     libspice-glib4 provides glib objects for spice protocol
+     decoding and surface rendering
+     .
+     This package provide the runtime library.
+
+libspice-client-gtk-3.0-5 0.42-2.1+b1 [Debian/trixie main]
+├── is installed
+└── GTK3 widget for SPICE clients (runtime library)
+     libspice-gtk3 provides gtk3 widget to show spice display
+     and accept user input.
+     .
+     This package provide the runtime library.
+
+libspice-server1 0.15.2-1+b1 [Debian/trixie main]
+├── is installed
+└── Implements the server side of the SPICE protocol
+     The Simple Protocol for Independent Computing Environments (SPICE) is
+     a remote display system built for virtual environments which allows
+     you to view a computing 'desktop' environment not only on the machine
+     where it is running, but from anywhere on the Internet and from a wide
+     variety of machine architectures.
+     .
+     This package contains the run-time libraries for any application that
+     wishes to be a SPICE server.
+
 libsqlite3-0 3.46.1-1 [Debian/trixie main]
 ├── is installed
 └── SQLite 3 shared library
@@ -19772,6 +20242,17 @@ libss2 1.47.2-1 [Debian/trixie main]
      vector, and then dispatch it to a handler function.
      .
      It was originally inspired by the Multics SubSystem library.
+
+libssh-4 0.11.1-1 [Debian/trixie main]
+├── is installed
+└── tiny C SSH library (OpenSSL flavor)
+     The ssh library was designed to be used by programmers needing a working SSH
+     implementation by the mean of a library. The complete control of the client
+     is made by the programmer. With libssh, you can remotely execute programs,
+     transfer files, use a secure and transparent tunnel for your remote programs.
+     With its SFTP implementation, you can play with remote files easily.
+     .
+     This package contains shared libraries linked against OpenSSL.
 
 libssh2-1t64 1.11.1-1 [Debian/trixie main]
 ├── is installed
@@ -20368,6 +20849,12 @@ libtotem0 43.1-1 [Debian/trixie main]
      .
      This library is only useful within Totem. You should not have to
      manually install this package.
+
+libtpms0 0.9.2-3.1+b2 [Debian/trixie main]
+├── is installed
+└── TPM emulation library
+     Libtpms is a library that provides TPM functionality. Libtpm is used
+     by swtpm package.
 
 libtracker-sparql-3.0-0 3.7.3-2+b1 [Debian/trixie main]
 ├── is installed
@@ -20980,6 +21467,24 @@ libusbmuxd-2.0-7 2.1.0-1+b1 [Debian/trixie main]
      .
      This package contains the shared library.
 
+libusbredirhost1t64 0.15.0-1 [Debian/trixie main]
+├── is installed
+└── Implementing the usb-host (*) side of a usbredir connection (runtime)
+     Usbredirhost is a library implementing the usb-host (*) side of a
+     usbredir connection. All that an application wishing to implement
+     an usb-host needs to do is:
+      * Provide a libusb device handle for the device
+      * Provide write and read callbacks for the actual transport of usbredir data
+      * Monitor for usbredir and libusb read/write events and call their handlers
+     .
+     This package contains the runtime library.
+
+libusbredirparser1t64 0.15.0-1 [Debian/trixie main]
+├── is installed
+└── Parser for the usbredir protocol (runtime)
+     Usbredirparse is a library containing the parser for the usbredir protocol.
+     This package contains the runtime library.
+
 libustr-1.0-1 1.0.4-6.1+b1 [local]
 ├── is installed
 └── Micro string library: shared library
@@ -21167,6 +21672,35 @@ libva2:i386 2.22.0-1+b1 [Debian/trixie main]
      .
      This package provides the main libva library.
 
+libvdeplug2t64 4.0.1-5.1+b1 [Debian/trixie main]
+├── is installed
+└── Virtual Distributed Ethernet - Plug library
+     VDE provides a versatile support to create Ethernet compliant
+     virtual networks. The vdeplug library, like an ethernet plug, can
+     be used to connect virtual machines, namespaces, IoTh (Internet
+     of Threads) processes or VDE utility commands to virtual networks.
+     .
+     This library uses plug-ins to support several VDE implementations
+     and to be open to new developments in virtual networking.
+     .
+     Several plugins are included as standard extensions of the library, e.g.:
+      - vde: connect to legacy vde_switch (provided by vde2) or
+        to virtual networking sockets, see below
+      - vxvde: this plug-in implements distributed virtual switches
+        (implementation of a Local Area Cloud)
+      - tap: connect to a tuntap interface
+      - udp: udp tunnelling
+      - ptp: point to point connection
+      - vxlan: the plug becomes a vxlan's VTEP
+      - cmd: stream the network flow to a command
+     A plug can provide virtual networking sockets where other plug can
+     be connected (using the vde plugin)
+      - hub: the plug implements a hub
+      - switch: the plug implements a switch
+     .
+     This package contains a modular library and a set of plugins supporting
+     several VDE implementations
+
 libvdpau-va-gl1 0.4.2-2 [Debian/trixie main]
 ├── is installed
 └── VDPAU driver with OpenGL/VAAPI backend
@@ -21221,6 +21755,284 @@ libvidstab1.2 2:1.1.1-dmo1+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── Video stabilization library.
      This package contains runtime files.
+
+libvirglrenderer1 1.1.0-2 [Debian/trixie main]
+├── is installed
+└── virtual GPU for KVM virtualization
+     Library used by qemu to implement 3D GPU support for the virtio GPU.
+     .
+     Virgil is a research project to investigate the possibility of creating
+     a virtual 3D GPU for use inside qemu virtual machines, that allows the
+     guest operating system to use the capabilities of the host GPU
+     to accelerate 3D rendering. The plan is to have a guest GPU that is fully
+     independent of the host GPU.
+
+libvirt-clients 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Programs for the libvirt library
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the libvirt shell virsh and other client binaries.
+
+libvirt-common 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── data files for the libvirt library
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains data files needed by the library.
+
+libvirt-daemon 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the daemon libvirtd to manage the hypervisors.
+
+libvirt-daemon-common 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon common files
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains files needed by the various libvirt daemons.
+
+libvirt-daemon-driver-interface 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon interface driver
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the libvirtd interface driver.
+
+libvirt-daemon-driver-lxc 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon LXC connection driver
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the libvirtd connection driver for LXC.
+
+libvirt-daemon-driver-network 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon network driver
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the libvirtd network driver.
+
+libvirt-daemon-driver-nodedev 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon nodedev driver
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the libvirtd node device (nodedev) driver.
+
+libvirt-daemon-driver-nwfilter 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon nwfilter driver
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the libvirtd network filter (nwfilter) driver.
+
+libvirt-daemon-driver-qemu 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon QEMU connection driver
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the libvirtd connection driver for QEMU.
+
+libvirt-daemon-driver-secret 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon secret driver
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the libvirtd secret driver.
+
+libvirt-daemon-driver-storage 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon storage driver
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the libvirtd storage driver.
+
+libvirt-daemon-driver-storage-disk 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon disk storage driver
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the libvirtd storage driver that handles volumes as
+     partitions of a physical disk.
+
+libvirt-daemon-driver-storage-iscsi 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon iSCSI storage driver
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the libvirtd storage driver for iSCSI volumes.
+
+libvirt-daemon-driver-storage-logical 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon logical storage driver
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains a libvirtd storage driver for volumes managed by
+     Logical Volume Manager (LVM).
+
+libvirt-daemon-driver-storage-mpath 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon mpath storage driver
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains a libvirtd storage driver for multipath (mpath) volumes.
+
+libvirt-daemon-driver-storage-scsi 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon SCSI storage driver
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the libvirtd storage driver for local SCSI devices.
+
+libvirt-daemon-driver-vbox 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon VirtualBox connection driver
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the libvirtd connection driver for VirtualBox.
+
+libvirt-daemon-driver-xen 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon Xen connection driver
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the libvirtd connection driver for Xen.
+
+libvirt-daemon-lock 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization lock daemon
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the virtlockd daemon, which handles storage locking.
+
+libvirt-daemon-log 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization log daemon
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the virtlogd daemon, which handles logging.
+
+libvirt-daemon-plugin-lockd 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon lockd plugin
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the plugin that implements disk locking using virtlockd.
+
+libvirt-daemon-plugin-sanlock 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── Virtualization daemon sanlock plugin
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the plugin that implements disk locking using sanlock.
+
+libvirt-glib-1.0-0 5.0.0-2+b4 [Debian/trixie main]
+├── is installed
+└── libvirt GLib and GObject mapping library
+     The libvirt-glib library eases integration of libvirt's events and API into
+     GLib and GObject based applications.
+     .
+     The API/ABI of this library are still considered unstable.
+
+libvirt-glib-1.0-data 5.0.0-2 [Debian/trixie main]
+├── is installed
+└── Common files for libvirt GLib library
+     The libvirt-glib library eases integration of libvirt's events and API into
+     GLib and GObject based applications.
+     .
+     This package is needed for the runtime libraries to display messages in
+     languages other than English.
+
+libvirt-l10n 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── localization for the libvirt library
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
+     .
+     This package contains the localization files.
+
+libvirt0 11.0.0-2 [Debian/trixie main]
+├── is installed
+└── library for interfacing with different virtualization systems
+     Libvirt is a C toolkit to interact with the virtualization capabilities
+     of recent versions of Linux (and other OSes). The library aims at providing
+     a long term stable C API for different virtualization mechanisms. It currently
+     supports QEMU, KVM, XEN, OpenVZ, LXC, and VirtualBox.
 
 libvisio-0.1-1 0.1.7-1+b4 [Debian/trixie main]
 ├── is installed
@@ -22690,6 +23502,59 @@ libxdmcp6:i386 1:1.1.5-1 [Debian/trixie main]
      This module can be found at
      https://gitlab.freedesktop.org/xorg/lib/libXdmcp
 
+libxencall1 4.19.1-1+b2 [Debian/trixie main]
+├── is installed
+└── Xen runtime library - libxencall
+     Shared library for Xen utilities.
+
+libxendevicemodel1 4.19.1-1+b2 [Debian/trixie main]
+├── is installed
+└── Xen runtime libraries - libxendevicemodel
+     Shared library for Xen utilities.
+
+libxenevtchn1 4.19.1-1+b2 [Debian/trixie main]
+├── is installed
+└── Xen runtime libraries - libxenevtchn
+     Shared library for Xen utilities.
+
+libxenforeignmemory1 4.19.1-1+b2 [Debian/trixie main]
+├── is installed
+└── Xen runtime libraries - libxenforeignmemory
+     Shared library for Xen utilities.
+
+libxengnttab1 4.19.1-1+b2 [Debian/trixie main]
+├── is installed
+└── Xen runtime libraries - libxengnttab
+     Shared library for Xen utilities.
+
+libxenhypfs1 4.19.1-1+b2 [Debian/trixie main]
+├── is installed
+└── Xen runtime library - libxenhypfs
+     Shared library for Xen utilities.
+
+libxenmisc4.19 4.19.1-1+b2 [Debian/trixie main]
+├── is installed
+└── Xen runtime libraries - miscellaneous, versioned ABI
+     Shared libraries for Xen utilities.
+     This package contains libraries whose ABI changes with each
+     new upstream Xen release, which include ones which embed
+     knowledge of hypervisor-version-specific hypercall ABIs.
+
+libxenstore4 4.19.1-1+b2 [Debian/trixie main]
+├── is installed
+└── Xen runtime libraries - libxenstore
+     Shared library for Xen utilities.
+
+libxentoolcore1 4.19.1-1+b2 [Debian/trixie main]
+├── is installed
+└── Xen runtime libraries - libxentoolcore
+     Shared library for Xen utilities.
+
+libxentoollog1 4.19.1-1+b2 [Debian/trixie main]
+├── is installed
+└── Xen runtime libraries - libxentoollog
+     Shared library for Xen utilities.
+
 libxext-dev 2:1.3.4-1+b3 [Debian/trixie main]
 ├── is installed
 └── X11 miscellaneous extensions library (development headers)
@@ -23162,6 +24027,20 @@ libxml2 2.12.7+dfsg+really2.9.14-0.2+b1 [Debian/trixie main]
      .
      This package provides a library providing an extensive API to handle
      such XML data files.
+
+libxml2-utils 2.12.7+dfsg+really2.9.14-0.2+b1 [Debian/trixie main]
+├── is installed
+└── GNOME XML library - utilities
+     XML is a metalanguage to let you design your own markup language.
+     A regular markup language defines a way to describe information in
+     a certain class of documents (eg HTML). XML lets you define your
+     own customized markup languages for many classes of document. It
+     can do this because it's written in SGML, the international standard
+     metalanguage for markup languages.
+     .
+     This package provides xmllint, a tool for validating and reformatting
+     XML documents, and xmlcatalog, a tool to parse and manipulate XML or
+     SGML catalog files.
 
 libxml2:i386 2.12.7+dfsg+really2.9.14-0.2+b1 [Debian/trixie main]
 ├── is installed
@@ -24260,6 +25139,14 @@ mawk 1.3.4.20250131-1 [Debian/trixie main]
      Mawk is smaller and much faster than gawk. It has some compile-time
      limits such as NF = 32767 and sprintf buffer = 1020.
 
+mdevctl 1.3.0-3+b1 [Debian/trixie main]
+├── is installed
+└── Mediated device management utility for Linux
+     mdevctl is a utility for managing and persisting devices in the mediated
+     device framework of the Linux kernel. Mediated devices are sub-devices
+     of a parent device (ex. a vGPU) which can be dynamically created and
+     potentially used by drivers like vfio-mdev for assignment to virtual machines.
+
 media-types 10.1.0 [Debian/trixie main]
 ├── is installed
 └── List of standard media types and their usual file extension
@@ -24577,6 +25464,19 @@ netbase 6.4 [Debian/trixie main]
      In particular, it supplies common name-to-number mappings in /etc/services,
      /etc/rpc, /etc/protocols and /etc/ethertypes.
 
+netcat-openbsd 1.228-1 [Debian/trixie main]
+├── is installed
+└── TCP/IP swiss army knife
+     A simple Unix utility which reads and writes data across network connections
+     using TCP or UDP protocol. It is designed to be a reliable "back-end" tool
+     that can be used directly or easily driven by other programs and scripts. At
+     the same time it is a feature-rich network debugging and exploration tool,
+     since it can create almost any kind of connection you would need and has
+     several interesting built-in capabilities.
+     .
+     This package contains the OpenBSD rewrite of netcat, including support for
+     IPv6, proxies, and Unix sockets.
+
 netcat-traditional 1.10-50 [Debian/trixie main]
 ├── is installed
 └── TCP/IP swiss army knife
@@ -24667,6 +25567,30 @@ ocl-icd-libopencl1:i386 2.3.2-1+b2 [Debian/trixie main]
      library that can be used to load any (free or non-free) installable client
      driver (ICD) for OpenCL. It acts as a demultiplexer so several ICD can
      be installed and used together.
+
+open-iscsi 2.1.10-3 [Debian/trixie main]
+├── is installed
+└── iSCSI initiator tools
+     The Open-iSCSI project is a high-performance, transport independent,
+     multi-platform implementation of RFC3720 iSCSI.
+     .
+     Open-iSCSI is partitioned into user and kernel parts.
+     .
+     The kernel portion of Open-iSCSI is a from-scratch code
+     licensed under GPL. The kernel part implements iSCSI data path
+     (that is, iSCSI Read and iSCSI Write), and consists of three
+     loadable modules: scsi_transport_iscsi.ko, libiscsi.ko and iscsi_tcp.ko.
+     .
+     User space contains the entire control plane: configuration
+     manager, iSCSI Discovery, Login and Logout processing,
+     connection-level error processing, Nop-In and Nop-Out handling,
+     and (in the future:) Text processing, iSNS, SLP, Radius, etc.
+     .
+     The user space Open-iSCSI consists of a daemon process called
+     iscsid, and a management utility iscsiadm.
+     .
+     This package includes a daemon, iscsid, and a management utility,
+     iscsiadm.
 
 openjdk-21-jre 21.0.6+7-1 [Debian/trixie main]
 ├── is installed
@@ -24765,6 +25689,13 @@ osinfo-db 0.20250124-1 [Debian/trixie main]
      .
      This package contains the actual database files.
 
+ovmf 2024.11-5 [Debian/trixie main]
+├── is installed
+└── UEFI firmware for 64-bit x86 virtual machines
+     Open Virtual Machine Firmware is a build of EDK II for 64-bit x86 virtual
+     machines. It includes full support for UEFI, including Secure Boot, allowing
+     use of UEFI in place of a traditional BIOS in your VM.
+
 p11-kit 0.25.5-3 [Debian/trixie main]
 ├── is installed
 └── p11-glue utilities
@@ -24841,6 +25772,19 @@ parted 3.6-4+b1 [Debian/trixie main]
      data loss. While there are no such bugs known at the moment, they
      could exist, so please back up all important files before running
      it, and do so at your own risk.
+
+passt 0.0~git20250121.4f2c8e7-1 [Debian/trixie main]
+├── is installed
+└── user-mode networking daemons for virtual machines and namespaces
+     passt implements a translation layer between a Layer-2 network interface and
+     native Layer-4 sockets (TCP, UDP, ICMP/ICMPv6 echo) on a host. It doesn't
+     require any capabilities or privileges, and it can be used as a simple
+     replacement for Slirp.
+     .
+     pasta (same binary as passt, different command) offers equivalent
+     functionality, for network namespaces: traffic is forwarded using a tap
+     interface inside the namespace, without the need to create further interfaces
+     on the host, hence not requiring any capabilities or privileges.
 
 passwd 1:4.16.0-7 [Debian/trixie main]
 ├── is installed
@@ -26044,6 +26988,93 @@ python3.13-minimal 3.13.2-1 [Debian/trixie main]
      See /usr/share/doc/python3.13-minimal/README.Debian for a list of the modules
      contained in this package.
 
+qemu-block-extra 1:9.2.0+ds-5 [Debian/trixie main]
+├── is installed
+└── extra block backend modules for qemu-system and qemu-utils
+     QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
+     CRIS, i386, LoongArch, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, RISC-V,
+     S390x, SH4, SPARC, x86-64, Xtensa and other emulations. By using dynamic
+     translation it achieves reasonable speed while being easy to port on new host
+     CPUs.
+     .
+     This package provides extra block device backend modules for qemu-system
+     emulation and qemu-img from qemu-utils package, which are rarely used and
+     has extra dependencies.
+
+qemu-system-common 1:9.2.0+ds-5 [Debian/trixie main]
+├── is installed
+└── QEMU full system emulation binaries (common files)
+     QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
+     CRIS, i386, LoongArch, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, RISC-V,
+     S390x, SH4, SPARC, x86-64, Xtensa and other emulations. By using dynamic
+     translation it achieves reasonable speed while being easy to port on new host
+     CPUs.
+     .
+     This package provides common files needed for target-specific
+     full system emulation (qemu-system-*) packages.
+
+qemu-system-data 1:9.2.0+ds-5 [Debian/trixie main]
+├── is installed
+└── QEMU full system emulation (data files)
+     This package provides architecture-neutral data files
+     (such as keyboard definitions, icons) for system-mode
+     QEMU emulation (qemu-system-*) packages.
+
+qemu-system-gui 1:9.2.0+ds-5 [Debian/trixie main]
+├── is installed
+└── QEMU full system emulation binaries (graphical display and audio modules)
+     This package provides optional graphical guest display modules (currently GTK
+     and SDL) and audio backend modules for full system emulation (qemu-system-*)
+     packages.
+     .
+     This package is not a management/control/GUI interface for qemu, use something
+     else (like virt-manager) for that.
+
+qemu-system-modules-opengl 1:9.2.0+ds-5 [Debian/trixie main]
+├── is installed
+└── QEMU full system emulation binaries (OpenGL display modules)
+     This package provides optional OpenGL display support modules for QEMU full
+     system emulation (qemu-system-*) packages.  It also provides D-Bus display
+     type.
+
+qemu-system-modules-spice 1:9.2.0+ds-5 [Debian/trixie main]
+├── is installed
+└── QEMU full system emulation binaries (spice display modules)
+     This package provides optional spice display (qxl and spice-app) and audio
+     support modules for QEMU full system emulation (qemu-system-*) packages.
+
+qemu-system-x86 1:9.2.0+ds-5 [Debian/trixie main]
+├── is installed
+└── QEMU full system emulation binaries (x86)
+     QEMU is a fast processor emulator: currently the package supports
+     i386 and x86-64 emulation. By using dynamic translation it achieves
+     reasonable speed while being easy to port on new host CPUs.
+     .
+     This package provides the full system emulation binaries to emulate
+     the following x86 hardware: i386 x86_64 (amd64).
+     .
+     In system emulation mode QEMU emulates a full system, including a processor
+     and various peripherals.  It enables easier testing and debugging of system
+     code.  It can also be used to provide virtual hosting of several virtual
+     machines on a single server.
+     .
+     On x86 host hardware this package also enables KVM kernel virtual machine
+     usage on systems which supports it.
+
+qemu-utils 1:9.2.0+ds-5 [Debian/trixie main]
+├── is installed
+└── QEMU utilities
+     QEMU is a fast processor emulator: currently the package supports Alpha, ARM,
+     CRIS, i386, LoongArch, M68k (ColdFire), MicroBlaze, MIPS, PowerPC, RISC-V,
+     S390x, SH4, SPARC, x86-64, Xtensa and other emulations. By using dynamic
+     translation it achieves reasonable speed while being easy to port on new host
+     CPUs.
+     .
+     This package provides QEMU related utilities:
+      * qemu-img: QEMU disk image utility
+      * qemu-io:  QEMU disk exerciser
+      * qemu-nbd: QEMU disk network block device server
+
 qt5-gtk-platformtheme 5.15.15+dfsg-4 [Debian/trixie main]
 ├── is installed
 └── Qt 5 GTK+ 3 platform theme
@@ -26297,6 +27328,16 @@ sane-utils 1.3.1-1 [Debian/trixie main]
      This package includes the command line frontend scanimage, the saned
      server and the sane-find-scanner utility, along with their documentation.
 
+seabios 1.16.3-2 [Debian/trixie main]
+├── is installed
+└── Legacy BIOS implementation
+     SeaBIOS is a legacy BIOS implementation, aimed at supporting not only
+     emulated hosts such as QEMU, but also real hardware.
+     .
+     Note, however, that SeaBIOS does not handle early initialization of core
+     chipsets, so don't even think of flashing it to your board (look at
+     Coreboot for that).
+
 seahorse 47.0.1-1+b1 [Debian/trixie main]
 ├── is installed
 └── GNOME front end for GnuPG
@@ -26526,6 +27567,12 @@ speech-dispatcher-espeak-ng 0.11.5-5.1 [Debian/trixie main]
      .
      This package contains the output module for the espeak-ng speech synthesizer.
 
+spice-client-glib-usb-acl-helper 0.42-2.1+b1 [Debian/trixie main]
+├── is installed
+└── Helper tool to validate usb ACLs
+     When passthrough USB devices to VMs, spice-client-glib-usb-acl-helper
+     is called to validate usb ACLs via policykit policy
+
 spterm 0.3.3 [SparkyLinux/sisters main]
 ├── is installed
 └── spterm
@@ -26615,6 +27662,29 @@ switcheroo-control 2.6-3 [Debian/trixie main]
      set xdg.force_integrated=0 as a kernel command-line option in your
      bootloader.
 
+swtpm 0.7.1-1.5 [Debian/trixie main]
+├── is installed
+└── Libtpms-based TPM emulator
+     The swtpm package provides TPM emulators that listen for TPM commands
+     on sockets, character devices, or CUSE devices.
+
+swtpm-libs 0.7.1-1.5 [Debian/trixie main]
+├── is installed
+└── Common libraries for TPM emulators
+     The swtpm-libs package provides the shared libraries for the swtpm
+     and swtpm-cuse packages.
+
+swtpm-tools 0.7.1-1.5 [Debian/trixie main]
+├── is installed
+└── Tools for the TPM emulator
+     The swtpm-tools package contains the following types of tools:
+      - swtpm_bios: Tool for initializing the TPM
+      - swtpm_ioctl: Tool for controlling the CUSE TPM
+      - swtpm_setup: Tool for creating the initial state of the TPM; this
+          tool basically simulates TPM manufacturing where certificates are
+          written into the NVRAM of the TPM
+      - swtpm_cert: Creation of certificates for the TPM (x509)
+
 system-config-printer-common 1.5.18-3 [Debian/trixie main]
 ├── is installed
 └── backend and the translation files for system-config-printer
@@ -26647,6 +27717,15 @@ systemd 257.2-3 [Debian/trixie main]
      .
      Installing the systemd package will not switch your init system unless you
      boot with init=/lib/systemd/systemd or install systemd-sysv in addition.
+
+systemd-container 257.2-3 [Debian/trixie main]
+├── is installed
+└── systemd container/nspawn tools
+     This package provides systemd's tools for nspawn and container/VM management:
+      * systemd-nspawn
+      * systemd-machined and machinectl
+      * systemd-importd
+      * systemd-portabled and portablectl
 
 systemd-cryptsetup 257.2-3 [Debian/trixie main]
 ├── is installed

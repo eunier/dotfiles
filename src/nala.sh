@@ -28,6 +28,7 @@ sudo nala install \
     fonts-cascadia-code \
     geary \
     git \
+    gnome-boxes \
     gnome-shell-extension-manager \
     gnome-software-plugin-flatpak \
     keepassxc \
