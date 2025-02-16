@@ -600,7 +600,6 @@
 ├── src
 │   ├── apt.sh
 │   ├── autostart
-│   │   ├── autostart-after.txt
 │   │   └── autostart-before.txt
 │   ├── autostart.sh
 │   ├── bun.sh
@@ -1256,4 +1255,4 @@ node_modules
     ├── webidl.d.ts
     └── websocket.d.ts
 
-122 directories, 1135 files
+122 directories, 1134 files
