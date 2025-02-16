@@ -70,9 +70,8 @@
 │   │   ├── zig-version-list-after.txt
 │   │   └── zig-version-list-before.txt
 │   └── zig.sh
-├── .todo
 ├── tsconfig.json
 └── .vscode
     └── settings.json
 
-14 directories, 62 files
+14 directories, 61 files
