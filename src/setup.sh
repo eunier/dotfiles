@@ -24,4 +24,3 @@ yadm push
 yadm status
 
 fastfetch
-pwd
