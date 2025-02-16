@@ -2,3 +2,7 @@
 └── [-rw-rw-r-- yunieralvarez yunieralvarez         183 Feb 15 16:07]  @filendesktop.desktop
 
 1 directory, 1 file
+[drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 16:07]  /home/yunieralvarez/.config/autostart
+└── [-rw-rw-r-- yunieralvarez yunieralvarez         183 Feb 15 16:07]  @filendesktop.desktop
+
+1 directory, 1 file

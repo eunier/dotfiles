@@ -600,6 +600,8 @@
 ├── src
 │   ├── apt.sh
 │   ├── autostart
+│   │   ├── autostart-after.txt
+│   │   └── autostart-before.txt
 │   ├── autostart.sh
 │   ├── bun.sh
 │   ├── dconf
@@ -622,6 +624,7 @@
 │   ├── diff.sh
 │   ├── fastfetch
 │   │   ├── fastfetch-config-after.jsonc
+│   │   ├── fastfetch-config-before.jsonc
 │   │   ├── fastfetch-output-after.txt
 │   │   └── fastfetch-output-before.txt
 │   ├── fastfetch.sh
@@ -641,13 +644,17 @@
 │   ├── node.sh
 │   ├── setup.sh
 │   ├── tree
+│   │   ├── tree-filen-after.txt
+│   │   ├── tree-filen-before.txt
 │   │   └── tree-output.txt
 │   ├── tree.sh
 │   ├── vscode
 │   │   ├── vscode-extensions-after.txt
 │   │   ├── vscode-extensions-before.txt
 │   │   ├── vscode-keybindings-after.jsonc
-│   │   └── vscode-settings-after.jsonc
+│   │   ├── vscode-keybindings-before.jsonc
+│   │   ├── vscode-settings-after.jsonc
+│   │   └── vscode-settings-before.jsonc
 │   ├── vscode.sh
 │   ├── yadm.sh
 │   ├── zig
@@ -1251,4 +1258,4 @@ node_modules
     ├── webidl.d.ts
     └── websocket.d.ts
 
-122 directories, 1130 files
+122 directories, 1137 files
