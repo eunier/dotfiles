@@ -2,9 +2,24 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[shellscript]": {
+    "editor.defaultFormatter": "mkhl.shfmt"
+  },
   "[typescript]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
+  "cSpell.userWords": [
+    "anyerror",
+    "comptime",
+    "deinit",
+    "orama",
+    "raylib",
+    "rpinski",
+    "Trunc",
+    "usize",
+    "zflecs",
+    "zigversion"
+  ],
   "chat.commandCenter.enabled": false,
   "debug.javascript.autoAttachFilter": "smart",
   "editor.codeLensFontFamily": "Cascadia Code",
@@ -12,10 +27,31 @@
   "editor.fontWeight": "600",
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment.line.double-slash.zig",
+          "comment.line.number-sign.shell",
+          "meta.shebang.shell",
+          "punctuation.definition.comment.shebang.shell",
+          "punctuation.definition.comment.shell",
+          "source.shell"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
   "editor.wordWrap": "on",
+  "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "files.autoSave": "afterDelay",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "always",
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.inlayHints.parameterTypes.enabled": true,
@@ -26,6 +62,7 @@
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.defaultProfile.linux": "fish",
   "terminal.integrated.fontWeight": "600",
+  "todo-tree.highlights.enabled": false,
   "typescript.inlayHints.enumMemberValues.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.inlayHints.parameterNames.enabled": "all",
