@@ -1,10 +1,14 @@
 /home/yunieralvarez/.config/autostart
+├── com.mardojai.ForgeSparks.desktop
 ├── @filendesktop.desktop
-└── mullvad-vpn.desktop
+├── mullvad-vpn.desktop
+└── steam.desktop
 
-1 directory, 2 files
-[drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 15 20:38]  /home/yunieralvarez/.config/autostart
+1 directory, 4 files
+[drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 16 16:11]  /home/yunieralvarez/.config/autostart
+├── [-rw-rw-r-- yunieralvarez yunieralvarez        2255 Feb 16 16:11]  com.mardojai.ForgeSparks.desktop
 ├── [-rw-rw-r-- yunieralvarez yunieralvarez         183 Feb 15 16:07]  @filendesktop.desktop
-└── [-rw-rw-r-- yunieralvarez yunieralvarez         195 Feb 15 20:38]  mullvad-vpn.desktop
+├── [-rw-rw-r-- yunieralvarez yunieralvarez         195 Feb 16 08:51]  mullvad-vpn.desktop
+└── [-rw-rw-r-- yunieralvarez yunieralvarez        7473 Feb 16 01:45]  steam.desktop
 
-1 directory, 2 files
+1 directory, 4 files

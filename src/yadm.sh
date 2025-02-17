@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 yadm add ~/.bashrc
 yadm add ~/.config/fish/config.fish
 yadm add ~/.gitconfig

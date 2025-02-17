@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 echo "Diffing autostart..."
 
 diff --color \

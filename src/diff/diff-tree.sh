@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 echo "Diffing tree-filen..."
 
 # diff --color \

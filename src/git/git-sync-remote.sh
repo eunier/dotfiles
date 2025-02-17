@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 time=$(date +"%H")
 
 if [ "$time" -ge 19 ]; then
@@ -13,10 +15,10 @@ if [ "$time" -ge 19 ]; then
     --exclude=node_modules \
     --exclude=.git \
     ~/.dotfiles/ ~/Projects/com/github/eunier/dotfiles/
-  
+
   git add .
   git commit -m "auto sync from primary repo"
   git push
 else
-  echo "It's not time yet. Current hour: $time"
+  echo "Not syncing secondary git repo due to time. Current hour: $time"
 fi

@@ -2,6 +2,7 @@ LibreSprite	com.github.libresprite.LibreSprite	1.0	stable	system
 Flatseal	com.github.tchx84.Flatseal	2.3.0	stable	system
 Forge Sparks	com.mardojai.ForgeSparks	0.4.0	stable	system
 Spotify	com.spotify.Client	1.2.52.442.g01893f92	stable	system
+Turtle	de.philippun1.turtle	0.11.1	stable	system
 Calligraphy	dev.geopjr.Calligraphy	1.1.0	stable	system
 Gameeky	dev.tchx84.Gameeky	0.6.5	stable	system
 Pins	io.github.fabrialberio.pinapp	2.0.1	stable	system
@@ -9,6 +10,7 @@ Egghead	io.github.josephmawa.Egghead	0.1.1	stable	system
 Drum Machine	io.github.revisto.drum-machine	1.3.1	stable	system
 Concessio	io.github.ronniedroid.concessio	v0.1.9	stable	system
 Obsidian	md.obsidian.Obsidian	1.8.4	stable	system
+Flatpak External Data Checker	org.flathub.flatpak-external-data-checker		stable	system
 Freedesktop Platform	org.freedesktop.Platform	21.08.22	21.08	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.11	24.08	system
 Mesa	org.freedesktop.Platform.GL.default	21.3.9	21.08	system
@@ -16,4 +18,5 @@ Mesa	org.freedesktop.Platform.GL.default	24.3.4	24.08	system
 Mesa (Extra)	org.freedesktop.Platform.GL.default	24.3.4	24.08extra	system
 openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	system
 openh264	org.freedesktop.Platform.openh264	2.4.1	2.4.1	system
+Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-24.08.11	24.08	system
 GNOME Application Platform version 47	org.gnome.Platform		47	system

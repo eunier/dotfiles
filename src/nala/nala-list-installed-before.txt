@@ -556,6 +556,10 @@ bc 1.07.1-4 [Debian/trixie main]
      multi-character variable names, an `else' statement and full Boolean
      expressions.  GNU bc does not require the separate GNU dc program.
 
+beaver-notes 3.9.0 [local]
+├── is installed
+└── Your Personal Note-Taking Haven for Privacy and Efficiency
+
 bind9-dnsutils 1:9.20.4-4 [Debian/trixie main]
 ├── is installed
 └── Clients provided with BIND 9
@@ -608,6 +612,23 @@ binutils-x86-64-linux-gnu 2.44-1 [Debian/trixie main]
      You don't need this package unless you plan to cross-compile programs
      for x86-64-linux-gnu and x86-64-linux-gnu is not your native
      platform.
+
+blackbox-terminal 0.14.0-5 [Debian/trixie main]
+├── is installed
+└── BlackBox Terminal Emulator
+     GTK-4 based terminal with reasonably small footprint and the usual features.
+      - Theming (Tilix-compatible color scheme support)
+      - App theming based on terminal color scheme
+      - Transparent background
+      - Custom fonts and cell spacing
+      - Tabs
+      - Toggleable header bar
+      - Click to open links
+      - Files drag-n-drop support
+      - Sixel (experimental)
+      - Customizable UI
+      - Customizable shortcuts
+     This is unrelated to the Blackbox X Window Manager.
 
 bluetooth 5.79-1 [Debian/trixie main]
 ├── is installed
@@ -2639,6 +2660,11 @@ dnsmasq-base 2.91~test9-1 [Debian/trixie main]
 dnsutils 1:9.20.4-4 [Debian/trixie main]
 ├── is installed
 └── Transitional package for bind9-dnsutils
+     This is a transitional package. It can safely be removed.
+
+doas 6.8.2-1+b1 [Debian/trixie main]
+├── is installed
+└── transitional package
      This is a transitional package. It can safely be removed.
 
 doc-debian 11.3+nmu1 [Debian/trixie main]
@@ -5642,6 +5668,15 @@ gir1.2-atspi-2.0 2.55.2-1 [Debian/trixie main]
      This package can be used by other packages using the GIRepository format to
      generate dynamic bindings
 
+gir1.2-ayatanaappindicator3-0.1 0.5.93+really-3 [Debian/trixie main]
+├── is installed
+└── Typelib files for libayatana-appindicator3-1 (GTK-3+ version)
+     A library and indicator to take menus from applications and place them in
+     the panel.
+     .
+     This package can be used by other packages using the GIRepository format
+     to generate dynamic bindings (GTK-3+ version).
+
 gir1.2-evince-3.0 46.3.1-1+b1 [Debian/trixie main]
 ├── is installed
 └── GObject introspection data for the evince libraries
@@ -6315,6 +6350,20 @@ git-man 1:2.47.2-0.1 [Debian/trixie main]
      .
      This package provides reference documentation for use by the 'man'
      utility and the 'git help' command.
+
+gitg 44-2 [Debian/trixie main]
+├── is installed
+└── git repository viewer
+     gitg is a fast git repository browser.
+     It currently features:
+     .
+      * Loading large repositories very fast
+      * Show/browse repository history
+      * Show highlighted revision diff
+      * Browse file tree of a revision and export by drag and drop
+      * Search in the revision history on subject, author or hash
+      * Switch between history view of branches easily
+      * Commit view providing per hunk stage/unstage and commit
 
 gjs 1.82.1-1 [Debian/trixie main]
 ├── is installed
@@ -12762,6 +12811,18 @@ libgirepository-1.0-1 1.82.0-4 [Debian/trixie main]
      .
      This package contains a C library for handling the introspection data.
 
+libgit2-1.8 1.8.4+ds-3 [Debian/trixie main]
+├── is installed
+└── low-level Git library
+     libgit2 is a portable, pure C implementation of the Git
+     distributed version control system core methods provided as a
+     re-entrant link-able library with a solid API.
+
+libgit2-glib-1.0-0 1.2.0-2 [Debian/trixie main]
+├── is installed
+└── glib wrapper library around the libgit2 git access library
+     libgit2-glib is a glib wrapper library around the libgit2 git access library.
+
 libgjs0g 1.82.1-1 [Debian/trixie main]
 ├── is installed
 └── Mozilla-based javascript bindings for the GNOME platform
@@ -14342,6 +14403,15 @@ libhttp-negotiate-perl 6.01-2 [Debian/trixie main]
      negotiation algorithm. Content negotiation allows for the selection of a
      preferred content representation based upon attributes of the negotiable
      variants and the value of the various Accept* header fields in the request.
+
+libhttp-parser2.9 2.9.4-6+b2 [Debian/trixie main]
+├── is installed
+└── parser for HTTP messages written in C
+     It parses both requests and responses. The parser is designed to be used in
+     performance HTTP applications. It does not make any syscalls nor allocations,
+     it does not buffer data, it can be interrupted at anytime. Depending on your
+     architecture, it only requires about 40 bytes of data per message stream (in
+     a web server that is per connection).
 
 libhunspell-1.7-0 1.7.2+really1.7.2-10+b4 [Debian/trixie main]
 ├── is installed
@@ -16021,6 +16091,44 @@ libmbedcrypto16 3.6.2-3 [Debian/trixie main]
      .
      This package contains the shared library handling cryptography.
 
+libmbedtls21 3.6.2-3 [Debian/trixie main]
+├── is installed
+└── lightweight crypto and SSL/TLS library - tls library
+     mbed TLS (formerly known as PolarSSL) is a lean open source crypto library for
+     providing SSL and TLS support in your programs. It offers an intuitive API and
+     documented header files, so you can actually understand what the code does.
+     It features:
+      - Symmetric algorithms, like AES, Blowfish, Triple-DES, DES, ARC4, Camellia
+        and XTEA
+      - Hash algorithms, like SHA-1, SHA-2, RIPEMD-160 and MD5
+      - Entropy pool and random generators, like CTR-DRBG and HMAC-DRBG
+      - Public key algorithms, like RSA, Elliptic Curves, Diffie-Hellman, ECDSA
+        and ECDH
+      - TLS 1.0, 1.1 and 1.2
+      - Abstraction layers for ciphers, hashes, public key operations, platform
+        abstraction and threading
+     .
+     This package contains the shared library handling TLS.
+
+libmbedx509-7 3.6.2-3 [Debian/trixie main]
+├── is installed
+└── lightweight crypto and SSL/TLS library - x509 certificate library
+     mbed TLS (formerly known as PolarSSL) is a lean open source crypto library for
+     providing SSL and TLS support in your programs. It offers an intuitive API and
+     documented header files, so you can actually understand what the code does.
+     It features:
+      - Symmetric algorithms, like AES, Blowfish, Triple-DES, DES, ARC4, Camellia
+        and XTEA
+      - Hash algorithms, like SHA-1, SHA-2, RIPEMD-160 and MD5
+      - Entropy pool and random generators, like CTR-DRBG and HMAC-DRBG
+      - Public key algorithms, like RSA, Elliptic Curves, Diffie-Hellman, ECDSA
+        and ECDH
+      - TLS 1.0, 1.1 and 1.2
+      - Abstraction layers for ciphers, hashes, public key operations, platform
+        abstraction and threading
+     .
+     This package contains the shared library handling x509 certificates.
+
 libmbim-glib4 1.30.0-1+b2 [Debian/trixie main]
 ├── is installed
 └── Support library to use the MBIM protocol
@@ -16855,7 +16963,7 @@ libnss-mdns 0.15.1-4+b1 [Debian/trixie main]
      allowing name resolution by common Unix/Linux programs in the ad-hoc mDNS
      domain .local.
 
-libnss-myhostname 257.2-3 [Debian/trixie main]
+libnss-myhostname 257.3-1 [Debian/trixie main]
 ├── is installed
 └── nss module providing fallback resolution for the current hostname
      This package contains a plugin for the Name Service Switch, providing host
@@ -16870,7 +16978,7 @@ libnss-myhostname 257.2-3 [Debian/trixie main]
      .
      Installing this package automatically adds myhostname to /etc/nsswitch.conf.
 
-libnss-mymachines 257.2-3 [Debian/trixie main]
+libnss-mymachines 257.3-1 [Debian/trixie main]
 ├── is installed
 └── nss module to resolve hostnames for local container instances
      nss-mymachines is a plugin for the GNU Name Service Switch (NSS) functionality
@@ -17474,7 +17582,7 @@ libpam-runtime 1.7.0-3 [Debian/trixie main]
      authentication  to work on Debian systems.  This package is required
      on almost all installations.
 
-libpam-systemd 257.2-3 [Debian/trixie main]
+libpam-systemd 257.3-1 [Debian/trixie main]
 ├── is installed
 └── system and service manager - PAM module
      This package contains the PAM module which registers user sessions in
@@ -18086,6 +18194,13 @@ libpq5 17.2-1+b2 [Debian/trixie main]
      libpq.
      .
      PostgreSQL is an object-relational SQL database management system.
+
+libpqmarble2t64 1.3.0-6+b2 [Debian/trixie main]
+├── is installed
+└── Collection of useful functions and reusable widgets
+     Paulo Queiroz's collection of useful functions and reusable widgets.
+     .
+     Run-time dynamic shared library.
 
 libproc2-0 2:4.0.4-7 [Debian/trixie main]
 ├── is installed
@@ -20480,20 +20595,20 @@ libsynctex2 2024.20240313.70630+ds-5+b1 [Debian/trixie main]
 └── TeX Live: SyncTeX parser library
      Library for SyncTeX parsing support.
 
-libsystemd-shared 257.2-3 [Debian/trixie main]
+libsystemd-shared 257.3-1 [Debian/trixie main]
 ├── is installed
 └── systemd shared private library
      This internal shared library provides common code used by various systemd
      components. It is supposed to decrease memory and disk footprint.
      The shared library is not meant for public use and is not API or ABI stable.
 
-libsystemd0 257.2-3 [Debian/trixie main]
+libsystemd0 257.3-1 [Debian/trixie main]
 ├── is installed
 └── systemd utility library
      This library provides APIs to interface with various system components such as
      the system journal, the system service manager, D-Bus and more.
 
-libsystemd0:i386 257.2-3 [Debian/trixie main]
+libsystemd0:i386 257.3-1 [Debian/trixie main]
 ├── is installed
 └── systemd utility library
      This library provides APIs to interface with various system components such as
@@ -21172,13 +21287,13 @@ libuchardet0 0.0.8-1+b2 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libudev1 257.2-3 [Debian/trixie main]
+libudev1 257.3-1 [Debian/trixie main]
 ├── is installed
 └── libudev shared library
      This library provides APIs to introspect and enumerate devices on the local
      system.
 
-libudev1:i386 257.2-3 [Debian/trixie main]
+libudev1:i386 257.3-1 [Debian/trixie main]
 ├── is installed
 └── libudev shared library
      This library provides APIs to introspect and enumerate devices on the local
@@ -22239,6 +22354,17 @@ libvte-2.91-common 0.78.3-3 [Debian/trixie main]
      .
      This package contains internationalization files for the VTE library
      and common files for the GTK 3 version.
+
+libvte-2.91-gtk4-0 0.78.3-3 [Debian/trixie main]
+├── is installed
+└── Terminal emulator widget for GTK 4 - runtime files
+     The VTE library provides a terminal emulator widget VteTerminal for
+     applications using the GTK toolkit. It also provides the VtePTY object
+     containing functions for starting a new process on a new
+     pseudo-terminal and for manipulating pseudo-terminals.
+     .
+     This package contains the runtime library, needed by programs using the
+     VTE widget with GTK 4.
 
 libvulkan1 1.4.304.0-1 [Debian/trixie main]
 ├── is installed
@@ -25592,6 +25718,14 @@ open-iscsi 2.1.10-3 [Debian/trixie main]
      This package includes a daemon, iscsid, and a management utility,
      iscsiadm.
 
+opendoas 6.8.2-1+b1 [Debian/trixie main]
+├── is installed
+└── minimal replacement for sudo, with persist support
+     OpenDoas: a portable version of OpenBSD's doas command
+     doas is a minimal replacement for the venerable sudo. It was initially written
+     by Ted Unangst of the OpenBSD project to provide 95% of the features of sudo
+     with a fraction of the codebase.
+
 openjdk-21-jre 21.0.6+7-1 [Debian/trixie main]
 ├── is installed
 └── OpenJDK Java runtime, using Hotspot JIT
@@ -27580,6 +27714,13 @@ spterm 0.3.3 [SparkyLinux/sisters main]
       .
       It is a fork off k3rmit.
 
+sqlite3 3.46.1-1 [Debian/trixie main]
+├── is installed
+└── Command line interface for SQLite 3
+     SQLite is a C library that implements an SQL database engine.
+     Programs that link with the SQLite library can have SQL database
+     access without running a separate RDBMS process.
+
 sqv 1.2.1-6+b1 [Debian/trixie main]
 ├── is installed
 └── Simple OpenPGP signature verification program
@@ -27685,6 +27826,32 @@ swtpm-tools 0.7.1-1.5 [Debian/trixie main]
           written into the NVRAM of the TPM
       - swtpm_cert: Creation of certificates for the TPM (x509)
 
+syncthing 1.27.7~ds1-5 [Debian/trixie main]
+├── is installed
+└── decentralized file synchronization
+     Syncthing is an application that lets you synchronize your files across
+     multiple devices. This means the creation, modification or deletion of files
+     on one machine will automatically be replicated to your other devices.
+     Syncthing does not upload your data to the cloud but exchanges your data
+     across your machines as soon as they are online at the same time.
+     .
+     This package contains the main binary: syncthing.
+
+syncthing-gtk 0.9.4.4+ds+git20221205+12a9702d29ab-6 [Debian/trixie main]
+├── is installed
+└── GTK3-based GUI and notification area icon for syncthing
+     A GTK3-based GUI for Syncthing that supports:
+     .
+      * Adding / editing / deleting nodes
+      * Adding / editing / deleting repositories
+      * Restart / shutdown server
+      * Editing daemon settings
+      * Quick initial configuration using a wizard
+     .
+     It also provides desktop integration with various file managers
+     (Nautilus, Nemo and Caja) as well as with the desktop
+     environment in the form of an app indicator.
+
 system-config-printer-common 1.5.18-3 [Debian/trixie main]
 ├── is installed
 └── backend and the translation files for system-config-printer
@@ -27706,7 +27873,7 @@ system-config-printer-udev 1.5.18-3 [Debian/trixie main]
      they are plugged on the system. They are then configured automatically in
      the CUPS printing daemon and made available to users.
 
-systemd 257.2-3 [Debian/trixie main]
+systemd 257.3-1 [Debian/trixie main]
 ├── is installed
 └── system and service manager
      systemd is a system and service manager for Linux. It provides aggressive
@@ -27718,7 +27885,7 @@ systemd 257.2-3 [Debian/trixie main]
      Installing the systemd package will not switch your init system unless you
      boot with init=/lib/systemd/systemd or install systemd-sysv in addition.
 
-systemd-container 257.2-3 [Debian/trixie main]
+systemd-container 257.3-1 [Debian/trixie main]
 ├── is installed
 └── systemd container/nspawn tools
      This package provides systemd's tools for nspawn and container/VM management:
@@ -27727,13 +27894,13 @@ systemd-container 257.2-3 [Debian/trixie main]
       * systemd-importd
       * systemd-portabled and portablectl
 
-systemd-cryptsetup 257.2-3 [Debian/trixie main]
+systemd-cryptsetup 257.3-1 [Debian/trixie main]
 ├── is installed
 └── Provides cryptsetup, integritysetup and veritysetup utilities
      Utilities and units that integrated cryptsetup/integritysetup/veritysetup
      support in systemd.
 
-systemd-sysv 257.2-3 [Debian/trixie main]
+systemd-sysv 257.3-1 [Debian/trixie main]
 ├── is installed
 └── system and service manager - SysV compatibility symlinks
      This package provides manual pages and compatibility symlinks needed for
@@ -27741,7 +27908,7 @@ systemd-sysv 257.2-3 [Debian/trixie main]
      .
      Installing systemd-sysv will overwrite /sbin/init with a symlink to systemd.
 
-systemd-timesyncd 257.2-3 [Debian/trixie main]
+systemd-timesyncd 257.3-1 [Debian/trixie main]
 ├── is installed
 └── minimalistic service to synchronize local time with NTP servers
      The package contains the systemd-timesyncd system service that may be used to
@@ -28016,7 +28183,7 @@ ucf 3.0049 [Debian/trixie main]
      one offered by dpkg while transitioning a file from a non-conffile to
      conffile status.
 
-udev 257.2-3 [Debian/trixie main]
+udev 257.3-1 [Debian/trixie main]
 ├── is installed
 └── /dev/ and hotplug management daemon
      udev is a daemon which dynamically creates and removes device nodes from
@@ -28306,6 +28473,20 @@ vdpau-driver-all:i386 1.5-3+b1 [Debian/trixie main]
      It does not provide any drivers itself, and may be removed if you wish to
      only have certain drivers installed.
 
+vim 2:9.1.0967-2+b1 [Debian/trixie main]
+├── is installed
+└── Vi IMproved - enhanced vi editor
+     Vim is an almost compatible version of the UNIX editor Vi.
+     .
+     Many new features have been added: multi level undo, syntax
+     highlighting, command line history, on-line help, filename
+     completion, block operations, folding, Unicode support, etc.
+     .
+     This package contains a version of vim compiled with a rather
+     standard set of features.  This package does not provide a GUI
+     version of Vim.  See the other vim-* packages if you need more
+     (or less).
+
 vim-common 2:9.1.0967-2 [Debian/trixie main]
 ├── is installed
 └── Vi IMproved - Common files
@@ -28314,6 +28495,17 @@ vim-common 2:9.1.0967-2 [Debian/trixie main]
      This package contains files shared by all non GUI-enabled vim variants
      available in Debian.  Examples of such shared files are: manpages and
      configuration files.
+
+vim-runtime 2:9.1.0967-2 [Debian/trixie main]
+├── is installed
+└── Vi IMproved - Runtime files
+     Vim is an almost compatible version of the UNIX editor Vi.
+     .
+     This package contains vimtutor and the architecture independent runtime
+     files, used, if available, by all vim variants available in Debian.
+     Example of such runtime files are: online documentation, rules for
+     language-specific syntax highlighting and indentation, color schemes,
+     and standard plugins.
 
 vim-tiny 2:9.1.0967-2+b1 [Debian/trixie main]
 ├── is installed

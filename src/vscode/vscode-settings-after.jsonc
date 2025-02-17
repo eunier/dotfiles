@@ -5,6 +5,17 @@
   "[typescript]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
+  "cSpell.userWords": [
+    "anyerror",
+    "comptime",
+    "deinit",
+    "raylib",
+    "rpinski",
+    "Trunc",
+    "usize",
+    "zflecs",
+    "zigversion"
+  ],
   "chat.commandCenter.enabled": false,
   "debug.javascript.autoAttachFilter": "smart",
   "editor.codeLensFontFamily": "Cascadia Code",
@@ -12,10 +23,28 @@
   "editor.fontWeight": "600",
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment.line.double-slash.zig",
+          "comment.line.number-sign.shell",
+          "meta.shebang.shell",
+          "source.shell"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
   "editor.wordWrap": "on",
+  "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "files.autoSave": "afterDelay",
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "always",
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.inlayHints.parameterTypes.enabled": true,
@@ -36,5 +65,8 @@
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
   "zig.zls.enabled": "on",
-  "zig.zls.inlayHintsExcludeSingleArgument": false
+  "zig.zls.inlayHintsExcludeSingleArgument": false,
+  "[shellscript]": {
+    "editor.defaultFormatter": "mkhl.shfmt"
+  }
 }

@@ -1,14 +1,30 @@
 /home/yunieralvarez/Projects
 ├── com
 │   ├── github
-│   │   └── eunier
-│   │       └── dotfiles
+│   │   ├── eunier
+│   │   │   └── dotfiles
+│   │   ├── libsdl-org
+│   │   │   ├── SDL
+│   │   │   └── sdlwiki
+│   │   ├── linuxy
+│   │   │   └── coyote-ecs
+│   │   ├── prime31
+│   │   │   └── zig-ecs
+│   │   ├── pwbh
+│   │   │   └── SDL
+│   │   ├── zig-gamedev
+│   │   │   └── zflecs
+│   │   └── ziglang
+│   │       └── zig
 │   └── gitlab
 │       └── yunieralvarez
+│           ├── qmkl
 │           ├── repo
 │           └── repo-resources
 └── workspaces
     ├── dotfiles.code-workspace
-    └── top-down-game.code-workspace
+    ├── inbox.code-workspace
+    ├── top-down-game.code-workspace
+    └── zig.code-workspace
 
-10 directories, 2 files
+24 directories, 4 files

@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 if ! [ -f "$HOME/.config/fastfetch/config.jsonc" ]; then
   fastfetch --gen-config
 fi

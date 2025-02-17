@@ -5,13 +5,16 @@
 ├── README.md
 ├── src
 │   ├── apt
-│   │   ├── apt-julians-package-repo.sh
-│   │   └── apt-mullvad-vpn.sh
+│   │   └── apt-julians-package-repo.sh
 │   ├── apt.sh
 │   ├── autostart
 │   │   ├── autostart-after.txt
 │   │   └── autostart-before.txt
 │   ├── autostart.sh
+│   ├── beaver-notes
+│   │   ├── beaver-notes-after.txt
+│   │   └── beaver-notes-before.txt
+│   ├── beaver-notes.sh
 │   ├── bun.sh
 │   ├── dconf
 │   │   ├── dconf-after.conf
@@ -19,7 +22,9 @@
 │   ├── dconf.sh
 │   ├── diff
 │   │   ├── diff-autostart.sh
+│   │   ├── diff-beaver-notes.sh
 │   │   ├── diff-dconf.sh
+│   │   ├── diff-doas.sh
 │   │   ├── diff-fastfetch-config.sh
 │   │   ├── diff-fastfetch-output.sh
 │   │   ├── diff-flatpak-list.sh
@@ -31,6 +36,10 @@
 │   │   ├── diff-vscode-settings.sh
 │   │   └── diff-zig-version-list.sh
 │   ├── diff.sh
+│   ├── doas
+│   │   ├── doas-after.conf
+│   │   └── doas-before.conf
+│   ├── doas.sh
 │   ├── fastfetch
 │   │   ├── fastfetch-config-after.jsonc
 │   │   ├── fastfetch-config-before.jsonc
@@ -66,6 +75,7 @@
 │   │   └── vscode-settings-before.jsonc
 │   ├── vscode.sh
 │   ├── yadm.sh
+│   ├── zen.sh
 │   ├── zig
 │   │   ├── zig-version-list-after.txt
 │   │   └── zig-version-list-before.txt
@@ -74,4 +84,4 @@
 └── .vscode
     └── settings.json
 
-14 directories, 61 files
+16 directories, 69 files
