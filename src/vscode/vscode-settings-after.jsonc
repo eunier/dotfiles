@@ -12,6 +12,7 @@
     "anyerror",
     "comptime",
     "deinit",
+    "orama",
     "raylib",
     "rpinski",
     "Trunc",
@@ -34,6 +35,7 @@
           "comment.line.number-sign.shell",
           "meta.shebang.shell",
           "punctuation.definition.comment.shebang.shell",
+          "punctuation.definition.comment.shell",
           "source.shell"
         ],
         "settings": {

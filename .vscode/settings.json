@@ -1,5 +1,6 @@
 {
   "cSpell.ignorePaths": [
+    ".bashrc",
     ".git/{index,*refs,*HEAD}",
     ".git/{info,lfs,logs,refs,objects}/**",
     ".vscode-insiders",
@@ -69,6 +70,7 @@
     "orhun",
     "philippun",
     "pinapp",
+    "pixelorama",
     "pwbh",
     "qmkl",
     "regionfolder",

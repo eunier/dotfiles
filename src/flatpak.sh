@@ -3,10 +3,11 @@
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak update
 
-flatpak install flathub -y \
+flatpak install flathub \
   com.github.libresprite.LibreSprite \
   com.github.tchx84.Flatseal \
   com.mardojai.ForgeSparks \
+  com.orama_interactive.Pixelorama \
   com.spotify.Client \
   dev.geopjr.Calligraphy \
   dev.tchx84.Gameeky \
@@ -19,4 +20,4 @@ flatpak install flathub -y \
   org.flathub.flatpak-external-data-checker
 
 touch ~/.dotfiles/src/flatpak/flatpak-list-before.txt
-flatpak list > ~/.dotfiles/src/flatpak/flatpak-list-after.txt
+flatpak list >~/.dotfiles/src/flatpak/flatpak-list-after.txt

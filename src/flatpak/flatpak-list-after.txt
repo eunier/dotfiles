@@ -1,6 +1,7 @@
 LibreSprite	com.github.libresprite.LibreSprite	1.0	stable	system
 Flatseal	com.github.tchx84.Flatseal	2.3.0	stable	system
 Forge Sparks	com.mardojai.ForgeSparks	0.4.0	stable	system
+Pixelorama	com.orama_interactive.Pixelorama	1.0.5	stable	system
 Spotify	com.spotify.Client	1.2.52.442.g01893f92	stable	system
 Turtle	de.philippun1.turtle	0.11.1	stable	system
 Calligraphy	dev.geopjr.Calligraphy	1.1.0	stable	system
