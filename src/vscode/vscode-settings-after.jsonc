@@ -2,6 +2,9 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[shellscript]": {
+    "editor.defaultFormatter": "mkhl.shfmt"
+  },
   "[typescript]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
@@ -30,6 +33,7 @@
           "comment.line.double-slash.zig",
           "comment.line.number-sign.shell",
           "meta.shebang.shell",
+          "punctuation.definition.comment.shebang.shell",
           "source.shell"
         ],
         "settings": {
@@ -43,6 +47,7 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "files.autoSave": "afterDelay",
+  "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "always",
@@ -55,6 +60,7 @@
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.defaultProfile.linux": "fish",
   "terminal.integrated.fontWeight": "600",
+  "todo-tree.highlights.enabled": false,
   "typescript.inlayHints.enumMemberValues.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.inlayHints.parameterNames.enabled": "all",
@@ -65,8 +71,5 @@
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
   "zig.zls.enabled": "on",
-  "zig.zls.inlayHintsExcludeSingleArgument": false,
-  "[shellscript]": {
-    "editor.defaultFormatter": "mkhl.shfmt"
-  }
+  "zig.zls.inlayHintsExcludeSingleArgument": false
 }
