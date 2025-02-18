@@ -77,5 +77,5 @@ nala list \
     --verbose \
     >~/.dotfiles/src/nala/nala-list-installed-after.txt
 
-touch ~/.dotfiles/src/flatpak-progress-before.txt
-nala show progress-tracker >~/.dotfiles/src/flatpak-progress-after.txt
+touch ~/.dotfiles/src/nala/nala-app-progress-tracker-before.txt
+nala show progress-tracker >~/.dotfiles/src/nala/nala-app-progress-tracker-after.txt

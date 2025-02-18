@@ -24,7 +24,7 @@ touch ~/.dotfiles/src/flatpak/flatpak-list-before.txt
 flatpak list >~/.dotfiles/src/flatpak/flatpak-list-after.txt
 
 touch ~/.dotfiles/src/flatpak-progress-before.txt
-flatpak search io.github.smolblackcat.Progress >>~/.dotfiles/src/flatpak-progress-after.txt
+flatpak search io.github.smolblackcat.Progress >>~/.dotfiles/src/nala/nala-app-progress-tracker-after.txt
 
 # org.gnome.Platform \
 # org.gnome.Sdk \
