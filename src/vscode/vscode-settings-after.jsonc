@@ -32,17 +32,20 @@
   "editor.fontFamily": "Cascadia Code, 'Droid Sans Mono', 'monospace', monospace",
   "editor.fontWeight": "600",
   "editor.formatOnSave": true,
+  "editor.rulers": [100],
   "editor.tabSize": 2,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
         "scope": [
+          "comment.line.documentation.zig",
           "comment.line.double-slash.zig",
           "comment.line.number-sign.shell",
           "meta.shebang.shell",
           "punctuation.definition.comment.shebang.shell",
           "punctuation.definition.comment.shell",
-          "source.shell"
+          "source.shell",
+          "variable.parameter"
         ],
         "settings": {
           "fontStyle": ""
@@ -66,6 +69,7 @@
   "material-icon-theme.files.associations": {
     ".zigversion": "lock"
   },
+  "material-icon-theme.saturation": 1,
   "prettier.tabWidth": 2,
   "sortEditors.sortEditorsAutomatically": true,
   "telemetry.telemetryLevel": "off",
@@ -81,8 +85,8 @@
   "window.titleBarStyle": "custom",
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
+  "workspaceWizard.general.workspacesFolder": "/home/yunieralvarez/Projects/workspaces",
   "zig.path": "zig",
   "zig.zls.enabled": "on",
-  "zig.zls.inlayHintsExcludeSingleArgument": false,
-  "workspaceWizard.general.workspacesFolder": "/home/yunieralvarez/Projects/workspaces"
+  "zig.zls.inlayHintsExcludeSingleArgument": false
 }
