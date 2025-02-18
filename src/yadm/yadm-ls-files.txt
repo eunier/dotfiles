@@ -28,7 +28,7 @@
 .dotfiles/src/diff/diff-doas.sh
 .dotfiles/src/diff/diff-fastfetch-config.sh
 .dotfiles/src/diff/diff-fastfetch-output.sh
-.dotfiles/src/diff/diff-flatpak-list.sh
+.dotfiles/src/diff/diff-flatpak.sh
 .dotfiles/src/diff/diff-git-repos.sh
 .dotfiles/src/diff/diff-nala-list-installed.sh
 .dotfiles/src/diff/diff-tree.sh
@@ -44,6 +44,8 @@
 .dotfiles/src/fastfetch/fastfetch-config-before.jsonc
 .dotfiles/src/fastfetch/fastfetch-output-after.txt
 .dotfiles/src/fastfetch/fastfetch-output-before.txt
+.dotfiles/src/flatpak-progress-after.txt
+.dotfiles/src/flatpak-progress-before.txt
 .dotfiles/src/flatpak.sh
 .dotfiles/src/flatpak/flatpak-list-after.txt
 .dotfiles/src/flatpak/flatpak-list-before.txt

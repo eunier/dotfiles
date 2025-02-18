@@ -15,6 +15,7 @@ fi
 # nala install https://cdn.fastly.steamstatic.com/client/installer/steam.deb
 # nala install https://cdn.filen.io/@filen/desktop/release/latest/Filen_linux_amd64.deb
 # nala install https://github.com/Beaver-Notes/Beaver-Notes/releases/download/3.9.0/Beaver-notes_3.9.0_amd64.deb
+# https://github.com/smolBlackCat/progress-tracker/releases
 
 sudo nala install libreoffice
 
@@ -53,6 +54,7 @@ sudo nala install \
     morewaita \
     mullvad-vpn \
     picard \
+    progress-tracker \
     shellcheck \
     shfmt \
     sqlite3 \
@@ -74,3 +76,6 @@ nala list \
     --installed \
     --verbose \
     >~/.dotfiles/src/nala/nala-list-installed-after.txt
+
+touch ~/.dotfiles/src/flatpak-progress-before.txt
+nala show progress-tracker >~/.dotfiles/src/flatpak-progress-after.txt

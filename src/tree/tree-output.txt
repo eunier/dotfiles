@@ -30,7 +30,7 @@
 │   │   ├── diff-doas.sh
 │   │   ├── diff-fastfetch-config.sh
 │   │   ├── diff-fastfetch-output.sh
-│   │   ├── diff-flatpak-list.sh
+│   │   ├── diff-flatpak.sh
 │   │   ├── diff-git-repos.sh
 │   │   ├── diff-nala-list-installed.sh
 │   │   ├── diff-tree.sh
@@ -52,6 +52,8 @@
 │   ├── flatpak
 │   │   ├── flatpak-list-after.txt
 │   │   └── flatpak-list-before.txt
+│   ├── flatpak-progress-after.txt
+│   ├── flatpak-progress-before.txt
 │   ├── flatpak.sh
 │   ├── git
 │   │   ├── git-repos-after.txt
@@ -89,4 +91,4 @@
 └── .vscode
     └── settings.json
 
-18 directories, 72 files
+18 directories, 74 files

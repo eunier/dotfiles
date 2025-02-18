@@ -16,12 +16,15 @@ flatpak install -y flathub \
   io.github.josephmawa.Egghead \
   io.github.revisto.drum-machine \
   io.github.ronniedroid.concessio \
+  io.github.zhrexl.thisweekinmylife \
   md.obsidian.Obsidian \
-  org.flathub.flatpak-external-data-checker \
-  site.someones.Lonewolf
+  org.flathub.flatpak-external-data-checker
 
 touch ~/.dotfiles/src/flatpak/flatpak-list-before.txt
 flatpak list >~/.dotfiles/src/flatpak/flatpak-list-after.txt
+
+touch ~/.dotfiles/src/flatpak-progress-before.txt
+flatpak search io.github.smolblackcat.Progress >>~/.dotfiles/src/flatpak-progress-after.txt
 
 # org.gnome.Platform \
 # org.gnome.Sdk \
