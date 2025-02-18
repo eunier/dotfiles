@@ -16,6 +16,7 @@ ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes
 orhun.last-commit
 pflannery.vscode-versionlens
+pkief.copy-branch-name
 pkief.material-icon-theme
 richie5um2.vscode-sort-json
 rob-bennett.workspacewizard

@@ -9,6 +9,7 @@ Project Description
 
 ### In Progress
 
+- [ ] Set up zflecs and raylib  
 
 ### Done ✓
 
