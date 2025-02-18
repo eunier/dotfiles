@@ -78,6 +78,7 @@
 │   │   └── vscode-settings-before.jsonc
 │   ├── vscode.sh
 │   ├── yadm
+│   │   └── yadm-ls-files.txt
 │   ├── yadm.sh
 │   ├── zen.sh
 │   ├── zig
@@ -88,4 +89,4 @@
 └── .vscode
     └── settings.json
 
-18 directories, 71 files
+18 directories, 72 files
