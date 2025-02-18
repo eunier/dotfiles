@@ -7,5 +7,6 @@ yadm add ~/.config/Code/User/settings.json
 yadm add ~/.config/Code/User/keybindings.json
 yadm add ~/.dotfiles
 cd ~ || exit
-yadm ls-files >yadm/yadm-ls-files.txt
+yadm ls-files >~/Projects/.dotfiles/src/yadm/yadm-ls-files.txt
+cd ~/Projects/.dotfiles || exit
 yadm commit -m "sync"
