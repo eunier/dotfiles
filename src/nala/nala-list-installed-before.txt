@@ -21618,6 +21618,23 @@ libtinfo6:i386 6.5+20250125-2 [Debian/trixie main]
      .
      This package contains the shared low-level terminfo library.
 
+libtinyxml2-10 10.0.0+dfsg-2+b2 [Debian/trixie main]
+├── is installed
+└── C++ XML parsing library
+     This package contains the shared version of the TinyXML2 library.
+     .
+     TinyXML2 is a simple and small C++ XML parser that can be easily integrating
+     into other programs. It reads XML and creates C++ objects representing the XML
+     document. The objects can be manipulated, changed, and saved again as XML.
+     .
+     TinyXML2 supersedes the previous TinyXML library, with various improvements:
+      - Fewer memory allocations (1% - 10% compared to TinyXML)
+      - Uses less memory (about 40% of that used by TinyXML)
+      - Faster
+      - No STL requirement
+      - More modern C++, including a proper namespace
+      - Proper and useful handling of whitespace
+
 libtirpc-common 1.3.4+ds-1.3 [Debian/trixie main]
 ├── is installed
 └── transport-independent RPC library - common files
@@ -27223,6 +27240,10 @@ procps 2:4.0.4-7 [Debian/trixie main]
      .
      It contains free, kill, pkill, pgrep, pmap, ps, pwdx, skill, slabtop,
      snice, sysctl, tload, top, uptime, vmstat, w, and watch.
+
+progress-tracker 1.6.0 [local]
+├── is installed
+└── Simple app for kanban todo lists
 
 psmisc 23.7-1 [Debian/trixie main]
 ├── is installed
