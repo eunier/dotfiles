@@ -50,9 +50,11 @@
 .dotfiles/src/flatpak/flatpak-list-after.txt
 .dotfiles/src/flatpak/flatpak-list-before.txt
 .dotfiles/src/git.sh
+.dotfiles/src/git/com/gitlab/yunieralvarez/repo/zig/top-down-game/TODO.md
 .dotfiles/src/git/git-repos-after.txt
 .dotfiles/src/git/git-repos-before.txt
 .dotfiles/src/git/git-sync-remote.sh
+.dotfiles/src/git/git-todo.sh
 .dotfiles/src/main.sh
 .dotfiles/src/nala.sh
 .dotfiles/src/nala/nala-app-progress-tracker-after.txt

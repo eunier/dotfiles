@@ -56,9 +56,17 @@
 │   ├── flatpak-progress-before.txt
 │   ├── flatpak.sh
 │   ├── git
+│   │   ├── com
+│   │   │   └── gitlab
+│   │   │       └── yunieralvarez
+│   │   │           └── repo
+│   │   │               └── zig
+│   │   │                   └── top-down-game
+│   │   │                       └── TODO.md
 │   │   ├── git-repos-after.txt
 │   │   ├── git-repos-before.txt
-│   │   └── git-sync-remote.sh
+│   │   ├── git-sync-remote.sh
+│   │   └── git-todo.sh
 │   ├── git.sh
 │   ├── main.sh
 │   ├── nala
@@ -93,4 +101,4 @@
 └── .vscode
     └── settings.json
 
-18 directories, 76 files
+24 directories, 78 files
