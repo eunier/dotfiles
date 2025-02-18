@@ -14,8 +14,10 @@ ms-vscode.cpptools
 ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes
 orhun.last-commit
+pflannery.vscode-versionlens
 pkief.material-icon-theme
 richie5um2.vscode-sort-json
+rob-bennett.workspacewizard
 rpinski.shebang-snippets
 streetsidesoftware.code-spell-checker
 timonwong.shellcheck

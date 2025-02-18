@@ -30,7 +30,6 @@ sudo nala install \
     code \
     curl \
     dconf-editor \
-    sudo \
     epiphany-browser \
     fastfetch \
     filen \
@@ -40,9 +39,8 @@ sudo nala install \
     geary \
     git \
     gitg \
-    shfmt \
-    shellcheck \
     gnome-boxes \
+    gnome-builder \
     gnome-shell-extension-manager \
     gnome-software-plugin-flatpak \
     keepassxc \
@@ -55,8 +53,11 @@ sudo nala install \
     morewaita \
     mullvad-vpn \
     picard \
+    shellcheck \
+    shfmt \
     sqlite3 \
     steam-launcher \
+    sudo \
     syncthing-gtk \
     timeshift \
     tree \

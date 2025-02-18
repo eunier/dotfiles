@@ -3,7 +3,7 @@
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak update
 
-flatpak install flathub \
+flatpak install -y flathub \
   com.github.libresprite.LibreSprite \
   com.github.tchx84.Flatseal \
   com.mardojai.ForgeSparks \
@@ -17,7 +17,12 @@ flatpak install flathub \
   io.github.revisto.drum-machine \
   io.github.ronniedroid.concessio \
   md.obsidian.Obsidian \
-  org.flathub.flatpak-external-data-checker
+  org.flathub.flatpak-external-data-checker 
 
 touch ~/.dotfiles/src/flatpak/flatpak-list-before.txt
 flatpak list >~/.dotfiles/src/flatpak/flatpak-list-after.txt
+
+
+  # org.gnome.Platform \
+  # org.gnome.Sdk \
+  # org.gnome.Sdk.Docs

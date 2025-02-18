@@ -16,7 +16,9 @@ ms-vscode.cpptools-themes
 orhun.last-commit
 pkief.material-icon-theme
 richie5um2.vscode-sort-json
+rpinski.shebang-snippets
 streetsidesoftware.code-spell-checker
+timonwong.shellcheck
 twxs.cmake
 zhuangtongfa.material-theme
 ziglang.vscode-zig

@@ -12,6 +12,7 @@
     "anyerror",
     "comptime",
     "deinit",
+    "gamedev",
     "orama",
     "raylib",
     "rpinski",
@@ -21,7 +22,12 @@
     "zigversion"
   ],
   "chat.commandCenter.enabled": false,
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
   "debug.javascript.autoAttachFilter": "smart",
+  "diffEditor.ignoreTrimWhitespace": true,
   "editor.codeLensFontFamily": "Cascadia Code",
   "editor.fontFamily": "Cascadia Code, 'Droid Sans Mono', 'monospace', monospace",
   "editor.fontWeight": "600",
@@ -57,6 +63,9 @@
   "javascript.inlayHints.parameterTypes.enabled": true,
   "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
   "javascript.inlayHints.variableTypes.enabled": true,
+  "material-icon-theme.files.associations": {
+    ".zigversion": "lock"
+  },
   "prettier.tabWidth": 2,
   "sortEditors.sortEditorsAutomatically": true,
   "telemetry.telemetryLevel": "off",
@@ -72,6 +81,7 @@
   "window.titleBarStyle": "custom",
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
+  "zig.path": "zig",
   "zig.zls.enabled": "on",
   "zig.zls.inlayHintsExcludeSingleArgument": false
 }

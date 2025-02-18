@@ -15,8 +15,10 @@ code --install-extension maptz.regionfolder
 code --install-extension mkhl.shfmt
 code --install-extension ms-vscode.cpptools-extension-pack
 code --install-extension orhun.last-commit
+code --install-extension pflannery.vscode-versionlens
 code --install-extension PKief.material-icon-theme
 code --install-extension richie5um2.vscode-sort-json
+code --install-extension rob-bennett.workspaceWizard
 code --install-extension rpinski.shebang-snippets
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension timonwong.shellcheck

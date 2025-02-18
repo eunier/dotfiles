@@ -16,6 +16,8 @@
 │   │   ├── beaver-notes-after.txt
 │   │   └── beaver-notes-before.txt
 │   ├── beaver-notes.sh
+│   ├── bun
+│   │   └── repo-update.sh
 │   ├── bun.sh
 │   ├── dconf
 │   │   ├── dconf-after.conf
@@ -56,12 +58,12 @@
 │   │   ├── git-repos-before.txt
 │   │   └── git-sync-remote.sh
 │   ├── git.sh
+│   ├── main.sh
 │   ├── nala
 │   │   ├── nala-list-installed-after.txt
 │   │   └── nala-list-installed-before.txt
 │   ├── nala.sh
 │   ├── node.sh
-│   ├── setup.sh
 │   ├── tree
 │   │   ├── tree-filen-after.txt
 │   │   ├── tree-filen-before.txt
@@ -75,6 +77,7 @@
 │   │   ├── vscode-settings-after.jsonc
 │   │   └── vscode-settings-before.jsonc
 │   ├── vscode.sh
+│   ├── yadm
 │   ├── yadm.sh
 │   ├── zen.sh
 │   ├── zig
@@ -85,4 +88,4 @@
 └── .vscode
     └── settings.json
 
-16 directories, 70 files
+18 directories, 71 files

@@ -296,7 +296,20 @@ appstream 1.0.4-1 [Debian/trixie main]
      pool as well as for working with AppStream metadata directly, including
      validating it for compliance with the specification.
 
-apt 2.9.28 [Debian/trixie main]
+appstream-compose 1.0.4-1 [Debian/trixie main]
+├── is installed
+└── Compose metadata catalogs from directory trees
+     AppStream is a metadata specification which permits software components to
+     provide information about themselves to automated systems and end-users
+     before the software is actually installed.
+     This permits informative displays of new applications to users in software
+     centers, as well as allowing a system to make decisions on which new software
+     a user might want to install (e.g. missing firmware or media handlers).
+     .
+     This package extends the `appstreamcli` utility with a `compose` subcommand
+     to generate AppStream metadata and media files from directory trees.
+
+apt 2.9.29 [Debian/trixie main]
 ├── is installed
 └── commandline package manager
      This package provides commandline tools for searching and
@@ -340,7 +353,7 @@ apt-listchanges 4.8 [Debian/trixie main]
      packages. When configured as an APT plugin it will do this
      automatically during upgrades.
 
-apt-utils 2.9.28 [Debian/trixie main]
+apt-utils 2.9.29 [Debian/trixie main]
 ├── is installed
 └── package management related utility programs
      This package contains some less used commandline utilities related
@@ -861,6 +874,28 @@ calendar 12.1.8 [Debian/trixie main]
      This package contains the "calendar" program commonly found on BSD-style
      systems, which displays upcoming relevant dates on a wide variety of
      calendars.
+
+clang 1:19.0-63 [Debian/trixie main]
+├── is installed
+└── C, C++ and Objective-C compiler (LLVM based), clang binary
+     Clang project is a C, C++, Objective C and Objective C++ front-end
+     for the LLVM compiler. Its goal is to offer a replacement to the GNU Compiler
+     Collection (GCC).
+     .
+     Clang implements all of the ISO C++ 1998, 11, 14 and 17 standards and also
+     provides most of the support of C++20.
+     .
+     This is a dependency package providing the default clang compiler.
+
+clang-19 1:19.1.7-1+b1 [Debian/trixie main]
+├── is installed
+└── C, C++ and Objective-C compiler
+     Clang project is a C, C++, Objective C and Objective C++ front-end
+     based on the LLVM compiler. Its goal is to offer a replacement to the
+     GNU Compiler Collection (GCC).
+     .
+     Clang implements all of the ISO C++ 1998, 11, 14 and 17 standards and also
+     provides most of the support of C++20.
 
 code 1.97.2-1739406807 [SparkyLinux/sisters main]
 ├── is installed
@@ -2475,6 +2510,13 @@ debianutils 5.21 [Debian/trixie main]
      add-shell installkernel ischroot remove-shell run-parts savelog
      update-shells which
 
+debugedit 1:5.1-2 [Debian/trixie main]
+├── is installed
+└── tools for handling build-ids and paths rewriting in DWARF data
+     The debugedit project provides programs and scripts for creating
+     debuginfo and source file distributions, collect build-ids and rewrite
+     source paths in DWARF data for debugging, tracing and profiling.
+
 default-jre 2:1.21-76 [Debian/trixie main]
 ├── is installed
 └── Standard Java or Java compatible Runtime
@@ -2778,6 +2820,15 @@ eject 2.40.4-3 [Debian/trixie main]
      .
      You can also use eject to properly disconnect external mass-storage
      devices like digital cameras or portable music players.
+
+elfutils 0.192-4 [Debian/trixie main]
+├── is installed
+└── collection of utilities to handle ELF objects
+     Elfutils is a collection of utilities, including eu-ld (a linker),
+     eu-nm (for listing symbols from object files), eu-size (for listing the
+     section sizes of an object or archive file), eu-strip (for discarding
+     symbols), eu-readelf (to see the raw ELF file structures), and eu-elflint
+     (to check for well-formed ELF files).
 
 elinks 0.18.0-1+b1 [Debian/trixie main]
 ├── is installed
@@ -3132,6 +3183,21 @@ exo-utils 4.20.0-1 [Debian/trixie main]
        - exo-desktop-item-edit
        - exo-open
 
+exuberant-ctags 1:5.9~svn20110310-19 [Debian/trixie main]
+├── is installed
+└── build tag file indexes of source code definitions
+     ctags parses source code and produces a sort of index mapping
+     the names of significant entities (e.g. functions, classes,
+     variables) to the location where that entity is defined.  This
+     index is used by editors like vi and emacsen to allow moving to
+     the definition of a user-specified entity.
+     .
+     Exuberant Ctags supports all possible C language constructions
+     and multiple other languages such as assembler, AWK, ASP, BETA,
+     Bourne/Korn/Z shell, C++, COBOL, Eiffel, Fortran, Java, Lisp,
+     Lua, Makefile, Pascal, Perl, PHP, Python, REXX, Ruby, S-Lang,
+     Scheme, Tcl, Verilog, Vim and YACC.
+
 fakeroot 1.37-1 [Debian/trixie main]
 ├── is installed
 └── tool for simulating superuser privileges
@@ -3165,6 +3231,32 @@ fdisk 2.40.4-3 [Debian/trixie main]
      The fdisk utility is the classical text-mode utility.
      The cfdisk utility gives a more userfriendly curses based interface.
      The sfdisk utility is mostly for automation and scripting uses.
+
+ffmpeg 10:7.1-dmo3 [Unofficial Multimedia Packages/trixie main]
+├── is installed
+└── audio/video encoder, streaming server & audio/video file converter
+     FFmpeg is the leading multimedia framework, able to decode, encode,
+     transcode, mux, demux, stream, filter and play pretty much anything that
+     humans and machines have created. It supports the most obscure ancient
+     formats up to the cutting edge.
+     .
+     This package contains:
+      * ffmpeg: a command line tool to convert multimedia files between formats
+      * ffprobe: a simple multimedia stream analyzer
+      * qt-faststart: a utility to rearrange Quicktime files
+
+ffmpeg 7:7.1-3+b2 [Debian/trixie main]
+└── Tools for transcoding, streaming and playing of multimedia files
+     FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+     mux, demux, stream, filter and play pretty much anything that humans and
+     machines have created. It supports the most obscure ancient formats up to the
+     cutting edge.
+     .
+     This package contains:
+      * ffmpeg: a command line tool to convert multimedia files between formats
+      * ffplay: a simple media player based on SDL and the FFmpeg libraries
+      * ffprobe: a simple multimedia stream analyzer
+      * qt-faststart: a utility to rearrange Quicktime files
 
 file 1:5.45-3+b1 [Debian/trixie main]
 ├── is installed
@@ -3493,6 +3585,15 @@ flatpak 1.16.0-1 [Debian/trixie main]
      This package contains the services and executables needed to install and
      launch sandboxed applications, and the portal services needed to provide
      limited access to resources outside the sandbox.
+
+flatpak-builder 1.4.4-1 [Debian/trixie main]
+├── is installed
+└── Flatpak application building helper
+     Flatpak installs, manages and runs sandboxed desktop application bundles.
+     See the flatpak package for a more comprehensive description.
+     .
+     flatpak-builder is a tool that makes it easy to build applications and their
+     dependencies by automating the configure && make && make install steps.
 
 folks-common 0.15.9-5 [Debian/trixie main]
 ├── is installed
@@ -5559,7 +5660,16 @@ gcr4 4.3.91-1 [Debian/trixie main]
      .
      This package contains the certificate viewer and prompter service.
 
-gdm3 47.0-4 [Debian/trixie main]
+gdb 16.2-1 [Debian/trixie main]
+├── is installed
+└── GNU Debugger
+     GDB is a source-level debugger, capable of breaking programs at
+     any specific line, displaying variable values, and determining
+     where errors occurred. Currently, gdb supports C, C++, D,
+     Objective-C, Fortran, Java, OpenCL C, Pascal, assembly, Modula-2,
+     Go, and Ada. A must-have for any serious programmer.
+
+gdm3 48~beta-1 [Debian/trixie main]
 ├── is installed
 └── GNOME Display Manager
      GDM provides the equivalent of a "login:" prompt for X displays: it
@@ -5612,6 +5722,12 @@ geocode-glib-common 3.26.3-6 [Debian/trixie main]
      name from coordinates) using the Nominatim service.
      .
      This package contains the icons for the geocode-glib library.
+
+gettext 0.23.1-1 [Debian/trixie main]
+├── is installed
+└── GNU Internationalization utilities
+     Interesting for authors or maintainers of other packages or programs
+     which they want to see internationalized.
 
 gettext-base 0.23.1-1 [Debian/trixie main]
 ├── is installed
@@ -5677,6 +5793,14 @@ gir1.2-ayatanaappindicator3-0.1 0.5.93+really-3 [Debian/trixie main]
      This package can be used by other packages using the GIRepository format
      to generate dynamic bindings (GTK-3+ version).
 
+gir1.2-dex-1 0.9.0-2 [Debian/trixie main]
+├── is installed
+└── GObject introspection data for libdex
+     This package contains GObject introspection information.
+     .
+     It can be used by packages using the GIRepository format to generate
+     dynamic bindings.
+
 gir1.2-evince-3.0 46.3.1-1+b1 [Debian/trixie main]
 ├── is installed
 └── GObject introspection data for the evince libraries
@@ -5692,6 +5816,15 @@ gir1.2-evince-3.0 46.3.1-1+b1 [Debian/trixie main]
      .
      It can be used by packages using the GIRepository format to generate
      dynamic bindings.
+
+gir1.2-flatpak-1.0 1.16.0-1 [Debian/trixie main]
+├── is installed
+└── Application deployment framework for desktop apps (introspection)
+     Flatpak installs, manages and runs sandboxed desktop application bundles.
+     See the flatpak package for a more comprehensive description.
+     .
+     This package can be used by other packages using the GIRepository format to
+     generate dynamic bindings for libflatpak0.
 
 gir1.2-freedesktop 1.82.0-4 [Debian/trixie main]
 ├── is installed
@@ -5750,7 +5883,7 @@ gir1.2-gdkpixbuf-2.0 2.42.12+dfsg-2 [Debian/trixie main]
      It can be used by packages using the GIRepository format to generate
      dynamic bindings.
 
-gir1.2-gdm-1.0 47.0-4 [Debian/trixie main]
+gir1.2-gdm-1.0 48~beta-1 [Debian/trixie main]
 ├── is installed
 └── GObject introspection data for the GNOME Display Manager
      GDM provides the equivalent of a "login:" prompt for X displays: it
@@ -5998,6 +6131,15 @@ gir1.2-gtksource-4 4.8.4-5+b3 [Debian/trixie main]
      .
      This package contains GObject introspection information.
 
+gir1.2-gtksource-5 5.15.0-3 [Debian/trixie main]
+├── is installed
+└── gir files for the GTK+ syntax highlighting widget
+     GtkSourceView is a text widget that extends the standard GTK 4 text widget
+     GtkTextView. It improves GtkTextView by implementing syntax highlighting and
+     other features typical of a source editor.
+     .
+     This package contains GObject introspection information.
+
 gir1.2-gudev-1.0 238-6 [Debian/trixie main]
 ├── is installed
 └── libgudev-1.0 introspection data
@@ -6047,6 +6189,19 @@ gir1.2-javascriptcoregtk-4.1 2.46.6-1 [Debian/trixie main]
      This package contains the introspection data, which can be used by
      packages using the GIRepository format to generate dynamic bindings.
 
+gir1.2-javascriptcoregtk-6.0 2.46.6-1 [Debian/trixie main]
+├── is installed
+└── JavaScript engine library from WebKitGTK - GObject introspection data
+     JavaScriptCore is the JavaScript engine used in WebKit. It consists
+     of the following building blocks: lexer, parser, start-up interpreter
+     (LLInt), baseline JIT, a low-latency optimizing JIT (DFG), and a
+     high-throughput optimizing JIT (FTL).
+     .
+     This build comes from the GTK port of WebKit (API version 6.0).
+     .
+     This package contains the introspection data, which can be used by
+     packages using the GIRepository format to generate dynamic bindings.
+
 gir1.2-json-1.0 1.10.6+ds-1 [Debian/trixie main]
 ├── is installed
 └── GLib JSON manipulation library (introspection data)
@@ -6057,6 +6212,14 @@ gir1.2-json-1.0 1.10.6+ds-1 [Debian/trixie main]
      from JSON data types.
      .
      This package contains introspection data.
+     .
+     It can be used by packages using the GIRepository format to generate
+     dynamic bindings.
+
+gir1.2-jsonrpc-1.0 3.44.1-1 [Debian/trixie main]
+├── is installed
+└── GObject introspection data for jsonrpc-glib
+     This package contains GObject introspection information.
      .
      It can be used by packages using the GIRepository format to generate
      dynamic bindings.
@@ -6137,6 +6300,14 @@ gir1.2-notify-0.7 0.8.3-1+b2 [Debian/trixie main]
      This package can be used by other packages using the GIRepository format to
      generate dynamic bindings.
 
+gir1.2-panel-1 1.9.0-1 [Debian/trixie main]
+├── is installed
+└── GObject introspection data for libpanel
+     This package contains GObject introspection information.
+     .
+     It can be used by packages using the GIRepository format to generate
+     dynamic bindings.
+
 gir1.2-pango-1.0 1.56.1-1 [Debian/trixie main]
 ├── is installed
 └── Layout and rendering of internationalized text - gir bindings
@@ -6160,6 +6331,14 @@ gir1.2-peas-1.0 1.36.0-3+b4 [Debian/trixie main]
 ├── is installed
 └── Application plugin library (introspection files)
      libpeas is a library that allows applications to support plugins.
+     .
+     This package can be used by other packages using the GIRepository format to
+     generate dynamic bindings.
+
+gir1.2-peas-2 2.0.5-3 [Debian/trixie main]
+├── is installed
+└── Application plugin library (introspection files)
+     libpeas-2 is a library that allows applications to support plugins.
      .
      This package can be used by other packages using the GIRepository format to
      generate dynamic bindings.
@@ -6188,7 +6367,7 @@ gir1.2-rest-1.0 0.9.1-6+b2 [Debian/trixie main]
      It can be used by packages using the GIRepository format to generate dynamic
      bindings.
 
-gir1.2-rsvg-2.0 2.59.1+dfsg-1 [Debian/trixie main]
+gir1.2-rsvg-2.0 2.59.90+dfsg-2 [Debian/trixie main]
 ├── is installed
 └── gir files for renderer library for SVG files
      The rsvg library is an efficient renderer for Scalable Vector Graphics
@@ -6226,6 +6405,14 @@ gir1.2-soup-3.0 3.6.4-2 [Debian/trixie main]
      on the network in a completely asynchronous fashion, very similar to
      the GTK+ programming model (a synchronous operation mode is also
      supported for those who want it).
+     .
+     It can be used by packages using the GIRepository format to generate
+     dynamic bindings.
+
+gir1.2-template-1.0 3.36.3-1 [Debian/trixie main]
+├── is installed
+└── GObject introspection data for template-glib
+     This package contains GObject introspection information.
      .
      It can be used by packages using the GIRepository format to generate
      dynamic bindings.
@@ -6279,6 +6466,32 @@ gir1.2-upowerglib-1.0 1.90.7-1 [Debian/trixie main]
      It can be used by packages using the GIRepository format to generate
      dynamic bindings.
 
+gir1.2-vte-3.91 0.78.3-3 [Debian/trixie main]
+├── is installed
+└── GObject introspection data for the VTE library (GTK 4 version)
+     This package contains introspection data for VTE, a terminal emulator
+     widget for GTK.
+     .
+     It can be used by interpreters understanding the GIRepository format to
+     write programs using the VTE widget for GTK 4.
+
+gir1.2-webkit-6.0 2.46.6-1 [Debian/trixie main]
+├── is installed
+└── Web content engine library for GTK - GObject introspection data
+     WebKit is a web content engine, derived from KHTML and KJS from KDE, and
+     used primarily in Apple's Safari browser.  It is made to be embedded in
+     other applications, such as mail readers, or web browsers.
+     .
+     It is able to display content such as HTML, SVG, XML, and others. It also
+     supports DOM, XMLHttpRequest, XSLT, CSS, JavaScript/ECMAScript and more.
+     .
+     WebKitGTK is a WebKit port designed to be used in GTK applications.
+     This build provides version 6.0 of the API and uses libsoup v3 for
+     the networking stack and the GTK 4 widget toolkit.
+     .
+     This package contains introspection data, which can be used by
+     packages using the GIRepository format to generate dynamic bindings.
+
 gir1.2-webkit2-4.1 2.46.6-1 [Debian/trixie main]
 ├── is installed
 └── Web content engine library for GTK - GObject introspection data
@@ -6318,6 +6531,28 @@ gir1.2-xdp-1.0 0.9.0-1 [Debian/trixie main]
      .
      This package can be used by other packages using the GIRepository format
      to generate dynamic bindings.
+
+girepository-tools 2.83.3-2 [Debian/trixie main]
+├── is installed
+└── Tools for working with GObject-Introspection repositories
+     GLib is a library containing many useful C routines for things such
+     as trees, hashes, lists, and strings.  It is a useful general-purpose
+     C library used by projects such as GTK, GIMP, and GNOME.
+     .
+     This package contains developer-oriented command-line tools for working
+     with GObject-Introspection typelibs and GIR XML, which are used to
+     provide language bindings and documentation for GLib-based libraries:
+     .
+      * x86_64-linux-gnu-gi-compile-repository
+      * x86_64-linux-gnu-gi-decompile-typelib
+      * x86_64-linux-gnu-gi-inspect-typelib
+     .
+     When used via this package, these tools must be invoked with their
+     host-architecture-specific names.
+     .
+     For command-line compatibility with non-Debian-based GLib packaging,
+     the libglib2.0-dev package also provides versions of these tools for the
+     system's primary architecture, named without the architecture prefix.
 
 git 1:2.47.2-0.1 [Debian/trixie main]
 ├── is installed
@@ -6440,6 +6675,15 @@ gnome-browser-connector 42.1-5 [Debian/trixie main]
      .
      This package provides the connector that talks with the browser
      extension
+
+gnome-builder 48~beta-1 [Debian/trixie main]
+├── is installed
+└── IDE for GNOME
+     Builder is a new IDE for GNOME that is focused on bringing the power of
+     the platform to more developers than ever before.
+     .
+     Builder attempts to be an IDE for writing software for GNOME. It does not try
+     to be a generic IDE, but one specialized for GNOME application developers.
 
 gnome-calculator 1:47.1-1 [Debian/trixie main]
 ├── is installed
@@ -7811,6 +8055,14 @@ ibverbs-providers 55.0-1 [Debian/trixie main]
       - siw: A software implementation of the iWarp protocol
       - vmw_pvrdma: VMware paravirtual RDMA device
 
+icu-devtools 72.1-6 [Debian/trixie main]
+├── is installed
+└── Development utilities for International Components for Unicode
+     ICU is a C++ and C library that provides robust and full-featured
+     Unicode and locale support. This package contains programs used to
+     manipulate data files found in the ICU sources and is a dependency of
+     libicu-dev.  End users would generally not need to install this package.
+
 ienglish-common 3.4.06-1 [Debian/trixie main]
 ├── is installed
 └── Common files for British and American ispell dictionaries
@@ -8333,6 +8585,19 @@ lfm 3.1-3 [Debian/trixie main]
      lfm package also contains pyview, a text / hex file viewer to be
      used with or without lfm.
 
+lib32gcc-s1 14.2.0-16 [Debian/trixie main]
+├── is installed
+└── GCC support library (32 bit Version)
+     Shared version of the support library, a library of internal subroutines
+     that GCC uses to overcome shortcomings of particular machines, or
+     special needs for some languages.
+
+lib32stdc++6 14.2.0-16 [Debian/trixie main]
+├── is installed
+└── GNU Standard C++ Library v3 (32 bit Version)
+     This package contains an additional runtime library for C++ programs
+     built with the GNU compiler.
+
 liba52-0.7.4 0.7.4-20+b3 [Debian/trixie main]
 ├── is installed
 └── library for decoding ATSC A/52 streams
@@ -8562,6 +8827,20 @@ libapparmor1 3.1.7-2 [Debian/trixie main]
      against in order to use various AppArmor functionality,
      such as transitioning to a different AppArmor profile or hat.
 
+libappstream-compose0 1.0.4-1 [Debian/trixie main]
+├── is installed
+└── Building blocks to compose AppStream metadata
+     AppStream is a metadata specification which permits software components to
+     provide information about themselves to automated systems and end-users
+     before the software is actually installed.
+     This permits informative displays of new applications to users in software
+     centers, as well as allowing a system to make decisions on which new software
+     a user might want to install (e.g. missing firmware or media handlers).
+     .
+     This package contains a GObject-based library of high-level functions
+     to compose AppStream metadata and auxiliary data (like font renderings,
+     icons, etc.).
+
 libappstream5 1.0.4-1 [Debian/trixie main]
 ├── is installed
 └── Library to access AppStream services
@@ -8618,7 +8897,7 @@ libaprutil1t64 1.6.3-3+b1 [Debian/trixie main]
      APR Util is a utilities library implemented on top of apr, providing database
      access, xml parsing, and other useful functionality.
 
-libapt-pkg6.0t64 2.9.28 [Debian/trixie main]
+libapt-pkg6.0t64 2.9.29 [Debian/trixie main]
 ├── is installed
 └── package management runtime library
      This library provides the common functionality for searching and
@@ -8720,6 +8999,14 @@ libasan8 14.2.0-16 [Debian/trixie main]
 └── AddressSanitizer -- a fast memory error detector
      AddressSanitizer (ASan) is a fast memory error detector.  It finds
      use-after-free and {heap,stack,global}-buffer overflow bugs in C/C++ programs.
+
+libasm1t64 0.192-4 [Debian/trixie main]
+├── is installed
+└── library with a programmable assembler interface
+     The libasm1t64 package provides a library with a programmable assembler
+     interface.  It allows you to create ELF files on a low level.
+     .
+     This library is part of elfutils.
 
 libasound2-data 1.2.13-1 [Debian/trixie main]
 ├── is installed
@@ -9099,6 +9386,23 @@ libavcodec61:i386 7:7.1-3+b2 [Debian/trixie main]
      .
      This package contains the runtime files.
 
+libavdevice61 10:7.1-dmo3 [Unofficial Multimedia Packages/trixie main]
+├── is installed
+└── FFmpeg library for handling input and output devices - runtime files
+
+libavdevice61 7:7.1-3+b2 [Debian/trixie main]
+└── FFmpeg library for handling input and output devices - runtime files
+     FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+     mux, demux, stream, filter and play pretty much anything that humans and
+     machines have created. It supports the most obscure ancient formats up to the
+     cutting edge.
+     .
+     This library provides a generic framework for grabbing from and rendering to
+     many common multimedia input/output devices, and supports several input and
+     output devices, including Video4Linux2, VfW, DShow, and ALSA.
+     .
+     This package contains the runtime files.
+
 libavfilter10 10:7.1-dmo3 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg filter library
@@ -9216,6 +9520,15 @@ libayatana-indicator3-7 0.9.4-1+b1 [Debian/trixie main]
      .
      This package contains the library itself (GTK-3+ variant).
 
+libbabeltrace1 1.5.11-4+b1 [Debian/trixie main]
+├── is installed
+└── Babeltrace conversion libraries
+     Babeltrace provides trace reading and writing libraries, as well as a trace
+     converter. Plugins can be created for any trace format to allow its conversion
+     to/from any other supported format.
+     .
+     This package provides the babeltrace trace reading and conversion library.
+
 libbabl-0.1-0 1:0.1.110-1 [Debian/trixie main]
 ├── is installed
 └── Dynamic, any to any, pixel format conversion library
@@ -9299,6 +9612,16 @@ libblas3 3.12.1-2 [Debian/trixie main]
      at netlib.
      .
      This package contains a shared version of the library.
+
+libblkid-dev 2.40.4-3 [Debian/trixie main]
+├── is installed
+└── block device ID library - headers
+     The blkid library allows system programs such as fsck and mount to
+     quickly and easily find block devices by filesystem UUID or label.
+     This allows system administrators to avoid specifying filesystems by
+     hard-coded device names and use a logical naming system instead.
+     .
+     This package contains the development environment for the blkid library.
 
 libblkid1 2.40.4-3 [Debian/trixie main]
 ├── is installed
@@ -9429,7 +9752,7 @@ libbluray2 1:1.3.4-1+b2 [Debian/trixie main]
      .
      This package provides the shared library.
 
-libboost-iostreams1.83.0 1.83.0-4 [Debian/trixie main]
+libboost-iostreams1.83.0 1.83.0-4.1 [Debian/trixie main]
 ├── is installed
 └── Boost.Iostreams Library
      This package forms part of the Boost C++ Libraries collection.
@@ -9438,7 +9761,7 @@ libboost-iostreams1.83.0 1.83.0-4 [Debian/trixie main]
      which turn models of these concepts into C++ standard library streams
      and stream buffers.
 
-libboost-locale1.83.0 1.83.0-4 [Debian/trixie main]
+libboost-locale1.83.0 1.83.0-4.1 [Debian/trixie main]
 ├── is installed
 └── C++ facilities for localization
      This package forms part of the Boost C++ Libraries collection.
@@ -9463,7 +9786,7 @@ libboost-locale1.83.0 1.83.0-4 [Debian/trixie main]
       * Support for char and wchar_t
       * Experimental support for C++0x char16_t and char32_t strings and streams.
 
-libboost-thread1.83.0 1.83.0-4 [Debian/trixie main]
+libboost-thread1.83.0 1.83.0-4.1 [Debian/trixie main]
 ├── is installed
 └── portable C++ multi-threading
      This package forms part of the Boost C++ Libraries collection.
@@ -9680,11 +10003,24 @@ libc6 2.40-6 [Debian/trixie main]
      the system. This package includes shared versions of the standard C library
      and the standard math library, as well as many others.
 
+libc6-dbg 2.40-6 [Debian/trixie main]
+├── is installed
+└── GNU C Library: detached debugging symbols
+     This package contains the detached debugging symbols for the GNU C
+     library.
+
 libc6-dev 2.40-6 [Debian/trixie main]
 ├── is installed
 └── GNU C Library: Development Libraries and Header Files
      Contains the symlinks, headers, and object files needed to compile
      and link programs which use the standard C library.
+
+libc6-i386 2.40-6 [Debian/trixie main]
+├── is installed
+└── GNU C Library: 32-bit shared libraries for AMD64
+     This package includes shared versions of the standard C
+     library and the standard math library, as well as many others.
+     This is the 32bit version of the library, meant for AMD64 systems.
 
 libc6:i386 2.40-6 [Debian/trixie main]
 ├── is installed
@@ -10104,6 +10440,67 @@ libcjson1 1.7.18-3+b1 [Debian/trixie main]
      It's a single file of C, and a single header file.
      .
      This package contains the shared libraries.
+
+libclang-common-19-dev 1:19.1.7-1+b1 [Debian/trixie main]
+├── is installed
+└── Clang library - Common development package
+     Clang project is a C, C++, Objective C and Objective C++ front-end
+     based on the LLVM compiler. Its goal is to offer a replacement to the
+     GNU Compiler Collection (GCC).
+     .
+     Clang implements all of the ISO C++ 1998, 11, 14 and 17 standards and also
+     provides most of the support of C++20.
+     .
+     This package contains the Clang generic headers.
+
+libclang-cpp19 1:19.1.7-1+b1 [Debian/trixie main]
+├── is installed
+└── C++ interface to the Clang library
+     Clang project is a C, C++, Objective C and Objective C++ front-end
+     based on the LLVM compiler. Its goal is to offer a replacement to the
+     GNU Compiler Collection (GCC).
+     .
+     Clang implements all of the ISO C++ 1998, 11, 14 and 17 standards and also
+     provides most of the support of C++20.
+     .
+     This package contains the Clang C++ library.
+     .
+     The C++ Interface to Clang provides an API that exposes
+     facilities for parsing source code into an abstract syntax tree (AST),
+     loading already-parsed ASTs, traversing the AST, associating physical source
+     locations with elements within the AST, and other facilities that support
+     Clang-based development tools.
+
+libclang-rt-19-dev 1:19.1.7-1+b1 [Debian/trixie main]
+├── is installed
+└── Compiler-rt - development package
+     This package provides various libraries:
+     .
+       * builtins - Simple libraries that provide implementation of the
+         low-level target-specific hooks required by code generation
+         and other runtime components.
+       * sanitizer runtimes - AddressSanitizer, ThreadSanitizer,
+         UndefinedBehaviorSanitizer, MemorySanitizer, LeakSanitizer
+         DataFlowSanitizer, etc
+       * profile - Library which is used to collect coverage information.
+
+libclang1-19 1:19.1.7-1+b1 [Debian/trixie main]
+├── is installed
+└── C interface to the Clang library
+     Clang project is a C, C++, Objective C and Objective C++ front-end
+     based on the LLVM compiler. Its goal is to offer a replacement to the
+     GNU Compiler Collection (GCC).
+     .
+     Clang implements all of the ISO C++ 1998, 11, 14 and 17 standards and also
+     provides most of the support of C++20.
+     .
+     This package contains the Clang library.
+     .
+     The C Interface to Clang provides a relatively small API that exposes
+     facilities for parsing source code into an abstract syntax tree (AST),
+     loading already-parsed ASTs, traversing the AST, associating physical source
+     locations with elements within the AST, and other facilities that support
+     Clang-based development tools.
 
 libclass-isa-perl 0.36-7 [Debian/trixie main]
 ├── is installed
@@ -10852,6 +11249,31 @@ libdebconfclient0 0.277 [Debian/trixie main]
      .
      This library allows C programs to interface with cdebconf.
 
+libdebuginfod-common 0.192-4 [Debian/trixie main]
+├── is installed
+└── configuration to enable the Debian debug info server
+     This package asks if it should enable use of the Debian debug info
+     server with debugging tools that use libdebuginfo such as GDB.
+     .
+     When this is allowed by the sysadmin, a snippet will be added to the
+     shell configuration. You will need to restart your shell after
+     installing this package before the snippet will work.
+     .
+     The Debian debug info server will be contacted every time debugging
+     tools attempt to look up debug info for binaries or libraries but the
+     server does not log requests for debug info.
+     .
+     The Debian debug info server uses https to securely transfer debugging
+     files but does not offer OpenPGP signing of debug info.
+
+libdebuginfod1t64 0.192-4 [Debian/trixie main]
+├── is installed
+└── library to interact with debuginfod (development files)
+     The libdebuginfo1 package provides a library with an interface to interact
+     with debuginfod.
+     .
+     This library is part of elfutils.
+
 libdecor-0-0 0.2.2-2 [Debian/trixie main]
 ├── is installed
 └── client-side window decoration library
@@ -10928,6 +11350,18 @@ libdevmapper1.02.1 2:1.02.201-1 [Debian/trixie main]
      This package contains the (user-space) shared library for accessing the
      device-mapper; it allows usage of the device-mapper through a clean,
      consistent interface (as opposed to through kernel ioctls).
+
+libdex-1-1 0.9.0-2 [Debian/trixie main]
+├── is installed
+└── Library for deferred execution
+     Dex is a library supporting "Deferred Execution" with the explicit goal of
+     integrating with GNOME and GTK-based applications. It provides primatives
+     for supporting futures in a variety of ways with both read-only and writable
+     views. Additionally, integration with existing asynchronous-based APIs is
+     provided through the use of wrapper promises.
+     .
+     "Fibers" are implemented which allows for writing synchronous looking code
+     which calls asynchronous APIs from GIO underneath.
 
 libdialog15 1.3-20250116-1 [Debian/trixie main]
 ├── is installed
@@ -11874,6 +12308,16 @@ libffado2 2.4.9-1+b2 [Debian/trixie main]
      .
      This package holds the shared library.
 
+libffi-dev 3.4.6-1 [Debian/trixie main]
+├── is installed
+└── Foreign Function Interface library (development files)
+     This package contains the headers and static library files necessary for
+     building programs which use libffi.
+     .
+     A foreign function interface is the popular name for the interface that
+     allows code written in one language to call code written in another
+     language.
+
 libffi6 3.2.1-9 [local]
 ├── is installed
 └── Foreign Function Interface library runtime
@@ -12184,7 +12628,7 @@ libfreehand-0.1-1 0.1.2-3 [Debian/trixie main]
      Libfreehand is library providing ability to interpret and import
      Adobe/Macromedia drawings into various applications.
 
-libfreerdp-client3-3 3.11.1+dfsg-1 [Debian/trixie main]
+libfreerdp-client3-3 3.12.0+dfsg-1 [Debian/trixie main]
 ├── is installed
 └── Free Remote Desktop Protocol library (client library)
      FreeRDP is a libre client/server implementation of the Remote
@@ -12192,7 +12636,7 @@ libfreerdp-client3-3 3.11.1+dfsg-1 [Debian/trixie main]
      .
      This package contains the shared library for common client functionality.
 
-libfreerdp-server3-3 3.11.1+dfsg-1 [Debian/trixie main]
+libfreerdp-server3-3 3.12.0+dfsg-1 [Debian/trixie main]
 ├── is installed
 └── Free Remote Desktop Protocol library (server library)
      FreeRDP is a libre client/server implementation of the Remote
@@ -12200,7 +12644,7 @@ libfreerdp-server3-3 3.11.1+dfsg-1 [Debian/trixie main]
      .
      This package contains the shared library with common server functionality.
 
-libfreerdp3-3 3.11.1+dfsg-1 [Debian/trixie main]
+libfreerdp3-3 3.12.0+dfsg-1 [Debian/trixie main]
 ├── is installed
 └── Free Remote Desktop Protocol library (core library)
      FreeRDP is a libre client/server implementation of the Remote
@@ -12608,7 +13052,7 @@ libgdk-pixbuf2.0-common 2.42.12+dfsg-2 [Debian/trixie main]
      This package contains the common files and translations for the GDK
      Pixbuf library.
 
-libgdm1 47.0-4 [Debian/trixie main]
+libgdm1 48~beta-1 [Debian/trixie main]
 ├── is installed
 └── GNOME Display Manager (shared library)
      GDM provides the equivalent of a "login:" prompt for X displays: it
@@ -12797,6 +13241,51 @@ libgif7:i386 5.2.2-1+b1 [Debian/trixie main]
      .
      This package contains the library.
 
+libgio-2.0-dev 2.83.3-2 [Debian/trixie main]
+├── is installed
+└── Development files for the GLib, GObject and GIO libraries
+     GLib is a library containing many useful C routines for things such
+     as trees, hashes, lists, and strings.  It is a useful general-purpose
+     C library used by projects such as GTK, GIMP, and GNOME.
+     .
+     This package contains development files for the main libraries included
+     in the upstream GLib package:
+     .
+      * GLib: the core library with data structures and utilities
+      * GThread: multi-threading support
+      * GModule: dynamically-loadable modules
+      * GObject: the object system
+      * GIO: higher-level utilities built on GObject
+     .
+     The libglib2.0-dev package provides a more complete set of development
+     files.
+
+libgio-2.0-dev-bin 2.83.3-2 [Debian/trixie main]
+├── is installed
+└── Development utilities for GLib, GObject and GIO libraries
+     GLib is a library containing many useful C routines for things such
+     as trees, hashes, lists, and strings.  It is a useful general-purpose
+     C library used by projects such as GTK, GIMP, and GNOME.
+     .
+     This package contains several developer-oriented command-line tools
+     used when compiling packages that use GLib:
+     .
+      * gdbus-codegen
+      * glib-compile-resources
+      * glib-genmarshal
+      * glib-gettextize
+      * glib-mkenums
+      * gobject-query
+      * gtester (deprecated)
+      * gtester-report (deprecated)
+     .
+     Other command-line tools can be found in the libglib2.0-bin package.
+     .
+     If the non-architecture-prefixed versions of the gi-compile-repository,
+     gi-decompile-typelib and gi-inspect-typelib tools are required, please
+     install the libglib2.0-dev package, but consider using the
+     architecture-prefixed versions in the girepository-tools package instead.
+
 libgirepository-1.0-1 1.82.0-4 [Debian/trixie main]
 ├── is installed
 └── Library for handling GObject introspection data (runtime library)
@@ -12810,6 +13299,16 @@ libgirepository-1.0-1 1.82.0-4 [Debian/trixie main]
      introspection data.
      .
      This package contains a C library for handling the introspection data.
+
+libgirepository-2.0-0 2.83.3-2 [Debian/trixie main]
+├── is installed
+└── GLib runtime library for handling GObject introspection data
+     GLib is a library containing many useful C routines for things such
+     as trees, hashes, lists, and strings.  It is a useful general-purpose
+     C library used by projects such as GTK+, GIMP, and GNOME.
+     .
+     This package contains the shared library used by language bindings such
+     as PyGObject and gjs to call GObject methods.
 
 libgit2-1.8 1.8.4+ds-3 [Debian/trixie main]
 ├── is installed
@@ -12965,6 +13464,33 @@ libglib2.0-data 2.83.3-2 [Debian/trixie main]
      .
      This package is needed for the runtime libraries to display messages in
      languages other than English.
+
+libglib2.0-dev 2.83.3-2 [Debian/trixie main]
+├── is installed
+└── Development metapackage for the GLib family of libraries
+     GLib is a library containing many useful C routines for things such
+     as trees, hashes, lists, and strings.  It is a useful general-purpose
+     C library used by projects such as GTK, GIMP, and GNOME.
+     .
+     This package provides most of the development headers, libraries and
+     utilities needed to compile GLib programs, and in most cases is the
+     most appropriate package to use as a build-dependency.
+     For lower-level packages that are involved in architecture bootstrapping,
+     consider switching dependencies to libgio-2.0-dev.
+     .
+     GObject-Introspection metadata for this library is not included here, and
+     can be found in the gir1.2-glib-2.0-dev package.
+
+libglib2.0-dev-bin 2.83.3-2 [Debian/trixie main]
+├── is installed
+└── Development utilities for the GLib library
+     GLib is a library containing many useful C routines for things such
+     as trees, hashes, lists, and strings.  It is a useful general-purpose
+     C library used by projects such as GTK+, GIMP, and GNOME.
+     .
+     This package is needed to compile programs against libglib2.0-0. It contains
+     development utilities typically run during compilation and should not be
+     installed directly. Use libglib2.0-dev instead.
 
 libglibmm-2.4-1t64 2.66.7-1+b1 [Debian/trixie main]
 ├── is installed
@@ -14522,6 +15048,13 @@ libice6 2:1.1.1-1 [Debian/trixie main]
      This module can be found at
      git://anongit.freedesktop.org/git/xorg/lib/libICE
 
+libicu-dev 72.1-6 [Debian/trixie main]
+├── is installed
+└── Development files for International Components for Unicode
+     ICU is a C++ and C library that provides robust and full-featured
+     Unicode and locale support.  This package contains the development
+     files for ICU.
+
 libicu72 72.1-6 [Debian/trixie main]
 ├── is installed
 └── International Components for Unicode
@@ -14850,6 +15383,14 @@ libipc-system-simple-perl 1.30-2 [Debian/trixie main]
      The module also includes the ability to specify acceptable exit values, trap
      errors, or process diagnostics.
 
+libipt2 2.1.2-1 [Debian/trixie main]
+├── is installed
+└── Intel Processor Trace Decoder Library
+     Intel's reference implementation for decoding Intel PT.
+     .
+     Go to https://software.intel.com/en-us/intel-platform-analysis-library
+     for sample code that uses the library.
+
 libiptcdata0 1.0.5-2.3 [Debian/trixie main]
 ├── is installed
 └── Library to parse IPTC metadata
@@ -15173,6 +15714,13 @@ libjson-glib-1.0-common 1.10.6+ds-1 [Debian/trixie main]
      from JSON data types.
      .
      This package contains the translations files.
+
+libjsonrpc-glib-1.0-1 3.44.1-1 [Debian/trixie main]
+├── is installed
+└── JSON-RPC library for GLib
+     JSONRPC-GLib is a library for communicating as both a JSON-RPC client and
+     server. Additionally, it supports upgrating connections to use GVariant for
+     less runtime overhead.
 
 libjsp-api-java 2.3.4-3 [Debian/trixie main]
 ├── is installed
@@ -16302,6 +16850,13 @@ libmodplug1 1:0.8.9.0-3+b2 [Debian/trixie main]
      a popular Windows mod player written by Olivier Lapicque, found at
      http://www.modplug.com.
 
+libmount-dev 2.40.4-3 [Debian/trixie main]
+├── is installed
+└── device mounting library - headers
+     This device mounting library is used by mount and umount helpers.
+     .
+     This package contains the development environment for the mount library.
+
 libmount1 2.40.4-3 [Debian/trixie main]
 ├── is installed
 └── device mounting library
@@ -16547,6 +17102,15 @@ libnautilus-extension4 47.1-2 [Debian/trixie main]
      GNOME desktop.
      .
      This package contains a few runtime libraries needed by nautilus' extensions.
+
+libncurses-dev 6.5+20250125-2 [Debian/trixie main]
+├── is installed
+└── developer's libraries for ncurses
+     The ncurses library routines are a terminal-independent method of
+     updating character screens with reasonable optimization.
+     .
+     This package contains the header files, static libraries
+     and symbolic links that developers using ncurses will need.
 
 libncurses5 6.4-4 [local]
 ├── is installed
@@ -17080,6 +17644,17 @@ liboauth0 1.0.3-5+b2 [Debian/trixie main]
      .
      This package contains the shared libraries.
 
+libobjc-14-dev 14.2.0-16 [Debian/trixie main]
+├── is installed
+└── Runtime library for GNU Objective-C applications (development files)
+     This package contains the headers and static library files needed to build
+     GNU ObjC applications.
+
+libobjc4 14.2.0-16 [Debian/trixie main]
+├── is installed
+└── Runtime library for GNU Objective-C applications
+     Library needed for GNU ObjC applications linked against the shared library.
+
 libodfgen-0.1-1 0.1.8-2+b2 [Debian/trixie main]
 ├── is installed
 └── library to generate ODF documents
@@ -17602,6 +18177,20 @@ libpam0g 1.7.0-3 [Debian/trixie main]
      One may entirely upgrade the local authentication system without touching
      the applications themselves.
 
+libpanel-1-1 1.9.0-1 [Debian/trixie main]
+├── is installed
+└── IDE paneling library for GTK
+     libpanel is a collection of GTK widgets for IDE-like applications targeting
+     GNOME using GTK 4 and libadwaita.
+
+libpanel-common 1.9.0-1 [Debian/trixie main]
+├── is installed
+└── IDE paneling library for GTK - common files
+     libpanel is a collection of GTK widgets for IDE-like applications targeting
+     GNOME using GTK 4 and libadwaita.
+     .
+     This package contains common data files and translations.
+
 libpango-1.0-0 1.56.1-1 [Debian/trixie main]
 ├── is installed
 └── Layout and rendering of internationalized text
@@ -17854,6 +18443,35 @@ libpcre2-8-0:i386 10.44-5 [Debian/trixie main]
      This package contains the 8 bit runtime library, which operates on
      ASCII and UTF-8 input.
 
+libpcre2-dev 10.44-5 [Debian/trixie main]
+├── is installed
+└── New Perl Compatible Regular Expression Library - development files
+     This is PCRE2, the new implementation of PCRE, a library of functions
+     to support regular expressions whose syntax and semantics are as
+     close as possible to those of the Perl 5 language. New projects
+     should use this library in preference to the older library,
+     confusingly called pcre3 in Debian.
+     .
+     Unlike the previous version of PCRE, there is no C++ library included
+     with PCRE2. Users who wish to avoid porting their C++ code to use the
+     PCRE2 C API might want to consider the libre2-dev package in Debian
+     which attempts to provide a similar C++ API to that provided by
+     libpcrecpp in previous versions of PCRE.
+     .
+     This package contains the development files, including headers,
+     static libraries, and documentation.
+
+libpcre2-posix3 10.44-5 [Debian/trixie main]
+├── is installed
+└── New Perl Compatible Regular Expression Library - posix-compatible runtime files
+     This is PCRE2, the new implementation of PCRE, a library of functions
+     to support regular expressions whose syntax and semantics are as
+     close as possible to those of the Perl 5 language. New projects
+     should use this library in preference to the older library,
+     confusingly called pcre3 in Debian.
+     .
+     This package contains the runtime library for the posix-compatible API.
+
 libpcre3 2:8.39-dmo2 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── Old Perl 5 Compatible Regular Expression Library - runtime files
@@ -17872,6 +18490,18 @@ libpeas-1.0-0 1.36.0-3+b4 [Debian/trixie main]
 ├── is installed
 └── Application plugin library
      libpeas is a library that allows applications to support plugins.
+
+libpeas-2-0 2.0.5-3 [Debian/trixie main]
+├── is installed
+└── Application plugin library
+     libpeas-2 is a library that allows applications to support plugins.
+
+libpeas-2-common 2.0.5-3 [Debian/trixie main]
+├── is installed
+└── Application plugin library (common files)
+     libpeas-2 is a library that allows applications to support plugins.
+     .
+     This package contains common files, such as translations and icons.
 
 libpeas-common 1.36.0-3 [Debian/trixie main]
 ├── is installed
@@ -17904,6 +18534,18 @@ libperl5.40 5.40.0-8 [Debian/trixie main]
      It also contains the architecture-dependent parts of the standard
      library (and depends on perl-modules-5.40 which contains the
      architecture-independent parts).
+
+libpfm4 4.13.0+git83-g91970fe-1 [Debian/trixie main]
+├── is installed
+└── Library to program the performance monitoring events
+     Libpfm4 helps convert from an event name, expressed as a string, to
+     the event encoding. The encoding can then be used with specific OS
+     interfaces. Libpfm4 also provides OS-specific interfaces to directly
+     setup OS-specific data structures to be passed to the kernel. The
+     current libpfm4, for instance, provides support for the perf_events
+     interface which was introduced in Linux v2.6.31.
+     .
+     This package provides the shared library.
 
 libpgm-5.3-0t64 5.3.128~dfsg-2.1+b1 [Debian/trixie main]
 ├── is installed
@@ -18013,6 +18655,21 @@ libpixman-1-0:i386 0.44.0-3 [Debian/trixie main]
      rectangles, image compositing using the Porter/Duff model
      and implicit mask generation for geometric primitives including
      trapezoids, triangles, and rectangles.
+
+libpkgconf3 1.8.1-4 [Debian/trixie main]
+├── is installed
+└── shared library for pkgconf
+     pkgconf is an implementation of the pkg-config system, which helps to configure
+     compiler and linker flags for development frameworks.
+     .
+     pkgconf is a replacement for pkg-config, providing additional functionality
+     while also maintaining compatibility.
+     .
+     libpkgconf is a library which provides access to most of pkgconf's
+     functionality, to allow other tooling such as compilers and IDEs to
+     discover and use libraries configured by pkgconf.
+     .
+     This package ships a shared library for libpkgconf.
 
 libplacebo349 2:7.349.0-dmo3 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
@@ -19275,7 +19932,7 @@ libroc0.4 0.4.0+dfsg-5 [Debian/trixie main]
      .
      This package provides the shared library.
 
-librsvg2-2 2.59.1+dfsg-1 [Debian/trixie main]
+librsvg2-2 2.59.90+dfsg-2 [Debian/trixie main]
 ├── is installed
 └── SAX-based renderer library for SVG files (runtime)
      The rsvg library is an efficient renderer for Scalable Vector Graphics
@@ -19284,7 +19941,7 @@ librsvg2-2 2.59.1+dfsg-1 [Debian/trixie main]
      This package contains the runtime library, necessary to run
      applications using librsvg.
 
-librsvg2-2:i386 2.59.1+dfsg-1 [Debian/trixie main]
+librsvg2-2:i386 2.59.90+dfsg-2 [Debian/trixie main]
 ├── is installed
 └── SAX-based renderer library for SVG files (runtime)
      The rsvg library is an efficient renderer for Scalable Vector Graphics
@@ -19293,7 +19950,7 @@ librsvg2-2:i386 2.59.1+dfsg-1 [Debian/trixie main]
      This package contains the runtime library, necessary to run
      applications using librsvg.
 
-librsvg2-common 2.59.1+dfsg-1 [Debian/trixie main]
+librsvg2-common 2.59.90+dfsg-2 [Debian/trixie main]
 ├── is installed
 └── SAX-based renderer library for SVG files (extra runtime)
      The rsvg library is an efficient renderer for Scalable Vector Graphics
@@ -19302,7 +19959,7 @@ librsvg2-common 2.59.1+dfsg-1 [Debian/trixie main]
      This package includes the gdk-pixbuf loader allowing
      to load SVG images transparently inside GTK+ applications.
 
-librsvg2-common:i386 2.59.1+dfsg-1 [Debian/trixie main]
+librsvg2-common:i386 2.59.90+dfsg-2 [Debian/trixie main]
 ├── is installed
 └── SAX-based renderer library for SVG files (extra runtime)
      The rsvg library is an efficient renderer for Scalable Vector Graphics
@@ -19580,6 +20237,20 @@ libselinux1 3.7-3.1 [Debian/trixie main]
      policy if necessary (e.g. to downgrade the policy format to an older
      version supported by the kernel) when loading policy.
 
+libselinux1-dev 3.7-3.1 [Debian/trixie main]
+├── is installed
+└── SELinux development headers
+     This package provides the  static libraries and header files
+     needed for developing SELinux applications.  Security-enhanced Linux
+     is a patch of the Linux kernel and a number of utilities with
+     enhanced security functionality designed to add mandatory access
+     controls to Linux.  The Security-enhanced Linux kernel contains new
+     architectural components originally developed to improve the security
+     of the Flask operating system. These architectural components provide
+     general support for the enforcement of many kinds of mandatory access
+     control policies, including those based on the concepts of Type
+     Enforcement, Role-based Access Control, and Multi-level Security.
+
 libselinux1:i386 3.7-3.1 [Debian/trixie main]
 ├── is installed
 └── SELinux runtime shared libraries
@@ -19675,6 +20346,16 @@ libsensors5:i386 1:3.6.0-10+b1 [Debian/trixie main]
      non-Linux systems for portability reasons only.
      .
      This package contains a shared library for querying lm-sensors.
+
+libsepol-dev 3.8-1 [Debian/trixie main]
+├── is installed
+└── SELinux binary policy manipulation library and development files
+     libsepol allows programs to easily modify SELinux binary policies.  This
+     means changing the default values for booleans, or reading the policy for
+     analysis.
+     .
+     This package contains the headers and archives used for linking it into your
+     programs.
 
 libsepol1 3.1-1 [local]
 ├── is installed
@@ -20121,6 +20802,24 @@ libsoup2.4-common 2.74.3-8.1 [Debian/trixie main]
      split into separate packages.
      .
      This package contains architecture-independent files such as translations.
+
+libsource-highlight-common 3.1.9-4.3 [Debian/trixie main]
+├── is installed
+└── architecture-independent files for source highlighting library
+     This package contains the data files used by the libsource-highlight
+     library, which is the library that underlies the source-highlight
+     program suite.  The library converts source code to a document with
+     syntax highlighting and supports many file formats.  The library can
+     be used by other C++ programs to get source code highlighting
+     capabilities.
+
+libsource-highlight4t64 3.1.9-4.3+b1 [Debian/trixie main]
+├── is installed
+└── source highlighting library
+     This is the library that underlies the source-highlight program
+     suite.  It converts source code to a document with syntax
+     highlighting and supports many file formats.  The library can be used
+     by other C++ programs to get source code highlighting capabilities.
 
 libsoxr0 0.1.3-4+b2 [Debian/trixie main]
 ├── is installed
@@ -20595,6 +21294,18 @@ libsynctex2 2024.20240313.70630+ds-5+b1 [Debian/trixie main]
 └── TeX Live: SyncTeX parser library
      Library for SyncTeX parsing support.
 
+libsysprof-capture-4-dev 48~beta-2 [Debian/trixie main]
+├── is installed
+└── capture library for system-wide Linux profiler
+     Sysprof is a sampling CPU profiler that uses a ptrace in Linux kernel to
+     profile the entire system, not just a single application. Sysprof handles
+     shared libraries and applications do not need to be recompiled. In fact they
+     don't even have to be restarted.
+     .
+     This package provides a static library for tools that generate profiling
+     capture data. It can be linked into other projects to provide more
+     detailed trace information.
+
 libsystemd-shared 257.3-1 [Debian/trixie main]
 ├── is installed
 └── systemd shared private library
@@ -20642,7 +21353,7 @@ libtalloc2 2:2.4.2+samba4.21.3+dfsg-6+b1 [Debian/trixie main]
      A hierarchical pool based memory allocator with destructors. It uses
      reference counting to determine when memory should be freed.
 
-libtasn1-6 4.19.0-3+b3 [Debian/trixie main]
+libtasn1-6 4.20.0-2 [Debian/trixie main]
 ├── is installed
 └── Manage ASN.1 structures (runtime)
      Manage ASN1 (Abstract Syntax Notation One) structures.
@@ -20656,7 +21367,7 @@ libtasn1-6 4.19.0-3+b3 [Debian/trixie main]
      .
      This package contains runtime libraries.
 
-libtasn1-6:i386 4.19.0-3+b3 [Debian/trixie main]
+libtasn1-6:i386 4.20.0-2 [Debian/trixie main]
 ├── is installed
 └── Manage ASN.1 structures (runtime)
      Manage ASN1 (Abstract Syntax Notation One) structures.
@@ -20697,6 +21408,26 @@ libteamdctl0 1.31-1+b2 [Debian/trixie main]
       * separate per-port link monitoring setup
      .
      Libteam requires Linux kernel 3.3 or higher.
+
+libtemplate-glib-1.0-0 3.36.3-1 [Debian/trixie main]
+├── is installed
+└── templating library for GLib
+     Template-GLib includes a simple template format along with integration into
+     GObject Introspection for properties and methods. It separates the parsing of
+     templates and the expansion of templates for faster expansion. You can also
+     define scope, custom functions, and more with the embedded expression
+     language.
+
+libtemplate-glib-common 3.36.3-1 [Debian/trixie main]
+├── is installed
+└── templating library for GLib - common files
+     Template-GLib includes a simple template format along with integration into
+     GObject Introspection for properties and methods. It separates the parsing of
+     templates and the expansion of templates for faster expansion. You can also
+     define scope, custom functions, and more with the embedded expression
+     language.
+     .
+     This package contains common data files and translations.
 
 libtesseract5 5.5.0-1 [Debian/trixie main]
 ├── is installed
@@ -21787,6 +22518,28 @@ libva2:i386 2.22.0-2 [Debian/trixie main]
      .
      This package provides the main libva library.
 
+libvala-0.56-0 0.56.17-1 [Debian/trixie main]
+├── is installed
+└── C# like language for the GObject system - library
+     Vala is a new programming language that aims to bring modern programming
+     language features to GNOME developers without imposing any additional
+     runtime requirements and without using a different ABI compared to
+     applications and libraries written in C.
+     .
+     This library contains the parser used by valac. It can be used for
+     building tools around Vala.
+
+libvala-0.56-dev 0.56.17-1 [Debian/trixie main]
+├── is installed
+└── C# like language for the GObject system - development headers
+     Vala is a new programming language that aims to bring modern
+     programming language features to GNOME developers without imposing
+     any additional runtime requirements and without using a different ABI
+     compared to applications and libraries written in C.
+     .
+     This package has the development library and headers for valac. These
+     headers can be used for building tools around Vala.
+
 libvdeplug2t64 4.0.1-5.1+b1 [Debian/trixie main]
 ├── is installed
 └── Virtual Distributed Ethernet - Plug library
@@ -22593,7 +23346,7 @@ libwildmidi2 0.4.3-1+b3 [Debian/trixie main]
      and stream the results as stereo audio data through a buffer which an
      external program can then process further.
 
-libwinpr3-3 3.11.1+dfsg-1 [Debian/trixie main]
+libwinpr3-3 3.12.0+dfsg-1 [Debian/trixie main]
 ├── is installed
 └── Windows Portable Runtime library
      WinPR is a spin-off project of FreeRDP which aims at providing a portable
@@ -24154,6 +24907,19 @@ libxml2 2.12.7+dfsg+really2.9.14-0.2+b1 [Debian/trixie main]
      This package provides a library providing an extensive API to handle
      such XML data files.
 
+libxml2-dev 2.12.7+dfsg+really2.9.14-0.2+b1 [Debian/trixie main]
+├── is installed
+└── GNOME XML library - development files
+     XML is a metalanguage to let you design your own markup language.
+     A regular markup language defines a way to describe information in
+     a certain class of documents (eg HTML). XML lets you define your
+     own customized markup languages for many classes of document. It
+     can do this because it's written in SGML, the international standard
+     metalanguage for markup languages.
+     .
+     Install this package if you wish to develop your own programs using
+     the GNOME XML library.
+
 libxml2-utils 2.12.7+dfsg+really2.9.14-0.2+b1 [Debian/trixie main]
 ├── is installed
 └── GNOME XML library - utilities
@@ -24690,6 +25456,17 @@ libz3-4:i386 4.13.3-1 [Debian/trixie main]
      This package contains runtime libraries. You shouldn't have to install it
      manually.
 
+libz3-dev 4.13.3-1 [Debian/trixie main]
+├── is installed
+└── theorem prover from Microsoft Research - development files
+     Z3 is a state-of-the-art theorem prover from Microsoft Research. It can be
+     used to check the satisfiability of logical formulas over one or more
+     theories. Z3 offers a compelling match for software analysis and verification
+     tools, since several common software constructs map directly into supported
+     theories.
+     .
+     This package can be used to invoke Z3 via its C++ API.
+
 libzbar0t64 0.23.93-6+b1 [Debian/trixie main]
 ├── is installed
 └── QR code / bar code scanner and decoder (library)
@@ -24951,7 +25728,7 @@ linux-image-amd64-signed-template 6.12.12-1 [Debian/trixie main]
      This package is used to control code signing by the Debian signing
      service.
 
-linux-libc-dev 6.13.2-1 [SparkyLinux/core main]
+linux-libc-dev 6.13.3-1 [SparkyLinux/core main]
 ├── is installed
 └── Linux support headers for userspace development
      This package provides userspaces headers from the Linux kernel.  These headers
@@ -24975,6 +25752,93 @@ liquorix-keyring 2016.03.19 [local]
      The liquorix project wants developers to digitally sign the announcements
      of their packages with GnuPG, to protect against forgeries. This package
      contains keyrings of GnuPG keys of developers.
+
+llvm-19 1:19.1.7-1+b1 [Debian/trixie main]
+├── is installed
+└── Modular compiler and toolchain technologies
+     LLVM is a collection of libraries and tools that make it easy to build
+     compilers, optimizers, just-in-time code generators, and many other
+     compiler-related programs.
+     .
+     LLVM uses a single, language-independent virtual instruction set both
+     as an offline code representation (to communicate code between
+     compiler phases and to run-time systems) and as the compiler internal
+     representation (to analyze and transform programs). This persistent
+     code representation allows a common set of sophisticated compiler
+     techniques to be applied at compile-time, link-time, install-time,
+     run-time, or "idle-time" (between program runs).
+     .
+     The strengths of the LLVM infrastructure are its extremely
+     simple design (which makes it easy to understand and use),
+     source-language independence, powerful mid-level optimizer, automated
+     compiler debugging support, extensibility, and its stability and
+     reliability. LLVM is currently being used to host a wide variety of
+     academic research projects and commercial projects. LLVM includes C
+     and C++ front-ends, a front-end for a Forth-like language (Stacker),
+     a young scheme front-end, and Java support is in development. LLVM can
+     generate code for X96, SparcV10, PowerPC or many other architectures.
+
+llvm-19-dev 1:19.1.7-1+b1 [Debian/trixie main]
+├── is installed
+└── Modular compiler and toolchain technologies, libraries and headers
+     LLVM is a collection of libraries and tools that make it easy to build
+     compilers, optimizers, just-in-time code generators, and many other
+     compiler-related programs.
+     .
+     LLVM uses a single, language-independent virtual instruction set both
+     as an offline code representation (to communicate code between
+     compiler phases and to run-time systems) and as the compiler internal
+     representation (to analyze and transform programs). This persistent
+     code representation allows a common set of sophisticated compiler
+     techniques to be applied at compile-time, link-time, install-time,
+     run-time, or "idle-time" (between program runs).
+     .
+     This package provides the libraries and headers to develop applications
+     using llvm.
+
+llvm-19-linker-tools 1:19.1.7-1+b1 [Debian/trixie main]
+├── is installed
+└── Modular compiler and toolchain technologies - Plugins
+     LLVM is a collection of libraries and tools that make it easy to build
+     compilers, optimizers, just-in-time code generators, and many other
+     compiler-related programs.
+     .
+     This package contains the LLVMgold and LLVMPolly linker plugins.
+
+llvm-19-runtime 1:19.1.7-1+b1 [Debian/trixie main]
+├── is installed
+└── Modular compiler and toolchain technologies, IR interpreter
+     LLVM is a collection of libraries and tools that make it easy to build
+     compilers, optimizers, just-in-time code generators, and many other
+     compiler-related programs.
+     .
+     LLVM uses a single, language-independent virtual instruction set both
+     as an offline code representation (to communicate code between
+     compiler phases and to run-time systems) and as the compiler internal
+     representation (to analyze and transform programs). This persistent
+     code representation allows a common set of sophisticated compiler
+     techniques to be applied at compile-time, link-time, install-time,
+     run-time, or "idle-time" (between program runs).
+     .
+     This package provides the minimal required to execute programs in LLVM
+     format.
+
+llvm-19-tools 1:19.1.7-1+b1 [Debian/trixie main]
+├── is installed
+└── Modular compiler and toolchain technologies, tools
+     LLVM is a collection of libraries and tools that make it easy to build
+     compilers, optimizers, just-in-time code generators, and many other
+     compiler-related programs.
+     .
+     LLVM uses a single, language-independent virtual instruction set both
+     as an offline code representation (to communicate code between
+     compiler phases and to run-time systems) and as the compiler internal
+     representation (to analyze and transform programs). This persistent
+     code representation allows a common set of sophisticated compiler
+     techniques to be applied at compile-time, link-time, install-time,
+     run-time, or "idle-time" (between program runs).
+     .
+     This package provides tools for testing.
 
 locales 2.40-6 [Debian/trixie main]
 ├── is installed
@@ -25360,6 +26224,13 @@ mesa-vulkan-drivers:i386 24.3.4-3 [Debian/trixie main]
      Vulkan is a low-overhead 3D graphics and compute API. This package
      includes Vulkan drivers provided by the Mesa project.
 
+meson 1.7.0-1 [Debian/trixie main]
+├── is installed
+└── high-productivity build system
+     Meson is a build system designed to increase programmer
+     productivity. It does this by providing a fast, simple and easy to
+     use interface for modern software development tools and practices.
+
 mime-support 3.66 [local]
 ├── is installed
 └── transitional package
@@ -25497,6 +26368,15 @@ nano 8.3-1 [Debian/trixie main]
       - tab completion of filenames and search terms
       - toggling features while running
       - and full internationalization support
+
+native-architecture 0.2.5 [Debian/trixie main]
+├── is installed
+└── Declarative native architecture constraint
+     This is a meta package that can only satisfy a dependency for the
+     native architecture. The native architecture is defined as the
+     architecture of the dpkg package by the Multi-Arch specification. By
+     depending on native-architecture, a client package can prevent its
+     installation for a non-native architecture.
 
 nautilus 47.1-2 [Debian/trixie main]
 ├── is installed
@@ -25652,6 +26532,18 @@ nfs-common 1:2.8.2-2 [Debian/trixie main]
      server.  Programs included: lockd, statd, showmount, nfsstat, gssd,
      idmapd and mount.nfs.
 
+ninja-build 1.12.1-1 [Debian/trixie main]
+├── is installed
+└── small build system closest in spirit to Make
+     Ninja is yet another build system. It takes as input the interdependencies of
+     files (typically source code and output executables) and orchestrates
+     building them, quickly.
+     .
+     Ninja joins a sea of other build systems. Its distinguishing goal is to be
+     fast. It is born from the Chromium browser project, which has over 30,000
+     source files and whose other build systems can take ten seconds to start
+     building after changing one file. Ninja is under a second.
+
 nm-connection-editor 1.36.0-3+b1 [Debian/trixie main]
 ├── is installed
 └── network management framework (connection configuration editor)
@@ -25792,6 +26684,16 @@ openssl-provider-legacy 3.4.0-2 [Debian/trixie main]
      the cryptography community, or something similar.
      For details see OSSL_PROVIDER-legacy man page.
 
+optipng 0.7.8+ds-1+b1 [Debian/trixie main]
+├── is installed
+└── advanced PNG (Portable Network Graphics) optimizer
+     OptiPNG is a PNG optimizer that recompresses the image files to a smaller
+     size. It losslessly reduces the bit depth, the color type and the color
+     palette of the image, runs a suite of compression methods and strategies,
+     and selects the compression parameters that yield the smallest output file.
+     It also recognizes several external file formats like BMP, GIF, TIFF and
+     PNM (PBM, PGM, PPM).
+
 orca 47.3-1 [Debian/trixie main]
 ├── is installed
 └── Scriptable screen reader
@@ -25822,6 +26724,21 @@ osinfo-db 0.20250124-1 [Debian/trixie main]
      an operating system on a hypervisor.
      .
      This package contains the actual database files.
+
+ostree 2025.1-1 [Debian/trixie main]
+├── is installed
+└── content-addressed filesystem for operating system binaries
+     libostree provides a library and tools for managing bootable, immutable,
+     versioned filesystem trees. It is like git in that it checksums
+     individual files and has a content-addressed object store; unlike git,
+     it "checks out" the files using hardlinks into an immutable directory
+     tree. This can be used to provide atomic upgrades with rollback, history
+     and parallel-installation, particularly useful on "fixed purpose"
+     systems such as embedded devices.
+     .
+     This package contains the executables used to manage and create
+     filesystem trees. It does not affect the boot process for the system
+     on which it is installed.
 
 ovmf 2024.11-5 [Debian/trixie main]
 ├── is installed
@@ -26147,6 +27064,26 @@ pkexec 126-2 [Debian/trixie main]
      If this functionality is not required, removing the pkexec package will
      reduce security risk by removing a setuid program.
 
+pkgconf 1.8.1-4 [Debian/trixie main]
+├── is installed
+└── manage compile and link flags for libraries
+     pkgconf is an implementation of the pkg-config system, which helps to configure
+     compiler and linker flags for development frameworks.
+     .
+     pkgconf is a replacement for pkg-config, providing additional functionality
+     while also maintaining compatibility.
+
+pkgconf-bin 1.8.1-4 [Debian/trixie main]
+├── is installed
+└── manage compile and link flags for libraries (binaries)
+     pkgconf is an implementation of the pkg-config system, which helps to configure
+     compiler and linker flags for development frameworks.
+     .
+     pkgconf is a replacement for pkg-config, providing additional functionality
+     while also maintaining compatibility.
+     .
+     This package contains the pkgconf binary and related files.
+
 plocate 1.1.23-1 [Debian/trixie main]
 ├── is installed
 └── much faster locate
@@ -26359,6 +27296,17 @@ python3-apt 2.9.8 [Debian/trixie main]
      The included 'aptsources' Python interface provides an abstraction of
      the sources.list configuration on the repository and the distro level.
 
+python3-autocommand 2.2.2-3 [Debian/trixie main]
+├── is installed
+└── library to generate argparse parsers from function signatures
+     Autocommand is a library to automatically generate and run simple argparse
+     parsers from function signatures.
+     .
+     It turns a function into a command-line program, converting the function's
+     parameter signature into command-line arguments, and automatically running
+     the function with these arguments if the module was called as __main__.
+     Usage messages, invoked with -h or --help, are also created automatically.
+
 python3-bcrypt 4.2.0-2.1 [Debian/trixie main]
 ├── is installed
 └── password hashing library for Python 3
@@ -26380,6 +27328,16 @@ python3-brlapi 6.7-1+b1 [Debian/trixie main]
      lets it write braille.
      .
      This package provides Python 3 bindings.
+
+python3-bs4 4.13.3-1 [Debian/trixie main]
+├── is installed
+└── error-tolerant HTML parser for Python 3
+     Beautiful Soup is a Python library for pulling data out of HTML and XML files.
+     It works with your favorite parser to provide idiomatic ways of navigating,
+     searching, and modifying the parse tree. It commonly saves programmers hours
+     or days of work.
+     .
+     This package contains BeautifulSoup 4, for Python 3.x.
 
 python3-cairo 1.26.1-2+b1 [Debian/trixie main]
 ├── is installed
@@ -26487,6 +27445,16 @@ python3-cryptography 43.0.0-1 [Debian/trixie main]
       - Extremely error prone APIs, and bad defaults.
      .
      This package contains the Python 3 version of cryptography.
+
+python3-cssselect 1.2.0-4 [Debian/trixie main]
+├── is installed
+└── cssselect parses CSS3 Selectors and translates them to XPath 1.0
+     cssselect parses CSS3 Selectors and translate them to XPath 1.0 expressions.
+     Such expressions can be used in lxml or another XPath engine to find the
+     matching elements in an XML or HTML document.
+     .
+     This module used to live inside of lxml as lxml.cssselect before it was
+     extracted as a stand-alone project.
 
 python3-cups 2.0.4-2+b1 [Debian/trixie main]
 ├── is installed
@@ -26623,6 +27591,13 @@ python3-h11 0.14.0-1 [Debian/trixie main]
      .
      This is the Python 3 package.
 
+python3-html5lib 1.2-1 [Debian/trixie main]
+├── is installed
+└── HTML parser/tokenizer based on the WHATWG HTML5 specification
+     html5lib is a pure-python library for parsing HTML. It is designed to
+     conform to the HTML 5 specification, which has formalized the error handling
+     algorithms of popular web browsers.
+
 python3-httpcore 1.0.7-1 [Debian/trixie main]
 ├── is installed
 └── minimal low-level HTTP client
@@ -26703,6 +27678,35 @@ python3-idna 3.10-1 [Debian/trixie main]
      .
      This package contains the module for Python 3.
 
+python3-inflect 7.3.1-2 [Debian/trixie main]
+├── is installed
+└── Generate plurals, singular nouns, ordinals, indefinite articles (Python 3)
+     The inflect Python module correctly generates plurals, singular nouns,
+     ordinals and indefinite articles. It can also convert numbers to words.
+     .
+     This package contains the Python 3 version of this module.
+
+python3-jaraco.context 6.0.0-1 [Debian/trixie main]
+├── is installed
+└── jaraco contextlib extensions
+     Various context managers extending functionality of Python's
+     contextlib, mostly needed as a dependency of other projects
+     involving the same upstream developer.
+
+python3-jaraco.functools 4.1.0-1 [Debian/trixie main]
+├── is installed
+└── additional functools in the spirit of stdlib's functools
+     Jaraco.functools provides additional functools in the spirit of stdlib's
+     functools, mostly needed as a dependency of other projects by the same
+     upstream developer such as the 'tempora' module.
+
+python3-jaraco.text 4.0.0-1 [Debian/trixie main]
+├── is installed
+└── jaraco text manipulation functions
+     Text manipulation functions and classes, mostly needed as a dependency
+     of other projects involving the same upstream developer, including
+     cherrypy.
+
 python3-jwt 2.10.1-2 [Debian/trixie main]
 ├── is installed
 └── Python 3 implementation of JSON Web Token
@@ -26756,6 +27760,22 @@ python3-louis 3.32.0-1 [Debian/trixie main]
      math braille (Nemeth and Marburg).
      .
      This package contains Python bindings.
+
+python3-lxml 5.3.0-1+b1 [Debian/trixie main]
+├── is installed
+└── pythonic binding for the libxml2 and libxslt libraries
+     lxml is a new Python binding for libxml2 and libxslt, completely
+     independent from existing Python bindings. Its aim:
+     .
+       * Pythonic API.
+       * Documented.
+       * Use Python unicode strings in API.
+       * Safe (no segfaults).
+       * No manual memory management!
+     .
+     lxml aims to provide a Pythonic API by following as much as possible
+     the ElementTree API, trying to avoid inventing too many new APIs,
+     or the user's having to learn new things -- XML is complicated enough.
 
 python3-markdown 3.7-2 [Debian/trixie main]
 ├── is installed
@@ -26811,6 +27831,16 @@ python3-monotonic 1.6-3 [Debian/trixie main]
      .
      This package contains the Python 3.x module.
 
+python3-more-itertools 10.6.0-1 [Debian/trixie main]
+├── is installed
+└── library with routines for operating on iterables, beyond itertools (Python 3)
+     Python's itertools library is a gem - you can compose elegant solutions
+     for a variety of problems with the functions it provides.
+     More-itertools collects additional building blocks, recipes,
+     and routines for working with Python iterables.
+     .
+     This package contains the module for Python 3.
+
 python3-mutagen 1.47.0-1 [Debian/trixie main]
 ├── is installed
 └── audio metadata editing library (Python 3)
@@ -26824,6 +27854,13 @@ python3-mutagen 1.47.0-1 [Debian/trixie main]
      .
      This package is built for Python 3.
 
+python3-packaging 24.2-1 [Debian/trixie main]
+├── is installed
+└── core utilities for python3 packages
+     These core utilities currently consist of:
+      - Version Handling (PEP 440)
+      - Dependency Specification (PEP 440)
+
 python3-pexpect 4.9-3 [Debian/trixie main]
 ├── is installed
 └── Python 3 module for automating interactive applications
@@ -26832,6 +27869,17 @@ python3-pexpect 4.9-3 [Debian/trixie main]
      output. Pexpect works like Don Libes' Expect. Pexpect allows your
      script to spawn a child application and control it as if a human were
      typing commands.
+
+python3-pkg-resources 75.6.0-1 [Debian/trixie main]
+├── is installed
+└── Package Discovery and Resource Access using pkg_resources
+     The pkg_resources module provides an API for Python libraries to
+     access their resource files, and for extensible applications and
+     frameworks to automatically discover plugins.  It also provides
+     runtime support for using C extensions that are inside zipfile-format
+     eggs, support for merging packages that have separately-distributed
+     modules or subpackages, and APIs for managing Python's current
+     "working set" of active packages.
 
 python3-ptyprocess 0.7.0-6 [Debian/trixie main]
 ├── is installed
@@ -26959,6 +28007,11 @@ python3-rich 13.9.4-1 [Debian/trixie main]
         code than standard Python tracebacks. You can set Rich as the default
         traceback handler so all uncaught exceptions will be rendered by Rich.
 
+python3-setuptools 75.6.0-1 [Debian/trixie main]
+├── is installed
+└── Python3 Distutils Enhancements
+     Extensions to the python-distutils for large or complex distributions.
+
 python3-shellingham 1.5.4-1 [Debian/trixie main]
 ├── is installed
 └── Tool to Detect Surrounding Shell
@@ -26990,6 +28043,22 @@ python3-socksio 1.0.0-3 [Debian/trixie main]
      only deals with the implementation details of the SOCKS protocols so you can
      use it in any I/O library you want.
 
+python3-soupsieve 2.6-1 [Debian/trixie main]
+├── is installed
+└── modern CSS selector implementation for BeautifulSoup (Python 3)
+     Soup Sieve is a CSS selector library designed to be used with Beautiful Soup 4
+     (python3-bs4 in Debian). It aims to provide selecting, matching, and filtering
+     using modern CSS selectors. Soup Sieve currently provides selectors from the
+     CSS level 1 specifications up through the latest CSS level 4 drafts (though
+     some are not yet implemented).
+     .
+     Soup Sieve was written with the intent to replace Beautiful Soup's builtin
+     select feature, and as of Beautiful Soup version 4.7.0, it now is 🎊. Soup
+     Sieve can also be imported in order to use its API directly for more
+     controlled, specialized parsing.
+     .
+     This package contains Soup Sieve for Python 3.x.
+
 python3-speechd 0.11.5-5.1 [Debian/trixie main]
 ├── is installed
 └── Python interface to Speech Dispatcher
@@ -27019,6 +28088,17 @@ python3-tomli 2.2.1-2 [Debian/trixie main]
      Tomli uses [mypyc](https://github.com/mypyc/mypyc)
      to generate binary wheels for most of the widely used platforms,
      so Python 3.11+ users may prefer it over `tomllib` for improved performance.
+
+python3-typeguard 4.4.1-1 [Debian/trixie main]
+├── is installed
+└── Run-time type checker for Python
+     This library provides run-time type checking for functions defined with
+     argument type annotations. This can be done in one of three ways:
+      * calling check_argument_types() from within the function body
+      * decorating the function with @typechecked
+      * using `with TypeChecker('packagename')`
+     .
+     This package installs the library for Python 3.
 
 python3-typer 0.15.1-1 [Debian/trixie main]
 ├── is installed
@@ -27085,6 +28165,22 @@ python3-urllib3 2.3.0-1 [Debian/trixie main]
        - Small and easy to understand codebase perfect for extending and
          building upon.
 
+python3-webencodings 0.5.1-5 [Debian/trixie main]
+├── is installed
+└── Python implementation of the WHATWG Encoding standard
+     In order to be compatible with legacy web content when interpreting something
+     like Content-Type: text/html; charset=latin1, tools need to use a particular
+     set of aliases for encoding labels as well as some overriding rules.  For
+     example, US-ASCII and iso-8859-1 on the web are actually aliases for
+     windows-1252, and an UTF-8 or UTF-16 BOM takes precedence over any other
+     encoding declaration.  The Encoding standard defines all such details so that
+     implementations do not have to reverse-engineer each other.
+     .
+     This module has encoding labels and BOM detection, but the actual
+     implementation for encoders and decoders is Python’s.
+     .
+     This package provides the module for Python 3.
+
 python3-xdg 0.28-2 [Debian/trixie main]
 ├── is installed
 └── Python 3 library to access freedesktop.org standards
@@ -27106,6 +28202,14 @@ python3-yaml 6.0.2-1+b1 [Debian/trixie main]
      parse all examples from the specification. The parsing algorithm is simple
      enough to be a reference for YAML parser implementors. A simple extension API
      is also provided.  The package is built using libyaml for improved speed.
+
+python3-zipp 3.21.0-1 [Debian/trixie main]
+├── is installed
+└── pathlib-compatible Zipfile object wrapper - Python 3.x
+     A backport of the Path object to older versions of Python.
+     It's pathlib-compatible interface for zip files using zipfile object inside.
+     .
+     This package contains Python 3.x module.
 
 python3.13 3.13.2-1 [Debian/trixie main]
 ├── is installed
@@ -27537,6 +28641,25 @@ shared-mime-info 2.4-5+b2 [Debian/trixie main]
      included in this package.
      .
      At this time at least ROX, GNOME, KDE and Xfce use this database.
+
+shellcheck 0.10.0-1 [Debian/trixie main]
+├── is installed
+└── lint tool for shell scripts
+     The goals of ShellCheck are:
+     .
+      * To point out and clarify typical beginner's syntax issues,
+        that causes a shell to give cryptic error messages.
+     .
+      * To point out and clarify typical intermediate level semantic problems,
+        that causes a shell to behave strangely and counter-intuitively.
+     .
+      * To point out subtle caveats, corner cases and pitfalls, that may cause an
+        advanced user's otherwise working script to fail under future circumstances.
+
+shfmt 3.8.0-1+b4 [Debian/trixie main]
+├── is installed
+└── format shell programs
+     shfmt is shell formatter, which supports POSIX Shell, Bash, and mksh.
 
 shim-helpers-amd64-signed 1+15.8+1 [Debian/trixie main]
 ├── is installed
@@ -28406,6 +29529,14 @@ util-linux-locales 2.40.4-3 [Debian/trixie main]
      messages in other languages than English, or read manual pages in another
      language than English.
 
+uuid-dev 2.40.4-3 [Debian/trixie main]
+├── is installed
+└── Universally Unique ID library - headers and static libraries
+     The libuuid library generates and parses 128-bit Universally Unique IDs
+     (UUIDs). See RFC 4122 for more information.
+     .
+     This package contains the development environment for the uuid library.
+
 uuid-runtime 2.40.4-3 [Debian/trixie main]
 ├── is installed
 └── runtime components for the Universally Unique ID library
@@ -28437,6 +29568,34 @@ va-driver-all:i386 2.22.0-2 [Debian/trixie main]
      This package depends on the full suite of drivers for the Video Acceleration
      API (VA API). It does not provide any drivers itself, and may be removed if
      you wish to only have certain drivers installed.
+
+valgrind 1:3.24.0-2 [Debian/trixie main]
+├── is installed
+└── instrumentation framework for building dynamic analysis tools
+     Valgrind is a system for debugging and profiling Linux programs. With its tool
+     suite you can automatically detect many memory management and threading bugs,
+     avoiding hours of frustrating bug-hunting and making your programs more stable.
+     You can also perform detailed profiling to help speed up your programs and use
+     Valgrind to build new tools.
+     .
+     The Valgrind distribution currently includes six production-quality tools:
+      * a memory error detector (Memcheck)
+      * two thread error detectors (Helgrind and DRD)
+      * a cache and branch-prediction profiler (Cachegrind)
+      * a call-graph generating cache and branch-prediction profiler (Callgrind)
+      * a heap profiler (Massif)
+     It also includes three experimental tools:
+      * a stack/global array overrun detector (SGCheck)
+      * a second heap profiler that examines how heap blocks are used (DHAT)
+      * a SimPoint basic block vector generator (BBV)
+
+valgrind-if-available 3.18.1-1-1 [Debian/trixie main]
+├── is installed
+└── dependency package to pull in Valgrind if it's available
+     This metapackage installs Valgrind on architectures where it is available.
+     As the list of archs where Valgrind works changes quite often, explicitly
+     listing it as a [Build-]Depend is cumbersome and prone to being outdated.
+     Instead, you may use this metapackage.
 
 vbetool 1.1-7 [Debian/trixie main]
 ├── is installed
@@ -29481,6 +30640,13 @@ zlib1g 1:1.3.dfsg+really1.3.1-1+b1 [Debian/trixie main]
 └── compression library - runtime
      zlib is a library implementing the deflate compression method found
      in gzip and PKZIP.  This package includes the shared library.
+
+zlib1g-dev 1:1.3.dfsg+really1.3.1-1+b1 [Debian/trixie main]
+├── is installed
+└── compression library - development
+     zlib is a library implementing the deflate compression method found
+     in gzip and PKZIP.  This package includes the development support
+     files.
 
 zlib1g:i386 1:1.3.dfsg+really1.3.1-1+b1 [Debian/trixie main]
 ├── is installed
