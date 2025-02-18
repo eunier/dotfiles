@@ -7,6 +7,7 @@ git clone git@gitlab.com:yunieralvarez/repo.git ~/Projects/com/gitlab/yunieralva
 git clone https://github.com/libsdl-org/SDL.git ~/Projects/com/github/libsdl-org/SDL
 git clone https://github.com/libsdl-org/sdlwiki.git ~/Projects/com/github/libsdl-org/sdlwiki
 git clone https://github.com/linuxy/coyote-ecs.git ~/Projects/com/github/linuxy/coyote-ecs
+git clone https://github.com/Not-Nik/raylib-zig.git ~/Projects/com/github/Not-Nik/raylib-zig
 git clone https://github.com/prime31/zig-ecs.git ~/Projects/com/github/prime31/zig-ecs
 git clone https://github.com/pwbh/SDL.git ~/Projects/com/github/pwbh/SDL
 git clone https://github.com/zig-gamedev/zflecs.git ~/Projects/com/github/zig-gamedev/zflecs
