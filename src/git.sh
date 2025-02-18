@@ -18,3 +18,4 @@ git clone https://gitlab.gnome.org/GNOME/gnome-calendar.git ~/Projects/org/gitla
 touch ~/.dotfiles/src/git/git-repos-before.txt
 tree ~/Projects -L 4 -a >~/.dotfiles/src/git/git-repos-after.txt
 sh ~/.dotfiles/src/git/git-sync-remote.sh
+sh ~/.dotfiles/src/git/git-todo.sh
