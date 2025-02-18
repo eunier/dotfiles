@@ -17,12 +17,12 @@ flatpak install -y flathub \
   io.github.revisto.drum-machine \
   io.github.ronniedroid.concessio \
   md.obsidian.Obsidian \
-  org.flathub.flatpak-external-data-checker 
+  org.flathub.flatpak-external-data-checker \
+  site.someones.Lonewolf
 
 touch ~/.dotfiles/src/flatpak/flatpak-list-before.txt
 flatpak list >~/.dotfiles/src/flatpak/flatpak-list-after.txt
 
-
-  # org.gnome.Platform \
-  # org.gnome.Sdk \
-  # org.gnome.Sdk.Docs
+# org.gnome.Platform \
+# org.gnome.Sdk \
+# org.gnome.Sdk.Docs
