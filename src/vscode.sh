@@ -5,6 +5,7 @@ code --update-extensions
 code --install-extension aswinkumar863.sort-editors
 code --install-extension biomejs.biome
 code --install-extension chrisdias.vscode-opennewinstance
+code --install-extension coddx.coddx-alpha
 code --install-extension EditorConfig.EditorConfig
 code --install-extension esbenp.prettier-vscode
 code --install-extension Gruntfuggly.todo-tree

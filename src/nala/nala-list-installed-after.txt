@@ -6518,7 +6518,7 @@ gir1.2-wnck-3.0 43.2-1 [Debian/trixie main]
      It can be used by packages using the GIRepository format to generate
      dynamic bindings.
 
-gir1.2-xdp-1.0 0.9.0-1 [Debian/trixie main]
+gir1.2-xdp-1.0 0.9.1-1 [Debian/trixie main]
 ├── is installed
 └── Flatpak portal library - introspection data
      libportal provides GIO-style C APIs for most Flatpak portals' D-Bus
@@ -6685,7 +6685,7 @@ gnome-builder 48~beta-1 [Debian/trixie main]
      Builder attempts to be an IDE for writing software for GNOME. It does not try
      to be a generic IDE, but one specialized for GNOME application developers.
 
-gnome-calculator 1:47.1-1 [Debian/trixie main]
+gnome-calculator 1:48~beta-1 [Debian/trixie main]
 ├── is installed
 └── GNOME desktop calculator
      The GNOME calculator is a powerful graphical calculator with financial,
@@ -6712,7 +6712,7 @@ gnome-clocks 48~beta-1 [Debian/trixie main]
      GNOME Clocks is a simple application to show the time and date in multiple
      locations and set alarms or timers. A stopwatch is also included.
 
-gnome-connections 47.0-2 [Debian/trixie main]
+gnome-connections 48~beta-1 [Debian/trixie main]
 ├── is installed
 └── Simple GNOME app to access remote computers
      GNOME Connections is a desktop client to view or use remote computers
@@ -6721,7 +6721,7 @@ gnome-connections 47.0-2 [Debian/trixie main]
      GNOME Connections replaces the remote desktop functionality that was
      previously found in GNOME Boxes.
 
-gnome-contacts 47.1.1-1 [Debian/trixie main]
+gnome-contacts 48~beta-1 [Debian/trixie main]
 ├── is installed
 └── Contacts manager for GNOME
      GNOME Contacts is a standalone application to view and manage contacts
@@ -7068,7 +7068,7 @@ gnome-terminal-data 3.54.3-1 [Debian/trixie main]
      This package contains data, help files and localization settings for
      gnome-terminal, the GNOME terminal emulator application.
 
-gnome-text-editor 47.2-1 [Debian/trixie main]
+gnome-text-editor 48~beta-2 [Debian/trixie main]
 ├── is installed
 └── simple text editor for GNOME
      GNOME Text Editor is a simple editor for GNOME focused on being a good
@@ -7725,8 +7725,8 @@ guile-3.0-libs 3.0.10+really3.0.10-3 [Debian/trixie main]
      interpreter, via #!/usr/bin/guile, or as an extension language for
      other applications via libguile.
 
-gvfs 1.56.1-1 [Debian/trixie main]
-├── is installed
+gvfs 1.57.1-1 [Debian/trixie main]
+├── is upgradable from 1.56.1-1
 └── userspace virtual filesystem - GIO module
      gvfs is a userspace virtual filesystem where mounts run as separate
      processes which you talk to via D-Bus. It also contains a gio module
@@ -7737,8 +7737,20 @@ gvfs 1.56.1-1 [Debian/trixie main]
      This package contains the GIO module that lets applications use gvfs
      mounts.
 
-gvfs-backends 1.56.1-1 [Debian/trixie main]
-├── is installed
+gvfs 1.56.1-1 [local]
+├── is installed and upgradable to 1.57.1-1
+└── userspace virtual filesystem - GIO module
+     gvfs is a userspace virtual filesystem where mounts run as separate
+     processes which you talk to via D-Bus. It also contains a gio module
+     that seamlessly adds gvfs support to all applications using the gio
+     API. It also supports exposing the gvfs mounts to non-gio applications
+     using fuse.
+     .
+     This package contains the GIO module that lets applications use gvfs
+     mounts.
+
+gvfs-backends 1.57.1-1 [Debian/trixie main]
+├── is upgradable from 1.56.1-1
 └── userspace virtual filesystem - backends
      gvfs is a userspace virtual filesystem where mounts run as separate
      processes which you talk to via D-Bus. It also contains a gio module
@@ -7749,8 +7761,20 @@ gvfs-backends 1.56.1-1 [Debian/trixie main]
      This package contains the afc, afp, archive, cdda, dav, dnssd, ftp,
      gphoto2, http, mtp, network, sftp, smb, smb-browse and wsdd backends.
 
-gvfs-common 1.56.1-1 [Debian/trixie main]
-├── is installed
+gvfs-backends 1.56.1-1 [local]
+├── is installed and upgradable to 1.57.1-1
+└── userspace virtual filesystem - backends
+     gvfs is a userspace virtual filesystem where mounts run as separate
+     processes which you talk to via D-Bus. It also contains a gio module
+     that seamlessly adds gvfs support to all applications using the gio
+     API. It also supports exposing the gvfs mounts to non-gio applications
+     using fuse.
+     .
+     This package contains the afc, afp, archive, cdda, dav, dnssd, ftp,
+     gphoto2, http, mtp, network, sftp, smb, smb-browse and wsdd backends.
+
+gvfs-common 1.57.1-1 [Debian/trixie main]
+├── is upgradable from 1.56.1-1
 └── userspace virtual filesystem - common data files
      gvfs is a userspace virtual filesystem where mounts run as separate
      processes which you talk to via D-Bus. It also contains a gio module
@@ -7761,8 +7785,20 @@ gvfs-common 1.56.1-1 [Debian/trixie main]
      This package contains the data files and translations used by all gvfs
      components.
 
-gvfs-daemons 1.56.1-1 [Debian/trixie main]
-├── is installed
+gvfs-common 1.56.1-1 [local]
+├── is installed and upgradable to 1.57.1-1
+└── userspace virtual filesystem - common data files
+     gvfs is a userspace virtual filesystem where mounts run as separate
+     processes which you talk to via D-Bus. It also contains a gio module
+     that seamlessly adds gvfs support to all applications using the gio
+     API. It also supports exposing the gvfs mounts to non-gio applications
+     using fuse.
+     .
+     This package contains the data files and translations used by all gvfs
+     components.
+
+gvfs-daemons 1.57.1-1 [Debian/trixie main]
+├── is upgradable from 1.56.1-1
 └── userspace virtual filesystem - servers
      gvfs is a userspace virtual filesystem where mounts run as separate
      processes which you talk to via D-Bus. It also contains a gio module
@@ -7772,8 +7808,19 @@ gvfs-daemons 1.56.1-1 [Debian/trixie main]
      .
      This package contains the gvfs server and the minimal set of backends.
 
-gvfs-fuse 1.56.1-1 [Debian/trixie main]
-├── is installed
+gvfs-daemons 1.56.1-1 [local]
+├── is installed and upgradable to 1.57.1-1
+└── userspace virtual filesystem - servers
+     gvfs is a userspace virtual filesystem where mounts run as separate
+     processes which you talk to via D-Bus. It also contains a gio module
+     that seamlessly adds gvfs support to all applications using the gio
+     API. It also supports exposing the gvfs mounts to non-gio applications
+     using fuse.
+     .
+     This package contains the gvfs server and the minimal set of backends.
+
+gvfs-fuse 1.57.1-1 [Debian/trixie main]
+├── is upgradable from 1.56.1-1
 └── userspace virtual filesystem - fuse server
      gvfs is a userspace virtual filesystem where mounts run as separate
      processes which you talk to via D-Bus. It also contains a gio module
@@ -7784,8 +7831,32 @@ gvfs-fuse 1.56.1-1 [Debian/trixie main]
      This package contains the gvfs-fuse server that exports gvfs mounts to
      all applications using FUSE.
 
-gvfs-libs 1.56.1-1 [Debian/trixie main]
-├── is installed
+gvfs-fuse 1.56.1-1 [local]
+├── is installed and upgradable to 1.57.1-1
+└── userspace virtual filesystem - fuse server
+     gvfs is a userspace virtual filesystem where mounts run as separate
+     processes which you talk to via D-Bus. It also contains a gio module
+     that seamlessly adds gvfs support to all applications using the gio
+     API. It also supports exposing the gvfs mounts to non-gio applications
+     using fuse.
+     .
+     This package contains the gvfs-fuse server that exports gvfs mounts to
+     all applications using FUSE.
+
+gvfs-libs 1.57.1-1 [Debian/trixie main]
+├── is upgradable from 1.56.1-1
+└── userspace virtual filesystem - private libraries
+     gvfs is a userspace virtual filesystem where mounts run as separate
+     processes which you talk to via D-Bus. It also contains a gio module
+     that seamlessly adds gvfs support to all applications using the gio
+     API. It also supports exposing the gvfs mounts to non-gio applications
+     using fuse.
+     .
+     This package contains private libraries with common functions between
+     the daemons and the GIO module.
+
+gvfs-libs 1.56.1-1 [local]
+├── is installed and upgradable to 1.57.1-1
 └── userspace virtual filesystem - private libraries
      gvfs is a userspace virtual filesystem where mounts run as separate
      processes which you talk to via D-Bus. It also contains a gio module
@@ -10789,7 +10860,7 @@ libconfig++11 1.7.3-2 [Debian/trixie main]
      .
      This is the C++ binding.
 
-libcpuinfo0 0.0~git20250110.8a1772a-1 [Debian/trixie main]
+libcpuinfo0 0.0~git20250203.aaac07e-1 [Debian/trixie main]
 ├── is installed
 └── CPU INFOrmation library (shared object)
      cpuinfo is a library to detect essential for performance optimization
@@ -12308,7 +12379,7 @@ libffado2 2.4.9-1+b2 [Debian/trixie main]
      .
      This package holds the shared library.
 
-libffi-dev 3.4.6-1 [Debian/trixie main]
+libffi-dev 3.4.7-1 [Debian/trixie main]
 ├── is installed
 └── Foreign Function Interface library (development files)
      This package contains the headers and static library files necessary for
@@ -12325,14 +12396,14 @@ libffi6 3.2.1-9 [local]
      allows code written in one language to call code written in another
      language.
 
-libffi8 3.4.6-1 [Debian/trixie main]
+libffi8 3.4.7-1 [Debian/trixie main]
 ├── is installed
 └── Foreign Function Interface library runtime
      A foreign function interface is the popular name for the interface that
      allows code written in one language to call code written in another
      language.
 
-libffi8:i386 3.4.6-1 [Debian/trixie main]
+libffi8:i386 3.4.7-1 [Debian/trixie main]
 ├── is installed
 └── Foreign Function Interface library runtime
      A foreign function interface is the popular name for the interface that
@@ -14394,7 +14465,7 @@ libgtk-4-common 4.17.4+ds-4 [Debian/trixie main]
      .
      This package contains the common files which the libraries need.
 
-libgtk-vnc-2.0-0 1.4.0-1 [Debian/trixie main]
+libgtk-vnc-2.0-0 1.5.0-1 [Debian/trixie main]
 ├── is installed
 └── VNC viewer widget for GTK+3 (runtime libraries)
      It is built using coroutines, allowing it to be completely asynchronous while
@@ -14450,7 +14521,7 @@ libgtk3-perl 0.038-3 [Debian/trixie main]
      This package contains the Perl bindings to GTK+, built using
      Glib::Object::Introspection. Generated bindings live under the Gtk3 namespace.
 
-libgtkmm-4.0-0 4.16.0-1 [Debian/trixie main]
+libgtkmm-4.0-0 4.17.0-2 [Debian/trixie main]
 ├── is installed
 └── C++ wrappers for GTK4 (shared libraries)
      Gtkmm is a C++ interface for the popular GUI library GTK 4, API version 4.0.
@@ -14564,7 +14635,7 @@ libgusb2 0.4.9-1+b1 [Debian/trixie main]
      .
      This package contains the GUsb shared library.
 
-libgvnc-1.0-0 1.4.0-1 [Debian/trixie main]
+libgvnc-1.0-0 1.5.0-1 [Debian/trixie main]
 ├── is installed
 └── VNC GObject wrapper (runtime libraries)
      It is built using coroutines, allowing it to be completely asynchronous while
@@ -16608,7 +16679,7 @@ libmariadb3 1:11.4.4-3 [Debian/trixie main]
      .
      This package includes the client library.
 
-libmaxminddb0 1.11.0-1 [Debian/trixie main]
+libmaxminddb0 1.12.2-1 [Debian/trixie main]
 ├── is installed
 └── IP geolocation database library
      The libmaxminddb library provides a C library for reading MaxMind DB files,
@@ -16981,7 +17052,7 @@ libmplex2-2.2-0t64 2:2.2.1-dmo8+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── MJPEG capture/editing/replay and MPEG encoding toolset (library)
 
-libmsgraph-0-1 0.2.3-2 [Debian/trixie main]
+libmsgraph-0-1 0.2.3-2 [local]
 ├── is installed
 └── library for accessing the Microsoft Graph API
      libmsgraph is a GLib-based library for accessing online service APIs
@@ -17095,7 +17166,7 @@ libmythes-1.2-0 2:1.2.5-1+b2 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libnautilus-extension4 47.1-2 [Debian/trixie main]
+libnautilus-extension4 48~beta-1 [Debian/trixie main]
 ├── is installed
 └── libraries for nautilus components - runtime version
      Nautilus is the official file manager and graphical shell for the
@@ -18784,7 +18855,7 @@ libpopt0 1.19+dfsg-2 [Debian/trixie main]
      .
      This package contains the runtime library and locale data.
 
-libportal-gtk3-1 0.9.0-1 [Debian/trixie main]
+libportal-gtk3-1 0.9.1-1 [Debian/trixie main]
 ├── is installed
 └── Flatpak portal library for GTK 3 GUIs
      libportal provides GIO-style C APIs for most Flatpak portals' D-Bus
@@ -18797,7 +18868,7 @@ libportal-gtk3-1 0.9.0-1 [Debian/trixie main]
      .
      This package contains the shared library for integration with GTK 3.
 
-libportal-gtk4-1 0.9.0-1 [Debian/trixie main]
+libportal-gtk4-1 0.9.1-1 [Debian/trixie main]
 ├── is installed
 └── Flatpak portal library for GTK 4 GUIs
      libportal provides GIO-style C APIs for most Flatpak portals' D-Bus
@@ -18810,7 +18881,7 @@ libportal-gtk4-1 0.9.0-1 [Debian/trixie main]
      .
      This package contains the shared library for integration with GTK 4.
 
-libportal1 0.9.0-1 [Debian/trixie main]
+libportal1 0.9.1-1 [Debian/trixie main]
 ├── is installed
 └── Flatpak portal library - non-GUI part
      libportal provides GIO-style C APIs for most Flatpak portals' D-Bus
@@ -19033,7 +19104,7 @@ libqmi-proxy 1.34.0-2+b2 [Debian/trixie main]
      This package contains the binary qmi-proxy used by libqmi to allow multiple
      clients to use the same QMI port simultaneously.
 
-libqpdf29t64 11.10.0-1 [Debian/trixie main]
+libqpdf29t64 11.10.1-1 [Debian/trixie main]
 ├── is installed
 └── runtime library for PDF transformation/inspection software
      QPDF is a program that can be used to linearize (web-optimize),
@@ -26395,7 +26466,7 @@ native-architecture 0.2.5 [Debian/trixie main]
      depending on native-architecture, a client package can prevent its
      installation for a non-native architecture.
 
-nautilus 47.1-2 [Debian/trixie main]
+nautilus 48~beta-1 [Debian/trixie main]
 ├── is installed
 └── file manager and graphical shell for GNOME
      Nautilus is the official file manager for the GNOME desktop. It allows
@@ -26406,7 +26477,7 @@ nautilus 47.1-2 [Debian/trixie main]
      Several icon themes and components for viewing different kinds of files
      are available in separate packages.
 
-nautilus-data 47.1-2 [Debian/trixie main]
+nautilus-data 48~beta-1 [Debian/trixie main]
 ├── is installed
 └── data files for nautilus
      Nautilus is the official file manager and graphical shell for the
@@ -26870,7 +26941,7 @@ patch 2.7.6-7 [Debian/trixie main]
      those differences to an original file, producing a patched
      version.
 
-pci.ids 0.0~2025.02.05-1 [Debian/trixie main]
+pci.ids 0.0~2025.02.12-1 [Debian/trixie main]
 ├── is installed
 └── PCI ID Repository
      This package contains the pci.ids file, a public repository of all known
@@ -27782,7 +27853,7 @@ python3-louis 3.32.0-1 [Debian/trixie main]
      .
      This package contains Python bindings.
 
-python3-lxml 5.3.0-1+b1 [Debian/trixie main]
+python3-lxml 5.3.1-1 [Debian/trixie main]
 ├── is installed
 └── pythonic binding for the libxml2 and libxslt libraries
      lxml is a new Python binding for libxml2 and libxslt, completely
@@ -27963,7 +28034,7 @@ python3-pyqt5.sip 12.17.0-1 [Debian/trixie main]
      PyQt5.sip is a runtime module, it is used by PyQt5 and other Python extension
      modules built with SIP.
 
-python3-reportbug 13.0.2 [Debian/trixie main]
+python3-reportbug 13.0.3 [Debian/trixie main]
 ├── is installed
 └── Python modules for interacting with bug tracking systems
      reportbug is a tool designed to make the reporting of bugs in Debian
@@ -28380,7 +28451,7 @@ realmd 0.17.1-3+b2 [Debian/trixie main]
      realmd can configure either SSSD or Windbind as client software. It will also
      automatically install the required packages using PackageKit if needed.
 
-reportbug 13.0.2 [Debian/trixie main]
+reportbug 13.0.3 [Debian/trixie main]
 ├── is installed
 └── reports bugs in the Debian distribution
      reportbug is a tool designed to make the reporting of bugs in Debian
@@ -29653,7 +29724,7 @@ vdpau-driver-all:i386 1.5-3+b1 [Debian/trixie main]
      It does not provide any drivers itself, and may be removed if you wish to
      only have certain drivers installed.
 
-vim 2:9.1.0967-2+b1 [Debian/trixie main]
+vim 2:9.1.1113-1 [Debian/trixie main]
 ├── is installed
 └── Vi IMproved - enhanced vi editor
      Vim is an almost compatible version of the UNIX editor Vi.
@@ -29667,7 +29738,7 @@ vim 2:9.1.0967-2+b1 [Debian/trixie main]
      version of Vim.  See the other vim-* packages if you need more
      (or less).
 
-vim-common 2:9.1.0967-2 [Debian/trixie main]
+vim-common 2:9.1.1113-1 [Debian/trixie main]
 ├── is installed
 └── Vi IMproved - Common files
      Vim is an almost compatible version of the UNIX editor Vi.
@@ -29676,7 +29747,7 @@ vim-common 2:9.1.0967-2 [Debian/trixie main]
      available in Debian.  Examples of such shared files are: manpages and
      configuration files.
 
-vim-runtime 2:9.1.0967-2 [Debian/trixie main]
+vim-runtime 2:9.1.1113-1 [Debian/trixie main]
 ├── is installed
 └── Vi IMproved - Runtime files
      Vim is an almost compatible version of the UNIX editor Vi.
@@ -29687,7 +29758,7 @@ vim-runtime 2:9.1.0967-2 [Debian/trixie main]
      language-specific syntax highlighting and indentation, color schemes,
      and standard plugins.
 
-vim-tiny 2:9.1.0967-2+b1 [Debian/trixie main]
+vim-tiny 2:9.1.1113-1 [Debian/trixie main]
 ├── is installed
 └── Vi IMproved - enhanced vi editor - compact version
      Vim is an almost compatible version of the UNIX editor Vi.
@@ -30582,7 +30653,7 @@ xwayland 2:24.1.5-1 [Debian/trixie main]
      input devices for input and forwarding either the root window or individual
      top-level windows as wayland surfaces.
 
-xxd 2:9.1.0967-2+b1 [Debian/trixie main]
+xxd 2:9.1.1113-1 [Debian/trixie main]
 ├── is installed
 └── tool to make (or reverse) a hex dump
      xxd creates a hex dump of a given file or standard input.  It can also convert
@@ -30636,7 +30707,7 @@ zen-browser 1.7.6b~repack0 [SparkyLinux/core main]
 └── Zen Browser
       Zen is a privacy-focused browser that blocks trackers, ads, and other unwanted content while offering the best browsing experience.
 
-zenity 4.0.3-1 [Debian/trixie main]
+zenity 4.1.90-1 [Debian/trixie main]
 ├── is installed
 └── Display graphical dialog boxes from shell scripts
      Zenity allows you to display GTK+ dialogs from shell scripts; it is a
@@ -30645,7 +30716,7 @@ zenity 4.0.3-1 [Debian/trixie main]
      Zenity includes a gdialog wrapper script so that it can be used with
      legacy scripts.
 
-zenity-common 4.0.3-1 [Debian/trixie main]
+zenity-common 4.1.90-1 [Debian/trixie main]
 ├── is installed
 └── Display graphical dialog boxes from shell scripts (common files)
      Zenity allows you to display GTK+ dialogs from shell scripts; it is a

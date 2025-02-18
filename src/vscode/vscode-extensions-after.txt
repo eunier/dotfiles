@@ -1,6 +1,7 @@
 aswinkumar863.sort-editors
 biomejs.biome
 chrisdias.vscode-opennewinstance
+coddx.coddx-alpha
 editorconfig.editorconfig
 esbenp.prettier-vscode
 gruntfuggly.todo-tree

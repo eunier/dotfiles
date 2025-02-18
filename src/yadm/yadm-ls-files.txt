@@ -45,6 +45,7 @@
 .dotfiles/src/fastfetch/fastfetch-config-before.jsonc
 .dotfiles/src/fastfetch/fastfetch-output-after.txt
 .dotfiles/src/fastfetch/fastfetch-output-before.txt
+.dotfiles/src/flatpak-progress-before.txt
 .dotfiles/src/flatpak.sh
 .dotfiles/src/flatpak/flatpak-list-after.txt
 .dotfiles/src/flatpak/flatpak-list-before.txt
@@ -54,6 +55,8 @@
 .dotfiles/src/git/git-sync-remote.sh
 .dotfiles/src/main.sh
 .dotfiles/src/nala.sh
+.dotfiles/src/nala/nala-app-progress-tracker-after.txt
+.dotfiles/src/nala/nala-app-progress-tracker-before.txt
 .dotfiles/src/nala/nala-list-installed-after.txt
 .dotfiles/src/nala/nala-list-installed-before.txt
 .dotfiles/src/node.sh
