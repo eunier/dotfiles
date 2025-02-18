@@ -5,7 +5,7 @@ time=$(date +"%H")
 if [ "$time" -ge 19 ]; then
   echo "Syncing secondary git repos..."
 
-  cd ~/Projects/com/github/eunier/dotfiles
+  cd ~/Projects/com/github/eunier/dotfiles || exit
   git reset --hard
 
   find ~/Projects/com/github/eunier/dotfiles -mindepth 1 -not -path '*/.git/*' -not -name '.git' -exec rm -rf {} +
