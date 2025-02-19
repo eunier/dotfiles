@@ -1,298 +1,60 @@
 /home/yunieralvarez/Projects
 ├── com
 │   ├── github
-│   │   ├── eunier
-│   │   │   └── dotfiles
-│   │   ├── libsdl-org
-│   │   │   ├── SDL
-│   │   │   └── sdlwiki
-│   │   ├── linuxy
-│   │   │   └── coyote-ecs
-│   │   ├── Not-Nik
-│   │   │   └── raylib-zig
-│   │   ├── prime31
-│   │   │   └── zig-ecs
-│   │   ├── pwbh
-│   │   │   └── SDL
-│   │   ├── zig-gamedev
-│   │   │   ├── zflecs
-│   │   │   └── zig-gamedev
-│   │   └── ziglang
-│   │       └── zig
 │   └── gitlab
-│       └── yunieralvarez
-│           ├── qmkl
-│           ├── repo
-│           └── repo-resources
+├── com.github.eunier.dotfiles.dotfiles
+│   ├── bun.lock
+│   ├── .git
+│   ├── .gitignore
+│   ├── package.json
+│   ├── README.md
+│   ├── src
+│   ├── tsconfig.json
+│   └── .vscode
+├── com.github.libsdl-org.SDL
+│   └── SDL
+├── com.github.libsdl-org.sdlwiki
+│   └── libsdl-org
+├── com.github.linuxy.coyote-ecs
+│   └── coyote-ecs
+├── com.github.Not-Nik.raylib-zig
+│   └── raylib-zig
+├── com.github.prime31.zig-ecs
+│   └── zig-ecs
+├── com.github.pwbh.SDL
+│   └── SDL
+├── com.github.zig-gamedev.zflecs
+│   └── zflecs
+├── com.github.zig-gamedev.zig-gamedev
+│   └── zig-gamedev
+├── com.github.ziglang.zig
+│   └── zig
+├── com.gitlab.yunieralvarez.game-top-down-shooter
+│   └── game-top-dow-shooter
+├── com.gitlab.yunieralvarez.godot-first-person-shooter-demo
+│   └── godot-first-person-shooter-demo
+├── com.gitlab.yunieralvarez.qmkl
+│   └── qmkl
+├── com.gitlab.yunieralvarez.repo
+│   └── repo
+├── com.gitlab.yunieralvarez.repo-resources
+│   └── repo-resources
 ├── .gnome-builder
 │   ├── CACHEDIR.TAG
 │   ├── flatpak
-│   │   ├── CACHEDIR.TAG
-│   │   ├── .changed
-│   │   ├── etc
-│   │   │   └── installations.d
-│   │   ├── filter
-│   │   ├── repo
-│   │   │   ├── config
-│   │   │   ├── extensions
-│   │   │   ├── flathub-beta.filter
-│   │   │   ├── flathub-beta.trustedkeys.gpg
-│   │   │   ├── flathub.filter
-│   │   │   ├── flathub.trustedkeys.gpg
-│   │   │   ├── gnome-nightly.filter
-│   │   │   ├── gnome-nightly.trustedkeys.gpg
-│   │   │   ├── .lock
-│   │   │   ├── objects
-│   │   │   ├── refs
-│   │   │   ├── state
-│   │   │   └── tmp
-│   │   └── runtime
-│   │       ├── org.gnome.Platform
-│   │       ├── org.gnome.Sdk
-│   │       └── org.gnome.Sdk.Docs
 │   ├── flatpak-builder
-│   │   ├── build
-│   │   ├── cache
-│   │   │   ├── config
-│   │   │   ├── extensions
-│   │   │   ├── .lock
-│   │   │   ├── objects
-│   │   │   ├── refs
-│   │   │   ├── state
-│   │   │   └── tmp
-│   │   ├── ccache
-│   │   │   ├── 0
-│   │   │   ├── 1
-│   │   │   ├── 2
-│   │   │   ├── 3
-│   │   │   ├── 4
-│   │   │   ├── 5
-│   │   │   ├── 6
-│   │   │   ├── 7
-│   │   │   ├── 8
-│   │   │   ├── 9
-│   │   │   ├── a
-│   │   │   ├── b
-│   │   │   ├── bin
-│   │   │   ├── c
-│   │   │   ├── d
-│   │   │   ├── e
-│   │   │   ├── f
-│   │   │   └── lock
-│   │   ├── checksums
-│   │   │   └── x86_64-org.gnome.Calendar.json
-│   │   ├── downloads
-│   │   │   ├── 67c74d94196b153b774ab9f89b2fa6c6ba79352407037c8c14d5aeb334e959cd
-│   │   │   └── b44705dd71ca4538c86fb16248483ab4b48978524fb1da5097bd76aa2e0f0c33
-│   │   ├── git
-│   │   │   ├── https_gitlab.freedesktop.org_geoclue_geoclue.git
-│   │   │   ├── https_gitlab.gnome.org_GNOME_evolution-data-server.git
-│   │   │   ├── https_gitlab.gnome.org_GNOME_gcr.git
-│   │   │   ├── https_gitlab.gnome.org_GNOME_geocode-glib.git
-│   │   │   └── https_gitlab.gnome.org_GNOME_libgweather.git
-│   │   └── rofiles
-│   │       ├── rofiles-EN0836
-│   │       └── rofiles-EN0836-lock
 │   ├── manuals
-│   │   ├── manuals.sqlite
-│   │   ├── manuals.sqlite-shm
-│   │   └── manuals.sqlite-wal
 │   └── projects
-│       └── gnome-calendar
-│           ├── buffers
-│           ├── code-index
-│           ├── flatpak
-│           └── session.gvariant
 ├── gnome-calendar
 │   ├── _build
-│   │   ├── build.ninja
-│   │   ├── compile_commands.json
-│   │   ├── config.h
-│   │   ├── data
-│   │   │   ├── gschemas.compiled
-│   │   │   ├── icons
-│   │   │   ├── org.gnome.Calendar.desktop.in
-│   │   │   ├── org.gnome.Calendar.Devel.desktop
-│   │   │   ├── org.gnome.Calendar.Devel.search-provider.ini
-│   │   │   ├── org.gnome.Calendar.Devel.service
-│   │   │   ├── org.gnome.calendar.enums.xml
-│   │   │   └── org.gnome.calendar.gschema.xml
-│   │   ├── .gitignore
-│   │   ├── .gnome-builder-devenv
-│   │   ├── .hgignore
-│   │   ├── meson-info
-│   │   │   ├── intro-benchmarks.json
-│   │   │   ├── intro-buildoptions.json
-│   │   │   ├── intro-buildsystem_files.json
-│   │   │   ├── intro-compilers.json
-│   │   │   ├── intro-dependencies.json
-│   │   │   ├── intro-installed.json
-│   │   │   ├── intro-install_plan.json
-│   │   │   ├── intro-machines.json
-│   │   │   ├── intro-projectinfo.json
-│   │   │   ├── intro-targets.json
-│   │   │   ├── intro-tests.json
-│   │   │   └── meson-info.json
-│   │   ├── meson-logs
-│   │   │   ├── install-log.txt
-│   │   │   └── meson-log.txt
-│   │   ├── meson-private
-│   │   │   ├── build.dat
-│   │   │   ├── cleantrees.dat
-│   │   │   ├── cmd_line.txt
-│   │   │   ├── coredata.dat
-│   │   │   ├── install.dat
-│   │   │   ├── meson_benchmark_setup.dat
-│   │   │   ├── meson_exe_glib-mkenums_8ee6f6fa6babfb58aa53799aa59819bf9dd8836f.dat
-│   │   │   ├── meson_exe_glib-mkenums_b3539309787fee79e88c7ed4ddf96bf68181871e.dat
-│   │   │   ├── meson.lock
-│   │   │   ├── meson_test_setup.dat
-│   │   │   ├── sanitycheckc.c
-│   │   │   └── sanitycheckc.exe
-│   │   ├── .ninja_deps
-│   │   ├── .ninja_log
-│   │   ├── po
-│   │   │   ├── ab
-│   │   │   ├── af
-│   │   │   ├── an
-│   │   │   ├── ar
-│   │   │   ├── be
-│   │   │   ├── bg
-│   │   │   ├── bs
-│   │   │   ├── ca
-│   │   │   ├── ca@valencia
-│   │   │   ├── ckb
-│   │   │   ├── cs
-│   │   │   ├── da
-│   │   │   ├── de
-│   │   │   ├── el
-│   │   │   ├── en_GB
-│   │   │   ├── eo
-│   │   │   ├── es
-│   │   │   ├── et
-│   │   │   ├── eu
-│   │   │   ├── fa
-│   │   │   ├── fi
-│   │   │   ├── fr
-│   │   │   ├── fur
-│   │   │   ├── fy
-│   │   │   ├── ga
-│   │   │   ├── gd
-│   │   │   ├── gl
-│   │   │   ├── he
-│   │   │   ├── hi
-│   │   │   ├── hr
-│   │   │   ├── hu
-│   │   │   ├── id
-│   │   │   ├── is
-│   │   │   ├── it
-│   │   │   ├── ja
-│   │   │   ├── ka
-│   │   │   ├── kab
-│   │   │   ├── kk
-│   │   │   ├── ko
-│   │   │   ├── lt
-│   │   │   ├── lv
-│   │   │   ├── mjw
-│   │   │   ├── ml
-│   │   │   ├── ms
-│   │   │   ├── my
-│   │   │   ├── nb
-│   │   │   ├── ne
-│   │   │   ├── nl
-│   │   │   ├── oc
-│   │   │   ├── pa
-│   │   │   ├── pl
-│   │   │   ├── pt
-│   │   │   ├── pt_BR
-│   │   │   ├── ro
-│   │   │   ├── ru
-│   │   │   ├── sk
-│   │   │   ├── sl
-│   │   │   ├── sr
-│   │   │   ├── sr@latin
-│   │   │   ├── sv
-│   │   │   ├── ta
-│   │   │   ├── tg
-│   │   │   ├── th
-│   │   │   ├── tr
-│   │   │   ├── uk
-│   │   │   ├── vi
-│   │   │   ├── zh_CN
-│   │   │   ├── zh_HK
-│   │   │   └── zh_TW
-│   │   ├── src
-│   │   │   ├── appdata
-│   │   │   ├── core
-│   │   │   ├── gcal-debug.h
-│   │   │   ├── gcal-enum-types.c
-│   │   │   ├── gcal-enum-types.h
-│   │   │   ├── gcal-shell-search-provider-generated.c
-│   │   │   ├── gcal-shell-search-provider-generated.h
-│   │   │   ├── gnome-calendar
-│   │   │   ├── gnome-calendar.p
-│   │   │   ├── gui
-│   │   │   ├── libgcal-private.a
-│   │   │   ├── libgcal-private.a.p
-│   │   │   ├── search
-│   │   │   ├── theme
-│   │   │   ├── utils
-│   │   │   └── weather
-│   │   └── tests
-│   │       ├── libgcal-test-private.so
-│   │       ├── libgcal-test-private.so.p
-│   │       ├── test-daylight-saving
-│   │       ├── test-daylight-saving.p
-│   │       ├── test-event
-│   │       ├── test-event.p
-│   │       ├── test-range
-│   │       ├── test-range.p
-│   │       ├── test-range-tree
-│   │       ├── test-range-tree.p
-│   │       ├── test-utils
-│   │       └── test-utils.p
 │   ├── build-aux
-│   │   ├── org.gnome.Calendar.json
-│   │   └── org.gnome.Calendar.json~
 │   ├── CONTRIBUTING.md
 │   ├── COPYING
 │   ├── data
-│   │   ├── icons
-│   │   │   ├── hicolor
-│   │   │   ├── meson.build
-│   │   │   └── org.gnome.Calendar.Source.svg
-│   │   ├── meson.build
-│   │   ├── org.gnome.Calendar.desktop.in.in
-│   │   ├── org.gnome.calendar.gschema.xml.in
-│   │   ├── org.gnome.Calendar.search-provider.ini.in
-│   │   ├── org.gnome.Calendar.service.in
-│   │   └── shell-search-provider-dbus-interfaces.xml
 │   ├── .editorconfig
 │   ├── .git
-│   │   ├── config
-│   │   ├── description
-│   │   ├── FETCH_HEAD
-│   │   ├── HEAD
-│   │   ├── hooks
-│   │   │   └── README.sample
-│   │   ├── index
-│   │   ├── info
-│   │   │   └── exclude
-│   │   ├── logs
-│   │   │   ├── HEAD
-│   │   │   └── refs
-│   │   ├── objects
-│   │   │   ├── info
-│   │   │   └── pack
-│   │   └── refs
-│   │       ├── heads
-│   │       ├── remotes
-│   │       └── tags
 │   ├── .gitignore
 │   ├── .gitlab
-│   │   └── issue_templates
-│   │       ├── Bug.md
-│   │       └── Feature.md
 │   ├── .gitlab-ci.yml
 │   ├── gnome-calendar.doap
 │   ├── HACKING.md
@@ -300,239 +62,20 @@
 │   ├── meson_options.txt
 │   ├── NEWS
 │   ├── po
-│   │   ├── ab.po
-│   │   ├── af.po
-│   │   ├── an.po
-│   │   ├── ar.po
-│   │   ├── be.po
-│   │   ├── bg.po
-│   │   ├── bs.po
-│   │   ├── ca.po
-│   │   ├── ca@valencia.po
-│   │   ├── ChangeLog
-│   │   ├── ckb.po
-│   │   ├── cs.po
-│   │   ├── da.po
-│   │   ├── de.po
-│   │   ├── el.po
-│   │   ├── en_GB.po
-│   │   ├── eo.po
-│   │   ├── es.po
-│   │   ├── et.po
-│   │   ├── eu.po
-│   │   ├── fa.po
-│   │   ├── fi.po
-│   │   ├── fr.po
-│   │   ├── fur.po
-│   │   ├── fy.po
-│   │   ├── ga.po
-│   │   ├── gd.po
-│   │   ├── gl.po
-│   │   ├── he.po
-│   │   ├── hi.po
-│   │   ├── hr.po
-│   │   ├── hu.po
-│   │   ├── id.po
-│   │   ├── is.po
-│   │   ├── it.po
-│   │   ├── ja.po
-│   │   ├── kab.po
-│   │   ├── ka.po
-│   │   ├── kk.po
-│   │   ├── ko.po
-│   │   ├── LINGUAS
-│   │   ├── lt.po
-│   │   ├── lv.po
-│   │   ├── meson.build
-│   │   ├── mjw.po
-│   │   ├── ml.po
-│   │   ├── ms.po
-│   │   ├── my.po
-│   │   ├── nb.po
-│   │   ├── ne.po
-│   │   ├── nl.po
-│   │   ├── oc.po
-│   │   ├── pa.po
-│   │   ├── pl.po
-│   │   ├── POTFILES.in
-│   │   ├── pt_BR.po
-│   │   ├── pt.po
-│   │   ├── ro.po
-│   │   ├── ru.po
-│   │   ├── sk.po
-│   │   ├── sl.po
-│   │   ├── sr@latin.po
-│   │   ├── sr.po
-│   │   ├── sv.po
-│   │   ├── ta.po
-│   │   ├── tg.po
-│   │   ├── th.po
-│   │   ├── tr.po
-│   │   ├── uk.po
-│   │   ├── vi.po
-│   │   ├── zh_CN.po
-│   │   ├── zh_HK.po
-│   │   └── zh_TW.po
 │   ├── README.md
 │   ├── src
-│   │   ├── appdata
-│   │   │   ├── appdata.gresource.xml.in
-│   │   │   ├── meson.build
-│   │   │   └── org.gnome.Calendar.metainfo.xml.in.in
-│   │   ├── attic
-│   │   │   ├── gcal-month-view.c
-│   │   │   ├── gcal-month-view.h
-│   │   │   └── gcal-month-view.ui
-│   │   ├── core
-│   │   │   ├── gcal-calendar.c
-│   │   │   ├── gcal-calendar.h
-│   │   │   ├── gcal-calendar-monitor.c
-│   │   │   ├── gcal-calendar-monitor.h
-│   │   │   ├── gcal-clock.c
-│   │   │   ├── gcal-clock.h
-│   │   │   ├── gcal-context.c
-│   │   │   ├── gcal-context.h
-│   │   │   ├── gcal-core-macros.h
-│   │   │   ├── gcal-event.c
-│   │   │   ├── gcal-event.h
-│   │   │   ├── gcal-global.c
-│   │   │   ├── gcal-global.h
-│   │   │   ├── gcal-log.c
-│   │   │   ├── gcal-log.h
-│   │   │   ├── gcal-manager.c
-│   │   │   ├── gcal-manager.h
-│   │   │   ├── gcal-range.c
-│   │   │   ├── gcal-range.h
-│   │   │   ├── gcal-range-tree.c
-│   │   │   ├── gcal-range-tree.h
-│   │   │   ├── gcal-recurrence.c
-│   │   │   ├── gcal-recurrence.h
-│   │   │   ├── gcal-shell-search-provider.c
-│   │   │   ├── gcal-shell-search-provider.h
-│   │   │   ├── gcal-timeline.c
-│   │   │   ├── gcal-timeline.h
-│   │   │   ├── gcal-timeline-subscriber.c
-│   │   │   ├── gcal-timeline-subscriber.h
-│   │   │   ├── gcal-timer.c
-│   │   │   ├── gcal-timer.h
-│   │   │   ├── gcal-time-zone-monitor.c
-│   │   │   ├── gcal-time-zone-monitor.h
-│   │   │   └── meson.build
-│   │   ├── gcal-debug.h.in
-│   │   ├── gcal-enums.h
-│   │   ├── gcal-types.h
-│   │   ├── gconstructor.h
-│   │   ├── gui
-│   │   │   ├── calendar-management
-│   │   │   ├── event-editor
-│   │   │   ├── gcal-application.c
-│   │   │   ├── gcal-application.h
-│   │   │   ├── gcal-calendar-button.c
-│   │   │   ├── gcal-calendar-button.h
-│   │   │   ├── gcal-calendar-button.ui
-│   │   │   ├── gcal-calendar-combo-row.c
-│   │   │   ├── gcal-calendar-combo-row.h
-│   │   │   ├── gcal-calendar-combo-row-item.c
-│   │   │   ├── gcal-calendar-combo-row-item.h
-│   │   │   ├── gcal-calendar-combo-row-item.ui
-│   │   │   ├── gcal-calendar-combo-row.ui
-│   │   │   ├── gcal-drop-overlay.c
-│   │   │   ├── gcal-drop-overlay.h
-│   │   │   ├── gcal-event-popover.c
-│   │   │   ├── gcal-event-popover.h
-│   │   │   ├── gcal-event-popover.ui
-│   │   │   ├── gcal-event-widget.c
-│   │   │   ├── gcal-event-widget.h
-│   │   │   ├── gcal-event-widget.ui
-│   │   │   ├── gcal-meeting-row.c
-│   │   │   ├── gcal-meeting-row.h
-│   │   │   ├── gcal-meeting-row.ui
-│   │   │   ├── gcal-overflow-bin.c
-│   │   │   ├── gcal-overflow-bin.h
-│   │   │   ├── gcal-overflow-bin-layout.c
-│   │   │   ├── gcal-overflow-bin-layout.h
-│   │   │   ├── gcal-quick-add-popover.c
-│   │   │   ├── gcal-quick-add-popover.h
-│   │   │   ├── gcal-quick-add-popover.ui
-│   │   │   ├── gcal-search-button.c
-│   │   │   ├── gcal-search-button.h
-│   │   │   ├── gcal-search-button.ui
-│   │   │   ├── gcal-sync-indicator.c
-│   │   │   ├── gcal-sync-indicator.h
-│   │   │   ├── gcal-sync-indicator.ui
-│   │   │   ├── gcal-toolbar-end.c
-│   │   │   ├── gcal-toolbar-end.h
-│   │   │   ├── gcal-toolbar-end.ui
-│   │   │   ├── gcal-weather-settings.c
-│   │   │   ├── gcal-weather-settings.h
-│   │   │   ├── gcal-weather-settings.ui
-│   │   │   ├── gcal-window.c
-│   │   │   ├── gcal-window.h
-│   │   │   ├── gcal-window.ui
-│   │   │   ├── gtk
-│   │   │   ├── gui.gresource.xml
-│   │   │   ├── icons
-│   │   │   ├── importer
-│   │   │   ├── meson.build
-│   │   │   └── views
-│   │   ├── main.c
-│   │   ├── meson.build
-│   │   ├── search
-│   │   │   ├── gcal-search-engine.c
-│   │   │   ├── gcal-search-engine.h
-│   │   │   ├── gcal-search-hit.c
-│   │   │   ├── gcal-search-hit-event.c
-│   │   │   ├── gcal-search-hit-event.h
-│   │   │   ├── gcal-search-hit.h
-│   │   │   ├── gcal-search-model.c
-│   │   │   ├── gcal-search-model.h
-│   │   │   └── meson.build
-│   │   ├── theme
-│   │   │   ├── events.css
-│   │   │   ├── meson.build
-│   │   │   ├── style.css
-│   │   │   ├── style-dark.css
-│   │   │   ├── style-hc.css
-│   │   │   ├── style-hc-dark.css
-│   │   │   └── theme.gresource.xml
-│   │   ├── utils
-│   │   │   ├── gcal-date-time-utils.c
-│   │   │   ├── gcal-date-time-utils.h
-│   │   │   ├── gcal-source-discoverer.c
-│   │   │   ├── gcal-source-discoverer.h
-│   │   │   ├── gcal-utils.c
-│   │   │   ├── gcal-utils.h
-│   │   │   └── meson.build
-│   │   └── weather
-│   │       ├── gcal-weather-info.c
-│   │       ├── gcal-weather-info.h
-│   │       ├── gcal-weather-service.c
-│   │       ├── gcal-weather-service.h
-│   │       └── meson.build
 │   ├── tests
-│   │   ├── calendar.ics
-│   │   ├── gcal-simple-server.c
-│   │   ├── gcal-simple-server.h
-│   │   ├── gcal-stub-calendar.c
-│   │   ├── gcal-stub-calendar.h
-│   │   ├── meson.build
-│   │   ├── test-daylight-saving.c
-│   │   ├── test-discoverer.c
-│   │   ├── test-event.c
-│   │   ├── test-range.c
-│   │   ├── test-range-tree.c
-│   │   ├── test-server.c
-│   │   └── test-utils.c
 │   └── THANKS.md
 ├── org
 │   └── gitlab
-│       └── gnome
-│           └── GNOME
+├── org.gitlab.gnome.GNOME.gnome-calendar
+│   └── gnome-calendar
 └── workspaces
     ├── dotfiles.code-workspace
     ├── inbox.code-workspace
+    ├── repo.code-workspace
     ├── top-down-game.code-workspace
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-219 directories, 317 files
+55 directories, 24 files
