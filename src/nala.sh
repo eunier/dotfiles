@@ -37,6 +37,7 @@ sudo nala install \
     fish \
     flatpak \
     fonts-cascadia-code \
+    freetube \
     geary \
     git \
     gitg \

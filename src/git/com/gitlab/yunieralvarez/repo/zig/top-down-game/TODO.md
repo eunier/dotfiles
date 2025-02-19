@@ -9,8 +9,9 @@ Project Description
 
 ### In Progress
 
-- [ ] Set up zflecs and raylib  
+- [ ] Show the player  
 
 ### Done ✓
 
+- [x] Set up zflecs and raylib  
 

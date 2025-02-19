@@ -12,12 +12,14 @@
     "anyerror",
     "comptime",
     "deinit",
+    "fini",
     "gamedev",
     "orama",
     "raylib",
     "rpinski",
     "Trunc",
     "usize",
+    "worktree",
     "zflecs",
     "zigversion"
   ],
@@ -32,17 +34,20 @@
   "editor.fontFamily": "Cascadia Code, 'Droid Sans Mono', 'monospace', monospace",
   "editor.fontWeight": "600",
   "editor.formatOnSave": true,
+  "editor.rulers": [80],
   "editor.tabSize": 2,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
         "scope": [
+          "comment.line.documentation.zig",
           "comment.line.double-slash.zig",
           "comment.line.number-sign.shell",
           "meta.shebang.shell",
           "punctuation.definition.comment.shebang.shell",
           "punctuation.definition.comment.shell",
-          "source.shell"
+          "source.shell",
+          "variable.parameter"
         ],
         "settings": {
           "fontStyle": ""
@@ -66,6 +71,7 @@
   "material-icon-theme.files.associations": {
     ".zigversion": "lock"
   },
+  "material-icon-theme.saturation": 1,
   "prettier.tabWidth": 2,
   "sortEditors.sortEditorsAutomatically": true,
   "telemetry.telemetryLevel": "off",
@@ -78,9 +84,11 @@
   "typescript.inlayHints.parameterTypes.enabled": true,
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
+  "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${profileName}${separator}${appName}",
   "window.titleBarStyle": "custom",
   "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "material-icon-theme",
+  "workspaceWizard.general.workspacesFolder": "/home/yunieralvarez/Projects/workspaces",
   "zig.path": "zig",
   "zig.zls.enabled": "on",
   "zig.zls.inlayHintsExcludeSingleArgument": false

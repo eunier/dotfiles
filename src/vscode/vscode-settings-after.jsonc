@@ -12,6 +12,7 @@
     "anyerror",
     "comptime",
     "deinit",
+    "fini",
     "gamedev",
     "orama",
     "raylib",
@@ -33,7 +34,7 @@
   "editor.fontFamily": "Cascadia Code, 'Droid Sans Mono', 'monospace', monospace",
   "editor.fontWeight": "600",
   "editor.formatOnSave": true,
-  "editor.rulers": [100],
+  "editor.rulers": [80],
   "editor.tabSize": 2,
   "editor.tokenColorCustomizations": {
     "textMateRules": [

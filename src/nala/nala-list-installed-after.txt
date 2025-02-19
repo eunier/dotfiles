@@ -3232,7 +3232,7 @@ fdisk 2.40.4-3 [Debian/trixie main]
      The cfdisk utility gives a more userfriendly curses based interface.
      The sfdisk utility is mostly for automation and scripting uses.
 
-ffmpeg 10:7.1-dmo3 [Unofficial Multimedia Packages/trixie main]
+ffmpeg 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── audio/video encoder, streaming server & audio/video file converter
      FFmpeg is the leading multimedia framework, able to decode, encode,
@@ -5531,6 +5531,10 @@ fonts-urw-base35 20200910-8 [Debian/trixie main]
      added to the now obsolete urwcyr fork of these fonts have been merged into
      the GNU FreeFont collection available in the fonts-freefont-otf or
      fonts-freefont-ttf packages.
+
+freetube 0.23.1 [SparkyLinux/sisters main]
+├── is installed
+└── A private YouTube client
 
 fuse2fs 1.47.2-1 [Debian/trixie main]
 ├── is installed
@@ -9415,9 +9419,19 @@ libavc1394-0 0.5.4-5+b2 [Debian/trixie main]
      This package includes the libraries needed to run executables using
      libavc1394.
 
-libavcodec61 10:7.1-dmo3 [Unofficial Multimedia Packages/trixie main]
-├── is installed
+libavcodec61 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+├── is upgradable from 10:7.1-dmo3
 └── Library to encode decode multimedia streams - runtime files
+
+libavcodec61 10:7.1-dmo3 [local]
+├── is installed and upgradable to 10:7.1-dmo4
+└── Library to encode decode multimedia streams - runtime files
+     FFmpeg is a hyper fast real time audio/video encoder, a streaming server
+     and a generic audio and video file converter.
+     .
+     It can grab from a standard Video4Linux video source and convert it into
+     several file formats based on DCT/motion compensation encoding. Sound is
+     compressed in MPEG audio layer 2 or using an AC3 compatible stream.
 
 libavcodec61 7:7.1-3+b2 [Debian/trixie main]
 └── FFmpeg library with de/encoders for audio/video codecs - runtime files
@@ -9436,9 +9450,19 @@ libavcodec61 7:7.1-3+b2 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libavcodec61:i386 10:7.1-dmo3 [Unofficial Multimedia Packages/trixie main]
-├── is installed
+libavcodec61:i386 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+├── is upgradable from 10:7.1-dmo3
 └── Library to encode decode multimedia streams - runtime files
+
+libavcodec61:i386 10:7.1-dmo3 [local]
+├── is installed and upgradable to 10:7.1-dmo4
+└── Library to encode decode multimedia streams - runtime files
+     FFmpeg is a hyper fast real time audio/video encoder, a streaming server
+     and a generic audio and video file converter.
+     .
+     It can grab from a standard Video4Linux video source and convert it into
+     several file formats based on DCT/motion compensation encoding. Sound is
+     compressed in MPEG audio layer 2 or using an AC3 compatible stream.
 
 libavcodec61:i386 7:7.1-3+b2 [Debian/trixie main]
 └── FFmpeg library with de/encoders for audio/video codecs - runtime files
@@ -9457,7 +9481,7 @@ libavcodec61:i386 7:7.1-3+b2 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libavdevice61 10:7.1-dmo3 [Unofficial Multimedia Packages/trixie main]
+libavdevice61 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for handling input and output devices - runtime files
 
@@ -9474,7 +9498,7 @@ libavdevice61 7:7.1-3+b2 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libavfilter10 10:7.1-dmo3 [Unofficial Multimedia Packages/trixie main]
+libavfilter10 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg filter library
 
@@ -9490,7 +9514,7 @@ libavfilter10 7:7.1-3+b2 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libavformat61 10:7.1-dmo3 [Unofficial Multimedia Packages/trixie main]
+libavformat61 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg file format library
 
@@ -9525,7 +9549,7 @@ libavtp0 0.2.0-2 [Debian/trixie main]
      .
      This package provides the shared library.
 
-libavutil59 10:7.1-dmo3 [Unofficial Multimedia Packages/trixie main]
+libavutil59 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg avutil library - runtime files
 
@@ -9545,7 +9569,7 @@ libavutil59 7:7.1-3+b2 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libavutil59:i386 10:7.1-dmo3 [Unofficial Multimedia Packages/trixie main]
+libavutil59:i386 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg avutil library - runtime files
 
@@ -18895,7 +18919,7 @@ libportal1 0.9.1-1 [Debian/trixie main]
      This package contains the shared library for non-GUI-specific use of
      portals.
 
-libpostproc58 10:7.1-dmo3 [Unofficial Multimedia Packages/trixie main]
+libpostproc58 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── postproc shared libraries
 
@@ -21270,7 +21294,7 @@ libswitch-perl 2.17-3 [Debian/trixie main]
      removed from the core. For perl 5.10 and above the "given/when" builtins
      are much preferred.
 
-libswresample5 10:7.1-dmo3 [Unofficial Multimedia Packages/trixie main]
+libswresample5 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for audio resampling, rematrixing etc. - runtime files
 
@@ -21302,7 +21326,7 @@ libswresample5 7:7.1-3+b2 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libswresample5:i386 10:7.1-dmo3 [Unofficial Multimedia Packages/trixie main]
+libswresample5:i386 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for audio resampling, rematrixing etc. - runtime files
 
@@ -21334,7 +21358,7 @@ libswresample5:i386 7:7.1-3+b2 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libswscale8 10:7.1-dmo3 [Unofficial Multimedia Packages/trixie main]
+libswscale8 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for image scaling and various conversions - runtime files
 
@@ -30423,12 +30447,12 @@ xsel 1.2.1-1 [Debian/trixie main]
      the X selection.  It can also append and have it follow a growing file
      (similar to tail -f).
 
-xserver-common 2:21.1.15-2 [Debian/trixie main]
+xserver-common 2:21.1.15-3 [Debian/trixie main]
 ├── is installed
 └── common files used by various X servers
      This package provides files necessary for all X.Org based X servers.
 
-xserver-xephyr 2:21.1.15-2 [Debian/trixie main]
+xserver-xephyr 2:21.1.15-3 [Debian/trixie main]
 ├── is installed
 └── nested X server
      Xephyr is an X server that can be run inside another X server,
@@ -30447,7 +30471,7 @@ xserver-xorg 1:7.7+24 [Debian/trixie main]
      This package depends on the full suite of the server and drivers for the
      X.Org X server.  It does not provide the actual server itself.
 
-xserver-xorg-core 2:21.1.15-2 [Debian/trixie main]
+xserver-xorg-core 2:21.1.15-3 [Debian/trixie main]
 ├── is installed
 └── Xorg X server - core server
      The Xorg X server is an X server for several architectures and operating
@@ -30482,7 +30506,7 @@ xserver-xorg-input-wacom 1.2.3-1 [Debian/trixie main]
 └── X.Org X server -- Wacom input driver
      This package provides the X.Org driver for Wacom tablet devices.
 
-xserver-xorg-legacy 2:21.1.15-2 [Debian/trixie main]
+xserver-xorg-legacy 2:21.1.15-3 [Debian/trixie main]
 ├── is installed
 └── setuid root Xorg server wrapper
      This package provides a wrapper for the Xorg X server, which is

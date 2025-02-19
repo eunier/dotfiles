@@ -26,6 +26,4 @@ flatpak list >~/.dotfiles/src/flatpak/flatpak-list-after.txt
 touch ~/.dotfiles/src/flatpak-progress-before.txt
 flatpak search io.github.smolblackcat.Progress >>~/.dotfiles/src/nala/nala-app-progress-tracker-after.txt
 
-# org.gnome.Platform \
-# org.gnome.Sdk \
-# org.gnome.Sdk.Docs
+# com.mardojai.ForgeSparks token github com.mardojai.ForgeSparks expires 2026-02-18

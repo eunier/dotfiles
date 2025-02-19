@@ -8,6 +8,8 @@
 │   │   │   └── sdlwiki
 │   │   ├── linuxy
 │   │   │   └── coyote-ecs
+│   │   ├── Not-Nik
+│   │   │   └── raylib-zig
 │   │   ├── prime31
 │   │   │   └── zig-ecs
 │   │   ├── pwbh
@@ -530,6 +532,7 @@
     ├── dotfiles.code-workspace
     ├── inbox.code-workspace
     ├── top-down-game.code-workspace
-    └── zig.code-workspace
+    ├── zig.code-workspace
+    └── zig-gamedev.code-workspace
 
-217 directories, 316 files
+219 directories, 317 files
