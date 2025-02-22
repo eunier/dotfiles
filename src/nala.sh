@@ -35,6 +35,8 @@ sudo nala install \
     flatpak \
     fonts-cascadia-code \
     fonts-firacode \
+    fonts-monoid \
+    fonts-ubuntu \
     freetube \
     geary \
     git \

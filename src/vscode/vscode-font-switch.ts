@@ -1,7 +1,15 @@
 import { $ } from "bun";
 
 const defaultFonts = ["'Droid Sans Mono'", "'monospace'", "monospace"] as const;
-const fonts = ["Cascadia Code", "Fira Code", ...defaultFonts] as const;
+const fonts = [
+	"Cascadia Code",
+	"Fira Code",
+	"JetBrains Mono",
+	"Monoid",
+	"Noto Mono",
+	"Ubuntu Mono",
+	...defaultFonts,
+] as const;
 
 type Font = (typeof fonts)[number];
 
@@ -49,6 +57,15 @@ const genFontWeightBold = (normalWeight: FontWeight) =>
 		? `${Math.min(normalWeight + 100, 1000)}`
 		: normalWeight;
 
+const addToFontMap = (
+	fontMap: Map<Font, FontConfig>,
+	font: Font,
+	size: number,
+	weight: FontWeight,
+) => {
+	fontMap.set(font, genConfigForFont(font, size, weight));
+};
+
 const font = (process.argv.at(2) ?? ("Cascadia Code" satisfies Font)) as Font;
 
 if (!fonts.includes(font)) {
@@ -59,8 +76,12 @@ if (!fonts.includes(font)) {
 
 const fontMap = new Map<Font, FontConfig>();
 
-fontMap.set("Cascadia Code", genConfigForFont("Cascadia Code", 14, 600));
-fontMap.set("Fira Code", genConfigForFont("Fira Code", 14, 600));
+addToFontMap(fontMap, "Cascadia Code", 14, 600);
+addToFontMap(fontMap, "Fira Code", 14, 600);
+addToFontMap(fontMap, "JetBrains Mono", 14, 700);
+addToFontMap(fontMap, "Monoid", 14, 600);
+addToFontMap(fontMap, "Noto Mono", 14, 700);
+addToFontMap(fontMap, "Ubuntu Mono", 17, 700);
 
 const path = "~/.config/Code/User/settings.json";
 

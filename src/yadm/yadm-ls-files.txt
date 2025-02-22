@@ -6,6 +6,7 @@
 .dotfiles/.vscode/settings.json
 .dotfiles/README.md
 .dotfiles/TODO.md
+.dotfiles/biome.json
 .dotfiles/bun.lock
 .dotfiles/package.json
 .dotfiles/scripts/rm-before-after-files.sh
@@ -49,7 +50,7 @@
 .dotfiles/src/flatpak.sh
 .dotfiles/src/flatpak/flatpak-list-after.txt
 .dotfiles/src/flatpak/flatpak-list-before.txt
-.dotfiles/src/font.sh
+.dotfiles/src/fonts.sh
 .dotfiles/src/git.sh
 .dotfiles/src/git/git-repos-after.txt
 .dotfiles/src/git/git-repos-before.txt
@@ -70,6 +71,7 @@
 .dotfiles/src/vscode/vscode-adwaita-light.jsonc
 .dotfiles/src/vscode/vscode-extensions-after.txt
 .dotfiles/src/vscode/vscode-extensions-before.txt
+.dotfiles/src/vscode/vscode-font-switch.sh
 .dotfiles/src/vscode/vscode-font-switch.ts
 .dotfiles/src/vscode/vscode-keybindings-after.jsonc
 .dotfiles/src/vscode/vscode-keybindings-before.jsonc

@@ -1,4 +1,5 @@
 .
+├── biome.json
 ├── bun.lock
 ├── .gitignore
 ├── package.json
@@ -83,6 +84,7 @@
 │   │   ├── vscode-adwaita-light.jsonc
 │   │   ├── vscode-extensions-after.txt
 │   │   ├── vscode-extensions-before.txt
+│   │   ├── vscode-font-switch.sh
 │   │   ├── vscode-font-switch.ts
 │   │   ├── vscode-keybindings-after.jsonc
 │   │   ├── vscode-keybindings-before.jsonc
@@ -103,4 +105,4 @@
 └── .vscode
     └── settings.json
 
-23 directories, 81 files
+23 directories, 83 files

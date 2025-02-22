@@ -4,10 +4,12 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 flatpak update
 
 flatpak install --assumeyes flathub \
+  com.belmoussaoui.Authenticator \
   com.github.libresprite.LibreSprite \
   com.github.tchx84.Flatseal \
   com.mardojai.ForgeSparks \
   com.orama_interactive.Pixelorama \
+  com.rafaelmardojai.Blanket \
   com.spotify.Client \
   dev.geopjr.Calligraphy \
   dev.tchx84.Gameeky \
@@ -22,7 +24,9 @@ flatpak install --assumeyes flathub \
   io.missioncenter.MissionCenter \
   md.obsidian.Obsidian \
   org.flathub.flatpak-external-data-checker \
-  org.gnome.design.Palette
+  org.gnome.design.Palette \
+  org.gnome.Solanum \
+  re.sonny.Commit
 
 touch ~/.dotfiles/src/flatpak/flatpak-list-before.txt
 flatpak list >~/.dotfiles/src/flatpak/flatpak-list-after.txt

@@ -310,25 +310,7 @@ appstream-compose 1.0.4-1 [Debian/trixie main]
      to generate AppStream metadata and media files from directory trees.
 
 apt 2.9.30 [Debian/trixie main]
-├── is upgradable from 2.9.29
-└── commandline package manager
-     This package provides commandline tools for searching and
-     managing as well as querying information about packages
-     as a low-level access to all features of the libapt-pkg library.
-     .
-     These include:
-      * apt-get for retrieval of packages and information about them
-        from authenticated sources and for installation, upgrade and
-        removal of packages together with their dependencies
-      * apt-cache for querying available information about installed
-        as well as installable packages
-      * apt-cdrom to use removable media as a source for packages
-      * apt-config as an interface to the configuration settings
-      * apt-extracttemplates is used by debconf to prompt for configuration
-        questions before installation.
-
-apt 2.9.29 [local]
-├── is installed and upgradable to 2.9.30
+├── is installed
 └── commandline package manager
      This package provides commandline tools for searching and
      managing as well as querying information about packages
@@ -372,17 +354,7 @@ apt-listchanges 4.8 [Debian/trixie main]
      automatically during upgrades.
 
 apt-utils 2.9.30 [Debian/trixie main]
-├── is upgradable from 2.9.29
-└── package management related utility programs
-     This package contains some less used commandline utilities related
-     to package management with APT.
-     .
-      * apt-ftparchive is used to create Packages and other index files
-        needed to publish an archive of Debian packages
-      * apt-sortpkgs is a Packages/Sources file normalizer.
-
-apt-utils 2.9.29 [local]
-├── is installed and upgradable to 2.9.30
+├── is installed
 └── package management related utility programs
      This package contains some less used commandline utilities related
      to package management with APT.
@@ -392,19 +364,7 @@ apt-utils 2.9.29 [local]
       * apt-sortpkgs is a Packages/Sources file normalizer.
 
 aptitude 0.8.13-7 [Debian/trixie main]
-├── is upgradable from 0.8.13-6.1
-└── terminal-based package manager
-     aptitude is a package manager with a number of useful features,
-     including: a mutt-like syntax for matching packages in a flexible
-     manner, dselect-like persistence of user actions, the ability to
-     retrieve and display the Debian changelog of most packages, and a
-     command-line mode similar to that of apt-get.
-     .
-     aptitude is also Y2K-compliant, non-fattening, naturally cleansing,
-     and housebroken.
-
-aptitude 0.8.13-6.1 [local]
-├── is installed and upgradable to 0.8.13-7
+├── is installed
 └── terminal-based package manager
      aptitude is a package manager with a number of useful features,
      including: a mutt-like syntax for matching packages in a flexible
@@ -416,19 +376,7 @@ aptitude 0.8.13-6.1 [local]
      and housebroken.
 
 aptitude-common 0.8.13-7 [Debian/trixie main]
-├── is upgradable from 0.8.13-6.1
-└── architecture independent files for the aptitude package manager
-     aptitude is a package manager with a number of useful features,
-     including: a mutt-like syntax for matching packages in a flexible
-     manner, dselect-like persistence of user actions, the ability to
-     retrieve and display the Debian changelog of most packages, and a
-     command-line mode similar to that of apt-get.
-     .
-     This package contains the data files and translations used by
-     aptitude.
-
-aptitude-common 0.8.13-6.1 [local]
-├── is installed and upgradable to 0.8.13-7
+├── is installed
 └── architecture independent files for the aptitude package manager
      aptitude is a package manager with a number of useful features,
      including: a mutt-like syntax for matching packages in a flexible
@@ -4177,6 +4125,20 @@ fonts-linuxlibertine 5.3.0-6 [Debian/trixie main]
      This package contains OpenType versions (i.e., with cubic Bézier splines)
      of the fonts, with large support of OpenType features.
 
+fonts-monoid 0.61-4 [Debian/trixie main]
+├── is installed
+└── open source coding font with bitmap-like sharpness (normal tracking)
+     Monoid is customizable and optimized for coding with bitmap-like
+     sharpness at 12px/9pt even on low res display.
+     .
+     Monoid is semi-condensed and distinguishable glyphs with short ascenders,
+     descenders, big apertures and super sized operators, punctuation.
+     .
+     It comes with regular, bold, oblique and retina versions with >750 Latin,
+     Greek, Cyrillic, ligature, alternate and Power-line glyphs.
+     .
+     This package contains the normal tracking variant.
+
 fonts-noto-color-emoji 2.047-1 [Debian/trixie main]
 ├── is installed
 └── color emoji font from Google
@@ -5873,6 +5835,14 @@ fonts-symbola 2.60-2 [Debian/trixie main]
 └── symbolic font providing emoji characters from Unicode 9.0
      This package includes the Symbola font, which contains special symbols and
      emoji characters which are encoded in the Unicode Standard 9.0
+
+fonts-ubuntu 0.83-6 [Debian/trixie non-free]
+├── is installed
+└── sans-serif font set from Ubuntu
+     The Ubuntu Font Family is a set of contemporary sans-serif fonts developed
+     between 2010-2011. Dalton Maag performed the font design work and
+     implementation with funding from Canonical. The fonts have been the default
+     fonts for Ubuntu since 2010.
 
 fonts-urw-base35 20200910-8 [Debian/trixie main]
 ├── is installed
@@ -7931,17 +7901,7 @@ gstreamer1.0-libcamera 0.4.0-5 [Debian/trixie main]
      This package contains the libcamera GStreamer plugin.
 
 gstreamer1.0-packagekit 1.3.0-3 [Debian/trixie main]
-├── is upgradable from 1.3.0-2
-└── GStreamer plugin to install codecs using PackageKit
-     PackageKit allows performing simple software management tasks over a DBus
-     interface e.g refreshing the cache, updating, installing and removing
-     software packages or searching for multimedia codecs and file handlers.
-     .
-     This package provides a plugin for the GStreamer multimedia framework
-     to search and to install audio and video codecs.
-
-gstreamer1.0-packagekit 1.3.0-2 [local]
-├── is installed and upgradable to 1.3.0-3
+├── is installed
 └── GStreamer plugin to install codecs using PackageKit
      PackageKit allows performing simple software management tasks over a DBus
      interface e.g refreshing the cache, updating, installing and removing
@@ -9286,7 +9246,7 @@ libaprutil1t64 1.6.3-3+b1 [Debian/trixie main]
      APR Util is a utilities library implemented on top of apr, providing database
      access, xml parsing, and other useful functionality.
 
-libapt-pkg6.0t64 2.9.29 [local]
+libapt-pkg7.0 2.9.30 [Debian/trixie main]
 ├── is installed
 └── package management runtime library
      This library provides the common functionality for searching and
@@ -27291,23 +27251,7 @@ p7zip-full 16.02+transitional.1 [Debian/trixie main]
      This is a transitional package. It can be safely removed.
 
 packagekit 1.3.0-3 [Debian/trixie main]
-├── is upgradable from 1.3.0-2
-└── Provides a package management service
-     PackageKit allows performing simple software management tasks over a DBus
-     interface e.g. refreshing the cache, updating, installing and removing
-     software packages or searching for multimedia codecs and file handlers.
-     .
-     The work is done by backends which make use of the package manager shipped by
-     the corresponding distribution. PackageKit is not meant to replace
-     advanced tools like Synaptic.
-     .
-     Its main benefits are:
-      - Unified developer and user interface on many distributions
-      - Fine-grained permission control via PolicyKit
-      - On-demand installation of missing system components
-
-packagekit 1.3.0-2 [local]
-├── is installed and upgradable to 1.3.0-3
+├── is installed
 └── Provides a package management service
      PackageKit allows performing simple software management tasks over a DBus
      interface e.g. refreshing the cache, updating, installing and removing
@@ -27323,16 +27267,7 @@ packagekit 1.3.0-2 [local]
       - On-demand installation of missing system components
 
 packagekit-tools 1.3.0-3 [Debian/trixie main]
-├── is upgradable from 1.3.0-2
-└── Provides PackageKit command-line tools
-     PackageKit allows performing simple software management tasks over a DBus
-     interface e.g. refreshing the cache, updating, installing and removing
-     software packages or searching for multimedia codecs and file handlers.
-     .
-     This package provides the PackageKit command-line tools.
-
-packagekit-tools 1.3.0-2 [local]
-├── is installed and upgradable to 1.3.0-3
+├── is installed
 └── Provides PackageKit command-line tools
      PackageKit allows performing simple software management tasks over a DBus
      interface e.g. refreshing the cache, updating, installing and removing
@@ -27832,22 +27767,7 @@ python3-anyio 4.7.0-1 [Debian/trixie main]
      This package installs the library for Python 3.
 
 python3-apt 2.9.9 [Debian/trixie main]
-├── is upgradable from 2.9.8
-└── Python 3 interface to libapt-pkg
-     The apt_pkg Python 3 interface will provide full access to the internal
-     libapt-pkg structures allowing Python 3 programs to easily perform a
-     variety of functions, such as:
-     .
-      - Access to the APT configuration system
-      - Access to the APT package information database
-      - Parsing of Debian package control files, and other files with a
-        similar structure
-     .
-     The included 'aptsources' Python interface provides an abstraction of
-     the sources.list configuration on the repository and the distro level.
-
-python3-apt 2.9.8 [local]
-├── is installed and upgradable to 2.9.9
+├── is installed
 └── Python 3 interface to libapt-pkg
      The apt_pkg Python 3 interface will provide full access to the internal
      libapt-pkg structures allowing Python 3 programs to easily perform a
@@ -28518,7 +28438,7 @@ python3-reportbug 13.1.0 [Debian/trixie main]
      .
      To actually report a bug, install the reportbug package.
 
-python3-requests 2.32.3+dfsg-1 [Debian/trixie main]
+python3-requests 2.32.3+dfsg-4 [Debian/trixie main]
 ├── is installed
 └── elegant and simple HTTP library for Python3, built for human beings
      Requests allow you to send HTTP/1.1 requests. You can add headers, form data,
@@ -30065,7 +29985,7 @@ uno-libs-private 4:24.8.4-4 [Debian/trixie main]
      This package contains some private UNO/URE libraries which are used by public
      ones (e.g. cppu).
 
-unrar 1:7.1.3-1 [Debian/trixie non-free]
+unrar 1:7.1.4-1 [Debian/trixie non-free]
 ├── is installed
 └── Unarchiver for .rar files (non-free version)
      Unrar can extract files from .rar archives. If you want to create .rar
