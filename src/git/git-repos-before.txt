@@ -1,13 +1,6 @@
 /home/yunieralvarez/Projects
-├── com.github.eunier.dotfiles.dotfiles
-│   ├── bun.lock
-│   ├── .git
-│   ├── .gitignore
-│   ├── package.json
-│   ├── README.md
-│   ├── src
-│   ├── tsconfig.json
-│   └── .vscode
+├── com.github.eunier.dotfiles
+│   └── dotfiles
 ├── com.github.libsdl-org.SDL
 │   └── SDL
 ├── com.github.libsdl-org.sdlwiki
@@ -57,4 +50,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-43 directories, 15 files
+41 directories, 10 files

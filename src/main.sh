@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# TODO shellcheck .
 sh ~/.dotfiles/src/fastfetch.sh
 fastfetch
 sh ~/.dotfiles/src/yadm.sh

@@ -12,13 +12,13 @@ if command -v shotwell /dev/null 2>&1; then
     sudo nala purge shotwell
 fi
 
+sudo nala install libreoffice
+
 # https://cdn.fastly.steamstatic.com/client/installer/steam.deb
 # https://cdn.filen.io/@filen/desktop/release/latest/Filen_linux_amd64.deb
 # https://github.com/Beaver-Notes/Beaver-Notes/releases/download/3.9.0/Beaver-notes_3.9.0_amd64.deb
 # https://github.com/smolBlackCat/progress-tracker/releases
 # https://www.google.com/chrome/
-
-sudo nala install libreoffice
 
 sudo nala install \
     beaver-notes \
