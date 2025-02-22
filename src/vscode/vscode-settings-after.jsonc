@@ -47,7 +47,7 @@
   "diffEditor.ignoreTrimWhitespace": true,
   "editor.codeLensFontFamily": "Cascadia Code",
   "editor.fontFamily": "Cascadia Code, Fira Code, 'Droid Sans Mono', 'monospace', monospace",
-  "editor.fontLigatures": true,
+  "editor.fontLigatures": false,
   "editor.fontSize": 14,
   "editor.fontWeight": "600",
   "editor.formatOnSave": true,
