@@ -1,5 +1,8 @@
 import { $ } from "bun";
 
+const defaultFonts = ["'Droid Sans Mono'", "'monospace'", "monospace"] as const;
+const fonts = ["Cascadia Code", "Fira Code", ...defaultFonts] as const;
+
 type Font = (typeof fonts)[number];
 
 interface FontConfig {
@@ -47,9 +50,6 @@ const genFontWeightBold = (normalWeight: FontWeight) =>
 		: normalWeight;
 
 const font = (process.argv.at(2) ?? ("Cascadia Code" satisfies Font)) as Font;
-
-const defaultFonts = ["'Droid Sans Mono'", "'monospace'", "monospace"] as const;
-const fonts = ["Cascadia Code", "Fira Code", ...defaultFonts] as const;
 
 if (!fonts.includes(font)) {
 	throw Error(
