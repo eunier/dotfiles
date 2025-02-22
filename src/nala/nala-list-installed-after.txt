@@ -4054,6 +4054,19 @@ fonts-droid-fallback 1:8.1.0r7-1~1.gbp36536b [Debian/trixie main]
      better.  You need fonts-droid-fallback (former fonts-droid) in case you
      need to deal with some legacy documents.
 
+fonts-firacode 6.2-2 [Debian/trixie main]
+├── is installed
+└── Monospaced font with programming ligatures
+     Fira Code is an extension of the Fira Mono font containing a set of
+     ligatures for common programming multi-character combinations. This is
+     just a font rendering feature: underlying code remains ASCII-compatible.
+     This helps to read and understand code faster. For some frequent sequences
+     like .. or //, the ligatures allow one to correct spacing.
+     .
+     This font is expected to work in most text editors but won't work in most
+     (especially VTE-based) terminal emulators. A detailed list is available on
+     https://github.com/tonsky/FiraCode#terminal-support
+
 fonts-font-awesome 5.0.10+really4.7.0~dfsg-4.1 [Debian/trixie main]
 ├── is installed
 └── iconic font designed for use with Twitter Bootstrap
