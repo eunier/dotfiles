@@ -54,7 +54,7 @@
 │   │   ├── flatpak-list-after.txt
 │   │   └── flatpak-list-before.txt
 │   ├── flatpak.sh
-│   ├── font.sh
+│   ├── fonts.sh
 │   ├── git
 │   │   ├── git-repos-after.txt
 │   │   ├── git-repos-before.txt

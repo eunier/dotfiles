@@ -14,6 +14,7 @@ sh ~/.dotfiles/src/bun.sh
 sh ~/.dotfiles/src/node.sh
 sh ~/.dotfiles/src/zig.sh
 
+sh ~/.dotfiles/src/fonts.sh
 sh ~/.dotfiles/src/autostart.sh
 sh ~/.dotfiles/src/beaver-notes.sh
 sh ~/.dotfiles/src/dconf.sh
