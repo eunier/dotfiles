@@ -41,7 +41,15 @@ code --install-extension ziglang.vscode-zig
 touch ~/.dotfiles/src/vscode/vscode-extensions-before.txt
 code --list-extensions >~/.dotfiles/src/vscode/vscode-extensions-after.txt
 
-bun run vscode:font:switch "Cascadia Code"
+# shellcheck disable=SC2034
+cascadiaCode="Cascadia Code"
+# shellcheck disable=SC2034
+firaCode="Fira Code"
+
+# Need to hard restart VsCode after new font installed.
+# "Reload Window" won't work.
+bun run vscode:font:switch "$cascadiaCode"
+
 touch ~/.dotfiles/src/vscode/vscode-settings-before.jsonc
 cp ~/.config/Code/User/settings.json ~/.dotfiles/src/vscode/vscode-settings-after.jsonc
 

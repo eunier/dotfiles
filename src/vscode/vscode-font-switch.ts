@@ -1,14 +1,32 @@
 import { $ } from "bun";
 
-const genDefaultConfigForFont = (font: Font): FontConfig => ({
+type Font = (typeof fonts)[number];
+
+interface FontConfig {
+	"debug.console.fontFamily": Font;
+	"editor.codeLensFontFamily": Font;
+	"editor.fontFamily": string;
+	"editor.fontSize": number;
+	"editor.fontWeight": string;
+	"terminal.integrated.fontSize": number;
+	"terminal.integrated.fontWeight": string;
+	"terminal.integrated.fontWeightBold": string;
+}
+
+type FontWeight = number | "normal";
+
+const genDefaultConfigForFont = (font: Font): FontConfig =>
+	genConfigForFont(font, 14, "normal");
+
+const genConfigForFont = (font: Font, size: number, weight: FontWeight) => ({
 	"debug.console.fontFamily": font,
 	"editor.codeLensFontFamily": font,
 	"editor.fontFamily": getEditorFontFamilyForFont(font),
-	"editor.fontSize": 14,
-	"editor.fontWeight": "normal",
-	"terminal.integrated.fontSize": 14,
-	"terminal.integrated.fontWeight": "normal",
-	"terminal.integrated.fontWeightBold": "bold",
+	"editor.fontSize": size,
+	"editor.fontWeight": `${weight}`,
+	"terminal.integrated.fontSize": size,
+	"terminal.integrated.fontWeight": `${weight}`,
+	"terminal.integrated.fontWeightBold": genFontWeightBold(weight),
 });
 
 const getEditorFontFamilyForFont = (font: Font) => {
@@ -23,39 +41,26 @@ const getEditorFontFamilyForFont = (font: Font) => {
 	return fontFamily;
 };
 
-const genFontWeightBold = (normalWeight: number) =>
-	`${Math.min(normalWeight + 100, 1000)}`;
+const genFontWeightBold = (normalWeight: FontWeight) =>
+	typeof normalWeight === "number"
+		? `${Math.min(normalWeight + 100, 1000)}`
+		: normalWeight;
 
 const font = (process.argv.at(2) ?? ("Cascadia Code" satisfies Font)) as Font;
 
 const defaultFonts = ["'Droid Sans Mono'", "'monospace'", "monospace"] as const;
-const fonts = ["Cascadia Code", ...defaultFonts] as const;
+const fonts = ["Cascadia Code", "Fira Code", ...defaultFonts] as const;
 
-type Font = (typeof fonts)[number];
-
-interface FontConfig {
-	"debug.console.fontFamily": Font;
-	"editor.codeLensFontFamily": Font;
-	"editor.fontFamily": string;
-	"editor.fontSize": number;
-	"editor.fontWeight": string;
-	"terminal.integrated.fontSize": number;
-	"terminal.integrated.fontWeight": string;
-	"terminal.integrated.fontWeightBold": string;
+if (!fonts.includes(font)) {
+	throw Error(
+		`Font '${font}' not valid. Valid fonts are: ${fonts.join(", ")}.`,
+	);
 }
 
 const fontMap = new Map<Font, FontConfig>();
 
-fontMap.set("Cascadia Code", {
-	"debug.console.fontFamily": "Cascadia Code",
-	"editor.codeLensFontFamily": "Cascadia Code",
-	"editor.fontFamily": getEditorFontFamilyForFont(font),
-	"editor.fontSize": 14,
-	"editor.fontWeight": "600",
-	"terminal.integrated.fontSize": 14,
-	"terminal.integrated.fontWeight": "600",
-	"terminal.integrated.fontWeightBold": genFontWeightBold(600),
-});
+fontMap.set("Cascadia Code", genConfigForFont("Cascadia Code", 14, 600));
+fontMap.set("Fira Code", genConfigForFont("Fira Code", 14, 600));
 
 const path = "~/.config/Code/User/settings.json";
 
@@ -63,7 +68,7 @@ const config = fontMap.has(font)
 	? fontMap.get(font)
 	: genDefaultConfigForFont(font);
 
-let settings: object = await $`cat ${path}`.json();
+let settings: Record<PropertyKey, unknown> = await $`cat ${path}`.json();
 
 settings = { ...settings, ...config };
 await $`echo ${JSON.stringify(settings, null, 2)} > ${path}`;
