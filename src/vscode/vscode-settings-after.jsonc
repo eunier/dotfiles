@@ -114,7 +114,7 @@
   "terminal.integrated.defaultProfile.linux": "fish",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": "600",
-  "terminal.integrated.fontWeightBold": "1000",
+  "terminal.integrated.fontWeightBold": "700",
   "todo-tree.highlights.enabled": false,
   "typescript.inlayHints.enumMemberValues.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,

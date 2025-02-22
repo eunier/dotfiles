@@ -24,7 +24,7 @@ const getEditorFontFamilyForFont = (font: Font) => {
 };
 
 const genFontWeightBold = (normalWeight: number) =>
-	`${Math.max(normalWeight + 100, 1000)}`;
+	`${Math.min(normalWeight + 100, 1000)}`;
 
 const font = (process.argv.at(2) ?? ("Cascadia Code" satisfies Font)) as Font;
 
