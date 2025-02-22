@@ -3,7 +3,7 @@
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak update
 
-flatpak install -y flathub \
+flatpak install --assumeyes flathub \
   com.github.libresprite.LibreSprite \
   com.github.tchx84.Flatseal \
   com.mardojai.ForgeSparks \
@@ -14,16 +14,19 @@ flatpak install -y flathub \
   flathub de.philippun1.turtle \
   io.github.fabrialberio.pinapp \
   io.github.josephmawa.Egghead \
+  io.github.MakovWait.Godots \
   io.github.revisto.drum-machine \
   io.github.ronniedroid.concessio \
   io.github.zhrexl.thisweekinmylife \
+  io.gitlab.news_flash.NewsFlash \
+  io.missioncenter.MissionCenter \
   md.obsidian.Obsidian \
-  org.flathub.flatpak-external-data-checker
+  org.flathub.flatpak-external-data-checker \
+  org.gnome.design.Palette
 
 touch ~/.dotfiles/src/flatpak/flatpak-list-before.txt
 flatpak list >~/.dotfiles/src/flatpak/flatpak-list-after.txt
 
-touch ~/.dotfiles/src/flatpak-progress-before.txt
 flatpak search io.github.smolblackcat.Progress >>~/.dotfiles/src/nala/nala-app-progress-tracker-after.txt
 
 # com.mardojai.ForgeSparks token github com.mardojai.ForgeSparks expires 2026-02-18

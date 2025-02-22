@@ -1,16 +1,6 @@
 /home/yunieralvarez/Projects
-├── com
-│   ├── github
-│   └── gitlab
-├── com.github.eunier.dotfiles.dotfiles
-│   ├── bun.lock
-│   ├── .git
-│   ├── .gitignore
-│   ├── package.json
-│   ├── README.md
-│   ├── src
-│   ├── tsconfig.json
-│   └── .vscode
+├── com.github.eunier.dotfiles
+│   └── dotfiles
 ├── com.github.libsdl-org.SDL
 │   └── SDL
 ├── com.github.libsdl-org.sdlwiki
@@ -23,6 +13,8 @@
 │   └── zig-ecs
 ├── com.github.pwbh.SDL
 │   └── SDL
+├── com.github.SanderMertens.flecs
+│   └── flecs
 ├── com.github.zig-gamedev.zflecs
 │   └── zflecs
 ├── com.github.zig-gamedev.zig-gamedev
@@ -45,37 +37,17 @@
 │   ├── flatpak-builder
 │   ├── manuals
 │   └── projects
-├── gnome-calendar
-│   ├── _build
-│   ├── build-aux
-│   ├── CONTRIBUTING.md
-│   ├── COPYING
-│   ├── data
-│   ├── .editorconfig
-│   ├── .git
-│   ├── .gitignore
-│   ├── .gitlab
-│   ├── .gitlab-ci.yml
-│   ├── gnome-calendar.doap
-│   ├── HACKING.md
-│   ├── meson.build
-│   ├── meson_options.txt
-│   ├── NEWS
-│   ├── po
-│   ├── README.md
-│   ├── src
-│   ├── tests
-│   └── THANKS.md
-├── org
-│   └── gitlab
 ├── org.gitlab.gnome.GNOME.gnome-calendar
 │   └── gnome-calendar
 └── workspaces
     ├── dotfiles.code-workspace
+    ├── flec-zig-raw-c.code-workspace
+    ├── game-top-dow-shooter.code-workspace
     ├── inbox.code-workspace
+    ├── raylib-zig.code-workspace
     ├── repo.code-workspace
     ├── top-down-game.code-workspace
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-55 directories, 24 files
+41 directories, 10 files

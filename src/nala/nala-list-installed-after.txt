@@ -269,7 +269,7 @@ apg 2.2.3.dfsg.1-7 [Debian/trixie main]
      soon as an actually maintained software with a comparable feature set becomes
      available.
 
-apparmor 3.1.7-2 [Debian/trixie main]
+apparmor 3.1.7-4 [Debian/trixie main]
 ├── is installed
 └── user-space parser utility for AppArmor
      apparmor provides the system initialization scripts needed to use the
@@ -408,6 +408,26 @@ aspell-en 2020.12.07-0-1 [Debian/trixie main]
      language to the GNU Aspell spell checker.
      .
      American, British, Canadian and Australian spellings are included.
+
+aspnetcore-runtime-9.0 9.0.2-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+├── is installed
+└── Shared Framework for hosting of Microsoft ASP.NET Core applications. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/aspnetcore). We happily accept issues and PRs.
+
+aspnetcore-runtime-9.0 9.0.1-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Shared Framework for hosting of Microsoft ASP.NET Core applications. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/aspnetcore). We happily accept issues and PRs.
+
+aspnetcore-runtime-9.0 9.0.0-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Shared Framework for hosting of Microsoft ASP.NET Core applications. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/aspnetcore). We happily accept issues and PRs.
+
+aspnetcore-targeting-pack-9.0 9.0.2-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+├── is installed
+└── Shared Framework for hosting of Microsoft ASP.NET Core applications. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/aspnetcore). We happily accept issues and PRs.
+
+aspnetcore-targeting-pack-9.0 9.0.1-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Shared Framework for hosting of Microsoft ASP.NET Core applications. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/aspnetcore). We happily accept issues and PRs.
+
+aspnetcore-targeting-pack-9.0 9.0.0-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Shared Framework for hosting of Microsoft ASP.NET Core applications. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/aspnetcore). We happily accept issues and PRs.
 
 at 3.2.5-2.1 [Debian/trixie main]
 ├── is installed
@@ -657,7 +677,7 @@ bluez 5.79-1 [Debian/trixie main]
      BlueZ is the official Linux Bluetooth protocol stack. It is an Open Source
      project distributed under GNU General Public License (GPL).
 
-bluez-firmware 1.2-11.1 [Debian/trixie non-free-firmware]
+bluez-firmware 1.2-13 [Debian/trixie non-free-firmware]
 ├── is installed
 └── Firmware for Bluetooth devices
      This firmware is required for operation of Bluetooth dongles based on
@@ -874,6 +894,22 @@ calendar 12.1.8 [Debian/trixie main]
      This package contains the "calendar" program commonly found on BSD-style
      systems, which displays upcoming relevant dates on a wide variety of
      calendars.
+
+cargo 1.84.0+dfsg1-2 [Debian/trixie main]
+├── is installed
+└── Rust package manager
+     Cargo is a tool that allows Rust projects to declare their various
+     dependencies, and ensure that you'll always get a repeatable build.
+     .
+     To accomplish this goal, Cargo does four things:
+      * Introduces two metadata files with various bits of project information.
+      * Fetches and builds your project's dependencies.
+      * Invokes rustc or another build tool with the correct parameters to build
+        your project.
+      * Introduces conventions, making working with Rust projects easier.
+     .
+     Cargo downloads your Rust project's dependencies and compiles your
+     project.
 
 clang 1:19.0-63 [Debian/trixie main]
 ├── is installed
@@ -2241,7 +2277,7 @@ cups-server-common 2.4.10-2 [Debian/trixie main]
      .
      This package provides common files for CUPS server.
 
-curl 8.12.0+git20250209.89ed161+ds-1 [Debian/trixie main]
+curl 8.12.1-2 [Debian/trixie main]
 ├── is installed
 └── command line tool for transferring data with URL syntax
      curl is a command line tool for transferring data with URL syntax, supporting
@@ -2616,6 +2652,12 @@ dirmngr 2.2.46-1+b1 [Debian/trixie main]
      among other tools.  Unless this package is installed, the parts of
      the GnuPG suite that try to interact with the network will fail.
 
+discord 0.0.86 [SparkyLinux/sisters main]
+├── is installed
+└── Chat for Communities and Friends
+     Discord is the easiest way to communicate over voice, video, and text. Chat,
+     hang out, and stay close with your friends and communities.
+
 discover 2.1.2-10.1 [Debian/trixie main]
 ├── is installed
 └── hardware identification system
@@ -2755,6 +2797,269 @@ dosfstools 4.2-1.1 [Debian/trixie main]
 └── utilities for making and checking MS-DOS FAT filesystems
      The dosfstools package includes the mkfs.fat and fsck.fat utilities, which
      respectively make and check MS-DOS FAT filesystems.
+
+dotnet-apphost-pack-9.0 9.0.2-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+├── is installed
+└── Microsoft.NETCore.App.Host 9.0.0
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-apphost-pack-9.0 9.0.1-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft.NETCore.App.Host 9.0.0
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-apphost-pack-9.0 9.0.0-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft.NETCore.App.Host 9.0.0
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 9.0.2-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+├── is installed
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 9.0.1-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 9.0.0-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 8.0.13-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 8.0.12-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 8.0.11-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 8.0.10-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 8.0.8-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 8.0.7-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 8.0.6-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 8.0.5-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 8.0.4-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 8.0.3-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 8.0.2-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 8.0.1-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 8.0.0-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 7.0.20-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 7.0.19-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 7.0.18-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 7.0.17-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 7.0.16-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 7.0.15-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 7.0.14-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 7.0.13-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 7.0.12-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 7.0.11-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 7.0.10-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 7.0.9-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.36-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.35-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.33-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.32-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.31-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.30-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.29-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.28-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.27-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.26-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.25-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.24-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.23-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.22-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.21-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-host 6.0.20-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host - 6.0.26
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-hostfxr-9.0 9.0.2-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+├── is installed
+└── Microsoft .NET Host FX Resolver - 9.0.0
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-hostfxr-9.0 9.0.1-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host FX Resolver - 9.0.0
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-hostfxr-9.0 9.0.0-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET Host FX Resolver - 9.0.0
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-runtime-9.0 9.0.2-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+├── is installed
+└── Microsoft.NETCore.App.Runtime 9.0.0
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-runtime-9.0 9.0.1-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft.NETCore.App.Runtime 9.0.0
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-runtime-9.0 9.0.0-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft.NETCore.App.Runtime 9.0.0
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-runtime-deps-9.0 9.0.2-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+├── is installed
+└── dotnet-runtime-deps-debian 9.0.0
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-runtime-deps-9.0 9.0.1-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── dotnet-runtime-deps-debian 9.0.0
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-runtime-deps-9.0 9.0.0-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── dotnet-runtime-deps-debian 9.0.0
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-sdk-9.0 9.0.200-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+├── is installed
+└── Microsoft .NET SDK 9.0.100
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-sdk-9.0 9.0.103-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET SDK 9.0.100
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-sdk-9.0 9.0.102-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET SDK 9.0.100
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-sdk-9.0 9.0.101-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET SDK 9.0.100
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-sdk-9.0 9.0.100-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft .NET SDK 9.0.100
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-targeting-pack-9.0 9.0.2-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+├── is installed
+└── Microsoft.NETCore.App.Ref 9.0.0
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-targeting-pack-9.0 9.0.1-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft.NETCore.App.Ref 9.0.0
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
+dotnet-targeting-pack-9.0 9.0.0-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+└── Microsoft.NETCore.App.Ref 9.0.0
+     .NET is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
 
 dpkg 1.22.15 [Debian/trixie main]
 ├── is installed
@@ -3211,7 +3516,7 @@ fakeroot 1.37-1 [Debian/trixie main]
      fake ownership/permissions of files manipulated by fakeroot
      processes.
 
-fastfetch 2.35.0+dfsg-1 [Debian/trixie main]
+fastfetch 2.36.1+dfsg-1 [Debian/trixie main]
 ├── is installed
 └── neofetch-like tool for fetching system information
      Fastfetch is a neofetch-like tool for fetching system information and
@@ -3312,14 +3617,14 @@ findutils 4.10.0-3 [Debian/trixie main]
      This package contains 'find' and 'xargs'; however, 'locate' has
      been split off into a separate package.
 
-firebird-utils 4.0.5.3140.ds6-15 [Debian/trixie main]
+firebird-utils 4.0.5.3140.ds6-16 [Debian/trixie main]
 ├── is installed
 └── Firebird command line utilities wrapper
      firebird-utils contains a wrapper script which allows running specific
      version of firebird utilities like gbak or isql-fb. If no version is
      specified, the latest available is used.
 
-firebird4.0-common 4.0.5.3140.ds6-15 [Debian/trixie main]
+firebird4.0-common 4.0.5.3140.ds6-16 [Debian/trixie main]
 ├── is installed
 └── common files for firebird 4.0 server, client and utilities
      Common files for the Firebird server, client and user utilities.
@@ -3327,7 +3632,7 @@ firebird4.0-common 4.0.5.3140.ds6-15 [Debian/trixie main]
      These include the support scripts as well as configuration files in
      /etc/firebird/4.0.
 
-firebird4.0-common-doc 4.0.5.3140.ds6-15 [Debian/trixie main]
+firebird4.0-common-doc 4.0.5.3140.ds6-16 [Debian/trixie main]
 ├── is installed
 └── copyright, licensing and changelogs of firebird4.0
      Copyright, licensing information and upstream changelog of firebird4.0.
@@ -3336,7 +3641,7 @@ firebird4.0-common-doc 4.0.5.3140.ds6-15 [Debian/trixie main]
      keeping them in a separate package saves space on mirrors and when installing
      firebird4.0 packages.
 
-firebird4.0-server-core 4.0.5.3140.ds6-15 [Debian/trixie main]
+firebird4.0-server-core 4.0.5.3140.ds6-16 [Debian/trixie main]
 ├── is installed
 └── Firebird engine core
      Firebird database engine and support libraries. This package is required for
@@ -3347,7 +3652,7 @@ firebird4.0-server-core 4.0.5.3140.ds6-15 [Debian/trixie main]
      The rest of the binaries needed for running a full-featured,
      remotely-accessible Firebird server are in the firebird4.0-server package.
 
-firebird4.0-utils 4.0.5.3140.ds6-15 [Debian/trixie main]
+firebird4.0-utils 4.0.5.3140.ds6-16 [Debian/trixie main]
 ├── is installed
 └── Firebird command line utilities
      This package contains the utilities for managing Firebird databases:
@@ -5402,7 +5707,7 @@ fonts-noto-ui-core 20201225-2 [Debian/trixie main]
      for unicode replacement character "�" (U+FFFD)
      often displayed as replacement for unassigned or unknown characters.
 
-fonts-opensymbol 4:102.12+LibO24.8.4-2 [Debian/trixie main]
+fonts-opensymbol 4:102.12+LibO24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── OpenSymbol TrueType font
      This package contains the OpenSymbol TrueType font included in
@@ -5551,7 +5856,7 @@ fuse3 3.14.0-10 [Debian/trixie main]
      secure method for non privileged users to create and mount their own filesystem
      implementations.
 
-fwupd 2.0.5-1 [Debian/trixie main]
+fwupd 2.0.6-3 [Debian/trixie main]
 ├── is installed
 └── Firmware update daemon
      fwupd is a daemon to allow session software to update device firmware.
@@ -6020,7 +6325,7 @@ gir1.2-grilo-0.3 0.3.16-1+b3 [Debian/trixie main]
      by packages using the GIRepository format to generate dynamic
      bindings.
 
-gir1.2-gst-plugins-bad-1.0 1:1.24.12-dmo1 [Unofficial Multimedia Packages/trixie main]
+gir1.2-gst-plugins-bad-1.0 1:1.24.12-dmo2+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── GObject introspection data for the GStreamer libraries from the "bad" set
      GStreamer is a streaming media framework, based on graphs of filters which
@@ -7191,6 +7496,11 @@ gnutls-bin 3.8.9-2 [Debian/trixie main]
       - key and certificate management: certtool, ocsptool, p11tool
       - credential management: srptool, psktool
 
+google-chrome-stable 133.0.6943.126-1 [Google/stable main]
+├── is installed
+└── The web browser from Google
+     Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
+
 gpg 2.2.46-1+b1 [Debian/trixie main]
 ├── is installed
 └── GNU Privacy Guard -- minimalist public key operations
@@ -7579,7 +7889,7 @@ gstreamer1.0-pipewire 1.2.7-1+b2 [Debian/trixie main]
      This package contains a plugin to make devices managed by the PipeWire
      server available as GStreamer sources and sinks.
 
-gstreamer1.0-plugins-bad 1:1.24.12-dmo1 [Unofficial Multimedia Packages/trixie main]
+gstreamer1.0-plugins-bad 1:1.24.12-dmo2+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── GStreamer plugins from the "bad" set
      GStreamer is a streaming media framework, based on graphs of filters which
@@ -7730,19 +8040,7 @@ guile-3.0-libs 3.0.10+really3.0.10-3 [Debian/trixie main]
      other applications via libguile.
 
 gvfs 1.57.1-1 [Debian/trixie main]
-├── is upgradable from 1.56.1-1
-└── userspace virtual filesystem - GIO module
-     gvfs is a userspace virtual filesystem where mounts run as separate
-     processes which you talk to via D-Bus. It also contains a gio module
-     that seamlessly adds gvfs support to all applications using the gio
-     API. It also supports exposing the gvfs mounts to non-gio applications
-     using fuse.
-     .
-     This package contains the GIO module that lets applications use gvfs
-     mounts.
-
-gvfs 1.56.1-1 [local]
-├── is installed and upgradable to 1.57.1-1
+├── is installed
 └── userspace virtual filesystem - GIO module
      gvfs is a userspace virtual filesystem where mounts run as separate
      processes which you talk to via D-Bus. It also contains a gio module
@@ -7754,19 +8052,7 @@ gvfs 1.56.1-1 [local]
      mounts.
 
 gvfs-backends 1.57.1-1 [Debian/trixie main]
-├── is upgradable from 1.56.1-1
-└── userspace virtual filesystem - backends
-     gvfs is a userspace virtual filesystem where mounts run as separate
-     processes which you talk to via D-Bus. It also contains a gio module
-     that seamlessly adds gvfs support to all applications using the gio
-     API. It also supports exposing the gvfs mounts to non-gio applications
-     using fuse.
-     .
-     This package contains the afc, afp, archive, cdda, dav, dnssd, ftp,
-     gphoto2, http, mtp, network, sftp, smb, smb-browse and wsdd backends.
-
-gvfs-backends 1.56.1-1 [local]
-├── is installed and upgradable to 1.57.1-1
+├── is installed
 └── userspace virtual filesystem - backends
      gvfs is a userspace virtual filesystem where mounts run as separate
      processes which you talk to via D-Bus. It also contains a gio module
@@ -7778,19 +8064,7 @@ gvfs-backends 1.56.1-1 [local]
      gphoto2, http, mtp, network, sftp, smb, smb-browse and wsdd backends.
 
 gvfs-common 1.57.1-1 [Debian/trixie main]
-├── is upgradable from 1.56.1-1
-└── userspace virtual filesystem - common data files
-     gvfs is a userspace virtual filesystem where mounts run as separate
-     processes which you talk to via D-Bus. It also contains a gio module
-     that seamlessly adds gvfs support to all applications using the gio
-     API. It also supports exposing the gvfs mounts to non-gio applications
-     using fuse.
-     .
-     This package contains the data files and translations used by all gvfs
-     components.
-
-gvfs-common 1.56.1-1 [local]
-├── is installed and upgradable to 1.57.1-1
+├── is installed
 └── userspace virtual filesystem - common data files
      gvfs is a userspace virtual filesystem where mounts run as separate
      processes which you talk to via D-Bus. It also contains a gio module
@@ -7802,18 +8076,7 @@ gvfs-common 1.56.1-1 [local]
      components.
 
 gvfs-daemons 1.57.1-1 [Debian/trixie main]
-├── is upgradable from 1.56.1-1
-└── userspace virtual filesystem - servers
-     gvfs is a userspace virtual filesystem where mounts run as separate
-     processes which you talk to via D-Bus. It also contains a gio module
-     that seamlessly adds gvfs support to all applications using the gio
-     API. It also supports exposing the gvfs mounts to non-gio applications
-     using fuse.
-     .
-     This package contains the gvfs server and the minimal set of backends.
-
-gvfs-daemons 1.56.1-1 [local]
-├── is installed and upgradable to 1.57.1-1
+├── is installed
 └── userspace virtual filesystem - servers
      gvfs is a userspace virtual filesystem where mounts run as separate
      processes which you talk to via D-Bus. It also contains a gio module
@@ -7824,19 +8087,7 @@ gvfs-daemons 1.56.1-1 [local]
      This package contains the gvfs server and the minimal set of backends.
 
 gvfs-fuse 1.57.1-1 [Debian/trixie main]
-├── is upgradable from 1.56.1-1
-└── userspace virtual filesystem - fuse server
-     gvfs is a userspace virtual filesystem where mounts run as separate
-     processes which you talk to via D-Bus. It also contains a gio module
-     that seamlessly adds gvfs support to all applications using the gio
-     API. It also supports exposing the gvfs mounts to non-gio applications
-     using fuse.
-     .
-     This package contains the gvfs-fuse server that exports gvfs mounts to
-     all applications using FUSE.
-
-gvfs-fuse 1.56.1-1 [local]
-├── is installed and upgradable to 1.57.1-1
+├── is installed
 └── userspace virtual filesystem - fuse server
      gvfs is a userspace virtual filesystem where mounts run as separate
      processes which you talk to via D-Bus. It also contains a gio module
@@ -7848,19 +8099,7 @@ gvfs-fuse 1.56.1-1 [local]
      all applications using FUSE.
 
 gvfs-libs 1.57.1-1 [Debian/trixie main]
-├── is upgradable from 1.56.1-1
-└── userspace virtual filesystem - private libraries
-     gvfs is a userspace virtual filesystem where mounts run as separate
-     processes which you talk to via D-Bus. It also contains a gio module
-     that seamlessly adds gvfs support to all applications using the gio
-     API. It also supports exposing the gvfs mounts to non-gio applications
-     using fuse.
-     .
-     This package contains private libraries with common functions between
-     the daemons and the GIO module.
-
-gvfs-libs 1.56.1-1 [local]
-├── is installed and upgradable to 1.57.1-1
+├── is installed
 └── userspace virtual filesystem - private libraries
      gvfs is a userspace virtual filesystem where mounts run as separate
      processes which you talk to via D-Bus. It also contains a gio module
@@ -8215,7 +8454,7 @@ imagemagick-7-common 8:7.1.1.43+dfsg1-1 [Debian/trixie main]
      .
      This package is independent of channel depth.
 
-inetutils-telnet 2:2.5-5 [Debian/trixie main]
+inetutils-telnet 2:2.5-6 [Debian/trixie main]
 ├── is installed
 └── telnet client
      The telnet command is used for interactive communication with another host
@@ -8895,7 +9134,7 @@ libapache2-mod-dnssd 0.6-5 [Debian/trixie main]
      via DNS-SD using Avahi. This allows Apache to advertise itself and the
      websites available to clients compatible with the protocol.
 
-libapparmor1 3.1.7-2 [Debian/trixie main]
+libapparmor1 3.1.7-4 [Debian/trixie main]
 ├── is installed
 └── changehat AppArmor library
      libapparmor1 provides a shared library one can compile programs
@@ -9420,18 +9659,8 @@ libavc1394-0 0.5.4-5+b2 [Debian/trixie main]
      libavc1394.
 
 libavcodec61 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
-├── is upgradable from 10:7.1-dmo3
+├── is installed
 └── Library to encode decode multimedia streams - runtime files
-
-libavcodec61 10:7.1-dmo3 [local]
-├── is installed and upgradable to 10:7.1-dmo4
-└── Library to encode decode multimedia streams - runtime files
-     FFmpeg is a hyper fast real time audio/video encoder, a streaming server
-     and a generic audio and video file converter.
-     .
-     It can grab from a standard Video4Linux video source and convert it into
-     several file formats based on DCT/motion compensation encoding. Sound is
-     compressed in MPEG audio layer 2 or using an AC3 compatible stream.
 
 libavcodec61 7:7.1-3+b2 [Debian/trixie main]
 └── FFmpeg library with de/encoders for audio/video codecs - runtime files
@@ -9451,18 +9680,8 @@ libavcodec61 7:7.1-3+b2 [Debian/trixie main]
      This package contains the runtime files.
 
 libavcodec61:i386 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
-├── is upgradable from 10:7.1-dmo3
+├── is installed
 └── Library to encode decode multimedia streams - runtime files
-
-libavcodec61:i386 10:7.1-dmo3 [local]
-├── is installed and upgradable to 10:7.1-dmo4
-└── Library to encode decode multimedia streams - runtime files
-     FFmpeg is a hyper fast real time audio/video encoder, a streaming server
-     and a generic audio and video file converter.
-     .
-     It can grab from a standard Video4Linux video source and convert it into
-     several file formats based on DCT/motion compensation encoding. Sound is
-     compressed in MPEG audio layer 2 or using an AC3 compatible stream.
 
 libavcodec61:i386 7:7.1-3+b2 [Debian/trixie main]
 └── FFmpeg library with de/encoders for audio/video codecs - runtime files
@@ -10065,7 +10284,7 @@ libbz2-1.0:i386 1.0.8-6 [Debian/trixie main]
      The archive file format of bzip2 (.bz2) is incompatible with that of its
      predecessor, bzip (.bz).
 
-libc-bin 2.40-6 [Debian/trixie main]
+libc-bin 2.40-7 [Debian/trixie main]
 ├── is installed
 └── GNU C Library: Binaries
      This package contains utility programs related to the GNU C Library.
@@ -10077,7 +10296,7 @@ libc-bin 2.40-6 [Debian/trixie main]
       * locale, localedef: show/generate locale definitions
       * tzselect, zdump, zic: select/dump/compile time zones
 
-libc-dev-bin 2.40-6 [Debian/trixie main]
+libc-dev-bin 2.40-7 [Debian/trixie main]
 ├── is installed
 └── GNU C Library: Development binaries
      This package contains utility programs related to the GNU C Library
@@ -10085,39 +10304,39 @@ libc-dev-bin 2.40-6 [Debian/trixie main]
      .
       * gencat: generate message catalogs
 
-libc-l10n 2.40-6 [Debian/trixie main]
+libc-l10n 2.40-7 [Debian/trixie main]
 ├── is installed
 └── GNU C Library: localization files
      This package contains the translation files for the GNU C library and
      utility programs.
 
-libc6 2.40-6 [Debian/trixie main]
+libc6 2.40-7 [Debian/trixie main]
 ├── is installed
 └── GNU C Library: Shared libraries
      Contains the standard libraries that are used by nearly all programs on
      the system. This package includes shared versions of the standard C library
      and the standard math library, as well as many others.
 
-libc6-dbg 2.40-6 [Debian/trixie main]
+libc6-dbg 2.40-7 [Debian/trixie main]
 ├── is installed
 └── GNU C Library: detached debugging symbols
      This package contains the detached debugging symbols for the GNU C
      library.
 
-libc6-dev 2.40-6 [Debian/trixie main]
+libc6-dev 2.40-7 [Debian/trixie main]
 ├── is installed
 └── GNU C Library: Development Libraries and Header Files
      Contains the symlinks, headers, and object files needed to compile
      and link programs which use the standard C library.
 
-libc6-i386 2.40-6 [Debian/trixie main]
+libc6-i386 2.40-7 [Debian/trixie main]
 ├── is installed
 └── GNU C Library: 32-bit shared libraries for AMD64
      This package includes shared versions of the standard C
      library and the standard math library, as well as many others.
      This is the 32bit version of the library, meant for AMD64 systems.
 
-libc6:i386 2.40-6 [Debian/trixie main]
+libc6:i386 2.40-7 [Debian/trixie main]
 ├── is installed
 └── GNU C Library: Shared libraries
      Contains the standard libraries that are used by nearly all programs on
@@ -11007,7 +11226,7 @@ libcupsfilters1t64 1.28.17-5+b2 [Debian/trixie main]
      several different image formats and to convert bitmaps between different
      color spaces.
 
-libcurl3t64-gnutls 8.12.0+git20250209.89ed161+ds-1 [Debian/trixie main]
+libcurl3t64-gnutls 8.12.1-2 [Debian/trixie main]
 ├── is installed
 └── easy-to-use client-side URL transfer library (GnuTLS flavour)
      libcurl is an easy-to-use client-side URL transfer library, supporting DICT,
@@ -11025,7 +11244,7 @@ libcurl3t64-gnutls 8.12.0+git20250209.89ed161+ds-1 [Debian/trixie main]
      .
      SSL support is provided by GnuTLS.
 
-libcurl4t64 8.12.0+git20250209.89ed161+ds-1 [Debian/trixie main]
+libcurl4t64 8.12.1-2 [Debian/trixie main]
 ├── is installed
 └── easy-to-use client-side URL transfer library (OpenSSL flavour)
      libcurl is an easy-to-use client-side URL transfer library, supporting DICT,
@@ -11889,6 +12108,15 @@ libefivar1t64 38-3.1+b1 [Debian/trixie main]
 └── Library to manage UEFI variables
      Library to allow for the simple manipulation of UEFI variables.
 
+libegl-dev 1.7.0-1+b2 [Debian/trixie main]
+├── is installed
+└── Vendor neutral GL dispatch library -- EGL development files
+     This is an implementation of the vendor-neutral dispatch layer for
+     arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+     .
+     This package provides the development environment for compiling programs
+     against the EGL library.
+
 libegl-mesa0 24.3.4-3 [Debian/trixie main]
 ├── is installed
 └── free implementation of the EGL API -- Mesa vendor library
@@ -12346,7 +12574,7 @@ libfastjson4 1.2304.0-2 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libfbclient2 4.0.5.3140.ds6-15 [Debian/trixie main]
+libfbclient2 4.0.5.3140.ds6-16 [Debian/trixie main]
 ├── is installed
 └── Firebird client library
      Client library for connecting to the Firebird server. It can also be used for
@@ -12877,7 +13105,7 @@ libfuse3-3 3.14.0-10 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libfwupd3 2.0.5-1 [Debian/trixie main]
+libfwupd3 2.0.6-3 [Debian/trixie main]
 ├── is installed
 └── Firmware update daemon library
      fwupd is a daemon to allow session software to update device firmware.
@@ -13426,6 +13654,15 @@ libgjs0g 1.82.1-1 [Debian/trixie main]
      .
      This is the shared library applications link to.
 
+libgl-dev 1.7.0-1+b2 [Debian/trixie main]
+├── is installed
+└── Vendor neutral GL dispatch library -- GL development files
+     This is an implementation of the vendor-neutral dispatch layer for
+     arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+     .
+     This package provides the development environment for compiling programs
+     against the GL library.
+
 libgl1 1.7.0-1+b2 [Debian/trixie main]
 ├── is installed
 └── Vendor neutral GL dispatch library -- legacy GL support
@@ -13433,6 +13670,11 @@ libgl1 1.7.0-1+b2 [Debian/trixie main]
      arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
      .
      This package contains support for old libGL for compatibility reasons.
+
+libgl1-mesa-dev 24.3.4-3 [Debian/trixie main]
+├── is installed
+└── transitional dummy package
+     This is a transitional dummy package, it can be safely removed.
 
 libgl1-mesa-dri 24.3.4-3 [Debian/trixie main]
 ├── is installed
@@ -13481,6 +13723,23 @@ libglapi-mesa:i386 24.3.4-3 [Debian/trixie main]
      The Mesa GL API module is responsible for dispatching all the gl*
      functions. It is intended to be mainly used by both the libgles1-mesa
      and libgles2-mesa packages.
+
+libgles-dev 1.7.0-1+b2 [Debian/trixie main]
+├── is installed
+└── Vendor neutral GL dispatch library -- GLES development files
+     This is an implementation of the vendor-neutral dispatch layer for
+     arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+     .
+     This package provides the development environment for compiling programs
+     against the GLES libraries.
+
+libgles1 1.7.0-1+b2 [Debian/trixie main]
+├── is installed
+└── Vendor neutral GL dispatch library -- GLESv1 support
+     This is an implementation of the vendor-neutral dispatch layer for
+     arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+     .
+     This package contains support for GLESv1.
 
 libgles2 1.7.0-1+b2 [Debian/trixie main]
 ├── is installed
@@ -13633,6 +13892,23 @@ libglusterfs0 11.1-5+b1 [Debian/trixie main]
      is in userspace and easily manageable.
      .
      This package contains libglusterfs.
+
+libglvnd-core-dev 1.7.0-1+b2 [Debian/trixie main]
+├── is installed
+└── Vendor neutral GL dispatch library -- core development files
+     This is an implementation of the vendor-neutral dispatch layer for
+     arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+     .
+     This package contains the header files for libglvnd split in a separate
+     package for Mesa.
+
+libglvnd-dev 1.7.0-1+b2 [Debian/trixie main]
+├── is installed
+└── Vendor neutral GL dispatch library -- development files
+     This is an implementation of the vendor-neutral dispatch layer for
+     arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+     .
+     This package contains the development files for libglvnd.
 
 libglvnd0 1.7.0-1+b2 [Debian/trixie main]
 ├── is installed
@@ -13987,7 +14263,7 @@ libgpg-error0:i386 1.51-3 [Debian/trixie main]
      .
      It will likely be renamed "gpgrt" in the future.
 
-libgpgme11t64 1.24.1-4 [Debian/trixie main]
+libgpgme11t64 1.24.2-1 [Debian/trixie main]
 ├── is installed
 └── GPGME - GnuPG Made Easy (library)
      GPGME is a wrapper library which provides a C API to access some of the
@@ -13995,7 +14271,7 @@ libgpgme11t64 1.24.1-4 [Debian/trixie main]
      .
      This package contains the library.
 
-libgpgmepp6t64 1.24.1-4 [Debian/trixie main]
+libgpgmepp6t64 1.24.2-1 [Debian/trixie main]
 ├── is installed
 └── C++ wrapper library for GPGME
      GpgME++ (aka GpgMEpp) is a C++ wrapper (or C++ bindings) for the
@@ -14366,7 +14642,7 @@ libgstreamer-gl1.0-0 1.24.12-1 [Debian/trixie main]
      .
      This package contains the GL library.
 
-libgstreamer-plugins-bad1.0-0 1:1.24.12-dmo1 [Unofficial Multimedia Packages/trixie main]
+libgstreamer-plugins-bad1.0-0 1:1.24.12-dmo2+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── GStreamer development files for libraries from the "bad" set
      GStreamer is a streaming media framework, based on graphs of filters which
@@ -16118,7 +16394,7 @@ libldap2 2.6.9+dfsg-1 [Debian/trixie main]
      These are the run-time libraries for the OpenLDAP (Lightweight Directory
      Access Protocol) servers and clients.
 
-libldb2 2:2.10.0+samba4.21.3+dfsg-6+b1 [Debian/trixie main]
+libldb2 2:2.10.0+samba4.21.4+dfsg-1 [Debian/trixie main]
 ├── is installed
 └── LDAP-like embedded database - shared library
      ldb is a LDAP-like embedded database built on top of TDB.
@@ -16166,7 +16442,7 @@ liblerc4:i386 4.0.0+ds-5 [Debian/trixie main]
      precision of the original input image is preserved
      (within user defined error bounds).
 
-liblibreoffice-java 4:24.8.4-2 [Debian/trixie main]
+liblibreoffice-java 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- Java library
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -17076,7 +17352,7 @@ libmplex2-2.2-0t64 2:2.2.1-dmo8+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── MJPEG capture/editing/replay and MPEG encoding toolset (library)
 
-libmsgraph-0-1 0.2.3-2 [local]
+libmsgraph-1-1 0.3.3-2 [Debian/trixie main]
 ├── is installed
 └── library for accessing the Microsoft Graph API
      libmsgraph is a GLib-based library for accessing online service APIs
@@ -17326,7 +17602,7 @@ libnet-smtp-ssl-perl 1.04-2 [Debian/trixie main]
      This package is deprecated. Net::SMTP (in perl core) has support for SMTP
      over SSL, and also for STARTTLS, since version 1.28 (included in Perl 5.22).
 
-libnet-ssleay-perl 1.94-2 [Debian/trixie main]
+libnet-ssleay-perl 1.94-3 [Debian/trixie main]
 ├── is installed
 └── Perl module for Secure Sockets Layer (SSL)
      Net::SSLeay is a perl module that allows you to call Secure Sockets Layer
@@ -17669,7 +17945,7 @@ libnss-nisplus 1.3-5+b2 [Debian/trixie main]
      This module was formerly part of glibc, but is now standalone to be able
      to link against TI-RPC for IPv6 support.
 
-libnss3 2:3.107-1 [Debian/trixie main]
+libnss3 2:3.108-1 [Debian/trixie main]
 ├── is installed
 └── Network Security Service libraries
      This is a set of libraries designed to support cross-platform development
@@ -17717,7 +17993,7 @@ libnumbertext-data 1.0.11-4 [Debian/trixie main]
      .
      This package contains the data files.
 
-libnvme1t64 1.11.1-1+b1 [Debian/trixie main]
+libnvme1t64 1.11.1-2 [Debian/trixie main]
 ├── is installed
 └── NVMe management library (library)
      NVM Express (NVMe) is a interface specification for accessing non-volatile
@@ -17944,6 +18220,15 @@ libopenfec1 1.4.2.11+dfsg-1 [Debian/trixie main]
      .
      This package provides the shared library.
 
+libopengl-dev 1.7.0-1+b2 [Debian/trixie main]
+├── is installed
+└── Vendor neutral GL dispatch library -- OpenGL development files
+     This is an implementation of the vendor-neutral dispatch layer for
+     arbitrating OpenGL API calls between multiple vendors on a per-screen basis.
+     .
+     This package provides the development environment for compiling programs
+     against the OpenGL library.
+
 libopengl0 1.7.0-1+b2 [Debian/trixie main]
 ├── is installed
 └── Vendor neutral GL dispatch library -- OpenGL support
@@ -17952,27 +18237,13 @@ libopengl0 1.7.0-1+b2 [Debian/trixie main]
      .
      This package contains support for OpenGL.
 
-libopenh264-7 1:2.5.0-dmo1 [Unofficial Multimedia Packages/trixie main]
+libopenh264-8 1:2.6.0-dmo1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── H.264 encoder/decoder from Cisco - shared library
-     OpenH264 is a codec library which supports H.264 encoding and decoding. It
-     is suitable for use in real time applications such as WebRTC.
 
-libopenh264-7 2.5.0+dfsg-1 [Debian/trixie main]
-└── OpenH264 Video Codec
-     OpenH264 is a codec library which supports H.264 encoding and decoding.
-     It is suitable for use in real time applications such as WebRTC.
-
-libopenh264-7:i386 1:2.5.0-dmo1 [Unofficial Multimedia Packages/trixie main]
+libopenh264-8:i386 1:2.6.0-dmo1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── H.264 encoder/decoder from Cisco - shared library
-     OpenH264 is a codec library which supports H.264 encoding and decoding. It
-     is suitable for use in real time applications such as WebRTC.
-
-libopenh264-7:i386 2.5.0+dfsg-1 [Debian/trixie main]
-└── OpenH264 Video Codec
-     OpenH264 is a codec library which supports H.264 encoding and decoding.
-     It is suitable for use in real time applications such as WebRTC.
 
 libopeniscsiusr 2.1.10-3 [Debian/trixie main]
 ├── is installed
@@ -18620,7 +18891,7 @@ libpentaho-reporting-flow-engine-java 0.9.4-5.2 [Debian/trixie main]
         * support for servlets (uses the JFreeReport extensions)
         * extensive documentation in Acrobat PDF format, plus full Javadocs;
 
-libperl5.40 5.40.0-8 [Debian/trixie main]
+libperl5.40 5.40.1-2 [Debian/trixie main]
 ├── is installed
 └── shared Perl library
      This package contains the shared Perl library, used by applications
@@ -18934,7 +19205,7 @@ libpostproc58 7:7.1-3+b2 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libpq5 17.2-1+b2 [Debian/trixie main]
+libpq5 17.3-3 [Debian/trixie main]
 ├── is installed
 └── PostgreSQL C client library
      libpq is a C library that enables user programs to communicate with
@@ -19563,7 +19834,7 @@ libreiserfscore0t64 1:3.6.27-9 [Debian/trixie main]
      access and convert ReiserFS filesystems. Without implementing all
      ReiserFS code itself.
 
-libreoffice 4:24.8.4-2 [Debian/trixie main]
+libreoffice 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── office productivity suite (metapackage)
      LibreOffice is a full-featured office productivity suite that provides
@@ -19607,7 +19878,7 @@ libreoffice 4:24.8.4-2 [Debian/trixie main]
       * libpaper-utils: papersize detection support via paperconf
       * bluez: Bluetooth support for Impress (slideshow remote control)
 
-libreoffice-base 4:24.8.4-2 [Debian/trixie main]
+libreoffice-base 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- database
      LibreOffice is a full-featured office productivity suite that provides
@@ -19615,7 +19886,7 @@ libreoffice-base 4:24.8.4-2 [Debian/trixie main]
      .
      This package contains the database component for LibreOffice.
 
-libreoffice-base-core 4:24.8.4-2 [Debian/trixie main]
+libreoffice-base-core 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- shared library
      LibreOffice is a full-featured office productivity suite that provides
@@ -19628,7 +19899,7 @@ libreoffice-base-core 4:24.8.4-2 [Debian/trixie main]
      install libreoffice-base (and/or libreoffice-base-drivers and/o
      libreoffice-sdbc-*).
 
-libreoffice-base-drivers 4:24.8.4-2 [Debian/trixie main]
+libreoffice-base-drivers 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── Database connectivity drivers for LibreOffice
      LibreOffice is a full-featured office productivity suite that provides
@@ -19658,11 +19929,11 @@ libreoffice-base-drivers 4:24.8.4-2 [Debian/trixie main]
         - PostgreSQL
         - MS SQL Server and Sybase
       * libreoffice-sdbc-hsqldb: embedded HSQLDB SDBC Driver
-      * libreoffice-sdbc-firebird: Firebird SDBC Driver
+      * libreoffice-sdbc-firebird: (embedded) Firebird SDBC Driver
       * libreoffice-sdbc-postgresql: PostgreSQL SDBC Driver
       * libreoffice-sdbc-mysql: MySQL/MariaDB SDBC Driver
 
-libreoffice-calc 4:24.8.4-2 [Debian/trixie main]
+libreoffice-calc 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- spreadsheet
      LibreOffice is a full-featured office productivity suite that provides
@@ -19670,7 +19941,7 @@ libreoffice-calc 4:24.8.4-2 [Debian/trixie main]
      .
      This package contains the spreadsheet component for LibreOffice.
 
-libreoffice-common 4:24.8.4-2 [Debian/trixie main]
+libreoffice-common 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- arch-independent files
      LibreOffice is a full-featured office productivity suite that provides
@@ -19679,7 +19950,7 @@ libreoffice-common 4:24.8.4-2 [Debian/trixie main]
      This package contains the architecture-independent files of
      LibreOffice.
 
-libreoffice-core 4:24.8.4-2 [Debian/trixie main]
+libreoffice-core 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- arch-dependent files
      LibreOffice is a full-featured office productivity suite that provides
@@ -19688,7 +19959,7 @@ libreoffice-core 4:24.8.4-2 [Debian/trixie main]
      This package contains the architecture-dependent core files of
      LibreOffice.  See the libreoffice package for more information.
 
-libreoffice-draw 4:24.8.4-2 [Debian/trixie main]
+libreoffice-draw 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- drawing
      LibreOffice is a full-featured office productivity suite that provides
@@ -19696,7 +19967,7 @@ libreoffice-draw 4:24.8.4-2 [Debian/trixie main]
      .
      This package contains the drawing component for LibreOffice.
 
-libreoffice-impress 4:24.8.4-2 [Debian/trixie main]
+libreoffice-impress 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- presentation
      LibreOffice is a full-featured office productivity suite that provides
@@ -19704,7 +19975,7 @@ libreoffice-impress 4:24.8.4-2 [Debian/trixie main]
      .
      This package contains the presentation component for LibreOffice.
 
-libreoffice-java-common 4:24.8.4-2 [Debian/trixie main]
+libreoffice-java-common 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- arch-independent Java support files
      LibreOffice is a full-featured office productivity suite that provides
@@ -19713,7 +19984,7 @@ libreoffice-java-common 4:24.8.4-2 [Debian/trixie main]
      This package contains the architecture-independent files of
      the Java support for LibreOffice (Java classes, scripts, config snippets).
 
-libreoffice-math 4:24.8.4-2 [Debian/trixie main]
+libreoffice-math 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- equation editor
      LibreOffice is a full-featured office productivity suite that provides
@@ -19721,7 +19992,7 @@ libreoffice-math 4:24.8.4-2 [Debian/trixie main]
      .
      This package contains the equation editor component for LibreOffice.
 
-libreoffice-nlpsolver 4:0.9+LibO24.8.4-2 [Debian/trixie main]
+libreoffice-nlpsolver 4:0.9+LibO24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── "Solver for Nonlinear Programming" extension for LibreOffice
      By default LibreOffice Calc ships with a solver engine for linear
@@ -19733,7 +20004,7 @@ libreoffice-nlpsolver 4:0.9+LibO24.8.4-2 [Debian/trixie main]
      Currently it incorporates two Evolutionary Algorithms which are able to
      handle floating point and integer variables as well as nonlinear constraints.
 
-libreoffice-report-builder 4:24.8.4-2 [Debian/trixie main]
+libreoffice-report-builder 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── LibreOffice component for building database reports
      LibreOffice is a full-featured office productivity suite that provides
@@ -19745,7 +20016,7 @@ libreoffice-report-builder 4:24.8.4-2 [Debian/trixie main]
       group and page footers and even calculation fields are available to
       accomplish complex database reports."
 
-libreoffice-report-builder-bin 4:24.8.4-2 [Debian/trixie main]
+libreoffice-report-builder-bin 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── LibreOffice component for building database reports -- libraries
      LibreOffice is a full-featured office productivity suite that provides
@@ -19754,7 +20025,7 @@ libreoffice-report-builder-bin 4:24.8.4-2 [Debian/trixie main]
      This package contains some architecture-dependent support libraries
      (librpt*.so) for the report builder component.
 
-libreoffice-script-provider-bsh 4:24.8.4-2 [Debian/trixie main]
+libreoffice-script-provider-bsh 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── BeanShell script support provider for LibreOffice scripting framework
      LibreOffice is a full-featured office productivity suite that provides
@@ -19767,7 +20038,7 @@ libreoffice-script-provider-bsh 4:24.8.4-2 [Debian/trixie main]
      .
      This package contains the script provider to support BeanShell.
 
-libreoffice-script-provider-js 4:24.8.4-2 [Debian/trixie main]
+libreoffice-script-provider-js 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── JavaScript script support provider for LibreOffice scripting framework
      LibreOffice is a full-featured office productivity suite that provides
@@ -19780,7 +20051,7 @@ libreoffice-script-provider-js 4:24.8.4-2 [Debian/trixie main]
      .
      This package contains the script provider to support JavaScript.
 
-libreoffice-script-provider-python 4:24.8.4-2 [Debian/trixie main]
+libreoffice-script-provider-python 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── Python script support provider for LibreOffice scripting framework
      LibreOffice is a full-featured office productivity suite that provides
@@ -19793,25 +20064,25 @@ libreoffice-script-provider-python 4:24.8.4-2 [Debian/trixie main]
      .
      This package contains the script provider to support Python.
 
-libreoffice-sdbc-firebird 4:24.8.4-2 [Debian/trixie main]
+libreoffice-sdbc-firebird 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
-└── Firebird SDBC driver for LibreOffice
+└── (embedded) Firebird SDBC driver for LibreOffice
      LibreOffice is a full-featured office productivity suite that provides
      a near drop-in replacement for Microsoft(R) Office.
      .
-     The Firebird SDBC Driver allows one to use the Firebird database from
-     LibreOffice without any wrapper layer such as ODBC or JDBC.
+     The Firebird SDBC Driver allows one to use the Firebird (embedded) database
+     from LibreOffice without any wrapper layer such as ODBC or JDBC.
 
-libreoffice-sdbc-hsqldb 4:24.8.4-2 [Debian/trixie main]
+libreoffice-sdbc-hsqldb 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
-└── HSQLDB SDBC driver for LibreOffice
+└── embedded HSQLDB SDBC driver for LibreOffice
      LibreOffice is a full-featured office productivity suite that provides
      a near drop-in replacement for Microsoft(R) Office.
      .
      The HSQLDB SDBC Driver allows one to use the HSQLDB embedded database from
      LibreOffice without any wrapper layer such as ODBC or JDBC.
 
-libreoffice-sdbc-mysql 4:24.8.4-2 [Debian/trixie main]
+libreoffice-sdbc-mysql 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── MariaDB/MySQL SDBC driver for LibreOffice
      LibreOffice is a full-featured office productivity suite that provides
@@ -19820,7 +20091,7 @@ libreoffice-sdbc-mysql 4:24.8.4-2 [Debian/trixie main]
      The MariaDB/MySQL driver allows one to use the MariaDB or MySQL
      database from LibreOffice without any wrapper layer such as ODBC or JDBC.
 
-libreoffice-sdbc-postgresql 4:24.8.4-2 [Debian/trixie main]
+libreoffice-sdbc-postgresql 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── PostgreSQL SDBC driver for LibreOffice
      LibreOffice is a full-featured office productivity suite that provides
@@ -19829,7 +20100,7 @@ libreoffice-sdbc-postgresql 4:24.8.4-2 [Debian/trixie main]
      The PostgreSQL SDBC Driver allows one to use the PostgreSQL database from
      LibreOffice without any wrapper layer such as ODBC or JDBC.
 
-libreoffice-style-colibre 4:24.8.4-2 [Debian/trixie main]
+libreoffice-style-colibre 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- colibre symbol style
      LibreOffice is a full-featured office productivity suite that provides
@@ -19838,7 +20109,7 @@ libreoffice-style-colibre 4:24.8.4-2 [Debian/trixie main]
      This package contains the "colibre" symbol style - a icon theme
      which follow Microsoft(R) Offices color scheme.
 
-libreoffice-uiconfig-base 4:24.8.4-2 [Debian/trixie main]
+libreoffice-uiconfig-base 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for LibreOffice Base
      LibreOffice is a full-featured office productivity suite that provides
@@ -19851,7 +20122,7 @@ libreoffice-uiconfig-base 4:24.8.4-2 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-calc 4:24.8.4-2 [Debian/trixie main]
+libreoffice-uiconfig-calc 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for LibreOffice Calc
      LibreOffice is a full-featured office productivity suite that provides
@@ -19864,7 +20135,7 @@ libreoffice-uiconfig-calc 4:24.8.4-2 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-common 4:24.8.4-2 [Debian/trixie main]
+libreoffice-uiconfig-common 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for LibreOffice ("common" set)
      LibreOffice is a full-featured office productivity suite that provides
@@ -19877,7 +20148,7 @@ libreoffice-uiconfig-common 4:24.8.4-2 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-draw 4:24.8.4-2 [Debian/trixie main]
+libreoffice-uiconfig-draw 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for LibreOffice Draw
      LibreOffice is a full-featured office productivity suite that provides
@@ -19890,7 +20161,7 @@ libreoffice-uiconfig-draw 4:24.8.4-2 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-impress 4:24.8.4-2 [Debian/trixie main]
+libreoffice-uiconfig-impress 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for LibreOffice Impress
      LibreOffice is a full-featured office productivity suite that provides
@@ -19903,7 +20174,7 @@ libreoffice-uiconfig-impress 4:24.8.4-2 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-math 4:24.8.4-2 [Debian/trixie main]
+libreoffice-uiconfig-math 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for LibreOffice Math
      LibreOffice is a full-featured office productivity suite that provides
@@ -19916,7 +20187,7 @@ libreoffice-uiconfig-math 4:24.8.4-2 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-report-builder 4:24.8.4-2 [Debian/trixie main]
+libreoffice-uiconfig-report-builder 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for the LibreOffice Report Builder
      LibreOffice is a full-featured office productivity suite that provides
@@ -19929,7 +20200,7 @@ libreoffice-uiconfig-report-builder 4:24.8.4-2 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-writer 4:24.8.4-2 [Debian/trixie main]
+libreoffice-uiconfig-writer 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for LibreOffice Writer
      LibreOffice is a full-featured office productivity suite that provides
@@ -19942,7 +20213,7 @@ libreoffice-uiconfig-writer 4:24.8.4-2 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-wiki-publisher 4:1.2.0+LibO24.8.4-2 [Debian/trixie main]
+libreoffice-wiki-publisher 4:1.2.0+LibO24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── LibreOffice extension for working with MediaWiki articles
      LibreOffice is a full-featured office productivity suite that provides
@@ -19951,7 +20222,7 @@ libreoffice-wiki-publisher 4:1.2.0+LibO24.8.4-2 [Debian/trixie main]
      This package contains an extension to create/edit/publish MediaWiki
      articles with LibreOffice
 
-libreoffice-writer 4:24.8.4-2 [Debian/trixie main]
+libreoffice-writer 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- word processor
      LibreOffice is a full-featured office productivity suite that provides
@@ -20552,7 +20823,7 @@ libsframe1 2.44-1 [Debian/trixie main]
      .
      This package includes the libsframe shared library.
 
-libshaderc1 2024.3-1+b1 [Debian/trixie main]
+libshaderc1 2024.4-1+b1 [Debian/trixie main]
 ├── is installed
 └── Library API for accessing glslc functionality - shared libraries
      glslc wraps around core functionality in glslang and SPIRV-Tools. glslc and
@@ -20692,7 +20963,7 @@ libsmartcols1 2.40.4-3 [Debian/trixie main]
 └── smart column output alignment library
      This smart column output alignment library is used by fdisk utilities.
 
-libsmbclient0 2:4.21.3+dfsg-6+b1 [Debian/trixie main]
+libsmbclient0 2:4.21.4+dfsg-1 [Debian/trixie main]
 ├── is installed
 └── shared library for communication with SMB/CIFS servers
      This package provides a shared library that enables client applications
@@ -21173,7 +21444,7 @@ libssh2-1t64 1.11.1-1 [Debian/trixie main]
      .
      This package contains the runtime library.
 
-libssl3t64 3.4.0-2 [Debian/trixie main]
+libssl3t64 3.4.1-1 [Debian/trixie main]
 ├── is installed
 └── Secure Sockets Layer toolkit - shared libraries
      This package is part of the OpenSSL project's implementation of the SSL
@@ -21199,6 +21470,43 @@ libstartup-notification0 0.12-8 [Debian/trixie main]
      is part of the freedesktop.org suite of cross-desktop libraries.
      .
      This package contains the shared library.
+
+libstd-rust-1.84 1.84.0+dfsg1-2 [Debian/trixie main]
+├── is installed
+└── Rust standard libraries
+     Rust is a curly-brace, block-structured expression language.  It
+     visually resembles the C language family, but differs significantly
+     in syntactic and semantic details.  Its design is oriented toward
+     concerns of "programming in the large", that is, of creating and
+     maintaining boundaries - both abstract and operational - that
+     preserve large-system integrity, availability and concurrency.
+     .
+     It supports a mixture of imperative procedural, concurrent actor,
+     object-oriented and pure functional styles.  Rust also supports
+     generic programming and meta-programming, in both static and dynamic
+     styles.
+     .
+     This package contains the standard Rust libraries, built as dylibs,
+     needed to run dynamically-linked Rust programs (-C prefer-dynamic).
+
+libstd-rust-dev 1.84.0+dfsg1-2 [Debian/trixie main]
+├── is installed
+└── Rust standard libraries - development files
+     Rust is a curly-brace, block-structured expression language.  It
+     visually resembles the C language family, but differs significantly
+     in syntactic and semantic details.  Its design is oriented toward
+     concerns of "programming in the large", that is, of creating and
+     maintaining boundaries - both abstract and operational - that
+     preserve large-system integrity, availability and concurrency.
+     .
+     It supports a mixture of imperative procedural, concurrent actor,
+     object-oriented and pure functional styles.  Rust also supports
+     generic programming and meta-programming, in both static and dynamic
+     styles.
+     .
+     This package contains development files for the standard Rust libraries,
+     needed to compile Rust programs. It may also be installed on a system
+     of another host architecture, for cross-compiling to this architecture.
 
 libstdc++-14-dev 14.2.0-16 [Debian/trixie main]
 ├── is installed
@@ -21442,7 +21750,7 @@ libtag2 2.0.2-2 [Debian/trixie main]
      This is the runtime package for programs that use the TagLib Audio Meta-Data
      Library.
 
-libtalloc2 2:2.4.2+samba4.21.3+dfsg-6+b1 [Debian/trixie main]
+libtalloc2 2:2.4.2+samba4.21.4+dfsg-1 [Debian/trixie main]
 ├── is installed
 └── hierarchical pool based memory allocator
      A hierarchical pool based memory allocator with destructors. It uses
@@ -21476,7 +21784,7 @@ libtasn1-6:i386 4.20.0-2 [Debian/trixie main]
      .
      This package contains runtime libraries.
 
-libtdb1 2:1.4.12+samba4.21.3+dfsg-6+b1 [Debian/trixie main]
+libtdb1 2:1.4.12+samba4.21.4+dfsg-1 [Debian/trixie main]
 ├── is installed
 └── Trivial Database - shared library
      This is a simple database API. It is modelled after the structure
@@ -21532,7 +21840,7 @@ libtesseract5 5.5.0-1 [Debian/trixie main]
      extract printed text from images. It supports a wide variety of
      languages. This package includes the shared library.
 
-libtevent0t64 2:0.16.1+samba4.21.3+dfsg-6+b1 [Debian/trixie main]
+libtevent0t64 2:0.16.1+samba4.21.4+dfsg-1 [Debian/trixie main]
 ├── is installed
 └── talloc-based event loop library - shared library
      tevent is a simple library that can handle the main event loop for an
@@ -22242,7 +22550,7 @@ libunity9 7.1.4+19.04.20190319-6.1+b1 [Debian/trixie main]
      .
      This package contains shared libraries to be used by applications.
 
-libuno-cppu3t64 4:24.8.4-2 [Debian/trixie main]
+libuno-cppu3t64 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- CPPU public library
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -22257,7 +22565,7 @@ libuno-cppu3t64 4:24.8.4-2 [Debian/trixie main]
      This package contains CPPU, the type definitions/implementations for the core
      of UNO.
 
-libuno-cppuhelpergcc3-3t64 4:24.8.4-2 [Debian/trixie main]
+libuno-cppuhelpergcc3-3t64 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- CPPU helper library
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -22272,7 +22580,7 @@ libuno-cppuhelpergcc3-3t64 4:24.8.4-2 [Debian/trixie main]
      This package contains the cppuhelper library (helpers for using cppu in C++,
      e.g. templates for implementing UNO components, bootstrapping stuff)
 
-libuno-purpenvhelpergcc3-3t64 4:24.8.4-2 [Debian/trixie main]
+libuno-purpenvhelpergcc3-3t64 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- "purpose environment" helper
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -22287,7 +22595,7 @@ libuno-purpenvhelpergcc3-3t64 4:24.8.4-2 [Debian/trixie main]
      This package contains a library which contains a helper for implementing
      so-called "purpose environments".
 
-libuno-sal3t64 4:24.8.4-2 [Debian/trixie main]
+libuno-sal3t64 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- SAL public library
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -22301,7 +22609,7 @@ libuno-sal3t64 4:24.8.4-2 [Debian/trixie main]
      .
      This package contains the System Abstraction Layer (SAL) library.
 
-libuno-salhelpergcc3-3t64 4:24.8.4-2 [Debian/trixie main]
+libuno-salhelpergcc3-3t64 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- SAL helpers for C++ library
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -22315,7 +22623,7 @@ libuno-salhelpergcc3-3t64 4:24.8.4-2 [Debian/trixie main]
      .
      This package contains C++ helpers to make use of sal easier.
 
-libunoloader-java 4:24.8.4-2 [Debian/trixie main]
+libunoloader-java 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- (Java) UNO loader
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -23356,7 +23664,7 @@ libwayland-server0:i386 1.23.1-1 [Debian/trixie main]
      This package ships the library that implements the server side of
      the Wayland protocol.
 
-libwbclient0 2:4.21.3+dfsg-6+b1 [Debian/trixie main]
+libwbclient0 2:4.21.4+dfsg-1 [Debian/trixie main]
 ├── is installed
 └── Samba winbind client library
      Samba is an implementation of the SMB/CIFS protocol for Unix systems,
@@ -25840,7 +26148,7 @@ linux-image-amd64-signed-template 6.12.12-1 [Debian/trixie main]
      This package is used to control code signing by the Debian signing
      service.
 
-linux-libc-dev 6.13.3-1 [SparkyLinux/core main]
+linux-libc-dev 6.13.4-1 [SparkyLinux/core main]
 ├── is installed
 └── Linux support headers for userspace development
      This package provides userspaces headers from the Linux kernel.  These headers
@@ -25864,6 +26172,13 @@ liquorix-keyring 2016.03.19 [local]
      The liquorix project wants developers to digitally sign the announcements
      of their packages with GnuPG, to protect against forgeries. This package
      contains keyrings of GnuPG keys of developers.
+
+lld-19 1:19.1.7-1+b1 [Debian/trixie main]
+├── is installed
+└── LLVM-based linker
+     LLD is a new, high-performance linker. It is built as a set of reusable
+     components which highly leverage existing libraries in the larger LLVM
+     Project.
 
 llvm-19 1:19.1.7-1+b1 [Debian/trixie main]
 ├── is installed
@@ -25952,7 +26267,7 @@ llvm-19-tools 1:19.1.7-1+b1 [Debian/trixie main]
      .
      This package provides tools for testing.
 
-locales 2.40-6 [Debian/trixie main]
+locales 2.40-7 [Debian/trixie main]
 ├── is installed
 └── GNU C Library: National Language (locale) data [support]
      Machine-readable data files, shared objects and programs used by the
@@ -26609,6 +26924,18 @@ netcat-traditional 1.10-50 [Debian/trixie main]
      This is the "classic" netcat, written by *Hobbit*. It lacks many
      features found in netcat-openbsd.
 
+nethogs 0.8.8-1 [Debian/trixie main]
+├── is installed
+└── Net top tool grouping bandwidth per process
+     NetHogs is a small 'net top' tool. Instead of breaking the traffic down per
+     protocol or per subnet, like most tools do, it groups bandwidth by process.
+     NetHogs does not rely on a special kernel module to be loaded.
+
+netstandard-targeting-pack-2.1 2.1.0-1 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+├── is installed
+└── NETStandard.Library.Ref 2.1.0
+     .NET Core is a development platform that you can use to build command-line applications, microservices and modern websites. It is open source, cross-platform and is supported by Microsoft. We hope you enjoy using it! If you do, please consider joining the active community of developers that are contributing to the project on GitHub (https://github.com/dotnet/core). We happily accept issues and PRs.
+
 network-manager 1.50.2-1 [Debian/trixie main]
 ├── is installed
 └── network management framework (daemon and userspace tools)
@@ -26742,7 +27069,7 @@ openjdk-21-jre-headless 21.0.6+7-1 [Debian/trixie main]
      Minimal Java runtime - needed for executing non GUI Java programs,
      using Hotspot JIT.
 
-openssh-client 1:9.9p1-3 [Debian/trixie main]
+openssh-client 1:9.9p2-1 [Debian/trixie main]
 ├── is installed
 └── secure shell (SSH) client, for secure access to remote machines
      This is the portable version of OpenSSH, a free implementation of
@@ -26767,7 +27094,7 @@ openssh-client 1:9.9p1-3 [Debian/trixie main]
      ssh replaces the insecure rsh, rcp and rlogin programs, which are
      obsolete for most purposes.
 
-openssl 3.4.0-2 [Debian/trixie main]
+openssl 3.4.1-1 [Debian/trixie main]
 ├── is installed
 └── Secure Sockets Layer toolkit - cryptographic utility
      This package is part of the OpenSSL project's implementation of the SSL
@@ -26783,7 +27110,7 @@ openssl 3.4.0-2 [Debian/trixie main]
       * testing SSL/TLS clients and servers;
       * handling S/MIME signed or encrypted mail.
 
-openssl-provider-legacy 3.4.0-2 [Debian/trixie main]
+openssl-provider-legacy 3.4.1-1 [Debian/trixie main]
 ├── is installed
 └── Secure Sockets Layer toolkit - cryptographic utility
      This package is part of the OpenSSL project's implementation of the SSL
@@ -26912,6 +27239,12 @@ packagekit-tools 1.3.0-2 [Debian/trixie main]
      .
      This package provides the PackageKit command-line tools.
 
+packages-microsoft-prod 1.1-debian12 [microsoft-debian-bookworm-prod bookworm/bookworm main]
+├── is installed
+└── Apt configuration for packages.microsoft.com
+     This package contains the apt repo configuration
+     for packages.microsoft.com and the public GPG key.
+
 parted 3.6-4+b1 [Debian/trixie main]
 ├── is installed
 └── disk partition manipulator
@@ -26979,7 +27312,7 @@ pciutils 1:3.13.0-1+b1 [Debian/trixie main]
      This package contains various utilities for inspecting and setting of
      devices connected to the PCI bus.
 
-perl 5.40.0-8 [Debian/trixie main]
+perl 5.40.1-2 [Debian/trixie main]
 ├── is installed
 └── Larry Wall's Practical Extraction and Report Language
      Perl is a highly capable, feature-rich programming language with over
@@ -26994,7 +27327,7 @@ perl 5.40.0-8 [Debian/trixie main]
      integration, networking protocols, and encryption. Perl provides
      interfaces to C and C++ for custom extension development.
 
-perl-base 5.40.0-8 [Debian/trixie main]
+perl-base 5.40.1-2 [Debian/trixie main]
 ├── is installed
 └── minimal Perl system
      Perl is a scripting language used in many system scripts and utilities.
@@ -27004,7 +27337,7 @@ perl-base 5.40.0-8 [Debian/trixie main]
      Perl installation, install "perl" (and its dependencies, "perl-modules-5.40"
      and "perl-doc").
 
-perl-modules-5.40 5.40.0-8 [Debian/trixie main]
+perl-modules-5.40 5.40.1-2 [Debian/trixie main]
 ├── is installed
 └── Core Perl modules
      Architecture independent Perl modules.  These modules are part of Perl and
@@ -27516,7 +27849,7 @@ python3-chardet 5.2.0+dfsg-2 [Debian/trixie main]
      .
      This package contains the Python 3 version of the library.
 
-python3-charset-normalizer 3.4.0-1+b1 [Debian/trixie main]
+python3-charset-normalizer 3.4.1-1 [Debian/trixie main]
 ├── is installed
 └── charset, encoding and language detection (Python 3)
      charset-normalizer is a library for detection of charsets, encodings,
@@ -28257,7 +28590,7 @@ python3-typing-extensions 4.12.2-2 [Debian/trixie main]
      and pyright. Objects defined in "typing_extensions" are treated the same
      way as equivalent forms in "typing".
 
-python3-uno 4:24.8.4-2 [Debian/trixie main]
+python3-uno 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── Python-UNO bridge
      The Python-UNO bridge allows use of the standard LibreOffice API
@@ -28555,7 +28888,7 @@ rsync 3.3.0+ds1-4 [Debian/trixie main]
      This package provides both the rsync command line tool and optional
      daemon functionality.
 
-rsyslog 8.2412.0-1 [Debian/trixie main]
+rsyslog 8.2412.0-2 [Debian/trixie main]
 ├── is installed
 └── reliable system and kernel logging daemon
      Rsyslog is a multi-threaded implementation of syslogd (a system utility
@@ -28592,6 +28925,155 @@ runit-helper 2.16.4 [Debian/trixie main]
      .
      This package is implementation detail of 'dh-runit'. It should never
      be installed manually. No assumption about its content can be made.
+
+rust-all 1.84.0+dfsg1-2 [Debian/trixie main]
+├── is installed
+└── Rust systems programming language - all developer tools
+     Rust is a curly-brace, block-structured expression language.  It
+     visually resembles the C language family, but differs significantly
+     in syntactic and semantic details.  Its design is oriented toward
+     concerns of "programming in the large", that is, of creating and
+     maintaining boundaries - both abstract and operational - that
+     preserve large-system integrity, availability and concurrency.
+     .
+     It supports a mixture of imperative procedural, concurrent actor,
+     object-oriented and pure functional styles.  Rust also supports
+     generic programming and meta-programming, in both static and dynamic
+     styles.
+     .
+     This package is an empty metapackage that depends on all developer tools
+     in the standard rustc distribution that have been packaged for Debian.
+
+rust-analyzer 1.84.0+dfsg1-2 [Debian/trixie main]
+├── is installed
+└── Rust Language Server Protocol (LSP) implementation
+     Rust is a curly-brace, block-structured expression language.  It
+     visually resembles the C language family, but differs significantly
+     in syntactic and semantic details.  Its design is oriented toward
+     concerns of "programming in the large", that is, of creating and
+     maintaining boundaries - both abstract and operational - that
+     preserve large-system integrity, availability and concurrency.
+     .
+     It supports a mixture of imperative procedural, concurrent actor,
+     object-oriented and pure functional styles.  Rust also supports
+     generic programming and meta-programming, in both static and dynamic
+     styles.
+     .
+     This package contains 'rust-analyzer', an implementation of the Language
+     Server Protocol for the Rust language. It provides features like completion
+     and goto definition for many editors, like Emacs and (Neo)Vim.
+
+rust-clippy 1.84.0+dfsg1-2 [Debian/trixie main]
+├── is installed
+└── Rust linter
+     Rust is a curly-brace, block-structured expression language.  It
+     visually resembles the C language family, but differs significantly
+     in syntactic and semantic details.  Its design is oriented toward
+     concerns of "programming in the large", that is, of creating and
+     maintaining boundaries - both abstract and operational - that
+     preserve large-system integrity, availability and concurrency.
+     .
+     It supports a mixture of imperative procedural, concurrent actor,
+     object-oriented and pure functional styles.  Rust also supports
+     generic programming and meta-programming, in both static and dynamic
+     styles.
+     .
+     This package contains 'clippy', a linter to catch common mistakes and improve
+     your Rust code as well a collection of over 400 compatible lints.
+     .
+     Lints are divided into categories, each with a default lint level. You can
+     choose how much Clippy is supposed to annoy help you by changing the lint
+     level by category.
+     .
+     Clippy is integrated into the 'cargo' build tool, available via 'cargo clippy'.
+
+rust-gdb 1.84.0+dfsg1-2 [Debian/trixie main]
+├── is installed
+└── Rust debugger (gdb)
+     Rust is a curly-brace, block-structured expression language.  It
+     visually resembles the C language family, but differs significantly
+     in syntactic and semantic details.  Its design is oriented toward
+     concerns of "programming in the large", that is, of creating and
+     maintaining boundaries - both abstract and operational - that
+     preserve large-system integrity, availability and concurrency.
+     .
+     It supports a mixture of imperative procedural, concurrent actor,
+     object-oriented and pure functional styles.  Rust also supports
+     generic programming and meta-programming, in both static and dynamic
+     styles.
+     .
+     This package contains pretty printers and a wrapper script for
+     invoking gdb on rust binaries.
+
+rust-llvm 1.84.0+dfsg1-2 [Debian/trixie main]
+├── is installed
+└── Rust LLVM integration
+     Rust is a curly-brace, block-structured expression language.  It
+     visually resembles the C language family, but differs significantly
+     in syntactic and semantic details.  Its design is oriented toward
+     concerns of "programming in the large", that is, of creating and
+     maintaining boundaries - both abstract and operational - that
+     preserve large-system integrity, availability and concurrency.
+     .
+     It supports a mixture of imperative procedural, concurrent actor,
+     object-oriented and pure functional styles.  Rust also supports
+     generic programming and meta-programming, in both static and dynamic
+     styles.
+     .
+     This package contains symlinks for integration with LLVM tools such as lld and
+     grcov, and the wasm-component-ld helper binary for the wasm-wasip2 target.
+
+rust-src 1.84.0+dfsg1-2 [Debian/trixie main]
+├── is installed
+└── Rust systems programming language - source code
+     Rust is a curly-brace, block-structured expression language.  It
+     visually resembles the C language family, but differs significantly
+     in syntactic and semantic details.  Its design is oriented toward
+     concerns of "programming in the large", that is, of creating and
+     maintaining boundaries - both abstract and operational - that
+     preserve large-system integrity, availability and concurrency.
+     .
+     It supports a mixture of imperative procedural, concurrent actor,
+     object-oriented and pure functional styles.  Rust also supports
+     generic programming and meta-programming, in both static and dynamic
+     styles.
+     .
+     This package contains sources of the Rust compiler and standard
+     libraries, useful for IDEs and code analysis tools such as Racer.
+
+rustc 1.84.0+dfsg1-2 [Debian/trixie main]
+├── is installed
+└── Rust systems programming language
+     Rust is a curly-brace, block-structured expression language.  It
+     visually resembles the C language family, but differs significantly
+     in syntactic and semantic details.  Its design is oriented toward
+     concerns of "programming in the large", that is, of creating and
+     maintaining boundaries - both abstract and operational - that
+     preserve large-system integrity, availability and concurrency.
+     .
+     It supports a mixture of imperative procedural, concurrent actor,
+     object-oriented and pure functional styles.  Rust also supports
+     generic programming and meta-programming, in both static and dynamic
+     styles.
+
+rustfmt 1.84.0+dfsg1-2 [Debian/trixie main]
+├── is installed
+└── Rust formatting helper
+     Rust is a curly-brace, block-structured expression language.  It
+     visually resembles the C language family, but differs significantly
+     in syntactic and semantic details.  Its design is oriented toward
+     concerns of "programming in the large", that is, of creating and
+     maintaining boundaries - both abstract and operational - that
+     preserve large-system integrity, availability and concurrency.
+     .
+     It supports a mixture of imperative procedural, concurrent actor,
+     object-oriented and pure functional styles.  Rust also supports
+     generic programming and meta-programming, in both static and dynamic
+     styles.
+     .
+     This package contains 'rustfmt', a tool for formatting Rust code according to
+     style guidelines, as well as 'cargo-fmt', a helper enabling running rustfmt
+     directly with 'cargo fmt'.
 
 rygel 0.44.1-1 [Debian/trixie main]
 ├── is installed
@@ -28639,7 +29121,7 @@ rygel-tracker 0.44.1-1 [Debian/trixie main]
      This package provides a MediaServer plugin that exports user's media
      contents known to Tracker (http://projects.gnome.org/tracker).
 
-samba-libs 2:4.21.3+dfsg-6+b1 [Debian/trixie main]
+samba-libs 2:4.21.4+dfsg-1 [Debian/trixie main]
 ├── is installed
 └── Samba core libraries
      Samba is an implementation of the SMB/CIFS protocol for Unix systems,
@@ -29383,7 +29865,7 @@ tree 2.2.1-1 [Debian/trixie main]
      listing of files, which is colorized ala dircolors if the LS_COLORS environment
      variable is set and output is to tty.
 
-tzdata 2024b-6 [Debian/trixie main]
+tzdata 2025a-2 [Debian/trixie main]
 ├── is installed
 └── time zone and daylight-saving time data
      This package contains data required for the implementation of
@@ -29452,7 +29934,7 @@ ufw 0.36.2-9 [Debian/trixie main]
      similar to OpenBSD's Packet Filter. It is particularly well-suited as a
      host-based firewall.
 
-uno-libs-private 4:24.8.4-2 [Debian/trixie main]
+uno-libs-private 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- private libraries used by public ones
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -29512,7 +29994,7 @@ upower 1.90.7-1 [Debian/trixie main]
      org.freedesktop.UPower service on the system message bus. Some
      operations (such as suspending the system) are restricted using PolicyKit.
 
-ure 4:24.8.4-2 [Debian/trixie main]
+ure 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -29524,7 +30006,7 @@ ure 4:24.8.4-2 [Debian/trixie main]
      it to create any kind of application, in whatever application domain you can
      imagine.
 
-ure-java 4:24.8.4-2 [Debian/trixie main]
+ure-java 4:24.8.4-4 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- Java support
      The Uno Runtime Environment (URE) is the well-known UNO component model

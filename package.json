@@ -2,6 +2,9 @@
   "name": "dotfiles",
   "module": "src/index.ts",
   "type": "module",
+  "scripts": {
+    "vscode:font:switch": "bun run src/vscode/vscode-font-switch.ts"
+  },
   "devDependencies": {
     "@types/bun": "1.2.2"
   },

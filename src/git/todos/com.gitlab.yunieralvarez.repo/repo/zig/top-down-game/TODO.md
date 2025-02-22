@@ -6,6 +6,7 @@ Project Description
 
 ### Todo
 
+- [ ] Should texture be a component?  
 
 ### In Progress
 
@@ -13,5 +14,6 @@ Project Description
 
 ### Done ✓
 
+- [x] Use row flec lib  
 - [x] Set up zflecs and raylib  
 

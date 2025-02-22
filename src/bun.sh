@@ -11,6 +11,7 @@ fi
 
 bun add --global --exact \
   @biomejs/biome \
-  bash-language-server
+  bash-language-server \
+  prettier
 
 # TODO add to diffing

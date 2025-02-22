@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-git clone git@github.com:eunier/dotfiles.git ~/Projects/com.github.eunier.dotfiles.dotfiles
+git clone git@github.com:eunier/dotfiles.git ~/Projects/com.github.eunier.dotfiles/dotfiles
 git clone git@gitlab.com:yunieralvarez/game-top-down-shooter.git ~/Projects/com.gitlab.yunieralvarez.game-top-down-shooter/game-top-dow-shooter
 git clone git@gitlab.com:yunieralvarez/godot-first-person-shooter-demo.git ~/Projects/com.gitlab.yunieralvarez.godot-first-person-shooter-demo/godot-first-person-shooter-demo
 git clone git@gitlab.com:yunieralvarez/qmkl.git ~/Projects/com.gitlab.yunieralvarez.qmkl/qmkl
@@ -12,6 +12,7 @@ git clone https://github.com/linuxy/coyote-ecs.git ~/Projects/com.github.linuxy.
 git clone https://github.com/Not-Nik/raylib-zig.git ~/Projects/com.github.Not-Nik.raylib-zig/raylib-zig
 git clone https://github.com/prime31/zig-ecs.git ~/Projects/com.github.prime31.zig-ecs/zig-ecs
 git clone https://github.com/pwbh/SDL.git ~/Projects/com.github.pwbh.SDL/SDL
+git clone https://github.com/SanderMertens/flecs.git ~/Projects/com.github.SanderMertens.flecs/flecs
 git clone https://github.com/zig-gamedev/zflecs.git ~/Projects/com.github.zig-gamedev.zflecs/zflecs
 git clone https://github.com/zig-gamedev/zig-gamedev.git ~/Projects/com.github.zig-gamedev.zig-gamedev/zig-gamedev
 git clone https://github.com/ziglang/zig.git ~/Projects/com.github.ziglang.zig/zig

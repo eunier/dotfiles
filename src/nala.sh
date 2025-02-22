@@ -4,26 +4,21 @@ sudo nala update
 sudo nala upgrade
 sudo nala autopurge
 
-if command -v mutt 2>&1 >/dev/null; then
+if command -v mutt /dev/null 2>&1; then
     sudo nala purge mutt
 fi
 
-if command -v shotwell 2>&1 >/dev/null; then
+if command -v shotwell /dev/null 2>&1; then
     sudo nala purge shotwell
 fi
 
-# nala install https://cdn.fastly.steamstatic.com/client/installer/steam.deb
-# nala install https://cdn.filen.io/@filen/desktop/release/latest/Filen_linux_amd64.deb
-# nala install https://github.com/Beaver-Notes/Beaver-Notes/releases/download/3.9.0/Beaver-notes_3.9.0_amd64.deb
+# https://cdn.fastly.steamstatic.com/client/installer/steam.deb
+# https://cdn.filen.io/@filen/desktop/release/latest/Filen_linux_amd64.deb
+# https://github.com/Beaver-Notes/Beaver-Notes/releases/download/3.9.0/Beaver-notes_3.9.0_amd64.deb
 # https://github.com/smolBlackCat/progress-tracker/releases
+# https://www.google.com/chrome/
 
 sudo nala install libreoffice
-
-# TODO install and use sudo
-
-## testing
-##    shfmt \
-##  shellcheck \
 
 sudo nala install \
     beaver-notes \
@@ -31,6 +26,8 @@ sudo nala install \
     code \
     curl \
     dconf-editor \
+    discord \
+    dotnet-sdk-9.0 \
     epiphany-browser \
     fastfetch \
     filen \
@@ -45,7 +42,9 @@ sudo nala install \
     gnome-builder \
     gnome-shell-extension-manager \
     gnome-software-plugin-flatpak \
+    google-chrome-stable \
     keepassxc \
+    libgl1-mesa-dev \
     libglx-dev \
     libxcursor-dev \
     libxi-dev \
@@ -54,8 +53,11 @@ sudo nala install \
     mesa-utils \
     morewaita \
     mullvad-vpn \
+    nethogs \
     picard \
     progress-tracker \
+    rust-all \
+    rust-src \
     shellcheck \
     shfmt \
     sqlite3 \

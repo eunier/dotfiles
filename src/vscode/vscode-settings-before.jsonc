@@ -8,32 +8,42 @@
   "[typescript]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
+  "[zig]": {
+    "editor.defaultFormatter": "ziglang.vscode-zig",
+    "editor.formatOnSave": true,
+    "editor.stickyScroll.defaultModel": "foldingProviderModel",
+    "editor.tabSize": 4,
+    "files.eol": "\n"
+  },
   "cSpell.userWords": [
     "anyerror",
     "comptime",
     "deinit",
     "fini",
     "gamedev",
+    "heightmap",
+    "iciclesoft",
+    "libc",
+    "multihash",
     "orama",
     "raylib",
     "rpinski",
     "Trunc",
     "usize",
+    "workspacesort",
     "worktree",
+    "yunieralvarez",
     "zflecs",
     "zigversion"
   ],
   "chat.commandCenter.enabled": false,
-  "cmake.pinnedCommands": [
-    "workbench.action.tasks.configureTaskRunner",
-    "workbench.action.tasks.runTask"
-  ],
   "debug.javascript.autoAttachFilter": "smart",
   "diffEditor.ignoreTrimWhitespace": true,
   "editor.codeLensFontFamily": "Cascadia Code",
   "editor.fontFamily": "Cascadia Code, 'Droid Sans Mono', 'monospace', monospace",
   "editor.fontWeight": "600",
   "editor.formatOnSave": true,
+  "editor.renderLineHighlight": "none",
   "editor.rulers": [80],
   "editor.tabSize": 2,
   "editor.tokenColorCustomizations": {
@@ -84,12 +94,19 @@
   "typescript.inlayHints.parameterTypes.enabled": true,
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "typescript.inlayHints.variableTypes.enabled": true,
+  "window.autoDetectColorScheme": true,
+  "window.commandCenter": true,
+  "window.customTitleBarVisibility": "auto",
   "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${profileName}${separator}${appName}",
   "window.titleBarStyle": "custom",
-  "workbench.colorTheme": "One Dark Pro",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Adwaita Dark",
+  "workbench.preferredLightColorTheme": "Adwaita Light",
+  "workbench.tree.indent": 12,
   "workspaceWizard.general.workspacesFolder": "/home/yunieralvarez/Projects/workspaces",
   "zig.path": "zig",
   "zig.zls.enabled": "on",
-  "zig.zls.inlayHintsExcludeSingleArgument": false
+  "zig.zls.inlayHintsExcludeSingleArgument": false,
+  "workbench.productIconTheme": "adwaita",
+  "workbench.preferredDarkColorTheme": "Adwaita Dark",
+  "workbench.iconTheme": "material-icon-theme"
 }
