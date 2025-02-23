@@ -6,9 +6,9 @@ Project Description
 
 ### Todo
 
+- [ ] Filter out dconf not important settings  
 - [ ] sync up fish and bash config, aliases  
 - [ ] Music app  
-- [ ] VsCodo TODO in zig, remove extra bold  
 - [ ] Install GitLab cli, then start moving repo proejcts to its own repo  
 - [ ] Setup Syncthing  
 - [ ] Don't use yadm  
@@ -21,10 +21,11 @@ Project Description
 
 ### In Progress
 
-- [ ] Avoid downloading zvm if already installed  
+- [ ] VsCodo TODO in zig, remove extra bold  
 
 ### Done ✓
 
+- [x] Avoid downloading zvm if already installed  
 - [x] Fonts  
 - [x] Fix TODO.md file not been copied  
 

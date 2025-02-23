@@ -75,6 +75,7 @@
           "keyword.operator.expression.of.ts",
           "keyword.operator.expression.typeof.ts",
           "keyword.operator.new.ts",
+          "keyword.todo.zig",
           "meta.block.ts",
           "meta.shebang.shell",
           "punctuation.definition.comment.shebang.shell",
