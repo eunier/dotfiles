@@ -1,2 +1,8 @@
+*-after-raw.conf
+*-after-raw.jsonc
+*-after-raw.txt
+*-before-raw.conf
+*-before-raw.jsonc
+*-before-raw.txt
 *.tar
 node_modules/

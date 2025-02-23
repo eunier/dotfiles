@@ -12,10 +12,12 @@ Project Description
 
 ### In Progress
 
-- [ ] Show the player  
+- [ ] Basic player movement animations  
 
 ### Done ✓
 
+- [x] Move player  
+- [x] Show the player  
 - [x] Use row flec lib  
 - [x] Set up zflecs and raylib  
 

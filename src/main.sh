@@ -14,11 +14,12 @@ sh ~/.dotfiles/src/bun.sh
 sh ~/.dotfiles/src/node.sh
 sh ~/.dotfiles/src/zig.sh
 
-sh ~/.dotfiles/src/fonts.sh
 sh ~/.dotfiles/src/autostart.sh
 sh ~/.dotfiles/src/beaver-notes.sh
 sh ~/.dotfiles/src/dconf.sh
 sh ~/.dotfiles/src/doas.sh
+sh ~/.dotfiles/src/fonts.sh
+sh ~/.dotfiles/src/syncthing.sh
 sh ~/.dotfiles/src/tree.sh
 sh ~/.dotfiles/src/vscode.sh
 

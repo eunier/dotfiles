@@ -2,6 +2,8 @@
 .config/Code/User/keybindings.json
 .config/Code/User/settings.json
 .config/fish/config.fish
+.config/syncthing-gtk/config.json
+.config/syncthing/config.xml
 .dotfiles/.gitignore
 .dotfiles/.vscode/settings.json
 .dotfiles/README.md
@@ -34,6 +36,7 @@
 .dotfiles/src/diff/diff-git-repos.sh
 .dotfiles/src/diff/diff-nala-app-progress-tracker.sh
 .dotfiles/src/diff/diff-nala-list-installed.sh
+.dotfiles/src/diff/diff-syncthing-config.sh
 .dotfiles/src/diff/diff-tree.sh
 .dotfiles/src/diff/diff-vscode-extensions.sh
 .dotfiles/src/diff/diff-vscode-keybindings.sh
@@ -50,6 +53,7 @@
 .dotfiles/src/flatpak.sh
 .dotfiles/src/flatpak/flatpak-list-after.txt
 .dotfiles/src/flatpak/flatpak-list-before.txt
+.dotfiles/src/fmt.sh
 .dotfiles/src/fonts.sh
 .dotfiles/src/git.sh
 .dotfiles/src/git/git-repos-after.txt
@@ -64,6 +68,10 @@
 .dotfiles/src/nala/nala-list-installed-after.txt
 .dotfiles/src/nala/nala-list-installed-before.txt
 .dotfiles/src/node.sh
+.dotfiles/src/syncthing.sh
+.dotfiles/src/syncthing/syncthing-config-after.json
+.dotfiles/src/syncthing/syncthing-config-before.json
+.dotfiles/src/syncthing/syncthing-config-mask.ts
 .dotfiles/src/tree.sh
 .dotfiles/src/tree/tree-output.txt
 .dotfiles/src/vscode.sh

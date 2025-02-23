@@ -401,19 +401,6 @@ aspell 0.60.8.1-4 [Debian/trixie main]
      .
      Aspell is designed to be a drop-in replacement for Ispell.
 
-aspell 0.60.8.1-3 [Debian/trixie main]
-└── GNU Aspell spell-checker
-     GNU Aspell is a spell-checker which can be used either as a standalone
-     application or embedded in other programs.  Its main feature is that it
-     does a much better job of suggesting possible spellings than just about
-     any other spell-checker available for the English language, including
-     Ispell and Microsoft Word.  It also has many other technical
-     enhancements over Ispell such as using shared memory for dictionaries
-     and intelligently handling personal dictionaries when more than one
-     Aspell process is open at once.
-     .
-     Aspell is designed to be a drop-in replacement for Ispell.
-
 aspell-en 2020.12.07-0-1 [Debian/trixie main]
 ├── is installed
 └── English dictionary for GNU Aspell
@@ -3563,7 +3550,7 @@ ffmpeg 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
       * ffprobe: a simple multimedia stream analyzer
       * qt-faststart: a utility to rearrange Quicktime files
 
-ffmpeg 7:7.1-3+b2 [Debian/trixie main]
+ffmpeg 7:7.1-4 [Debian/trixie main]
 └── Tools for transcoding, streaming and playing of multimedia files
      FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
      mux, demux, stream, filter and play pretty much anything that humans and
@@ -4097,19 +4084,6 @@ fonts-font-awesome 5.0.10+really4.7.0~dfsg-4.1 [Debian/trixie main]
 
 fonts-inter-variable 4.1+ds-1 [Debian/trixie main]
 ├── is installed
-└── Inter font family (VF)
-     This is a typeface specially designed for user interfaces with focus
-     on high legibility of small-to-medium sized text on computer screens.
-     .
-     The family features a tall x-height to aid in readability of
-     mixed-case and lower-case text. Several OpenType features are
-     provided as well, like contextual alternates that adjusts punctuation
-     depending on the shape of surrounding glyphs, slashed zero for when
-     you need to disambiguate "0" from "o", tabular numbers, etc.
-     .
-     This is the VF variant of the font.
-
-fonts-inter-variable 4.0+ds-2 [Debian/trixie main]
 └── Inter font family (VF)
      This is a typeface specially designed for user interfaces with focus
      on high legibility of small-to-medium sized text on computer screens.
@@ -6649,19 +6623,6 @@ gir1.2-nm-1.0 1.50.2-1+b1 [Debian/trixie main]
      It can be used by packages using the GIRepository format to generate
      dynamic bindings.
 
-gir1.2-nm-1.0 1.50.2-1 [Debian/trixie main]
-└── GObject introspection data for the libnm library
-     NetworkManager is a system network service that manages your network devices
-     and connections, attempting to keep active network connectivity when
-     available. It manages ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE
-     devices, and provides VPN integration with a variety of different VPN
-     services.
-     .
-     This package contains introspection data for NetworkManager using libnm.
-     .
-     It can be used by packages using the GIRepository format to generate
-     dynamic bindings.
-
 gir1.2-nma4-1.0 1.10.6-5 [Debian/trixie main]
 ├── is installed
 └── GObject introspection data for libnma-gtk4
@@ -8125,30 +8086,8 @@ gvfs 1.57.2-1 [Debian/trixie main]
      This package contains the GIO module that lets applications use gvfs
      mounts.
 
-gvfs 1.57.1-1 [Debian/trixie main]
-└── userspace virtual filesystem - GIO module
-     gvfs is a userspace virtual filesystem where mounts run as separate
-     processes which you talk to via D-Bus. It also contains a gio module
-     that seamlessly adds gvfs support to all applications using the gio
-     API. It also supports exposing the gvfs mounts to non-gio applications
-     using fuse.
-     .
-     This package contains the GIO module that lets applications use gvfs
-     mounts.
-
 gvfs-backends 1.57.2-1 [Debian/trixie main]
 ├── is installed
-└── userspace virtual filesystem - backends
-     gvfs is a userspace virtual filesystem where mounts run as separate
-     processes which you talk to via D-Bus. It also contains a gio module
-     that seamlessly adds gvfs support to all applications using the gio
-     API. It also supports exposing the gvfs mounts to non-gio applications
-     using fuse.
-     .
-     This package contains the afc, afp, archive, cdda, dav, dnssd, ftp,
-     gphoto2, http, mtp, network, sftp, smb, smb-browse and wsdd backends.
-
-gvfs-backends 1.57.1-1 [Debian/trixie main]
 └── userspace virtual filesystem - backends
      gvfs is a userspace virtual filesystem where mounts run as separate
      processes which you talk to via D-Bus. It also contains a gio module
@@ -8171,17 +8110,6 @@ gvfs-common 1.57.2-1 [Debian/trixie main]
      This package contains the data files and translations used by all gvfs
      components.
 
-gvfs-common 1.57.1-1 [Debian/trixie main]
-└── userspace virtual filesystem - common data files
-     gvfs is a userspace virtual filesystem where mounts run as separate
-     processes which you talk to via D-Bus. It also contains a gio module
-     that seamlessly adds gvfs support to all applications using the gio
-     API. It also supports exposing the gvfs mounts to non-gio applications
-     using fuse.
-     .
-     This package contains the data files and translations used by all gvfs
-     components.
-
 gvfs-daemons 1.57.2-1 [Debian/trixie main]
 ├── is installed
 └── userspace virtual filesystem - servers
@@ -8193,29 +8121,8 @@ gvfs-daemons 1.57.2-1 [Debian/trixie main]
      .
      This package contains the gvfs server and the minimal set of backends.
 
-gvfs-daemons 1.57.1-1 [Debian/trixie main]
-└── userspace virtual filesystem - servers
-     gvfs is a userspace virtual filesystem where mounts run as separate
-     processes which you talk to via D-Bus. It also contains a gio module
-     that seamlessly adds gvfs support to all applications using the gio
-     API. It also supports exposing the gvfs mounts to non-gio applications
-     using fuse.
-     .
-     This package contains the gvfs server and the minimal set of backends.
-
 gvfs-fuse 1.57.2-1 [Debian/trixie main]
 ├── is installed
-└── userspace virtual filesystem - fuse server
-     gvfs is a userspace virtual filesystem where mounts run as separate
-     processes which you talk to via D-Bus. It also contains a gio module
-     that seamlessly adds gvfs support to all applications using the gio
-     API. It also supports exposing the gvfs mounts to non-gio applications
-     using fuse.
-     .
-     This package contains the gvfs-fuse server that exports gvfs mounts to
-     all applications using FUSE.
-
-gvfs-fuse 1.57.1-1 [Debian/trixie main]
 └── userspace virtual filesystem - fuse server
      gvfs is a userspace virtual filesystem where mounts run as separate
      processes which you talk to via D-Bus. It also contains a gio module
@@ -8238,17 +8145,6 @@ gvfs-libs 1.57.2-1 [Debian/trixie main]
      This package contains private libraries with common functions between
      the daemons and the GIO module.
 
-gvfs-libs 1.57.1-1 [Debian/trixie main]
-└── userspace virtual filesystem - private libraries
-     gvfs is a userspace virtual filesystem where mounts run as separate
-     processes which you talk to via D-Bus. It also contains a gio module
-     that seamlessly adds gvfs support to all applications using the gio
-     API. It also supports exposing the gvfs mounts to non-gio applications
-     using fuse.
-     .
-     This package contains private libraries with common functions between
-     the daemons and the GIO module.
-
 gzip 1.13-1 [Debian/trixie main]
 ├── is installed
 └── GNU compression utilities
@@ -8259,21 +8155,6 @@ gzip 1.13-1 [Debian/trixie main]
 
 haveged 1.9.19-10 [Debian/trixie main]
 ├── is installed
-└── Linux entropy source using the HAVEGE algorithm
-     haveged is a userspace entropy daemon which is not dependent upon the
-     standard mechanisms for harvesting randomness for the system entropy
-     pool. This is important in systems with high entropy needs or limited
-     user interaction (e.g. headless servers).
-     .
-     haveged uses HAVEGE (HArdware Volatile Entropy Gathering and Expansion)
-     to maintain a 1M pool of random bytes used to fill /dev/random
-     whenever the supply of random bits in dev/random falls below the low
-     water mark of the device.
-     .
-     More information about HAVEGE is available at
-     http://www.irisa.fr/caps/projects/hipsor/
-
-haveged 1.9.19-9 [Debian/trixie main]
 └── Linux entropy source using the HAVEGE algorithm
      haveged is a userspace entropy daemon which is not dependent upon the
      standard mechanisms for harvesting randomness for the system entropy
@@ -9567,13 +9448,6 @@ libaspell15 0.60.8.1-4 [Debian/trixie main]
      .
      For a standalone spell-checker, install aspell as well.
 
-libaspell15 0.60.8.1-3 [Debian/trixie main]
-└── GNU Aspell spell-checker runtime library
-     These are the runtime parts of the Aspell and pspell spell-checking
-     toolkits, needed by applications that use the toolkits at runtime.
-     .
-     For a standalone spell-checker, install aspell as well.
-
 libass9 2:0.17.3-dmo1+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── library for SSA/ASS subtitles rendering
@@ -9823,7 +9697,7 @@ libavcodec61 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── Library to encode decode multimedia streams - runtime files
 
-libavcodec61 7:7.1-3+b2 [Debian/trixie main]
+libavcodec61 7:7.1-4 [Debian/trixie main]
 └── FFmpeg library with de/encoders for audio/video codecs - runtime files
      FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
      mux, demux, stream, filter and play pretty much anything that humans and
@@ -9844,7 +9718,7 @@ libavcodec61:i386 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── Library to encode decode multimedia streams - runtime files
 
-libavcodec61:i386 7:7.1-3+b2 [Debian/trixie main]
+libavcodec61:i386 7:7.1-4 [Debian/trixie main]
 └── FFmpeg library with de/encoders for audio/video codecs - runtime files
      FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
      mux, demux, stream, filter and play pretty much anything that humans and
@@ -9865,7 +9739,7 @@ libavdevice61 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for handling input and output devices - runtime files
 
-libavdevice61 7:7.1-3+b2 [Debian/trixie main]
+libavdevice61 7:7.1-4 [Debian/trixie main]
 └── FFmpeg library for handling input and output devices - runtime files
      FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
      mux, demux, stream, filter and play pretty much anything that humans and
@@ -9882,7 +9756,7 @@ libavfilter10 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg filter library
 
-libavfilter10 7:7.1-3+b2 [Debian/trixie main]
+libavfilter10 7:7.1-4 [Debian/trixie main]
 └── FFmpeg library containing media filters - runtime files
      FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
      mux, demux, stream, filter and play pretty much anything that humans and
@@ -9898,7 +9772,7 @@ libavformat61 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg file format library
 
-libavformat61 7:7.1-3+b2 [Debian/trixie main]
+libavformat61 7:7.1-4 [Debian/trixie main]
 └── FFmpeg library with (de)muxers for multimedia containers - runtime files
      FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
      mux, demux, stream, filter and play pretty much anything that humans and
@@ -9933,7 +9807,7 @@ libavutil59 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg avutil library - runtime files
 
-libavutil59 7:7.1-3+b2 [Debian/trixie main]
+libavutil59 7:7.1-4 [Debian/trixie main]
 └── FFmpeg library with functions for simplifying programming - runtime files
      FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
      mux, demux, stream, filter and play pretty much anything that humans and
@@ -9953,7 +9827,7 @@ libavutil59:i386 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg avutil library - runtime files
 
-libavutil59:i386 7:7.1-3+b2 [Debian/trixie main]
+libavutil59:i386 7:7.1-4 [Debian/trixie main]
 └── FFmpeg library with functions for simplifying programming - runtime files
      FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
      mux, demux, stream, filter and play pretty much anything that humans and
@@ -15212,17 +15086,6 @@ libhavege2 1.9.19-10 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libhavege2 1.9.19-9 [Debian/trixie main]
-└── entropy source using the HAVEGE algorithm - shared library
-     libhavege is a library that implements the HAVEGE (HArdware Volatile Entropy
-     Gathering and Expansion). It provides a random number generator and it's
-     associated tuning and testing factilities.
-     .
-     More information about HAVEGE is available at
-     http://www.irisa.fr/caps/projects/hipsor/
-     .
-     This package contains the shared library.
-
 libheif-plugin-aomenc 1.19.5-1+b1 [Debian/trixie main]
 ├── is installed
 └── HEIF and AVIF file format decoder and encoder - aomenc plugin
@@ -17982,30 +17845,8 @@ libnm0 1.50.2-1+b1 [Debian/trixie main]
      This package contains a convenience library to ease the access to
      NetworkManager.
 
-libnm0 1.50.2-1 [Debian/trixie main]
-└── GObject-based client library for NetworkManager
-     NetworkManager is a system network service that manages your network devices
-     and connections, attempting to keep active network connectivity when
-     available. It manages ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE
-     devices, and provides VPN integration with a variety of different VPN
-     services.
-     .
-     This package contains a convenience library to ease the access to
-     NetworkManager.
-
 libnm0:i386 1.50.2-1+b1 [Debian/trixie main]
 ├── is installed
-└── GObject-based client library for NetworkManager
-     NetworkManager is a system network service that manages your network devices
-     and connections, attempting to keep active network connectivity when
-     available. It manages ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE
-     devices, and provides VPN integration with a variety of different VPN
-     services.
-     .
-     This package contains a convenience library to ease the access to
-     NetworkManager.
-
-libnm0:i386 1.50.2-1 [Debian/trixie main]
 └── GObject-based client library for NetworkManager
      NetworkManager is a system network service that manages your network devices
      and connections, attempting to keep active network connectivity when
@@ -18567,17 +18408,6 @@ liborc-0.4-0t64 1:0.4.41-1 [Debian/trixie main]
      This package contains the orc shared libraries.  It is typically
      installed automatically when an application or library requires it.
 
-liborc-0.4-0t64 1:0.4.40-1 [Debian/trixie main]
-└── Library of Optimized Inner Loops Runtime Compiler
-     Orc is a library and set of tools for compiling and executing
-     very simple programs that operate on arrays of data.  The "language"
-     is a generic assembly language that represents many of the features
-     available in SIMD architectures, including saturated addition and
-     subtraction, and many arithmetic operations.
-     .
-     This package contains the orc shared libraries.  It is typically
-     installed automatically when an application or library requires it.
-
 liborcus-0.18-0 0.19.2-6+b1 [Debian/trixie main]
 ├── is installed
 └── library for processing spreadsheet documents
@@ -18976,7 +18806,7 @@ libpciaccess0:i386 0.17-3+b3 [Debian/trixie main]
      Provides functionality for X to access the PCI bus and devices
      in a platform-independent way.
 
-libpcre2-16-0 10.44-5 [Debian/trixie main]
+libpcre2-16-0 10.45-1 [Debian/trixie main]
 ├── is installed
 └── New Perl Compatible Regular Expression Library - 16 bit runtime files
      This is PCRE2, the new implementation of PCRE, a library of functions
@@ -18988,7 +18818,7 @@ libpcre2-16-0 10.44-5 [Debian/trixie main]
      This package contains the 16 bit runtime library, which operates on
      UTF-16 input.
 
-libpcre2-32-0 10.44-5 [Debian/trixie main]
+libpcre2-32-0 10.45-1 [Debian/trixie main]
 ├── is installed
 └── New Perl Compatible Regular Expression Library - 32 bit runtime files
      This is PCRE2, the new implementation of PCRE, a library of functions
@@ -19000,7 +18830,7 @@ libpcre2-32-0 10.44-5 [Debian/trixie main]
      This package contains the 32 bit runtime library, which operates on
      UTF-32 input.
 
-libpcre2-8-0 10.44-5 [Debian/trixie main]
+libpcre2-8-0 10.45-1 [Debian/trixie main]
 ├── is installed
 └── New Perl Compatible Regular Expression Library- 8 bit runtime files
      This is PCRE2, the new implementation of PCRE, a library of functions
@@ -19012,7 +18842,7 @@ libpcre2-8-0 10.44-5 [Debian/trixie main]
      This package contains the 8 bit runtime library, which operates on
      ASCII and UTF-8 input.
 
-libpcre2-8-0:i386 10.44-5 [Debian/trixie main]
+libpcre2-8-0:i386 10.45-1 [Debian/trixie main]
 ├── is installed
 └── New Perl Compatible Regular Expression Library- 8 bit runtime files
      This is PCRE2, the new implementation of PCRE, a library of functions
@@ -19024,7 +18854,7 @@ libpcre2-8-0:i386 10.44-5 [Debian/trixie main]
      This package contains the 8 bit runtime library, which operates on
      ASCII and UTF-8 input.
 
-libpcre2-dev 10.44-5 [Debian/trixie main]
+libpcre2-dev 10.45-1 [Debian/trixie main]
 ├── is installed
 └── New Perl Compatible Regular Expression Library - development files
      This is PCRE2, the new implementation of PCRE, a library of functions
@@ -19042,7 +18872,7 @@ libpcre2-dev 10.44-5 [Debian/trixie main]
      This package contains the development files, including headers,
      static libraries, and documentation.
 
-libpcre2-posix3 10.44-5 [Debian/trixie main]
+libpcre2-posix3 10.45-1 [Debian/trixie main]
 ├── is installed
 └── New Perl Compatible Regular Expression Library - posix-compatible runtime files
      This is PCRE2, the new implementation of PCRE, a library of functions
@@ -19409,7 +19239,7 @@ libpostproc58 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── postproc shared libraries
 
-libpostproc58 7:7.1-3+b2 [Debian/trixie main]
+libpostproc58 7:7.1-4 [Debian/trixie main]
 └── FFmpeg library for post processing - runtime files
      FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
      mux, demux, stream, filter and play pretty much anything that humans and
@@ -21821,7 +21651,7 @@ libswresample5 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for audio resampling, rematrixing etc. - runtime files
 
-libswresample5 7:7.1-3+b2 [Debian/trixie main]
+libswresample5 7:7.1-4 [Debian/trixie main]
 └── FFmpeg library for audio resampling, rematrixing etc. - runtime files
      FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
      mux, demux, stream, filter and play pretty much anything that humans and
@@ -21853,7 +21683,7 @@ libswresample5:i386 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for audio resampling, rematrixing etc. - runtime files
 
-libswresample5:i386 7:7.1-3+b2 [Debian/trixie main]
+libswresample5:i386 7:7.1-4 [Debian/trixie main]
 └── FFmpeg library for audio resampling, rematrixing etc. - runtime files
      FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
      mux, demux, stream, filter and play pretty much anything that humans and
@@ -21885,7 +21715,7 @@ libswscale8 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for image scaling and various conversions - runtime files
 
-libswscale8 7:7.1-3+b2 [Debian/trixie main]
+libswscale8 7:7.1-4 [Debian/trixie main]
 └── FFmpeg library for image scaling and various conversions - runtime files
      FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
      mux, demux, stream, filter and play pretty much anything that humans and
@@ -23693,21 +23523,6 @@ libvpl2 1:2.14.0-1+b1 [Debian/trixie main]
       - Examples demonstrating API usage
      .
      This package includes the dispatcher library.
-
-libvpl2 1:2.13.0-1 [Debian/trixie main]
-└── Intel Video Processing Library -- shared library
-     Intel Video Processing Library (Intel VPL) provides access to hardware
-     accelerated video decode, encode, and processing capabilities on Intel
-     GPUs to support AI visual inference, media delivery, cloud gaming, and virtual
-     desktop infrastructure use cases.
-     .
-     This repository contains the following components:
-     .
-      - Copies of the Intel® VPL API header files
-      - Intel VPL Dispatcher
-      - Examples demonstrating API usage
-     .
-     This package includes the dispatcher library
 
 libvpx7 1.12.0-1.2 [SparkyLinux/sisters main]
 ├── is installed
@@ -26117,7 +25932,7 @@ libz3-dev 4.13.3-1 [Debian/trixie main]
      .
      This package can be used to invoke Z3 via its C++ API.
 
-libzbar0t64 0.23.93-6+b1 [Debian/trixie main]
+libzbar0t64 0.23.93-7 [Debian/trixie main]
 ├── is installed
 └── QR code / bar code scanner and decoder (library)
      ZBar is a library for scanning and decoding bar codes from various sources
@@ -26520,11 +26335,6 @@ login 1:4.16.0-2+really2.40.4-3 [Debian/trixie main]
 
 login.defs 1:4.17.2-5 [Debian/trixie main]
 ├── is installed
-└── system user management configuration
-     This package provides the login.defs configuration file,
-     used by otherwise unrelated tools managing system users.
-
-login.defs 1:4.16.0-7 [Debian/trixie main]
 └── system user management configuration
      This package provides the login.defs configuration file,
      used by otherwise unrelated tools managing system users.
@@ -27192,25 +27002,6 @@ network-manager 1.50.2-1+b1 [Debian/trixie main]
         teamed together and act like a single one. This process is called "ethernet
         bonding", "channel teaming" or "link aggregation".
 
-network-manager 1.50.2-1 [Debian/trixie main]
-└── network management framework (daemon and userspace tools)
-     NetworkManager is a system network service that manages your network devices
-     and connections, attempting to keep active network connectivity when
-     available. It manages ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE
-     devices, and provides VPN integration with a variety of different VPN
-     services.
-     .
-     This package provides the userspace daemons and a command line interface to
-     interact with NetworkManager.
-     .
-     Optional dependencies:
-      * ppp: Required for establishing dial-up connections (e.g. via GSM).
-      * dnsmasq-base/iptables: Required for creating Ad-hoc connections and
-        connection sharing.
-      * libteam-utils: Network Team driver allows multiple network interfaces to be
-        teamed together and act like a single one. This process is called "ethernet
-        bonding", "channel teaming" or "link aggregation".
-
 nfacct 1.0.2-4 [Debian/trixie main]
 ├── is installed
 └── netfilter accounting object tool
@@ -27539,13 +27330,6 @@ passt 0.0~git20250217.a1e48a0-1 [Debian/trixie main]
 
 passwd 1:4.17.2-5 [Debian/trixie main]
 ├── is installed
-└── change and administer password and group data
-     This package includes passwd, chsh, chfn, and many other programs to
-     maintain password and group data.
-     .
-     Shadow passwords are supported.  See /usr/share/doc/passwd/README.Debian
-
-passwd 1:4.16.0-7 [Debian/trixie main]
 └── change and administer password and group data
      This package includes passwd, chsh, chfn, and many other programs to
      maintain password and group data.
@@ -27910,16 +27694,6 @@ ppp 2.5.2-1+1 [Debian/trixie main]
      This package is most commonly used to manage a modem for dial-up or
      certain kinds of broadband connections.
 
-ppp 2.5.1-1+1 [Debian/trixie main]
-└── Point-to-Point Protocol (PPP) - daemon
-     The Point-to-Point Protocol provides a standard way to transmit
-     datagrams over a serial link, as well as a standard way for the machines
-     at either end of the link to negotiate various optional characteristics
-     of the link.
-     .
-     This package is most commonly used to manage a modem for dial-up or
-     certain kinds of broadband connections.
-
 procmail 3.24+really3.22-4 [Debian/trixie main]
 ├── is installed
 └── Versatile e-mail processor
@@ -27947,16 +27721,6 @@ progress-tracker 1.6.0 [local]
 
 psmisc 23.7-2 [Debian/trixie main]
 ├── is installed
-└── utilities that use the proc file system
-     This package contains miscellaneous utilities that use the proc FS:
-     .
-      - fuser: identifies processes that are using files or sockets.
-      - killall: kills processes by name (e.g. "killall -HUP named").
-      - peekfd: shows the data traveling over a file descriptor.
-      - pstree: shows currently running processes as a tree.
-      - prtstat: print the contents of /proc/<pid>/stat
-
-psmisc 23.7-1 [Debian/trixie main]
 └── utilities that use the proc file system
      This package contains miscellaneous utilities that use the proc FS:
      .
