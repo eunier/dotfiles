@@ -6,6 +6,7 @@ Project Description
 
 ### Todo
 
+- [ ] Use tags  
 - [ ] Update to zig master branch  
 - [ ] Should texture be a component?  
 

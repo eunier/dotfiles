@@ -6,6 +6,7 @@ Project Description
 
 ### Todo
 
+- [ ] nvm doesn't show up on fish  
 - [ ] Filter out dconf not important settings  
 - [ ] sync up fish and bash config, aliases  
 - [ ] Music app  
