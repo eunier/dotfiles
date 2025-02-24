@@ -23,6 +23,7 @@ flatpak install --assumeyes flathub \
   io.gitlab.news_flash.NewsFlash \
   io.missioncenter.MissionCenter \
   md.obsidian.Obsidian \
+  org.cryptomator.Cryptomator \
   org.flathub.flatpak-external-data-checker \
   org.gnome.design.Palette \
   org.gnome.Solanum \

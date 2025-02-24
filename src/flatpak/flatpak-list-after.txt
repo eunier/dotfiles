@@ -17,6 +17,7 @@ Schedule	io.github.zhrexl.thisweekinmylife	0.0.6	stable	system
 Newsflash	io.gitlab.news_flash.NewsFlash	3.3.5	stable	system
 Mission Center	io.missioncenter.MissionCenter	0.6.2	stable	system
 Obsidian	md.obsidian.Obsidian	1.8.7	stable	system
+Cryptomator	org.cryptomator.Cryptomator	1.15.1	stable	system
 Flatpak External Data Checker	org.flathub.flatpak-external-data-checker		stable	system
 Freedesktop Platform	org.freedesktop.Platform	21.08.22	21.08	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.11	24.08	system
