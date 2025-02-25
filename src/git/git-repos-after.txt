@@ -21,8 +21,8 @@
 │   └── zig-gamedev
 ├── com.github.ziglang.zig
 │   └── zig
-├── com.gitlab.yunieralvarez.game-top-down-shooter
-│   └── game-top-dow-shooter
+├── com.gitlab.yunieralvarez.game-top-down-shooter-rs
+│   └── game-top-dow-shooter-rs
 ├── com.gitlab.yunieralvarez.godot-first-person-shooter-demo
 │   └── godot-first-person-shooter-demo
 ├── com.gitlab.yunieralvarez.qmkl

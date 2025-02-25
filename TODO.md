@@ -6,6 +6,7 @@ Project Description
 
 ### Todo
 
+- [ ] Filter out dconf not important settings  
 - [ ] Does syncthing auto start?  
 - [ ] Polari data  
 - [ ] Avoid calling to install vscode extension if already installed  
@@ -13,7 +14,6 @@ Project Description
 - [ ] nvm doesn't show up on fish  
 - [ ] sync up fish and bash config, aliases  
 - [ ] Music app  
-- [ ] Install GitLab cli, then start moving repo proejcts to its own repo  
 - [ ] veracrypt  
 - [ ] Don't use yadm  
 - [ ] Do I need to keep a list of installed obsidian plugin and settings?  
@@ -25,7 +25,7 @@ Project Description
 
 ### In Progress
 
-- [ ] Filter out dconf not important settings  
+- [ ] Install GitLab cli, then start moving repo proejcts to its own repo  
 
 ### Done ✓
 
