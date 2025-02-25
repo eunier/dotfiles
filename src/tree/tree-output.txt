@@ -1,115 +1,3871 @@
 .
-├── biome.json
-├── bun.lock
+├── assets
+│   ├── bullet.png
+│   ├── grass.png
+│   ├── player.png
+│   ├── sand.png
+│   ├── tiles.png
+│   ├── water.png
+│   └── weapon.png
+├── Cargo.lock
+├── Cargo.toml
+├── .git
+│   ├── branches
+│   ├── config
+│   ├── description
+│   ├── FETCH_HEAD
+│   ├── HEAD
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── push-to-checkout.sample
+│   │   ├── sendemail-validate.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── main
+│   │       └── remotes
+│   │           └── origin
+│   │               └── HEAD
+│   ├── objects
+│   │   ├── info
+│   │   └── pack
+│   │       ├── pack-d1d93aceee815efd89e129b3126981c02a64fedb.idx
+│   │       ├── pack-d1d93aceee815efd89e129b3126981c02a64fedb.pack
+│   │       └── pack-d1d93aceee815efd89e129b3126981c02a64fedb.rev
+│   ├── packed-refs
+│   └── refs
+│       ├── heads
+│       │   └── main
+│       ├── remotes
+│       │   └── origin
+│       │       └── HEAD
+│       └── tags
 ├── .gitignore
-├── package.json
-├── README.md
-├── scripts
-│   └── rm-before-after-files.sh
+├── kenney_rpg-base
+│   ├── license.txt
+│   ├── PNG
+│   │   ├── rpgTile000.png
+│   │   ├── rpgTile001.png
+│   │   ├── rpgTile002.png
+│   │   ├── rpgTile003.png
+│   │   ├── rpgTile004.png
+│   │   ├── rpgTile005.png
+│   │   ├── rpgTile006.png
+│   │   ├── rpgTile007.png
+│   │   ├── rpgTile008.png
+│   │   ├── rpgTile009.png
+│   │   ├── rpgTile010.png
+│   │   ├── rpgTile011.png
+│   │   ├── rpgTile012.png
+│   │   ├── rpgTile013.png
+│   │   ├── rpgTile014.png
+│   │   ├── rpgTile015.png
+│   │   ├── rpgTile016.png
+│   │   ├── rpgTile017.png
+│   │   ├── rpgTile018.png
+│   │   ├── rpgTile019.png
+│   │   ├── rpgTile020.png
+│   │   ├── rpgTile021.png
+│   │   ├── rpgTile022.png
+│   │   ├── rpgTile023.png
+│   │   ├── rpgTile024.png
+│   │   ├── rpgTile025.png
+│   │   ├── rpgTile026.png
+│   │   ├── rpgTile027.png
+│   │   ├── rpgTile028.png
+│   │   ├── rpgTile029.png
+│   │   ├── rpgTile030.png
+│   │   ├── rpgTile031.png
+│   │   ├── rpgTile032.png
+│   │   ├── rpgTile033.png
+│   │   ├── rpgTile034.png
+│   │   ├── rpgTile035.png
+│   │   ├── rpgTile036.png
+│   │   ├── rpgTile037.png
+│   │   ├── rpgTile038.png
+│   │   ├── rpgTile039.png
+│   │   ├── rpgTile040.png
+│   │   ├── rpgTile041.png
+│   │   ├── rpgTile042.png
+│   │   ├── rpgTile043.png
+│   │   ├── rpgTile044.png
+│   │   ├── rpgTile045.png
+│   │   ├── rpgTile046.png
+│   │   ├── rpgTile047.png
+│   │   ├── rpgTile048.png
+│   │   ├── rpgTile049.png
+│   │   ├── rpgTile050.png
+│   │   ├── rpgTile051.png
+│   │   ├── rpgTile052.png
+│   │   ├── rpgTile053.png
+│   │   ├── rpgTile054.png
+│   │   ├── rpgTile055.png
+│   │   ├── rpgTile056.png
+│   │   ├── rpgTile057.png
+│   │   ├── rpgTile058.png
+│   │   ├── rpgTile059.png
+│   │   ├── rpgTile060.png
+│   │   ├── rpgTile061.png
+│   │   ├── rpgTile062.png
+│   │   ├── rpgTile063.png
+│   │   ├── rpgTile064.png
+│   │   ├── rpgTile065.png
+│   │   ├── rpgTile066.png
+│   │   ├── rpgTile067.png
+│   │   ├── rpgTile068.png
+│   │   ├── rpgTile069.png
+│   │   ├── rpgTile070.png
+│   │   ├── rpgTile071.png
+│   │   ├── rpgTile072.png
+│   │   ├── rpgTile073.png
+│   │   ├── rpgTile074.png
+│   │   ├── rpgTile075.png
+│   │   ├── rpgTile076.png
+│   │   ├── rpgTile077.png
+│   │   ├── rpgTile078.png
+│   │   ├── rpgTile079.png
+│   │   ├── rpgTile080.png
+│   │   ├── rpgTile081.png
+│   │   ├── rpgTile082.png
+│   │   ├── rpgTile083.png
+│   │   ├── rpgTile084.png
+│   │   ├── rpgTile085.png
+│   │   ├── rpgTile086.png
+│   │   ├── rpgTile087.png
+│   │   ├── rpgTile088.png
+│   │   ├── rpgTile089.png
+│   │   ├── rpgTile090.png
+│   │   ├── rpgTile091.png
+│   │   ├── rpgTile092.png
+│   │   ├── rpgTile093.png
+│   │   ├── rpgTile094.png
+│   │   ├── rpgTile095.png
+│   │   ├── rpgTile096.png
+│   │   ├── rpgTile097.png
+│   │   ├── rpgTile098.png
+│   │   ├── rpgTile099.png
+│   │   ├── rpgTile100.png
+│   │   ├── rpgTile101.png
+│   │   ├── rpgTile102.png
+│   │   ├── rpgTile103.png
+│   │   ├── rpgTile104.png
+│   │   ├── rpgTile105.png
+│   │   ├── rpgTile106.png
+│   │   ├── rpgTile107.png
+│   │   ├── rpgTile108.png
+│   │   ├── rpgTile109.png
+│   │   ├── rpgTile110.png
+│   │   ├── rpgTile111.png
+│   │   ├── rpgTile112.png
+│   │   ├── rpgTile113.png
+│   │   ├── rpgTile114.png
+│   │   ├── rpgTile115.png
+│   │   ├── rpgTile116.png
+│   │   ├── rpgTile117.png
+│   │   ├── rpgTile118.png
+│   │   ├── rpgTile119.png
+│   │   ├── rpgTile120.png
+│   │   ├── rpgTile121.png
+│   │   ├── rpgTile122.png
+│   │   ├── rpgTile123.png
+│   │   ├── rpgTile124.png
+│   │   ├── rpgTile125.png
+│   │   ├── rpgTile126.png
+│   │   ├── rpgTile127.png
+│   │   ├── rpgTile128.png
+│   │   ├── rpgTile129.png
+│   │   ├── rpgTile130.png
+│   │   ├── rpgTile131.png
+│   │   ├── rpgTile132.png
+│   │   ├── rpgTile133.png
+│   │   ├── rpgTile134.png
+│   │   ├── rpgTile135.png
+│   │   ├── rpgTile136.png
+│   │   ├── rpgTile137.png
+│   │   ├── rpgTile138.png
+│   │   ├── rpgTile139.png
+│   │   ├── rpgTile140.png
+│   │   ├── rpgTile141.png
+│   │   ├── rpgTile142.png
+│   │   ├── rpgTile143.png
+│   │   ├── rpgTile144.png
+│   │   ├── rpgTile145.png
+│   │   ├── rpgTile146.png
+│   │   ├── rpgTile147.png
+│   │   ├── rpgTile148.png
+│   │   ├── rpgTile149.png
+│   │   ├── rpgTile150.png
+│   │   ├── rpgTile151.png
+│   │   ├── rpgTile152.png
+│   │   ├── rpgTile153.png
+│   │   ├── rpgTile154.png
+│   │   ├── rpgTile155.png
+│   │   ├── rpgTile156.png
+│   │   ├── rpgTile157.png
+│   │   ├── rpgTile158.png
+│   │   ├── rpgTile159.png
+│   │   ├── rpgTile160.png
+│   │   ├── rpgTile161.png
+│   │   ├── rpgTile162.png
+│   │   ├── rpgTile163.png
+│   │   ├── rpgTile164.png
+│   │   ├── rpgTile165.png
+│   │   ├── rpgTile166.png
+│   │   ├── rpgTile167.png
+│   │   ├── rpgTile168.png
+│   │   ├── rpgTile169.png
+│   │   ├── rpgTile170.png
+│   │   ├── rpgTile171.png
+│   │   ├── rpgTile172.png
+│   │   ├── rpgTile173.png
+│   │   ├── rpgTile174.png
+│   │   ├── rpgTile175.png
+│   │   ├── rpgTile176.png
+│   │   ├── rpgTile177.png
+│   │   ├── rpgTile178.png
+│   │   ├── rpgTile179.png
+│   │   ├── rpgTile180.png
+│   │   ├── rpgTile181.png
+│   │   ├── rpgTile182.png
+│   │   ├── rpgTile183.png
+│   │   ├── rpgTile184.png
+│   │   ├── rpgTile185.png
+│   │   ├── rpgTile186.png
+│   │   ├── rpgTile187.png
+│   │   ├── rpgTile188.png
+│   │   ├── rpgTile189.png
+│   │   ├── rpgTile190.png
+│   │   ├── rpgTile191.png
+│   │   ├── rpgTile192.png
+│   │   ├── rpgTile193.png
+│   │   ├── rpgTile194.png
+│   │   ├── rpgTile195.png
+│   │   ├── rpgTile196.png
+│   │   ├── rpgTile197.png
+│   │   ├── rpgTile198.png
+│   │   ├── rpgTile199.png
+│   │   ├── rpgTile200.png
+│   │   ├── rpgTile201.png
+│   │   ├── rpgTile202.png
+│   │   ├── rpgTile203.png
+│   │   ├── rpgTile204.png
+│   │   ├── rpgTile205.png
+│   │   ├── rpgTile206.png
+│   │   ├── rpgTile207.png
+│   │   ├── rpgTile208.png
+│   │   ├── rpgTile209.png
+│   │   ├── rpgTile210.png
+│   │   ├── rpgTile211.png
+│   │   ├── rpgTile212.png
+│   │   ├── rpgTile213.png
+│   │   ├── rpgTile214.png
+│   │   ├── rpgTile215.png
+│   │   ├── rpgTile216.png
+│   │   ├── rpgTile217.png
+│   │   ├── rpgTile218.png
+│   │   ├── rpgTile219.png
+│   │   ├── rpgTile220.png
+│   │   ├── rpgTile221.png
+│   │   ├── rpgTile222.png
+│   │   ├── rpgTile223.png
+│   │   ├── rpgTile224.png
+│   │   ├── rpgTile225.png
+│   │   ├── rpgTile226.png
+│   │   ├── rpgTile227.png
+│   │   └── rpgTile228.png
+│   ├── preview.png
+│   ├── sample.png
+│   ├── Spritesheet
+│   │   ├── RPGpack_sheet_2X.png
+│   │   └── RPGpack_sheet.png
+│   └── Vector
+│       ├── RPGpack_vector.svg
+│       └── RPGpack_vector.swf
+├── rustfmt.toml
 ├── src
-│   ├── apt.sh
-│   ├── autostart
-│   │   ├── autostart-after.txt
-│   │   └── autostart-before.txt
-│   ├── autostart.sh
-│   ├── bash.sh
-│   ├── beaver-notes
-│   │   ├── beaver-notes-after.txt
-│   │   └── beaver-notes-before.txt
-│   ├── beaver-notes.sh
-│   ├── bun
-│   │   └── repo-update.sh
-│   ├── bun.sh
-│   ├── dconf
-│   │   ├── dconf-after.conf
-│   │   └── dconf-before.conf
-│   ├── dconf.sh
-│   ├── diff
-│   │   ├── diff-autostart.sh
-│   │   ├── diff-beaver-notes.sh
-│   │   ├── diff-dconf.sh
-│   │   ├── diff-doas.sh
-│   │   ├── diff-fastfetch-config.sh
-│   │   ├── diff-fastfetch-output.sh
-│   │   ├── diff-flatpak.sh
-│   │   ├── diff-git-repos.sh
-│   │   ├── diff-nala-app-progress-tracker.sh
-│   │   ├── diff-nala-list-installed.sh
-│   │   ├── diff-syncthing-config.sh
-│   │   ├── diff-tree.sh
-│   │   ├── diff-vscode-extensions.sh
-│   │   ├── diff-vscode-keybindings.sh
-│   │   ├── diff-vscode-settings.sh
-│   │   └── diff-zig-version-list.sh
-│   ├── diff.sh
-│   ├── doas
-│   │   ├── doas-after.conf
-│   │   └── doas-before.conf
-│   ├── doas.sh
-│   ├── fastfetch
-│   │   ├── fastfetch-config-after.jsonc
-│   │   ├── fastfetch-config-before.jsonc
-│   │   ├── fastfetch-output-after.txt
-│   │   └── fastfetch-output-before.txt
-│   ├── fastfetch.sh
-│   ├── flatpak
-│   │   ├── flatpak-list-after.txt
-│   │   └── flatpak-list-before.txt
-│   ├── flatpak.sh
-│   ├── fmt.sh
-│   ├── fonts.sh
-│   ├── git
-│   │   ├── git-repos-after.txt
-│   │   ├── git-repos-before.txt
-│   │   ├── git-sync-remote.sh
-│   │   ├── git-todo.sh
-│   │   └── todos
-│   │       └── com.gitlab.yunieralvarez.repo
-│   │           └── repo
-│   │               └── zig
-│   │                   └── top-down-game
-│   │                       └── TODO.md
-│   ├── git.sh
-│   ├── main.sh
-│   ├── nala
-│   │   ├── nala-app-progress-tracker-after.txt
-│   │   ├── nala-app-progress-tracker-before.txt
-│   │   ├── nala-list-installed-after.txt
-│   │   └── nala-list-installed-before.txt
-│   ├── nala.sh
-│   ├── node.sh
-│   ├── syncthing
-│   │   ├── syncthing-config-after.json
-│   │   ├── syncthing-config-before.json
-│   │   └── syncthing-config-mask.ts
-│   ├── syncthing.sh
-│   ├── tree
-│   │   └── tree-output.txt
-│   ├── tree.sh
-│   ├── vscode
-│   │   ├── vscode-adwaita-dark.jsonc
-│   │   ├── vscode-adwaita-light.jsonc
-│   │   ├── vscode-extensions-after.txt
-│   │   ├── vscode-extensions-before.txt
-│   │   ├── vscode-font-switch.sh
-│   │   ├── vscode-font-switch.ts
-│   │   ├── vscode-keybindings-after.jsonc
-│   │   ├── vscode-keybindings-before.jsonc
-│   │   ├── vscode-settings-after.jsonc
-│   │   ├── vscode-settings-before.jsonc
-│   │   └── vscode-uninstall-all-extensions.bash
-│   ├── vscode.sh
-│   ├── yadm
-│   │   └── yadm-ls-files.txt
-│   ├── yadm.sh
-│   ├── zen.sh
-│   ├── zig
-│   │   ├── zig-version-list-after.txt
-│   │   └── zig-version-list-before.txt
-│   └── zig.sh
-├── TODO.md
-├── tsconfig.json
+│   ├── animation.rs
+│   ├── camera.rs
+│   ├── cursor.rs
+│   ├── debug.rs
+│   ├── ecs.rs
+│   ├── game.rs
+│   ├── main.rs
+│   ├── map
+│   │   ├── constants
+│   │   │   ├── assets.rs
+│   │   │   ├── chunks.rs
+│   │   │   └── tiles.rs
+│   │   ├── constants.rs
+│   │   ├── events.rs
+│   │   └── helpers.rs
+│   ├── map.rs
+│   ├── movement.rs
+│   ├── noise
+│   │   └── helpers.rs
+│   ├── noise.rs
+│   ├── player.rs
+│   ├── render.rs
+│   └── weapon.rs
+├── target
+│   ├── CACHEDIR.TAG
+│   ├── debug
+│   │   ├── build
+│   │   │   ├── ahash-3521ab3f63bcacf9
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-3521ab3f63bcacf9
+│   │   │   │   └── build_script_build-3521ab3f63bcacf9.d
+│   │   │   ├── ahash-abc82e5c657a0ac9
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── alsa-sys-0ccc3fcaf79aeb54
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-0ccc3fcaf79aeb54
+│   │   │   │   └── build_script_build-0ccc3fcaf79aeb54.d
+│   │   │   ├── alsa-sys-e430c6ee6947cc47
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   └── out
+│   │   │   ├── ash-1a74f11463687de4
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── ash-45e668c651ef1293
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-45e668c651ef1293
+│   │   │   │   └── build_script_build-45e668c651ef1293.d
+│   │   │   ├── blake3-03b6b78def52d03a
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-03b6b78def52d03a
+│   │   │   │   └── build_script_build-03b6b78def52d03a.d
+│   │   │   ├── blake3-986d5a44f48c6435
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   │   ├── db3b6bfb95261072-blake3_avx2_x86-64_unix.o
+│   │   │   │   │   ├── db3b6bfb95261072-blake3_avx512_x86-64_unix.o
+│   │   │   │   │   ├── db3b6bfb95261072-blake3_sse2_x86-64_unix.o
+│   │   │   │   │   ├── db3b6bfb95261072-blake3_sse41_x86-64_unix.o
+│   │   │   │   │   ├── flag_check
+│   │   │   │   │   ├── flag_check.c
+│   │   │   │   │   ├── libblake3_avx512_assembly.a
+│   │   │   │   │   └── libblake3_sse2_sse41_avx2_assembly.a
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── cpal-7c1ef1484d0e38b6
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-7c1ef1484d0e38b6
+│   │   │   │   └── build_script_build-7c1ef1484d0e38b6.d
+│   │   │   ├── cpal-8c15105a3278447d
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── crc32fast-731fbd7b64f9355b
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── crc32fast-73ac9162ab74870f
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-73ac9162ab74870f
+│   │   │   │   └── build_script_build-73ac9162ab74870f.d
+│   │   │   ├── crossbeam-utils-8f00d0c68f5e7365
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-8f00d0c68f5e7365
+│   │   │   │   └── build_script_build-8f00d0c68f5e7365.d
+│   │   │   ├── crossbeam-utils-c704654a0101d8dd
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── gilrs-3806bfaccad61cb5
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-3806bfaccad61cb5
+│   │   │   │   └── build_script_build-3806bfaccad61cb5.d
+│   │   │   ├── gilrs-870be0f4b2484d77
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   │   └── gamecontrollerdb.txt
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── khronos-egl-66db3fd26ee5e39a
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-66db3fd26ee5e39a
+│   │   │   │   └── build_script_build-66db3fd26ee5e39a.d
+│   │   │   ├── khronos-egl-b12c70c638f3cae4
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── libc-7d85b44dd4112ef7
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-7d85b44dd4112ef7
+│   │   │   │   └── build_script_build-7d85b44dd4112ef7.d
+│   │   │   ├── libc-a77a0d846ee4dfd9
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-a77a0d846ee4dfd9
+│   │   │   │   └── build_script_build-a77a0d846ee4dfd9.d
+│   │   │   ├── libc-d4315bb7763ddf45
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── libc-ef926ddf9e171e1d
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── libudev-sys-85e75575cd8bb626
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-85e75575cd8bb626
+│   │   │   │   └── build_script_build-85e75575cd8bb626.d
+│   │   │   ├── libudev-sys-f53beff713202c12
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   └── out
+│   │   │   ├── lock_api-be96b894bc235dcb
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-be96b894bc235dcb
+│   │   │   │   └── build_script_build-be96b894bc235dcb.d
+│   │   │   ├── lock_api-fecb9e76be1412ca
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   │   └── probe0.ll
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── nix-2e82989dd01fd7f6
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-2e82989dd01fd7f6
+│   │   │   │   └── build_script_build-2e82989dd01fd7f6.d
+│   │   │   ├── nix-a9018e22c9736420
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── num-traits-04e337fb29569335
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-04e337fb29569335
+│   │   │   │   └── build_script_build-04e337fb29569335.d
+│   │   │   ├── num-traits-fe24c3837eeb0e8d
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   │   ├── probe0.ll
+│   │   │   │   │   └── probe1.ll
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── parking_lot_core-009de7da6060675e
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-009de7da6060675e
+│   │   │   │   └── build_script_build-009de7da6060675e.d
+│   │   │   ├── parking_lot_core-b215e1984c189911
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── proc-macro2-51d76e2311575a63
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   │   └── proc_macro2.d
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── proc-macro2-6304850979d2912e
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-6304850979d2912e
+│   │   │   │   └── build_script_build-6304850979d2912e.d
+│   │   │   ├── rustix-ac3e3cddcd2d2bf1
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-ac3e3cddcd2d2bf1
+│   │   │   │   └── build_script_build-ac3e3cddcd2d2bf1.d
+│   │   │   ├── rustix-b30b816cfae6e4d7
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   │   └── librust_out.rmeta
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── serde-a558d72dc94c093b
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── serde-e88e84a801ed713f
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-e88e84a801ed713f
+│   │   │   │   └── build_script_build-e88e84a801ed713f.d
+│   │   │   ├── serde_json-1dfc797010dac227
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── serde_json-7f7b9edafba22d48
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-7f7b9edafba22d48
+│   │   │   │   └── build_script_build-7f7b9edafba22d48.d
+│   │   │   ├── slab-32b2e3ca9f3a3900
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   │   └── probe0.ll
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── slab-f55bd112b69565c7
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-f55bd112b69565c7
+│   │   │   │   └── build_script_build-f55bd112b69565c7.d
+│   │   │   ├── slotmap-64003db2046fe7eb
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── slotmap-c2b64d976925947a
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-c2b64d976925947a
+│   │   │   │   └── build_script_build-c2b64d976925947a.d
+│   │   │   ├── syn-4b1826cb04aedd72
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── syn-9099e4162d155a60
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-9099e4162d155a60
+│   │   │   │   └── build_script_build-9099e4162d155a60.d
+│   │   │   ├── thiserror-0654f69d05b8e13d
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   │   └── thiserror.d
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── thiserror-2a033ef7ca796560
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-2a033ef7ca796560
+│   │   │   │   └── build_script_build-2a033ef7ca796560.d
+│   │   │   ├── wgpu-49268e6b81a0b8f7
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-49268e6b81a0b8f7
+│   │   │   │   └── build_script_build-49268e6b81a0b8f7.d
+│   │   │   ├── wgpu-7c5f68495af59142
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── wgpu-core-0478f788bcd80e68
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── wgpu-core-2f50809bddc55e92
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-2f50809bddc55e92
+│   │   │   │   └── build_script_build-2f50809bddc55e92.d
+│   │   │   ├── wgpu-hal-ec9ede445ac2c6f9
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── wgpu-hal-edc598d3f6fbac3e
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-edc598d3f6fbac3e
+│   │   │   │   └── build_script_build-edc598d3f6fbac3e.d
+│   │   │   ├── winit-7e85481e9b91966d
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   ├── winit-a1beeff97deeb3c1
+│   │   │   │   ├── build-script-build
+│   │   │   │   ├── build_script_build-a1beeff97deeb3c1
+│   │   │   │   └── build_script_build-a1beeff97deeb3c1.d
+│   │   │   ├── x11-dl-1e5bc54cd0f22506
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── out
+│   │   │   │   │   └── config.rs
+│   │   │   │   ├── output
+│   │   │   │   ├── root-output
+│   │   │   │   └── stderr
+│   │   │   └── x11-dl-5ad417b6c53f4cb6
+│   │   │       ├── build-script-build
+│   │   │       ├── build_script_build-5ad417b6c53f4cb6
+│   │   │       └── build_script_build-5ad417b6c53f4cb6.d
+│   │   ├── .cargo-lock
+│   │   ├── deps
+│   │   │   ├── ab_glyph-466f5897168a78f4.d
+│   │   │   ├── ab_glyph_rasterizer-7b7e48be64f47dfc.d
+│   │   │   ├── ab_glyph_rasterizer-d89f1a4fe7ccfc66.d
+│   │   │   ├── accesskit-06f5915be0218c13.d
+│   │   │   ├── accesskit-3312d6ea61077ec8.d
+│   │   │   ├── accesskit_winit-91ea3ddbeb2ba046.d
+│   │   │   ├── adler-4f876ee4066313ab.d
+│   │   │   ├── adler-ec49f9597437790c.d
+│   │   │   ├── ahash-1c37e9e441254343.d
+│   │   │   ├── ahash-fe0977464d67b594.d
+│   │   │   ├── aho_corasick-4217cc4411b88705.d
+│   │   │   ├── aho_corasick-db1efa7cf533cb68.d
+│   │   │   ├── allocator_api2-b0ef5c4c7d1d5071.d
+│   │   │   ├── allocator_api2-c0a057538ec490c0.d
+│   │   │   ├── approx-56a6b8d9ac6589bc.d
+│   │   │   ├── arboard-f9df5f404b08c638.d
+│   │   │   ├── arrayref-349e7c193c03271d.d
+│   │   │   ├── arrayref-3677142192279517.d
+│   │   │   ├── arrayvec-51e58cd2ed5ace7c.d
+│   │   │   ├── arrayvec-e24ea8eb78f8f8bb.d
+│   │   │   ├── ash-25d1d88b5fdd6536.d
+│   │   │   ├── ash-755f7b2dae5068d9.d
+│   │   │   ├── as_raw_xcb_connection-d1793d78898bb808.d
+│   │   │   ├── async_broadcast-8066ff21a980e4b3.d
+│   │   │   ├── async_broadcast-a7cae9699cbf84ab.d
+│   │   │   ├── async_channel-314b6ca2cdf5c77f.d
+│   │   │   ├── async_channel-a1b98fb169b37e61.d
+│   │   │   ├── async_executor-8418b5a16e8518c9.d
+│   │   │   ├── async_executor-bfb7d853ddfd8e93.d
+│   │   │   ├── async_fs-08048fafef4c7bcc.d
+│   │   │   ├── async_fs-25971719d833521d.d
+│   │   │   ├── async_lock-17989f084d4430f4.d
+│   │   │   ├── async_lock-ec434f33da2ab70f.d
+│   │   │   ├── async_task-3d0419219df0b779.d
+│   │   │   ├── async_task-4faeeb22cec1b7a0.d
+│   │   │   ├── atomic_waker-716c2c33f6d08964.d
+│   │   │   ├── atomic_waker-e067625e4bc81c05.d
+│   │   │   ├── autocfg-aff4a3e13959ba47.d
+│   │   │   ├── base64-592b8101aa894a7a.d
+│   │   │   ├── base64-6742c350e4a65d40.d
+│   │   │   ├── bevy_a11y-acf712742e330e96.d
+│   │   │   ├── bevy_animation-d74c14983e1f9d7f.d
+│   │   │   ├── bevy_app-bfbc4e85b2314821.d
+│   │   │   ├── bevy_asset-d2f0304a3afc8a01.d
+│   │   │   ├── bevy_asset_macros-61b1d1a7530ecb35.d
+│   │   │   ├── bevy_core-c4bbc36f0f3f962f.d
+│   │   │   ├── bevy_core_pipeline-81486faad30aa2ef.d
+│   │   │   ├── bevy_derive-fee2ef2b3422f856.d
+│   │   │   ├── bevy_diagnostic-bb5621a2af51660b.d
+│   │   │   ├── bevy_ecs-155f36a60f764b49.d
+│   │   │   ├── bevy_ecs_macros-e39827d731aa2019.d
+│   │   │   ├── bevy_encase_derive-e512fdc3343a2329.d
+│   │   │   ├── bevy_gizmos-0a7562f1f0a03d20.d
+│   │   │   ├── bevy_gizmos_macros-3330c161715650ec.d
+│   │   │   ├── bevy_gltf-03d35bc545e282f2.d
+│   │   │   ├── bevy_hierarchy-bafce138953b281c.d
+│   │   │   ├── bevy_input-a0341a633c47a73f.d
+│   │   │   ├── bevy_inspector_egui_derive-728574265447516f.d
+│   │   │   ├── bevy_log-f6585e54aaef88a9.d
+│   │   │   ├── bevy_macro_utils-0c228969f3adbd8d.d
+│   │   │   ├── bevy_macro_utils-cb688fcd7907d087.d
+│   │   │   ├── bevy_math-da532a6406c450e8.d
+│   │   │   ├── bevy_mikktspace-f8516c83cc843f1a.d
+│   │   │   ├── bevy_pbr-7ba95152f35d9622.d
+│   │   │   ├── bevy_ptr-a7e9a0b9bc17aa02.d
+│   │   │   ├── bevy_ptr-e1fd467e5f18e7d7.d
+│   │   │   ├── bevy_reflect-2276342e7b044b15.d
+│   │   │   ├── bevy_reflect_derive-ea34888f6f8ec4fe.d
+│   │   │   ├── bevy_render-fa6543e5f5e0764d.d
+│   │   │   ├── bevy_render_macros-8dd36bd3ad834b5d.d
+│   │   │   ├── bevy_scene-b1eff92b8174b955.d
+│   │   │   ├── bevy_sprite-42575a171048e9d1.d
+│   │   │   ├── bevy_tasks-0d429602a4c66184.d
+│   │   │   ├── bevy_tasks-36e12e5fc8becf30.d
+│   │   │   ├── bevy_text-f0289b4231d12baa.d
+│   │   │   ├── bevy_time-602c40ec88b3f85e.d
+│   │   │   ├── bevy_transform-8d0f28d9699b3b3d.d
+│   │   │   ├── bevy_ui-9daf5f4457ee700f.d
+│   │   │   ├── bevy_utils-367564b54c4bce66.d
+│   │   │   ├── bevy_utils_proc_macros-ca02643290da8c7d.d
+│   │   │   ├── bevy_window-8d597d8cda454679.d
+│   │   │   ├── bevy_winit-d8e0f304fd97efb4.d
+│   │   │   ├── bitflags-9290f08cc27b1b49.d
+│   │   │   ├── bitflags-ed0db599db8b4839.d
+│   │   │   ├── bitflags-f74534e35f2c9eb8.d
+│   │   │   ├── bit_set-e66056ca94ac5cbb.d
+│   │   │   ├── bit_set-edc4756eb403535d.d
+│   │   │   ├── bit_vec-0b99131a6ad259db.d
+│   │   │   ├── bit_vec-90d06b94f4717007.d
+│   │   │   ├── blake3-6018c20a03817c5d.d
+│   │   │   ├── blake3-69e411bcfa5381dc.d
+│   │   │   ├── blocking-31ec284e3f196110.d
+│   │   │   ├── blocking-89c72135af191197.d
+│   │   │   ├── bytemuck-7c22efaff0697656.d
+│   │   │   ├── bytemuck_derive-eb0c420dbf386033.d
+│   │   │   ├── byteorder-41a9867a1e2cee3a.d
+│   │   │   ├── byteorder-bc8232692ce260f3.d
+│   │   │   ├── calloop-5bf92d0f413783a3.d
+│   │   │   ├── cc-92844840838c28f6.d
+│   │   │   ├── cfg_aliases-991da5bd55343c83.d
+│   │   │   ├── cfg_if-2be1fc00362c1afa.d
+│   │   │   ├── cfg_if-5ff329742ead4217.d
+│   │   │   ├── cfg_if-b4426ff1b148cf01.d
+│   │   │   ├── codespan_reporting-2f4edeb351f2566c.d
+│   │   │   ├── codespan_reporting-f344c48b0bf3e1f5.d
+│   │   │   ├── color_quant-2fba1fb340807416.d
+│   │   │   ├── color_quant-5b2eb4169a49c78d.d
+│   │   │   ├── concurrent_queue-8d6e895015fdb518.d
+│   │   │   ├── concurrent_queue-fcacaf4b005540ca.d
+│   │   │   ├── constant_time_eq-5be276c1cc499e2b.d
+│   │   │   ├── constant_time_eq-e0be0cb74ba7d691.d
+│   │   │   ├── const_fnv1a_hash-146d976a88ebb14c.d
+│   │   │   ├── constgebra-70a176e33e1e3025.d
+│   │   │   ├── constgebra-efaf13e95551b081.d
+│   │   │   ├── const_panic-9a161806783cc4f1.d
+│   │   │   ├── const_panic-ec1e464c18aeaa59.d
+│   │   │   ├── const_soft_float-4ac9ecc69655bc7a.d
+│   │   │   ├── const_soft_float-7591ec3ef545f31f.d
+│   │   │   ├── crc32fast-089953295218e694.d
+│   │   │   ├── crc32fast-ef32d47fe8077805.d
+│   │   │   ├── crossbeam_channel-1d575ea9064bdbed.d
+│   │   │   ├── crossbeam_channel-c082224f002a5399.d
+│   │   │   ├── crossbeam_utils-017de8f1b851f5e8.d
+│   │   │   ├── crossbeam_utils-d6668673da6ba68e.d
+│   │   │   ├── cursor_icon-8ec09c2955509c4e.d
+│   │   │   ├── dasp_sample-2e12520612cca814.d
+│   │   │   ├── data_encoding-560821c3c35aafa5.d
+│   │   │   ├── data_encoding-9859f4d440622de5.d
+│   │   │   ├── derive_more-a5e2e395a1ef1fd8.d
+│   │   │   ├── dlib-d64e04d72cd385f5.d
+│   │   │   ├── downcast_rs-50ad5991c8a7e1fa.d
+│   │   │   ├── downcast_rs-5cbf869557b8049d.d
+│   │   │   ├── ecolor-7e59b947c26558fa.d
+│   │   │   ├── egui_dropdown-e93980a65edaae6e.d
+│   │   │   ├── egui-ef8d2a7ea779da57.d
+│   │   │   ├── emath-a797306f398a82c7.d
+│   │   │   ├── encase-38c1fe7aeb5c99a8.d
+│   │   │   ├── encase_derive-87767230d1c1b1ea.d
+│   │   │   ├── encase_derive_impl-4e3e57c5c5082609.d
+│   │   │   ├── encase_derive_impl-a94b51391ac015f7.d
+│   │   │   ├── epaint-b96315140e5707d8.d
+│   │   │   ├── equivalent-38579a1f9a50edf2.d
+│   │   │   ├── equivalent-680c6a97ea2e53fe.d
+│   │   │   ├── equivalent-83b7b4edb0a197bf.d
+│   │   │   ├── erased_serde-d92a1ebfb4718e28.d
+│   │   │   ├── euclid-c89a132b2216b080.d
+│   │   │   ├── event_listener-04e386c953f93baf.d
+│   │   │   ├── event_listener-359144c3d6ad1d63.d
+│   │   │   ├── event_listener-3d041439cdbd9846.d
+│   │   │   ├── event_listener-76614c0a4db4a8a6.d
+│   │   │   ├── event_listener-d9ee1d509bddc42a.d
+│   │   │   ├── event_listener-fb79e181a8b276e3.d
+│   │   │   ├── event_listener_strategy-729361948cf492d4.d
+│   │   │   ├── event_listener_strategy-9ad487cee8e96b0e.d
+│   │   │   ├── event_listener_strategy-c9d2319b3527ff19.d
+│   │   │   ├── event_listener_strategy-fbdab4a5c219659c.d
+│   │   │   ├── fastrand-c2008e5f1a5213df.d
+│   │   │   ├── fastrand-c4ba984d5807bd45.d
+│   │   │   ├── fdeflate-2b401d6f0e534621.d
+│   │   │   ├── fdeflate-53e755f8d8044595.d
+│   │   │   ├── fixedbitset-3b91285b090aa5cc.d
+│   │   │   ├── fixedbitset-d927135f66281d88.d
+│   │   │   ├── flate2-81544da03826fe16.d
+│   │   │   ├── flate2-ebb2e66f8675c725.d
+│   │   │   ├── fnv-1fd3f2187f6b7661.d
+│   │   │   ├── form_urlencoded-49c3a0a359080d90.d
+│   │   │   ├── futures_core-ba58ee888b9ed206.d
+│   │   │   ├── futures_core-f96403ffb2ee08a7.d
+│   │   │   ├── futures_io-cb5271146d94cd51.d
+│   │   │   ├── futures_io-dbf48bac0178239b.d
+│   │   │   ├── futures_lite-b8dfad1edd985d9c.d
+│   │   │   ├── futures_lite-bb2ed5660d61f5c6.d
+│   │   │   ├── fuzzy_matcher-88cb2a26705566f8.d
+│   │   │   ├── getrandom-19b661e6be416e47.d
+│   │   │   ├── getrandom-408745623fc2360c.d
+│   │   │   ├── getrandom-630512d4b8ec9122.d
+│   │   │   ├── getrandom-a267d1a33fcba8ff.d
+│   │   │   ├── glam-8c7b8db28573d7bb.d
+│   │   │   ├── glow-4ce9c08650779b2f.d
+│   │   │   ├── glow-f11e4c06eb6897d8.d
+│   │   │   ├── gltf_derive-4df810b35afc5975.d
+│   │   │   ├── gltf-eb1f21807ea6615f.d
+│   │   │   ├── gltf_json-60439ece1214dd8d.d
+│   │   │   ├── glyph_brush_layout-f031a26a14cdd0c9.d
+│   │   │   ├── gpu_alloc-4b38ff74aff5e258.d
+│   │   │   ├── gpu_alloc_types-a39b63a7498fed05.d
+│   │   │   ├── gpu_descriptor-5dcd2b8e8e9a8c1f.d
+│   │   │   ├── gpu_descriptor_types-845a070f481389aa.d
+│   │   │   ├── grid-3092809f7c8f1cfd.d
+│   │   │   ├── guillotiere-27e78cadcb0841a6.d
+│   │   │   ├── hashbrown-d7e14c736fa3500a.d
+│   │   │   ├── hashbrown-e25de456ee739c3f.d
+│   │   │   ├── hexasphere-9580729e7e29b1f4.d
+│   │   │   ├── hexf_parse-10daefb3d2d2b782.d
+│   │   │   ├── hexf_parse-e1ed04195413cc73.d
+│   │   │   ├── home-fb4dbd53f053d5e7.d
+│   │   │   ├── idna-9f9b192ab51f0356.d
+│   │   │   ├── image-464c356012cb2ac8.d
+│   │   │   ├── image-5c9d1c2bd0d3e55d.d
+│   │   │   ├── indexmap-776f12e6fdfc183b.d
+│   │   │   ├── indexmap-a6bf5c6940aea2ea.d
+│   │   │   ├── indexmap-f36afce36194b2a3.d
+│   │   │   ├── inflections-7a05bed28e2e9c33.d
+│   │   │   ├── inotify-22b00433af745eb4.d
+│   │   │   ├── inotify_sys-90f7ea3259561031.d
+│   │   │   ├── itoa-6ad6e37b5669c4b1.d
+│   │   │   ├── khronos_egl-a31056e5d3fc3769.d
+│   │   │   ├── khronos_egl-ae3fc2d2dac84274.d
+│   │   │   ├── ktx2-1f960fcb91955a53.d
+│   │   │   ├── ktx2-eaa81043bcaf7295.d
+│   │   │   ├── lazy_static-8e1e665efeec08d5.d
+│   │   │   ├── lazy_static-905dee36cd841495.d
+│   │   │   ├── lewton-b64c715c30a97341.d
+│   │   │   ├── libab_glyph-466f5897168a78f4.rmeta
+│   │   │   ├── libab_glyph_rasterizer-7b7e48be64f47dfc.rlib
+│   │   │   ├── libab_glyph_rasterizer-7b7e48be64f47dfc.rmeta
+│   │   │   ├── libab_glyph_rasterizer-d89f1a4fe7ccfc66.rmeta
+│   │   │   ├── libaccesskit-06f5915be0218c13.rmeta
+│   │   │   ├── libaccesskit-3312d6ea61077ec8.rlib
+│   │   │   ├── libaccesskit-3312d6ea61077ec8.rmeta
+│   │   │   ├── libaccesskit_winit-91ea3ddbeb2ba046.rmeta
+│   │   │   ├── libadler-4f876ee4066313ab.rmeta
+│   │   │   ├── libadler-ec49f9597437790c.rlib
+│   │   │   ├── libadler-ec49f9597437790c.rmeta
+│   │   │   ├── libahash-1c37e9e441254343.rmeta
+│   │   │   ├── libahash-fe0977464d67b594.rlib
+│   │   │   ├── libahash-fe0977464d67b594.rmeta
+│   │   │   ├── libaho_corasick-4217cc4411b88705.rmeta
+│   │   │   ├── libaho_corasick-db1efa7cf533cb68.rlib
+│   │   │   ├── libaho_corasick-db1efa7cf533cb68.rmeta
+│   │   │   ├── liballocator_api2-b0ef5c4c7d1d5071.rmeta
+│   │   │   ├── liballocator_api2-c0a057538ec490c0.rlib
+│   │   │   ├── liballocator_api2-c0a057538ec490c0.rmeta
+│   │   │   ├── libapprox-56a6b8d9ac6589bc.rmeta
+│   │   │   ├── libarboard-f9df5f404b08c638.rmeta
+│   │   │   ├── libarrayref-349e7c193c03271d.rlib
+│   │   │   ├── libarrayref-349e7c193c03271d.rmeta
+│   │   │   ├── libarrayref-3677142192279517.rmeta
+│   │   │   ├── libarrayvec-51e58cd2ed5ace7c.rmeta
+│   │   │   ├── libarrayvec-e24ea8eb78f8f8bb.rlib
+│   │   │   ├── libarrayvec-e24ea8eb78f8f8bb.rmeta
+│   │   │   ├── libash-25d1d88b5fdd6536.rmeta
+│   │   │   ├── libash-755f7b2dae5068d9.rlib
+│   │   │   ├── libash-755f7b2dae5068d9.rmeta
+│   │   │   ├── libas_raw_xcb_connection-d1793d78898bb808.rmeta
+│   │   │   ├── libasync_broadcast-8066ff21a980e4b3.rmeta
+│   │   │   ├── libasync_broadcast-a7cae9699cbf84ab.rlib
+│   │   │   ├── libasync_broadcast-a7cae9699cbf84ab.rmeta
+│   │   │   ├── libasync_channel-314b6ca2cdf5c77f.rlib
+│   │   │   ├── libasync_channel-314b6ca2cdf5c77f.rmeta
+│   │   │   ├── libasync_channel-a1b98fb169b37e61.rmeta
+│   │   │   ├── libasync_executor-8418b5a16e8518c9.rlib
+│   │   │   ├── libasync_executor-8418b5a16e8518c9.rmeta
+│   │   │   ├── libasync_executor-bfb7d853ddfd8e93.rmeta
+│   │   │   ├── libasync_fs-08048fafef4c7bcc.rmeta
+│   │   │   ├── libasync_fs-25971719d833521d.rlib
+│   │   │   ├── libasync_fs-25971719d833521d.rmeta
+│   │   │   ├── libasync_lock-17989f084d4430f4.rlib
+│   │   │   ├── libasync_lock-17989f084d4430f4.rmeta
+│   │   │   ├── libasync_lock-ec434f33da2ab70f.rmeta
+│   │   │   ├── libasync_task-3d0419219df0b779.rlib
+│   │   │   ├── libasync_task-3d0419219df0b779.rmeta
+│   │   │   ├── libasync_task-4faeeb22cec1b7a0.rmeta
+│   │   │   ├── libatomic_waker-716c2c33f6d08964.rmeta
+│   │   │   ├── libatomic_waker-e067625e4bc81c05.rlib
+│   │   │   ├── libatomic_waker-e067625e4bc81c05.rmeta
+│   │   │   ├── libautocfg-aff4a3e13959ba47.rlib
+│   │   │   ├── libautocfg-aff4a3e13959ba47.rmeta
+│   │   │   ├── libbase64-592b8101aa894a7a.rlib
+│   │   │   ├── libbase64-592b8101aa894a7a.rmeta
+│   │   │   ├── libbase64-6742c350e4a65d40.rmeta
+│   │   │   ├── libbevy_a11y-acf712742e330e96.rmeta
+│   │   │   ├── libbevy_animation-d74c14983e1f9d7f.rmeta
+│   │   │   ├── libbevy_app-bfbc4e85b2314821.rmeta
+│   │   │   ├── libbevy_asset-d2f0304a3afc8a01.rmeta
+│   │   │   ├── libbevy_asset_macros-61b1d1a7530ecb35.so
+│   │   │   ├── libbevy_core-c4bbc36f0f3f962f.rmeta
+│   │   │   ├── libbevy_core_pipeline-81486faad30aa2ef.rmeta
+│   │   │   ├── libbevy_derive-fee2ef2b3422f856.so
+│   │   │   ├── libbevy_diagnostic-bb5621a2af51660b.rmeta
+│   │   │   ├── libbevy_ecs-155f36a60f764b49.rmeta
+│   │   │   ├── libbevy_ecs_macros-e39827d731aa2019.so
+│   │   │   ├── libbevy_encase_derive-e512fdc3343a2329.so
+│   │   │   ├── libbevy_gizmos-0a7562f1f0a03d20.rmeta
+│   │   │   ├── libbevy_gizmos_macros-3330c161715650ec.so
+│   │   │   ├── libbevy_gltf-03d35bc545e282f2.rmeta
+│   │   │   ├── libbevy_hierarchy-bafce138953b281c.rmeta
+│   │   │   ├── libbevy_input-a0341a633c47a73f.rmeta
+│   │   │   ├── libbevy_inspector_egui_derive-728574265447516f.so
+│   │   │   ├── libbevy_log-f6585e54aaef88a9.rmeta
+│   │   │   ├── libbevy_macro_utils-0c228969f3adbd8d.rlib
+│   │   │   ├── libbevy_macro_utils-0c228969f3adbd8d.rmeta
+│   │   │   ├── libbevy_macro_utils-cb688fcd7907d087.rlib
+│   │   │   ├── libbevy_macro_utils-cb688fcd7907d087.rmeta
+│   │   │   ├── libbevy_math-da532a6406c450e8.rmeta
+│   │   │   ├── libbevy_mikktspace-f8516c83cc843f1a.rmeta
+│   │   │   ├── libbevy_pbr-7ba95152f35d9622.rmeta
+│   │   │   ├── libbevy_ptr-a7e9a0b9bc17aa02.rlib
+│   │   │   ├── libbevy_ptr-a7e9a0b9bc17aa02.rmeta
+│   │   │   ├── libbevy_ptr-e1fd467e5f18e7d7.rmeta
+│   │   │   ├── libbevy_reflect-2276342e7b044b15.rmeta
+│   │   │   ├── libbevy_reflect_derive-ea34888f6f8ec4fe.so
+│   │   │   ├── libbevy_render-fa6543e5f5e0764d.rmeta
+│   │   │   ├── libbevy_render_macros-8dd36bd3ad834b5d.so
+│   │   │   ├── libbevy_scene-b1eff92b8174b955.rmeta
+│   │   │   ├── libbevy_sprite-42575a171048e9d1.rmeta
+│   │   │   ├── libbevy_tasks-0d429602a4c66184.rmeta
+│   │   │   ├── libbevy_tasks-36e12e5fc8becf30.rlib
+│   │   │   ├── libbevy_tasks-36e12e5fc8becf30.rmeta
+│   │   │   ├── libbevy_text-f0289b4231d12baa.rmeta
+│   │   │   ├── libbevy_time-602c40ec88b3f85e.rmeta
+│   │   │   ├── libbevy_transform-8d0f28d9699b3b3d.rmeta
+│   │   │   ├── libbevy_ui-9daf5f4457ee700f.rmeta
+│   │   │   ├── libbevy_utils-367564b54c4bce66.rmeta
+│   │   │   ├── libbevy_utils_proc_macros-ca02643290da8c7d.so
+│   │   │   ├── libbevy_window-8d597d8cda454679.rmeta
+│   │   │   ├── libbevy_winit-d8e0f304fd97efb4.rmeta
+│   │   │   ├── libbitflags-9290f08cc27b1b49.rmeta
+│   │   │   ├── libbitflags-ed0db599db8b4839.rlib
+│   │   │   ├── libbitflags-ed0db599db8b4839.rmeta
+│   │   │   ├── libbitflags-f74534e35f2c9eb8.rmeta
+│   │   │   ├── libbit_set-e66056ca94ac5cbb.rmeta
+│   │   │   ├── libbit_set-edc4756eb403535d.rlib
+│   │   │   ├── libbit_set-edc4756eb403535d.rmeta
+│   │   │   ├── libbit_vec-0b99131a6ad259db.rmeta
+│   │   │   ├── libbit_vec-90d06b94f4717007.rlib
+│   │   │   ├── libbit_vec-90d06b94f4717007.rmeta
+│   │   │   ├── libblake3-6018c20a03817c5d.rmeta
+│   │   │   ├── libblake3-69e411bcfa5381dc.rlib
+│   │   │   ├── libblake3-69e411bcfa5381dc.rmeta
+│   │   │   ├── libblocking-31ec284e3f196110.rmeta
+│   │   │   ├── libblocking-89c72135af191197.rlib
+│   │   │   ├── libblocking-89c72135af191197.rmeta
+│   │   │   ├── libbytemuck-7c22efaff0697656.rmeta
+│   │   │   ├── libbytemuck_derive-eb0c420dbf386033.so
+│   │   │   ├── libbyteorder-41a9867a1e2cee3a.rlib
+│   │   │   ├── libbyteorder-41a9867a1e2cee3a.rmeta
+│   │   │   ├── libbyteorder-bc8232692ce260f3.rmeta
+│   │   │   ├── libc-134ac376092d5e2c.d
+│   │   │   ├── libc-86bd863ef5e31794.d
+│   │   │   ├── libcalloop-5bf92d0f413783a3.rmeta
+│   │   │   ├── libcc-92844840838c28f6.rlib
+│   │   │   ├── libcc-92844840838c28f6.rmeta
+│   │   │   ├── libc-dfe911814d071fb9.d
+│   │   │   ├── libcfg_aliases-991da5bd55343c83.rlib
+│   │   │   ├── libcfg_aliases-991da5bd55343c83.rmeta
+│   │   │   ├── libcfg_if-2be1fc00362c1afa.rlib
+│   │   │   ├── libcfg_if-2be1fc00362c1afa.rmeta
+│   │   │   ├── libcfg_if-5ff329742ead4217.rlib
+│   │   │   ├── libcfg_if-5ff329742ead4217.rmeta
+│   │   │   ├── libcfg_if-b4426ff1b148cf01.rmeta
+│   │   │   ├── libcodespan_reporting-2f4edeb351f2566c.rmeta
+│   │   │   ├── libcodespan_reporting-f344c48b0bf3e1f5.rlib
+│   │   │   ├── libcodespan_reporting-f344c48b0bf3e1f5.rmeta
+│   │   │   ├── libcolor_quant-2fba1fb340807416.rlib
+│   │   │   ├── libcolor_quant-2fba1fb340807416.rmeta
+│   │   │   ├── libcolor_quant-5b2eb4169a49c78d.rmeta
+│   │   │   ├── libconcurrent_queue-8d6e895015fdb518.rlib
+│   │   │   ├── libconcurrent_queue-8d6e895015fdb518.rmeta
+│   │   │   ├── libconcurrent_queue-fcacaf4b005540ca.rmeta
+│   │   │   ├── libconstant_time_eq-5be276c1cc499e2b.rlib
+│   │   │   ├── libconstant_time_eq-5be276c1cc499e2b.rmeta
+│   │   │   ├── libconstant_time_eq-e0be0cb74ba7d691.rmeta
+│   │   │   ├── libconst_fnv1a_hash-146d976a88ebb14c.rmeta
+│   │   │   ├── libconstgebra-70a176e33e1e3025.rlib
+│   │   │   ├── libconstgebra-70a176e33e1e3025.rmeta
+│   │   │   ├── libconstgebra-efaf13e95551b081.rmeta
+│   │   │   ├── libconst_panic-9a161806783cc4f1.rmeta
+│   │   │   ├── libconst_panic-ec1e464c18aeaa59.rlib
+│   │   │   ├── libconst_panic-ec1e464c18aeaa59.rmeta
+│   │   │   ├── libconst_soft_float-4ac9ecc69655bc7a.rlib
+│   │   │   ├── libconst_soft_float-4ac9ecc69655bc7a.rmeta
+│   │   │   ├── libconst_soft_float-7591ec3ef545f31f.rmeta
+│   │   │   ├── libcrc32fast-089953295218e694.rmeta
+│   │   │   ├── libcrc32fast-ef32d47fe8077805.rlib
+│   │   │   ├── libcrc32fast-ef32d47fe8077805.rmeta
+│   │   │   ├── libcrossbeam_channel-1d575ea9064bdbed.rlib
+│   │   │   ├── libcrossbeam_channel-1d575ea9064bdbed.rmeta
+│   │   │   ├── libcrossbeam_channel-c082224f002a5399.rmeta
+│   │   │   ├── libcrossbeam_utils-017de8f1b851f5e8.rmeta
+│   │   │   ├── libcrossbeam_utils-d6668673da6ba68e.rlib
+│   │   │   ├── libcrossbeam_utils-d6668673da6ba68e.rmeta
+│   │   │   ├── libcursor_icon-8ec09c2955509c4e.rmeta
+│   │   │   ├── libdasp_sample-2e12520612cca814.rmeta
+│   │   │   ├── libdata_encoding-560821c3c35aafa5.rlib
+│   │   │   ├── libdata_encoding-560821c3c35aafa5.rmeta
+│   │   │   ├── libdata_encoding-9859f4d440622de5.rmeta
+│   │   │   ├── libderive_more-a5e2e395a1ef1fd8.so
+│   │   │   ├── libdlib-d64e04d72cd385f5.rmeta
+│   │   │   ├── libdowncast_rs-50ad5991c8a7e1fa.rmeta
+│   │   │   ├── libdowncast_rs-5cbf869557b8049d.rlib
+│   │   │   ├── libdowncast_rs-5cbf869557b8049d.rmeta
+│   │   │   ├── libecolor-7e59b947c26558fa.rmeta
+│   │   │   ├── libegui_dropdown-e93980a65edaae6e.rmeta
+│   │   │   ├── libegui-ef8d2a7ea779da57.rmeta
+│   │   │   ├── libemath-a797306f398a82c7.rmeta
+│   │   │   ├── libencase-38c1fe7aeb5c99a8.rmeta
+│   │   │   ├── libencase_derive-87767230d1c1b1ea.so
+│   │   │   ├── libencase_derive_impl-4e3e57c5c5082609.rlib
+│   │   │   ├── libencase_derive_impl-4e3e57c5c5082609.rmeta
+│   │   │   ├── libencase_derive_impl-a94b51391ac015f7.rlib
+│   │   │   ├── libencase_derive_impl-a94b51391ac015f7.rmeta
+│   │   │   ├── libepaint-b96315140e5707d8.rmeta
+│   │   │   ├── libequivalent-38579a1f9a50edf2.rlib
+│   │   │   ├── libequivalent-38579a1f9a50edf2.rmeta
+│   │   │   ├── libequivalent-680c6a97ea2e53fe.rmeta
+│   │   │   ├── libequivalent-83b7b4edb0a197bf.rlib
+│   │   │   ├── libequivalent-83b7b4edb0a197bf.rmeta
+│   │   │   ├── liberased_serde-d92a1ebfb4718e28.rmeta
+│   │   │   ├── libeuclid-c89a132b2216b080.rmeta
+│   │   │   ├── libevent_listener-04e386c953f93baf.rmeta
+│   │   │   ├── libevent_listener-359144c3d6ad1d63.rlib
+│   │   │   ├── libevent_listener-359144c3d6ad1d63.rmeta
+│   │   │   ├── libevent_listener-3d041439cdbd9846.rmeta
+│   │   │   ├── libevent_listener-76614c0a4db4a8a6.rlib
+│   │   │   ├── libevent_listener-76614c0a4db4a8a6.rmeta
+│   │   │   ├── libevent_listener-d9ee1d509bddc42a.rlib
+│   │   │   ├── libevent_listener-d9ee1d509bddc42a.rmeta
+│   │   │   ├── libevent_listener-fb79e181a8b276e3.rmeta
+│   │   │   ├── libevent_listener_strategy-729361948cf492d4.rmeta
+│   │   │   ├── libevent_listener_strategy-9ad487cee8e96b0e.rlib
+│   │   │   ├── libevent_listener_strategy-9ad487cee8e96b0e.rmeta
+│   │   │   ├── libevent_listener_strategy-c9d2319b3527ff19.rlib
+│   │   │   ├── libevent_listener_strategy-c9d2319b3527ff19.rmeta
+│   │   │   ├── libevent_listener_strategy-fbdab4a5c219659c.rmeta
+│   │   │   ├── libfastrand-c2008e5f1a5213df.rmeta
+│   │   │   ├── libfastrand-c4ba984d5807bd45.rlib
+│   │   │   ├── libfastrand-c4ba984d5807bd45.rmeta
+│   │   │   ├── libfdeflate-2b401d6f0e534621.rmeta
+│   │   │   ├── libfdeflate-53e755f8d8044595.rlib
+│   │   │   ├── libfdeflate-53e755f8d8044595.rmeta
+│   │   │   ├── libfixedbitset-3b91285b090aa5cc.rmeta
+│   │   │   ├── libfixedbitset-d927135f66281d88.rlib
+│   │   │   ├── libfixedbitset-d927135f66281d88.rmeta
+│   │   │   ├── libflate2-81544da03826fe16.rmeta
+│   │   │   ├── libflate2-ebb2e66f8675c725.rlib
+│   │   │   ├── libflate2-ebb2e66f8675c725.rmeta
+│   │   │   ├── libfnv-1fd3f2187f6b7661.rmeta
+│   │   │   ├── libform_urlencoded-49c3a0a359080d90.rmeta
+│   │   │   ├── libfutures_core-ba58ee888b9ed206.rlib
+│   │   │   ├── libfutures_core-ba58ee888b9ed206.rmeta
+│   │   │   ├── libfutures_core-f96403ffb2ee08a7.rmeta
+│   │   │   ├── libfutures_io-cb5271146d94cd51.rmeta
+│   │   │   ├── libfutures_io-dbf48bac0178239b.rlib
+│   │   │   ├── libfutures_io-dbf48bac0178239b.rmeta
+│   │   │   ├── libfutures_lite-b8dfad1edd985d9c.rmeta
+│   │   │   ├── libfutures_lite-bb2ed5660d61f5c6.rlib
+│   │   │   ├── libfutures_lite-bb2ed5660d61f5c6.rmeta
+│   │   │   ├── libfuzzy_matcher-88cb2a26705566f8.rmeta
+│   │   │   ├── libgetrandom-19b661e6be416e47.rlib
+│   │   │   ├── libgetrandom-19b661e6be416e47.rmeta
+│   │   │   ├── libgetrandom-408745623fc2360c.rlib
+│   │   │   ├── libgetrandom-408745623fc2360c.rmeta
+│   │   │   ├── libgetrandom-630512d4b8ec9122.rlib
+│   │   │   ├── libgetrandom-630512d4b8ec9122.rmeta
+│   │   │   ├── libgetrandom-a267d1a33fcba8ff.rmeta
+│   │   │   ├── libglam-8c7b8db28573d7bb.rmeta
+│   │   │   ├── libglow-4ce9c08650779b2f.rmeta
+│   │   │   ├── libglow-f11e4c06eb6897d8.rlib
+│   │   │   ├── libglow-f11e4c06eb6897d8.rmeta
+│   │   │   ├── libgltf_derive-4df810b35afc5975.so
+│   │   │   ├── libgltf-eb1f21807ea6615f.rmeta
+│   │   │   ├── libgltf_json-60439ece1214dd8d.rmeta
+│   │   │   ├── libglyph_brush_layout-f031a26a14cdd0c9.rmeta
+│   │   │   ├── libgpu_alloc-4b38ff74aff5e258.rmeta
+│   │   │   ├── libgpu_alloc_types-a39b63a7498fed05.rmeta
+│   │   │   ├── libgpu_descriptor-5dcd2b8e8e9a8c1f.rmeta
+│   │   │   ├── libgpu_descriptor_types-845a070f481389aa.rmeta
+│   │   │   ├── libgrid-3092809f7c8f1cfd.rmeta
+│   │   │   ├── libguillotiere-27e78cadcb0841a6.rmeta
+│   │   │   ├── libhashbrown-d7e14c736fa3500a.rlib
+│   │   │   ├── libhashbrown-d7e14c736fa3500a.rmeta
+│   │   │   ├── libhashbrown-e25de456ee739c3f.rmeta
+│   │   │   ├── libhexasphere-9580729e7e29b1f4.rmeta
+│   │   │   ├── libhexf_parse-10daefb3d2d2b782.rmeta
+│   │   │   ├── libhexf_parse-e1ed04195413cc73.rlib
+│   │   │   ├── libhexf_parse-e1ed04195413cc73.rmeta
+│   │   │   ├── libhome-fb4dbd53f053d5e7.rmeta
+│   │   │   ├── libidna-9f9b192ab51f0356.rmeta
+│   │   │   ├── libimage-464c356012cb2ac8.rmeta
+│   │   │   ├── libimage-5c9d1c2bd0d3e55d.rmeta
+│   │   │   ├── libindexmap-776f12e6fdfc183b.rlib
+│   │   │   ├── libindexmap-776f12e6fdfc183b.rmeta
+│   │   │   ├── libindexmap-a6bf5c6940aea2ea.rmeta
+│   │   │   ├── libindexmap-f36afce36194b2a3.rlib
+│   │   │   ├── libindexmap-f36afce36194b2a3.rmeta
+│   │   │   ├── libinflections-7a05bed28e2e9c33.rlib
+│   │   │   ├── libinflections-7a05bed28e2e9c33.rmeta
+│   │   │   ├── libinotify-22b00433af745eb4.rmeta
+│   │   │   ├── libinotify_sys-90f7ea3259561031.rmeta
+│   │   │   ├── libitoa-6ad6e37b5669c4b1.rmeta
+│   │   │   ├── libkhronos_egl-a31056e5d3fc3769.rmeta
+│   │   │   ├── libkhronos_egl-ae3fc2d2dac84274.rlib
+│   │   │   ├── libkhronos_egl-ae3fc2d2dac84274.rmeta
+│   │   │   ├── libktx2-1f960fcb91955a53.rlib
+│   │   │   ├── libktx2-1f960fcb91955a53.rmeta
+│   │   │   ├── libktx2-eaa81043bcaf7295.rmeta
+│   │   │   ├── liblazy_static-8e1e665efeec08d5.rlib
+│   │   │   ├── liblazy_static-8e1e665efeec08d5.rmeta
+│   │   │   ├── liblazy_static-905dee36cd841495.rmeta
+│   │   │   ├── liblewton-b64c715c30a97341.rmeta
+│   │   │   ├── liblibc-134ac376092d5e2c.rmeta
+│   │   │   ├── liblibc-86bd863ef5e31794.rlib
+│   │   │   ├── liblibc-86bd863ef5e31794.rmeta
+│   │   │   ├── liblibc-dfe911814d071fb9.rlib
+│   │   │   ├── liblibc-dfe911814d071fb9.rmeta
+│   │   │   ├── liblibloading-256ecaec75bf408f.rmeta
+│   │   │   ├── liblibloading-5adb17f45bf2273d.rmeta
+│   │   │   ├── liblibloading-5fb55c706cf203e3.rlib
+│   │   │   ├── liblibloading-5fb55c706cf203e3.rmeta
+│   │   │   ├── liblibloading-90b44e8ad32ec97e.rlib
+│   │   │   ├── liblibloading-90b44e8ad32ec97e.rmeta
+│   │   │   ├── liblinux_raw_sys-aac5098bd0db2122.rlib
+│   │   │   ├── liblinux_raw_sys-aac5098bd0db2122.rmeta
+│   │   │   ├── liblinux_raw_sys-c6a5fe53308abbf3.rmeta
+│   │   │   ├── libloading-256ecaec75bf408f.d
+│   │   │   ├── libloading-5adb17f45bf2273d.d
+│   │   │   ├── libloading-5fb55c706cf203e3.d
+│   │   │   ├── libloading-90b44e8ad32ec97e.d
+│   │   │   ├── liblock_api-023ff5dfc6cd64d5.rlib
+│   │   │   ├── liblock_api-023ff5dfc6cd64d5.rmeta
+│   │   │   ├── liblock_api-f0e89ef3e5d24204.rmeta
+│   │   │   ├── liblog-4cc6917da009d269.rmeta
+│   │   │   ├── liblog-bdfbe547eede8cb0.rlib
+│   │   │   ├── liblog-bdfbe547eede8cb0.rmeta
+│   │   │   ├── libmatchers-2ce25257fff16aa4.rmeta
+│   │   │   ├── libmatchers-dc93a2bd59af1da2.rlib
+│   │   │   ├── libmatchers-dc93a2bd59af1da2.rmeta
+│   │   │   ├── libmemchr-7277d075abff4edc.rlib
+│   │   │   ├── libmemchr-7277d075abff4edc.rmeta
+│   │   │   ├── libmemchr-bd21e95c819dd0c4.rmeta
+│   │   │   ├── libminiz_oxide-712509ba36bfc896.rlib
+│   │   │   ├── libminiz_oxide-712509ba36bfc896.rmeta
+│   │   │   ├── libminiz_oxide-a48593d2c60d68a7.rmeta
+│   │   │   ├── libnaga-55a1febe03b9e136.rmeta
+│   │   │   ├── libnaga_oil-6de1e9da4ee9cca4.rmeta
+│   │   │   ├── libnix-c6a6eeb3e847940b.rmeta
+│   │   │   ├── libnohash_hasher-afff90c97f4f4bb5.rmeta
+│   │   │   ├── libnoise-ae141c48f8f751db.rmeta
+│   │   │   ├── libnonmax-597323926ca02c7b.rmeta
+│   │   │   ├── libnonmax-d999d45f95aa19f6.rlib
+│   │   │   ├── libnonmax-d999d45f95aa19f6.rmeta
+│   │   │   ├── libnu_ansi_term-005697ed6a5f6c12.rlib
+│   │   │   ├── libnu_ansi_term-005697ed6a5f6c12.rmeta
+│   │   │   ├── libnu_ansi_term-2f50d3558673ca24.rmeta
+│   │   │   ├── libnum_traits-3d2f7b000b861168.rmeta
+│   │   │   ├── libnum_traits-ed4e45c96e8e5a3f.rlib
+│   │   │   ├── libnum_traits-ed4e45c96e8e5a3f.rmeta
+│   │   │   ├── libogg-1383bdaa44d7813d.rmeta
+│   │   │   ├── libonce_cell-a12ec16feb2e2aea.rlib
+│   │   │   ├── libonce_cell-a12ec16feb2e2aea.rmeta
+│   │   │   ├── libonce_cell-de205e2f9cae478e.rmeta
+│   │   │   ├── liboverload-bc4e2e7642bbab8a.rmeta
+│   │   │   ├── liboverload-f704e2311a3970c8.rlib
+│   │   │   ├── liboverload-f704e2311a3970c8.rmeta
+│   │   │   ├── libowned_ttf_parser-7b9cf0a6c624caa6.rmeta
+│   │   │   ├── libparking-c2599061a371f65e.rmeta
+│   │   │   ├── libparking-cfaeae8053ba5be4.rlib
+│   │   │   ├── libparking-cfaeae8053ba5be4.rmeta
+│   │   │   ├── libparking_lot-9a6c9fbff53c2080.rmeta
+│   │   │   ├── libparking_lot_core-6f67f51161acef09.rmeta
+│   │   │   ├── libpercent_encoding-c389f43259646a36.rlib
+│   │   │   ├── libpercent_encoding-c389f43259646a36.rmeta
+│   │   │   ├── libpercent_encoding-e288806aa4f9b5d7.rmeta
+│   │   │   ├── libpetgraph-ca4fa99f84381b4c.rmeta
+│   │   │   ├── libpin_project_lite-1641eccc9eb95ac6.rlib
+│   │   │   ├── libpin_project_lite-1641eccc9eb95ac6.rmeta
+│   │   │   ├── libpin_project_lite-ad35835c9dbd543f.rmeta
+│   │   │   ├── libpiper-315e6b61d4b829e4.rlib
+│   │   │   ├── libpiper-315e6b61d4b829e4.rmeta
+│   │   │   ├── libpiper-c4b63b69b8a5a003.rmeta
+│   │   │   ├── libpkg_config-3329666de635faf7.rlib
+│   │   │   ├── libpkg_config-3329666de635faf7.rmeta
+│   │   │   ├── libpng-0ae753b0426c0b0a.rmeta
+│   │   │   ├── libpng-17bb252e21f3c0ef.rlib
+│   │   │   ├── libpng-17bb252e21f3c0ef.rmeta
+│   │   │   ├── libpolling-c8ccd32bdfbfa005.rmeta
+│   │   │   ├── libppv_lite86-762eed32f904aea7.rmeta
+│   │   │   ├── libpretty_type_name-293506fa2cf30033.rmeta
+│   │   │   ├── libproc_macro2-4ceb19dab2fab0c3.rlib
+│   │   │   ├── libproc_macro2-4ceb19dab2fab0c3.rmeta
+│   │   │   ├── libproc_macro2-9de67cd8fe0bf3cc.rlib
+│   │   │   ├── libproc_macro2-9de67cd8fe0bf3cc.rmeta
+│   │   │   ├── libprofiling-637294b7715e0174.rmeta
+│   │   │   ├── libprofiling-7b0c1a503e0d71ae.rlib
+│   │   │   ├── libprofiling-7b0c1a503e0d71ae.rmeta
+│   │   │   ├── libquote-9d5d747a0ef07f1a.rlib
+│   │   │   ├── libquote-9d5d747a0ef07f1a.rmeta
+│   │   │   ├── libquote-b72290479e27a937.rlib
+│   │   │   ├── libquote-b72290479e27a937.rmeta
+│   │   │   ├── libradsort-902e5b5d86504f98.rmeta
+│   │   │   ├── libradsort-e94dbdb912d7789b.rlib
+│   │   │   ├── libradsort-e94dbdb912d7789b.rmeta
+│   │   │   ├── librand-0328014af5aad729.rmeta
+│   │   │   ├── librand_chacha-4e0dde3cc4bf90ff.rmeta
+│   │   │   ├── librand_core-e97ef59bc7b0d440.rmeta
+│   │   │   ├── librand_xorshift-5cf90378fe6debd6.rmeta
+│   │   │   ├── libraw_window_handle-7c0412eda00145fb.rlib
+│   │   │   ├── libraw_window_handle-7c0412eda00145fb.rmeta
+│   │   │   ├── libraw_window_handle-bec0acba3ceaf942.rmeta
+│   │   │   ├── librectangle_pack-30171ef72a6ce58f.rmeta
+│   │   │   ├── libregex-1b3700d4811502ae.rmeta
+│   │   │   ├── libregex-9450a72434c1a57c.rlib
+│   │   │   ├── libregex-9450a72434c1a57c.rmeta
+│   │   │   ├── libregex_automata-5fff9ea3a9d68c67.rmeta
+│   │   │   ├── libregex_automata-85ada1cace90e2d5.rlib
+│   │   │   ├── libregex_automata-85ada1cace90e2d5.rmeta
+│   │   │   ├── libregex_automata-aac22643b7285ac8.rlib
+│   │   │   ├── libregex_automata-aac22643b7285ac8.rmeta
+│   │   │   ├── libregex_automata-e62e8bc513625553.rmeta
+│   │   │   ├── libregex_syntax-3743c46c6564e124.rlib
+│   │   │   ├── libregex_syntax-3743c46c6564e124.rmeta
+│   │   │   ├── libregex_syntax-37eae38983de713a.rlib
+│   │   │   ├── libregex_syntax-37eae38983de713a.rmeta
+│   │   │   ├── libregex_syntax-a3fc2d0171d5a6ef.rmeta
+│   │   │   ├── libregex_syntax-beda9b4f90a59ea9.rmeta
+│   │   │   ├── librenderdoc_sys-5864b39e50787769.rmeta
+│   │   │   ├── librenderdoc_sys-cd896dafe06d2d7a.rlib
+│   │   │   ├── librenderdoc_sys-cd896dafe06d2d7a.rmeta
+│   │   │   ├── libron-230e91b47ec005c4.rmeta
+│   │   │   ├── librustc_hash-78f5298a5e31f3dc.rlib
+│   │   │   ├── librustc_hash-78f5298a5e31f3dc.rmeta
+│   │   │   ├── librustc_hash-98eed4e5fc56a9e9.rlib
+│   │   │   ├── librustc_hash-98eed4e5fc56a9e9.rmeta
+│   │   │   ├── librustc_hash-b1385a3947dba98f.rmeta
+│   │   │   ├── librustix-65398648e8b16987.rmeta
+│   │   │   ├── libruzstd-98056ffedb337126.rmeta
+│   │   │   ├── libryu-1b99acf7e7359c59.rmeta
+│   │   │   ├── libscopeguard-db39df2d361293aa.rmeta
+│   │   │   ├── libscopeguard-e1ce4250f9cab139.rlib
+│   │   │   ├── libscopeguard-e1ce4250f9cab139.rmeta
+│   │   │   ├── libserde-d5f4eb0bd1f05525.rmeta
+│   │   │   ├── libserde_derive-aea42436dc290957.so
+│   │   │   ├── libserde_json-3aeae07219c37f78.rmeta
+│   │   │   ├── libsharded_slab-5ce2d589a7abcb4d.rlib
+│   │   │   ├── libsharded_slab-5ce2d589a7abcb4d.rmeta
+│   │   │   ├── libsharded_slab-f304e3df3a9bc409.rmeta
+│   │   │   ├── libsimd_adler32-466889a08d4a19d5.rmeta
+│   │   │   ├── libsimd_adler32-93c79c862f3d1b83.rlib
+│   │   │   ├── libsimd_adler32-93c79c862f3d1b83.rmeta
+│   │   │   ├── libslab-240de9ce2a73790d.rlib
+│   │   │   ├── libslab-240de9ce2a73790d.rmeta
+│   │   │   ├── libslab-db2b10ca6efffee0.rmeta
+│   │   │   ├── libslotmap-bc6421640b155010.rmeta
+│   │   │   ├── libsmallvec-b4b49292dd3aa4b8.rmeta
+│   │   │   ├── libsmol_str-87e7aa512181ed1e.rlib
+│   │   │   ├── libsmol_str-87e7aa512181ed1e.rmeta
+│   │   │   ├── libsmol_str-e7749ce78b9d4c66.rmeta
+│   │   │   ├── libspirv-7c0e824c71f883cc.rmeta
+│   │   │   ├── libstatic_assertions-34de036ea252dc96.rlib
+│   │   │   ├── libstatic_assertions-34de036ea252dc96.rmeta
+│   │   │   ├── libstatic_assertions-7f4152ed8884c0ba.rmeta
+│   │   │   ├── libsvg_fmt-720d49830698f83c.rmeta
+│   │   │   ├── libsyn-09beb17b24012b91.rlib
+│   │   │   ├── libsyn-09beb17b24012b91.rmeta
+│   │   │   ├── libsyn-4e94e51decf58e7f.rlib
+│   │   │   ├── libsyn-4e94e51decf58e7f.rmeta
+│   │   │   ├── libsyn-c2736021aa03e354.rlib
+│   │   │   ├── libsyn-c2736021aa03e354.rmeta
+│   │   │   ├── libsyn-f250147cf4a7db82.rlib
+│   │   │   ├── libsyn-f250147cf4a7db82.rmeta
+│   │   │   ├── libsysinfo-8cadb369ff11183f.rmeta
+│   │   │   ├── libtaffy-f73c1717ca9031e5.rmeta
+│   │   │   ├── libtermcolor-8f1c2e6bbd5cd281.rlib
+│   │   │   ├── libtermcolor-8f1c2e6bbd5cd281.rmeta
+│   │   │   ├── libtermcolor-b25d1b3f6792809b.rmeta
+│   │   │   ├── libthiserror-424481d9ffbab992.rmeta
+│   │   │   ├── libthiserror_impl-2907def59eca0c9d.so
+│   │   │   ├── libthread_local-cdc8f7298f09993c.rlib
+│   │   │   ├── libthread_local-cdc8f7298f09993c.rmeta
+│   │   │   ├── libthread_local-d8e134d7f47d04f0.rmeta
+│   │   │   ├── libtinyvec-01f119b85c5db513.rlib
+│   │   │   ├── libtinyvec-01f119b85c5db513.rmeta
+│   │   │   ├── libtinyvec-9e0f73860632f72c.rmeta
+│   │   │   ├── libtinyvec_macros-053f9b445e1ec57b.rmeta
+│   │   │   ├── libtinyvec_macros-362d35ae7563776f.rlib
+│   │   │   ├── libtinyvec_macros-362d35ae7563776f.rmeta
+│   │   │   ├── libtoml_datetime-37fa9e9506ab4fb4.rlib
+│   │   │   ├── libtoml_datetime-37fa9e9506ab4fb4.rmeta
+│   │   │   ├── libtoml_edit-31f4f9ab69bbaedc.rlib
+│   │   │   ├── libtoml_edit-31f4f9ab69bbaedc.rmeta
+│   │   │   ├── libtoml_edit-57908dc519c94632.rlib
+│   │   │   ├── libtoml_edit-57908dc519c94632.rmeta
+│   │   │   ├── libtracing-87657927a586e71f.rmeta
+│   │   │   ├── libtracing_attributes-049d026e5aeade94.so
+│   │   │   ├── libtracing_core-36e7226bd656d73b.rmeta
+│   │   │   ├── libtracing_core-3ac8cc1840d559cf.rlib
+│   │   │   ├── libtracing_core-3ac8cc1840d559cf.rmeta
+│   │   │   ├── libtracing_log-76c14663a316c6ab.rlib
+│   │   │   ├── libtracing_log-76c14663a316c6ab.rmeta
+│   │   │   ├── libtracing_log-895fe49c3e4852d6.rmeta
+│   │   │   ├── libtracing_log-8fccd298ed079c1d.rlib
+│   │   │   ├── libtracing_log-8fccd298ed079c1d.rmeta
+│   │   │   ├── libtracing_log-f52e7227ac20ef48.rmeta
+│   │   │   ├── libtracing_subscriber-657446d18026524d.rmeta
+│   │   │   ├── libttf_parser-8dd7f50fb811a927.rlib
+│   │   │   ├── libttf_parser-8dd7f50fb811a927.rmeta
+│   │   │   ├── libttf_parser-af67e6f68773e9cb.rmeta
+│   │   │   ├── libtwox_hash-4814cf057a682593.rlib
+│   │   │   ├── libtwox_hash-4814cf057a682593.rmeta
+│   │   │   ├── libtwox_hash-eda0f69765d9efe2.rmeta
+│   │   │   ├── libtypeid-ab2de77d7ad5a8f0.rmeta
+│   │   │   ├── libtypeid-ee1d4f4866d103ce.rlib
+│   │   │   ├── libtypeid-ee1d4f4866d103ce.rmeta
+│   │   │   ├── libunicode_bidi-5ef6ce07f73e151f.rmeta
+│   │   │   ├── libunicode_ident-16ade75ac687c4ce.rmeta
+│   │   │   ├── libunicode_ident-6422438f176e2c9c.rlib
+│   │   │   ├── libunicode_ident-6422438f176e2c9c.rmeta
+│   │   │   ├── libunicode_ident-fb5794cc6e954154.rlib
+│   │   │   ├── libunicode_ident-fb5794cc6e954154.rmeta
+│   │   │   ├── libunicode_normalization-bc0eec51e19d74ca.rmeta
+│   │   │   ├── libunicode_width-0778b6f2d9821cf0.rlib
+│   │   │   ├── libunicode_width-0778b6f2d9821cf0.rmeta
+│   │   │   ├── libunicode_width-89707ef194130adb.rmeta
+│   │   │   ├── libunicode_xid-25a31738ac9bda79.rlib
+│   │   │   ├── libunicode_xid-25a31738ac9bda79.rmeta
+│   │   │   ├── libunicode_xid-94119230d2949a1d.rmeta
+│   │   │   ├── liburl-9dcf9a7c79674f6b.rmeta
+│   │   │   ├── libuuid-2f13da9cbeed8476.rlib
+│   │   │   ├── libuuid-2f13da9cbeed8476.rmeta
+│   │   │   ├── libuuid-7b3a86ca7550f821.rlib
+│   │   │   ├── libuuid-7b3a86ca7550f821.rmeta
+│   │   │   ├── libuuid-b2767e32c77a027c.rmeta
+│   │   │   ├── libvec_map-51a47a61a4acca17.rmeta
+│   │   │   ├── libversion_check-1b5ad72fe82ff5d7.rlib
+│   │   │   ├── libversion_check-1b5ad72fe82ff5d7.rmeta
+│   │   │   ├── libwebbrowser-55184346496f94f0.rmeta
+│   │   │   ├── libweb_time-d1691d8342db4905.rmeta
+│   │   │   ├── libweb_time-f8bb701cfaddb7b5.rlib
+│   │   │   ├── libweb_time-f8bb701cfaddb7b5.rmeta
+│   │   │   ├── libwgpu-8406f9784cd2a69c.rmeta
+│   │   │   ├── libwgpu_core-55b7567a64de24f8.rmeta
+│   │   │   ├── libwgpu_hal-ec31e572d74bc5e8.rmeta
+│   │   │   ├── libwgpu_types-1d2e6a853fcdbe99.rmeta
+│   │   │   ├── libwinit-712c6252bf58d33d.rmeta
+│   │   │   ├── libwinnow-73caf70ea4436245.rlib
+│   │   │   ├── libwinnow-73caf70ea4436245.rmeta
+│   │   │   ├── libx11_dl-87dd37982eb8b52d.rmeta
+│   │   │   ├── libx11rb-968808c07dd22840.rmeta
+│   │   │   ├── libx11rb_protocol-14bfa6b9a46ef05c.rmeta
+│   │   │   ├── libxi_unicode-a09cef2f25fc81aa.rmeta
+│   │   │   ├── libxkbcommon_dl-cb771d9639a07c45.rmeta
+│   │   │   ├── libxkeysym-5c236d824796618a.rmeta
+│   │   │   ├── libzerocopy-6df5fb0232b57f1c.rlib
+│   │   │   ├── libzerocopy-6df5fb0232b57f1c.rmeta
+│   │   │   ├── libzerocopy-d33fb51cb3929c4b.rmeta
+│   │   │   ├── linux_raw_sys-aac5098bd0db2122.d
+│   │   │   ├── linux_raw_sys-c6a5fe53308abbf3.d
+│   │   │   ├── lock_api-023ff5dfc6cd64d5.d
+│   │   │   ├── lock_api-f0e89ef3e5d24204.d
+│   │   │   ├── log-4cc6917da009d269.d
+│   │   │   ├── log-bdfbe547eede8cb0.d
+│   │   │   ├── matchers-2ce25257fff16aa4.d
+│   │   │   ├── matchers-dc93a2bd59af1da2.d
+│   │   │   ├── memchr-7277d075abff4edc.d
+│   │   │   ├── memchr-bd21e95c819dd0c4.d
+│   │   │   ├── miniz_oxide-712509ba36bfc896.d
+│   │   │   ├── miniz_oxide-a48593d2c60d68a7.d
+│   │   │   ├── naga-55a1febe03b9e136.d
+│   │   │   ├── naga_oil-6de1e9da4ee9cca4.d
+│   │   │   ├── nix-c6a6eeb3e847940b.d
+│   │   │   ├── nohash_hasher-afff90c97f4f4bb5.d
+│   │   │   ├── noise-ae141c48f8f751db.d
+│   │   │   ├── nonmax-597323926ca02c7b.d
+│   │   │   ├── nonmax-d999d45f95aa19f6.d
+│   │   │   ├── nu_ansi_term-005697ed6a5f6c12.d
+│   │   │   ├── nu_ansi_term-2f50d3558673ca24.d
+│   │   │   ├── num_traits-3d2f7b000b861168.d
+│   │   │   ├── num_traits-ed4e45c96e8e5a3f.d
+│   │   │   ├── ogg-1383bdaa44d7813d.d
+│   │   │   ├── once_cell-a12ec16feb2e2aea.d
+│   │   │   ├── once_cell-de205e2f9cae478e.d
+│   │   │   ├── overload-bc4e2e7642bbab8a.d
+│   │   │   ├── overload-f704e2311a3970c8.d
+│   │   │   ├── owned_ttf_parser-7b9cf0a6c624caa6.d
+│   │   │   ├── parking-c2599061a371f65e.d
+│   │   │   ├── parking-cfaeae8053ba5be4.d
+│   │   │   ├── parking_lot-9a6c9fbff53c2080.d
+│   │   │   ├── parking_lot_core-6f67f51161acef09.d
+│   │   │   ├── percent_encoding-c389f43259646a36.d
+│   │   │   ├── percent_encoding-e288806aa4f9b5d7.d
+│   │   │   ├── petgraph-ca4fa99f84381b4c.d
+│   │   │   ├── pin_project_lite-1641eccc9eb95ac6.d
+│   │   │   ├── pin_project_lite-ad35835c9dbd543f.d
+│   │   │   ├── piper-315e6b61d4b829e4.d
+│   │   │   ├── piper-c4b63b69b8a5a003.d
+│   │   │   ├── pkg_config-3329666de635faf7.d
+│   │   │   ├── png-0ae753b0426c0b0a.d
+│   │   │   ├── png-17bb252e21f3c0ef.d
+│   │   │   ├── polling-c8ccd32bdfbfa005.d
+│   │   │   ├── ppv_lite86-762eed32f904aea7.d
+│   │   │   ├── pretty_type_name-293506fa2cf30033.d
+│   │   │   ├── proc_macro2-4ceb19dab2fab0c3.d
+│   │   │   ├── proc_macro2-9de67cd8fe0bf3cc.d
+│   │   │   ├── profiling-637294b7715e0174.d
+│   │   │   ├── profiling-7b0c1a503e0d71ae.d
+│   │   │   ├── quote-9d5d747a0ef07f1a.d
+│   │   │   ├── quote-b72290479e27a937.d
+│   │   │   ├── radsort-902e5b5d86504f98.d
+│   │   │   ├── radsort-e94dbdb912d7789b.d
+│   │   │   ├── rand-0328014af5aad729.d
+│   │   │   ├── rand_chacha-4e0dde3cc4bf90ff.d
+│   │   │   ├── rand_core-e97ef59bc7b0d440.d
+│   │   │   ├── rand_xorshift-5cf90378fe6debd6.d
+│   │   │   ├── raw_window_handle-7c0412eda00145fb.d
+│   │   │   ├── raw_window_handle-bec0acba3ceaf942.d
+│   │   │   ├── rectangle_pack-30171ef72a6ce58f.d
+│   │   │   ├── regex-1b3700d4811502ae.d
+│   │   │   ├── regex-9450a72434c1a57c.d
+│   │   │   ├── regex_automata-5fff9ea3a9d68c67.d
+│   │   │   ├── regex_automata-85ada1cace90e2d5.d
+│   │   │   ├── regex_automata-aac22643b7285ac8.d
+│   │   │   ├── regex_automata-e62e8bc513625553.d
+│   │   │   ├── regex_syntax-3743c46c6564e124.d
+│   │   │   ├── regex_syntax-37eae38983de713a.d
+│   │   │   ├── regex_syntax-a3fc2d0171d5a6ef.d
+│   │   │   ├── regex_syntax-beda9b4f90a59ea9.d
+│   │   │   ├── renderdoc_sys-5864b39e50787769.d
+│   │   │   ├── renderdoc_sys-cd896dafe06d2d7a.d
+│   │   │   ├── ron-230e91b47ec005c4.d
+│   │   │   ├── rustc_hash-78f5298a5e31f3dc.d
+│   │   │   ├── rustc_hash-98eed4e5fc56a9e9.d
+│   │   │   ├── rustc_hash-b1385a3947dba98f.d
+│   │   │   ├── rustix-65398648e8b16987.d
+│   │   │   ├── ruzstd-98056ffedb337126.d
+│   │   │   ├── ryu-1b99acf7e7359c59.d
+│   │   │   ├── scopeguard-db39df2d361293aa.d
+│   │   │   ├── scopeguard-e1ce4250f9cab139.d
+│   │   │   ├── serde-d5f4eb0bd1f05525.d
+│   │   │   ├── serde_derive-aea42436dc290957.d
+│   │   │   ├── serde_json-3aeae07219c37f78.d
+│   │   │   ├── sharded_slab-5ce2d589a7abcb4d.d
+│   │   │   ├── sharded_slab-f304e3df3a9bc409.d
+│   │   │   ├── simd_adler32-466889a08d4a19d5.d
+│   │   │   ├── simd_adler32-93c79c862f3d1b83.d
+│   │   │   ├── slab-240de9ce2a73790d.d
+│   │   │   ├── slab-db2b10ca6efffee0.d
+│   │   │   ├── slotmap-bc6421640b155010.d
+│   │   │   ├── smallvec-b4b49292dd3aa4b8.d
+│   │   │   ├── smol_str-87e7aa512181ed1e.d
+│   │   │   ├── smol_str-e7749ce78b9d4c66.d
+│   │   │   ├── spirv-7c0e824c71f883cc.d
+│   │   │   ├── static_assertions-34de036ea252dc96.d
+│   │   │   ├── static_assertions-7f4152ed8884c0ba.d
+│   │   │   ├── svg_fmt-720d49830698f83c.d
+│   │   │   ├── syn-09beb17b24012b91.d
+│   │   │   ├── syn-4e94e51decf58e7f.d
+│   │   │   ├── syn-c2736021aa03e354.d
+│   │   │   ├── syn-f250147cf4a7db82.d
+│   │   │   ├── sysinfo-8cadb369ff11183f.d
+│   │   │   ├── taffy-f73c1717ca9031e5.d
+│   │   │   ├── termcolor-8f1c2e6bbd5cd281.d
+│   │   │   ├── termcolor-b25d1b3f6792809b.d
+│   │   │   ├── thiserror-424481d9ffbab992.d
+│   │   │   ├── thiserror_impl-2907def59eca0c9d.d
+│   │   │   ├── thread_local-cdc8f7298f09993c.d
+│   │   │   ├── thread_local-d8e134d7f47d04f0.d
+│   │   │   ├── tinyvec-01f119b85c5db513.d
+│   │   │   ├── tinyvec-9e0f73860632f72c.d
+│   │   │   ├── tinyvec_macros-053f9b445e1ec57b.d
+│   │   │   ├── tinyvec_macros-362d35ae7563776f.d
+│   │   │   ├── toml_datetime-37fa9e9506ab4fb4.d
+│   │   │   ├── toml_edit-31f4f9ab69bbaedc.d
+│   │   │   ├── toml_edit-57908dc519c94632.d
+│   │   │   ├── tracing-87657927a586e71f.d
+│   │   │   ├── tracing_attributes-049d026e5aeade94.d
+│   │   │   ├── tracing_core-36e7226bd656d73b.d
+│   │   │   ├── tracing_core-3ac8cc1840d559cf.d
+│   │   │   ├── tracing_log-76c14663a316c6ab.d
+│   │   │   ├── tracing_log-895fe49c3e4852d6.d
+│   │   │   ├── tracing_log-8fccd298ed079c1d.d
+│   │   │   ├── tracing_log-f52e7227ac20ef48.d
+│   │   │   ├── tracing_subscriber-657446d18026524d.d
+│   │   │   ├── ttf_parser-8dd7f50fb811a927.d
+│   │   │   ├── ttf_parser-af67e6f68773e9cb.d
+│   │   │   ├── twox_hash-4814cf057a682593.d
+│   │   │   ├── twox_hash-eda0f69765d9efe2.d
+│   │   │   ├── typeid-ab2de77d7ad5a8f0.d
+│   │   │   ├── typeid-ee1d4f4866d103ce.d
+│   │   │   ├── unicode_bidi-5ef6ce07f73e151f.d
+│   │   │   ├── unicode_ident-16ade75ac687c4ce.d
+│   │   │   ├── unicode_ident-6422438f176e2c9c.d
+│   │   │   ├── unicode_ident-fb5794cc6e954154.d
+│   │   │   ├── unicode_normalization-bc0eec51e19d74ca.d
+│   │   │   ├── unicode_width-0778b6f2d9821cf0.d
+│   │   │   ├── unicode_width-89707ef194130adb.d
+│   │   │   ├── unicode_xid-25a31738ac9bda79.d
+│   │   │   ├── unicode_xid-94119230d2949a1d.d
+│   │   │   ├── url-9dcf9a7c79674f6b.d
+│   │   │   ├── uuid-2f13da9cbeed8476.d
+│   │   │   ├── uuid-7b3a86ca7550f821.d
+│   │   │   ├── uuid-b2767e32c77a027c.d
+│   │   │   ├── vec_map-51a47a61a4acca17.d
+│   │   │   ├── version_check-1b5ad72fe82ff5d7.d
+│   │   │   ├── webbrowser-55184346496f94f0.d
+│   │   │   ├── web_time-d1691d8342db4905.d
+│   │   │   ├── web_time-f8bb701cfaddb7b5.d
+│   │   │   ├── wgpu-8406f9784cd2a69c.d
+│   │   │   ├── wgpu_core-55b7567a64de24f8.d
+│   │   │   ├── wgpu_hal-ec31e572d74bc5e8.d
+│   │   │   ├── wgpu_types-1d2e6a853fcdbe99.d
+│   │   │   ├── winit-712c6252bf58d33d.d
+│   │   │   ├── winnow-73caf70ea4436245.d
+│   │   │   ├── x11_dl-87dd37982eb8b52d.d
+│   │   │   ├── x11rb-968808c07dd22840.d
+│   │   │   ├── x11rb_protocol-14bfa6b9a46ef05c.d
+│   │   │   ├── xi_unicode-a09cef2f25fc81aa.d
+│   │   │   ├── xkbcommon_dl-cb771d9639a07c45.d
+│   │   │   ├── xkeysym-5c236d824796618a.d
+│   │   │   ├── zerocopy-6df5fb0232b57f1c.d
+│   │   │   └── zerocopy-d33fb51cb3929c4b.d
+│   │   ├── examples
+│   │   ├── .fingerprint
+│   │   │   ├── ab_glyph-466f5897168a78f4
+│   │   │   │   ├── dep-lib-ab_glyph
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ab_glyph
+│   │   │   │   └── lib-ab_glyph.json
+│   │   │   ├── ab_glyph-ee135e0206a7fb76
+│   │   │   ├── ab_glyph_rasterizer-7b7e48be64f47dfc
+│   │   │   │   ├── dep-lib-ab_glyph_rasterizer
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ab_glyph_rasterizer
+│   │   │   │   └── lib-ab_glyph_rasterizer.json
+│   │   │   ├── ab_glyph_rasterizer-d89f1a4fe7ccfc66
+│   │   │   │   ├── dep-lib-ab_glyph_rasterizer
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ab_glyph_rasterizer
+│   │   │   │   └── lib-ab_glyph_rasterizer.json
+│   │   │   ├── accesskit-06f5915be0218c13
+│   │   │   │   ├── dep-lib-accesskit
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-accesskit
+│   │   │   │   └── lib-accesskit.json
+│   │   │   ├── accesskit-3312d6ea61077ec8
+│   │   │   │   ├── dep-lib-accesskit
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-accesskit
+│   │   │   │   └── lib-accesskit.json
+│   │   │   ├── accesskit_winit-91ea3ddbeb2ba046
+│   │   │   │   ├── dep-lib-accesskit_winit
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-accesskit_winit
+│   │   │   │   └── lib-accesskit_winit.json
+│   │   │   ├── accesskit_winit-991cf80ca8436982
+│   │   │   ├── adler-4f876ee4066313ab
+│   │   │   │   ├── dep-lib-adler
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-adler
+│   │   │   │   └── lib-adler.json
+│   │   │   ├── adler-ec49f9597437790c
+│   │   │   │   ├── dep-lib-adler
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-adler
+│   │   │   │   └── lib-adler.json
+│   │   │   ├── ahash-1c37e9e441254343
+│   │   │   │   ├── dep-lib-ahash
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ahash
+│   │   │   │   └── lib-ahash.json
+│   │   │   ├── ahash-3521ab3f63bcacf9
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── ahash-abc82e5c657a0ac9
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── ahash-fe0977464d67b594
+│   │   │   │   ├── dep-lib-ahash
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ahash
+│   │   │   │   └── lib-ahash.json
+│   │   │   ├── aho-corasick-4217cc4411b88705
+│   │   │   │   ├── dep-lib-aho_corasick
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-aho_corasick
+│   │   │   │   └── lib-aho_corasick.json
+│   │   │   ├── aho-corasick-db1efa7cf533cb68
+│   │   │   │   ├── dep-lib-aho_corasick
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-aho_corasick
+│   │   │   │   └── lib-aho_corasick.json
+│   │   │   ├── allocator-api2-b0ef5c4c7d1d5071
+│   │   │   │   ├── dep-lib-allocator_api2
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-allocator_api2
+│   │   │   │   └── lib-allocator_api2.json
+│   │   │   ├── allocator-api2-c0a057538ec490c0
+│   │   │   │   ├── dep-lib-allocator_api2
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-allocator_api2
+│   │   │   │   └── lib-allocator_api2.json
+│   │   │   ├── alsa-91f884ea06887830
+│   │   │   ├── alsa-c34b721bbc57ae33
+│   │   │   ├── alsa-sys-0ccc3fcaf79aeb54
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── alsa-sys-a020accb0b5b3226
+│   │   │   ├── alsa-sys-e08c24994a1268f9
+│   │   │   ├── alsa-sys-e430c6ee6947cc47
+│   │   │   ├── approx-56a6b8d9ac6589bc
+│   │   │   │   ├── dep-lib-approx
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-approx
+│   │   │   │   └── lib-approx.json
+│   │   │   ├── approx-7b46f6e7196c0eb1
+│   │   │   ├── arboard-8b7b5b0a0ace62b8
+│   │   │   ├── arboard-f9df5f404b08c638
+│   │   │   │   ├── dep-lib-arboard
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-arboard
+│   │   │   │   └── lib-arboard.json
+│   │   │   ├── arrayref-349e7c193c03271d
+│   │   │   │   ├── dep-lib-arrayref
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-arrayref
+│   │   │   │   └── lib-arrayref.json
+│   │   │   ├── arrayref-3677142192279517
+│   │   │   │   ├── dep-lib-arrayref
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-arrayref
+│   │   │   │   └── lib-arrayref.json
+│   │   │   ├── arrayvec-51e58cd2ed5ace7c
+│   │   │   │   ├── dep-lib-arrayvec
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-arrayvec
+│   │   │   │   └── lib-arrayvec.json
+│   │   │   ├── arrayvec-e24ea8eb78f8f8bb
+│   │   │   │   ├── dep-lib-arrayvec
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-arrayvec
+│   │   │   │   └── lib-arrayvec.json
+│   │   │   ├── ash-1a74f11463687de4
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── ash-25d1d88b5fdd6536
+│   │   │   │   ├── dep-lib-ash
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ash
+│   │   │   │   └── lib-ash.json
+│   │   │   ├── ash-45e668c651ef1293
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── ash-755f7b2dae5068d9
+│   │   │   │   ├── dep-lib-ash
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ash
+│   │   │   │   └── lib-ash.json
+│   │   │   ├── as-raw-xcb-connection-8861ecdbc3ccd30f
+│   │   │   ├── as-raw-xcb-connection-d1793d78898bb808
+│   │   │   │   ├── dep-lib-as_raw_xcb_connection
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-as_raw_xcb_connection
+│   │   │   │   └── lib-as_raw_xcb_connection.json
+│   │   │   ├── async-broadcast-8066ff21a980e4b3
+│   │   │   │   ├── dep-lib-async_broadcast
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-async_broadcast
+│   │   │   │   └── lib-async_broadcast.json
+│   │   │   ├── async-broadcast-a7cae9699cbf84ab
+│   │   │   │   ├── dep-lib-async_broadcast
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-async_broadcast
+│   │   │   │   └── lib-async_broadcast.json
+│   │   │   ├── async-channel-314b6ca2cdf5c77f
+│   │   │   │   ├── dep-lib-async_channel
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-async_channel
+│   │   │   │   └── lib-async_channel.json
+│   │   │   ├── async-channel-a1b98fb169b37e61
+│   │   │   │   ├── dep-lib-async_channel
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-async_channel
+│   │   │   │   └── lib-async_channel.json
+│   │   │   ├── async-executor-8418b5a16e8518c9
+│   │   │   │   ├── dep-lib-async_executor
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-async_executor
+│   │   │   │   └── lib-async_executor.json
+│   │   │   ├── async-executor-bfb7d853ddfd8e93
+│   │   │   │   ├── dep-lib-async_executor
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-async_executor
+│   │   │   │   └── lib-async_executor.json
+│   │   │   ├── async-fs-08048fafef4c7bcc
+│   │   │   │   ├── dep-lib-async_fs
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-async_fs
+│   │   │   │   └── lib-async_fs.json
+│   │   │   ├── async-fs-25971719d833521d
+│   │   │   │   ├── dep-lib-async_fs
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-async_fs
+│   │   │   │   └── lib-async_fs.json
+│   │   │   ├── async-lock-17989f084d4430f4
+│   │   │   │   ├── dep-lib-async_lock
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-async_lock
+│   │   │   │   └── lib-async_lock.json
+│   │   │   ├── async-lock-ec434f33da2ab70f
+│   │   │   │   ├── dep-lib-async_lock
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-async_lock
+│   │   │   │   └── lib-async_lock.json
+│   │   │   ├── async-task-3d0419219df0b779
+│   │   │   │   ├── dep-lib-async_task
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-async_task
+│   │   │   │   └── lib-async_task.json
+│   │   │   ├── async-task-4faeeb22cec1b7a0
+│   │   │   │   ├── dep-lib-async_task
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-async_task
+│   │   │   │   └── lib-async_task.json
+│   │   │   ├── atomic-waker-716c2c33f6d08964
+│   │   │   │   ├── dep-lib-atomic_waker
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-atomic_waker
+│   │   │   │   └── lib-atomic_waker.json
+│   │   │   ├── atomic-waker-e067625e4bc81c05
+│   │   │   │   ├── dep-lib-atomic_waker
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-atomic_waker
+│   │   │   │   └── lib-atomic_waker.json
+│   │   │   ├── autocfg-aff4a3e13959ba47
+│   │   │   │   ├── dep-lib-autocfg
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-autocfg
+│   │   │   │   └── lib-autocfg.json
+│   │   │   ├── base64-592b8101aa894a7a
+│   │   │   │   ├── dep-lib-base64
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-base64
+│   │   │   │   └── lib-base64.json
+│   │   │   ├── base64-6742c350e4a65d40
+│   │   │   │   ├── dep-lib-base64
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-base64
+│   │   │   │   └── lib-base64.json
+│   │   │   ├── bevy-1015c397d79e2ccc
+│   │   │   ├── bevy-311f35382c64af4c
+│   │   │   ├── bevy_a11y-16f17fff7b189091
+│   │   │   ├── bevy_a11y-acf712742e330e96
+│   │   │   │   ├── dep-lib-bevy_a11y
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_a11y
+│   │   │   │   └── lib-bevy_a11y.json
+│   │   │   ├── bevy_animation-39852b14c595fd95
+│   │   │   ├── bevy_animation-d74c14983e1f9d7f
+│   │   │   │   ├── dep-lib-bevy_animation
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_animation
+│   │   │   │   └── lib-bevy_animation.json
+│   │   │   ├── bevy_app-aba917c6d511a7a2
+│   │   │   ├── bevy_app-bfbc4e85b2314821
+│   │   │   │   ├── dep-lib-bevy_app
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_app
+│   │   │   │   └── lib-bevy_app.json
+│   │   │   ├── bevy_asset-c3d2b8266fd45c5f
+│   │   │   ├── bevy_asset-d2f0304a3afc8a01
+│   │   │   │   ├── dep-lib-bevy_asset
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_asset
+│   │   │   │   └── lib-bevy_asset.json
+│   │   │   ├── bevy_asset_macros-06003cb1852bd3a6
+│   │   │   ├── bevy_asset_macros-61b1d1a7530ecb35
+│   │   │   │   ├── dep-lib-bevy_asset_macros
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_asset_macros
+│   │   │   │   └── lib-bevy_asset_macros.json
+│   │   │   ├── bevy_audio-216b9b19fab9af11
+│   │   │   ├── bevy_audio-2275cdeb3a4bffbf
+│   │   │   ├── bevy_core-9b5dcf92050802c8
+│   │   │   ├── bevy_core-c4bbc36f0f3f962f
+│   │   │   │   ├── dep-lib-bevy_core
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_core
+│   │   │   │   └── lib-bevy_core.json
+│   │   │   ├── bevy_core_pipeline-26882ca1156d3220
+│   │   │   ├── bevy_core_pipeline-81486faad30aa2ef
+│   │   │   │   ├── dep-lib-bevy_core_pipeline
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_core_pipeline
+│   │   │   │   └── lib-bevy_core_pipeline.json
+│   │   │   ├── bevy_derive-941f92bfe615756e
+│   │   │   ├── bevy_derive-fee2ef2b3422f856
+│   │   │   │   ├── dep-lib-bevy_derive
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_derive
+│   │   │   │   └── lib-bevy_derive.json
+│   │   │   ├── bevy_diagnostic-bb5621a2af51660b
+│   │   │   │   ├── dep-lib-bevy_diagnostic
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_diagnostic
+│   │   │   │   └── lib-bevy_diagnostic.json
+│   │   │   ├── bevy_diagnostic-fcc3f77bb8eb8490
+│   │   │   ├── bevy_ecs-155f36a60f764b49
+│   │   │   │   ├── dep-lib-bevy_ecs
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_ecs
+│   │   │   │   └── lib-bevy_ecs.json
+│   │   │   ├── bevy_ecs-47b660c565b61748
+│   │   │   ├── bevy_ecs_macros-8eeb70840e802068
+│   │   │   ├── bevy_ecs_macros-e39827d731aa2019
+│   │   │   │   ├── dep-lib-bevy_ecs_macros
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_ecs_macros
+│   │   │   │   └── lib-bevy_ecs_macros.json
+│   │   │   ├── bevy_egui-7c0657caea5a5423
+│   │   │   ├── bevy_egui-a2a1ec02b266c9d5
+│   │   │   ├── bevy_encase_derive-0e1aa0367cabac09
+│   │   │   ├── bevy_encase_derive-e512fdc3343a2329
+│   │   │   │   ├── dep-lib-bevy_encase_derive
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_encase_derive
+│   │   │   │   └── lib-bevy_encase_derive.json
+│   │   │   ├── bevy_gilrs-0105b446d092afc7
+│   │   │   ├── bevy_gilrs-2074f571133aa478
+│   │   │   ├── bevy_gizmos-0a7562f1f0a03d20
+│   │   │   │   ├── dep-lib-bevy_gizmos
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_gizmos
+│   │   │   │   └── lib-bevy_gizmos.json
+│   │   │   ├── bevy_gizmos-39d553077cf6a862
+│   │   │   ├── bevy_gizmos_macros-3330c161715650ec
+│   │   │   │   ├── dep-lib-bevy_gizmos_macros
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_gizmos_macros
+│   │   │   │   └── lib-bevy_gizmos_macros.json
+│   │   │   ├── bevy_gizmos_macros-75e56e962aec56ac
+│   │   │   ├── bevy_gltf-03d35bc545e282f2
+│   │   │   │   ├── dep-lib-bevy_gltf
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_gltf
+│   │   │   │   └── lib-bevy_gltf.json
+│   │   │   ├── bevy_gltf-549af8dda1ddc828
+│   │   │   ├── bevy_hierarchy-8940cb551383786d
+│   │   │   ├── bevy_hierarchy-bafce138953b281c
+│   │   │   │   ├── dep-lib-bevy_hierarchy
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_hierarchy
+│   │   │   │   └── lib-bevy_hierarchy.json
+│   │   │   ├── bevy_input-a0341a633c47a73f
+│   │   │   │   ├── dep-lib-bevy_input
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_input
+│   │   │   │   └── lib-bevy_input.json
+│   │   │   ├── bevy_input-d5926ed4ac8ad4fb
+│   │   │   ├── bevy-inspector-egui-44de48459956741b
+│   │   │   ├── bevy-inspector-egui-74aa583ba8b78cb0
+│   │   │   ├── bevy-inspector-egui-derive-728574265447516f
+│   │   │   │   ├── dep-lib-bevy_inspector_egui_derive
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_inspector_egui_derive
+│   │   │   │   └── lib-bevy_inspector_egui_derive.json
+│   │   │   ├── bevy-inspector-egui-derive-de46245ff22ca97a
+│   │   │   ├── bevy_internal-84fc11592443546d
+│   │   │   ├── bevy_internal-f3df05d8aa888e16
+│   │   │   ├── bevy_log-4c8ce85660465ec0
+│   │   │   ├── bevy_log-f6585e54aaef88a9
+│   │   │   │   ├── dep-lib-bevy_log
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_log
+│   │   │   │   └── lib-bevy_log.json
+│   │   │   ├── bevy_macro_utils-0c228969f3adbd8d
+│   │   │   │   ├── dep-lib-bevy_macro_utils
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_macro_utils
+│   │   │   │   └── lib-bevy_macro_utils.json
+│   │   │   ├── bevy_macro_utils-cb688fcd7907d087
+│   │   │   │   ├── dep-lib-bevy_macro_utils
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_macro_utils
+│   │   │   │   └── lib-bevy_macro_utils.json
+│   │   │   ├── bevy_math-be332bcfa2380262
+│   │   │   ├── bevy_math-da532a6406c450e8
+│   │   │   │   ├── dep-lib-bevy_math
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_math
+│   │   │   │   └── lib-bevy_math.json
+│   │   │   ├── bevy_mikktspace-25d5fffcddb908f0
+│   │   │   ├── bevy_mikktspace-f8516c83cc843f1a
+│   │   │   │   ├── dep-lib-bevy_mikktspace
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_mikktspace
+│   │   │   │   └── lib-bevy_mikktspace.json
+│   │   │   ├── bevy_pbr-7ba95152f35d9622
+│   │   │   │   ├── dep-lib-bevy_pbr
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_pbr
+│   │   │   │   └── lib-bevy_pbr.json
+│   │   │   ├── bevy_pbr-a5d1e794ec28f21b
+│   │   │   ├── bevy_ptr-a7e9a0b9bc17aa02
+│   │   │   │   ├── dep-lib-bevy_ptr
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_ptr
+│   │   │   │   └── lib-bevy_ptr.json
+│   │   │   ├── bevy_ptr-e1fd467e5f18e7d7
+│   │   │   │   ├── dep-lib-bevy_ptr
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_ptr
+│   │   │   │   └── lib-bevy_ptr.json
+│   │   │   ├── bevy_reflect-2276342e7b044b15
+│   │   │   │   ├── dep-lib-bevy_reflect
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_reflect
+│   │   │   │   └── lib-bevy_reflect.json
+│   │   │   ├── bevy_reflect-8a04cf36ad6e8b96
+│   │   │   ├── bevy_reflect_derive-518ccaaa3d515d07
+│   │   │   ├── bevy_reflect_derive-ea34888f6f8ec4fe
+│   │   │   │   ├── dep-lib-bevy_reflect_derive
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_reflect_derive
+│   │   │   │   └── lib-bevy_reflect_derive.json
+│   │   │   ├── bevy_render-4ba49ad9b381188f
+│   │   │   ├── bevy_render-fa6543e5f5e0764d
+│   │   │   │   ├── dep-lib-bevy_render
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_render
+│   │   │   │   └── lib-bevy_render.json
+│   │   │   ├── bevy_render_macros-61b7e29fd4dc6682
+│   │   │   ├── bevy_render_macros-8dd36bd3ad834b5d
+│   │   │   │   ├── dep-lib-bevy_render_macros
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_render_macros
+│   │   │   │   └── lib-bevy_render_macros.json
+│   │   │   ├── bevy_scene-4b353b53f5dfa1f0
+│   │   │   ├── bevy_scene-b1eff92b8174b955
+│   │   │   │   ├── dep-lib-bevy_scene
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_scene
+│   │   │   │   └── lib-bevy_scene.json
+│   │   │   ├── bevy_sprite-42575a171048e9d1
+│   │   │   │   ├── dep-lib-bevy_sprite
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_sprite
+│   │   │   │   └── lib-bevy_sprite.json
+│   │   │   ├── bevy_sprite-c6b0e5f48164a449
+│   │   │   ├── bevy_tasks-0d429602a4c66184
+│   │   │   │   ├── dep-lib-bevy_tasks
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_tasks
+│   │   │   │   └── lib-bevy_tasks.json
+│   │   │   ├── bevy_tasks-36e12e5fc8becf30
+│   │   │   │   ├── dep-lib-bevy_tasks
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_tasks
+│   │   │   │   └── lib-bevy_tasks.json
+│   │   │   ├── bevy_text-ba2cb3f1a9ceaf78
+│   │   │   ├── bevy_text-f0289b4231d12baa
+│   │   │   │   ├── dep-lib-bevy_text
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_text
+│   │   │   │   └── lib-bevy_text.json
+│   │   │   ├── bevy_time-602c40ec88b3f85e
+│   │   │   │   ├── dep-lib-bevy_time
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_time
+│   │   │   │   └── lib-bevy_time.json
+│   │   │   ├── bevy_time-c3b72b869a4814c1
+│   │   │   ├── bevy_transform-3b0c4ad42bd6f083
+│   │   │   ├── bevy_transform-8d0f28d9699b3b3d
+│   │   │   │   ├── dep-lib-bevy_transform
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_transform
+│   │   │   │   └── lib-bevy_transform.json
+│   │   │   ├── bevy_ui-9daf5f4457ee700f
+│   │   │   │   ├── dep-lib-bevy_ui
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_ui
+│   │   │   │   └── lib-bevy_ui.json
+│   │   │   ├── bevy_ui-f7b3522fa8aaea6b
+│   │   │   ├── bevy_utils-367564b54c4bce66
+│   │   │   │   ├── dep-lib-bevy_utils
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_utils
+│   │   │   │   └── lib-bevy_utils.json
+│   │   │   ├── bevy_utils-7157a6b76ab3ff6a
+│   │   │   ├── bevy_utils_proc_macros-821231463182ff9f
+│   │   │   ├── bevy_utils_proc_macros-ca02643290da8c7d
+│   │   │   │   ├── dep-lib-bevy_utils_proc_macros
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_utils_proc_macros
+│   │   │   │   └── lib-bevy_utils_proc_macros.json
+│   │   │   ├── bevy_window-8d597d8cda454679
+│   │   │   │   ├── dep-lib-bevy_window
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_window
+│   │   │   │   └── lib-bevy_window.json
+│   │   │   ├── bevy_window-9129e210b8eb6dd1
+│   │   │   ├── bevy_winit-d8e0f304fd97efb4
+│   │   │   │   ├── dep-lib-bevy_winit
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bevy_winit
+│   │   │   │   └── lib-bevy_winit.json
+│   │   │   ├── bevy_winit-f2dd12ffd042d216
+│   │   │   ├── bitflags-27273ab64c75ae7c
+│   │   │   ├── bitflags-9290f08cc27b1b49
+│   │   │   │   ├── dep-lib-bitflags
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bitflags
+│   │   │   │   └── lib-bitflags.json
+│   │   │   ├── bitflags-ed0db599db8b4839
+│   │   │   │   ├── dep-lib-bitflags
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bitflags
+│   │   │   │   └── lib-bitflags.json
+│   │   │   ├── bitflags-f74534e35f2c9eb8
+│   │   │   │   ├── dep-lib-bitflags
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bitflags
+│   │   │   │   └── lib-bitflags.json
+│   │   │   ├── bit-set-e66056ca94ac5cbb
+│   │   │   │   ├── dep-lib-bit_set
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bit_set
+│   │   │   │   └── lib-bit_set.json
+│   │   │   ├── bit-set-edc4756eb403535d
+│   │   │   │   ├── dep-lib-bit_set
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bit_set
+│   │   │   │   └── lib-bit_set.json
+│   │   │   ├── bit-vec-0b99131a6ad259db
+│   │   │   │   ├── dep-lib-bit_vec
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bit_vec
+│   │   │   │   └── lib-bit_vec.json
+│   │   │   ├── bit-vec-90d06b94f4717007
+│   │   │   │   ├── dep-lib-bit_vec
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bit_vec
+│   │   │   │   └── lib-bit_vec.json
+│   │   │   ├── blake3-03b6b78def52d03a
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── blake3-6018c20a03817c5d
+│   │   │   │   ├── dep-lib-blake3
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-blake3
+│   │   │   │   └── lib-blake3.json
+│   │   │   ├── blake3-69e411bcfa5381dc
+│   │   │   │   ├── dep-lib-blake3
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-blake3
+│   │   │   │   └── lib-blake3.json
+│   │   │   ├── blake3-986d5a44f48c6435
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── blocking-31ec284e3f196110
+│   │   │   │   ├── dep-lib-blocking
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-blocking
+│   │   │   │   └── lib-blocking.json
+│   │   │   ├── blocking-89c72135af191197
+│   │   │   │   ├── dep-lib-blocking
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-blocking
+│   │   │   │   └── lib-blocking.json
+│   │   │   ├── bytemuck-39f66132d269af0d
+│   │   │   ├── bytemuck-7c22efaff0697656
+│   │   │   │   ├── dep-lib-bytemuck
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bytemuck
+│   │   │   │   └── lib-bytemuck.json
+│   │   │   ├── bytemuck_derive-198bf2695ac08df4
+│   │   │   ├── bytemuck_derive-eb0c420dbf386033
+│   │   │   │   ├── dep-lib-bytemuck_derive
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-bytemuck_derive
+│   │   │   │   └── lib-bytemuck_derive.json
+│   │   │   ├── byteorder-41a9867a1e2cee3a
+│   │   │   │   ├── dep-lib-byteorder
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-byteorder
+│   │   │   │   └── lib-byteorder.json
+│   │   │   ├── byteorder-bc8232692ce260f3
+│   │   │   │   ├── dep-lib-byteorder
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-byteorder
+│   │   │   │   └── lib-byteorder.json
+│   │   │   ├── calloop-5bf92d0f413783a3
+│   │   │   │   ├── dep-lib-calloop
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-calloop
+│   │   │   │   └── lib-calloop.json
+│   │   │   ├── calloop-5d7c179000426592
+│   │   │   ├── cc-92844840838c28f6
+│   │   │   │   ├── dep-lib-cc
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-cc
+│   │   │   │   └── lib-cc.json
+│   │   │   ├── cfg_aliases-991da5bd55343c83
+│   │   │   │   ├── dep-lib-cfg_aliases
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-cfg_aliases
+│   │   │   │   └── lib-cfg_aliases.json
+│   │   │   ├── cfg-if-2be1fc00362c1afa
+│   │   │   │   ├── dep-lib-cfg_if
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-cfg_if
+│   │   │   │   └── lib-cfg_if.json
+│   │   │   ├── cfg-if-5ff329742ead4217
+│   │   │   │   ├── dep-lib-cfg_if
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-cfg_if
+│   │   │   │   └── lib-cfg_if.json
+│   │   │   ├── cfg-if-b4426ff1b148cf01
+│   │   │   │   ├── dep-lib-cfg_if
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-cfg_if
+│   │   │   │   └── lib-cfg_if.json
+│   │   │   ├── codespan-reporting-2f4edeb351f2566c
+│   │   │   │   ├── dep-lib-codespan_reporting
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-codespan_reporting
+│   │   │   │   └── lib-codespan_reporting.json
+│   │   │   ├── codespan-reporting-f344c48b0bf3e1f5
+│   │   │   │   ├── dep-lib-codespan_reporting
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-codespan_reporting
+│   │   │   │   └── lib-codespan_reporting.json
+│   │   │   ├── color_quant-2fba1fb340807416
+│   │   │   │   ├── dep-lib-color_quant
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-color_quant
+│   │   │   │   └── lib-color_quant.json
+│   │   │   ├── color_quant-5b2eb4169a49c78d
+│   │   │   │   ├── dep-lib-color_quant
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-color_quant
+│   │   │   │   └── lib-color_quant.json
+│   │   │   ├── concurrent-queue-8d6e895015fdb518
+│   │   │   │   ├── dep-lib-concurrent_queue
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-concurrent_queue
+│   │   │   │   └── lib-concurrent_queue.json
+│   │   │   ├── concurrent-queue-fcacaf4b005540ca
+│   │   │   │   ├── dep-lib-concurrent_queue
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-concurrent_queue
+│   │   │   │   └── lib-concurrent_queue.json
+│   │   │   ├── constant_time_eq-5be276c1cc499e2b
+│   │   │   │   ├── dep-lib-constant_time_eq
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-constant_time_eq
+│   │   │   │   └── lib-constant_time_eq.json
+│   │   │   ├── constant_time_eq-e0be0cb74ba7d691
+│   │   │   │   ├── dep-lib-constant_time_eq
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-constant_time_eq
+│   │   │   │   └── lib-constant_time_eq.json
+│   │   │   ├── const-fnv1a-hash-146d976a88ebb14c
+│   │   │   │   ├── dep-lib-const_fnv1a_hash
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-const_fnv1a_hash
+│   │   │   │   └── lib-const_fnv1a_hash.json
+│   │   │   ├── const-fnv1a-hash-886468c3b642a306
+│   │   │   ├── constgebra-70a176e33e1e3025
+│   │   │   │   ├── dep-lib-constgebra
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-constgebra
+│   │   │   │   └── lib-constgebra.json
+│   │   │   ├── constgebra-efaf13e95551b081
+│   │   │   │   ├── dep-lib-constgebra
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-constgebra
+│   │   │   │   └── lib-constgebra.json
+│   │   │   ├── const_panic-9a161806783cc4f1
+│   │   │   │   ├── dep-lib-const_panic
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-const_panic
+│   │   │   │   └── lib-const_panic.json
+│   │   │   ├── const_panic-ec1e464c18aeaa59
+│   │   │   │   ├── dep-lib-const_panic
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-const_panic
+│   │   │   │   └── lib-const_panic.json
+│   │   │   ├── const_soft_float-4ac9ecc69655bc7a
+│   │   │   │   ├── dep-lib-const_soft_float
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-const_soft_float
+│   │   │   │   └── lib-const_soft_float.json
+│   │   │   ├── const_soft_float-7591ec3ef545f31f
+│   │   │   │   ├── dep-lib-const_soft_float
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-const_soft_float
+│   │   │   │   └── lib-const_soft_float.json
+│   │   │   ├── cpal-0f0a6f0dc4fef16e
+│   │   │   ├── cpal-7c1ef1484d0e38b6
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── cpal-8c15105a3278447d
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── cpal-a36160a9ae9cae67
+│   │   │   ├── crc32fast-089953295218e694
+│   │   │   │   ├── dep-lib-crc32fast
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-crc32fast
+│   │   │   │   └── lib-crc32fast.json
+│   │   │   ├── crc32fast-731fbd7b64f9355b
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── crc32fast-73ac9162ab74870f
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── crc32fast-ef32d47fe8077805
+│   │   │   │   ├── dep-lib-crc32fast
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-crc32fast
+│   │   │   │   └── lib-crc32fast.json
+│   │   │   ├── crossbeam-channel-1d575ea9064bdbed
+│   │   │   │   ├── dep-lib-crossbeam_channel
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-crossbeam_channel
+│   │   │   │   └── lib-crossbeam_channel.json
+│   │   │   ├── crossbeam-channel-c082224f002a5399
+│   │   │   │   ├── dep-lib-crossbeam_channel
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-crossbeam_channel
+│   │   │   │   └── lib-crossbeam_channel.json
+│   │   │   ├── crossbeam-utils-017de8f1b851f5e8
+│   │   │   │   ├── dep-lib-crossbeam_utils
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-crossbeam_utils
+│   │   │   │   └── lib-crossbeam_utils.json
+│   │   │   ├── crossbeam-utils-8f00d0c68f5e7365
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── crossbeam-utils-c704654a0101d8dd
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── crossbeam-utils-d6668673da6ba68e
+│   │   │   │   ├── dep-lib-crossbeam_utils
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-crossbeam_utils
+│   │   │   │   └── lib-crossbeam_utils.json
+│   │   │   ├── cursor-icon-284380ad4966d19d
+│   │   │   ├── cursor-icon-8ec09c2955509c4e
+│   │   │   │   ├── dep-lib-cursor_icon
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-cursor_icon
+│   │   │   │   └── lib-cursor_icon.json
+│   │   │   ├── dasp_sample-2e12520612cca814
+│   │   │   │   ├── dep-lib-dasp_sample
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-dasp_sample
+│   │   │   │   └── lib-dasp_sample.json
+│   │   │   ├── dasp_sample-ad22f082dd9aa87b
+│   │   │   ├── data-encoding-560821c3c35aafa5
+│   │   │   │   ├── dep-lib-data_encoding
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-data_encoding
+│   │   │   │   └── lib-data_encoding.json
+│   │   │   ├── data-encoding-9859f4d440622de5
+│   │   │   │   ├── dep-lib-data_encoding
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-data_encoding
+│   │   │   │   └── lib-data_encoding.json
+│   │   │   ├── derive_more-a5e2e395a1ef1fd8
+│   │   │   │   ├── dep-lib-derive_more
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-derive_more
+│   │   │   │   └── lib-derive_more.json
+│   │   │   ├── derive_more-b25b54c32b9ed711
+│   │   │   ├── dlib-ab64e406150313fb
+│   │   │   ├── dlib-d64e04d72cd385f5
+│   │   │   │   ├── dep-lib-dlib
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-dlib
+│   │   │   │   └── lib-dlib.json
+│   │   │   ├── downcast-rs-50ad5991c8a7e1fa
+│   │   │   │   ├── dep-lib-downcast_rs
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-downcast_rs
+│   │   │   │   └── lib-downcast_rs.json
+│   │   │   ├── downcast-rs-5cbf869557b8049d
+│   │   │   │   ├── dep-lib-downcast_rs
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-downcast_rs
+│   │   │   │   └── lib-downcast_rs.json
+│   │   │   ├── ecolor-004e19f0148904e8
+│   │   │   ├── ecolor-7e59b947c26558fa
+│   │   │   │   ├── dep-lib-ecolor
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ecolor
+│   │   │   │   └── lib-ecolor.json
+│   │   │   ├── egui-6f8c0799b13d990c
+│   │   │   ├── egui-dropdown-8487c331d8302943
+│   │   │   ├── egui-dropdown-e93980a65edaae6e
+│   │   │   │   ├── dep-lib-egui_dropdown
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-egui_dropdown
+│   │   │   │   └── lib-egui_dropdown.json
+│   │   │   ├── egui-ef8d2a7ea779da57
+│   │   │   │   ├── dep-lib-egui
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-egui
+│   │   │   │   └── lib-egui.json
+│   │   │   ├── emath-478fbdc8241bf0c2
+│   │   │   ├── emath-a797306f398a82c7
+│   │   │   │   ├── dep-lib-emath
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-emath
+│   │   │   │   └── lib-emath.json
+│   │   │   ├── encase-38c1fe7aeb5c99a8
+│   │   │   │   ├── dep-lib-encase
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-encase
+│   │   │   │   └── lib-encase.json
+│   │   │   ├── encase_derive-87767230d1c1b1ea
+│   │   │   │   ├── dep-lib-encase_derive
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-encase_derive
+│   │   │   │   └── lib-encase_derive.json
+│   │   │   ├── encase_derive-a3f2240c84117181
+│   │   │   ├── encase_derive_impl-4e3e57c5c5082609
+│   │   │   │   ├── dep-lib-encase_derive_impl
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-encase_derive_impl
+│   │   │   │   └── lib-encase_derive_impl.json
+│   │   │   ├── encase_derive_impl-a94b51391ac015f7
+│   │   │   │   ├── dep-lib-encase_derive_impl
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-encase_derive_impl
+│   │   │   │   └── lib-encase_derive_impl.json
+│   │   │   ├── encase-f1b9181a87e2012d
+│   │   │   ├── epaint-4ee245ade529ab38
+│   │   │   ├── epaint-b96315140e5707d8
+│   │   │   │   ├── dep-lib-epaint
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-epaint
+│   │   │   │   └── lib-epaint.json
+│   │   │   ├── equivalent-38579a1f9a50edf2
+│   │   │   │   ├── dep-lib-equivalent
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-equivalent
+│   │   │   │   └── lib-equivalent.json
+│   │   │   ├── equivalent-680c6a97ea2e53fe
+│   │   │   │   ├── dep-lib-equivalent
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-equivalent
+│   │   │   │   └── lib-equivalent.json
+│   │   │   ├── equivalent-83b7b4edb0a197bf
+│   │   │   │   ├── dep-lib-equivalent
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-equivalent
+│   │   │   │   └── lib-equivalent.json
+│   │   │   ├── erased-serde-5ab89e2214a59c54
+│   │   │   ├── erased-serde-d92a1ebfb4718e28
+│   │   │   │   ├── dep-lib-erased_serde
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-erased_serde
+│   │   │   │   └── lib-erased_serde.json
+│   │   │   ├── euclid-c89a132b2216b080
+│   │   │   │   ├── dep-lib-euclid
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-euclid
+│   │   │   │   └── lib-euclid.json
+│   │   │   ├── euclid-cbf298bb43cd1d21
+│   │   │   ├── event-listener-04e386c953f93baf
+│   │   │   │   ├── dep-lib-event_listener
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-event_listener
+│   │   │   │   └── lib-event_listener.json
+│   │   │   ├── event-listener-359144c3d6ad1d63
+│   │   │   │   ├── dep-lib-event_listener
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-event_listener
+│   │   │   │   └── lib-event_listener.json
+│   │   │   ├── event-listener-3d041439cdbd9846
+│   │   │   │   ├── dep-lib-event_listener
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-event_listener
+│   │   │   │   └── lib-event_listener.json
+│   │   │   ├── event-listener-76614c0a4db4a8a6
+│   │   │   │   ├── dep-lib-event_listener
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-event_listener
+│   │   │   │   └── lib-event_listener.json
+│   │   │   ├── event-listener-d9ee1d509bddc42a
+│   │   │   │   ├── dep-lib-event_listener
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-event_listener
+│   │   │   │   └── lib-event_listener.json
+│   │   │   ├── event-listener-fb79e181a8b276e3
+│   │   │   │   ├── dep-lib-event_listener
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-event_listener
+│   │   │   │   └── lib-event_listener.json
+│   │   │   ├── event-listener-strategy-729361948cf492d4
+│   │   │   │   ├── dep-lib-event_listener_strategy
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-event_listener_strategy
+│   │   │   │   └── lib-event_listener_strategy.json
+│   │   │   ├── event-listener-strategy-9ad487cee8e96b0e
+│   │   │   │   ├── dep-lib-event_listener_strategy
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-event_listener_strategy
+│   │   │   │   └── lib-event_listener_strategy.json
+│   │   │   ├── event-listener-strategy-c9d2319b3527ff19
+│   │   │   │   ├── dep-lib-event_listener_strategy
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-event_listener_strategy
+│   │   │   │   └── lib-event_listener_strategy.json
+│   │   │   ├── event-listener-strategy-fbdab4a5c219659c
+│   │   │   │   ├── dep-lib-event_listener_strategy
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-event_listener_strategy
+│   │   │   │   └── lib-event_listener_strategy.json
+│   │   │   ├── fastrand-c2008e5f1a5213df
+│   │   │   │   ├── dep-lib-fastrand
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-fastrand
+│   │   │   │   └── lib-fastrand.json
+│   │   │   ├── fastrand-c4ba984d5807bd45
+│   │   │   │   ├── dep-lib-fastrand
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-fastrand
+│   │   │   │   └── lib-fastrand.json
+│   │   │   ├── fdeflate-2b401d6f0e534621
+│   │   │   │   ├── dep-lib-fdeflate
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-fdeflate
+│   │   │   │   └── lib-fdeflate.json
+│   │   │   ├── fdeflate-53e755f8d8044595
+│   │   │   │   ├── dep-lib-fdeflate
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-fdeflate
+│   │   │   │   └── lib-fdeflate.json
+│   │   │   ├── fixedbitset-3b91285b090aa5cc
+│   │   │   │   ├── dep-lib-fixedbitset
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-fixedbitset
+│   │   │   │   └── lib-fixedbitset.json
+│   │   │   ├── fixedbitset-d927135f66281d88
+│   │   │   │   ├── dep-lib-fixedbitset
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-fixedbitset
+│   │   │   │   └── lib-fixedbitset.json
+│   │   │   ├── flate2-81544da03826fe16
+│   │   │   │   ├── dep-lib-flate2
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-flate2
+│   │   │   │   └── lib-flate2.json
+│   │   │   ├── flate2-ebb2e66f8675c725
+│   │   │   │   ├── dep-lib-flate2
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-flate2
+│   │   │   │   └── lib-flate2.json
+│   │   │   ├── fnv-1fd3f2187f6b7661
+│   │   │   │   ├── dep-lib-fnv
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-fnv
+│   │   │   │   └── lib-fnv.json
+│   │   │   ├── fnv-da3887d63e642ef7
+│   │   │   ├── form_urlencoded-49c3a0a359080d90
+│   │   │   │   ├── dep-lib-form_urlencoded
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-form_urlencoded
+│   │   │   │   └── lib-form_urlencoded.json
+│   │   │   ├── form_urlencoded-9f9eba00210aea17
+│   │   │   ├── futures-core-ba58ee888b9ed206
+│   │   │   │   ├── dep-lib-futures_core
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-futures_core
+│   │   │   │   └── lib-futures_core.json
+│   │   │   ├── futures-core-f96403ffb2ee08a7
+│   │   │   │   ├── dep-lib-futures_core
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-futures_core
+│   │   │   │   └── lib-futures_core.json
+│   │   │   ├── futures-io-cb5271146d94cd51
+│   │   │   │   ├── dep-lib-futures_io
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-futures_io
+│   │   │   │   └── lib-futures_io.json
+│   │   │   ├── futures-io-dbf48bac0178239b
+│   │   │   │   ├── dep-lib-futures_io
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-futures_io
+│   │   │   │   └── lib-futures_io.json
+│   │   │   ├── futures-lite-b8dfad1edd985d9c
+│   │   │   │   ├── dep-lib-futures_lite
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-futures_lite
+│   │   │   │   └── lib-futures_lite.json
+│   │   │   ├── futures-lite-bb2ed5660d61f5c6
+│   │   │   │   ├── dep-lib-futures_lite
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-futures_lite
+│   │   │   │   └── lib-futures_lite.json
+│   │   │   ├── fuzzy-matcher-6bccc399f66e34df
+│   │   │   ├── fuzzy-matcher-88cb2a26705566f8
+│   │   │   │   ├── dep-lib-fuzzy_matcher
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-fuzzy_matcher
+│   │   │   │   └── lib-fuzzy_matcher.json
+│   │   │   ├── getrandom-19b661e6be416e47
+│   │   │   │   ├── dep-lib-getrandom
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-getrandom
+│   │   │   │   └── lib-getrandom.json
+│   │   │   ├── getrandom-408745623fc2360c
+│   │   │   │   ├── dep-lib-getrandom
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-getrandom
+│   │   │   │   └── lib-getrandom.json
+│   │   │   ├── getrandom-630512d4b8ec9122
+│   │   │   │   ├── dep-lib-getrandom
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-getrandom
+│   │   │   │   └── lib-getrandom.json
+│   │   │   ├── getrandom-a267d1a33fcba8ff
+│   │   │   │   ├── dep-lib-getrandom
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-getrandom
+│   │   │   │   └── lib-getrandom.json
+│   │   │   ├── gilrs-1b90b47f77243bdd
+│   │   │   ├── gilrs-3806bfaccad61cb5
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── gilrs-4151dd3d6922504d
+│   │   │   ├── gilrs-870be0f4b2484d77
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── gilrs-core-1420c5b49006bcec
+│   │   │   ├── gilrs-core-ebff55670975d39c
+│   │   │   ├── glam-8c7b8db28573d7bb
+│   │   │   │   ├── dep-lib-glam
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-glam
+│   │   │   │   └── lib-glam.json
+│   │   │   ├── glam-e6908385582abe05
+│   │   │   ├── glow-4ce9c08650779b2f
+│   │   │   │   ├── dep-lib-glow
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-glow
+│   │   │   │   └── lib-glow.json
+│   │   │   ├── glow-f11e4c06eb6897d8
+│   │   │   │   ├── dep-lib-glow
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-glow
+│   │   │   │   └── lib-glow.json
+│   │   │   ├── gltf-9fd7bd3d0a4ba89d
+│   │   │   ├── gltf-derive-319a8c20214a52b6
+│   │   │   ├── gltf-derive-4df810b35afc5975
+│   │   │   │   ├── dep-lib-gltf_derive
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-gltf_derive
+│   │   │   │   └── lib-gltf_derive.json
+│   │   │   ├── gltf-eb1f21807ea6615f
+│   │   │   │   ├── dep-lib-gltf
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-gltf
+│   │   │   │   └── lib-gltf.json
+│   │   │   ├── gltf-json-4c4664b360496c4a
+│   │   │   ├── gltf-json-60439ece1214dd8d
+│   │   │   │   ├── dep-lib-gltf_json
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-gltf_json
+│   │   │   │   └── lib-gltf_json.json
+│   │   │   ├── glyph_brush_layout-780b7f89fbe1241a
+│   │   │   ├── glyph_brush_layout-f031a26a14cdd0c9
+│   │   │   │   ├── dep-lib-glyph_brush_layout
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-glyph_brush_layout
+│   │   │   │   └── lib-glyph_brush_layout.json
+│   │   │   ├── gpu-alloc-1b57a0c34be507f3
+│   │   │   ├── gpu-alloc-4b38ff74aff5e258
+│   │   │   │   ├── dep-lib-gpu_alloc
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-gpu_alloc
+│   │   │   │   └── lib-gpu_alloc.json
+│   │   │   ├── gpu-alloc-types-a39b63a7498fed05
+│   │   │   │   ├── dep-lib-gpu_alloc_types
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-gpu_alloc_types
+│   │   │   │   └── lib-gpu_alloc_types.json
+│   │   │   ├── gpu-alloc-types-b4d19fc2c8f7f3ae
+│   │   │   ├── gpu-descriptor-2db3e973b198a38b
+│   │   │   ├── gpu-descriptor-5dcd2b8e8e9a8c1f
+│   │   │   │   ├── dep-lib-gpu_descriptor
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-gpu_descriptor
+│   │   │   │   └── lib-gpu_descriptor.json
+│   │   │   ├── gpu-descriptor-types-845a070f481389aa
+│   │   │   │   ├── dep-lib-gpu_descriptor_types
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-gpu_descriptor_types
+│   │   │   │   └── lib-gpu_descriptor_types.json
+│   │   │   ├── gpu-descriptor-types-9ed220f888a28979
+│   │   │   ├── grid-05f0e0244bae3797
+│   │   │   ├── grid-3092809f7c8f1cfd
+│   │   │   │   ├── dep-lib-grid
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-grid
+│   │   │   │   └── lib-grid.json
+│   │   │   ├── guillotiere-27e78cadcb0841a6
+│   │   │   │   ├── dep-lib-guillotiere
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-guillotiere
+│   │   │   │   └── lib-guillotiere.json
+│   │   │   ├── guillotiere-fbf187226bfe90c5
+│   │   │   ├── hashbrown-d7e14c736fa3500a
+│   │   │   │   ├── dep-lib-hashbrown
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-hashbrown
+│   │   │   │   └── lib-hashbrown.json
+│   │   │   ├── hashbrown-e25de456ee739c3f
+│   │   │   │   ├── dep-lib-hashbrown
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-hashbrown
+│   │   │   │   └── lib-hashbrown.json
+│   │   │   ├── hashbrown-e8ec4652c8420ff1
+│   │   │   ├── hexasphere-91551454ed7986c3
+│   │   │   ├── hexasphere-9580729e7e29b1f4
+│   │   │   │   ├── dep-lib-hexasphere
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-hexasphere
+│   │   │   │   └── lib-hexasphere.json
+│   │   │   ├── hexf-parse-10daefb3d2d2b782
+│   │   │   │   ├── dep-lib-hexf_parse
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-hexf_parse
+│   │   │   │   └── lib-hexf_parse.json
+│   │   │   ├── hexf-parse-e1ed04195413cc73
+│   │   │   │   ├── dep-lib-hexf_parse
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-hexf_parse
+│   │   │   │   └── lib-hexf_parse.json
+│   │   │   ├── home-79cffef349928f4f
+│   │   │   ├── home-fb4dbd53f053d5e7
+│   │   │   │   ├── dep-lib-home
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-home
+│   │   │   │   └── lib-home.json
+│   │   │   ├── idna-6262adb612bb554d
+│   │   │   ├── idna-9f9b192ab51f0356
+│   │   │   │   ├── dep-lib-idna
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-idna
+│   │   │   │   └── lib-idna.json
+│   │   │   ├── image-464c356012cb2ac8
+│   │   │   │   ├── dep-lib-image
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-image
+│   │   │   │   └── lib-image.json
+│   │   │   ├── image-5c9d1c2bd0d3e55d
+│   │   │   │   ├── dep-lib-image
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-image
+│   │   │   │   └── lib-image.json
+│   │   │   ├── image-5e480f09df609a05
+│   │   │   ├── image-906ba28c7b987ec1
+│   │   │   ├── indexmap-0a24b47aa9d921ac
+│   │   │   ├── indexmap-776f12e6fdfc183b
+│   │   │   │   ├── dep-lib-indexmap
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-indexmap
+│   │   │   │   └── lib-indexmap.json
+│   │   │   ├── indexmap-a6bf5c6940aea2ea
+│   │   │   │   ├── dep-lib-indexmap
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-indexmap
+│   │   │   │   └── lib-indexmap.json
+│   │   │   ├── indexmap-f36afce36194b2a3
+│   │   │   │   ├── dep-lib-indexmap
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-indexmap
+│   │   │   │   └── lib-indexmap.json
+│   │   │   ├── inflections-7a05bed28e2e9c33
+│   │   │   │   ├── dep-lib-inflections
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-inflections
+│   │   │   │   └── lib-inflections.json
+│   │   │   ├── inotify-22b00433af745eb4
+│   │   │   │   ├── dep-lib-inotify
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-inotify
+│   │   │   │   └── lib-inotify.json
+│   │   │   ├── inotify-fae9712dd205752f
+│   │   │   ├── inotify-sys-72650f55d76d5756
+│   │   │   ├── inotify-sys-90f7ea3259561031
+│   │   │   │   ├── dep-lib-inotify_sys
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-inotify_sys
+│   │   │   │   └── lib-inotify_sys.json
+│   │   │   ├── itoa-6ad6e37b5669c4b1
+│   │   │   │   ├── dep-lib-itoa
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-itoa
+│   │   │   │   └── lib-itoa.json
+│   │   │   ├── itoa-7f5b676377f37554
+│   │   │   ├── iyes_perf_ui-390b1d549ec4fb4e
+│   │   │   ├── iyes_perf_ui-f2543be479c3f17c
+│   │   │   ├── khronos-egl-66db3fd26ee5e39a
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── khronos-egl-a31056e5d3fc3769
+│   │   │   │   ├── dep-lib-khronos_egl
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-khronos_egl
+│   │   │   │   └── lib-khronos_egl.json
+│   │   │   ├── khronos-egl-ae3fc2d2dac84274
+│   │   │   │   ├── dep-lib-khronos_egl
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-khronos_egl
+│   │   │   │   └── lib-khronos_egl.json
+│   │   │   ├── khronos-egl-b12c70c638f3cae4
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── ktx2-1f960fcb91955a53
+│   │   │   │   ├── dep-lib-ktx2
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ktx2
+│   │   │   │   └── lib-ktx2.json
+│   │   │   ├── ktx2-eaa81043bcaf7295
+│   │   │   │   ├── dep-lib-ktx2
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ktx2
+│   │   │   │   └── lib-ktx2.json
+│   │   │   ├── lazy_static-8e1e665efeec08d5
+│   │   │   │   ├── dep-lib-lazy_static
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-lazy_static
+│   │   │   │   └── lib-lazy_static.json
+│   │   │   ├── lazy_static-905dee36cd841495
+│   │   │   │   ├── dep-lib-lazy_static
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-lazy_static
+│   │   │   │   └── lib-lazy_static.json
+│   │   │   ├── lewton-58f4a5833b9618da
+│   │   │   ├── lewton-b64c715c30a97341
+│   │   │   │   ├── dep-lib-lewton
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-lewton
+│   │   │   │   └── lib-lewton.json
+│   │   │   ├── libc-134ac376092d5e2c
+│   │   │   │   ├── dep-lib-libc
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-libc
+│   │   │   │   └── lib-libc.json
+│   │   │   ├── libc-7d85b44dd4112ef7
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── libc-86bd863ef5e31794
+│   │   │   │   ├── dep-lib-libc
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-libc
+│   │   │   │   └── lib-libc.json
+│   │   │   ├── libc-a77a0d846ee4dfd9
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── libc-d4315bb7763ddf45
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── libc-dfe911814d071fb9
+│   │   │   │   ├── dep-lib-libc
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-libc
+│   │   │   │   └── lib-libc.json
+│   │   │   ├── libc-ef926ddf9e171e1d
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── libloading-256ecaec75bf408f
+│   │   │   │   ├── dep-lib-libloading
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-libloading
+│   │   │   │   └── lib-libloading.json
+│   │   │   ├── libloading-5adb17f45bf2273d
+│   │   │   │   ├── dep-lib-libloading
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-libloading
+│   │   │   │   └── lib-libloading.json
+│   │   │   ├── libloading-5fb55c706cf203e3
+│   │   │   │   ├── dep-lib-libloading
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-libloading
+│   │   │   │   └── lib-libloading.json
+│   │   │   ├── libloading-90b44e8ad32ec97e
+│   │   │   │   ├── dep-lib-libloading
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-libloading
+│   │   │   │   └── lib-libloading.json
+│   │   │   ├── libudev-sys-85e75575cd8bb626
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── libudev-sys-a42ee8bde5d65008
+│   │   │   ├── libudev-sys-a465316cbfdd1c2f
+│   │   │   ├── libudev-sys-f53beff713202c12
+│   │   │   ├── linux-raw-sys-aac5098bd0db2122
+│   │   │   │   ├── dep-lib-linux_raw_sys
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-linux_raw_sys
+│   │   │   │   └── lib-linux_raw_sys.json
+│   │   │   ├── linux-raw-sys-c6a5fe53308abbf3
+│   │   │   │   ├── dep-lib-linux_raw_sys
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-linux_raw_sys
+│   │   │   │   └── lib-linux_raw_sys.json
+│   │   │   ├── lock_api-023ff5dfc6cd64d5
+│   │   │   │   ├── dep-lib-lock_api
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-lock_api
+│   │   │   │   └── lib-lock_api.json
+│   │   │   ├── lock_api-be96b894bc235dcb
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── lock_api-f0e89ef3e5d24204
+│   │   │   │   ├── dep-lib-lock_api
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-lock_api
+│   │   │   │   └── lib-lock_api.json
+│   │   │   ├── lock_api-fecb9e76be1412ca
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── log-4cc6917da009d269
+│   │   │   │   ├── dep-lib-log
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-log
+│   │   │   │   └── lib-log.json
+│   │   │   ├── log-bdfbe547eede8cb0
+│   │   │   │   ├── dep-lib-log
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-log
+│   │   │   │   └── lib-log.json
+│   │   │   ├── matchers-2ce25257fff16aa4
+│   │   │   │   ├── dep-lib-matchers
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-matchers
+│   │   │   │   └── lib-matchers.json
+│   │   │   ├── matchers-dc93a2bd59af1da2
+│   │   │   │   ├── dep-lib-matchers
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-matchers
+│   │   │   │   └── lib-matchers.json
+│   │   │   ├── memchr-7277d075abff4edc
+│   │   │   │   ├── dep-lib-memchr
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-memchr
+│   │   │   │   └── lib-memchr.json
+│   │   │   ├── memchr-bd21e95c819dd0c4
+│   │   │   │   ├── dep-lib-memchr
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-memchr
+│   │   │   │   └── lib-memchr.json
+│   │   │   ├── miniz_oxide-712509ba36bfc896
+│   │   │   │   ├── dep-lib-miniz_oxide
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-miniz_oxide
+│   │   │   │   └── lib-miniz_oxide.json
+│   │   │   ├── miniz_oxide-a48593d2c60d68a7
+│   │   │   │   ├── dep-lib-miniz_oxide
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-miniz_oxide
+│   │   │   │   └── lib-miniz_oxide.json
+│   │   │   ├── naga-55a1febe03b9e136
+│   │   │   │   ├── dep-lib-naga
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-naga
+│   │   │   │   └── lib-naga.json
+│   │   │   ├── naga-69e34206b2345294
+│   │   │   ├── naga_oil-315bcf4ecac287fe
+│   │   │   ├── naga_oil-6de1e9da4ee9cca4
+│   │   │   │   ├── dep-lib-naga_oil
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-naga_oil
+│   │   │   │   └── lib-naga_oil.json
+│   │   │   ├── nix-2e82989dd01fd7f6
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── nix-a9018e22c9736420
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── nix-c6a6eeb3e847940b
+│   │   │   │   ├── dep-lib-nix
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-nix
+│   │   │   │   └── lib-nix.json
+│   │   │   ├── nix-eff24b83714af06c
+│   │   │   ├── nohash-hasher-9f78da64e72bdc06
+│   │   │   ├── nohash-hasher-afff90c97f4f4bb5
+│   │   │   │   ├── dep-lib-nohash_hasher
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-nohash_hasher
+│   │   │   │   └── lib-nohash_hasher.json
+│   │   │   ├── noise-2f27141ca2d97a26
+│   │   │   ├── noise-ae141c48f8f751db
+│   │   │   │   ├── dep-lib-noise
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-noise
+│   │   │   │   └── lib-noise.json
+│   │   │   ├── nonmax-597323926ca02c7b
+│   │   │   │   ├── dep-lib-nonmax
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-nonmax
+│   │   │   │   └── lib-nonmax.json
+│   │   │   ├── nonmax-d999d45f95aa19f6
+│   │   │   │   ├── dep-lib-nonmax
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-nonmax
+│   │   │   │   └── lib-nonmax.json
+│   │   │   ├── nu-ansi-term-005697ed6a5f6c12
+│   │   │   │   ├── dep-lib-nu_ansi_term
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-nu_ansi_term
+│   │   │   │   └── lib-nu_ansi_term.json
+│   │   │   ├── nu-ansi-term-2f50d3558673ca24
+│   │   │   │   ├── dep-lib-nu_ansi_term
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-nu_ansi_term
+│   │   │   │   └── lib-nu_ansi_term.json
+│   │   │   ├── num-traits-04e337fb29569335
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── num-traits-3d2f7b000b861168
+│   │   │   │   ├── dep-lib-num_traits
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-num_traits
+│   │   │   │   └── lib-num_traits.json
+│   │   │   ├── num-traits-ed4e45c96e8e5a3f
+│   │   │   │   ├── dep-lib-num_traits
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-num_traits
+│   │   │   │   └── lib-num_traits.json
+│   │   │   ├── num-traits-fe24c3837eeb0e8d
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── ogg-1383bdaa44d7813d
+│   │   │   │   ├── dep-lib-ogg
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ogg
+│   │   │   │   └── lib-ogg.json
+│   │   │   ├── ogg-b3bfdcda9bb757ed
+│   │   │   ├── once_cell-a12ec16feb2e2aea
+│   │   │   │   ├── dep-lib-once_cell
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-once_cell
+│   │   │   │   └── lib-once_cell.json
+│   │   │   ├── once_cell-de205e2f9cae478e
+│   │   │   │   ├── dep-lib-once_cell
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-once_cell
+│   │   │   │   └── lib-once_cell.json
+│   │   │   ├── overload-bc4e2e7642bbab8a
+│   │   │   │   ├── dep-lib-overload
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-overload
+│   │   │   │   └── lib-overload.json
+│   │   │   ├── overload-f704e2311a3970c8
+│   │   │   │   ├── dep-lib-overload
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-overload
+│   │   │   │   └── lib-overload.json
+│   │   │   ├── owned_ttf_parser-7b9cf0a6c624caa6
+│   │   │   │   ├── dep-lib-owned_ttf_parser
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-owned_ttf_parser
+│   │   │   │   └── lib-owned_ttf_parser.json
+│   │   │   ├── owned_ttf_parser-c9b6eeab8a1744ff
+│   │   │   ├── parking-c2599061a371f65e
+│   │   │   │   ├── dep-lib-parking
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-parking
+│   │   │   │   └── lib-parking.json
+│   │   │   ├── parking-cfaeae8053ba5be4
+│   │   │   │   ├── dep-lib-parking
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-parking
+│   │   │   │   └── lib-parking.json
+│   │   │   ├── parking_lot-4d49f4df30aa0887
+│   │   │   ├── parking_lot-9a6c9fbff53c2080
+│   │   │   │   ├── dep-lib-parking_lot
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-parking_lot
+│   │   │   │   └── lib-parking_lot.json
+│   │   │   ├── parking_lot_core-009de7da6060675e
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── parking_lot_core-6f67f51161acef09
+│   │   │   │   ├── dep-lib-parking_lot_core
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-parking_lot_core
+│   │   │   │   └── lib-parking_lot_core.json
+│   │   │   ├── parking_lot_core-97e160eca653f9a9
+│   │   │   ├── parking_lot_core-b215e1984c189911
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── percent-encoding-c389f43259646a36
+│   │   │   │   ├── dep-lib-percent_encoding
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-percent_encoding
+│   │   │   │   └── lib-percent_encoding.json
+│   │   │   ├── percent-encoding-e288806aa4f9b5d7
+│   │   │   │   ├── dep-lib-percent_encoding
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-percent_encoding
+│   │   │   │   └── lib-percent_encoding.json
+│   │   │   ├── petgraph-0475ac8146cdf627
+│   │   │   ├── petgraph-ca4fa99f84381b4c
+│   │   │   │   ├── dep-lib-petgraph
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-petgraph
+│   │   │   │   └── lib-petgraph.json
+│   │   │   ├── pin-project-lite-1641eccc9eb95ac6
+│   │   │   │   ├── dep-lib-pin_project_lite
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-pin_project_lite
+│   │   │   │   └── lib-pin_project_lite.json
+│   │   │   ├── pin-project-lite-ad35835c9dbd543f
+│   │   │   │   ├── dep-lib-pin_project_lite
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-pin_project_lite
+│   │   │   │   └── lib-pin_project_lite.json
+│   │   │   ├── piper-315e6b61d4b829e4
+│   │   │   │   ├── dep-lib-piper
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-piper
+│   │   │   │   └── lib-piper.json
+│   │   │   ├── piper-c4b63b69b8a5a003
+│   │   │   │   ├── dep-lib-piper
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-piper
+│   │   │   │   └── lib-piper.json
+│   │   │   ├── pkg-config-3329666de635faf7
+│   │   │   │   ├── dep-lib-pkg_config
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-pkg_config
+│   │   │   │   └── lib-pkg_config.json
+│   │   │   ├── png-0ae753b0426c0b0a
+│   │   │   │   ├── dep-lib-png
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-png
+│   │   │   │   └── lib-png.json
+│   │   │   ├── png-17bb252e21f3c0ef
+│   │   │   │   ├── dep-lib-png
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-png
+│   │   │   │   └── lib-png.json
+│   │   │   ├── polling-a75983f234c7d359
+│   │   │   ├── polling-c8ccd32bdfbfa005
+│   │   │   │   ├── dep-lib-polling
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-polling
+│   │   │   │   └── lib-polling.json
+│   │   │   ├── ppv-lite86-762eed32f904aea7
+│   │   │   │   ├── dep-lib-ppv_lite86
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ppv_lite86
+│   │   │   │   └── lib-ppv_lite86.json
+│   │   │   ├── ppv-lite86-9ba13cd174f104b7
+│   │   │   ├── pretty-type-name-207fc51ce4cce5ea
+│   │   │   ├── pretty-type-name-293506fa2cf30033
+│   │   │   │   ├── dep-lib-pretty_type_name
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-pretty_type_name
+│   │   │   │   └── lib-pretty_type_name.json
+│   │   │   ├── proc-macro2-4ceb19dab2fab0c3
+│   │   │   │   ├── dep-lib-proc_macro2
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-proc_macro2
+│   │   │   │   └── lib-proc_macro2.json
+│   │   │   ├── proc-macro2-51d76e2311575a63
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── proc-macro2-6304850979d2912e
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── proc-macro2-9de67cd8fe0bf3cc
+│   │   │   │   ├── dep-lib-proc_macro2
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-proc_macro2
+│   │   │   │   └── lib-proc_macro2.json
+│   │   │   ├── profiling-637294b7715e0174
+│   │   │   │   ├── dep-lib-profiling
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-profiling
+│   │   │   │   └── lib-profiling.json
+│   │   │   ├── profiling-7b0c1a503e0d71ae
+│   │   │   │   ├── dep-lib-profiling
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-profiling
+│   │   │   │   └── lib-profiling.json
+│   │   │   ├── quote-9d5d747a0ef07f1a
+│   │   │   │   ├── dep-lib-quote
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-quote
+│   │   │   │   └── lib-quote.json
+│   │   │   ├── quote-b72290479e27a937
+│   │   │   │   ├── dep-lib-quote
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-quote
+│   │   │   │   └── lib-quote.json
+│   │   │   ├── radsort-902e5b5d86504f98
+│   │   │   │   ├── dep-lib-radsort
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-radsort
+│   │   │   │   └── lib-radsort.json
+│   │   │   ├── radsort-e94dbdb912d7789b
+│   │   │   │   ├── dep-lib-radsort
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-radsort
+│   │   │   │   └── lib-radsort.json
+│   │   │   ├── rand-0328014af5aad729
+│   │   │   │   ├── dep-lib-rand
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-rand
+│   │   │   │   └── lib-rand.json
+│   │   │   ├── rand_chacha-003ac9da68a6d33e
+│   │   │   ├── rand_chacha-4e0dde3cc4bf90ff
+│   │   │   │   ├── dep-lib-rand_chacha
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-rand_chacha
+│   │   │   │   └── lib-rand_chacha.json
+│   │   │   ├── rand_core-90c5bed8c95b78b8
+│   │   │   ├── rand_core-e97ef59bc7b0d440
+│   │   │   │   ├── dep-lib-rand_core
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-rand_core
+│   │   │   │   └── lib-rand_core.json
+│   │   │   ├── rand-ddcefc55f2e1b1f2
+│   │   │   ├── rand_xorshift-32f98e5258b03824
+│   │   │   ├── rand_xorshift-5cf90378fe6debd6
+│   │   │   │   ├── dep-lib-rand_xorshift
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-rand_xorshift
+│   │   │   │   └── lib-rand_xorshift.json
+│   │   │   ├── raw-window-handle-7c0412eda00145fb
+│   │   │   │   ├── dep-lib-raw_window_handle
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-raw_window_handle
+│   │   │   │   └── lib-raw_window_handle.json
+│   │   │   ├── raw-window-handle-bec0acba3ceaf942
+│   │   │   │   ├── dep-lib-raw_window_handle
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-raw_window_handle
+│   │   │   │   └── lib-raw_window_handle.json
+│   │   │   ├── rectangle-pack-23f6785e28046944
+│   │   │   ├── rectangle-pack-30171ef72a6ce58f
+│   │   │   │   ├── dep-lib-rectangle_pack
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-rectangle_pack
+│   │   │   │   └── lib-rectangle_pack.json
+│   │   │   ├── regex-1b3700d4811502ae
+│   │   │   │   ├── dep-lib-regex
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-regex
+│   │   │   │   └── lib-regex.json
+│   │   │   ├── regex-9450a72434c1a57c
+│   │   │   │   ├── dep-lib-regex
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-regex
+│   │   │   │   └── lib-regex.json
+│   │   │   ├── regex-automata-5fff9ea3a9d68c67
+│   │   │   │   ├── dep-lib-regex_automata
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-regex_automata
+│   │   │   │   └── lib-regex_automata.json
+│   │   │   ├── regex-automata-85ada1cace90e2d5
+│   │   │   │   ├── dep-lib-regex_automata
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-regex_automata
+│   │   │   │   └── lib-regex_automata.json
+│   │   │   ├── regex-automata-aac22643b7285ac8
+│   │   │   │   ├── dep-lib-regex_automata
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-regex_automata
+│   │   │   │   └── lib-regex_automata.json
+│   │   │   ├── regex-automata-e62e8bc513625553
+│   │   │   │   ├── dep-lib-regex_automata
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-regex_automata
+│   │   │   │   └── lib-regex_automata.json
+│   │   │   ├── regex-syntax-3743c46c6564e124
+│   │   │   │   ├── dep-lib-regex_syntax
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-regex_syntax
+│   │   │   │   └── lib-regex_syntax.json
+│   │   │   ├── regex-syntax-37eae38983de713a
+│   │   │   │   ├── dep-lib-regex_syntax
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-regex_syntax
+│   │   │   │   └── lib-regex_syntax.json
+│   │   │   ├── regex-syntax-a3fc2d0171d5a6ef
+│   │   │   │   ├── dep-lib-regex_syntax
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-regex_syntax
+│   │   │   │   └── lib-regex_syntax.json
+│   │   │   ├── regex-syntax-beda9b4f90a59ea9
+│   │   │   │   ├── dep-lib-regex_syntax
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-regex_syntax
+│   │   │   │   └── lib-regex_syntax.json
+│   │   │   ├── renderdoc-sys-5864b39e50787769
+│   │   │   │   ├── dep-lib-renderdoc_sys
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-renderdoc_sys
+│   │   │   │   └── lib-renderdoc_sys.json
+│   │   │   ├── renderdoc-sys-cd896dafe06d2d7a
+│   │   │   │   ├── dep-lib-renderdoc_sys
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-renderdoc_sys
+│   │   │   │   └── lib-renderdoc_sys.json
+│   │   │   ├── rodio-70b8fc188445940b
+│   │   │   ├── rodio-de9fe9dcde23eb85
+│   │   │   ├── ron-230e91b47ec005c4
+│   │   │   │   ├── dep-lib-ron
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ron
+│   │   │   │   └── lib-ron.json
+│   │   │   ├── ron-915dd0f56d483615
+│   │   │   ├── rustc-hash-78f5298a5e31f3dc
+│   │   │   │   ├── dep-lib-rustc_hash
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-rustc_hash
+│   │   │   │   └── lib-rustc_hash.json
+│   │   │   ├── rustc-hash-98eed4e5fc56a9e9
+│   │   │   │   ├── dep-lib-rustc_hash
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-rustc_hash
+│   │   │   │   └── lib-rustc_hash.json
+│   │   │   ├── rustc-hash-b1385a3947dba98f
+│   │   │   │   ├── dep-lib-rustc_hash
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-rustc_hash
+│   │   │   │   └── lib-rustc_hash.json
+│   │   │   ├── rustix-323eacc0ff01eabf
+│   │   │   ├── rustix-65398648e8b16987
+│   │   │   │   ├── dep-lib-rustix
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-rustix
+│   │   │   │   └── lib-rustix.json
+│   │   │   ├── rustix-ac3e3cddcd2d2bf1
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── rustix-b30b816cfae6e4d7
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── ruzstd-71303685eac2b234
+│   │   │   ├── ruzstd-98056ffedb337126
+│   │   │   │   ├── dep-lib-ruzstd
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ruzstd
+│   │   │   │   └── lib-ruzstd.json
+│   │   │   ├── ryu-1b99acf7e7359c59
+│   │   │   │   ├── dep-lib-ryu
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ryu
+│   │   │   │   └── lib-ryu.json
+│   │   │   ├── ryu-5b946e8f0317c336
+│   │   │   ├── scopeguard-db39df2d361293aa
+│   │   │   │   ├── dep-lib-scopeguard
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-scopeguard
+│   │   │   │   └── lib-scopeguard.json
+│   │   │   ├── scopeguard-e1ce4250f9cab139
+│   │   │   │   ├── dep-lib-scopeguard
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-scopeguard
+│   │   │   │   └── lib-scopeguard.json
+│   │   │   ├── serde-54baba31b30ea757
+│   │   │   ├── serde-a558d72dc94c093b
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── serde-d5f4eb0bd1f05525
+│   │   │   │   ├── dep-lib-serde
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-serde
+│   │   │   │   └── lib-serde.json
+│   │   │   ├── serde_derive-aaab12b41530e9fc
+│   │   │   ├── serde_derive-aea42436dc290957
+│   │   │   │   ├── dep-lib-serde_derive
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-serde_derive
+│   │   │   │   └── lib-serde_derive.json
+│   │   │   ├── serde-e88e84a801ed713f
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── serde_json-1dfc797010dac227
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── serde_json-3aeae07219c37f78
+│   │   │   │   ├── dep-lib-serde_json
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-serde_json
+│   │   │   │   └── lib-serde_json.json
+│   │   │   ├── serde_json-7f7b9edafba22d48
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── serde_json-92c20a5eefd20b68
+│   │   │   ├── sharded-slab-5ce2d589a7abcb4d
+│   │   │   │   ├── dep-lib-sharded_slab
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-sharded_slab
+│   │   │   │   └── lib-sharded_slab.json
+│   │   │   ├── sharded-slab-f304e3df3a9bc409
+│   │   │   │   ├── dep-lib-sharded_slab
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-sharded_slab
+│   │   │   │   └── lib-sharded_slab.json
+│   │   │   ├── simd-adler32-466889a08d4a19d5
+│   │   │   │   ├── dep-lib-simd_adler32
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-simd_adler32
+│   │   │   │   └── lib-simd_adler32.json
+│   │   │   ├── simd-adler32-93c79c862f3d1b83
+│   │   │   │   ├── dep-lib-simd_adler32
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-simd_adler32
+│   │   │   │   └── lib-simd_adler32.json
+│   │   │   ├── slab-240de9ce2a73790d
+│   │   │   │   ├── dep-lib-slab
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-slab
+│   │   │   │   └── lib-slab.json
+│   │   │   ├── slab-32b2e3ca9f3a3900
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── slab-db2b10ca6efffee0
+│   │   │   │   ├── dep-lib-slab
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-slab
+│   │   │   │   └── lib-slab.json
+│   │   │   ├── slab-f55bd112b69565c7
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── slotmap-504335c370de20c0
+│   │   │   ├── slotmap-64003db2046fe7eb
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── slotmap-bc6421640b155010
+│   │   │   │   ├── dep-lib-slotmap
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-slotmap
+│   │   │   │   └── lib-slotmap.json
+│   │   │   ├── slotmap-c2b64d976925947a
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── smallvec-87a595fa7a797a59
+│   │   │   ├── smallvec-b4b49292dd3aa4b8
+│   │   │   │   ├── dep-lib-smallvec
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-smallvec
+│   │   │   │   └── lib-smallvec.json
+│   │   │   ├── smol_str-87e7aa512181ed1e
+│   │   │   │   ├── dep-lib-smol_str
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-smol_str
+│   │   │   │   └── lib-smol_str.json
+│   │   │   ├── smol_str-e7749ce78b9d4c66
+│   │   │   │   ├── dep-lib-smol_str
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-smol_str
+│   │   │   │   └── lib-smol_str.json
+│   │   │   ├── spirv-3ecc505e75c63ef8
+│   │   │   ├── spirv-7c0e824c71f883cc
+│   │   │   │   ├── dep-lib-spirv
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-spirv
+│   │   │   │   └── lib-spirv.json
+│   │   │   ├── static_assertions-34de036ea252dc96
+│   │   │   │   ├── dep-lib-static_assertions
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-static_assertions
+│   │   │   │   └── lib-static_assertions.json
+│   │   │   ├── static_assertions-7f4152ed8884c0ba
+│   │   │   │   ├── dep-lib-static_assertions
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-static_assertions
+│   │   │   │   └── lib-static_assertions.json
+│   │   │   ├── svg_fmt-0c2328ca9c288460
+│   │   │   ├── svg_fmt-720d49830698f83c
+│   │   │   │   ├── dep-lib-svg_fmt
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-svg_fmt
+│   │   │   │   └── lib-svg_fmt.json
+│   │   │   ├── syn-09beb17b24012b91
+│   │   │   │   ├── dep-lib-syn
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-syn
+│   │   │   │   └── lib-syn.json
+│   │   │   ├── syn-4b1826cb04aedd72
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── syn-4e94e51decf58e7f
+│   │   │   │   ├── dep-lib-syn
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-syn
+│   │   │   │   └── lib-syn.json
+│   │   │   ├── syn-9099e4162d155a60
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── syn-c2736021aa03e354
+│   │   │   │   ├── dep-lib-syn
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-syn
+│   │   │   │   └── lib-syn.json
+│   │   │   ├── syn-f250147cf4a7db82
+│   │   │   │   ├── dep-lib-syn
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-syn
+│   │   │   │   └── lib-syn.json
+│   │   │   ├── sysinfo-8cadb369ff11183f
+│   │   │   │   ├── dep-lib-sysinfo
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-sysinfo
+│   │   │   │   └── lib-sysinfo.json
+│   │   │   ├── sysinfo-911f4e06c8af57d8
+│   │   │   ├── taffy-bb356bd4ad730d5a
+│   │   │   ├── taffy-f73c1717ca9031e5
+│   │   │   │   ├── dep-lib-taffy
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-taffy
+│   │   │   │   └── lib-taffy.json
+│   │   │   ├── termcolor-8f1c2e6bbd5cd281
+│   │   │   │   ├── dep-lib-termcolor
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-termcolor
+│   │   │   │   └── lib-termcolor.json
+│   │   │   ├── termcolor-b25d1b3f6792809b
+│   │   │   │   ├── dep-lib-termcolor
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-termcolor
+│   │   │   │   └── lib-termcolor.json
+│   │   │   ├── thiserror-0654f69d05b8e13d
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── thiserror-2a033ef7ca796560
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── thiserror-424481d9ffbab992
+│   │   │   │   ├── dep-lib-thiserror
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-thiserror
+│   │   │   │   └── lib-thiserror.json
+│   │   │   ├── thiserror-7928aafb4a0618c1
+│   │   │   ├── thiserror-impl-2907def59eca0c9d
+│   │   │   │   ├── dep-lib-thiserror_impl
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-thiserror_impl
+│   │   │   │   └── lib-thiserror_impl.json
+│   │   │   ├── thiserror-impl-d7000c53f36bc624
+│   │   │   ├── thread_local-cdc8f7298f09993c
+│   │   │   │   ├── dep-lib-thread_local
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-thread_local
+│   │   │   │   └── lib-thread_local.json
+│   │   │   ├── thread_local-d8e134d7f47d04f0
+│   │   │   │   ├── dep-lib-thread_local
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-thread_local
+│   │   │   │   └── lib-thread_local.json
+│   │   │   ├── tinyvec-01f119b85c5db513
+│   │   │   │   ├── dep-lib-tinyvec
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-tinyvec
+│   │   │   │   └── lib-tinyvec.json
+│   │   │   ├── tinyvec-9e0f73860632f72c
+│   │   │   │   ├── dep-lib-tinyvec
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-tinyvec
+│   │   │   │   └── lib-tinyvec.json
+│   │   │   ├── tinyvec_macros-053f9b445e1ec57b
+│   │   │   │   ├── dep-lib-tinyvec_macros
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-tinyvec_macros
+│   │   │   │   └── lib-tinyvec_macros.json
+│   │   │   ├── tinyvec_macros-362d35ae7563776f
+│   │   │   │   ├── dep-lib-tinyvec_macros
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-tinyvec_macros
+│   │   │   │   └── lib-tinyvec_macros.json
+│   │   │   ├── toml_datetime-37fa9e9506ab4fb4
+│   │   │   │   ├── dep-lib-toml_datetime
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-toml_datetime
+│   │   │   │   └── lib-toml_datetime.json
+│   │   │   ├── toml_edit-31f4f9ab69bbaedc
+│   │   │   │   ├── dep-lib-toml_edit
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-toml_edit
+│   │   │   │   └── lib-toml_edit.json
+│   │   │   ├── toml_edit-57908dc519c94632
+│   │   │   │   ├── dep-lib-toml_edit
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-toml_edit
+│   │   │   │   └── lib-toml_edit.json
+│   │   │   ├── top_down_shooter-2c707e8b626ad6fa
+│   │   │   ├── top_down_shooter-7c94d829f624f34b
+│   │   │   ├── top_down_shooter-9289ca80e97fc99b
+│   │   │   ├── tracing-30117c0bc234646a
+│   │   │   ├── tracing-87657927a586e71f
+│   │   │   │   ├── dep-lib-tracing
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-tracing
+│   │   │   │   └── lib-tracing.json
+│   │   │   ├── tracing-attributes-049d026e5aeade94
+│   │   │   │   ├── dep-lib-tracing_attributes
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-tracing_attributes
+│   │   │   │   └── lib-tracing_attributes.json
+│   │   │   ├── tracing-attributes-d1af80a5c4e4a248
+│   │   │   ├── tracing-core-36e7226bd656d73b
+│   │   │   │   ├── dep-lib-tracing_core
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-tracing_core
+│   │   │   │   └── lib-tracing_core.json
+│   │   │   ├── tracing-core-3ac8cc1840d559cf
+│   │   │   │   ├── dep-lib-tracing_core
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-tracing_core
+│   │   │   │   └── lib-tracing_core.json
+│   │   │   ├── tracing-log-76c14663a316c6ab
+│   │   │   │   ├── dep-lib-tracing_log
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-tracing_log
+│   │   │   │   └── lib-tracing_log.json
+│   │   │   ├── tracing-log-895fe49c3e4852d6
+│   │   │   │   ├── dep-lib-tracing_log
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-tracing_log
+│   │   │   │   └── lib-tracing_log.json
+│   │   │   ├── tracing-log-8fccd298ed079c1d
+│   │   │   │   ├── dep-lib-tracing_log
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-tracing_log
+│   │   │   │   └── lib-tracing_log.json
+│   │   │   ├── tracing-log-f52e7227ac20ef48
+│   │   │   │   ├── dep-lib-tracing_log
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-tracing_log
+│   │   │   │   └── lib-tracing_log.json
+│   │   │   ├── tracing-subscriber-0ed9e71b284309e5
+│   │   │   ├── tracing-subscriber-657446d18026524d
+│   │   │   │   ├── dep-lib-tracing_subscriber
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-tracing_subscriber
+│   │   │   │   └── lib-tracing_subscriber.json
+│   │   │   ├── ttf-parser-8dd7f50fb811a927
+│   │   │   │   ├── dep-lib-ttf_parser
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ttf_parser
+│   │   │   │   └── lib-ttf_parser.json
+│   │   │   ├── ttf-parser-af67e6f68773e9cb
+│   │   │   │   ├── dep-lib-ttf_parser
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-ttf_parser
+│   │   │   │   └── lib-ttf_parser.json
+│   │   │   ├── twox-hash-4814cf057a682593
+│   │   │   │   ├── dep-lib-twox_hash
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-twox_hash
+│   │   │   │   └── lib-twox_hash.json
+│   │   │   ├── twox-hash-eda0f69765d9efe2
+│   │   │   │   ├── dep-lib-twox_hash
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-twox_hash
+│   │   │   │   └── lib-twox_hash.json
+│   │   │   ├── typeid-ab2de77d7ad5a8f0
+│   │   │   │   ├── dep-lib-typeid
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-typeid
+│   │   │   │   └── lib-typeid.json
+│   │   │   ├── typeid-ee1d4f4866d103ce
+│   │   │   │   ├── dep-lib-typeid
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-typeid
+│   │   │   │   └── lib-typeid.json
+│   │   │   ├── unicode-bidi-5a267c6698e7b8c5
+│   │   │   ├── unicode-bidi-5ef6ce07f73e151f
+│   │   │   │   ├── dep-lib-unicode_bidi
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-unicode_bidi
+│   │   │   │   └── lib-unicode_bidi.json
+│   │   │   ├── unicode-ident-16ade75ac687c4ce
+│   │   │   │   ├── dep-lib-unicode_ident
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-unicode_ident
+│   │   │   │   └── lib-unicode_ident.json
+│   │   │   ├── unicode-ident-6422438f176e2c9c
+│   │   │   │   ├── dep-lib-unicode_ident
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-unicode_ident
+│   │   │   │   └── lib-unicode_ident.json
+│   │   │   ├── unicode-ident-fb5794cc6e954154
+│   │   │   │   ├── dep-lib-unicode_ident
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-unicode_ident
+│   │   │   │   └── lib-unicode_ident.json
+│   │   │   ├── unicode-normalization-1c0f25ac56f147fe
+│   │   │   ├── unicode-normalization-bc0eec51e19d74ca
+│   │   │   │   ├── dep-lib-unicode_normalization
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-unicode_normalization
+│   │   │   │   └── lib-unicode_normalization.json
+│   │   │   ├── unicode-width-0778b6f2d9821cf0
+│   │   │   │   ├── dep-lib-unicode_width
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-unicode_width
+│   │   │   │   └── lib-unicode_width.json
+│   │   │   ├── unicode-width-89707ef194130adb
+│   │   │   │   ├── dep-lib-unicode_width
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-unicode_width
+│   │   │   │   └── lib-unicode_width.json
+│   │   │   ├── unicode-xid-25a31738ac9bda79
+│   │   │   │   ├── dep-lib-unicode_xid
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-unicode_xid
+│   │   │   │   └── lib-unicode_xid.json
+│   │   │   ├── unicode-xid-94119230d2949a1d
+│   │   │   │   ├── dep-lib-unicode_xid
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-unicode_xid
+│   │   │   │   └── lib-unicode_xid.json
+│   │   │   ├── url-6c252a7b8ccc899a
+│   │   │   ├── url-9dcf9a7c79674f6b
+│   │   │   │   ├── dep-lib-url
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-url
+│   │   │   │   └── lib-url.json
+│   │   │   ├── uuid-2f13da9cbeed8476
+│   │   │   │   ├── dep-lib-uuid
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-uuid
+│   │   │   │   └── lib-uuid.json
+│   │   │   ├── uuid-7b3a86ca7550f821
+│   │   │   │   ├── dep-lib-uuid
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-uuid
+│   │   │   │   └── lib-uuid.json
+│   │   │   ├── uuid-b2767e32c77a027c
+│   │   │   │   ├── dep-lib-uuid
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-uuid
+│   │   │   │   └── lib-uuid.json
+│   │   │   ├── uuid-d4793ceb8655f199
+│   │   │   ├── vec_map-51887dca41c54071
+│   │   │   ├── vec_map-51a47a61a4acca17
+│   │   │   │   ├── dep-lib-vec_map
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-vec_map
+│   │   │   │   └── lib-vec_map.json
+│   │   │   ├── version_check-1b5ad72fe82ff5d7
+│   │   │   │   ├── dep-lib-version_check
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-version_check
+│   │   │   │   └── lib-version_check.json
+│   │   │   ├── webbrowser-55184346496f94f0
+│   │   │   │   ├── dep-lib-webbrowser
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-webbrowser
+│   │   │   │   └── lib-webbrowser.json
+│   │   │   ├── webbrowser-d70559650d86daef
+│   │   │   ├── web-time-d1691d8342db4905
+│   │   │   │   ├── dep-lib-web_time
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-web_time
+│   │   │   │   └── lib-web_time.json
+│   │   │   ├── web-time-f8bb701cfaddb7b5
+│   │   │   │   ├── dep-lib-web_time
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-web_time
+│   │   │   │   └── lib-web_time.json
+│   │   │   ├── wgpu-49268e6b81a0b8f7
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── wgpu-7c5f68495af59142
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── wgpu-7cb3d1cd37e00d18
+│   │   │   ├── wgpu-8406f9784cd2a69c
+│   │   │   │   ├── dep-lib-wgpu
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-wgpu
+│   │   │   │   └── lib-wgpu.json
+│   │   │   ├── wgpu-core-0478f788bcd80e68
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── wgpu-core-2f50809bddc55e92
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── wgpu-core-55b7567a64de24f8
+│   │   │   │   ├── dep-lib-wgpu_core
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-wgpu_core
+│   │   │   │   └── lib-wgpu_core.json
+│   │   │   ├── wgpu-core-fdfae05e6c13b71d
+│   │   │   ├── wgpu-hal-a4a5d78a9aa54e70
+│   │   │   ├── wgpu-hal-ec31e572d74bc5e8
+│   │   │   │   ├── dep-lib-wgpu_hal
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-wgpu_hal
+│   │   │   │   └── lib-wgpu_hal.json
+│   │   │   ├── wgpu-hal-ec9ede445ac2c6f9
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── wgpu-hal-edc598d3f6fbac3e
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── wgpu-types-1d2e6a853fcdbe99
+│   │   │   │   ├── dep-lib-wgpu_types
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-wgpu_types
+│   │   │   │   └── lib-wgpu_types.json
+│   │   │   ├── wgpu-types-3b5acb0b6f4c678a
+│   │   │   ├── winit-4edd958cc722444e
+│   │   │   ├── winit-712c6252bf58d33d
+│   │   │   │   ├── dep-lib-winit
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-winit
+│   │   │   │   └── lib-winit.json
+│   │   │   ├── winit-7e85481e9b91966d
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── winit-a1beeff97deeb3c1
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── winnow-73caf70ea4436245
+│   │   │   │   ├── dep-lib-winnow
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-winnow
+│   │   │   │   └── lib-winnow.json
+│   │   │   ├── x11-dl-1e5bc54cd0f22506
+│   │   │   │   ├── run-build-script-build-script-build
+│   │   │   │   └── run-build-script-build-script-build.json
+│   │   │   ├── x11-dl-5ad417b6c53f4cb6
+│   │   │   │   ├── build-script-build-script-build
+│   │   │   │   ├── build-script-build-script-build.json
+│   │   │   │   ├── dep-build-script-build-script-build
+│   │   │   │   └── invoked.timestamp
+│   │   │   ├── x11-dl-8032043588184256
+│   │   │   ├── x11-dl-87dd37982eb8b52d
+│   │   │   │   ├── dep-lib-x11_dl
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-x11_dl
+│   │   │   │   └── lib-x11_dl.json
+│   │   │   ├── x11rb-968808c07dd22840
+│   │   │   │   ├── dep-lib-x11rb
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-x11rb
+│   │   │   │   └── lib-x11rb.json
+│   │   │   ├── x11rb-ff6102329dd84ff1
+│   │   │   ├── x11rb-protocol-14bfa6b9a46ef05c
+│   │   │   │   ├── dep-lib-x11rb_protocol
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-x11rb_protocol
+│   │   │   │   └── lib-x11rb_protocol.json
+│   │   │   ├── x11rb-protocol-5f70c1b3524ce75d
+│   │   │   ├── xi-unicode-9d8a59a2f9d9244c
+│   │   │   ├── xi-unicode-a09cef2f25fc81aa
+│   │   │   │   ├── dep-lib-xi_unicode
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-xi_unicode
+│   │   │   │   └── lib-xi_unicode.json
+│   │   │   ├── xkbcommon-dl-3b97a97a72549521
+│   │   │   ├── xkbcommon-dl-cb771d9639a07c45
+│   │   │   │   ├── dep-lib-xkbcommon_dl
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-xkbcommon_dl
+│   │   │   │   └── lib-xkbcommon_dl.json
+│   │   │   ├── xkeysym-5c236d824796618a
+│   │   │   │   ├── dep-lib-xkeysym
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-xkeysym
+│   │   │   │   └── lib-xkeysym.json
+│   │   │   ├── xkeysym-a503a25c7c9f2365
+│   │   │   ├── zerocopy-6df5fb0232b57f1c
+│   │   │   │   ├── dep-lib-zerocopy
+│   │   │   │   ├── invoked.timestamp
+│   │   │   │   ├── lib-zerocopy
+│   │   │   │   └── lib-zerocopy.json
+│   │   │   └── zerocopy-d33fb51cb3929c4b
+│   │   │       ├── dep-lib-zerocopy
+│   │   │       ├── invoked.timestamp
+│   │   │       ├── lib-zerocopy
+│   │   │       └── lib-zerocopy.json
+│   │   └── incremental
+│   └── .rustc_info.json
 └── .vscode
+    ├── launch.json
     └── settings.json
 
-24 directories, 89 files
+733 directories, 3136 files

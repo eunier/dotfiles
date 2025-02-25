@@ -6,12 +6,15 @@ Project Description
 
 ### Todo
 
+- [ ] Does syncthing auto start?  
+- [ ] Polari data  
 - [ ] Avoid calling to install vscode extension if already installed  
 - [ ] Avoid redownlaoding JetBrains font  
 - [ ] nvm doesn't show up on fish  
 - [ ] sync up fish and bash config, aliases  
 - [ ] Music app  
 - [ ] Install GitLab cli, then start moving repo proejcts to its own repo  
+- [ ] veracrypt  
 - [ ] Don't use yadm  
 - [ ] Do I need to keep a list of installed obsidian plugin and settings?  
 - [ ] Set up ollama + continum vs code extension  

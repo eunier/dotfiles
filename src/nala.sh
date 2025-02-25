@@ -58,6 +58,7 @@ sudo nala install \
     mullvad-vpn \
     nethogs \
     picard \
+    polari \
     progress-tracker \
     rust-all \
     rust-src \

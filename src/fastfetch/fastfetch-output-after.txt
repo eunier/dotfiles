@@ -1,6 +1,6 @@
 OS: SparkyLinux 8 (Seven-Sisters) x86_64
 Kernel: Linux 6.12.12-amd64
-Packages: 2481 (dpkg), 36 (flatpak)
+Packages: 2487 (dpkg), 40 (flatpak)
 Display (LG HDR QHD): 2560x1440 @ 60 Hz in 32" [External] *
 Display (Acer X34): 3440x1440 @ 100 Hz in 34" [External]
 DE: GNOME 47.3

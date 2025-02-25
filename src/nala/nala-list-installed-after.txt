@@ -622,21 +622,21 @@ bind9-libs 1:9.20.4-4 [Debian/trixie main]
      .
      This package contains a bundle of shared libraries used by BIND 9.
 
-binutils 2.44-1 [Debian/trixie main]
+binutils 2.44-2 [Debian/trixie main]
 ├── is installed
 └── GNU assembler, linker and binary utilities
      The programs in this package are used to assemble, link and manipulate
      binary and object files.  They may be used in conjunction with a compiler
      and various libraries to build programs.
 
-binutils-common 2.44-1 [Debian/trixie main]
+binutils-common 2.44-2 [Debian/trixie main]
 ├── is installed
 └── Common files for the GNU assembler, linker and binary utilities
      This package contains the localization files used by binutils packages for
      various target architectures and parts of the binutils documentation. It is
      not useful on its own.
 
-binutils-x86-64-linux-gnu 2.44-1 [Debian/trixie main]
+binutils-x86-64-linux-gnu 2.44-2 [Debian/trixie main]
 ├── is installed
 └── GNU binary utilities, for x86-64-linux-gnu target
      This package provides GNU assembler, linker and binary utilities
@@ -771,7 +771,7 @@ bsd-mailx 8.1.2-0.20220412cvs-1 [Debian/trixie main]
       - s-nail package,
       - or mailutils package.
 
-bsdextrautils 2.40.4-3 [Debian/trixie main]
+bsdextrautils 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── extra utilities from 4.4BSD-Lite
      This package contains some extra BSD utilities: col, colcrt, colrm, column,
@@ -783,7 +783,7 @@ bsdmainutils 12.1.8 [Debian/trixie main]
 └── Transitional package for more utilities from FreeBSD
      This is a transitional package, it can be safely removed.
 
-bsdutils 1:2.40.4-3 [Debian/trixie main]
+bsdutils 1:2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── basic utilities from 4.4BSD-Lite
      This package contains the bare minimum of BSD utilities needed for a Debian
@@ -2652,7 +2652,7 @@ dirmngr 2.2.46-1+b1 [Debian/trixie main]
      among other tools.  Unless this package is installed, the parts of
      the GnuPG suite that try to interact with the network will fail.
 
-discord 0.0.86 [SparkyLinux/sisters main]
+discord 0.0.87 [SparkyLinux/sisters main]
 ├── is installed
 └── Chat for Communities and Friends
      Discord is the easiest way to communicate over voice, video, and text. Chat,
@@ -3114,7 +3114,7 @@ efibootmgr 18-2 [Debian/trixie main]
      to use. 'modprobe efivars' should do the trick if it does not
      automatically load.
 
-eject 2.40.4-3 [Debian/trixie main]
+eject 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── ejects CDs and operates CD-Changers under Linux
      This program will eject CD-ROMs (assuming your drive supports the CDROMEJECT
@@ -3523,7 +3523,7 @@ fastfetch 2.36.1+dfsg-1 [Debian/trixie main]
      displaying them in a pretty way. It is written mainly in C, with
      performance and customizability in mind.
 
-fdisk 2.40.4-3 [Debian/trixie main]
+fdisk 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── collection of partitioning utilities
      This package contains the classic fdisk, sfdisk and cfdisk partitioning
@@ -6633,7 +6633,7 @@ gir1.2-nma4-1.0 1.10.6-5 [Debian/trixie main]
      It can be used by packages using the GIRepository format to generate
      dynamic bindings.
 
-gir1.2-notify-0.7 0.8.3-1+b2 [Debian/trixie main]
+gir1.2-notify-0.7 0.8.4-1 [Debian/trixie main]
 ├── is installed
 └── sends desktop notifications to a notification daemon (Introspection files)
      A library that sends desktop notifications to a notification daemon, as
@@ -6753,6 +6753,21 @@ gir1.2-soup-3.0 3.6.4-2 [Debian/trixie main]
      It can be used by packages using the GIRepository format to generate
      dynamic bindings.
 
+gir1.2-telepathyglib-0.12 0.24.2-2 [Debian/trixie main]
+├── is installed
+└── GLib Telepathy connection manager library (GObject-Introspection)
+     This package contains introspection data for telepathy-glib, which can be used
+     to generate dynamic bindings for Telepathy components.
+     .
+     These GObject-Introspection bindings are considered to be experimental by the
+     maintainers of telepathy-glib, and might receive incompatible changes until
+     at least telepathy-glib 0.14.0.
+     .
+     Telepathy is a D-Bus framework for unifying real time communication,
+     including instant messaging, voice calls and video calls. It abstracts
+     differences between protocols to provide a unified interface for
+     applications.
+
 gir1.2-template-1.0 3.36.3-1 [Debian/trixie main]
 ├── is installed
 └── GObject introspection data for template-glib
@@ -6810,7 +6825,7 @@ gir1.2-upowerglib-1.0 1.90.7-1 [Debian/trixie main]
      It can be used by packages using the GIRepository format to generate
      dynamic bindings.
 
-gir1.2-vte-3.91 0.78.3-3 [Debian/trixie main]
+gir1.2-vte-3.91 0.79.90-2 [Debian/trixie main]
 ├── is installed
 └── GObject introspection data for the VTE library (GTK 4 version)
      This package contains introspection data for VTE, a terminal emulator
@@ -7122,7 +7137,7 @@ gnome-font-viewer 47.0-1 [Debian/trixie main]
 └── font viewer for GNOME
      This program can preview fonts and create thumbnails for fonts.
 
-gnome-keyring 46.2-1 [Debian/trixie main]
+gnome-keyring 48~beta-3 [Debian/trixie main]
 ├── is installed
 └── GNOME keyring services (daemon and tools)
      gnome-keyring is a daemon in the session, similar to ssh-agent,
@@ -8489,7 +8504,7 @@ imagemagick-7-common 8:7.1.1.43+dfsg1-1 [Debian/trixie main]
      .
      This package is independent of channel depth.
 
-inetutils-telnet 2:2.5-6 [Debian/trixie main]
+inetutils-telnet 2:2.6-1 [Debian/trixie main]
 ├── is installed
 └── telnet client
      The telnet command is used for interactive communication with another host
@@ -9945,7 +9960,7 @@ libbcutil-java 1.77-1 [Debian/trixie main]
      The Bouncy Castle Java APIs for ASN.1 extension and utility APIs used
      to support bcpkix and bctls.
 
-libbinutils 2.44-1 [Debian/trixie main]
+libbinutils 2.44-2 [Debian/trixie main]
 ├── is installed
 └── GNU binary utilities (private shared library)
      This package includes the private shared libraries libbfd and libopcodes.
@@ -9962,7 +9977,7 @@ libblas3 3.12.1-2 [Debian/trixie main]
      .
      This package contains a shared version of the library.
 
-libblkid-dev 2.40.4-3 [Debian/trixie main]
+libblkid-dev 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── block device ID library - headers
      The blkid library allows system programs such as fsck and mount to
@@ -9972,7 +9987,7 @@ libblkid-dev 2.40.4-3 [Debian/trixie main]
      .
      This package contains the development environment for the blkid library.
 
-libblkid1 2.40.4-3 [Debian/trixie main]
+libblkid1 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── block device ID library
      The blkid library allows system programs such as fsck and mount to
@@ -9980,7 +9995,7 @@ libblkid1 2.40.4-3 [Debian/trixie main]
      This allows system administrators to avoid specifying filesystems by
      hard-coded device names and use a logical naming system instead.
 
-libblkid1:i386 2.40.4-3 [Debian/trixie main]
+libblkid1:i386 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── block device ID library
      The blkid library allows system programs such as fsck and mount to
@@ -11218,13 +11233,13 @@ libcryptsetup12 2:2.7.5-1 [Debian/trixie main]
      .
      This package provides the libcryptsetup shared library.
 
-libctf-nobfd0 2.44-1 [Debian/trixie main]
+libctf-nobfd0 2.44-2 [Debian/trixie main]
 ├── is installed
 └── Compact C Type Format library (runtime, no BFD dependency)
      This package includes the libctf-nobfd shared library.  The Compact C Type
      Format (CTF) is a way of representing information about a binary program
 
-libctf0 2.44-1 [Debian/trixie main]
+libctf0 2.44-2 [Debian/trixie main]
 ├── is installed
 └── Compact C Type Format library (runtime, BFD dependency)
      This package includes the libctf shared library.  The Compact C Type
@@ -12617,7 +12632,7 @@ libfbclient2 4.0.5.3140.ds6-16 [Debian/trixie main]
      .
      See firebird4.0-server package for more information about Firebird.
 
-libfdisk1 2.40.4-3 [Debian/trixie main]
+libfdisk1 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── fdisk partitioning library
      The libfdisk library is used for manipulating partition tables. It is
@@ -14351,7 +14366,7 @@ libgpm2 1.20.7-11+b2 [Debian/trixie main]
      and delivers them to applications. See the description for the 'gpm'
      package for more information.
 
-libgprofng0 2.44-1 [Debian/trixie main]
+libgprofng0 2.44-2 [Debian/trixie main]
 ├── is installed
 └── GNU Next Generation profiler (runtime library)
      Gprofng is the GNU Next Generation profiler for analyzing the performance
@@ -16358,7 +16373,7 @@ liblayout-java 0.2.10-5 [Debian/trixie main]
      standard (in the upcoming version 3). The layouting expects to receive its
      content as a DOM structure (although it does not rely on the W3C-DOM API).
 
-liblc3-1 1.1.2+dfsg-1 [Debian/trixie main]
+liblc3-1 1.1.3+dfsg-1 [Debian/trixie main]
 ├── is installed
 └── Low Complexity Communication Codec (shared library)
      LC3 is an efficient low latency audio codec.
@@ -17199,6 +17214,13 @@ libminizip1t64 1:1.3.dfsg+really1.3.1-1+b1 [Debian/trixie main]
      .
      This package includes the minizip library.
 
+libmission-control-plugins0t64 1:5.16.5-2.2+b1 [Debian/trixie main]
+├── is installed
+└── management daemon for Telepathy (library for plugins)
+     Telepathy Mission Control 5 is an account manager and channel dispatcher for
+     the Telepathy framework. This package contains a library against which plugins
+     for Mission Control must be linked.
+
 libmjpegutils-2.2-0t64 2:2.2.1-dmo8+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── MJPEG capture/editing/replay and MPEG encoding toolset (library)
@@ -17256,19 +17278,19 @@ libmodplug1 1:0.8.9.0-3+b2 [Debian/trixie main]
      a popular Windows mod player written by Olivier Lapicque, found at
      http://www.modplug.com.
 
-libmount-dev 2.40.4-3 [Debian/trixie main]
+libmount-dev 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── device mounting library - headers
      This device mounting library is used by mount and umount helpers.
      .
      This package contains the development environment for the mount library.
 
-libmount1 2.40.4-3 [Debian/trixie main]
+libmount1 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── device mounting library
      This device mounting library is used by mount and umount helpers.
 
-libmount1:i386 2.40.4-3 [Debian/trixie main]
+libmount1:i386 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── device mounting library
      This device mounting library is used by mount and umount helpers.
@@ -17509,7 +17531,7 @@ libnautilus-extension4 48~beta-1 [Debian/trixie main]
      .
      This package contains a few runtime libraries needed by nautilus' extensions.
 
-libncurses-dev 6.5+20250125-2 [Debian/trixie main]
+libncurses-dev 6.5+20250216-1 [Debian/trixie main]
 ├── is installed
 └── developer's libraries for ncurses
      The ncurses library routines are a terminal-independent method of
@@ -17527,7 +17549,7 @@ libncurses5 6.4-4 [local]
      This package contains the legacy shared libraries necessary to run
      programs compiled with ncurses.
 
-libncurses6 6.5+20250125-2 [Debian/trixie main]
+libncurses6 6.5+20250216-1 [Debian/trixie main]
 ├── is installed
 └── shared libraries for terminal handling
      The ncurses library routines are a terminal-independent method of
@@ -17546,7 +17568,7 @@ libncursesw5 6.4-4 [local]
      programs compiled with ncursesw, which includes support for wide
      characters.
 
-libncursesw6 6.5+20250125-2 [Debian/trixie main]
+libncursesw6 6.5+20250216-1 [Debian/trixie main]
 ├── is installed
 └── shared libraries for terminal handling (wide character support)
      The ncurses library routines are a terminal-independent method of
@@ -17882,7 +17904,7 @@ libnorm1t64 1.5.9+dfsg-3.1+b2 [Debian/trixie main]
      services.
      libnorm provides a shared library and an API to use such protocol.
 
-libnotify4 0.8.3-1+b2 [Debian/trixie main]
+libnotify4 0.8.4-1 [Debian/trixie main]
 ├── is installed
 └── sends desktop notifications to a notification daemon
      A library that sends desktop notifications to a notification daemon, as
@@ -18534,7 +18556,7 @@ libpam-cap 1:2.66-5+b1 [Debian/trixie main]
      This package contains the PAM module for enforcing capabilities on users and
      groups at PAM session start time.
 
-libpam-gnome-keyring 46.2-1 [Debian/trixie main]
+libpam-gnome-keyring 48~beta-3 [Debian/trixie main]
 ├── is installed
 └── PAM module to unlock the GNOME keyring upon login
      gnome-keyring is a daemon in the session, similar to ssh-agent,
@@ -20625,7 +20647,7 @@ libsecret-common 0.21.6-3 [Debian/trixie main]
      .
      This package contains data files used by the libsecret library.
 
-libselinux1 3.7-3.1 [Debian/trixie main]
+libselinux1 3.8-3 [Debian/trixie main]
 ├── is installed
 └── SELinux runtime shared libraries
      This package provides the shared libraries for Security-enhanced
@@ -20648,7 +20670,7 @@ libselinux1 3.7-3.1 [Debian/trixie main]
      policy if necessary (e.g. to downgrade the policy format to an older
      version supported by the kernel) when loading policy.
 
-libselinux1-dev 3.7-3.1 [Debian/trixie main]
+libselinux1-dev 3.8-3 [Debian/trixie main]
 ├── is installed
 └── SELinux development headers
      This package provides the  static libraries and header files
@@ -20662,7 +20684,7 @@ libselinux1-dev 3.7-3.1 [Debian/trixie main]
      control policies, including those based on the concepts of Type
      Enforcement, Role-based Access Control, and Multi-level Security.
 
-libselinux1:i386 3.7-3.1 [Debian/trixie main]
+libselinux1:i386 3.8-3 [Debian/trixie main]
 ├── is installed
 └── SELinux runtime shared libraries
      This package provides the shared libraries for Security-enhanced
@@ -20860,7 +20882,7 @@ libservlet3.1-java 1:4.0.1-2 [Debian/trixie main]
      This is a transitional package, the other JavaEE packages should be used
      instead.
 
-libsframe1 2.44-1 [Debian/trixie main]
+libsframe1 2.44-2 [Debian/trixie main]
 ├── is installed
 └── Library to handle the SFrame format (runtime library)
      SFrame stands for Simple Frame format.  SFrame format keeps track
@@ -21003,7 +21025,7 @@ libsm6 2:1.2.4-1 [Debian/trixie main]
      This module can be found at
      git://anongit.freedesktop.org/git/xorg/lib/libSM
 
-libsmartcols1 2.40.4-3 [Debian/trixie main]
+libsmartcols1 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── smart column output alignment library
      This smart column output alignment library is used by fdisk utilities.
@@ -21857,6 +21879,17 @@ libteamdctl0 1.31-1+b2 [Debian/trixie main]
      .
      Libteam requires Linux kernel 3.3 or higher.
 
+libtelepathy-glib0t64 0.24.2-2 [Debian/trixie main]
+├── is installed
+└── Telepathy framework - GLib library
+     This package contains telepathy-glib, a GLib-based library for Telepathy
+     components.
+     .
+     Telepathy is a D-Bus framework for unifying real time communication,
+     including instant messaging, voice calls and video calls. It abstracts
+     differences between protocols to provide a unified interface for
+     applications.
+
 libtemplate-glib-1.0-0 3.36.3-1 [Debian/trixie main]
 ├── is installed
 └── templating library for GLib
@@ -22050,7 +22083,7 @@ libtinfo5 6.4-4 [local]
      This package contains the legacy version of the shared low-level
      terminfo library.
 
-libtinfo6 6.5+20250125-2 [Debian/trixie main]
+libtinfo6 6.5+20250216-1 [Debian/trixie main]
 ├── is installed
 └── shared low-level terminfo library for terminal handling
      The ncurses library routines are a terminal-independent method of
@@ -22058,7 +22091,7 @@ libtinfo6 6.5+20250125-2 [Debian/trixie main]
      .
      This package contains the shared low-level terminfo library.
 
-libtinfo6:i386 6.5+20250125-2 [Debian/trixie main]
+libtinfo6:i386 6.5+20250216-1 [Debian/trixie main]
 ├── is installed
 └── shared low-level terminfo library for terminal handling
      The ncurses library routines are a terminal-independent method of
@@ -22699,7 +22732,7 @@ libupower-glib3 1.90.7-1 [Debian/trixie main]
      .
      This package contains the shared library to be used by applications.
 
-liburcu8t64 0.14.1-1 [Debian/trixie main]
+liburcu8t64 0.15.1-1 [Debian/trixie main]
 ├── is installed
 └── userspace RCU (read-copy-update) library
      This data synchronization library provides read-side access which scales
@@ -22816,7 +22849,7 @@ libutempter0 1.2.1-4 [Debian/trixie main]
      The utempter is a privileged helper used by libutempter library to manipulate
      utmp and wtmp files.
 
-libuuid1 2.40.4-3 [Debian/trixie main]
+libuuid1 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── Universally Unique ID library
      The libuuid library generates and parses 128-bit Universally Unique
@@ -23551,7 +23584,7 @@ libvpx9:i386 1.15.0-2 [Debian/trixie main]
      .
      This package contains the shared libraries.
 
-libvte-2.91-0 0.78.3-3 [Debian/trixie main]
+libvte-2.91-0 0.79.90-2 [Debian/trixie main]
 ├── is installed
 └── Terminal emulator widget for GTK 3 - runtime files
      The VTE library provides a terminal emulator widget VteTerminal for
@@ -23562,7 +23595,7 @@ libvte-2.91-0 0.78.3-3 [Debian/trixie main]
      This package contains the runtime library, needed by programs using the
      VTE widget with GTK 3.
 
-libvte-2.91-common 0.78.3-3 [Debian/trixie main]
+libvte-2.91-common 0.79.90-2 [Debian/trixie main]
 ├── is installed
 └── Terminal emulator widget for GTK 3 - common files
      The VTE library provides a terminal emulator widget VteTerminal for
@@ -23573,7 +23606,7 @@ libvte-2.91-common 0.78.3-3 [Debian/trixie main]
      This package contains internationalization files for the VTE library
      and common files for the GTK 3 version.
 
-libvte-2.91-gtk4-0 0.78.3-3 [Debian/trixie main]
+libvte-2.91-gtk4-0 0.79.90-2 [Debian/trixie main]
 ├── is installed
 └── Terminal emulator widget for GTK 4 - runtime files
      The VTE library provides a terminal emulator widget VteTerminal for
@@ -23898,7 +23931,7 @@ libwps-0.4-4 0.4.14-2+b2 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libwrap0 7.6.q-35 [Debian/trixie main]
+libwrap0 7.6.q-36 [Debian/trixie main]
 ├── is installed
 └── Wietse Venema's TCP wrappers library
      Wietse Venema's network logger, also known as TCPD or LOG_TCP.
@@ -26324,7 +26357,7 @@ locales 2.40-7 [Debian/trixie main]
      package used to be, with all locales generated by default. This created
      a package that unpacked to an excess of 30 megs.
 
-login 1:4.16.0-2+really2.40.4-3 [Debian/trixie main]
+login 1:4.16.0-2+really2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── system login tools
      This package provides support for console-based logins and for
@@ -26748,7 +26781,7 @@ morewaita 47.3 [/packages main]
 ├── is installed
 └── An Adwaita style extra icons theme for Gnome Shell.
 
-mount 2.40.4-3 [Debian/trixie main]
+mount 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── tools for mounting and manipulating filesystems
      This package provides the mount(8), umount(8), swapon(8),
@@ -26893,7 +26926,7 @@ ncal 12.1.8 [Debian/trixie main]
      simple calendar in a traditional or an alternative and more advanced layout,
      and the date of Easter.
 
-ncurses-base 6.5+20250125-2 [Debian/trixie main]
+ncurses-base 6.5+20250216-1 [Debian/trixie main]
 ├── is installed
 └── basic terminal type definitions
      The ncurses library routines are a terminal-independent method of
@@ -26903,7 +26936,7 @@ ncurses-base 6.5+20250125-2 [Debian/trixie main]
      terminal, including ansi, dumb, linux, rxvt, screen, sun, vt100, vt102, vt220,
      vt52, and xterm.
 
-ncurses-bin 6.5+20250125-2 [Debian/trixie main]
+ncurses-bin 6.5+20250216-1 [Debian/trixie main]
 ├── is installed
 └── terminal-related programs and man pages
      The ncurses library routines are a terminal-independent method of
@@ -26913,7 +26946,7 @@ ncurses-bin 6.5+20250125-2 [Debian/trixie main]
      database and individual terminfo entries, as well as some programs for
      resetting terminals and such.
 
-ncurses-term 6.5+20250125-2 [Debian/trixie main]
+ncurses-term 6.5+20250216-1 [Debian/trixie main]
 ├── is installed
 └── additional terminal type definitions
      The ncurses library routines are a terminal-independent method of
@@ -27606,6 +27639,13 @@ plymouth-label 24.004.60-2+b2 [Debian/trixie main]
      .
      This package contains the label control, used by various graphical themes
      to render text.
+
+polari 46.0-1 [Debian/trixie main]
+├── is installed
+└── Internet Relay Chat (IRC) client
+     Polari is an Internet Relay Chat (IRC) client designed for GNOME.
+     .
+     Polari is a GNOME Circle app.
 
 polkitd 126-2 [Debian/trixie main]
 ├── is installed
@@ -28365,7 +28405,7 @@ python3-pexpect 4.9-3 [Debian/trixie main]
      script to spawn a child application and control it as if a human were
      typing commands.
 
-python3-pkg-resources 75.6.0-1 [Debian/trixie main]
+python3-pkg-resources 75.8.0-1 [Debian/trixie main]
 ├── is installed
 └── Package Discovery and Resource Access using pkg_resources
      The pkg_resources module provides an API for Python libraries to
@@ -28502,7 +28542,7 @@ python3-rich 13.9.4-1 [Debian/trixie main]
         code than standard Python tracebacks. You can set Rich as the default
         traceback handler so all uncaught exceptions will be rendered by Rich.
 
-python3-setuptools 75.6.0-1 [Debian/trixie main]
+python3-setuptools 75.8.0-1 [Debian/trixie main]
 ├── is installed
 └── Python3 Distutils Enhancements
      Extensions to the python-distutils for large or complex distributions.
@@ -28876,7 +28916,7 @@ reportbug 13.1.0 [Debian/trixie main]
      This package also includes the "querybts" script for browsing the
      Debian bug tracking system.
 
-rfkill 2.40.4-3 [Debian/trixie main]
+rfkill 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── tool for enabling and disabling wireless devices
      rfkill is a simple tool for accessing the Linux rfkill device interface,
@@ -29731,11 +29771,41 @@ tasksel-data 3.79 [Debian/trixie main]
      This package contains data about the standard tasks available on a Debian
      system.
 
-tecla 47.0-1 [Debian/trixie main]
+tecla 48~alpha-1 [Debian/trixie main]
 ├── is installed
 └── keyboard layout viewer for the GNOME desktop
      This app is a basic keyboard layout viewer for integration
      with the GNOME desktop.
+
+telepathy-idle 0.2.2-1+b1 [Debian/trixie main]
+├── is installed
+└── IRC connection manager for Telepathy
+     Idle is an IRC connection manager for the Telepathy framework.
+     Install this package to use IRC channels and private messages in
+     Telepathy instant messaging clients such as Empathy, GNOME Shell or
+     KDE Telepathy.
+
+telepathy-mission-control-5 1:5.16.5-2.2+b1 [Debian/trixie main]
+├── is installed
+└── management daemon for Telepathy real-time communication framework
+     Telepathy Mission Control 5 is an account manager and channel dispatcher for
+     the Telepathy framework, allowing user interfaces and other clients
+     to share connections to real-time communication services without conflicting.
+     It implements the AccountManager and ChannelDispatcher D-Bus APIs as described
+     by telepathy-spec.
+     .
+     The account manager part stores real time communication account details,
+     connects to the stored accounts on request, and sets the accounts' presence,
+     nickname and avatar according to requests from Telepathy user interfaces and
+     other components.
+     .
+     The channel dispatcher part responds to incoming communication channels
+     (message streams, voice/video calls, file transfers etc.) by dispatching
+     them to suitable user interfaces, and requests outgoing communication
+     channels according to requests from a Telepathy UI.
+     .
+     This is not a compatible replacement for Mission Control 4 (in the
+     telepathy-mission-control package), but they can be installed in parallel.
 
 time 1.9-0.2 [Debian/trixie main]
 ├── is installed
@@ -29920,7 +29990,7 @@ tzdata 2025a-2 [Debian/trixie main]
      political bodies to time zone boundaries, UTC offsets, and
      daylight-saving rules.
 
-ucf 3.0049 [Debian/trixie main]
+ucf 3.0050 [Debian/trixie main]
 ├── is installed
 └── Update Configuration File(s): preserve user changes to config files
      Debian policy mandates that user changes to configuration files must be
@@ -30148,7 +30218,7 @@ usr-is-merged 39+nmu2 [Debian/trixie main]
      .
      It can be safely removed once no other package depends on it anymore.
 
-util-linux 2.40.4-3 [Debian/trixie main]
+util-linux 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── miscellaneous system utilities
      This package contains a number of important utilities, most of which
@@ -30157,13 +30227,13 @@ util-linux 2.40.4-3 [Debian/trixie main]
      messages, create new filesystems, view block device information,
      interface with real time clock, etc.
 
-util-linux-extra 2.40.4-3 [Debian/trixie main]
+util-linux-extra 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── interactive login tools
      Tools commonly found on systems where humans login interactively,
      or are needed with non-standard system configurations.
 
-util-linux-locales 2.40.4-3 [Debian/trixie main]
+util-linux-locales 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── locales files for util-linux
      This package contains the internationalization files for the util-linux
@@ -30173,7 +30243,7 @@ util-linux-locales 2.40.4-3 [Debian/trixie main]
      messages in other languages than English, or read manual pages in another
      language than English.
 
-uuid-dev 2.40.4-3 [Debian/trixie main]
+uuid-dev 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── Universally Unique ID library - headers and static libraries
      The libuuid library generates and parses 128-bit Universally Unique IDs
@@ -30181,7 +30251,7 @@ uuid-dev 2.40.4-3 [Debian/trixie main]
      .
      This package contains the development environment for the uuid library.
 
-uuid-runtime 2.40.4-3 [Debian/trixie main]
+uuid-runtime 2.40.4-4 [Debian/trixie main]
 ├── is installed
 └── runtime components for the Universally Unique ID library
      The libuuid library generates and parses 128-bit Universally Unique

@@ -5,6 +5,7 @@ flatpak update
 
 flatpak install --assumeyes flathub \
   com.belmoussaoui.Authenticator \
+  com.github.Anuken.Mindustry \
   com.github.libresprite.LibreSprite \
   com.github.tchx84.Flatseal \
   com.mardojai.ForgeSparks \
