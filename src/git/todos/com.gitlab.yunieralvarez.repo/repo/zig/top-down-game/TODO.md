@@ -12,10 +12,11 @@ Project Description
 
 ### In Progress
 
-- [ ] Basic player movement animations  
+- [ ] Attack weapon to player  
 
 ### Done ✓
 
+- [x] Basic player movement animations  
 - [x] Move player  
 - [x] Show the player  
 - [x] Use row flec lib  

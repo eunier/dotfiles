@@ -6968,6 +6968,292 @@ gjs 1.82.1-1 [Debian/trixie main]
      .
      This package contains the interactive console application.
 
+glab 1.53.0-1~ops2deb [wakemeops stable/stable dev]
+├── is installed
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.52.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.51.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.50.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.49.0-1+b1 [Debian/trixie main]
+└── commandline interface for gitlab instances
+     GLab is an open source GitLab CLI tool bringing GitLab to your terminal next
+     to where you are already working with git and your code without switching
+     between windows and browser tabs. Work with issues, merge requests, watch
+     running pipelines directly from your CLI among other features.
+     .
+     glab is available for repositories hosted on GitLab.com and self-managed
+     GitLab instances. glab supports multiple authenticated GitLab instances and
+     automatically detects the authenticated hostname from the remotes available
+     in the working Git directory.
+
+glab 1.49.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.48.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.47.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.46.1-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.46.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.45.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.44.1-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.43.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.42.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.41.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.40.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.39.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.38.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.37.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.36.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.35.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.34.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.33.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.32.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.31.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.30.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.29.4-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.29.3-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.29.2-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.29.1-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.29.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.28.1-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.28.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.27.1-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.27.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.26.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.25.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.24.1-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.24.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.23.1-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
 glib-networking 2.80.1-1 [Debian/trixie main]
 ├── is installed
 └── network-related giomodules for GLib

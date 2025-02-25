@@ -41,6 +41,7 @@ sudo nala install \
     geary \
     git \
     gitg \
+    glab \
     gnome-boxes \
     gnome-builder \
     gnome-shell-extension-manager \

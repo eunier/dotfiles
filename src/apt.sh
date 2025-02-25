@@ -11,6 +11,10 @@ if [ ! -f "/etc/apt/sources.list.d/microsoft-prod.list" ]; then
   rm packages-microsoft-prod.deb
 fi
 
+if [ ! -e "/etc/apt/sources.list.d/wakemeops.list" ]; then
+  curl -sSL https://raw.githubusercontent.com/upciti/wakemeops/main/assets/install_repository | sudo bash
+fi
+
 if ! command -v nala /dev/null 2>&1; then
   sudo apt update
   sudo apt upgrade
