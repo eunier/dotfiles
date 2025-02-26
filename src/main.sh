@@ -12,6 +12,7 @@ sh ~/.dotfiles/src/flatpak.sh
 
 sh ~/.dotfiles/src/bun.sh
 sh ~/.dotfiles/src/node.sh
+sh ~/.dotfiles/src/ollama.sh
 sh ~/.dotfiles/src/zig.sh
 
 sh ~/.dotfiles/src/autostart.sh

@@ -84,6 +84,7 @@
 │   │   └── nala-list-installed-before.txt
 │   ├── nala.sh
 │   ├── node.sh
+│   ├── ollama.sh
 │   ├── syncthing
 │   │   ├── syncthing-config-after.json
 │   │   ├── syncthing-config-before.json
@@ -118,4 +119,4 @@
 └── .vscode
     └── settings.json
 
-25 directories, 94 files
+25 directories, 95 files

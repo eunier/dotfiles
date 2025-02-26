@@ -63,6 +63,7 @@
 .dotfiles/src/git/todos/com.gitlab.yunieralvarez.repo/repo/zig/top-down-game/TODO.md
 .dotfiles/src/gitlab.sh
 .dotfiles/src/gitlab/gitlab-auth.ts
+.dotfiles/src/gitlab/gitlab-repo-create.md
 .dotfiles/src/main.sh
 .dotfiles/src/nala.sh
 .dotfiles/src/nala/nala-app-progress-tracker-after.txt
