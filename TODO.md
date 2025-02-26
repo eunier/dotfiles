@@ -6,6 +6,9 @@ Project Description
 
 ### Todo
 
+- [ ] Make cli instead of aliases  
+- [ ] Nerd Fonts  
+- [ ] Install ghostty  
 - [ ] Filter out dconf not important settings  
 - [ ] Does syncthing auto start?  
 - [ ] Polari data  
@@ -17,7 +20,6 @@ Project Description
 - [ ] veracrypt  
 - [ ] Don't use yadm  
 - [ ] Do I need to keep a list of installed obsidian plugin and settings?  
-- [ ] Set up ollama + continum vs code extension  
 - [ ] NewsFlash: track subscribed rrs  
 - [ ] Change default terminal  
 - [ ] Use zen flatpak or fix icon  
@@ -25,10 +27,11 @@ Project Description
 
 ### In Progress
 
-- [ ] Install GitLab cli, then start moving repo proejcts to its own repo  
+- [ ] Set up ollama + vs code extension  
 
 ### Done ✓
 
+- [x] Install GitLab cli, then start moving repo proejcts to its own repo  
 - [x] Setup Syncthing  
 - [x] Change Synthing gui password on Sparky  
 - [x] VsCodo TODO in zig, remove extra bold  

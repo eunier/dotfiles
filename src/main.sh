@@ -23,6 +23,7 @@ sh ~/.dotfiles/src/syncthing.sh
 sh ~/.dotfiles/src/tree.sh
 sh ~/.dotfiles/src/vscode.sh
 
+sh ~/.dotfiles/src/gitlab.sh
 sh ~/.dotfiles/src/git.sh
 
 sudo timeshift --create --comments "after"

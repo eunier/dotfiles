@@ -6,7 +6,6 @@ code --install-extension aswinkumar863.sort-editors
 code --install-extension biomejs.biome
 code --install-extension chrisdias.vscode-opennewinstance
 code --install-extension coddx.coddx-alpha
-code --install-extension Continue.continue
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension EditorConfig.EditorConfig
 code --install-extension egirlcatnip.adwaita-github-theme
@@ -28,6 +27,7 @@ code --install-extension piousdeer.adwaita-theme
 code --install-extension PKief.copy-branch-name
 code --install-extension PKief.material-icon-theme
 code --install-extension richie5um2.vscode-sort-json
+code --install-extension rjmacarthy.twinny
 code --install-extension rob-bennett.workspaceWizard
 code --install-extension rpinski.shebang-snippets
 code --install-extension rust-lang.rust-analyzer

@@ -4,10 +4,12 @@
 	"type": "module",
 	"scripts": {
 		"vscode:font:switch": "bun run src/vscode/vscode-font-switch.ts",
-		"syncthing:config:mask": "bun run src/syncthing/syncthing-config-mask.ts"
+		"syncthing:config:mask": "bun run src/syncthing/syncthing-config-mask.ts",
+		"gitlab:auth": "bun run src/gitlab/gitlab-auth.ts",
+		"gitlab:repo:create": "bun run src/gitlab/gitlab-repo-create"
 	},
 	"devDependencies": {
-		"@types/bun": "1.2.2"
+		"@types/bun": "1.2.3"
 	},
 	"peerDependencies": {
 		"typescript": "5.7.3"

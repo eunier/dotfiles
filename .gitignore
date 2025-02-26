@@ -6,3 +6,6 @@
 *-before-raw.txt
 *.tar
 node_modules/
+src/gitlab/gitlab-auth-status.txt
+src/gitlab/gitlab-auth.sh
+src/gitlab/gitlab-repo-create.ts
