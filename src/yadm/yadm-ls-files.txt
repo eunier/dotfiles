@@ -10,6 +10,7 @@
 .dotfiles/TODO.md
 .dotfiles/biome.json
 .dotfiles/bun.lock
+.dotfiles/ocm.github.raysan5.raylib/raylib
 .dotfiles/package.json
 .dotfiles/scripts/rm-before-after-files.sh
 .dotfiles/src/apt.sh

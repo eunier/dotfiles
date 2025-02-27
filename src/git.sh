@@ -13,7 +13,7 @@ git clone https://github.com/linuxy/coyote-ecs.git ~/Projects/com.github.linuxy.
 git clone https://github.com/Not-Nik/raylib-zig.git ~/Projects/com.github.Not-Nik.raylib-zig/raylib-zig
 git clone https://github.com/prime31/zig-ecs.git ~/Projects/com.github.prime31.zig-ecs/zig-ecs
 git clone https://github.com/pwbh/SDL.git ~/Projects/com.github.pwbh.SDL/SDL
-git clone https://github.com/raysan5/raylib.git ocm.github.raysan5.raylib/raylib
+git clone https://github.com/raysan5/raylib.git ~/Projects/ocm.github.raysan5.raylib/raylib
 git clone https://github.com/SanderMertens/flecs.git ~/Projects/com.github.SanderMertens.flecs/flecs
 git clone https://github.com/zig-gamedev/zflecs.git ~/Projects/com.github.zig-gamedev.zflecs/zflecs
 git clone https://github.com/zig-gamedev/zig-gamedev.git ~/Projects/com.github.zig-gamedev.zig-gamedev/zig-gamedev
