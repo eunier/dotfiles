@@ -21,8 +21,8 @@
 │   └── zig-gamedev
 ├── com.github.ziglang.zig
 │   └── zig
-├── com.gitlab.yunieralvarez.game-top-down-shooter
-│   └── game-top-dow-shooter
+├── com.gitlab.yunieralvarez.game-top-down-shooter-rs
+│   └── game-top-dow-shooter-rs
 ├── com.gitlab.yunieralvarez.godot-first-person-shooter-demo
 │   └── godot-first-person-shooter-demo
 ├── com.gitlab.yunieralvarez.qmkl
@@ -31,6 +31,9 @@
 │   └── repo
 ├── com.gitlab.yunieralvarez.repo-resources
 │   └── repo-resources
+├── com.gitlab.yunieralvarez.top-down-game
+│   ├── top-dow-game
+│   └── top-down-game
 ├── .gnome-builder
 │   ├── CACHEDIR.TAG
 │   ├── flatpak
@@ -50,4 +53,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-41 directories, 10 files
+44 directories, 10 files

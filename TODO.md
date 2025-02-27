@@ -6,6 +6,7 @@ Project Description
 
 ### Todo
 
+- [ ] Delete old timeshift, take to much space  
 - [ ] Make cli instead of aliases  
 - [ ] Nerd Fonts  
 - [ ] Install ghostty  
@@ -27,10 +28,10 @@ Project Description
 
 ### In Progress
 
-- [ ] Set up ollama + vs code extension  
 
 ### Done ✓
 
+- [x] Set up ollama + vs code extension  
 - [x] Install GitLab cli, then start moving repo proejcts to its own repo  
 - [x] Setup Syncthing  
 - [x] Change Synthing gui password on Sparky  

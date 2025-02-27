@@ -572,18 +572,6 @@ bash 5.2.37-1.1 [Debian/trixie main]
      The Programmable Completion Code, by Ian Macdonald, is now found in
      the bash-completion package.
 
-bash 5.2.37-1 [Debian/trixie main]
-└── GNU Bourne Again SHell
-     Bash is an sh-compatible command language interpreter that executes
-     commands read from the standard input or from a file.  Bash also
-     incorporates useful features from the Korn and C shells (ksh and csh).
-     .
-     Bash is ultimately intended to be a conformant implementation of the
-     IEEE POSIX Shell and Tools specification (IEEE Working Group 1003.2).
-     .
-     The Programmable Completion Code, by Ian Macdonald, is now found in
-     the bash-completion package.
-
 bash-completion 1:2.16.0-7 [Debian/trixie main]
 ├── is installed
 └── programmable completion for the bash shell
@@ -3384,7 +3372,7 @@ exfatprogs 1.2.7-3 [Debian/trixie main]
      maintained by Samsung and LG engineers, who provided Linux exFAT
      support.
 
-exim4 4.98-3 [Debian/trixie main]
+exim4 4.98-4 [Debian/trixie main]
 ├── is installed
 └── metapackage to ease Exim MTA (v4) installation
      Exim (v4) is a mail transport agent. exim4 is the metapackage depending
@@ -3406,7 +3394,7 @@ exim4 4.98-3 [Debian/trixie main]
      can find the subscription web page on
      http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
 
-exim4-base 4.98-3+b1 [Debian/trixie main]
+exim4-base 4.98-4 [Debian/trixie main]
 ├── is installed
 └── support files for all Exim MTA (v4) packages
      Exim (v4) is a mail transport agent. exim4-base provides the support
@@ -3435,7 +3423,7 @@ exim4-base 4.98-3+b1 [Debian/trixie main]
      can find the subscription web page on
      http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
 
-exim4-config 4.98-3 [Debian/trixie main]
+exim4-config 4.98-4 [Debian/trixie main]
 ├── is installed
 └── configuration for the Exim MTA (v4)
      Exim (v4) is a mail transport agent. exim4-config provides the configuration
@@ -3465,7 +3453,7 @@ exim4-config 4.98-3 [Debian/trixie main]
      can find the subscription web page on
      http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
 
-exim4-daemon-heavy 4.98-3+b1 [Debian/trixie main]
+exim4-daemon-heavy 4.98-4 [Debian/trixie main]
 ├── is installed
 └── Exim MTA (v4) daemon with extended features, including exiscan-acl
      Exim (v4) is a mail transport agent. This package contains the exim4
@@ -3549,7 +3537,7 @@ fdisk 2.40.4-4 [Debian/trixie main]
      The cfdisk utility gives a more userfriendly curses based interface.
      The sfdisk utility is mostly for automation and scripting uses.
 
-ffmpeg 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+ffmpeg 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── audio/video encoder, streaming server & audio/video file converter
      FFmpeg is the leading multimedia framework, able to decode, encode,
@@ -5753,12 +5741,6 @@ fonts-opensymbol 4:102.12+LibO24.8.5-2 [Debian/trixie main]
      LibreOffice. This font contains symbols (like fonts as Wingdings(tm)),
      bullets (needed for bullets in LibreOffice) and non-latin character
 
-fonts-opensymbol 4:102.12+LibO24.8.4-4 [Debian/trixie main]
-└── OpenSymbol TrueType font
-     This package contains the OpenSymbol TrueType font included in
-     LibreOffice. This font contains symbols (like fonts as Wingdings(tm)),
-     bullets (needed for bullets in LibreOffice) and non-latin character
-
 fonts-quicksand 0.2016-2.1 [Debian/trixie main]
 ├── is installed
 └── sans-serif font with round attributes
@@ -6378,7 +6360,7 @@ gir1.2-grilo-0.3 0.3.16-1+b3 [Debian/trixie main]
      by packages using the GIRepository format to generate dynamic
      bindings.
 
-gir1.2-gst-plugins-bad-1.0 1:1.24.12-dmo2+b1 [Unofficial Multimedia Packages/trixie main]
+gir1.2-gst-plugins-bad-1.0 1:1.24.12-dmo2+b2 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── GObject introspection data for the GStreamer libraries from the "bad" set
      GStreamer is a streaming media framework, based on graphs of filters which
@@ -8155,7 +8137,7 @@ gstreamer1.0-gl 1.24.12-1 [Debian/trixie main]
      .
      This package contains the GStreamer plugins for GL.
 
-gstreamer1.0-gtk3 1.24.12-dmo1 [Unofficial Multimedia Packages/trixie main]
+gstreamer1.0-gtk3 1.24.12-dmo1+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── GStreamer plugin for GTK+3
      GStreamer is a streaming media framework, based on graphs of filters which
@@ -8168,17 +8150,6 @@ gstreamer1.0-gtk3 1.24.12-dmo1 [Unofficial Multimedia Packages/trixie main]
      This package contains the GStreamer plugin for GTK+3.
 
 gstreamer1.0-gtk3 1.24.12-1+b1 [Debian/trixie main]
-└── GStreamer plugin for GTK+3
-     GStreamer is a streaming media framework, based on graphs of filters
-     which operate on media data.  Applications using this library can do
-     anything from real-time sound processing to playing videos, and just
-     about anything else media-related.  Its plugin-based architecture means
-     that new data types or processing capabilities can be added simply by
-     installing new plug-ins.
-     .
-     This package contains the GStreamer plugin for GTK+3.
-
-gstreamer1.0-gtk3 1.24.12-1 [Debian/trixie main]
 └── GStreamer plugin for GTK+3
      GStreamer is a streaming media framework, based on graphs of filters
      which operate on media data.  Applications using this library can do
@@ -8254,8 +8225,23 @@ gstreamer1.0-pipewire 1.2.7-1+b2 [Debian/trixie main]
      This package contains a plugin to make devices managed by the PipeWire
      server available as GStreamer sources and sinks.
 
-gstreamer1.0-plugins-bad 1:1.24.12-dmo2+b1 [Unofficial Multimedia Packages/trixie main]
-├── is installed
+gstreamer1.0-plugins-bad 1:1.24.12-dmo2+b2 [Unofficial Multimedia Packages/trixie main]
+├── is upgradable from 1:1.24.12-dmo2+b1
+└── GStreamer plugins from the "bad" set
+     GStreamer is a streaming media framework, based on graphs of filters which
+     operate on media data. Applications using this library can do anything
+     from real-time sound processing to playing videos, and just about anything
+     else media-related. Its plugin-based architecture means that new data
+     types or processing capabilities can be added simply by installing new
+     plug-ins.
+     .
+     GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
+     to the rest. They might be close to being good quality, but they're
+     missing something - be it a good code review, some documentation, a set of
+     tests, a real live maintainer, or some actual wide use.
+
+gstreamer1.0-plugins-bad 1:1.24.12-dmo2+b1 [local]
+├── is installed and upgradable to 1:1.24.12-dmo2+b2
 └── GStreamer plugins from the "bad" set
      GStreamer is a streaming media framework, based on graphs of filters which
      operate on media data. Applications using this library can do anything
@@ -8308,7 +8294,7 @@ gstreamer1.0-plugins-base 1.24.12-1 [Debian/trixie main]
      This package contains the GStreamer plugins from the "base" set, an
      essential exemplary set of elements.
 
-gstreamer1.0-plugins-good 1.24.12-dmo1 [Unofficial Multimedia Packages/trixie main]
+gstreamer1.0-plugins-good 1.24.12-dmo1+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── GStreamer plugins from the "good" set
      GStreamer is a streaming media framework, based on graphs of filters which
@@ -8322,18 +8308,6 @@ gstreamer1.0-plugins-good 1.24.12-dmo1 [Unofficial Multimedia Packages/trixie ma
      good-quality plug-ins under the LGPL license.
 
 gstreamer1.0-plugins-good 1.24.12-1+b1 [Debian/trixie main]
-└── GStreamer plugins from the "good" set
-     GStreamer is a streaming media framework, based on graphs of filters
-     which operate on media data.  Applications using this library can do
-     anything from real-time sound processing to playing videos, and just
-     about anything else media-related.  Its plugin-based architecture means
-     that new data types or processing capabilities can be added simply by
-     installing new plug-ins.
-     .
-     This package contains the GStreamer plugins from the "good" set, a set
-     of good-quality plug-ins under the LGPL license.
-
-gstreamer1.0-plugins-good 1.24.12-1 [Debian/trixie main]
 └── GStreamer plugins from the "good" set
      GStreamer is a streaming media framework, based on graphs of filters
      which operate on media data.  Applications using this library can do
@@ -9902,11 +9876,6 @@ libattr1 1:2.5.2-3 [Debian/trixie main]
      Contains the runtime environment required by programs that make use
      of extended attributes.
 
-libattr1 1:2.5.2-2 [Debian/trixie main]
-└── extended attribute handling - shared library
-     Contains the runtime environment required by programs that make use
-     of extended attributes.
-
 libaudio2 1.9.4-9 [Debian/trixie main]
 ├── is installed
 └── Network Audio System - shared libraries
@@ -10040,7 +10009,7 @@ libavc1394-0 0.5.4-5+b2 [Debian/trixie main]
      This package includes the libraries needed to run executables using
      libavc1394.
 
-libavcodec61 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libavcodec61 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── Library to encode decode multimedia streams - runtime files
 
@@ -10061,7 +10030,7 @@ libavcodec61 7:7.1-4 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libavcodec61:i386 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libavcodec61:i386 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── Library to encode decode multimedia streams - runtime files
 
@@ -10082,7 +10051,7 @@ libavcodec61:i386 7:7.1-4 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libavdevice61 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libavdevice61 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for handling input and output devices - runtime files
 
@@ -10099,7 +10068,7 @@ libavdevice61 7:7.1-4 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libavfilter10 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libavfilter10 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg filter library
 
@@ -10115,7 +10084,7 @@ libavfilter10 7:7.1-4 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libavformat61 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libavformat61 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg file format library
 
@@ -10150,7 +10119,7 @@ libavtp0 0.2.0-2 [Debian/trixie main]
      .
      This package provides the shared library.
 
-libavutil59 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libavutil59 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg avutil library - runtime files
 
@@ -10170,7 +10139,7 @@ libavutil59 7:7.1-4 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libavutil59:i386 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libavutil59:i386 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg avutil library - runtime files
 
@@ -13128,7 +13097,7 @@ libfile-mimeinfo-perl 0.35-1 [Debian/trixie main]
       * mimetype: determine a file's mimetype
       * mimeopen: open files according to their mimetype
 
-libflac12t64 1.4.3+ds-4 [Debian/trixie main]
+libflac14 1.5.0+ds-2 [Debian/trixie main]
 ├── is installed
 └── Free Lossless Audio Codec - runtime C library
      FLAC stands for Free Lossless Audio Codec. Grossly oversimplified, FLAC is
@@ -13144,7 +13113,7 @@ libflac12t64 1.4.3+ds-4 [Debian/trixie main]
      .
      This package contains the runtime library libFLAC.
 
-libflac12t64:i386 1.4.3+ds-4 [Debian/trixie main]
+libflac14:i386 1.5.0+ds-2 [Debian/trixie main]
 ├── is installed
 └── Free Lossless Audio Codec - runtime C library
      FLAC stands for Free Lossless Audio Codec. Grossly oversimplified, FLAC is
@@ -15024,8 +14993,26 @@ libgstreamer-gl1.0-0 1.24.12-1 [Debian/trixie main]
      .
      This package contains the GL library.
 
-libgstreamer-plugins-bad1.0-0 1:1.24.12-dmo2+b1 [Unofficial Multimedia Packages/trixie main]
-├── is installed
+libgstreamer-plugins-bad1.0-0 1:1.24.12-dmo2+b2 [Unofficial Multimedia Packages/trixie main]
+├── is upgradable from 1:1.24.12-dmo2+b1
+└── GStreamer development files for libraries from the "bad" set
+     GStreamer is a streaming media framework, based on graphs of filters which
+     operate on media data. Applications using this library can do anything
+     from real-time sound processing to playing videos, and just about anything
+     else media-related. Its plugin-based architecture means that new data
+     types or processing capabilities can be added simply by installing new
+     plug-ins.
+     .
+     GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
+     to the rest. They might be close to being good quality, but they're
+     missing something - be it a good code review, some documentation, a set of
+     tests, a real live maintainer, or some actual wide use.
+     .
+     This package contains shared GStreamer libraries from the "bad" set. The
+     API is not guaranteed to be stable.
+
+libgstreamer-plugins-bad1.0-0 1:1.24.12-dmo2+b1 [local]
+├── is installed and upgradable to 1:1.24.12-dmo2+b2
 └── GStreamer development files for libraries from the "bad" set
      GStreamer is a streaming media framework, based on graphs of filters which
      operate on media data. Applications using this library can do anything
@@ -15536,44 +15523,8 @@ libhogweed6t64 3.10.1-1 [Debian/trixie main]
      require the GNU multiple precision arithmetic library (libgmp) for
      their large integer computations.
 
-libhogweed6t64 3.10-1+b1 [Debian/trixie main]
-└── low level cryptographic library (public-key cryptos)
-     Nettle is a cryptographic library that is designed to fit easily in more or
-     less any context: In crypto toolkits for object-oriented languages (C++,
-     Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel
-     space.
-     .
-     It tries to solve a problem of providing a common set of cryptographic
-     algorithms for higher-level applications by implementing a
-     context-independent set of cryptographic algorithms. In that light, Nettle
-     doesn't do any memory allocation or I/O, it simply provides the
-     cryptographic algorithms for the application to use in any environment and
-     in any way it needs.
-     .
-     This package contains the asymmetric cryptographic algorithms, which,
-     require the GNU multiple precision arithmetic library (libgmp) for
-     their large integer computations.
-
 libhogweed6t64:i386 3.10.1-1 [Debian/trixie main]
 ├── is installed
-└── low level cryptographic library (public-key cryptos)
-     Nettle is a cryptographic library that is designed to fit easily in more or
-     less any context: In crypto toolkits for object-oriented languages (C++,
-     Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel
-     space.
-     .
-     It tries to solve a problem of providing a common set of cryptographic
-     algorithms for higher-level applications by implementing a
-     context-independent set of cryptographic algorithms. In that light, Nettle
-     doesn't do any memory allocation or I/O, it simply provides the
-     cryptographic algorithms for the application to use in any environment and
-     in any way it needs.
-     .
-     This package contains the asymmetric cryptographic algorithms, which,
-     require the GNU multiple precision arithmetic library (libgmp) for
-     their large integer computations.
-
-libhogweed6t64:i386 3.10-1+b1 [Debian/trixie main]
 └── low level cryptographic library (public-key cryptos)
      Nettle is a cryptographic library that is designed to fit easily in more or
      less any context: In crypto toolkits for object-oriented languages (C++,
@@ -16868,13 +16819,6 @@ liblibreoffice-java 4:24.8.5-2 [Debian/trixie main]
      .
      This package contains the public Java libraries.
 
-liblibreoffice-java 4:24.8.4-4 [Debian/trixie main]
-└── LibreOffice UNO runtime environment -- Java library
-     The Uno Runtime Environment (URE) is the well-known UNO component model
-     of LibreOffice, packaged up as an individual product.
-     .
-     This package contains the public Java libraries.
-
 liblilv-0-0 0.24.26-1 [Debian/trixie main]
 ├── is installed
 └── library for simple use of LV2 plugins
@@ -18075,44 +18019,8 @@ libnettle8t64 3.10.1-1 [Debian/trixie main]
      algorithms. To avoid having this package depend on libgmp, the
      asymmetric cryptos reside in a separate library, libhogweed.
 
-libnettle8t64 3.10-1+b1 [Debian/trixie main]
-└── low level cryptographic library (symmetric and one-way cryptos)
-     Nettle is a cryptographic library that is designed to fit easily in more or
-     less any context: In crypto toolkits for object-oriented languages (C++,
-     Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel
-     space.
-     .
-     It tries to solve a problem of providing a common set of cryptographic
-     algorithms for higher-level applications by implementing a
-     context-independent set of cryptographic algorithms. In that light, Nettle
-     doesn't do any memory allocation or I/O, it simply provides the
-     cryptographic algorithms for the application to use in any environment and
-     in any way it needs.
-     .
-     This package contains the symmetric and one-way cryptographic
-     algorithms. To avoid having this package depend on libgmp, the
-     asymmetric cryptos reside in a separate library, libhogweed.
-
 libnettle8t64:i386 3.10.1-1 [Debian/trixie main]
 ├── is installed
-└── low level cryptographic library (symmetric and one-way cryptos)
-     Nettle is a cryptographic library that is designed to fit easily in more or
-     less any context: In crypto toolkits for object-oriented languages (C++,
-     Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel
-     space.
-     .
-     It tries to solve a problem of providing a common set of cryptographic
-     algorithms for higher-level applications by implementing a
-     context-independent set of cryptographic algorithms. In that light, Nettle
-     doesn't do any memory allocation or I/O, it simply provides the
-     cryptographic algorithms for the application to use in any environment and
-     in any way it needs.
-     .
-     This package contains the symmetric and one-way cryptographic
-     algorithms. To avoid having this package depend on libgmp, the
-     asymmetric cryptos reside in a separate library, libhogweed.
-
-libnettle8t64:i386 3.10-1+b1 [Debian/trixie main]
 └── low level cryptographic library (symmetric and one-way cryptos)
      Nettle is a cryptographic library that is designed to fit easily in more or
      less any context: In crypto toolkits for object-oriented languages (C++,
@@ -18163,11 +18071,6 @@ libnfs14 5.0.2-1+b2 [Debian/trixie main]
 
 libnfsidmap1 1:2.8.2-3 [Debian/trixie main]
 ├── is installed
-└── NFS idmapping library
-     libnfsidmap provides functions to map between NFSv4 names (which are
-     of the form user@domain) and local uid's and gid's.
-
-libnfsidmap1 1:2.8.2-2 [Debian/trixie main]
 └── NFS idmapping library
      libnfsidmap provides functions to map between NFSv4 names (which are
      of the form user@domain) and local uid's and gid's.
@@ -18775,14 +18678,6 @@ libopenjp2-7:i386 2.5.3-1 [Debian/trixie main]
 
 libopenmpt0t64 0.7.13-1+b1 [Debian/trixie main]
 ├── is installed
-└── module music library based on OpenMPT -- shared library
-     libopenmpt is a cross-platform C++ and C library to decode tracked music
-     files (modules) into a raw PCM audio stream. It is based on the player code
-     of the OpenMPT project, a descendant of the original ModPlug Tracker.
-     .
-     This package contains the main shared library.
-
-libopenmpt0t64 0.7.13-1 [Debian/trixie main]
 └── module music library based on OpenMPT -- shared library
      libopenmpt is a cross-platform C++ and C library to decode tracked music
      files (modules) into a raw PCM audio stream. It is based on the player code
@@ -19681,7 +19576,7 @@ libportal1 0.9.1-1 [Debian/trixie main]
      This package contains the shared library for non-GUI-specific use of
      portals.
 
-libpostproc58 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libpostproc58 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── postproc shared libraries
 
@@ -19846,14 +19741,6 @@ libpwquality1 1.4.5-4 [Debian/trixie main]
 
 libpython3-stdlib 3.13.2-1 [Debian/trixie main]
 ├── is installed
-└── interactive high-level object-oriented language (default python3 version)
-     This package contains the majority of the standard library for the Python
-     language (default python3 version).
-     .
-     This package is a dependency package, which depends on Debian's default
-     Python 3 version's standard library (currently v3.13).
-
-libpython3-stdlib 3.13.1-2 [Debian/trixie main]
 └── interactive high-level object-oriented language (default python3 version)
      This package contains the majority of the standard library for the Python
      language (default python3 version).
@@ -20377,49 +20264,6 @@ libreoffice 4:24.8.5-2 [Debian/trixie main]
       * libpaper-utils: papersize detection support via paperconf
       * bluez: Bluetooth support for Impress (slideshow remote control)
 
-libreoffice 4:24.8.4-4 [Debian/trixie main]
-└── office productivity suite (metapackage)
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This metapackage installs all components of libreoffice:
-      * libreoffice-writer: Word processor
-      * libreoffice-calc: Spreadsheet
-      * libreoffice-impress: Presentation
-      * libreoffice-draw: Drawing
-      * libreoffice-base: Database
-      * libreoffice-math: Equation editor
-     It also recommends additional packages (e.g. fonts) in order to match an
-     upstream LibreOffice install as closely as possible.
-     .
-     You can extend the functionality of LibreOffice by installing these
-     packages:
-      * hunspell-*/myspell-*: Hunspell/Myspell dictionaries
-        for use with LibreOffice
-      * libreoffice-l10n-*: UI interface translation
-      * libreoffice-help-*: User help
-      * mythes-*: Thesauri for the use with LibreOffice
-      * hyphen-*: Hyphenation patterns for LibreOffice
-      * libreoffice-gtk(2|3): Gtk UI Plugin, GNOME File Picker support
-      * libreoffice-gnome: GIO backend
-      * unixodbc: ODBC database support
-      * cups-bsd: Allows LibreOffice to detect your CUPS printer queues
-        automatically
-      * libsane: Use your sane-supported scanner with LibreOffice
-      * libxrender1: Speed up display by using Xrender library
-      * libgl1: OpenGL support
-      * openclipart-libreoffice: Open Clip Art Gallery with LibreOffice index
-        files
-      * firefox-esr | thunderbird | firefox:
-        Mozilla profile with Certificates needed for XML Security...
-      * openjdk-11-jre | openjdk-8-jre | java8-runtime:
-        Java Runtime Environment for use with LibreOffice
-      * pstoedit / imagemagick / ghostscript: helper tools for EPS
-      * gstreamer0.10-plugins-*: GStreamer plugins for use with LibreOffices
-        media backend
-      * libpaper-utils: papersize detection support via paperconf
-      * bluez: Bluetooth support for Impress (slideshow remote control)
-
 libreoffice-base 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- database
@@ -20428,27 +20272,8 @@ libreoffice-base 4:24.8.5-2 [Debian/trixie main]
      .
      This package contains the database component for LibreOffice.
 
-libreoffice-base 4:24.8.4-4 [Debian/trixie main]
-└── office productivity suite -- database
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains the database component for LibreOffice.
-
 libreoffice-base-core 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── office productivity suite -- shared library
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains common libraries of LibreOffice Base used by
-     Base, Writer and Calc.
-     .
-     If you need full Base functionality (or actual database drivers), please
-     install libreoffice-base (and/or libreoffice-base-drivers and/o
-     libreoffice-sdbc-*).
-
-libreoffice-base-core 4:24.8.4-4 [Debian/trixie main]
 └── office productivity suite -- shared library
      LibreOffice is a full-featured office productivity suite that provides
      a near drop-in replacement for Microsoft(R) Office.
@@ -20494,39 +20319,6 @@ libreoffice-base-drivers 4:24.8.5-2 [Debian/trixie main]
       * libreoffice-sdbc-postgresql: PostgreSQL SDBC Driver
       * libreoffice-sdbc-mysql: MySQL/MariaDB SDBC Driver
 
-libreoffice-base-drivers 4:24.8.4-4 [Debian/trixie main]
-└── Database connectivity drivers for LibreOffice
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains the database connectivity drivers used by LibreOffices
-     database functionality:
-      - ODBC
-      - JDBC
-      - dBase
-      - Calc
-      - Flat files
-     .
-     You can extend this by installing:
-     .
-      * unixodbc: ODBC database support
-      * libmyodbc | odbc-postgresql | libsqliteodbc | tdsodbc | odbc-mdbtools: ODBC
-        drivers for:
-        - MySQL
-        - PostgreSQL
-        - SQLite
-        - MS SQL / Sybase SQL
-        - *.mdb (JET / MS Access)
-      * libmariadb-java | libpg-java | libjtds-java: JDBC Drivers
-        for:
-        - MySQL/MariaDB
-        - PostgreSQL
-        - MS SQL Server and Sybase
-      * libreoffice-sdbc-hsqldb: embedded HSQLDB SDBC Driver
-      * libreoffice-sdbc-firebird: (embedded) Firebird SDBC Driver
-      * libreoffice-sdbc-postgresql: PostgreSQL SDBC Driver
-      * libreoffice-sdbc-mysql: MySQL/MariaDB SDBC Driver
-
 libreoffice-calc 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- spreadsheet
@@ -20535,23 +20327,8 @@ libreoffice-calc 4:24.8.5-2 [Debian/trixie main]
      .
      This package contains the spreadsheet component for LibreOffice.
 
-libreoffice-calc 4:24.8.4-4 [Debian/trixie main]
-└── office productivity suite -- spreadsheet
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains the spreadsheet component for LibreOffice.
-
 libreoffice-common 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── office productivity suite -- arch-independent files
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains the architecture-independent files of
-     LibreOffice.
-
-libreoffice-common 4:24.8.4-4 [Debian/trixie main]
 └── office productivity suite -- arch-independent files
      LibreOffice is a full-featured office productivity suite that provides
      a near drop-in replacement for Microsoft(R) Office.
@@ -20568,14 +20345,6 @@ libreoffice-core 4:24.8.5-2 [Debian/trixie main]
      This package contains the architecture-dependent core files of
      LibreOffice.  See the libreoffice package for more information.
 
-libreoffice-core 4:24.8.4-4 [Debian/trixie main]
-└── office productivity suite -- arch-dependent files
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains the architecture-dependent core files of
-     LibreOffice.  See the libreoffice package for more information.
-
 libreoffice-draw 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- drawing
@@ -20584,22 +20353,8 @@ libreoffice-draw 4:24.8.5-2 [Debian/trixie main]
      .
      This package contains the drawing component for LibreOffice.
 
-libreoffice-draw 4:24.8.4-4 [Debian/trixie main]
-└── office productivity suite -- drawing
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains the drawing component for LibreOffice.
-
 libreoffice-impress 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── office productivity suite -- presentation
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains the presentation component for LibreOffice.
-
-libreoffice-impress 4:24.8.4-4 [Debian/trixie main]
 └── office productivity suite -- presentation
      LibreOffice is a full-featured office productivity suite that provides
      a near drop-in replacement for Microsoft(R) Office.
@@ -20615,14 +20370,6 @@ libreoffice-java-common 4:24.8.5-2 [Debian/trixie main]
      This package contains the architecture-independent files of
      the Java support for LibreOffice (Java classes, scripts, config snippets).
 
-libreoffice-java-common 4:24.8.4-4 [Debian/trixie main]
-└── office productivity suite -- arch-independent Java support files
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains the architecture-independent files of
-     the Java support for LibreOffice (Java classes, scripts, config snippets).
-
 libreoffice-math 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- equation editor
@@ -20631,26 +20378,8 @@ libreoffice-math 4:24.8.5-2 [Debian/trixie main]
      .
      This package contains the equation editor component for LibreOffice.
 
-libreoffice-math 4:24.8.4-4 [Debian/trixie main]
-└── office productivity suite -- equation editor
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains the equation editor component for LibreOffice.
-
 libreoffice-nlpsolver 4:0.9+LibO24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── "Solver for Nonlinear Programming" extension for LibreOffice
-     By default LibreOffice Calc ships with a solver engine for linear
-     programming only. This allows the optimization of models to a certain degree.
-     However, if the formulas or constraints become more complex,
-     nonlinear programming is required. That missing gap is now filled by the
-     Solver for Nonlinear Programming extension.
-     .
-     Currently it incorporates two Evolutionary Algorithms which are able to
-     handle floating point and integer variables as well as nonlinear constraints.
-
-libreoffice-nlpsolver 4:0.9+LibO24.8.4-4 [Debian/trixie main]
 └── "Solver for Nonlinear Programming" extension for LibreOffice
      By default LibreOffice Calc ships with a solver engine for linear
      programming only. This allows the optimization of models to a certain degree.
@@ -20673,17 +20402,6 @@ libreoffice-report-builder 4:24.8.5-2 [Debian/trixie main]
       group and page footers and even calculation fields are available to
       accomplish complex database reports."
 
-libreoffice-report-builder 4:24.8.4-4 [Debian/trixie main]
-└── LibreOffice component for building database reports
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains the report builder:
-      "Create with the Sun Report Builder stylish, smart-looking database reports.
-      The flexible report editor can define group and page headers as well as
-      group and page footers and even calculation fields are available to
-      accomplish complex database reports."
-
 libreoffice-report-builder-bin 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── LibreOffice component for building database reports -- libraries
@@ -20693,28 +20411,8 @@ libreoffice-report-builder-bin 4:24.8.5-2 [Debian/trixie main]
      This package contains some architecture-dependent support libraries
      (librpt*.so) for the report builder component.
 
-libreoffice-report-builder-bin 4:24.8.4-4 [Debian/trixie main]
-└── LibreOffice component for building database reports -- libraries
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains some architecture-dependent support libraries
-     (librpt*.so) for the report builder component.
-
 libreoffice-script-provider-bsh 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── BeanShell script support provider for LibreOffice scripting framework
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     The Scripting Framework allows LibreOffice users to write and run macros
-     in multiple languages including LibreOffice Basic, Python, Java, BeanShell
-     and JavaScript. These macros can then be assigned to menus, toolbars,
-     keyboard shortcuts, events and embedded objects.
-     .
-     This package contains the script provider to support BeanShell.
-
-libreoffice-script-provider-bsh 4:24.8.4-4 [Debian/trixie main]
 └── BeanShell script support provider for LibreOffice scripting framework
      LibreOffice is a full-featured office productivity suite that provides
      a near drop-in replacement for Microsoft(R) Office.
@@ -20739,32 +20437,8 @@ libreoffice-script-provider-js 4:24.8.5-2 [Debian/trixie main]
      .
      This package contains the script provider to support JavaScript.
 
-libreoffice-script-provider-js 4:24.8.4-4 [Debian/trixie main]
-└── JavaScript script support provider for LibreOffice scripting framework
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     The Scripting Framework allows LibreOffice users to write and run macros
-     in multiple languages including LibreOffice Basic, Python, Java, BeanShell
-     and JavaScript. These macros can then be assigned to menus, toolbars,
-     keyboard shortcuts, events and embedded objects.
-     .
-     This package contains the script provider to support JavaScript.
-
 libreoffice-script-provider-python 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── Python script support provider for LibreOffice scripting framework
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     The Scripting Framework allows LibreOffice users to write and run macros
-     in multiple languages including LibreOffice Basic, Python, Java, BeanShell
-     and JavaScript. These macros can then be assigned to menus, toolbars,
-     keyboard shortcuts, events and embedded objects.
-     .
-     This package contains the script provider to support Python.
-
-libreoffice-script-provider-python 4:24.8.4-4 [Debian/trixie main]
 └── Python script support provider for LibreOffice scripting framework
      LibreOffice is a full-featured office productivity suite that provides
      a near drop-in replacement for Microsoft(R) Office.
@@ -20785,24 +20459,8 @@ libreoffice-sdbc-firebird 4:24.8.5-2 [Debian/trixie main]
      The Firebird SDBC Driver allows one to use the Firebird (embedded) database
      from LibreOffice without any wrapper layer such as ODBC or JDBC.
 
-libreoffice-sdbc-firebird 4:24.8.4-4 [Debian/trixie main]
-└── (embedded) Firebird SDBC driver for LibreOffice
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     The Firebird SDBC Driver allows one to use the Firebird (embedded) database
-     from LibreOffice without any wrapper layer such as ODBC or JDBC.
-
 libreoffice-sdbc-hsqldb 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── embedded HSQLDB SDBC driver for LibreOffice
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     The HSQLDB SDBC Driver allows one to use the HSQLDB embedded database from
-     LibreOffice without any wrapper layer such as ODBC or JDBC.
-
-libreoffice-sdbc-hsqldb 4:24.8.4-4 [Debian/trixie main]
 └── embedded HSQLDB SDBC driver for LibreOffice
      LibreOffice is a full-featured office productivity suite that provides
      a near drop-in replacement for Microsoft(R) Office.
@@ -20819,24 +20477,8 @@ libreoffice-sdbc-mysql 4:24.8.5-2 [Debian/trixie main]
      The MariaDB/MySQL driver allows one to use the MariaDB or MySQL
      database from LibreOffice without any wrapper layer such as ODBC or JDBC.
 
-libreoffice-sdbc-mysql 4:24.8.4-4 [Debian/trixie main]
-└── MariaDB/MySQL SDBC driver for LibreOffice
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     The MariaDB/MySQL driver allows one to use the MariaDB or MySQL
-     database from LibreOffice without any wrapper layer such as ODBC or JDBC.
-
 libreoffice-sdbc-postgresql 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── PostgreSQL SDBC driver for LibreOffice
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     The PostgreSQL SDBC Driver allows one to use the PostgreSQL database from
-     LibreOffice without any wrapper layer such as ODBC or JDBC.
-
-libreoffice-sdbc-postgresql 4:24.8.4-4 [Debian/trixie main]
 └── PostgreSQL SDBC driver for LibreOffice
      LibreOffice is a full-featured office productivity suite that provides
      a near drop-in replacement for Microsoft(R) Office.
@@ -20853,28 +20495,8 @@ libreoffice-style-colibre 4:24.8.5-2 [Debian/trixie main]
      This package contains the "colibre" symbol style - a icon theme
      which follow Microsoft(R) Offices color scheme.
 
-libreoffice-style-colibre 4:24.8.4-4 [Debian/trixie main]
-└── office productivity suite -- colibre symbol style
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains the "colibre" symbol style - a icon theme
-     which follow Microsoft(R) Offices color scheme.
-
 libreoffice-uiconfig-base 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── UI data ("config") for LibreOffice Base
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains internal "configuration" of various UI components.
-     It is not meant to be editable. It is just split out for dependencies of
-     other packages.
-     .
-     You will usually not need to install this package manually but it should
-     just be pulled in by other packages.
-
-libreoffice-uiconfig-base 4:24.8.4-4 [Debian/trixie main]
 └── UI data ("config") for LibreOffice Base
      LibreOffice is a full-featured office productivity suite that provides
      a near drop-in replacement for Microsoft(R) Office.
@@ -20899,32 +20521,8 @@ libreoffice-uiconfig-calc 4:24.8.5-2 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-calc 4:24.8.4-4 [Debian/trixie main]
-└── UI data ("config") for LibreOffice Calc
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains internal "configuration" of various UI components.
-     It is not meant to be editable. It is just split out for dependencies of
-     other packages.
-     .
-     You will usually not need to install this package manually but it should
-     just be pulled in by other packages.
-
 libreoffice-uiconfig-common 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── UI data ("config") for LibreOffice ("common" set)
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains internal "configuration" of various UI components.
-     It is not meant to be editable. It is just split out for dependencies of
-     other packages.
-     .
-     You will usually not need to install this package manually but it should
-     just be pulled in by other packages.
-
-libreoffice-uiconfig-common 4:24.8.4-4 [Debian/trixie main]
 └── UI data ("config") for LibreOffice ("common" set)
      LibreOffice is a full-featured office productivity suite that provides
      a near drop-in replacement for Microsoft(R) Office.
@@ -20949,32 +20547,8 @@ libreoffice-uiconfig-draw 4:24.8.5-2 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-draw 4:24.8.4-4 [Debian/trixie main]
-└── UI data ("config") for LibreOffice Draw
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains internal "configuration" of various UI components.
-     It is not meant to be editable. It is just split out for dependencies of
-     other packages.
-     .
-     You will usually not need to install this package manually but it should
-     just be pulled in by other packages.
-
 libreoffice-uiconfig-impress 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── UI data ("config") for LibreOffice Impress
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains internal "configuration" of various UI components.
-     It is not meant to be editable. It is just split out for dependencies of
-     other packages.
-     .
-     You will usually not need to install this package manually but it should
-     just be pulled in by other packages.
-
-libreoffice-uiconfig-impress 4:24.8.4-4 [Debian/trixie main]
 └── UI data ("config") for LibreOffice Impress
      LibreOffice is a full-featured office productivity suite that provides
      a near drop-in replacement for Microsoft(R) Office.
@@ -20999,32 +20573,8 @@ libreoffice-uiconfig-math 4:24.8.5-2 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-math 4:24.8.4-4 [Debian/trixie main]
-└── UI data ("config") for LibreOffice Math
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains internal "configuration" of various UI components.
-     It is not meant to be editable. It is just split out for dependencies of
-     other packages.
-     .
-     You will usually not need to install this package manually but it should
-     just be pulled in by other packages.
-
 libreoffice-uiconfig-report-builder 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── UI data ("config") for the LibreOffice Report Builder
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains internal "configuration" of various UI components.
-     It is not meant to be editable. It is just split out for dependencies of
-     other packages.
-     .
-     You will usually not need to install this package manually but it should
-     just be pulled in by other packages.
-
-libreoffice-uiconfig-report-builder 4:24.8.4-4 [Debian/trixie main]
 └── UI data ("config") for the LibreOffice Report Builder
      LibreOffice is a full-featured office productivity suite that provides
      a near drop-in replacement for Microsoft(R) Office.
@@ -21049,18 +20599,6 @@ libreoffice-uiconfig-writer 4:24.8.5-2 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-writer 4:24.8.4-4 [Debian/trixie main]
-└── UI data ("config") for LibreOffice Writer
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains internal "configuration" of various UI components.
-     It is not meant to be editable. It is just split out for dependencies of
-     other packages.
-     .
-     You will usually not need to install this package manually but it should
-     just be pulled in by other packages.
-
 libreoffice-wiki-publisher 4:1.2.0+LibO24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── LibreOffice extension for working with MediaWiki articles
@@ -21070,23 +20608,8 @@ libreoffice-wiki-publisher 4:1.2.0+LibO24.8.5-2 [Debian/trixie main]
      This package contains an extension to create/edit/publish MediaWiki
      articles with LibreOffice
 
-libreoffice-wiki-publisher 4:1.2.0+LibO24.8.4-4 [Debian/trixie main]
-└── LibreOffice extension for working with MediaWiki articles
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains an extension to create/edit/publish MediaWiki
-     articles with LibreOffice
-
 libreoffice-writer 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── office productivity suite -- word processor
-     LibreOffice is a full-featured office productivity suite that provides
-     a near drop-in replacement for Microsoft(R) Office.
-     .
-     This package contains the wordprocessor component for LibreOffice.
-
-libreoffice-writer 4:24.8.4-4 [Debian/trixie main]
 └── office productivity suite -- word processor
      LibreOffice is a full-featured office productivity suite that provides
      a near drop-in replacement for Microsoft(R) Office.
@@ -21503,7 +21026,7 @@ libselinux1:i386 3.8-3 [Debian/trixie main]
      policy if necessary (e.g. to downgrade the policy format to an older
      version supported by the kernel) when loading policy.
 
-libsemanage-common 3.7-2.1 [Debian/trixie main]
+libsemanage-common 3.8-1 [Debian/trixie main]
 ├── is installed
 └── Common files for SELinux policy management libraries
      This package provides the common files used by the shared libraries
@@ -21519,7 +21042,7 @@ libsemanage-common 3.7-2.1 [Debian/trixie main]
      based on the concepts of Type Enforcement, Role-based Access
      Control, and Multi-level Security.
 
-libsemanage2 3.7-2.1+b1 [Debian/trixie main]
+libsemanage2 3.8-1 [Debian/trixie main]
 ├── is installed
 └── SELinux policy management library
      This package provides the shared libraries for SELinux policy management.
@@ -21878,19 +21401,7 @@ libsnappy1v5:i386 1.2.1-1+b1 [Debian/trixie main]
      MB/sec or more and decompresses at about 500 MB/sec or more.
 
 libsndfile1 1.2.2-2+b1 [Debian/trixie main]
-├── is upgradable from 1.2.2-2
-└── Library for reading/writing audio files
-     libsndfile is a library of C routines for reading and writing files containing
-     sampled audio data.
-     .
-     Various versions of WAV (integer, floating point, GSM, and compressed formats);
-     Microsoft PCM, A-law and u-law formats; AIFF, AIFC and RIFX; various AU/SND
-     formats (Sun/NeXT, Dec AU, G721 and G723 ADPCM); RAW header-less PCM files;
-     Amiga IFF/8SVX/16SV PCM files; Ensoniq PARIS  (.PAF); Apple's Core Audio Format
-     (CAF) and others.
-
-libsndfile1 1.2.2-2 [Debian/trixie main]
-├── is installed and upgradable to 1.2.2-2+b1
+├── is installed
 └── Library for reading/writing audio files
      libsndfile is a library of C routines for reading and writing files containing
      sampled audio data.
@@ -21902,19 +21413,7 @@ libsndfile1 1.2.2-2 [Debian/trixie main]
      (CAF) and others.
 
 libsndfile1:i386 1.2.2-2+b1 [Debian/trixie main]
-├── is upgradable from 1.2.2-2
-└── Library for reading/writing audio files
-     libsndfile is a library of C routines for reading and writing files containing
-     sampled audio data.
-     .
-     Various versions of WAV (integer, floating point, GSM, and compressed formats);
-     Microsoft PCM, A-law and u-law formats; AIFF, AIFC and RIFX; various AU/SND
-     formats (Sun/NeXT, Dec AU, G721 and G723 ADPCM); RAW header-less PCM files;
-     Amiga IFF/8SVX/16SV PCM files; Ensoniq PARIS  (.PAF); Apple's Core Audio Format
-     (CAF) and others.
-
-libsndfile1:i386 1.2.2-2 [Debian/trixie main]
-├── is installed and upgradable to 1.2.2-2+b1
+├── is installed
 └── Library for reading/writing audio files
      libsndfile is a library of C routines for reading and writing files containing
      sampled audio data.
@@ -22465,19 +21964,13 @@ libsvtav1enc2 2.3.0+dfsg-1 [Debian/trixie main]
      .
      This package provides the shared library libsvtav1enc.
 
-libsvtav1enc2:i386 2:2.3.0-dmo1 [Unofficial Multimedia Packages/trixie main]
+libsvtav1enc3 2:3.0.0-dmo1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── Scalable Video Technology for AV1 (libsvtav1enc shared library)
 
-libsvtav1enc2:i386 2.3.0+dfsg-1 [Debian/trixie main]
+libsvtav1enc3:i386 2:3.0.0-dmo1 [Unofficial Multimedia Packages/trixie main]
+├── is installed
 └── Scalable Video Technology for AV1 (libsvtav1enc shared library)
-     The Scalable Video Technology for AV1 (SVT-AV1 Encoder) is an
-     AV1-compliant encoder library core. The SVT-AV1 encoder development
-     is a work-in-progress targeting performance levels applicable to both VOD and
-     Live encoding / transcoding video applications. The SVT-AV1 decoder
-     implementation is targeting future codec research activities.
-     .
-     This package provides the shared library libsvtav1enc.
 
 libswitch-perl 2.17-3 [Debian/trixie main]
 ├── is installed
@@ -22489,7 +21982,7 @@ libswitch-perl 2.17-3 [Debian/trixie main]
      removed from the core. For perl 5.10 and above the "given/when" builtins
      are much preferred.
 
-libswresample5 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libswresample5 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for audio resampling, rematrixing etc. - runtime files
 
@@ -22521,7 +22014,7 @@ libswresample5 7:7.1-4 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libswresample5:i386 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libswresample5:i386 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for audio resampling, rematrixing etc. - runtime files
 
@@ -22553,7 +22046,7 @@ libswresample5:i386 7:7.1-4 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libswscale8 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libswscale8 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for image scaling and various conversions - runtime files
 
@@ -23463,36 +22956,8 @@ libuno-cppu3t64 4:24.8.5-2 [Debian/trixie main]
      This package contains CPPU, the type definitions/implementations for the core
      of UNO.
 
-libuno-cppu3t64 4:24.8.4-4 [Debian/trixie main]
-└── LibreOffice UNO runtime environment -- CPPU public library
-     The Uno Runtime Environment (URE) is the well-known UNO component model
-     of LibreOffice, packaged up as an individual product.
-     .
-     It offers you a flexible, low-overhead component model that is most ideal
-     for (but not limited to) combining in one application components written in
-     different computer languages, and developed by different parties. You can use
-     it to create any kind of application, in whatever application domain you can
-     imagine.
-     .
-     This package contains CPPU, the type definitions/implementations for the core
-     of UNO.
-
 libuno-cppuhelpergcc3-3t64 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── LibreOffice UNO runtime environment -- CPPU helper library
-     The Uno Runtime Environment (URE) is the well-known UNO component model
-     of LibreOffice, packaged up as an individual product.
-     .
-     It offers you a flexible, low-overhead component model that is most ideal
-     for (but not limited to) combining in one application components written in
-     different computer languages, and developed by different parties. You can use
-     it to create any kind of application, in whatever application domain you can
-     imagine.
-     .
-     This package contains the cppuhelper library (helpers for using cppu in C++,
-     e.g. templates for implementing UNO components, bootstrapping stuff)
-
-libuno-cppuhelpergcc3-3t64 4:24.8.4-4 [Debian/trixie main]
 └── LibreOffice UNO runtime environment -- CPPU helper library
      The Uno Runtime Environment (URE) is the well-known UNO component model
      of LibreOffice, packaged up as an individual product.
@@ -23521,35 +22986,8 @@ libuno-purpenvhelpergcc3-3t64 4:24.8.5-2 [Debian/trixie main]
      This package contains a library which contains a helper for implementing
      so-called "purpose environments".
 
-libuno-purpenvhelpergcc3-3t64 4:24.8.4-4 [Debian/trixie main]
-└── LibreOffice UNO runtime environment -- "purpose environment" helper
-     The Uno Runtime Environment (URE) is the well-known UNO component model
-     of LibreOffice, packaged up as an individual product.
-     .
-     It offers you a flexible, low-overhead component model that is most ideal
-     for (but not limited to) combining in one application components written in
-     different computer languages, and developed by different parties. You can use
-     it to create any kind of application, in whatever application domain you can
-     imagine.
-     .
-     This package contains a library which contains a helper for implementing
-     so-called "purpose environments".
-
 libuno-sal3t64 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── LibreOffice UNO runtime environment -- SAL public library
-     The Uno Runtime Environment (URE) is the well-known UNO component model
-     of LibreOffice, packaged up as an individual product.
-     .
-     It offers you a flexible, low-overhead component model that is most ideal
-     for (but not limited to) combining in one application components written in
-     different computer languages, and developed by different parties. You can use
-     it to create any kind of application, in whatever application domain you can
-     imagine.
-     .
-     This package contains the System Abstraction Layer (SAL) library.
-
-libuno-sal3t64 4:24.8.4-4 [Debian/trixie main]
 └── LibreOffice UNO runtime environment -- SAL public library
      The Uno Runtime Environment (URE) is the well-known UNO component model
      of LibreOffice, packaged up as an individual product.
@@ -23576,28 +23014,8 @@ libuno-salhelpergcc3-3t64 4:24.8.5-2 [Debian/trixie main]
      .
      This package contains C++ helpers to make use of sal easier.
 
-libuno-salhelpergcc3-3t64 4:24.8.4-4 [Debian/trixie main]
-└── LibreOffice UNO runtime environment -- SAL helpers for C++ library
-     The Uno Runtime Environment (URE) is the well-known UNO component model
-     of LibreOffice, packaged up as an individual product.
-     .
-     It offers you a flexible, low-overhead component model that is most ideal
-     for (but not limited to) combining in one application components written in
-     different computer languages, and developed by different parties. You can use
-     it to create any kind of application, in whatever application domain you can
-     imagine.
-     .
-     This package contains C++ helpers to make use of sal easier.
-
 libunoloader-java 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── LibreOffice UNO runtime environment -- (Java) UNO loader
-     The Uno Runtime Environment (URE) is the well-known UNO component model
-     of LibreOffice, packaged up as an individual product.
-     .
-     This package contains a UNO loader library for Java.
-
-libunoloader-java 4:24.8.4-4 [Debian/trixie main]
 └── LibreOffice UNO runtime environment -- (Java) UNO loader
      The Uno Runtime Environment (URE) is the well-known UNO component model
      of LibreOffice, packaged up as an individual product.
@@ -27945,12 +27363,6 @@ nfs-common 1:2.8.2-3 [Debian/trixie main]
      server.  Programs included: lockd, statd, showmount, nfsstat, gssd,
      idmapd and mount.nfs.
 
-nfs-common 1:2.8.2-2 [Debian/trixie main]
-└── NFS support files common to client and server
-     Use this package on any machine that uses NFS, either as client or
-     server.  Programs included: lockd, statd, showmount, nfsstat, gssd,
-     idmapd and mount.nfs.
-
 ninja-build 1.12.1-1 [Debian/trixie main]
 ├── is installed
 └── small build system closest in spirit to Make
@@ -28699,15 +28111,6 @@ python3 3.13.2-1 [Debian/trixie main]
      This package is a dependency package, which depends on Debian's default
      Python 3 version (currently v3.13).
 
-python3 3.13.1-2 [Debian/trixie main]
-└── interactive high-level object-oriented language (default python3 version)
-     Python, the high-level, interactive object oriented language,
-     includes an extensive class library with lots of goodies for
-     network programming, system administration, sounds and graphics.
-     .
-     This package is a dependency package, which depends on Debian's default
-     Python 3 version (currently v3.13).
-
 python3-anyio 4.7.0-1 [Debian/trixie main]
 ├── is installed
 └── Asynchronous compatibility layer (Python 3)
@@ -29260,13 +28663,6 @@ python3-minimal 3.13.2-1 [Debian/trixie main]
      See /usr/share/doc/python3.13-minimal/README.Debian for a list of the modules
      contained in this package.
 
-python3-minimal 3.13.1-2 [Debian/trixie main]
-└── minimal subset of the Python language (default python3 version)
-     This package contains the interpreter and some essential modules.  It's used
-     in the boot process for some basic tasks.
-     See /usr/share/doc/python3.13-minimal/README.Debian for a list of the modules
-     contained in this package.
-
 python3-monotonic 1.6-3 [Debian/trixie main]
 ├── is installed
 └── implementation of time.monotonic() - Python 3.x
@@ -29470,7 +28866,7 @@ python3-shellingham 1.5.4-1 [Debian/trixie main]
      Shellingham detects what shell the current Python executable is
      running in.
 
-python3-smbc 1.0.25.1-1+b3 [Debian/trixie main]
+python3-smbc 1.0.25.1-1+b4 [Debian/trixie main]
 ├── is installed
 └── Python 3 bindings for the Samba client library
      This package contains an extension that allows one to write Python 3 programs
@@ -29595,14 +28991,6 @@ python3-typing-extensions 4.12.2-2 [Debian/trixie main]
 
 python3-uno 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── Python-UNO bridge
-     The Python-UNO bridge allows use of the standard LibreOffice API
-     with the Python scripting language. It additionally allows
-     others to develop UNO components in Python, thus Python UNO components
-     may be run within the LibreOffice process and can be called from C++
-     or the built in StarBasic scripting language.
-
-python3-uno 4:24.8.4-4 [Debian/trixie main]
 └── Python-UNO bridge
      The Python-UNO bridge allows use of the standard LibreOffice API
      with the Python scripting language. It additionally allows
@@ -30990,20 +30378,6 @@ uno-libs-private 4:24.8.5-2 [Debian/trixie main]
      This package contains some private UNO/URE libraries which are used by public
      ones (e.g. cppu).
 
-uno-libs-private 4:24.8.4-4 [Debian/trixie main]
-└── LibreOffice UNO runtime environment -- private libraries used by public ones
-     The Uno Runtime Environment (URE) is the well-known UNO component model
-     of LibreOffice, packaged up as an individual product.
-     .
-     It offers you a flexible, low-overhead component model that is most ideal
-     for (but not limited to) combining in one application components written in
-     different computer languages, and developed by different parties. You can use
-     it to create any kind of application, in whatever application domain you can
-     imagine.
-     .
-     This package contains some private UNO/URE libraries which are used by public
-     ones (e.g. cppu).
-
 unrar 1:7.1.4-2 [Debian/trixie non-free]
 ├── is installed
 └── Unarchiver for .rar files (non-free version)
@@ -31061,32 +30435,8 @@ ure 4:24.8.5-2 [Debian/trixie main]
      it to create any kind of application, in whatever application domain you can
      imagine.
 
-ure 4:24.8.4-4 [Debian/trixie main]
-└── LibreOffice UNO runtime environment
-     The Uno Runtime Environment (URE) is the well-known UNO component model
-     of LibreOffice, packaged up as an individual product.
-     .
-     It offers you a flexible, low-overhead component model that is most ideal
-     for (but not limited to) combining in one application components written in
-     different computer languages, and developed by different parties. You can use
-     it to create any kind of application, in whatever application domain you can
-     imagine.
-
 ure-java 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
-└── LibreOffice UNO runtime environment -- Java support
-     The Uno Runtime Environment (URE) is the well-known UNO component model
-     of LibreOffice, packaged up as an individual product.
-     .
-     It offers you a flexible, low-overhead component model that is most ideal
-     for (but not limited to) combining in one application components written in
-     different computer languages, and developed by different parties. You can use
-     it to create any kind of application, in whatever application domain you can
-     imagine.
-     .
-     This package contains the Java support in the URE.
-
-ure-java 4:24.8.4-4 [Debian/trixie main]
 └── LibreOffice UNO runtime environment -- Java support
      The Uno Runtime Environment (URE) is the well-known UNO component model
      of LibreOffice, packaged up as an individual product.

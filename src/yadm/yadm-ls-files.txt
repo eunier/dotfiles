@@ -71,6 +71,7 @@
 .dotfiles/src/nala/nala-list-installed-after.txt
 .dotfiles/src/nala/nala-list-installed-before.txt
 .dotfiles/src/node.sh
+.dotfiles/src/ollama.sh
 .dotfiles/src/syncthing.sh
 .dotfiles/src/syncthing/syncthing-config-after.json
 .dotfiles/src/syncthing/syncthing-config-before.json

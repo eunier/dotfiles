@@ -2,15 +2,19 @@
 ├── com.mardojai.ForgeSparks.desktop
 ├── @filendesktop.desktop
 ├── mullvad-vpn.desktop
+├── org.gnome.baobab.desktop
 ├── org.gnome.Solanum.desktop
-└── steam.desktop
+├── steam.desktop
+└── syncthing-start.desktop
 
-1 directory, 5 files
-[drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 22 01:15]  /home/yunieralvarez/.config/autostart
+1 directory, 7 files
+[drwxrwxr-x yunieralvarez yunieralvarez        4096 Feb 25 21:56]  /home/yunieralvarez/.config/autostart
 ├── [-rw-rw-r-- yunieralvarez yunieralvarez        2255 Feb 22 01:15]  com.mardojai.ForgeSparks.desktop
 ├── [-rw-rw-r-- yunieralvarez yunieralvarez         183 Feb 15 16:07]  @filendesktop.desktop
 ├── [-rw-rw-r-- yunieralvarez yunieralvarez         195 Feb 16 08:51]  mullvad-vpn.desktop
+├── [-rw-rw-r-- yunieralvarez yunieralvarez       18441 Feb 25 21:56]  org.gnome.baobab.desktop
 ├── [-rw-rw-r-- yunieralvarez yunieralvarez        3386 Feb 22 01:14]  org.gnome.Solanum.desktop
-└── [-rw-rw-r-- yunieralvarez yunieralvarez        7473 Feb 16 01:45]  steam.desktop
+├── [-rw-rw-r-- yunieralvarez yunieralvarez        7473 Feb 16 01:45]  steam.desktop
+└── [-rw-rw-r-- yunieralvarez yunieralvarez         308 Feb 24 20:10]  syncthing-start.desktop
 
-1 directory, 5 files
+1 directory, 7 files

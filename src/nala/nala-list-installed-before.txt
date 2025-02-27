@@ -1,4 +1,4 @@
-7zip 24.09+dfsg-4 [Debian/trixie main]
+7zip 24.09+dfsg-5 [Debian/trixie main]
 ├── is installed
 └── 7-Zip file archiver with a high compression ratio
      7-Zip is a file archiver with a high compression ratio. The main features
@@ -559,7 +559,7 @@ base-passwd 3.6.6 [Debian/trixie main]
      group IDs. The update-passwd tool is provided to keep the system databases
      synchronized with these master files.
 
-bash 5.2.37-1 [Debian/trixie main]
+bash 5.2.37-1.1 [Debian/trixie main]
 ├── is installed
 └── GNU Bourne Again SHell
      Bash is an sh-compatible command language interpreter that executes
@@ -1923,7 +1923,7 @@ coinor-libcoinmp0 1.8.4+dfsg-2 [Debian/trixie main]
      (Coin LP), CBC (Coin Branch-and-Cut), and CGL (Cut Generation Library)
      projects.
 
-coinor-libcoinutils3v5 2.11.11+ds-3 [Debian/trixie main]
+coinor-libcoinutils3v5 2.11.11+ds-4 [Debian/trixie main]
 ├── is installed
 └── COIN-OR collection of utility classes (shared libraries)
      CoinUtils (COIN-OR Utilities) is a collection of classes and functions
@@ -1937,7 +1937,7 @@ coinor-libcoinutils3v5 2.11.11+ds-3 [Debian/trixie main]
      .
      This package contains the shared libraries.
 
-coinor-libosi1v5 0.108.10+ds-1+b1 [Debian/trixie main]
+coinor-libosi1v5 0.108.10+ds-2 [Debian/trixie main]
 ├── is installed
 └── COIN-OR Open Solver Interface
      Osi (Open Solver Interface) provides an abstract C++ base class to a generic
@@ -2609,7 +2609,7 @@ dialog 1.3-20250116-1 [Debian/trixie main]
       background tail  Similar to tail but runs in the background.
       editbox          Allows editing an existing file
 
-dictionaries-common 1.30.4 [Debian/trixie main]
+dictionaries-common 1.30.5 [Debian/trixie main]
 ├── is installed
 └── spelling dictionaries - common utilities
      This package provides utilities shared between all wordlists and spelling
@@ -2652,7 +2652,7 @@ dirmngr 2.2.46-1+b1 [Debian/trixie main]
      among other tools.  Unless this package is installed, the parts of
      the GnuPG suite that try to interact with the network will fail.
 
-discord 0.0.86 [SparkyLinux/sisters main]
+discord 0.0.87 [SparkyLinux/sisters main]
 ├── is installed
 └── Chat for Communities and Friends
      Discord is the easiest way to communicate over voice, video, and text. Chat,
@@ -3537,7 +3537,7 @@ fdisk 2.40.4-4 [Debian/trixie main]
      The cfdisk utility gives a more userfriendly curses based interface.
      The sfdisk utility is mostly for automation and scripting uses.
 
-ffmpeg 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+ffmpeg 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── audio/video encoder, streaming server & audio/video file converter
      FFmpeg is the leading multimedia framework, able to decode, encode,
@@ -5734,7 +5734,7 @@ fonts-noto-ui-core 20201225-2 [Debian/trixie main]
      for unicode replacement character "�" (U+FFFD)
      often displayed as replacement for unassigned or unknown characters.
 
-fonts-opensymbol 4:102.12+LibO24.8.4-4 [Debian/trixie main]
+fonts-opensymbol 4:102.12+LibO24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── OpenSymbol TrueType font
      This package contains the OpenSymbol TrueType font included in
@@ -6360,7 +6360,7 @@ gir1.2-grilo-0.3 0.3.16-1+b3 [Debian/trixie main]
      by packages using the GIRepository format to generate dynamic
      bindings.
 
-gir1.2-gst-plugins-bad-1.0 1:1.24.12-dmo2+b1 [Unofficial Multimedia Packages/trixie main]
+gir1.2-gst-plugins-bad-1.0 1:1.24.12-dmo2+b2 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── GObject introspection data for the GStreamer libraries from the "bad" set
      GStreamer is a streaming media framework, based on graphs of filters which
@@ -6568,7 +6568,7 @@ gir1.2-jsonrpc-1.0 3.44.1-1 [Debian/trixie main]
      It can be used by packages using the GIRepository format to generate
      dynamic bindings.
 
-gir1.2-malcontent-0 0.12.0-1.1+b1 [Debian/trixie main]
+gir1.2-malcontent-0 0.13.0-1 [Debian/trixie main]
 ├── is installed
 └── GObject introspection bindings for libmalcontent
      malcontent implements support for restricting the type of content accessible
@@ -6967,6 +6967,292 @@ gjs 1.82.1-1 [Debian/trixie main]
      Mozilla JavaScript engine and the GObject introspection framework.
      .
      This package contains the interactive console application.
+
+glab 1.53.0-1~ops2deb [wakemeops stable/stable dev]
+├── is installed
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.52.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.51.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.50.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.49.0-1+b1 [Debian/trixie main]
+└── commandline interface for gitlab instances
+     GLab is an open source GitLab CLI tool bringing GitLab to your terminal next
+     to where you are already working with git and your code without switching
+     between windows and browser tabs. Work with issues, merge requests, watch
+     running pipelines directly from your CLI among other features.
+     .
+     glab is available for repositories hosted on GitLab.com and self-managed
+     GitLab instances. glab supports multiple authenticated GitLab instances and
+     automatically detects the authenticated hostname from the remotes available
+     in the working Git directory.
+
+glab 1.49.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.48.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.47.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.46.1-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.46.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.45.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.44.1-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.43.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.42.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.41.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.40.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.39.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.38.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.37.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.36.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.35.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.34.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.33.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.32.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.31.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.30.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.29.4-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.29.3-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.29.2-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.29.1-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.29.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.28.1-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.28.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.27.1-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.27.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.26.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.25.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.24.1-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.24.0-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
+
+glab 1.23.1-1~ops2deb [wakemeops stable/stable dev]
+└── Gitlab on the command line
+     Bring GitLab to your terminal right next to where you're already working with
+     git and your code without switching between browser windows or tabs. Work with
+     issues, merge requests, look at running pipelines directly from your CLI, among
+     other features.
 
 glib-networking 2.80.1-1 [Debian/trixie main]
 ├── is installed
@@ -7403,7 +7689,7 @@ gnome-system-monitor 48~beta-1 [Debian/trixie main]
      processes on your system.  It also provides an overview of available
      resources such as CPU and memory.
 
-gnome-terminal 3.54.3-1 [Debian/trixie main]
+gnome-terminal 3.55.90-2 [Debian/trixie main]
 ├── is installed
 └── GNOME terminal emulator application
      GNOME Terminal is a terminal emulation application that you can use to
@@ -7415,7 +7701,7 @@ gnome-terminal 3.54.3-1 [Debian/trixie main]
      GNOME Terminal features the ability to use multiple terminals in a single
      window (tabs) and profiles support.
 
-gnome-terminal-data 3.54.3-1 [Debian/trixie main]
+gnome-terminal-data 3.55.90-2 [Debian/trixie main]
 ├── is installed
 └── Data files for the GNOME terminal emulator
      GNOME Terminal is a terminal emulation application that you can use to
@@ -7546,7 +7832,7 @@ gnutls-bin 3.8.9-2 [Debian/trixie main]
       - key and certificate management: certtool, ocsptool, p11tool
       - credential management: srptool, psktool
 
-google-chrome-stable 133.0.6943.126-1 [Google/stable main]
+google-chrome-stable 133.0.6943.141-1 [Google/stable main]
 ├── is installed
 └── The web browser from Google
      Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
@@ -7851,7 +8137,7 @@ gstreamer1.0-gl 1.24.12-1 [Debian/trixie main]
      .
      This package contains the GStreamer plugins for GL.
 
-gstreamer1.0-gtk3 1.24.12-dmo1 [Unofficial Multimedia Packages/trixie main]
+gstreamer1.0-gtk3 1.24.12-dmo1+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── GStreamer plugin for GTK+3
      GStreamer is a streaming media framework, based on graphs of filters which
@@ -7863,7 +8149,7 @@ gstreamer1.0-gtk3 1.24.12-dmo1 [Unofficial Multimedia Packages/trixie main]
      .
      This package contains the GStreamer plugin for GTK+3.
 
-gstreamer1.0-gtk3 1.24.12-1 [Debian/trixie main]
+gstreamer1.0-gtk3 1.24.12-1+b1 [Debian/trixie main]
 └── GStreamer plugin for GTK+3
      GStreamer is a streaming media framework, based on graphs of filters
      which operate on media data.  Applications using this library can do
@@ -7939,8 +8225,23 @@ gstreamer1.0-pipewire 1.2.7-1+b2 [Debian/trixie main]
      This package contains a plugin to make devices managed by the PipeWire
      server available as GStreamer sources and sinks.
 
-gstreamer1.0-plugins-bad 1:1.24.12-dmo2+b1 [Unofficial Multimedia Packages/trixie main]
-├── is installed
+gstreamer1.0-plugins-bad 1:1.24.12-dmo2+b2 [Unofficial Multimedia Packages/trixie main]
+├── is upgradable from 1:1.24.12-dmo2+b1
+└── GStreamer plugins from the "bad" set
+     GStreamer is a streaming media framework, based on graphs of filters which
+     operate on media data. Applications using this library can do anything
+     from real-time sound processing to playing videos, and just about anything
+     else media-related. Its plugin-based architecture means that new data
+     types or processing capabilities can be added simply by installing new
+     plug-ins.
+     .
+     GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
+     to the rest. They might be close to being good quality, but they're
+     missing something - be it a good code review, some documentation, a set of
+     tests, a real live maintainer, or some actual wide use.
+
+gstreamer1.0-plugins-bad 1:1.24.12-dmo2+b1 [local]
+├── is installed and upgradable to 1:1.24.12-dmo2+b2
 └── GStreamer plugins from the "bad" set
      GStreamer is a streaming media framework, based on graphs of filters which
      operate on media data. Applications using this library can do anything
@@ -7993,8 +8294,8 @@ gstreamer1.0-plugins-base 1.24.12-1 [Debian/trixie main]
      This package contains the GStreamer plugins from the "base" set, an
      essential exemplary set of elements.
 
-gstreamer1.0-plugins-good 1.24.12-dmo1 [Unofficial Multimedia Packages/trixie main]
-├── is installed
+gstreamer1.0-plugins-good 1.24.12-dmo1+b1 [Unofficial Multimedia Packages/trixie main]
+├── is upgradable from 1.24.12-dmo1
 └── GStreamer plugins from the "good" set
      GStreamer is a streaming media framework, based on graphs of filters which
      operate on media data. Applications using this library can do anything
@@ -8006,7 +8307,20 @@ gstreamer1.0-plugins-good 1.24.12-dmo1 [Unofficial Multimedia Packages/trixie ma
      This package contains the GStreamer plugins from the "good" set, a set of
      good-quality plug-ins under the LGPL license.
 
-gstreamer1.0-plugins-good 1.24.12-1 [Debian/trixie main]
+gstreamer1.0-plugins-good 1.24.12-dmo1 [local]
+├── is installed and upgradable to 1.24.12-dmo1+b1
+└── GStreamer plugins from the "good" set
+     GStreamer is a streaming media framework, based on graphs of filters which
+     operate on media data. Applications using this library can do anything
+     from real-time sound processing to playing videos, and just about anything
+     else media-related. Its plugin-based architecture means that new data
+     types or processing capabilities can be added simply by installing new
+     plug-ins.
+     .
+     This package contains the GStreamer plugins from the "good" set, a set of
+     good-quality plug-ins under the LGPL license.
+
+gstreamer1.0-plugins-good 1.24.12-1+b1 [Debian/trixie main]
 └── GStreamer plugins from the "good" set
      GStreamer is a streaming media framework, based on graphs of filters
      which operate on media data.  Applications using this library can do
@@ -9569,7 +9883,7 @@ libatspi2.0-0t64 2.55.2-1 [Debian/trixie main]
      This package contains the shared library for applications that wish to use
      the at-spi interface.
 
-libattr1 1:2.5.2-2 [Debian/trixie main]
+libattr1 1:2.5.2-3 [Debian/trixie main]
 ├── is installed
 └── extended attribute handling - shared library
      Contains the runtime environment required by programs that make use
@@ -9708,9 +10022,19 @@ libavc1394-0 0.5.4-5+b2 [Debian/trixie main]
      This package includes the libraries needed to run executables using
      libavc1394.
 
-libavcodec61 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
-├── is installed
+libavcodec61 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
+├── is upgradable from 10:7.1-dmo4
 └── Library to encode decode multimedia streams - runtime files
+
+libavcodec61 10:7.1-dmo4 [local]
+├── is installed and upgradable to 10:7.1-dmo4+b1
+└── Library to encode decode multimedia streams - runtime files
+     FFmpeg is a hyper fast real time audio/video encoder, a streaming server
+     and a generic audio and video file converter.
+     .
+     It can grab from a standard Video4Linux video source and convert it into
+     several file formats based on DCT/motion compensation encoding. Sound is
+     compressed in MPEG audio layer 2 or using an AC3 compatible stream.
 
 libavcodec61 7:7.1-4 [Debian/trixie main]
 └── FFmpeg library with de/encoders for audio/video codecs - runtime files
@@ -9729,9 +10053,19 @@ libavcodec61 7:7.1-4 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libavcodec61:i386 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
-├── is installed
+libavcodec61:i386 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
+├── is upgradable from 10:7.1-dmo4
 └── Library to encode decode multimedia streams - runtime files
+
+libavcodec61:i386 10:7.1-dmo4 [local]
+├── is installed and upgradable to 10:7.1-dmo4+b1
+└── Library to encode decode multimedia streams - runtime files
+     FFmpeg is a hyper fast real time audio/video encoder, a streaming server
+     and a generic audio and video file converter.
+     .
+     It can grab from a standard Video4Linux video source and convert it into
+     several file formats based on DCT/motion compensation encoding. Sound is
+     compressed in MPEG audio layer 2 or using an AC3 compatible stream.
 
 libavcodec61:i386 7:7.1-4 [Debian/trixie main]
 └── FFmpeg library with de/encoders for audio/video codecs - runtime files
@@ -9750,7 +10084,7 @@ libavcodec61:i386 7:7.1-4 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libavdevice61 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libavdevice61 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for handling input and output devices - runtime files
 
@@ -9767,7 +10101,7 @@ libavdevice61 7:7.1-4 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libavfilter10 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libavfilter10 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg filter library
 
@@ -9783,7 +10117,7 @@ libavfilter10 7:7.1-4 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libavformat61 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libavformat61 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg file format library
 
@@ -9818,7 +10152,7 @@ libavtp0 0.2.0-2 [Debian/trixie main]
      .
      This package provides the shared library.
 
-libavutil59 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libavutil59 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg avutil library - runtime files
 
@@ -9838,7 +10172,7 @@ libavutil59 7:7.1-4 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libavutil59:i386 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libavutil59:i386 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg avutil library - runtime files
 
@@ -12466,7 +12800,7 @@ libexif12 0.6.25-1 [Debian/trixie main]
      extra tags that contain information about the image. The EXIF library
      allows you to parse an EXIF file and read the data from those tags.
 
-libexiv2-28 0.28.4+dfsg-1 [Debian/trixie main]
+libexiv2-28 0.28.4+dfsg-2 [Debian/trixie main]
 ├── is installed
 └── EXIF/IPTC/XMP metadata manipulation library
      Exiv2 is a C++ library and a command line utility to manage image metadata.
@@ -12486,7 +12820,7 @@ libexiv2-28 0.28.4+dfsg-1 [Debian/trixie main]
         thumbnails
       * set and delete methods for Exif thumbnails
 
-libexiv2-data 0.28.4+dfsg-1 [Debian/trixie main]
+libexiv2-data 0.28.4+dfsg-2 [Debian/trixie main]
 ├── is installed
 └── EXIF/IPTC/XMP metadata manipulation library - shared data
      Exiv2 is a C++ library and a command line utility to manage image metadata.
@@ -14692,8 +15026,26 @@ libgstreamer-gl1.0-0 1.24.12-1 [Debian/trixie main]
      .
      This package contains the GL library.
 
-libgstreamer-plugins-bad1.0-0 1:1.24.12-dmo2+b1 [Unofficial Multimedia Packages/trixie main]
-├── is installed
+libgstreamer-plugins-bad1.0-0 1:1.24.12-dmo2+b2 [Unofficial Multimedia Packages/trixie main]
+├── is upgradable from 1:1.24.12-dmo2+b1
+└── GStreamer development files for libraries from the "bad" set
+     GStreamer is a streaming media framework, based on graphs of filters which
+     operate on media data. Applications using this library can do anything
+     from real-time sound processing to playing videos, and just about anything
+     else media-related. Its plugin-based architecture means that new data
+     types or processing capabilities can be added simply by installing new
+     plug-ins.
+     .
+     GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
+     to the rest. They might be close to being good quality, but they're
+     missing something - be it a good code review, some documentation, a set of
+     tests, a real live maintainer, or some actual wide use.
+     .
+     This package contains shared GStreamer libraries from the "bad" set. The
+     API is not guaranteed to be stable.
+
+libgstreamer-plugins-bad1.0-0 1:1.24.12-dmo2+b1 [local]
+├── is installed and upgradable to 1:1.24.12-dmo2+b2
 └── GStreamer development files for libraries from the "bad" set
      GStreamer is a streaming media framework, based on graphs of filters which
      operate on media data. Applications using this library can do anything
@@ -15185,7 +15537,7 @@ libheif1 1.19.5-1+b1 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libhogweed6t64 3.10-1+b1 [Debian/trixie main]
+libhogweed6t64 3.10.1-1 [Debian/trixie main]
 ├── is installed
 └── low level cryptographic library (public-key cryptos)
      Nettle is a cryptographic library that is designed to fit easily in more or
@@ -15204,7 +15556,7 @@ libhogweed6t64 3.10-1+b1 [Debian/trixie main]
      require the GNU multiple precision arithmetic library (libgmp) for
      their large integer computations.
 
-libhogweed6t64:i386 3.10-1+b1 [Debian/trixie main]
+libhogweed6t64:i386 3.10.1-1 [Debian/trixie main]
 ├── is installed
 └── low level cryptographic library (public-key cryptos)
      Nettle is a cryptographic library that is designed to fit easily in more or
@@ -15575,7 +15927,7 @@ libigdgmm12:i386 22.6.0+ds1-1 [Debian/trixie main]
      .
      This package includes the shared library.
 
-libijs-0.35 0.35-15.1+b2 [Debian/trixie main]
+libijs-0.35 0.35-15.2 [Debian/trixie main]
 ├── is installed
 └── IJS raster image transport protocol: shared library
      IJS is, first and foremost, a protocol for transmission of raster page
@@ -16492,7 +16844,7 @@ liblerc4:i386 4.0.0+ds-5 [Debian/trixie main]
      precision of the original input image is preserved
      (within user defined error bounds).
 
-liblibreoffice-java 4:24.8.4-4 [Debian/trixie main]
+liblibreoffice-java 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- Java library
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -16691,7 +17043,7 @@ liblsan0 14.2.0-16 [Debian/trixie main]
      LeakSanitizer (Lsan) is a memory leak detector which is integrated
      into AddressSanitizer.
 
-liblsof0 4.99.3+dfsg-2 [Debian/trixie main]
+liblsof0 4.99.4+dfsg-2 [Debian/trixie main]
 ├── is installed
 └── utility to list open files (shared library)
      Lsof is a Unix-specific diagnostic tool.  Its name stands
@@ -16973,7 +17325,7 @@ libmailtools-perl 2.22-1 [Debian/trixie main]
       Mail::Send - Simple electronic mail interface
       Mail::Util - mail utility functions
 
-libmalcontent-0-0 0.12.0-1.1+b1 [Debian/trixie main]
+libmalcontent-0-0 0.13.0-1 [Debian/trixie main]
 ├── is installed
 └── library for parental control of applications
      malcontent implements support for restricting the type of content accessible
@@ -16991,7 +17343,7 @@ libmalcontent-0-0 0.12.0-1.1+b1 [Debian/trixie main]
      .
      This package contains the libmalcontent library.
 
-libmalcontent-ui-1-1 0.12.0-1.1+b1 [Debian/trixie main]
+libmalcontent-ui-1-1 0.13.0-1 [Debian/trixie main]
 ├── is installed
 └── library for parental control of applications - GTK widgets and dialogs
      malcontent implements support for restricting the type of content accessible
@@ -17681,7 +18033,7 @@ libnetfilter-conntrack3 1.1.0-1 [Debian/trixie main]
      libnetfilter_conntrack is a userspace library providing a programming
      interface (API) to the in-kernel connection tracking state table.
 
-libnettle8t64 3.10-1+b1 [Debian/trixie main]
+libnettle8t64 3.10.1-1 [Debian/trixie main]
 ├── is installed
 └── low level cryptographic library (symmetric and one-way cryptos)
      Nettle is a cryptographic library that is designed to fit easily in more or
@@ -17700,7 +18052,7 @@ libnettle8t64 3.10-1+b1 [Debian/trixie main]
      algorithms. To avoid having this package depend on libgmp, the
      asymmetric cryptos reside in a separate library, libhogweed.
 
-libnettle8t64:i386 3.10-1+b1 [Debian/trixie main]
+libnettle8t64:i386 3.10.1-1 [Debian/trixie main]
 ├── is installed
 └── low level cryptographic library (symmetric and one-way cryptos)
      Nettle is a cryptographic library that is designed to fit easily in more or
@@ -17750,7 +18102,7 @@ libnfs14 5.0.2-1+b2 [Debian/trixie main]
      .
      This package provides the shared library.
 
-libnfsidmap1 1:2.8.2-2 [Debian/trixie main]
+libnfsidmap1 1:2.8.2-3 [Debian/trixie main]
 ├── is installed
 └── NFS idmapping library
      libnfsidmap provides functions to map between NFSv4 names (which are
@@ -18357,7 +18709,7 @@ libopenjp2-7:i386 2.5.3-1 [Debian/trixie main]
      .
      This package contains the runtime files for openjpeg 2.x
 
-libopenmpt0t64 0.7.13-1 [Debian/trixie main]
+libopenmpt0t64 0.7.13-1+b1 [Debian/trixie main]
 ├── is installed
 └── module music library based on OpenMPT -- shared library
      libopenmpt is a cross-platform C++ and C library to decode tracked music
@@ -19257,7 +19609,7 @@ libportal1 0.9.1-1 [Debian/trixie main]
      This package contains the shared library for non-GUI-specific use of
      portals.
 
-libpostproc58 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libpostproc58 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── postproc shared libraries
 
@@ -19272,7 +19624,7 @@ libpostproc58 7:7.1-4 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libpq5 17.3-3 [Debian/trixie main]
+libpq5 17.4-1 [Debian/trixie main]
 ├── is installed
 └── PostgreSQL C client library
      libpq is a C library that enables user programs to communicate with
@@ -19420,7 +19772,7 @@ libpwquality1 1.4.5-4 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libpython3-stdlib 3.13.1-2 [Debian/trixie main]
+libpython3-stdlib 3.13.2-1 [Debian/trixie main]
 ├── is installed
 └── interactive high-level object-oriented language (default python3 version)
      This package contains the majority of the standard library for the Python
@@ -19901,7 +20253,7 @@ libreiserfscore0t64 1:3.6.27-9 [Debian/trixie main]
      access and convert ReiserFS filesystems. Without implementing all
      ReiserFS code itself.
 
-libreoffice 4:24.8.4-4 [Debian/trixie main]
+libreoffice 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite (metapackage)
      LibreOffice is a full-featured office productivity suite that provides
@@ -19945,7 +20297,7 @@ libreoffice 4:24.8.4-4 [Debian/trixie main]
       * libpaper-utils: papersize detection support via paperconf
       * bluez: Bluetooth support for Impress (slideshow remote control)
 
-libreoffice-base 4:24.8.4-4 [Debian/trixie main]
+libreoffice-base 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- database
      LibreOffice is a full-featured office productivity suite that provides
@@ -19953,7 +20305,7 @@ libreoffice-base 4:24.8.4-4 [Debian/trixie main]
      .
      This package contains the database component for LibreOffice.
 
-libreoffice-base-core 4:24.8.4-4 [Debian/trixie main]
+libreoffice-base-core 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- shared library
      LibreOffice is a full-featured office productivity suite that provides
@@ -19966,7 +20318,7 @@ libreoffice-base-core 4:24.8.4-4 [Debian/trixie main]
      install libreoffice-base (and/or libreoffice-base-drivers and/o
      libreoffice-sdbc-*).
 
-libreoffice-base-drivers 4:24.8.4-4 [Debian/trixie main]
+libreoffice-base-drivers 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── Database connectivity drivers for LibreOffice
      LibreOffice is a full-featured office productivity suite that provides
@@ -20000,7 +20352,7 @@ libreoffice-base-drivers 4:24.8.4-4 [Debian/trixie main]
       * libreoffice-sdbc-postgresql: PostgreSQL SDBC Driver
       * libreoffice-sdbc-mysql: MySQL/MariaDB SDBC Driver
 
-libreoffice-calc 4:24.8.4-4 [Debian/trixie main]
+libreoffice-calc 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- spreadsheet
      LibreOffice is a full-featured office productivity suite that provides
@@ -20008,7 +20360,7 @@ libreoffice-calc 4:24.8.4-4 [Debian/trixie main]
      .
      This package contains the spreadsheet component for LibreOffice.
 
-libreoffice-common 4:24.8.4-4 [Debian/trixie main]
+libreoffice-common 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- arch-independent files
      LibreOffice is a full-featured office productivity suite that provides
@@ -20017,7 +20369,7 @@ libreoffice-common 4:24.8.4-4 [Debian/trixie main]
      This package contains the architecture-independent files of
      LibreOffice.
 
-libreoffice-core 4:24.8.4-4 [Debian/trixie main]
+libreoffice-core 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- arch-dependent files
      LibreOffice is a full-featured office productivity suite that provides
@@ -20026,7 +20378,7 @@ libreoffice-core 4:24.8.4-4 [Debian/trixie main]
      This package contains the architecture-dependent core files of
      LibreOffice.  See the libreoffice package for more information.
 
-libreoffice-draw 4:24.8.4-4 [Debian/trixie main]
+libreoffice-draw 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- drawing
      LibreOffice is a full-featured office productivity suite that provides
@@ -20034,7 +20386,7 @@ libreoffice-draw 4:24.8.4-4 [Debian/trixie main]
      .
      This package contains the drawing component for LibreOffice.
 
-libreoffice-impress 4:24.8.4-4 [Debian/trixie main]
+libreoffice-impress 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- presentation
      LibreOffice is a full-featured office productivity suite that provides
@@ -20042,7 +20394,7 @@ libreoffice-impress 4:24.8.4-4 [Debian/trixie main]
      .
      This package contains the presentation component for LibreOffice.
 
-libreoffice-java-common 4:24.8.4-4 [Debian/trixie main]
+libreoffice-java-common 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- arch-independent Java support files
      LibreOffice is a full-featured office productivity suite that provides
@@ -20051,7 +20403,7 @@ libreoffice-java-common 4:24.8.4-4 [Debian/trixie main]
      This package contains the architecture-independent files of
      the Java support for LibreOffice (Java classes, scripts, config snippets).
 
-libreoffice-math 4:24.8.4-4 [Debian/trixie main]
+libreoffice-math 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- equation editor
      LibreOffice is a full-featured office productivity suite that provides
@@ -20059,7 +20411,7 @@ libreoffice-math 4:24.8.4-4 [Debian/trixie main]
      .
      This package contains the equation editor component for LibreOffice.
 
-libreoffice-nlpsolver 4:0.9+LibO24.8.4-4 [Debian/trixie main]
+libreoffice-nlpsolver 4:0.9+LibO24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── "Solver for Nonlinear Programming" extension for LibreOffice
      By default LibreOffice Calc ships with a solver engine for linear
@@ -20071,7 +20423,7 @@ libreoffice-nlpsolver 4:0.9+LibO24.8.4-4 [Debian/trixie main]
      Currently it incorporates two Evolutionary Algorithms which are able to
      handle floating point and integer variables as well as nonlinear constraints.
 
-libreoffice-report-builder 4:24.8.4-4 [Debian/trixie main]
+libreoffice-report-builder 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── LibreOffice component for building database reports
      LibreOffice is a full-featured office productivity suite that provides
@@ -20083,7 +20435,7 @@ libreoffice-report-builder 4:24.8.4-4 [Debian/trixie main]
       group and page footers and even calculation fields are available to
       accomplish complex database reports."
 
-libreoffice-report-builder-bin 4:24.8.4-4 [Debian/trixie main]
+libreoffice-report-builder-bin 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── LibreOffice component for building database reports -- libraries
      LibreOffice is a full-featured office productivity suite that provides
@@ -20092,7 +20444,7 @@ libreoffice-report-builder-bin 4:24.8.4-4 [Debian/trixie main]
      This package contains some architecture-dependent support libraries
      (librpt*.so) for the report builder component.
 
-libreoffice-script-provider-bsh 4:24.8.4-4 [Debian/trixie main]
+libreoffice-script-provider-bsh 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── BeanShell script support provider for LibreOffice scripting framework
      LibreOffice is a full-featured office productivity suite that provides
@@ -20105,7 +20457,7 @@ libreoffice-script-provider-bsh 4:24.8.4-4 [Debian/trixie main]
      .
      This package contains the script provider to support BeanShell.
 
-libreoffice-script-provider-js 4:24.8.4-4 [Debian/trixie main]
+libreoffice-script-provider-js 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── JavaScript script support provider for LibreOffice scripting framework
      LibreOffice is a full-featured office productivity suite that provides
@@ -20118,7 +20470,7 @@ libreoffice-script-provider-js 4:24.8.4-4 [Debian/trixie main]
      .
      This package contains the script provider to support JavaScript.
 
-libreoffice-script-provider-python 4:24.8.4-4 [Debian/trixie main]
+libreoffice-script-provider-python 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── Python script support provider for LibreOffice scripting framework
      LibreOffice is a full-featured office productivity suite that provides
@@ -20131,7 +20483,7 @@ libreoffice-script-provider-python 4:24.8.4-4 [Debian/trixie main]
      .
      This package contains the script provider to support Python.
 
-libreoffice-sdbc-firebird 4:24.8.4-4 [Debian/trixie main]
+libreoffice-sdbc-firebird 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── (embedded) Firebird SDBC driver for LibreOffice
      LibreOffice is a full-featured office productivity suite that provides
@@ -20140,7 +20492,7 @@ libreoffice-sdbc-firebird 4:24.8.4-4 [Debian/trixie main]
      The Firebird SDBC Driver allows one to use the Firebird (embedded) database
      from LibreOffice without any wrapper layer such as ODBC or JDBC.
 
-libreoffice-sdbc-hsqldb 4:24.8.4-4 [Debian/trixie main]
+libreoffice-sdbc-hsqldb 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── embedded HSQLDB SDBC driver for LibreOffice
      LibreOffice is a full-featured office productivity suite that provides
@@ -20149,7 +20501,7 @@ libreoffice-sdbc-hsqldb 4:24.8.4-4 [Debian/trixie main]
      The HSQLDB SDBC Driver allows one to use the HSQLDB embedded database from
      LibreOffice without any wrapper layer such as ODBC or JDBC.
 
-libreoffice-sdbc-mysql 4:24.8.4-4 [Debian/trixie main]
+libreoffice-sdbc-mysql 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── MariaDB/MySQL SDBC driver for LibreOffice
      LibreOffice is a full-featured office productivity suite that provides
@@ -20158,7 +20510,7 @@ libreoffice-sdbc-mysql 4:24.8.4-4 [Debian/trixie main]
      The MariaDB/MySQL driver allows one to use the MariaDB or MySQL
      database from LibreOffice without any wrapper layer such as ODBC or JDBC.
 
-libreoffice-sdbc-postgresql 4:24.8.4-4 [Debian/trixie main]
+libreoffice-sdbc-postgresql 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── PostgreSQL SDBC driver for LibreOffice
      LibreOffice is a full-featured office productivity suite that provides
@@ -20167,7 +20519,7 @@ libreoffice-sdbc-postgresql 4:24.8.4-4 [Debian/trixie main]
      The PostgreSQL SDBC Driver allows one to use the PostgreSQL database from
      LibreOffice without any wrapper layer such as ODBC or JDBC.
 
-libreoffice-style-colibre 4:24.8.4-4 [Debian/trixie main]
+libreoffice-style-colibre 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- colibre symbol style
      LibreOffice is a full-featured office productivity suite that provides
@@ -20176,7 +20528,7 @@ libreoffice-style-colibre 4:24.8.4-4 [Debian/trixie main]
      This package contains the "colibre" symbol style - a icon theme
      which follow Microsoft(R) Offices color scheme.
 
-libreoffice-uiconfig-base 4:24.8.4-4 [Debian/trixie main]
+libreoffice-uiconfig-base 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for LibreOffice Base
      LibreOffice is a full-featured office productivity suite that provides
@@ -20189,7 +20541,7 @@ libreoffice-uiconfig-base 4:24.8.4-4 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-calc 4:24.8.4-4 [Debian/trixie main]
+libreoffice-uiconfig-calc 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for LibreOffice Calc
      LibreOffice is a full-featured office productivity suite that provides
@@ -20202,7 +20554,7 @@ libreoffice-uiconfig-calc 4:24.8.4-4 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-common 4:24.8.4-4 [Debian/trixie main]
+libreoffice-uiconfig-common 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for LibreOffice ("common" set)
      LibreOffice is a full-featured office productivity suite that provides
@@ -20215,7 +20567,7 @@ libreoffice-uiconfig-common 4:24.8.4-4 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-draw 4:24.8.4-4 [Debian/trixie main]
+libreoffice-uiconfig-draw 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for LibreOffice Draw
      LibreOffice is a full-featured office productivity suite that provides
@@ -20228,7 +20580,7 @@ libreoffice-uiconfig-draw 4:24.8.4-4 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-impress 4:24.8.4-4 [Debian/trixie main]
+libreoffice-uiconfig-impress 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for LibreOffice Impress
      LibreOffice is a full-featured office productivity suite that provides
@@ -20241,7 +20593,7 @@ libreoffice-uiconfig-impress 4:24.8.4-4 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-math 4:24.8.4-4 [Debian/trixie main]
+libreoffice-uiconfig-math 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for LibreOffice Math
      LibreOffice is a full-featured office productivity suite that provides
@@ -20254,7 +20606,7 @@ libreoffice-uiconfig-math 4:24.8.4-4 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-report-builder 4:24.8.4-4 [Debian/trixie main]
+libreoffice-uiconfig-report-builder 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for the LibreOffice Report Builder
      LibreOffice is a full-featured office productivity suite that provides
@@ -20267,7 +20619,7 @@ libreoffice-uiconfig-report-builder 4:24.8.4-4 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-uiconfig-writer 4:24.8.4-4 [Debian/trixie main]
+libreoffice-uiconfig-writer 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── UI data ("config") for LibreOffice Writer
      LibreOffice is a full-featured office productivity suite that provides
@@ -20280,7 +20632,7 @@ libreoffice-uiconfig-writer 4:24.8.4-4 [Debian/trixie main]
      You will usually not need to install this package manually but it should
      just be pulled in by other packages.
 
-libreoffice-wiki-publisher 4:1.2.0+LibO24.8.4-4 [Debian/trixie main]
+libreoffice-wiki-publisher 4:1.2.0+LibO24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── LibreOffice extension for working with MediaWiki articles
      LibreOffice is a full-featured office productivity suite that provides
@@ -20289,7 +20641,7 @@ libreoffice-wiki-publisher 4:1.2.0+LibO24.8.4-4 [Debian/trixie main]
      This package contains an extension to create/edit/publish MediaWiki
      articles with LibreOffice
 
-libreoffice-writer 4:24.8.4-4 [Debian/trixie main]
+libreoffice-writer 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── office productivity suite -- word processor
      LibreOffice is a full-featured office productivity suite that provides
@@ -20890,7 +21242,7 @@ libsframe1 2.44-2 [Debian/trixie main]
      .
      This package includes the libsframe shared library.
 
-libshaderc1 2024.4-1+b1 [Debian/trixie main]
+libshaderc1 2024.4-1+b2 [Debian/trixie main]
 ├── is installed
 └── Library API for accessing glslc functionality - shared libraries
      glslc wraps around core functionality in glslang and SPIRV-Tools. glslc and
@@ -21081,8 +21433,8 @@ libsnappy1v5:i386 1.2.1-1+b1 [Debian/trixie main]
      of a Core i7 processor in 64-bit mode, Snappy compresses at about 250
      MB/sec or more and decompresses at about 500 MB/sec or more.
 
-libsndfile1 1.2.2-2 [Debian/trixie main]
-├── is installed
+libsndfile1 1.2.2-2+b1 [Debian/trixie main]
+├── is upgradable from 1.2.2-2
 └── Library for reading/writing audio files
      libsndfile is a library of C routines for reading and writing files containing
      sampled audio data.
@@ -21093,8 +21445,32 @@ libsndfile1 1.2.2-2 [Debian/trixie main]
      Amiga IFF/8SVX/16SV PCM files; Ensoniq PARIS  (.PAF); Apple's Core Audio Format
      (CAF) and others.
 
-libsndfile1:i386 1.2.2-2 [Debian/trixie main]
-├── is installed
+libsndfile1 1.2.2-2 [local]
+├── is installed and upgradable to 1.2.2-2+b1
+└── Library for reading/writing audio files
+     libsndfile is a library of C routines for reading and writing files containing
+     sampled audio data.
+     .
+     Various versions of WAV (integer, floating point, GSM, and compressed formats);
+     Microsoft PCM, A-law and u-law formats; AIFF, AIFC and RIFX; various AU/SND
+     formats (Sun/NeXT, Dec AU, G721 and G723 ADPCM); RAW header-less PCM files;
+     Amiga IFF/8SVX/16SV PCM files; Ensoniq PARIS  (.PAF); Apple's Core Audio Format
+     (CAF) and others.
+
+libsndfile1:i386 1.2.2-2+b1 [Debian/trixie main]
+├── is upgradable from 1.2.2-2
+└── Library for reading/writing audio files
+     libsndfile is a library of C routines for reading and writing files containing
+     sampled audio data.
+     .
+     Various versions of WAV (integer, floating point, GSM, and compressed formats);
+     Microsoft PCM, A-law and u-law formats; AIFF, AIFC and RIFX; various AU/SND
+     formats (Sun/NeXT, Dec AU, G721 and G723 ADPCM); RAW header-less PCM files;
+     Amiga IFF/8SVX/16SV PCM files; Ensoniq PARIS  (.PAF); Apple's Core Audio Format
+     (CAF) and others.
+
+libsndfile1:i386 1.2.2-2 [local]
+├── is installed and upgradable to 1.2.2-2+b1
 └── Library for reading/writing audio files
      libsndfile is a library of C routines for reading and writing files containing
      sampled audio data.
@@ -21669,7 +22045,7 @@ libswitch-perl 2.17-3 [Debian/trixie main]
      removed from the core. For perl 5.10 and above the "given/when" builtins
      are much preferred.
 
-libswresample5 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libswresample5 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for audio resampling, rematrixing etc. - runtime files
 
@@ -21701,7 +22077,7 @@ libswresample5 7:7.1-4 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libswresample5:i386 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libswresample5:i386 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for audio resampling, rematrixing etc. - runtime files
 
@@ -21733,7 +22109,7 @@ libswresample5:i386 7:7.1-4 [Debian/trixie main]
      .
      This package contains the runtime files.
 
-libswscale8 10:7.1-dmo4 [Unofficial Multimedia Packages/trixie main]
+libswscale8 10:7.1-dmo4+b1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── FFmpeg library for image scaling and various conversions - runtime files
 
@@ -22628,7 +23004,7 @@ libunity9 7.1.4+19.04.20190319-6.1+b1 [Debian/trixie main]
      .
      This package contains shared libraries to be used by applications.
 
-libuno-cppu3t64 4:24.8.4-4 [Debian/trixie main]
+libuno-cppu3t64 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- CPPU public library
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -22643,7 +23019,7 @@ libuno-cppu3t64 4:24.8.4-4 [Debian/trixie main]
      This package contains CPPU, the type definitions/implementations for the core
      of UNO.
 
-libuno-cppuhelpergcc3-3t64 4:24.8.4-4 [Debian/trixie main]
+libuno-cppuhelpergcc3-3t64 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- CPPU helper library
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -22658,7 +23034,7 @@ libuno-cppuhelpergcc3-3t64 4:24.8.4-4 [Debian/trixie main]
      This package contains the cppuhelper library (helpers for using cppu in C++,
      e.g. templates for implementing UNO components, bootstrapping stuff)
 
-libuno-purpenvhelpergcc3-3t64 4:24.8.4-4 [Debian/trixie main]
+libuno-purpenvhelpergcc3-3t64 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- "purpose environment" helper
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -22673,7 +23049,7 @@ libuno-purpenvhelpergcc3-3t64 4:24.8.4-4 [Debian/trixie main]
      This package contains a library which contains a helper for implementing
      so-called "purpose environments".
 
-libuno-sal3t64 4:24.8.4-4 [Debian/trixie main]
+libuno-sal3t64 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- SAL public library
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -22687,7 +23063,7 @@ libuno-sal3t64 4:24.8.4-4 [Debian/trixie main]
      .
      This package contains the System Abstraction Layer (SAL) library.
 
-libuno-salhelpergcc3-3t64 4:24.8.4-4 [Debian/trixie main]
+libuno-salhelpergcc3-3t64 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- SAL helpers for C++ library
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -22701,7 +23077,7 @@ libuno-salhelpergcc3-3t64 4:24.8.4-4 [Debian/trixie main]
      .
      This package contains C++ helpers to make use of sal easier.
 
-libunoloader-java 4:24.8.4-4 [Debian/trixie main]
+libunoloader-java 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- (Java) UNO loader
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -22904,7 +23280,7 @@ libv4lconvert0t64 1.28.1-1 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libva-drm2 2.22.0-2 [Debian/trixie main]
+libva-drm2 2.22.0-3 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- DRM runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -22918,7 +23294,7 @@ libva-drm2 2.22.0-2 [Debian/trixie main]
      .
      This package provides the libva-drm library.
 
-libva-drm2:i386 2.22.0-2 [Debian/trixie main]
+libva-drm2:i386 2.22.0-3 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- DRM runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -22932,7 +23308,7 @@ libva-drm2:i386 2.22.0-2 [Debian/trixie main]
      .
      This package provides the libva-drm library.
 
-libva-glx2 2.22.0-2 [Debian/trixie main]
+libva-glx2 2.22.0-3 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- GLX runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -22946,7 +23322,7 @@ libva-glx2 2.22.0-2 [Debian/trixie main]
      .
      This package provides the libva-glx library.
 
-libva-glx2:i386 2.22.0-2 [Debian/trixie main]
+libva-glx2:i386 2.22.0-3 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- GLX runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -22960,7 +23336,7 @@ libva-glx2:i386 2.22.0-2 [Debian/trixie main]
      .
      This package provides the libva-glx library.
 
-libva-x11-2 2.22.0-2 [Debian/trixie main]
+libva-x11-2 2.22.0-3 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- X11 runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -22974,7 +23350,7 @@ libva-x11-2 2.22.0-2 [Debian/trixie main]
      .
      This package provides the libva-x11 library.
 
-libva-x11-2:i386 2.22.0-2 [Debian/trixie main]
+libva-x11-2:i386 2.22.0-3 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- X11 runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -22988,7 +23364,7 @@ libva-x11-2:i386 2.22.0-2 [Debian/trixie main]
      .
      This package provides the libva-x11 library.
 
-libva2 2.22.0-2 [Debian/trixie main]
+libva2 2.22.0-3 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -23002,7 +23378,7 @@ libva2 2.22.0-2 [Debian/trixie main]
      .
      This package provides the main libva library.
 
-libva2:i386 2.22.0-2 [Debian/trixie main]
+libva2:i386 2.22.0-3 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API for Linux -- runtime
      Video Acceleration API (VA API) is a library ("libVA") and API specification
@@ -23422,11 +23798,11 @@ libvisual-0.4-0 0.4.2-2+b2 [Debian/trixie main]
      very useful without visualization plugins, so it is highly recommended to
      install the libvisual-0.4-plugins package.
 
-libvmaf3 3.0.0-dmo3 [Unofficial Multimedia Packages/trixie main]
+libvmaf3 3.0.0-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── Video Multi-Method Assessment Fusion - runtime library
 
-libvmaf3:i386 3.0.0-dmo3 [Unofficial Multimedia Packages/trixie main]
+libvmaf3:i386 3.0.0-dmo4 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── Video Multi-Method Assessment Fusion - runtime library
 
@@ -23665,7 +24041,7 @@ libwavpack1 5.8.1-1 [Debian/trixie main]
      This package contains the shared libraries necessary to run programs
      using libwavpack.
 
-libwayland-client0 1.23.1-1 [Debian/trixie main]
+libwayland-client0 1.23.1-3 [Debian/trixie main]
 ├── is installed
 └── wayland compositor infrastructure - client library
      Wayland is a protocol for a compositor to talk to its clients as well
@@ -23678,7 +24054,7 @@ libwayland-client0 1.23.1-1 [Debian/trixie main]
      This package ships the library that implements the client side of
      the Wayland protocol.
 
-libwayland-client0:i386 1.23.1-1 [Debian/trixie main]
+libwayland-client0:i386 1.23.1-3 [Debian/trixie main]
 ├── is installed
 └── wayland compositor infrastructure - client library
      Wayland is a protocol for a compositor to talk to its clients as well
@@ -23691,7 +24067,7 @@ libwayland-client0:i386 1.23.1-1 [Debian/trixie main]
      This package ships the library that implements the client side of
      the Wayland protocol.
 
-libwayland-cursor0 1.23.1-1 [Debian/trixie main]
+libwayland-cursor0 1.23.1-3 [Debian/trixie main]
 ├── is installed
 └── wayland compositor infrastructure - cursor library
      Wayland is a protocol for a compositor to talk to its clients as well
@@ -23703,7 +24079,7 @@ libwayland-cursor0 1.23.1-1 [Debian/trixie main]
      .
      This package ships a helper library to manage cursors.
 
-libwayland-egl1 1.23.1-1 [Debian/trixie main]
+libwayland-egl1 1.23.1-3 [Debian/trixie main]
 ├── is installed
 └── wayland compositor infrastructure - EGL library
      Wayland is a protocol for a compositor to talk to its clients as well
@@ -23716,7 +24092,7 @@ libwayland-egl1 1.23.1-1 [Debian/trixie main]
      This package ships the library that implements the Wayland EGL platform
      of the Wayland protocol.
 
-libwayland-server0 1.23.1-1 [Debian/trixie main]
+libwayland-server0 1.23.1-3 [Debian/trixie main]
 ├── is installed
 └── wayland compositor infrastructure - server library
      Wayland is a protocol for a compositor to talk to its clients as well
@@ -23729,7 +24105,7 @@ libwayland-server0 1.23.1-1 [Debian/trixie main]
      This package ships the library that implements the server side of
      the Wayland protocol.
 
-libwayland-server0:i386 1.23.1-1 [Debian/trixie main]
+libwayland-server0:i386 1.23.1-3 [Debian/trixie main]
 ├── is installed
 └── wayland compositor infrastructure - server library
      Wayland is a protocol for a compositor to talk to its clients as well
@@ -26451,7 +26827,7 @@ lsb-release 12.1-1 [Debian/trixie main]
      This package contains a bare-bones implementation that uses the
      information in /etc/os-release instead of relying on LSB packages.
 
-lsof 4.99.3+dfsg-2 [Debian/trixie main]
+lsof 4.99.4+dfsg-2 [Debian/trixie main]
 ├── is installed
 └── utility to list open files
      Lsof is a Unix-specific diagnostic tool.  Its name stands
@@ -26541,7 +26917,7 @@ make-guile 4.4.1-1 [Debian/trixie main]
      computer programs. Indeed, Make is a general purpose dependency
      solver. This variant has built in guile support.
 
-malcontent 0.12.0-1.1 [Debian/trixie main]
+malcontent 0.13.0-1 [Debian/trixie main]
 ├── is installed
 └── framework for parental control of applications
      malcontent implements support for restricting the type of content accessible
@@ -26557,7 +26933,7 @@ malcontent 0.12.0-1.1 [Debian/trixie main]
      by applications should provide enough of an obstacle to prevent users easily or
      accidentally having access to content which they shouldn’t.
 
-malcontent-gui 0.12.0-1.1+b1 [Debian/trixie main]
+malcontent-gui 0.13.0-1 [Debian/trixie main]
 ├── is installed
 └── GUI to configure malcontent
      malcontent implements support for restricting the type of content accessible
@@ -26635,7 +27011,7 @@ mawk 1.3.4.20250131-1 [Debian/trixie main]
      Mawk is smaller and much faster than gawk. It has some compile-time
      limits such as NF = 32767 and sprintf buffer = 1020.
 
-mdevctl 1.3.0-3+b1 [Debian/trixie main]
+mdevctl 1.4.0-1 [Debian/trixie main]
 ├── is installed
 └── Mediated device management utility for Linux
      mdevctl is a utility for managing and persisting devices in the mediated
@@ -26904,7 +27280,7 @@ nautilus-data 48~beta-1 [Debian/trixie main]
      This package contains pictures, localization files and other data
      needed by nautilus.
 
-nautilus-extension-gnome-terminal 3.54.3-1 [Debian/trixie main]
+nautilus-extension-gnome-terminal 3.55.90-2 [Debian/trixie main]
 ├── is installed
 └── GNOME terminal emulator application - Nautilus extension
      GNOME Terminal is a terminal emulation application that you can use to
@@ -27043,7 +27419,7 @@ nfacct 1.0.2-4 [Debian/trixie main]
      .
      Requires Linux kernel 3.3+ nfnetlink_acct subsystem.
 
-nfs-common 1:2.8.2-2 [Debian/trixie main]
+nfs-common 1:2.8.2-3 [Debian/trixie main]
 ├── is installed
 └── NFS support files common to client and server
      Use this package on any machine that uses NFS, either as client or
@@ -27455,7 +27831,7 @@ perl-tk 1:804.036+dfsg1-3+b2 [Debian/trixie main]
      A good place to get started is by running the "widget" demo that's
      installed with this package.
 
-picard 2.13.2-1 [Debian/trixie main]
+picard 2.13.3-1 [Debian/trixie main]
 ├── is installed
 └── Next-Generation MusicBrainz audio files tagger
      Picard is the next generation MusicBrainz tagging application.
@@ -27788,7 +28164,7 @@ python-apt-common 2.9.9 [Debian/trixie main]
      .
      This package contains locales.
 
-python3 3.13.1-2 [Debian/trixie main]
+python3 3.13.2-1 [Debian/trixie main]
 ├── is installed
 └── interactive high-level object-oriented language (default python3 version)
      Python, the high-level, interactive object oriented language,
@@ -28342,7 +28718,7 @@ python3-mdurl 0.1.2-1 [Debian/trixie main]
      provides a pure-Python implementation of several functions from the
      original JavaScript package, such as .decode(), .parse(), .encode().
 
-python3-minimal 3.13.1-2 [Debian/trixie main]
+python3-minimal 3.13.2-1 [Debian/trixie main]
 ├── is installed
 └── minimal subset of the Python language (default python3 version)
      This package contains the interpreter and some essential modules.  It's used
@@ -28676,7 +29052,7 @@ python3-typing-extensions 4.12.2-2 [Debian/trixie main]
      and pyright. Objects defined in "typing_extensions" are treated the same
      way as equivalent forms in "typing".
 
-python3-uno 4:24.8.4-4 [Debian/trixie main]
+python3-uno 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── Python-UNO bridge
      The Python-UNO bridge allows use of the standard LibreOffice API
@@ -30050,7 +30426,7 @@ ufw 0.36.2-9 [Debian/trixie main]
      similar to OpenBSD's Packet Filter. It is particularly well-suited as a
      host-based firewall.
 
-uno-libs-private 4:24.8.4-4 [Debian/trixie main]
+uno-libs-private 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- private libraries used by public ones
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -30065,7 +30441,7 @@ uno-libs-private 4:24.8.4-4 [Debian/trixie main]
      This package contains some private UNO/URE libraries which are used by public
      ones (e.g. cppu).
 
-unrar 1:7.1.4-1 [Debian/trixie non-free]
+unrar 1:7.1.4-2 [Debian/trixie non-free]
 ├── is installed
 └── Unarchiver for .rar files (non-free version)
      Unrar can extract files from .rar archives. If you want to create .rar
@@ -30110,7 +30486,7 @@ upower 1.90.7-1 [Debian/trixie main]
      org.freedesktop.UPower service on the system message bus. Some
      operations (such as suspending the system) are restricted using PolicyKit.
 
-ure 4:24.8.4-4 [Debian/trixie main]
+ure 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -30122,7 +30498,7 @@ ure 4:24.8.4-4 [Debian/trixie main]
      it to create any kind of application, in whatever application domain you can
      imagine.
 
-ure-java 4:24.8.4-4 [Debian/trixie main]
+ure-java 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
 └── LibreOffice UNO runtime environment -- Java support
      The Uno Runtime Environment (URE) is the well-known UNO component model
@@ -30269,14 +30645,14 @@ uuid-runtime 2.40.4-4 [Debian/trixie main]
      large numbers of threads trying to grab UUIDs running on different CPUs.
      It is used by libuuid as well as the uuidgen program.
 
-va-driver-all 2.22.0-2 [Debian/trixie main]
+va-driver-all 2.22.0-3 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API -- driver metapackage
      This package depends on the full suite of drivers for the Video Acceleration
      API (VA API). It does not provide any drivers itself, and may be removed if
      you wish to only have certain drivers installed.
 
-va-driver-all:i386 2.22.0-2 [Debian/trixie main]
+va-driver-all:i386 2.22.0-3 [Debian/trixie main]
 ├── is installed
 └── Video Acceleration (VA) API -- driver metapackage
      This package depends on the full suite of drivers for the Video Acceleration
@@ -30724,7 +31100,7 @@ xdg-dbus-proxy 0.1.6-1 [Debian/trixie main]
      created by the proxy (typically by bind-mounting it into a Linux
      container).
 
-xdg-desktop-portal 1.18.4-2 [Debian/trixie main]
+xdg-desktop-portal 1.20.0+ds-1 [Debian/trixie main]
 ├── is installed
 └── desktop integration portal for Flatpak and Snap
      xdg-desktop-portal provides a portal frontend service for Flatpak, Snap,

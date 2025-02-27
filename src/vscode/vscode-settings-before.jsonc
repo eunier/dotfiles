@@ -5,6 +5,9 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[shellscript]": {
     "editor.defaultFormatter": "mkhl.shfmt"
   },
@@ -135,7 +138,6 @@
   "window.titleBarStyle": "custom",
   "workbench.colorTheme": "Adwaita Dark",
   "workbench.editor.pinnedTabsOnSeparateRow": true,
-  "workbench.editor.wrapTabs": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.preferredDarkColorTheme": "Adwaita Dark",
   "workbench.preferredLightColorTheme": "Adwaita Light",

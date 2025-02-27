@@ -9,7 +9,7 @@
 		"gitlab:repo:create": "bun run src/gitlab/gitlab-repo-create"
 	},
 	"devDependencies": {
-		"@types/bun": "1.2.3"
+		"@types/bun": "1.2.4"
 	},
 	"peerDependencies": {
 		"typescript": "5.7.3"

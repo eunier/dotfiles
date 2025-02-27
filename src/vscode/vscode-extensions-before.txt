@@ -2,7 +2,6 @@ aswinkumar863.sort-editors
 biomejs.biome
 chrisdias.vscode-opennewinstance
 coddx.coddx-alpha
-continue.continue
 davidanson.vscode-markdownlint
 editorconfig.editorconfig
 egirlcatnip.adwaita-github-theme
@@ -27,6 +26,7 @@ piousdeer.adwaita-theme
 pkief.copy-branch-name
 pkief.material-icon-theme
 richie5um2.vscode-sort-json
+rjmacarthy.twinny
 rob-bennett.workspacewizard
 rpinski.shebang-snippets
 rust-lang.rust-analyzer
