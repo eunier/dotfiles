@@ -1200,7 +1200,8 @@
 │   ├── bun.sh
 │   ├── dconf
 │   │   ├── dconf-after.conf
-│   │   └── dconf-before.conf
+│   │   ├── dconf-before.conf
+│   │   └── dconf-filter.ts
 │   ├── dconf.sh
 │   ├── diff
 │   │   ├── diff-autostart.sh
@@ -1297,4 +1298,4 @@
 └── .vscode
     └── settings.json
 
-130 directories, 1168 files
+130 directories, 1169 files

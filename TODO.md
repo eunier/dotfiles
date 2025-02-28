@@ -6,12 +6,9 @@ Project Description
 
 ### Todo
 
-- [ ] Delete old timeshift, take to much space  
 - [ ] Make cli instead of aliases  
 - [ ] Nerd Fonts  
 - [ ] Install ghostty  
-- [ ] Filter out dconf not important settings  
-- [ ] Does syncthing auto start?  
 - [ ] Polari data  
 - [ ] Avoid calling to install vscode extension if already installed  
 - [ ] Avoid redownlaoding JetBrains font  
@@ -28,9 +25,12 @@ Project Description
 
 ### In Progress
 
+- [ ] Filter out dconf not important settings  
 
 ### Done ✓
 
+- [x] Does syncthing auto start?  
+- [x] Delete old timeshift, take to much space  
 - [x] Set up ollama + vs code extension  
 - [x] Install GitLab cli, then start moving repo proejcts to its own repo  
 - [x] Setup Syncthing  

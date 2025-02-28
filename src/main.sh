@@ -4,7 +4,7 @@ sh ~/.dotfiles/src/fastfetch.sh
 fastfetch
 sh ~/.dotfiles/src/yadm.sh
 
-sudo timeshift --create --comments "before"
+sudo timeshift --check
 
 sh ~/.dotfiles/src/apt.sh
 sh ~/.dotfiles/src/nala.sh
@@ -27,7 +27,7 @@ sh ~/.dotfiles/src/vscode.sh
 sh ~/.dotfiles/src/gitlab.sh
 sh ~/.dotfiles/src/git.sh
 
-sudo timeshift --create --comments "after"
+sudo timeshift --check
 
 sh ~/.dotfiles/src/diff.sh
 sh ~/.dotfiles/src/yadm.sh

@@ -2070,7 +2070,7 @@ cpp-x86-64-linux-gnu 4:14.2.0-1 [Debian/trixie main]
      This is a dependency package providing the default GNU C preprocessor
      for the amd64 architecture.
 
-cracklib-runtime 2.9.6-5.2 [Debian/trixie main]
+cracklib-runtime 2.9.6-5.2+b1 [Debian/trixie main]
 ├── is installed
 └── runtime support for password checker library cracklib2
      Run-time support programs which use the shared library in libcrack2
@@ -6379,7 +6379,7 @@ gir1.2-gst-plugins-bad-1.0 1:1.24.12-dmo2+b2 [Unofficial Multimedia Packages/tri
      the "bad" set. It can be used by packages using the GIRepository format to
      generate dynamic bindings.
 
-gir1.2-gst-plugins-bad-1.0 1.24.12-2 [Debian/trixie main]
+gir1.2-gst-plugins-bad-1.0 1.24.12-3+b1 [Debian/trixie main]
 └── GObject introspection data for the GStreamer libraries from the "bad" set
      GStreamer is a streaming media framework, based on graphs of filters
      which operate on media data.  Applications using this library can do
@@ -8192,7 +8192,7 @@ gstreamer1.0-libav 1.24.12-1 [Debian/trixie main]
      http://gstreamer.freedesktop.org/
      http://gstreamer.freedesktop.org/modules/gst-libav.html
 
-gstreamer1.0-libcamera 0.4.0-5 [Debian/trixie main]
+gstreamer1.0-libcamera 0.4.0-6 [Debian/trixie main]
 ├── is installed
 └── complex camera support library (GStreamer plugin)
      libcamera is a complex camera support library which handles low-level
@@ -8226,7 +8226,7 @@ gstreamer1.0-pipewire 1.2.7-1+b2 [Debian/trixie main]
      server available as GStreamer sources and sinks.
 
 gstreamer1.0-plugins-bad 1:1.24.12-dmo2+b2 [Unofficial Multimedia Packages/trixie main]
-├── is upgradable from 1:1.24.12-dmo2+b1
+├── is installed
 └── GStreamer plugins from the "bad" set
      GStreamer is a streaming media framework, based on graphs of filters which
      operate on media data. Applications using this library can do anything
@@ -8240,22 +8240,7 @@ gstreamer1.0-plugins-bad 1:1.24.12-dmo2+b2 [Unofficial Multimedia Packages/trixi
      missing something - be it a good code review, some documentation, a set of
      tests, a real live maintainer, or some actual wide use.
 
-gstreamer1.0-plugins-bad 1:1.24.12-dmo2+b1 [local]
-├── is installed and upgradable to 1:1.24.12-dmo2+b2
-└── GStreamer plugins from the "bad" set
-     GStreamer is a streaming media framework, based on graphs of filters which
-     operate on media data. Applications using this library can do anything
-     from real-time sound processing to playing videos, and just about anything
-     else media-related. Its plugin-based architecture means that new data
-     types or processing capabilities can be added simply by installing new
-     plug-ins.
-     .
-     GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
-     to the rest. They might be close to being good quality, but they're
-     missing something - be it a good code review, some documentation, a set of
-     tests, a real live maintainer, or some actual wide use.
-
-gstreamer1.0-plugins-bad 1.24.12-2 [Debian/trixie main]
+gstreamer1.0-plugins-bad 1.24.12-3+b1 [Debian/trixie main]
 └── GStreamer plugins from the "bad" set
      GStreamer is a streaming media framework, based on graphs of filters
      which operate on media data.  Applications using this library can do
@@ -8928,7 +8913,7 @@ intel-microcode 3.20250211.1 [Debian/trixie non-free-firmware]
      .
      For AMD processors, please refer to the amd64-microcode package.
 
-inxi 3.3.37-1-1 [Debian/trixie main]
+inxi 3.3.37-1-2 [Debian/trixie main]
 ├── is installed
 └── full featured system information script
      Inxi is a system information script that can display various things about
@@ -9898,7 +9883,7 @@ libaudit-common 1:4.0.2-2 [Debian/trixie main]
      This package contains the libaudit.conf configuration file and the associated
      manpage.
 
-libaudit1 1:4.0.2-2+b1 [Debian/trixie main]
+libaudit1 1:4.0.2-2+b2 [Debian/trixie main]
 ├── is installed
 └── Dynamic library for security auditing
      The audit-libs package contains the dynamic libraries needed for
@@ -10185,7 +10170,7 @@ libayatana-indicator3-7 0.9.4-1+b1 [Debian/trixie main]
      .
      This package contains the library itself (GTK-3+ variant).
 
-libbabeltrace1 1.5.11-4+b1 [Debian/trixie main]
+libbabeltrace1 1.5.11-4+b2 [Debian/trixie main]
 ├── is installed
 └── Babeltrace conversion libraries
      Babeltrace provides trace reading and writing libraries, as well as a trace
@@ -10489,7 +10474,7 @@ libbpf1 1:1.5.0-2 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libbrlapi0.8 6.7-1+b1 [Debian/trixie main]
+libbrlapi0.8 6.7-1+b2 [Debian/trixie main]
 ├── is installed
 └── braille display access via BRLTTY - shared library
      BRLTTY is a daemon which provides access to the console (text mode)
@@ -10502,7 +10487,7 @@ libbrlapi0.8 6.7-1+b1 [Debian/trixie main]
      This package contains the shared library necessary to run programs which
      need to communicate with a braille display.
 
-libbrotli1 1.1.0-2+b6 [Debian/trixie main]
+libbrotli1 1.1.0-2+b7 [Debian/trixie main]
 ├── is installed
 └── library implementing brotli encoder and decoder (shared libraries)
      Brotli is a generic-purpose lossless compression algorithm
@@ -10514,7 +10499,7 @@ libbrotli1 1.1.0-2+b6 [Debian/trixie main]
      .
      This package installs shared libraries.
 
-libbrotli1:i386 1.1.0-2+b6 [Debian/trixie main]
+libbrotli1:i386 1.1.0-2+b7 [Debian/trixie main]
 ├── is installed
 └── library implementing brotli encoder and decoder (shared libraries)
      Brotli is a generic-purpose lossless compression algorithm
@@ -10581,12 +10566,12 @@ libburn4t64 1.5.6-1.1+b1 [Debian/trixie main]
      Supported media are: CD-R, CD-RW, DVD-RAM, DVD+RW, DVD+R, DVD+R/DL,
      DVD-RW, DVD-R, DVD-R/DL, BD-R, BD-RE.
 
-libbytesize-common 2.11-1 [Debian/trixie main]
+libbytesize-common 2.11-2 [Debian/trixie main]
 ├── is installed
 └── library for common operations with sizes in bytes - translations
      This package contains localization files used by libbytesize.
 
-libbytesize1 2.11-1 [Debian/trixie main]
+libbytesize1 2.11-2 [Debian/trixie main]
 ├── is installed
 └── library for common operations with sizes in bytes
      Many projects need to work with sizes in bytes (be it sizes of storage
@@ -10835,7 +10820,7 @@ libcamel-1.2-64t64 3.55.2-1 [Debian/trixie main]
      Evolution is the integrated mail, calendar, task and address book
      distributed suite from Novell, Inc.
 
-libcamera-ipa 0.4.0-5 [Debian/trixie main]
+libcamera-ipa 0.4.0-6 [Debian/trixie main]
 ├── is installed
 └── complex camera support library (IPA modules)
      libcamera is a complex camera support library which handles low-level
@@ -10844,7 +10829,7 @@ libcamera-ipa 0.4.0-5 [Debian/trixie main]
      .
      This package contains the libcamera IPA (Image Processing Algorithms) modules.
 
-libcamera0.4 0.4.0-5 [Debian/trixie main]
+libcamera0.4 0.4.0-6 [Debian/trixie main]
 ├── is installed
 └── complex camera support library
      libcamera is a complex camera support library which handles low-level
@@ -10886,7 +10871,7 @@ libcanberra0 0.30-17+b1 [Debian/trixie main]
      is found via the mechanisms defined in the XDG sound theming
      specification.
 
-libcap-ng0 0.8.5-4 [Debian/trixie main]
+libcap-ng0 0.8.5-4+b1 [Debian/trixie main]
 ├── is installed
 └── alternate POSIX capabilities library
      This library implements the user-space interfaces to the POSIX
@@ -11491,7 +11476,7 @@ libcpuinfo0 0.0~git20250203.aaac07e-1 [Debian/trixie main]
      .
      This package ships with the shared object.
 
-libcrack2 2.9.6-5.2 [Debian/trixie main]
+libcrack2 2.9.6-5.2+b1 [Debian/trixie main]
 ├── is installed
 └── pro-active password checker library
      Shared library for cracklib2 which contains a C function which may be
@@ -12081,7 +12066,7 @@ libdmapsharing-4.0-3t64 3.9.13-3 [Debian/trixie main]
      This package contains the runtime needed by programs using the
      library.
 
-libdnnl3 3.5.3-5 [Debian/trixie main]
+libdnnl3.6 3.7+ds-1 [Debian/trixie main]
 ├── is installed
 └── oneAPI Deep Neural Network Library (oneDNN) (lib)
      oneAPI Deep Neural Network Library (oneDNN) is an open-source performance
@@ -13173,7 +13158,7 @@ libflite1 2.2-7 [Debian/trixie main]
      .
      This package contains the shared library objects of Festival Lite
 
-libfluidsynth3 2.4.3+dfsg-2 [Debian/trixie main]
+libfluidsynth3 2.4.3+dfsg-3 [Debian/trixie main]
 ├── is installed
 └── Real-time MIDI software synthesizer (runtime library)
      Fluidsynth is a real-time midi synthesizer based on the soundfont (sf2 and sf3)
@@ -13434,7 +13419,7 @@ libfstrm0 0.6.1-1+b3 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libftdi1-2 1.5-8 [Debian/trixie main]
+libftdi1-2 1.5-8+b1 [Debian/trixie main]
 ├── is installed
 └── C Library to control and program the FTDI USB controllers
      This library could talk to FTDI's FT232BM, FT245BM, FT2232C, FT2232D, FT245R,
@@ -14614,7 +14599,7 @@ libgpg-error0:i386 1.51-3 [Debian/trixie main]
      .
      It will likely be renamed "gpgrt" in the future.
 
-libgpgme11t64 1.24.2-1 [Debian/trixie main]
+libgpgme11t64 1.24.2-1+b1 [Debian/trixie main]
 ├── is installed
 └── GPGME - GnuPG Made Easy (library)
      GPGME is a wrapper library which provides a C API to access some of the
@@ -14622,7 +14607,7 @@ libgpgme11t64 1.24.2-1 [Debian/trixie main]
      .
      This package contains the library.
 
-libgpgmepp6t64 1.24.2-1 [Debian/trixie main]
+libgpgmepp6t64 1.24.2-1+b1 [Debian/trixie main]
 ├── is installed
 └── C++ wrapper library for GPGME
      GpgME++ (aka GpgMEpp) is a C++ wrapper (or C++ bindings) for the
@@ -14994,7 +14979,7 @@ libgstreamer-gl1.0-0 1.24.12-1 [Debian/trixie main]
      This package contains the GL library.
 
 libgstreamer-plugins-bad1.0-0 1:1.24.12-dmo2+b2 [Unofficial Multimedia Packages/trixie main]
-├── is upgradable from 1:1.24.12-dmo2+b1
+├── is installed
 └── GStreamer development files for libraries from the "bad" set
      GStreamer is a streaming media framework, based on graphs of filters which
      operate on media data. Applications using this library can do anything
@@ -15011,25 +14996,7 @@ libgstreamer-plugins-bad1.0-0 1:1.24.12-dmo2+b2 [Unofficial Multimedia Packages/
      This package contains shared GStreamer libraries from the "bad" set. The
      API is not guaranteed to be stable.
 
-libgstreamer-plugins-bad1.0-0 1:1.24.12-dmo2+b1 [local]
-├── is installed and upgradable to 1:1.24.12-dmo2+b2
-└── GStreamer development files for libraries from the "bad" set
-     GStreamer is a streaming media framework, based on graphs of filters which
-     operate on media data. Applications using this library can do anything
-     from real-time sound processing to playing videos, and just about anything
-     else media-related. Its plugin-based architecture means that new data
-     types or processing capabilities can be added simply by installing new
-     plug-ins.
-     .
-     GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
-     to the rest. They might be close to being good quality, but they're
-     missing something - be it a good code review, some documentation, a set of
-     tests, a real live maintainer, or some actual wide use.
-     .
-     This package contains shared GStreamer libraries from the "bad" set. The
-     API is not guaranteed to be stable.
-
-libgstreamer-plugins-bad1.0-0 1.24.12-2 [Debian/trixie main]
+libgstreamer-plugins-bad1.0-0 1.24.12-3+b1 [Debian/trixie main]
 └── GStreamer libraries from the "bad" set
      GStreamer is a streaming media framework, based on graphs of filters
      which operate on media data.  Applications using this library can do
@@ -18038,7 +18005,7 @@ libnettle8t64:i386 3.10.1-1 [Debian/trixie main]
      algorithms. To avoid having this package depend on libgmp, the
      asymmetric cryptos reside in a separate library, libhogweed.
 
-libnewt0.52 0.52.24-4 [Debian/trixie main]
+libnewt0.52 0.52.24-4+b1 [Debian/trixie main]
 ├── is installed
 └── Not Erik's Windowing Toolkit - text mode windowing with slang
      Newt is a windowing toolkit for text mode built from the slang library.
@@ -18428,7 +18395,7 @@ libonig5 6.9.9-1+b1 [Debian/trixie main]
      Different character encoding for every regular expression object can
      be specified.
 
-libonnx1t64 1.17.0-3 [Debian/trixie main]
+libonnx1t64 1.17.0-3+b1 [Debian/trixie main]
 ├── is installed
 └── Open Neural Network Exchange (ONNX) (libs)
      Open Neural Network Exchange (ONNX) is the first step toward an open ecosystem
@@ -18445,7 +18412,7 @@ libonnx1t64 1.17.0-3 [Debian/trixie main]
      .
      This package contains the shared objects.
 
-libonnxruntime1.19.2 1.19.2+dfsg-9+b1 [Debian/trixie main]
+libonnxruntime1.20.1 1.20.1+dfsg-2 [Debian/trixie main]
 ├── is installed
 └── cross-platform inference and training ML accelerator (shared lib)
      ONNX Runtime is a performance-focused complete scoring engine for Open Neural
@@ -19635,7 +19602,7 @@ libprotobuf-c1 1.5.1-1 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libprotobuf32t64 3.21.12-10+b4 [Debian/trixie main]
+libprotobuf32t64 3.21.12-10+b5 [Debian/trixie main]
 ├── is installed
 └── protocol buffers C++ library
      Protocol buffers are a flexible, efficient, automated mechanism for
@@ -20945,7 +20912,7 @@ libsdl2-2.0-0 2.32.0+dfsg-1 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libseccomp2 2.5.5-2 [Debian/trixie main]
+libseccomp2 2.5.5-2+b1 [Debian/trixie main]
 ├── is installed
 └── high level interface to Linux seccomp filter
      This library provides a high level interface to constructing, analyzing
@@ -21042,7 +21009,7 @@ libsemanage-common 3.8-1 [Debian/trixie main]
      based on the concepts of Type Enforcement, Role-based Access
      Control, and Multi-level Security.
 
-libsemanage2 3.8-1 [Debian/trixie main]
+libsemanage2 3.8-1+b1 [Debian/trixie main]
 ├── is installed
 └── SELinux policy management library
      This package provides the shared libraries for SELinux policy management.
@@ -25705,7 +25672,7 @@ libxml-xpathengine-perl 0.14-2 [Debian/trixie main]
      .
      This module is derived from Matt Sergeant's XML::XPath.
 
-libxml2 2.12.7+dfsg+really2.9.14-0.2+b1 [Debian/trixie main]
+libxml2 2.12.7+dfsg+really2.9.14-0.2+b2 [Debian/trixie main]
 ├── is installed
 └── GNOME XML library
      XML is a metalanguage to let you design your own markup language.
@@ -25718,7 +25685,7 @@ libxml2 2.12.7+dfsg+really2.9.14-0.2+b1 [Debian/trixie main]
      This package provides a library providing an extensive API to handle
      such XML data files.
 
-libxml2-dev 2.12.7+dfsg+really2.9.14-0.2+b1 [Debian/trixie main]
+libxml2-dev 2.12.7+dfsg+really2.9.14-0.2+b2 [Debian/trixie main]
 ├── is installed
 └── GNOME XML library - development files
      XML is a metalanguage to let you design your own markup language.
@@ -25731,7 +25698,7 @@ libxml2-dev 2.12.7+dfsg+really2.9.14-0.2+b1 [Debian/trixie main]
      Install this package if you wish to develop your own programs using
      the GNOME XML library.
 
-libxml2-utils 2.12.7+dfsg+really2.9.14-0.2+b1 [Debian/trixie main]
+libxml2-utils 2.12.7+dfsg+really2.9.14-0.2+b2 [Debian/trixie main]
 ├── is installed
 └── GNOME XML library - utilities
      XML is a metalanguage to let you design your own markup language.
@@ -25745,7 +25712,7 @@ libxml2-utils 2.12.7+dfsg+really2.9.14-0.2+b1 [Debian/trixie main]
      XML documents, and xmlcatalog, a tool to parse and manipulate XML or
      SGML catalog files.
 
-libxml2:i386 2.12.7+dfsg+really2.9.14-0.2+b1 [Debian/trixie main]
+libxml2:i386 2.12.7+dfsg+really2.9.14-0.2+b2 [Debian/trixie main]
 ├── is installed
 └── GNOME XML library
      XML is a metalanguage to let you design your own markup language.
@@ -25836,7 +25803,7 @@ libxmuu1 2:1.1.3-3+b4 [Debian/trixie main]
      This module can be found at
      git://anongit.freedesktop.org/git/xorg/lib/libXmu
 
-libxnnpack0 0.0~git20240821.87ee0b4-3 [Debian/trixie main]
+libxnnpack0.20241108 0.0~git20241108.4ea82e5-1 [Debian/trixie main]
 ├── is installed
 └── High-efficiency floating-point neural network inference operators (libs)
      XNNPACK is a highly optimized library of floating-point neural network
@@ -26539,7 +26506,7 @@ linux-image-amd64-signed-template 6.12.12-1 [Debian/trixie main]
      This package is used to control code signing by the Debian signing
      service.
 
-linux-libc-dev 6.13.4-1 [SparkyLinux/core main]
+linux-libc-dev 6.13.5-1 [SparkyLinux/core main]
 ├── is installed
 └── Linux support headers for userspace development
      This package provides userspaces headers from the Linux kernel.  These headers
@@ -26956,7 +26923,7 @@ mdevctl 1.4.0-1 [Debian/trixie main]
      of a parent device (ex. a vGPU) which can be dynamically created and
      potentially used by drivers like vfio-mdev for assignment to virtual machines.
 
-media-types 10.1.0 [Debian/trixie main]
+media-types 12.0.0 [Debian/trixie main]
 ├── is installed
 └── List of standard media types and their usual file extension
      This package installs the configuration file /etc/mime.types, that lists
@@ -28129,7 +28096,7 @@ python3-anyio 4.7.0-1 [Debian/trixie main]
      .
      This package installs the library for Python 3.
 
-python3-apt 2.9.9 [Debian/trixie main]
+python3-apt 2.9.9+b1 [Debian/trixie main]
 ├── is installed
 └── Python 3 interface to libapt-pkg
      The apt_pkg Python 3 interface will provide full access to the internal
@@ -28155,7 +28122,7 @@ python3-autocommand 2.2.2-3 [Debian/trixie main]
      the function with these arguments if the module was called as __main__.
      Usage messages, invoked with -h or --help, are also created automatically.
 
-python3-bcrypt 4.2.0-2.1 [Debian/trixie main]
+python3-bcrypt 4.2.0-2.1+b1 [Debian/trixie main]
 ├── is installed
 └── password hashing library for Python 3
      bcrypt is a Python module which provides a password hashing method based on
@@ -28165,7 +28132,7 @@ python3-bcrypt 4.2.0-2.1 [Debian/trixie main]
      .
      This package provides the bcrypt Python module for Python 3.x.
 
-python3-brlapi 6.7-1+b1 [Debian/trixie main]
+python3-brlapi 6.7-1+b2 [Debian/trixie main]
 ├── is installed
 └── Braille display access via BRLTTY - Python3 bindings
      BRLTTY is a daemon which provides access to the console (text mode)
@@ -28187,7 +28154,7 @@ python3-bs4 4.13.3-1 [Debian/trixie main]
      .
      This package contains BeautifulSoup 4, for Python 3.x.
 
-python3-cairo 1.26.1-2+b1 [Debian/trixie main]
+python3-cairo 1.26.1-2+b2 [Debian/trixie main]
 ├── is installed
 └── Python3 bindings for the Cairo vector graphics library
      This package contains modules that allow you to use the Cairo vector
@@ -28207,7 +28174,7 @@ python3-certifi 2025.1.31+ds-1 [Debian/trixie main]
      .
      This is the python3 package.
 
-python3-cffi-backend 1.17.1-2+b1 [Debian/trixie main]
+python3-cffi-backend 1.17.1-2+b2 [Debian/trixie main]
 ├── is installed
 └── Foreign Function Interface for Python 3 calling C code - runtime
      Convenient and reliable way of calling C code from Python 3.
@@ -28248,7 +28215,7 @@ python3-chardet 5.2.0+dfsg-2 [Debian/trixie main]
      .
      This package contains the Python 3 version of the library.
 
-python3-charset-normalizer 3.4.1-1 [Debian/trixie main]
+python3-charset-normalizer 3.4.1-1+b1 [Debian/trixie main]
 ├── is installed
 └── charset, encoding and language detection (Python 3)
      charset-normalizer is a library for detection of charsets, encodings,
@@ -28304,7 +28271,7 @@ python3-cssselect 1.2.0-4 [Debian/trixie main]
      This module used to live inside of lxml as lxml.cssselect before it was
      extracted as a stand-alone project.
 
-python3-cups 2.0.4-2+b1 [Debian/trixie main]
+python3-cups 2.0.4-2+b2 [Debian/trixie main]
 ├── is installed
 └── Python3 bindings for CUPS
      A module of python3 bindings for using the CUPS 2+ API in
@@ -28339,7 +28306,7 @@ python3-dateutil 2.9.0-3 [Debian/trixie main]
       * computing of Easter Sunday dates for any given year, using Western, Orthodox
         or Julian algorithms
 
-python3-dbus 1.3.2-5+b4 [Debian/trixie main]
+python3-dbus 1.3.2-5+b5 [Debian/trixie main]
 ├── is installed
 └── simple interprocess messaging system (Python 3 interface)
      D-Bus is a message bus, used for sending messages between applications.
@@ -28404,7 +28371,7 @@ python3-fasteners 0.18-2 [Debian/trixie main]
      .
      This package contains the Python 3.x module.
 
-python3-gi 3.50.0-4 [Debian/trixie main]
+python3-gi 3.50.0-4+b1 [Debian/trixie main]
 ├── is installed
 └── Python 3 bindings for gobject-introspection libraries
      GObject is an abstraction layer that allows programming with an object
@@ -28415,7 +28382,7 @@ python3-gi 3.50.0-4 [Debian/trixie main]
      support gobject-introspection, i. e. which ship a gir1.2-<name>-<version>
      package. With these packages, the libraries can be used from Python 3.
 
-python3-gi-cairo 3.50.0-4 [Debian/trixie main]
+python3-gi-cairo 3.50.0-4+b1 [Debian/trixie main]
 ├── is installed
 └── Python 3 Cairo bindings for the GObject library
      GObject is an abstraction layer that allows programming with an object
@@ -28589,7 +28556,7 @@ python3-jwt 2.10.1-2 [Debian/trixie main]
      .
      This package contains the Python 3 version of the library.
 
-python3-libdiscid 2.0.3-1+b3 [Debian/trixie main]
+python3-libdiscid 2.0.3-1+b4 [Debian/trixie main]
 ├── is installed
 └── libdiscid binding for Python 3
      libdiscid allows one to create MusicBrainz DiscIDs from audio CDs. It reads a
@@ -28609,7 +28576,7 @@ python3-louis 3.32.0-1 [Debian/trixie main]
      .
      This package contains Python bindings.
 
-python3-lxml 5.3.1-1 [Debian/trixie main]
+python3-lxml 5.3.1-1+b1 [Debian/trixie main]
 ├── is installed
 └── pythonic binding for the libxml2 and libxslt libraries
      lxml is a new Python binding for libxml2 and libxslt, completely
@@ -28781,7 +28748,7 @@ python3-pyqt5.qtmultimedia 5.15.11+dfsg-2 [Debian/trixie main]
      .
      This package contains the Python 3 version of this module.
 
-python3-pyqt5.sip 12.17.0-1 [Debian/trixie main]
+python3-pyqt5.sip 12.17.0-1+b1 [Debian/trixie main]
 ├── is installed
 └── runtime module for Python extensions using SIP
      SIP is a collection of tools that makes it very easy to create Python bindings
@@ -28923,7 +28890,7 @@ python3-speechd 0.11.5-5.1 [Debian/trixie main]
      This package contains a Python library for communication with Speech
      Dispatcher.
 
-python3-tomli 2.2.1-2 [Debian/trixie main]
+python3-tomli 2.2.1-2+b1 [Debian/trixie main]
 ├── is installed
 └── lil' TOML parser for Python
      Tomli is a Python library for parsing TOML. https://toml.io/
@@ -29043,7 +29010,7 @@ python3-xdg 0.28-2 [Debian/trixie main]
      .
      This package contains the Python 3 version of the library.
 
-python3-yaml 6.0.2-1+b1 [Debian/trixie main]
+python3-yaml 6.0.2-1+b2 [Debian/trixie main]
 ├── is installed
 └── YAML parser and emitter for Python3
      Python3-yaml is a complete YAML 1.1 parser and emitter for Python3.  It can
@@ -30761,7 +30728,7 @@ wget 1.24.5-2+b1 [Debian/trixie main]
      Wget supports proxy servers; this can lighten the network load,
      speed up retrieval, and provide access behind firewalls.
 
-whiptail 0.52.24-4 [Debian/trixie main]
+whiptail 0.52.24-4+b1 [Debian/trixie main]
 ├── is installed
 └── Displays user-friendly dialog boxes from shell scripts
      Whiptail is a "dialog" replacement using newt instead of ncurses. It
@@ -31005,7 +30972,7 @@ xbitmaps 1.1.1-2.2 [Debian/trixie main]
      This package contains the base X bitmaps, which are used in many legacy X
      clients.
 
-xbrlapi 6.7-1+b1 [Debian/trixie main]
+xbrlapi 6.7-1+b2 [Debian/trixie main]
 ├── is installed
 └── Access software for a blind person using a braille display - xbrlapi
      BRLTTY is a daemon which provides access to the Linux console (text mode)
