@@ -31,7 +31,11 @@ ignoreMap.set("[org/gnome/shell/extensions/caffeine]", [
 	"user-enabled=",
 ]);
 
-ignoreMap.set("[org/gnome/software]", ["toggle-state=", "user-enabled="]);
+ignoreMap.set("[org/gnome/software]", [
+	"check-timestamp=",
+	"toggle-state=",
+	"user-enabled=",
+]);
 
 const outputArr: string[] = [];
 
