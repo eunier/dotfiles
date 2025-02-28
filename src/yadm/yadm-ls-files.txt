@@ -26,6 +26,7 @@
 .dotfiles/src/dconf.sh
 .dotfiles/src/dconf/dconf-after.conf
 .dotfiles/src/dconf/dconf-before.conf
+.dotfiles/src/dconf/dconf-filter.ts
 .dotfiles/src/diff.sh
 .dotfiles/src/diff/diff-autostart.sh
 .dotfiles/src/diff/diff-beaver-notes.sh
