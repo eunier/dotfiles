@@ -1,4 +1,4 @@
-7zip 24.09+dfsg-5 [Debian/trixie main]
+7zip 24.09+dfsg-6 [Debian/trixie main]
 ├── is installed
 └── 7-Zip file archiver with a high compression ratio
      7-Zip is a file archiver with a high compression ratio. The main features
@@ -771,7 +771,7 @@ bsd-mailx 8.1.2-0.20220412cvs-1 [Debian/trixie main]
       - s-nail package,
       - or mailutils package.
 
-bsdextrautils 2.40.4-4 [Debian/trixie main]
+bsdextrautils 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── extra utilities from 4.4BSD-Lite
      This package contains some extra BSD utilities: col, colcrt, colrm, column,
@@ -783,7 +783,7 @@ bsdmainutils 12.1.8 [Debian/trixie main]
 └── Transitional package for more utilities from FreeBSD
      This is a transitional package, it can be safely removed.
 
-bsdutils 1:2.40.4-4 [Debian/trixie main]
+bsdutils 1:2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── basic utilities from 4.4BSD-Lite
      This package contains the bare minimum of BSD utilities needed for a Debian
@@ -3114,7 +3114,7 @@ efibootmgr 18-2 [Debian/trixie main]
      to use. 'modprobe efivars' should do the trick if it does not
      automatically load.
 
-eject 2.40.4-4 [Debian/trixie main]
+eject 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── ejects CDs and operates CD-Changers under Linux
      This program will eject CD-ROMs (assuming your drive supports the CDROMEJECT
@@ -3523,7 +3523,7 @@ fastfetch 2.36.1+dfsg-1 [Debian/trixie main]
      displaying them in a pretty way. It is written mainly in C, with
      performance and customizability in mind.
 
-fdisk 2.40.4-4 [Debian/trixie main]
+fdisk 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── collection of partitioning utilities
      This package contains the classic fdisk, sfdisk and cfdisk partitioning
@@ -4095,6 +4095,17 @@ fonts-inter-variable 4.1+ds-1 [Debian/trixie main]
      you need to disambiguate "0" from "o", tabular numbers, etc.
      .
      This is the VF variant of the font.
+
+fonts-katex 0.16.10+~cs6.1.0-2 [Debian/trixie main]
+├── is installed
+└── Fast math typesetting for the web (fonts)
+     KaTeX is a fast, easy-to-use JavaScript library for TeX math rendering on the
+     web.
+     .
+     KaTeX supports all major browsers, including Chrome, Safari, Firefox, Opera,
+     Edge, and IE 9 - IE 11.
+     .
+     This package provides fonts from KaTeX project.
 
 fonts-liberation 1:2.1.5-3 [Debian/trixie main]
 ├── is installed
@@ -6273,7 +6284,7 @@ gir1.2-girepository-2.0 1.82.0-4 [Debian/trixie main]
      which can be used to manipulate the search path used by language bindings
      and load introspection data.
 
-gir1.2-glib-2.0 2.83.3-2 [Debian/trixie main]
+gir1.2-glib-2.0 2.83.4-1 [Debian/trixie main]
 ├── is installed
 └── Introspection data for GLib, GObject, Gio and GModule
      GObject Introspection is a project for providing machine readable
@@ -6891,7 +6902,7 @@ gir1.2-xdp-1.0 0.9.1-1 [Debian/trixie main]
      This package can be used by other packages using the GIRepository format
      to generate dynamic bindings.
 
-girepository-tools 2.83.3-2 [Debian/trixie main]
+girepository-tools 2.83.4-1 [Debian/trixie main]
 ├── is installed
 └── Tools for working with GObject-Introspection repositories
      GLib is a library containing many useful C routines for things such
@@ -8920,6 +8931,18 @@ inxi 3.3.37-1-2 [Debian/trixie main]
      your hardware and software to users in an IRC chatroom or support forum.
      It runs with the /exec command in most IRC clients.
 
+iotas 0.10.1-1 [Debian/trixie main]
+├── is installed
+└── Simple mobile-friendly note-taking application
+     Iotas is a simple note-taking app with mobile-first design and a focus on
+     sync with a Nextcloud Notes.
+     .
+     It can be used offline, and optionally sync with Nextcloud when a connection
+     is available. Iotas also provides advanced features such as basic search,
+     categorization of notes, spell checking, Markdown editing and much more.
+     .
+     Iotas is a GNOME Circle app.
+
 ipp-usb 0.9.23-2+b3 [Debian/trixie main]
 ├── is installed
 └── Daemon for IPP over USB printer support
@@ -9099,6 +9122,16 @@ java-wrappers 0.5 [Debian/trixie main]
      This package can be used by packagers of java programs to
      provide java runtime detection, jar lookup and a consistent
      user interface (debugging, environment variables).
+
+javascript-common 12 [Debian/trixie main]
+├── is installed
+└── Base support for JavaScript library packages
+     Web applications that use JavaScript need to distribute it through HTTP. Using
+     a common path for every script avoids the need to enable this path in the HTTP
+     server for every package.
+     .
+     This is a helper package that creates /usr/share/javascript and enables it in
+     the Apache and Lighttpd webserver.
 
 jq 1.7.1-3+b1 [Debian/trixie main]
 ├── is installed
@@ -10263,7 +10296,7 @@ libblas3 3.12.1-2 [Debian/trixie main]
      .
      This package contains a shared version of the library.
 
-libblkid-dev 2.40.4-4 [Debian/trixie main]
+libblkid-dev 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── block device ID library - headers
      The blkid library allows system programs such as fsck and mount to
@@ -10273,7 +10306,7 @@ libblkid-dev 2.40.4-4 [Debian/trixie main]
      .
      This package contains the development environment for the blkid library.
 
-libblkid1 2.40.4-4 [Debian/trixie main]
+libblkid1 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── block device ID library
      The blkid library allows system programs such as fsck and mount to
@@ -10281,7 +10314,7 @@ libblkid1 2.40.4-4 [Debian/trixie main]
      This allows system administrators to avoid specifying filesystems by
      hard-coded device names and use a logical naming system instead.
 
-libblkid1:i386 2.40.4-4 [Debian/trixie main]
+libblkid1:i386 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── block device ID library
      The blkid library allows system programs such as fsck and mount to
@@ -12918,7 +12951,7 @@ libfbclient2 4.0.5.3140.ds6-16 [Debian/trixie main]
      .
      See firebird4.0-server package for more information about Firebird.
 
-libfdisk1 2.40.4-4 [Debian/trixie main]
+libfdisk1 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── fdisk partitioning library
      The libfdisk library is used for manipulating partition tables. It is
@@ -13900,7 +13933,7 @@ libgif7:i386 5.2.2-1+b1 [Debian/trixie main]
      .
      This package contains the library.
 
-libgio-2.0-dev 2.83.3-2 [Debian/trixie main]
+libgio-2.0-dev 2.83.4-1 [Debian/trixie main]
 ├── is installed
 └── Development files for the GLib, GObject and GIO libraries
      GLib is a library containing many useful C routines for things such
@@ -13919,7 +13952,7 @@ libgio-2.0-dev 2.83.3-2 [Debian/trixie main]
      The libglib2.0-dev package provides a more complete set of development
      files.
 
-libgio-2.0-dev-bin 2.83.3-2 [Debian/trixie main]
+libgio-2.0-dev-bin 2.83.4-1 [Debian/trixie main]
 ├── is installed
 └── Development utilities for GLib, GObject and GIO libraries
      GLib is a library containing many useful C routines for things such
@@ -13959,7 +13992,7 @@ libgirepository-1.0-1 1.82.0-4 [Debian/trixie main]
      .
      This package contains a C library for handling the introspection data.
 
-libgirepository-2.0-0 2.83.3-2 [Debian/trixie main]
+libgirepository-2.0-0 2.83.4-1 [Debian/trixie main]
 ├── is installed
 └── GLib runtime library for handling GObject introspection data
      GLib is a library containing many useful C routines for things such
@@ -13976,7 +14009,7 @@ libgit2-1.8 1.8.4+ds-3 [Debian/trixie main]
      distributed version control system core methods provided as a
      re-entrant link-able library with a solid API.
 
-libgit2-glib-1.0-0 1.2.0-2 [Debian/trixie main]
+libgit2-glib-1.0-0 1.2.1-1 [Debian/trixie main]
 ├── is installed
 └── glib wrapper library around the libgit2 git access library
      libgit2-glib is a glib wrapper library around the libgit2 git access library.
@@ -14109,7 +14142,7 @@ libglib-perl 3:1.329.3-3+b3 [Debian/trixie main]
      true as possible to the underlying C API, so perusing the reference manual is
      recommended (see <URL:http://developer.gnome.org/doc/API/2.0/glib/>).
 
-libglib2.0-0t64 2.83.3-2 [Debian/trixie main]
+libglib2.0-0t64 2.83.4-1 [Debian/trixie main]
 ├── is installed
 └── GLib library of C routines
      GLib is a library containing many useful C routines for things such
@@ -14118,7 +14151,7 @@ libglib2.0-0t64 2.83.3-2 [Debian/trixie main]
      .
      This package contains the shared libraries.
 
-libglib2.0-0t64:i386 2.83.3-2 [Debian/trixie main]
+libglib2.0-0t64:i386 2.83.4-1 [Debian/trixie main]
 ├── is installed
 └── GLib library of C routines
      GLib is a library containing many useful C routines for things such
@@ -14127,7 +14160,7 @@ libglib2.0-0t64:i386 2.83.3-2 [Debian/trixie main]
      .
      This package contains the shared libraries.
 
-libglib2.0-bin 2.83.3-2 [Debian/trixie main]
+libglib2.0-bin 2.83.4-1 [Debian/trixie main]
 ├── is installed
 └── Programs for the GLib library
      GLib is a library containing many useful C routines for things such
@@ -14145,7 +14178,7 @@ libglib2.0-bin 2.83.3-2 [Debian/trixie main]
       * gio-query-modules, which updates caches used internally by GLib
       * glib-compile-schemas, which updates caches used internally by GLib
 
-libglib2.0-data 2.83.3-2 [Debian/trixie main]
+libglib2.0-data 2.83.4-1 [Debian/trixie main]
 ├── is installed
 └── Common files for GLib library
      GLib is a library containing many useful C routines for things such
@@ -14155,7 +14188,7 @@ libglib2.0-data 2.83.3-2 [Debian/trixie main]
      This package is needed for the runtime libraries to display messages in
      languages other than English.
 
-libglib2.0-dev 2.83.3-2 [Debian/trixie main]
+libglib2.0-dev 2.83.4-1 [Debian/trixie main]
 ├── is installed
 └── Development metapackage for the GLib family of libraries
      GLib is a library containing many useful C routines for things such
@@ -14171,7 +14204,7 @@ libglib2.0-dev 2.83.3-2 [Debian/trixie main]
      GObject-Introspection metadata for this library is not included here, and
      can be found in the gir1.2-glib-2.0-dev package.
 
-libglib2.0-dev-bin 2.83.3-2 [Debian/trixie main]
+libglib2.0-dev-bin 2.83.4-1 [Debian/trixie main]
 ├── is installed
 └── Development utilities for the GLib library
      GLib is a library containing many useful C routines for things such
@@ -16388,6 +16421,17 @@ libjq1 1.7.1-3+b1 [Debian/trixie main]
      .
      This package contains the shared library.
 
+libjs-katex 0.16.10+~cs6.1.0-2 [Debian/trixie main]
+├── is installed
+└── Fast math typesetting for the web (for browsers)
+     KaTeX is a fast, easy-to-use JavaScript library for TeX math rendering on the
+     web.
+     .
+     KaTeX supports all major browsers, including Chrome, Safari, Firefox, Opera,
+     Edge, and IE 9 - IE 11.
+     .
+     This package provides files targeted at browsers.
+
 libjson-c2 0.11-4 [SparkyLinux/core main]
 ├── is installed
 └── JSON manipulation library - shared library
@@ -17564,19 +17608,19 @@ libmodplug1 1:0.8.9.0-3+b2 [Debian/trixie main]
      a popular Windows mod player written by Olivier Lapicque, found at
      http://www.modplug.com.
 
-libmount-dev 2.40.4-4 [Debian/trixie main]
+libmount-dev 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── device mounting library - headers
      This device mounting library is used by mount and umount helpers.
      .
      This package contains the development environment for the mount library.
 
-libmount1 2.40.4-4 [Debian/trixie main]
+libmount1 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── device mounting library
      This device mounting library is used by mount and umount helpers.
 
-libmount1:i386 2.40.4-4 [Debian/trixie main]
+libmount1:i386 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── device mounting library
      This device mounting library is used by mount and umount helpers.
@@ -20904,7 +20948,7 @@ libsbc1 2.0-1+b2 [Debian/trixie main]
      .
      This package contains the sbc runtime library.
 
-libsdl2-2.0-0 2.32.0+dfsg-1 [Debian/trixie main]
+libsdl2-2.0-0 2.32.0+dfsg-2 [Debian/trixie main]
 ├── is installed
 └── Simple DirectMedia Layer
      SDL is a library that allows programs portable low level access to a video
@@ -21311,7 +21355,7 @@ libsm6 2:1.2.4-1 [Debian/trixie main]
      This module can be found at
      git://anongit.freedesktop.org/git/xorg/lib/libSM
 
-libsmartcols1 2.40.4-4 [Debian/trixie main]
+libsmartcols1 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── smart column output alignment library
      This smart column output alignment library is used by fdisk utilities.
@@ -23137,7 +23181,7 @@ libutempter0 1.2.1-4 [Debian/trixie main]
      The utempter is a privileged helper used by libutempter library to manipulate
      utmp and wtmp files.
 
-libuuid1 2.40.4-4 [Debian/trixie main]
+libuuid1 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── Universally Unique ID library
      The libuuid library generates and parses 128-bit Universally Unique
@@ -26645,7 +26689,7 @@ locales 2.40-7 [Debian/trixie main]
      package used to be, with all locales generated by default. This created
      a package that unpacked to an excess of 30 megs.
 
-login 1:4.16.0-2+really2.40.4-4 [Debian/trixie main]
+login 1:4.16.0-2+really2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── system login tools
      This package provides support for console-based logins and for
@@ -27069,7 +27113,7 @@ morewaita 47.3 [/packages main]
 ├── is installed
 └── An Adwaita style extra icons theme for Gnome Shell.
 
-mount 2.40.4-4 [Debian/trixie main]
+mount 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── tools for mounting and manipulating filesystems
      This package provides the mount(8), umount(8), swapon(8),
@@ -27611,6 +27655,105 @@ packages-microsoft-prod 1.1-debian12 [microsoft-debian-bookworm-prod bookworm/bo
 └── Apt configuration for packages.microsoft.com
      This package contains the apt repo configuration
      for packages.microsoft.com and the public GPG key.
+
+pandoc 3.1.11.1+ds-2 [Debian/trixie main]
+├── is installed
+└── general markup converter
+     Pandoc is a Haskell library for converting
+     from one markup format to another,
+     and a command-line tool that uses this library.
+     The formats it can handle include
+      * light markup formats
+        (many variants of Markdown, reStructuredText, AsciiDoc,
+         Org-mode, Muse, Textile, txt2tags)
+      * HTML formats (HTML 4 and 5)
+      * Ebook formats (EPUB v2 and v3, FB2)
+      * Documentation formats (GNU TexInfo, Haddock)
+      * Roff formats (man, ms)
+      * TeX formats (LaTeX, ConTeXt)
+      * Typst
+      * XML formats
+        (DocBook 4 and 5, JATS, TEI Simple, OpenDocument)
+      * Outline formats (OPML)
+      * Bibliography formats (BibTeX, BibLaTeX, CSL JSON, CSL YAML, RIS)
+      * Word processor formats (Docx, RTF, ODT)
+      * Interactive notebook formats (Jupyter notebook ipynb)
+      * Page layout formats (InDesign ICML)
+      * Wiki markup formats
+        (MediaWiki, DokuWiki, TikiWiki, TWiki,
+         Vimwiki, XWiki, ZimWiki, Jira wiki, Creole)
+      * Slide show formats
+        (LaTeX Beamer, PowerPoint, Slidy,
+         reveal.js, Slideous, S5, DZSlides)
+      * Data formats (CSV and TSV tables)
+      * PDF (via external programs such as pdflatex or wkhtmltopdf)
+     .
+     Pandoc can convert mathematical content in documents
+     between TeX, MathML, Word equations, roff eqn, typst,
+     and plain text.
+     It includes a powerful system
+     for automatic citations and bibliographies,
+     and it can be customized extensively using templates, filters,
+     and custom readers and writers written in Lua.
+     .
+     This package contains the pandoc tool.
+     .
+     Some uses of Pandoc require additional packages:
+      * SVG content in PDF output requires librsvg2-bin.
+      * YAML metadata in TeX-related output requires texlive-latex-extra.
+      * *.hs filters not set executable requires ghc.
+      * *.js filters not set executable requires nodejs.
+      * *.php filters not set executable requires php.
+      * *.pl filters not set executable requires perl.
+      * *.py filters not set executable requires python.
+      * *.rb filters not set executable requires ruby.
+      * *.r filters not set executable requires r-base-core.
+      * LaTeX output, and PDF output via PDFLaTeX,
+        require texlive-latex-recommended.
+      * XeLaTeX output, and PDF output via XeLaTeX, require texlive-xetex.
+      * LuaTeX output, and PDF output via LuaTeX, require texlive-luatex.
+      * ConTeXt output, and PDF output via ConTeXt, require context.
+      * PDF output via wkhtmltopdf requires wkhtmltopdf.
+      * Roff man and roff ms output, and PDF output via roff ms,
+        require groff.
+      * MathJax-rendered equations require libjs-mathjax.
+      * KaTeX-rendered equations require node-katex.
+      * option --csl may use styles in citation-style-language-styles.
+
+pandoc-data 3.1.11.1-3 [Debian/trixie main]
+├── is installed
+└── Conversion between markup formats
+     Pandoc is a Haskell library for converting from one markup
+     format to another.  The formats it can handle include
+     .
+     - light markup formats (many variants of Markdown,
+     reStructuredText, AsciiDoc, Org-mode, Muse, Textile,
+     txt2tags)
+     - HTML formats (HTML 4 and 5)
+     - Ebook formats (EPUB v2 and v3, FB2)
+     - Documentation formats (GNU TexInfo, Haddock)
+     - Roff formats (man, ms)
+     - TeX formats (LaTeX, ConTeXt)
+     - XML formats (DocBook 4 and 5, JATS, TEI Simple, OpenDocument)
+     - Outline formats (OPML)
+     - Bibliography formats (BibTeX, BibLaTeX, CSL JSON, CSL YAML,
+     RIS)
+     - Word processor formats (Docx, RTF, ODT)
+     - Interactive notebook formats (Jupyter notebook ipynb)
+     - Page layout formats (InDesign ICML)
+     - Wiki markup formats (MediaWiki, DokuWiki, TikiWiki, TWiki,
+     Vimwiki, XWiki, ZimWiki, Jira wiki, Creole)
+     - Slide show formats (LaTeX Beamer, PowerPoint, Slidy,
+     reveal.js, Slideous, S5, DZSlides)
+     - Data formats (CSV and TSV tables)
+     - PDF (via external programs such as pdflatex or wkhtmltopdf)
+     .
+     Pandoc can convert mathematical content in documents
+     between TeX, MathML, Word equations, roff eqn, and plain text.
+     It includes a powerful system for automatic citations
+     and bibliographies, and it can be customized extensively
+     using templates, filters, and custom readers and writers
+     written in Lua.
 
 parted 3.6-4+b1 [Debian/trixie main]
 ├── is installed
@@ -28369,6 +28512,14 @@ python3-distro 1.9.0-1 [Debian/trixie main]
      .
      This is the Python 3 version of the library.
 
+python3-enchant 3.3.0~rc1-1 [Debian/trixie main]
+├── is installed
+└── spellchecking library for Python 3
+     PyEnchant consists of Python bindings to the Enchant spellchecking
+     library and some wrapper classes. It includes all the functionality
+     of Enchant in a Pythonic object-oriented interface, and also provides
+     some higher-level functionality which is not available in the C API.
+
 python3-fasteners 0.18-2 [Debian/trixie main]
 ├── is installed
 └── provides useful locks - Python 3.x
@@ -28399,6 +28550,16 @@ python3-gi-cairo 3.50.0-4+b1 [Debian/trixie main]
      .
      This package contains the Python 3 Cairo bindings for GObject. It is mostly
      used by other bindings to map their GObjects to Python objects.
+
+python3-gtkspellcheck 5.0.3-1 [Debian/trixie main]
+├── is installed
+└── Python 3 spellchecking library for GTK+ based on Enchant
+     It supports both GTK+'s Python bindings, PyGObject and PyGtk, and for both
+     Python 2 and 3 with automatic switching and binding autodetection. For
+     automatic translation of the user interface it can use GEdit's translation
+     files.
+     .
+     This package contains the Python 3 version with support for PyGObject.
 
 python3-h11 0.14.0-1 [Debian/trixie main]
 ├── is installed
@@ -28574,6 +28735,17 @@ python3-libdiscid 2.0.3-1+b4 [Debian/trixie main]
      .
      This package provides the binding for Python 3.
 
+python3-linkify-it 2.0.3-1 [Debian/trixie main]
+├── is installed
+└── links recognition library with FULL unicode support
+     linkify-it-py is focused on high quality link patterns detection in plain text.
+     .
+     Why it's awesome:
+     .
+       - Full unicode support, with astral characters!
+       - International domains support.
+       - Allows rules extension & custom normalizers.
+
 python3-louis 3.32.0-1 [Debian/trixie main]
 ├── is installed
 └── Python bindings for liblouis
@@ -28622,6 +28794,12 @@ python3-markdown-it 3.0.0-2 [Debian/trixie main]
      follows the CommonMark spec for baseline parsing. Also, new syntax
      rules can be added and even replace existing ones. New syntax extensions
      can be added to extend the parser.
+
+python3-mdit-py-plugins 0.4.2-1 [Debian/trixie main]
+├── is installed
+└── Collection of plugins for markdown-it-py
+     This package include a collection of core plugins that are used in
+     markdown-it-py.
 
 python3-mdurl 0.1.2-1 [Debian/trixie main]
 ├── is installed
@@ -28731,6 +28909,14 @@ python3-pygments 2.18.0+dfsg-2 [Debian/trixie main]
        * support for new languages and formats are added easily
        * a number of output formats, presently HTML, LaTeX and ANSI sequences
        * it is usable as a command-line tool and as a library
+
+python3-pypandoc 1.15+ds0-1 [Debian/trixie main]
+├── is installed
+└── Thin wrapper for pandoc (Python 3.x)
+     pypandoc provides a Python interface to pandoc, a universal document
+     converter with support for most markup languages.
+     .
+     This package provides Python 3.x version of pypandoc.
 
 python3-pyqt5 5.15.11+dfsg-2 [Debian/trixie main]
 ├── is installed
@@ -28963,6 +29149,13 @@ python3-typing-extensions 4.12.2-2 [Debian/trixie main]
      "typing_extensions" is treated specially by static type checkers such as mypy
      and pyright. Objects defined in "typing_extensions" are treated the same
      way as equivalent forms in "typing".
+
+python3-uc-micro 1.0.3-1 [Debian/trixie main]
+├── is installed
+└── python port of uc.micro
+     Micro subset of unicode data files for linkify-it-py projects
+     .
+     This package was developped for the package python3-linkify-it
 
 python3-uno 4:24.8.5-2 [Debian/trixie main]
 ├── is installed
@@ -29204,7 +29397,7 @@ reportbug 13.1.0 [Debian/trixie main]
      This package also includes the "querybts" script for browsing the
      Debian bug tracking system.
 
-rfkill 2.40.4-4 [Debian/trixie main]
+rfkill 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── tool for enabling and disabling wireless devices
      rfkill is a simple tool for accessing the Linux rfkill device interface,
@@ -30506,7 +30699,7 @@ usr-is-merged 39+nmu2 [Debian/trixie main]
      .
      It can be safely removed once no other package depends on it anymore.
 
-util-linux 2.40.4-4 [Debian/trixie main]
+util-linux 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── miscellaneous system utilities
      This package contains a number of important utilities, most of which
@@ -30515,13 +30708,13 @@ util-linux 2.40.4-4 [Debian/trixie main]
      messages, create new filesystems, view block device information,
      interface with real time clock, etc.
 
-util-linux-extra 2.40.4-4 [Debian/trixie main]
+util-linux-extra 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── interactive login tools
      Tools commonly found on systems where humans login interactively,
      or are needed with non-standard system configurations.
 
-util-linux-locales 2.40.4-4 [Debian/trixie main]
+util-linux-locales 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── locales files for util-linux
      This package contains the internationalization files for the util-linux
@@ -30531,7 +30724,7 @@ util-linux-locales 2.40.4-4 [Debian/trixie main]
      messages in other languages than English, or read manual pages in another
      language than English.
 
-uuid-dev 2.40.4-4 [Debian/trixie main]
+uuid-dev 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── Universally Unique ID library - headers and static libraries
      The libuuid library generates and parses 128-bit Universally Unique IDs
@@ -30539,7 +30732,7 @@ uuid-dev 2.40.4-4 [Debian/trixie main]
      .
      This package contains the development environment for the uuid library.
 
-uuid-runtime 2.40.4-4 [Debian/trixie main]
+uuid-runtime 2.40.4-5 [Debian/trixie main]
 ├── is installed
 └── runtime components for the Universally Unique ID library
      The libuuid library generates and parses 128-bit Universally Unique

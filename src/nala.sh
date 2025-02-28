@@ -47,6 +47,7 @@ sudo nala install \
     gnome-shell-extension-manager \
     gnome-software-plugin-flatpak \
     google-chrome-stable \
+    iotas \
     keepassxc \
     libgl1-mesa-dev \
     libglx-dev \

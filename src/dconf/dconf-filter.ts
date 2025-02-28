@@ -25,6 +25,12 @@ ignoreMap.set("[org/gnome/shell/extensions/caffeine]", [
 	"flatpak-purge-timestamp=",
 ]);
 
+ignoreMap.set("[org/gnome/shell/extensions/caffeine]", [
+	"indicator-position-max=",
+	"toggle-state=",
+	"user-enabled=",
+]);
+
 ignoreMap.set("[org/gnome/software]", ["toggle-state=", "user-enabled="]);
 
 const outputArr: string[] = [];

@@ -12,6 +12,7 @@ flatpak install --assumeyes flathub \
   com.orama_interactive.Pixelorama \
   com.rafaelmardojai.Blanket \
   com.spotify.Client \
+  de.haeckerfelix.AudioSharing \
   dev.geopjr.Calligraphy \
   dev.tchx84.Gameeky \
   flathub de.philippun1.turtle \

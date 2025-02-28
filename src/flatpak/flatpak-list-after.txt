@@ -6,6 +6,7 @@ Forge Sparks	com.mardojai.ForgeSparks	0.4.0	stable	system
 Pixelorama	com.orama_interactive.Pixelorama	1.0.5	stable	system
 Blanket	com.rafaelmardojai.Blanket	0.7.0	stable	system
 Spotify	com.spotify.Client	1.2.52.442.g01893f92	stable	system
+Audio Sharing	de.haeckerfelix.AudioSharing	0.2.4	stable	system
 Turtle	de.philippun1.turtle	0.11.1	stable	system
 Calligraphy	dev.geopjr.Calligraphy	1.1.0	stable	system
 Gameeky	dev.tchx84.Gameeky	0.6.5	stable	system
