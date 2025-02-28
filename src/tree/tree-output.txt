@@ -1201,7 +1201,8 @@
 │   ├── dconf
 │   │   ├── dconf-after.conf
 │   │   ├── dconf-before.conf
-│   │   └── dconf-filter.ts
+│   │   ├── dconf-filter.ts
+│   │   └── dconf-raw-after.conf
 │   ├── dconf.sh
 │   ├── diff
 │   │   ├── diff-autostart.sh
@@ -1215,6 +1216,7 @@
 │   │   ├── diff-nala-app-progress-tracker.sh
 │   │   ├── diff-nala-list-installed.sh
 │   │   ├── diff-syncthing-config.sh
+│   │   ├── diff-timeshift.sh
 │   │   ├── diff-tree.sh
 │   │   ├── diff-vscode-extensions.sh
 │   │   ├── diff-vscode-keybindings.sh
@@ -1269,6 +1271,10 @@
 │   │   ├── syncthing-config-before.json
 │   │   └── syncthing-config-mask.ts
 │   ├── syncthing.sh
+│   ├── timeshift
+│   │   ├── timeshift-after.json
+│   │   └── timeshift-before.json
+│   ├── timeshift.sh
 │   ├── tree
 │   │   └── tree-output.txt
 │   ├── tree.sh
@@ -1298,4 +1304,4 @@
 └── .vscode
     └── settings.json
 
-130 directories, 1169 files
+131 directories, 1174 files

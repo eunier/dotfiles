@@ -27,6 +27,7 @@
 .dotfiles/src/dconf/dconf-after.conf
 .dotfiles/src/dconf/dconf-before.conf
 .dotfiles/src/dconf/dconf-filter.ts
+.dotfiles/src/dconf/dconf-raw-after.conf
 .dotfiles/src/diff.sh
 .dotfiles/src/diff/diff-autostart.sh
 .dotfiles/src/diff/diff-beaver-notes.sh
@@ -39,6 +40,7 @@
 .dotfiles/src/diff/diff-nala-app-progress-tracker.sh
 .dotfiles/src/diff/diff-nala-list-installed.sh
 .dotfiles/src/diff/diff-syncthing-config.sh
+.dotfiles/src/diff/diff-timeshift.sh
 .dotfiles/src/diff/diff-tree.sh
 .dotfiles/src/diff/diff-vscode-extensions.sh
 .dotfiles/src/diff/diff-vscode-keybindings.sh
@@ -78,6 +80,9 @@
 .dotfiles/src/syncthing/syncthing-config-after.json
 .dotfiles/src/syncthing/syncthing-config-before.json
 .dotfiles/src/syncthing/syncthing-config-mask.ts
+.dotfiles/src/timeshift.sh
+.dotfiles/src/timeshift/timeshift-after.json
+.dotfiles/src/timeshift/timeshift-before.json
 .dotfiles/src/tree.sh
 .dotfiles/src/tree/tree-output.txt
 .dotfiles/src/vscode.sh

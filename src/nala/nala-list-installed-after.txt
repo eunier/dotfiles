@@ -524,7 +524,7 @@ b43-fwcutter 1:019-13 [Debian/trixie contrib]
      It is used by the firmware-b43(legacy)-installer packages as part of
      the automated process of downloading and installing firmware.
 
-baobab 47.0-1 [Debian/trixie main]
+baobab 48~alpha-1 [Debian/trixie main]
 ├── is installed
 └── GNOME disk usage analyzer
      Disk Usage Analyzer is a graphical, menu-driven application to analyse
@@ -3078,7 +3078,7 @@ dpkg-dev 1.22.15 [Debian/trixie main]
      Most Debian source packages will require additional tools to build;
      for example, most packages need make and the C compiler gcc.
 
-dracut-install 105-3 [Debian/trixie main]
+dracut-install 106-5 [Debian/trixie main]
 ├── is installed
 └── dracut is an event driven initramfs infrastructure (dracut-install)
      This package just contains the dracut-install command to be used by
@@ -8771,7 +8771,7 @@ im-config 0.57-2 [Debian/trixie main]
      .
      You can further customize your input method with 'im-config' command.
 
-imagemagick-7-common 8:7.1.1.43+dmo-1 [Unofficial Multimedia Packages/trixie main]
+imagemagick-7-common 8:7.1.1.44+dmo-1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── image manipulation programs -- infrastructure
      imagemagick-common contains the filesystem infrastructure required for
@@ -16335,7 +16335,7 @@ libjim0.83 0.83-2 [Debian/trixie main]
      .
      This package provides the libjim shared library.
 
-libjpeg-turbo-progs 1:2.1.5-3+b1 [Debian/trixie main]
+libjpeg-turbo-progs 1:2.1.5-3.1 [Debian/trixie main]
 ├── is installed
 └── Programs for manipulating JPEG files
      This package contains programs for manipulating JPEG files from the
@@ -16346,7 +16346,7 @@ libjpeg-turbo-progs 1:2.1.5-3+b1 [Debian/trixie main]
       * jpegexiforient/exifautotran: manipulate EXIF orientation tag
       * tjbench: a simple JPEG benchmarking tool
 
-libjpeg62-turbo 1:2.1.5-3+b1 [Debian/trixie main]
+libjpeg62-turbo 1:2.1.5-3.1 [Debian/trixie main]
 ├── is installed
 └── libjpeg-turbo JPEG runtime library
      The libjpeg-turbo JPEG library is a library for handling JPEG files.
@@ -16358,7 +16358,7 @@ libjpeg62-turbo 1:2.1.5-3+b1 [Debian/trixie main]
      .
      This package contains the shared runtime library.
 
-libjpeg62-turbo:i386 1:2.1.5-3+b1 [Debian/trixie main]
+libjpeg62-turbo:i386 1:2.1.5-3.1 [Debian/trixie main]
 ├── is installed
 └── libjpeg-turbo JPEG runtime library
      The libjpeg-turbo JPEG library is a library for handling JPEG files.
@@ -17157,7 +17157,7 @@ libmagic1t64 1:5.45-3+b1 [Debian/trixie main]
      This library can be used to classify files according to magic number
      tests. It implements the core functionality of the file command.
 
-libmagickcore-7.q16-10 8:7.1.1.43+dmo-1 [Unofficial Multimedia Packages/trixie main]
+libmagickcore-7.q16-10 8:7.1.1.44+dmo-1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── low-level image manipulation library -- quantum depth Q16
      The MagickCore API is a low-level interface between the C programming language
@@ -17186,7 +17186,7 @@ libmagickcore-7.q16-10 8:7.1.1.43+dfsg1-1 [Debian/trixie main]
      This version of libmagickcore is compiled for a channel
      depth of 16 bits (Q16).
 
-libmagickcore-7.q16-10-extra 8:7.1.1.43+dmo-1 [Unofficial Multimedia Packages/trixie main]
+libmagickcore-7.q16-10-extra 8:7.1.1.44+dmo-1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── low-level image manipulation library - extra codecs (Q16)
      This package adds support for SVG, WMF, OpenEXR, DjVu and Graphviz to
@@ -17203,7 +17203,7 @@ libmagickcore-7.q16-10-extra 8:7.1.1.43+dfsg1-1 [Debian/trixie main]
      This version of libmagickcore-extra is compiled for a channel
      depth of 16 bits (Q16).
 
-libmagickwand-7.q16-10 8:7.1.1.43+dmo-1 [Unofficial Multimedia Packages/trixie main]
+libmagickwand-7.q16-10 8:7.1.1.44+dmo-1 [Unofficial Multimedia Packages/trixie main]
 ├── is installed
 └── image manipulation library -- quantum depth Q16
      The MagickWand API is the recommended interface between the C programming
@@ -19094,7 +19094,7 @@ libpcaudio0 1.3-1 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libpci3 1:3.13.0-1+b1 [Debian/trixie main]
+libpci3 1:3.13.0-2 [Debian/trixie main]
 ├── is installed
 └── PCI utilities (shared library)
      This package contains the libpci shared library files.
@@ -19229,7 +19229,7 @@ libpeas-common 1.36.0-3 [Debian/trixie main]
      .
      This package contains common files, such as translations and icons.
 
-libpentaho-reporting-flow-engine-java 0.9.4-5.2 [Debian/trixie main]
+libpentaho-reporting-flow-engine-java 0.9.4-6 [Debian/trixie main]
 ├── is installed
 └── report library for java
      Pentaho Reporting Flow Engine is a free Java report library.
@@ -19432,7 +19432,7 @@ libpmem1 1.13.1-1.1+b1 [Debian/trixie main]
      .
      This package provides binary runtime for version 1 of the API.
 
-libpng16-16t64 1.6.46-4 [Debian/trixie main]
+libpng16-16t64 1.6.47-1 [Debian/trixie main]
 ├── is installed
 └── PNG library - runtime (version 1.6)
      libpng is a library implementing an interface for reading and writing
@@ -19441,7 +19441,7 @@ libpng16-16t64 1.6.46-4 [Debian/trixie main]
      This package contains the runtime library files needed to run software
      using libpng.
 
-libpng16-16t64:i386 1.6.46-4 [Debian/trixie main]
+libpng16-16t64:i386 1.6.47-1 [Debian/trixie main]
 ├── is installed
 └── PNG library - runtime (version 1.6)
      libpng is a library implementing an interface for reading and writing
@@ -19602,7 +19602,7 @@ libprotobuf-c1 1.5.1-1 [Debian/trixie main]
      .
      This package contains the shared library.
 
-libprotobuf32t64 3.21.12-10+b5 [Debian/trixie main]
+libprotobuf32t64 3.21.12-10+b6 [Debian/trixie main]
 ├── is installed
 └── protocol buffers C++ library
      Protocol buffers are a flexible, efficient, automated mechanism for
@@ -20043,7 +20043,7 @@ librados2 18.2.4+ds-13 [Debian/trixie main]
      shared library allowing applications to access the distributed object
      store using a simple file-like interface.
 
-libraptor2-0 2.0.16-4+b1 [Debian/trixie main]
+libraptor2-0 2.0.16-5 [Debian/trixie main]
 ├── is installed
 └── Raptor 2 RDF syntax library
      Raptor is a C library providing a set of parsers and serializers for
@@ -21917,9 +21917,17 @@ libsuitesparseconfig7 1:7.8.3+dfsg-3 [Debian/trixie main]
      The SuiteSparse_config library provides configuration routines that are common
      to all SuiteSparse libraries.
 
-libsvtav1enc2 2:2.3.0-dmo1 [Unofficial Multimedia Packages/trixie main]
+libsvtav1enc2 2:2.3.0-dmo1 [local]
 ├── is installed
 └── Scalable Video Technology for AV1 (libsvtav1enc shared library)
+     The Scalable Video Technology for AV1 (SVT-AV1 Encoder and Decoder) is an
+     AV1-compliant encoder/decoder library core. The SVT-AV1 encoder
+     development is a work-in-progress targeting performance levels applicable
+     to both VOD and Live encoding / transcoding video applications. The
+     SVT-AV1 decoder implementation is targeting future codec research
+     activities.
+     .
+     This package provides the shared library libsvtav1enc.
 
 libsvtav1enc2 2.3.0+dfsg-1 [Debian/trixie main]
 └── Scalable Video Technology for AV1 (libsvtav1enc shared library)
@@ -22704,7 +22712,7 @@ libtss2-tctildr0t64 4.1.3-1.2 [Debian/trixie main]
      This package contains the TCTI ldr libraries that client applications
      will link against when they require accessing the TPM.
 
-libturbojpeg0 1:2.1.5-3+b1 [Debian/trixie main]
+libturbojpeg0 1:2.1.5-3.1 [Debian/trixie main]
 ├── is installed
 └── TurboJPEG runtime library - SIMD optimized
      The libjpeg-turbo JPEG library is a library for handling JPEG files.
@@ -27665,7 +27673,7 @@ pci.ids 0.0~2025.02.12-1 [Debian/trixie main]
      classes. It is used in various programs to display full human-readable
      names instead of cryptic numeric codes.
 
-pciutils 1:3.13.0-1+b1 [Debian/trixie main]
+pciutils 1:3.13.0-2 [Debian/trixie main]
 ├── is installed
 └── PCI utilities
      This package contains various utilities for inspecting and setting of
@@ -31483,7 +31491,7 @@ xserver-xorg-video-radeon 1:22.0.0-1 [Debian/trixie main]
      .
      This package is built from the X.org xf86-video-ati driver module.
 
-xserver-xorg-video-vesa 1:2.6.0-1 [Debian/trixie main]
+xserver-xorg-video-vesa 1:2.6.0-2 [Debian/trixie main]
 ├── is installed
 └── X.Org X server -- VESA display driver
      This driver for the X.Org X server (see xserver-xorg for a further description)

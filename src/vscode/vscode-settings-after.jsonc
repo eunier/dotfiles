@@ -44,7 +44,6 @@
     "zigversion"
   ],
   "chat.commandCenter.enabled": false,
-  "continue.showInlineTip": false,
   "debug.console.fontFamily": "Cascadia Code",
   "debug.javascript.autoAttachFilter": "smart",
   "debug.toolBarLocation": "commandCenter",
@@ -115,6 +114,7 @@
   "material-icon-theme.files.associations": {
     ".zigversion": "lock"
   },
+  "material-icon-theme.folders.theme": "classic",
   "material-icon-theme.saturation": 1,
   "outline.collapseItems": "alwaysCollapse",
   "prettier.tabWidth": 2,

@@ -2,7 +2,9 @@ import { $ } from "bun";
 
 type Data = [string, string[]][];
 
-const data: Data = (await $`cat ~/.dotfiles/src/dconf/dconf-after.conf`.text())
+const data: Data = (
+	await $`cat ~/.dotfiles/src/dconf/dconf-raw-after.conf`.text()
+)
 	.split("\n\n")
 	.map((chunk) => {
 		const key = chunk.slice(0, chunk.indexOf("]") + 1);
@@ -17,8 +19,13 @@ const data: Data = (await $`cat ~/.dotfiles/src/dconf/dconf-after.conf`.text())
 
 const ignoreMap = new Map<string, string[]>();
 
-ignoreMap.set("[apps/seahorse/windows/key-manager]", ["height=476"]);
 ignoreMap.set("[com/raggesilver/BlackBox]", ["was-maximized="]);
+
+ignoreMap.set("[org/gnome/shell/extensions/caffeine]", [
+	"flatpak-purge-timestamp=",
+]);
+
+ignoreMap.set("[org/gnome/software]", ["toggle-state=", "user-enabled="]);
 
 const outputArr: string[] = [];
 
@@ -41,3 +48,13 @@ for (const [key, settings] of data) {
 		}
 	}
 }
+
+const output = outputArr.reduce((acc, line) => {
+	if (line.startsWith("[") && acc !== "") {
+		return `${acc}\n\n${line}`;
+	}
+
+	return `${acc}${acc === "" ? "" : "\n"}${line}`;
+}, "");
+
+await $`echo ${output} > ~/.dotfiles/src/dconf/dconf-after.conf`.quiet();

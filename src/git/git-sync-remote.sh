@@ -2,7 +2,7 @@
 
 time=$(date +"%H")
 
-if [ "$time" -ge 18 ]; then
+if [ "$time" -ge 18 ] || [ "$time" -lt 7 ]; then
   echo "Syncing secondary git repos..."
 
   cd ~/Projects/com.github.eunier.dotfiles/dotfiles || exit
