@@ -23,6 +23,7 @@ sudo nala install libreoffice
 sudo nala install \
     beaver-notes \
     blackbox-terminal \
+    brave-browser \
     code \
     curl \
     dconf-editor \
