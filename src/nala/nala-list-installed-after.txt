@@ -6495,7 +6495,7 @@ gir1.2-gtksource-4 4.8.4-5+b3 [Debian/trixie main]
      .
      This package contains GObject introspection information.
 
-gir1.2-gtksource-5 5.15.0-3 [Debian/trixie main]
+gir1.2-gtksource-5 5.15.1-1 [Debian/trixie main]
 ├── is installed
 └── gir files for the GTK+ syntax highlighting widget
      GtkSourceView is a text widget that extends the standard GTK 4 text widget
@@ -9007,7 +9007,7 @@ iputils-ping 3:20240905-1 [Debian/trixie main]
      This package includes a ping6 utility which supports IPv6 network
      connections.
 
-ipxe-qemu 1.21.1+git20220113.fbbdc3926+dfsg-4 [Debian/trixie main]
+ipxe-qemu 1.21.1+git20250224.12ea8c40+dfsg-2 [Debian/trixie main]
 ├── is installed
 └── PXE boot firmware - ROM images for qemu
      iPXE is network boot firmware.  It supports a variety of network cards,
@@ -15234,7 +15234,7 @@ libgtksourceview-4-common 4.8.4-5 [Debian/trixie main]
      (gettext), Python, R, Ruby, sh, SQL, Tcl, Texinfo, VB.NET, Verilog, VHDL and
      XML.
 
-libgtksourceview-5-0 5.15.0-3 [Debian/trixie main]
+libgtksourceview-5-0 5.15.1-1 [Debian/trixie main]
 ├── is installed
 └── shared libraries for the GTK 4 syntax highlighting widget
      GtkSourceView is a text widget that extends the standard GTK 4 text widget
@@ -15244,7 +15244,7 @@ libgtksourceview-5-0 5.15.0-3 [Debian/trixie main]
      This package contains the shared libraries required by applications to use
      this widget.
 
-libgtksourceview-5-common 5.15.0-3 [Debian/trixie main]
+libgtksourceview-5-common 5.15.1-1 [Debian/trixie main]
 ├── is installed
 └── common files for the GTK 4 syntax highlighting widget
      GtkSourceView is a text widget that extends the standard GTK 4 text widget
@@ -16342,7 +16342,7 @@ libjcat1 0.2.0-2+b3 [Debian/trixie main]
      .
      This is used by other software to validate metadata.
 
-libjcommon-java 1.0.23-2 [Debian/trixie main]
+libjcommon-java 1.0.24+ds-2 [Debian/trixie main]
 ├── is installed
 └── General Purpose library for Java
      JCommon is a free general purpose Java class library that is used in
@@ -27216,7 +27216,7 @@ nano 8.3-1 [Debian/trixie main]
       - toggling features while running
       - and full internationalization support
 
-native-architecture 0.2.5 [Debian/trixie main]
+native-architecture 0.2.6 [Debian/trixie main]
 ├── is installed
 └── Declarative native architecture constraint
      This is a meta package that can only satisfy a dependency for the
@@ -30555,7 +30555,7 @@ uno-libs-private 4:24.8.5-2 [Debian/trixie main]
      This package contains some private UNO/URE libraries which are used by public
      ones (e.g. cppu).
 
-unrar 1:7.1.4-2 [Debian/trixie non-free]
+unrar 1:7.1.5-1 [Debian/trixie non-free]
 ├── is installed
 └── Unarchiver for .rar files (non-free version)
      Unrar can extract files from .rar archives. If you want to create .rar
@@ -31386,7 +31386,7 @@ xfonts-utils 1:7.7+7 [Debian/trixie main]
       - mkfontscale, a program to generate fonts.scale files;
       - fonttosfnt, a program to wrap bitmap fonts in a sfnt (TrueType) wrapper.
 
-xfsprogs 6.12.0-1 [Debian/trixie main]
+xfsprogs 6.13.0-2 [Debian/trixie main]
 ├── is installed
 └── Utilities for managing the XFS filesystem
      A set of commands to use the XFS filesystem, including mkfs.xfs.
