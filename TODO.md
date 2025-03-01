@@ -6,6 +6,7 @@ Project Description
 
 ### Todo
 
+- [ ] Save Brave bookmark  
 - [ ] Make cli instead of aliases  
 - [ ] Nerd Fonts  
 - [ ] Install ghostty  
@@ -25,10 +26,10 @@ Project Description
 
 ### In Progress
 
-- [ ] Filter out dconf not important settings  
 
 ### Done ✓
 
+- [x] Filter out dconf not important settings  
 - [x] Does syncthing auto start?  
 - [x] Delete old timeshift, take to much space  
 - [x] Set up ollama + vs code extension  

@@ -27534,6 +27534,11 @@ openssl-provider-legacy 3.4.1-1 [Debian/trixie main]
      the cryptography community, or something similar.
      For details see OSSL_PROVIDER-legacy man page.
 
+opera-stable 117.0.5408.53 [The Opera web browser/stable non-free]
+└── Fast, secure, easy-to-use web browser
+     Opera is a fast, secure, and user-friendly web browser.
+     It includes a built-in ad blocker, Video pop-out, and free VPN.
+
 opera-stable 117.0.5408.39 [SparkyLinux/sisters main]
 ├── is installed
 └── Fast, secure, easy-to-use web browser
