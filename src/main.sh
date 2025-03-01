@@ -4,8 +4,6 @@ sh ~/.dotfiles/src/fastfetch.sh
 fastfetch
 sh ~/.dotfiles/src/yadm.sh
 
-sudo timeshift --check
-
 sh ~/.dotfiles/src/apt.sh
 sh ~/.dotfiles/src/nala.sh
 sh ~/.dotfiles/src/flatpak.sh
