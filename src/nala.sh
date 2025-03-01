@@ -59,6 +59,7 @@ sudo nala install \
     morewaita \
     mullvad-vpn \
     nethogs \
+    opera-stable \
     picard \
     polari \
     progress-tracker \

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# TODO keep track of this files in /etc/apt/sources.list.d
+
 # TODO switch brave from flatpak to this
 # if [ ! -e "/etc/apt/sources.list.d/brave-browser-release.list" ]; then
 #   sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
