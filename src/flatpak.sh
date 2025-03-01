@@ -5,6 +5,7 @@ flatpak update
 
 flatpak install --assumeyes flathub \
   com.belmoussaoui.Authenticator \
+  com.brave.Browser \
   com.github.Anuken.Mindustry \
   com.github.libresprite.LibreSprite \
   com.github.tchx84.Flatseal \
@@ -13,9 +14,9 @@ flatpak install --assumeyes flathub \
   com.rafaelmardojai.Blanket \
   com.spotify.Client \
   de.haeckerfelix.AudioSharing \
+  de.philippun1.turtle \
   dev.geopjr.Calligraphy \
   dev.tchx84.Gameeky \
-  flathub de.philippun1.turtle \
   io.github.fabrialberio.pinapp \
   io.github.josephmawa.Egghead \
   io.github.MakovWait.Godots \
