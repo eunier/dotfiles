@@ -1235,8 +1235,11 @@
 │   │   └── fastfetch-output-before.txt
 │   ├── fastfetch.sh
 │   ├── flatpak
+│   │   ├── flatpak-install.auto.sh
+│   │   ├── flatpak-install.ts
 │   │   ├── flatpak-list-after.txt
-│   │   └── flatpak-list-before.txt
+│   │   ├── flatpak-list-before.txt
+│   │   └── flatpak-uninstall.auto.sh
 │   ├── flatpak.sh
 │   ├── fmt.sh
 │   ├── fonts.sh
@@ -1310,4 +1313,4 @@
 └── .vscode
     └── settings.json
 
-132 directories, 1179 files
+132 directories, 1182 files
