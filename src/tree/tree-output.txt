@@ -1213,6 +1213,7 @@
 │   │   ├── diff-fastfetch-output.sh
 │   │   ├── diff-flatpak.sh
 │   │   ├── diff-git-repos.sh
+│   │   ├── diff-homebrew.sh
 │   │   ├── diff-nala-app-progress-tracker.sh
 │   │   ├── diff-nala-list-installed.sh
 │   │   ├── diff-syncthing-config.sh
@@ -1257,6 +1258,10 @@
 │   │   └── gitlab-repo-create.md
 │   ├── gitlab.sh
 │   ├── git.sh
+│   ├── homebrew
+│   │   ├── homebrew-list-after.txt
+│   │   └── homebrew-list-before.txt
+│   ├── homebrew.sh
 │   ├── main.sh
 │   ├── nala
 │   │   ├── nala-app-progress-tracker-after.txt
@@ -1285,6 +1290,7 @@
 │   │   ├── vscode-extensions-before.txt
 │   │   ├── vscode-font-switch.sh
 │   │   ├── vscode-font-switch.ts
+│   │   ├── vscode-font-ui.sh
 │   │   ├── vscode-keybindings-after.jsonc
 │   │   ├── vscode-keybindings-before.jsonc
 │   │   ├── vscode-settings-after.jsonc
@@ -1304,4 +1310,4 @@
 └── .vscode
     └── settings.json
 
-131 directories, 1174 files
+132 directories, 1179 files

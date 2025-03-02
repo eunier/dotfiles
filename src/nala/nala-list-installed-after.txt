@@ -6466,7 +6466,7 @@ gir1.2-gtk-3.0 3.24.48-4 [Debian/trixie main]
      This package can be used by other packages using the GIRepository format to
      generate dynamic bindings.
 
-gir1.2-gtk-4.0 4.17.4+ds-4 [Debian/trixie main]
+gir1.2-gtk-4.0 4.17.5+ds-3 [Debian/trixie main]
 ├── is installed
 └── GTK graphical user interface library -- gir bindings
      GTK is a multi-platform toolkit for creating graphical user
@@ -7008,7 +7008,7 @@ glab 1.50.0-1~ops2deb [wakemeops stable/stable dev]
      issues, merge requests, look at running pipelines directly from your CLI, among
      other features.
 
-glab 1.49.0-1+b1 [Debian/trixie main]
+glab 1.49.0-1+b2 [Debian/trixie main]
 └── commandline interface for gitlab instances
      GLab is an open source GitLab CLI tool bringing GitLab to your terminal next
      to where you are already working with git and your code without switching
@@ -8367,7 +8367,7 @@ gstreamer1.0-x 1.24.12-1 [Debian/trixie main]
      for standard Xlib support and for the Xv extension, as well as the
      plugin for Pango-based text rendering and overlay.
 
-gtk-update-icon-cache 4.17.4+ds-4 [Debian/trixie main]
+gtk-update-icon-cache 4.17.5+ds-3 [Debian/trixie main]
 ├── is installed
 └── icon theme caching utility
      gtk-update-icon-cache creates mmap()able cache files for icon themes.
@@ -8943,7 +8943,7 @@ iotas 0.10.1-1 [Debian/trixie main]
      .
      Iotas is a GNOME Circle app.
 
-ipp-usb 0.9.23-2+b3 [Debian/trixie main]
+ipp-usb 0.9.23-2+b4 [Debian/trixie main]
 ├── is installed
 └── Daemon for IPP over USB printer support
      ipp-usb is a userland driver for USB devices (printers, scanners, MFC),
@@ -15114,7 +15114,7 @@ libgtk-3-common 3.24.48-4 [Debian/trixie main]
      .
      This package contains the common files which the libraries need.
 
-libgtk-4-1 4.17.4+ds-4 [Debian/trixie main]
+libgtk-4-1 4.17.5+ds-3 [Debian/trixie main]
 ├── is installed
 └── GTK graphical user interface library
      GTK is a multi-platform toolkit for creating graphical user
@@ -15124,7 +15124,7 @@ libgtk-4-1 4.17.4+ds-4 [Debian/trixie main]
      .
      This package contains the shared libraries.
 
-libgtk-4-common 4.17.4+ds-4 [Debian/trixie main]
+libgtk-4-common 4.17.5+ds-3 [Debian/trixie main]
 ├── is installed
 └── common files for the GTK graphical user interface library
      GTK is a multi-platform toolkit for creating graphical user
@@ -20654,6 +20654,13 @@ librevenge-0.0-0 0.0.5-3+b2 [Debian/trixie main]
 └── Base Library for writing document interface filters
      librevenge is a base library for writing document import filters. It has
      interfaces for text documents, vector graphics, spreadsheets and presentations.
+
+librewolf 135.0.1-1 [SparkyLinux/sisters main]
+├── is installed
+└── The Librewolf Browser
+
+librewolf 130.0.1-1 [SparkyLinux/sisters main]
+└── The Librewolf Browser
 
 librhino-java 1.7.15-1 [Debian/trixie main]
 ├── is installed
@@ -29109,7 +29116,7 @@ python3-tomli 2.2.1-2+b1 [Debian/trixie main]
      to generate binary wheels for most of the widely used platforms,
      so Python 3.11+ users may prefer it over `tomllib` for improved performance.
 
-python3-typeguard 4.4.1-1 [Debian/trixie main]
+python3-typeguard 4.4.2-1 [Debian/trixie main]
 ├── is installed
 └── Run-time type checker for Python
      This library provides run-time type checking for functions defined with
@@ -29832,7 +29839,7 @@ shellcheck 0.10.0-1 [Debian/trixie main]
       * To point out subtle caveats, corner cases and pitfalls, that may cause an
         advanced user's otherwise working script to fail under future circumstances.
 
-shfmt 3.8.0-1+b4 [Debian/trixie main]
+shfmt 3.8.0-1+b5 [Debian/trixie main]
 ├── is installed
 └── format shell programs
      shfmt is shell formatter, which supports POSIX Shell, Bash, and mksh.
@@ -30883,6 +30890,15 @@ vim-tiny 2:9.1.1113-1 [Debian/trixie main]
      .
      If a vim binary is wanted, try one of the following more featureful
      packages: vim, vim-nox, vim-motif, or vim-gtk3.
+
+vivaldi-stable 7.1.3570.58-1 [SparkyLinux/sisters main]
+├── is installed
+└── Experience the web in a whole new way with Vivaldi.
+     Vivaldi is a browser that has the features you need, a style that fits and values you can stand by. Your browser matters. Take control with Vivaldi.
+
+vivaldi-stable 7.1.3570.54-1 [Official Vivaldi package repository/ main]
+└── Experience the web in a whole new way with Vivaldi.
+     Vivaldi is a browser that has the features you need, a style that fits and values you can stand by. Your browser matters. Take control with Vivaldi.
 
 w3m 0.5.3+git20230121-2.1 [Debian/trixie main]
 ├── is installed

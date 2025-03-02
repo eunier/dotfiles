@@ -37,6 +37,7 @@
 .dotfiles/src/diff/diff-fastfetch-output.sh
 .dotfiles/src/diff/diff-flatpak.sh
 .dotfiles/src/diff/diff-git-repos.sh
+.dotfiles/src/diff/diff-homebrew.sh
 .dotfiles/src/diff/diff-nala-app-progress-tracker.sh
 .dotfiles/src/diff/diff-nala-list-installed.sh
 .dotfiles/src/diff/diff-syncthing-config.sh
@@ -68,6 +69,9 @@
 .dotfiles/src/gitlab.sh
 .dotfiles/src/gitlab/gitlab-auth.ts
 .dotfiles/src/gitlab/gitlab-repo-create.md
+.dotfiles/src/homebrew.sh
+.dotfiles/src/homebrew/homebrew-list-after.txt
+.dotfiles/src/homebrew/homebrew-list-before.txt
 .dotfiles/src/main.sh
 .dotfiles/src/nala.sh
 .dotfiles/src/nala/nala-app-progress-tracker-after.txt
@@ -92,6 +96,7 @@
 .dotfiles/src/vscode/vscode-extensions-before.txt
 .dotfiles/src/vscode/vscode-font-switch.sh
 .dotfiles/src/vscode/vscode-font-switch.ts
+.dotfiles/src/vscode/vscode-font-ui.sh
 .dotfiles/src/vscode/vscode-keybindings-after.jsonc
 .dotfiles/src/vscode/vscode-keybindings-before.jsonc
 .dotfiles/src/vscode/vscode-settings-after.jsonc

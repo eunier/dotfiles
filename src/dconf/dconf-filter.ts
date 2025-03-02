@@ -22,10 +22,6 @@ const ignoreMap = new Map<string, string[]>();
 ignoreMap.set("[com/raggesilver/BlackBox]", ["was-maximized="]);
 
 ignoreMap.set("[org/gnome/shell/extensions/caffeine]", [
-	"flatpak-purge-timestamp=",
-]);
-
-ignoreMap.set("[org/gnome/shell/extensions/caffeine]", [
 	"indicator-position-max=",
 	"toggle-state=",
 	"user-enabled=",
@@ -33,9 +29,12 @@ ignoreMap.set("[org/gnome/shell/extensions/caffeine]", [
 
 ignoreMap.set("[org/gnome/software]", [
 	"check-timestamp=",
+	"flatpak-purge-timestamp=",
 	"toggle-state=",
 	"user-enabled=",
 ]);
+
+ignoreMap.set("[org/gnome/control-center]", ["last-panel="]);
 
 const outputArr: string[] = [];
 

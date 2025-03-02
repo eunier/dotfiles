@@ -1,4 +1,5 @@
 Authenticator	com.belmoussaoui.Authenticator	4.5.0	stable	system
+Brave	com.brave.Browser	1.75.181	stable	system
 Mindustry	com.github.Anuken.Mindustry	146	stable	system
 LibreSprite	com.github.libresprite.LibreSprite	1.0	stable	system
 Flatseal	com.github.tchx84.Flatseal	2.3.0	stable	system

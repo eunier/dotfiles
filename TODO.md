@@ -7,9 +7,9 @@ Project Description
 ### Todo
 
 - [ ] Save Brave bookmark  
+- [ ] Install ghostty  
 - [ ] Make cli instead of aliases  
 - [ ] Nerd Fonts  
-- [ ] Install ghostty  
 - [ ] Polari data  
 - [ ] Avoid calling to install vscode extension if already installed  
 - [ ] Avoid redownlaoding JetBrains font  

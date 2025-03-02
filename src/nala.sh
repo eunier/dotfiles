@@ -12,6 +12,8 @@ if command -v shotwell /dev/null 2>&1; then
     sudo nala purge shotwell
 fi
 
+# TODO sudo nala install mercury-browser
+
 sudo nala install libreoffice
 
 # https://cdn.fastly.steamstatic.com/client/installer/steam.deb
@@ -23,6 +25,7 @@ sudo nala install libreoffice
 sudo nala install \
     beaver-notes \
     blackbox-terminal \
+    build-essential \
     code \
     curl \
     dconf-editor \
@@ -51,6 +54,7 @@ sudo nala install \
     keepassxc \
     libgl1-mesa-dev \
     libglx-dev \
+    librewolf \
     libxcursor-dev \
     libxi-dev \
     libxinerama-dev \
@@ -75,6 +79,7 @@ sudo nala install \
     tree \
     update-glx \
     vim \
+    vivaldi-stable \
     yadm \
     zen-browser
 

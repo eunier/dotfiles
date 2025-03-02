@@ -6466,7 +6466,7 @@ gir1.2-gtk-3.0 3.24.48-4 [Debian/trixie main]
      This package can be used by other packages using the GIRepository format to
      generate dynamic bindings.
 
-gir1.2-gtk-4.0 4.17.4+ds-4 [Debian/trixie main]
+gir1.2-gtk-4.0 4.17.5+ds-3 [Debian/trixie main]
 ├── is installed
 └── GTK graphical user interface library -- gir bindings
      GTK is a multi-platform toolkit for creating graphical user
@@ -6486,7 +6486,7 @@ gir1.2-gtksource-4 4.8.4-5+b3 [Debian/trixie main]
      .
      This package contains GObject introspection information.
 
-gir1.2-gtksource-5 5.15.0-3 [Debian/trixie main]
+gir1.2-gtksource-5 5.15.1-1 [Debian/trixie main]
 ├── is installed
 └── gir files for the GTK+ syntax highlighting widget
      GtkSourceView is a text widget that extends the standard GTK 4 text widget
@@ -7008,7 +7008,7 @@ glab 1.50.0-1~ops2deb [wakemeops stable/stable dev]
      issues, merge requests, look at running pipelines directly from your CLI, among
      other features.
 
-glab 1.49.0-1+b1 [Debian/trixie main]
+glab 1.49.0-1+b2 [Debian/trixie main]
 └── commandline interface for gitlab instances
      GLab is an open source GitLab CLI tool bringing GitLab to your terminal next
      to where you are already working with git and your code without switching
@@ -8367,7 +8367,7 @@ gstreamer1.0-x 1.24.12-1 [Debian/trixie main]
      for standard Xlib support and for the Xv extension, as well as the
      plugin for Pango-based text rendering and overlay.
 
-gtk-update-icon-cache 4.17.4+ds-4 [Debian/trixie main]
+gtk-update-icon-cache 4.17.5+ds-3 [Debian/trixie main]
 ├── is installed
 └── icon theme caching utility
      gtk-update-icon-cache creates mmap()able cache files for icon themes.
@@ -8943,7 +8943,7 @@ iotas 0.10.1-1 [Debian/trixie main]
      .
      Iotas is a GNOME Circle app.
 
-ipp-usb 0.9.23-2+b3 [Debian/trixie main]
+ipp-usb 0.9.23-2+b4 [Debian/trixie main]
 ├── is installed
 └── Daemon for IPP over USB printer support
      ipp-usb is a userland driver for USB devices (printers, scanners, MFC),
@@ -8998,7 +8998,7 @@ iputils-ping 3:20240905-1 [Debian/trixie main]
      This package includes a ping6 utility which supports IPv6 network
      connections.
 
-ipxe-qemu 1.21.1+git20220113.fbbdc3926+dfsg-4 [Debian/trixie main]
+ipxe-qemu 1.21.1+git20250224.12ea8c40+dfsg-2 [Debian/trixie main]
 ├── is installed
 └── PXE boot firmware - ROM images for qemu
      iPXE is network boot firmware.  It supports a variety of network cards,
@@ -15114,7 +15114,7 @@ libgtk-3-common 3.24.48-4 [Debian/trixie main]
      .
      This package contains the common files which the libraries need.
 
-libgtk-4-1 4.17.4+ds-4 [Debian/trixie main]
+libgtk-4-1 4.17.5+ds-3 [Debian/trixie main]
 ├── is installed
 └── GTK graphical user interface library
      GTK is a multi-platform toolkit for creating graphical user
@@ -15124,7 +15124,7 @@ libgtk-4-1 4.17.4+ds-4 [Debian/trixie main]
      .
      This package contains the shared libraries.
 
-libgtk-4-common 4.17.4+ds-4 [Debian/trixie main]
+libgtk-4-common 4.17.5+ds-3 [Debian/trixie main]
 ├── is installed
 └── common files for the GTK graphical user interface library
      GTK is a multi-platform toolkit for creating graphical user
@@ -15225,7 +15225,7 @@ libgtksourceview-4-common 4.8.4-5 [Debian/trixie main]
      (gettext), Python, R, Ruby, sh, SQL, Tcl, Texinfo, VB.NET, Verilog, VHDL and
      XML.
 
-libgtksourceview-5-0 5.15.0-3 [Debian/trixie main]
+libgtksourceview-5-0 5.15.1-1 [Debian/trixie main]
 ├── is installed
 └── shared libraries for the GTK 4 syntax highlighting widget
      GtkSourceView is a text widget that extends the standard GTK 4 text widget
@@ -15235,7 +15235,7 @@ libgtksourceview-5-0 5.15.0-3 [Debian/trixie main]
      This package contains the shared libraries required by applications to use
      this widget.
 
-libgtksourceview-5-common 5.15.0-3 [Debian/trixie main]
+libgtksourceview-5-common 5.15.1-1 [Debian/trixie main]
 ├── is installed
 └── common files for the GTK 4 syntax highlighting widget
      GtkSourceView is a text widget that extends the standard GTK 4 text widget
@@ -16333,7 +16333,7 @@ libjcat1 0.2.0-2+b3 [Debian/trixie main]
      .
      This is used by other software to validate metadata.
 
-libjcommon-java 1.0.23-2 [Debian/trixie main]
+libjcommon-java 1.0.24+ds-2 [Debian/trixie main]
 ├── is installed
 └── General Purpose library for Java
      JCommon is a free general purpose Java class library that is used in
@@ -20654,6 +20654,13 @@ librevenge-0.0-0 0.0.5-3+b2 [Debian/trixie main]
 └── Base Library for writing document interface filters
      librevenge is a base library for writing document import filters. It has
      interfaces for text documents, vector graphics, spreadsheets and presentations.
+
+librewolf 135.0.1-1 [SparkyLinux/sisters main]
+├── is installed
+└── The Librewolf Browser
+
+librewolf 130.0.1-1 [SparkyLinux/sisters main]
+└── The Librewolf Browser
 
 librhino-java 1.7.15-1 [Debian/trixie main]
 ├── is installed
@@ -27207,7 +27214,7 @@ nano 8.3-1 [Debian/trixie main]
       - toggling features while running
       - and full internationalization support
 
-native-architecture 0.2.5 [Debian/trixie main]
+native-architecture 0.2.6 [Debian/trixie main]
 ├── is installed
 └── Declarative native architecture constraint
      This is a meta package that can only satisfy a dependency for the
@@ -27533,6 +27540,17 @@ openssl-provider-legacy 3.4.1-1 [Debian/trixie main]
      Such algorithms have commonly fallen out of use, have been deemed insecure by
      the cryptography community, or something similar.
      For details see OSSL_PROVIDER-legacy man page.
+
+opera-stable 117.0.5408.53 [The Opera web browser/stable non-free]
+└── Fast, secure, easy-to-use web browser
+     Opera is a fast, secure, and user-friendly web browser.
+     It includes a built-in ad blocker, Video pop-out, and free VPN.
+
+opera-stable 117.0.5408.39 [SparkyLinux/sisters main]
+├── is installed
+└── Fast, secure, easy-to-use web browser
+     Opera is a fast, secure, and user-friendly web browser.
+     It includes a built-in ad blocker, Video pop-out, and free VPN.
 
 optipng 0.7.8+ds-1+b1 [Debian/trixie main]
 ├── is installed
@@ -29098,7 +29116,7 @@ python3-tomli 2.2.1-2+b1 [Debian/trixie main]
      to generate binary wheels for most of the widely used platforms,
      so Python 3.11+ users may prefer it over `tomllib` for improved performance.
 
-python3-typeguard 4.4.1-1 [Debian/trixie main]
+python3-typeguard 4.4.2-1 [Debian/trixie main]
 ├── is installed
 └── Run-time type checker for Python
      This library provides run-time type checking for functions defined with
@@ -29821,7 +29839,7 @@ shellcheck 0.10.0-1 [Debian/trixie main]
       * To point out subtle caveats, corner cases and pitfalls, that may cause an
         advanced user's otherwise working script to fail under future circumstances.
 
-shfmt 3.8.0-1+b4 [Debian/trixie main]
+shfmt 3.8.0-1+b5 [Debian/trixie main]
 ├── is installed
 └── format shell programs
      shfmt is shell formatter, which supports POSIX Shell, Bash, and mksh.
@@ -30546,7 +30564,7 @@ uno-libs-private 4:24.8.5-2 [Debian/trixie main]
      This package contains some private UNO/URE libraries which are used by public
      ones (e.g. cppu).
 
-unrar 1:7.1.4-2 [Debian/trixie non-free]
+unrar 1:7.1.5-1 [Debian/trixie non-free]
 ├── is installed
 └── Unarchiver for .rar files (non-free version)
      Unrar can extract files from .rar archives. If you want to create .rar
@@ -31377,7 +31395,7 @@ xfonts-utils 1:7.7+7 [Debian/trixie main]
       - mkfontscale, a program to generate fonts.scale files;
       - fonttosfnt, a program to wrap bitmap fonts in a sfnt (TrueType) wrapper.
 
-xfsprogs 6.12.0-1 [Debian/trixie main]
+xfsprogs 6.13.0-2 [Debian/trixie main]
 ├── is installed
 └── Utilities for managing the XFS filesystem
      A set of commands to use the XFS filesystem, including mkfs.xfs.
