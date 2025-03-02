@@ -2,6 +2,10 @@
 
 if ! command -v zvm >/dev/null 2>&1; then
   curl https://raw.githubusercontent.com/tristanisham/zvm/master/install.sh | bash
+
+  export ZVM_INSTALL="$HOME/.zvm/self"
+  export PATH="$PATH:$HOME/.zvm/bin"
+  export PATH="$PATH:$ZVM_INSTALL/"
 else
   zvm upgrade
 fi

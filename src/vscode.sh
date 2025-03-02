@@ -43,8 +43,11 @@ code --list-extensions >~/.dotfiles/src/vscode/vscode-extensions-after.txt
 
 sh ~/.dotfiles/src/vscode/vscode-font-switch.sh
 
+touch ~/.config/Code/User/settings.json
 touch ~/.dotfiles/src/vscode/vscode-settings-before.jsonc
 cp ~/.config/Code/User/settings.json ~/.dotfiles/src/vscode/vscode-settings-after.jsonc
 
+
+touch ~/.config/Code/User/keybindings.json
 touch ~/.dotfiles/src/vscode/vscode-keybindings-before.jsonc
 cp ~/.config/Code/User/keybindings.json ~/.dotfiles/src/vscode/vscode-keybindings-after.jsonc

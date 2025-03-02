@@ -141,6 +141,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.preferredDarkColorTheme": "Adwaita Dark",
   "workbench.preferredLightColorTheme": "Adwaita Light",
+  "workbench.productIconTheme": "adwaita",
   "workbench.tree.indent": 12,
   "workspaceWizard.general.workspacesFolder": "/home/yunieralvarez/Projects/workspaces",
   "zig.path": "zig",

@@ -16,12 +16,11 @@
   "count_daily" : "5",
   "count_hourly" : "6",
   "count_boot" : "5",
-  "snapshot_size" : "54193564089",
-  "snapshot_count" : "502105",
+  "snapshot_size" : "54039414304",
+  "snapshot_count" : "507674",
   "date_format" : "%Y-%m-%d %H:%M:%S",
   "exclude" : [
-    "/home/yunieralvarez/**",
-    "/var/lib/libvirt/**",
+    "/home/tron/**",
     "/root/**"
   ],
   "exclude-apps" : []

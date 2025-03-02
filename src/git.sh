@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+git clone git@gitlab.com:yunieralvarez/dotfiles.git /run/media/tron/External/Dotfiles
+
 git clone git@github.com:eunier/dotfiles.git ~/Projects/com.github.eunier.dotfiles/dotfiles
 git clone git@gitlab.com:yunieralvarez/game-top-down-shooter-rs.git ~/Projects/com.gitlab.yunieralvarez.game-top-down-shooter-rs/game-top-dow-shooter-rs
 git clone git@gitlab.com:yunieralvarez/godot-first-person-shooter-demo.git ~/Projects/com.gitlab.yunieralvarez.godot-first-person-shooter-demo/godot-first-person-shooter-demo

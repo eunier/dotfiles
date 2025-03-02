@@ -1,15 +1,4 @@
-Package: progress-tracker
-Version: 1.6.0
-Architecture: amd64
-Installed: yes
-Priority: optional
-Essential: no
-Section: gnome
-Source: progress-tracker
-Maintainer: Gabriel de Moura
-Installed-Size: 926 KB
-Depends: libgtkmm-4.0-0, libadwaita-1-0, libtinyxml2-10
-Homepage: https://github.com/smolBlackCat/progress-tracker
-APT-Sources: local install
-Description: Simple app for kanban todo lists
+Progress	Kanban-style task organiser	io.github.smolblackcat.Progress	1.6.0	stable	flathub
+Progress	Kanban-style task organiser	io.github.smolblackcat.Progress	1.6.0	stable	flathub
+Progress	Kanban-style task organiser	io.github.smolblackcat.Progress	1.6.0	stable	flathub
 Progress	Kanban-style task organiser	io.github.smolblackcat.Progress	1.6.0	stable	flathub

@@ -14,6 +14,8 @@
 .dotfiles/package.json
 .dotfiles/scripts/rm-before-after-files.sh
 .dotfiles/src/apt.sh
+.dotfiles/src/apt/apt-sources-list-after.txt
+.dotfiles/src/apt/apt-sources-list-before.txt
 .dotfiles/src/autostart.sh
 .dotfiles/src/autostart/autostart-after.txt
 .dotfiles/src/autostart/autostart-before.txt
@@ -29,6 +31,7 @@
 .dotfiles/src/dconf/dconf-filter.ts
 .dotfiles/src/dconf/dconf-raw-after.conf
 .dotfiles/src/diff.sh
+.dotfiles/src/diff/diff-apt-sources-list.sh
 .dotfiles/src/diff/diff-autostart.sh
 .dotfiles/src/diff/diff-beaver-notes.sh
 .dotfiles/src/diff/diff-dconf.sh
@@ -83,6 +86,7 @@
 .dotfiles/src/nala/nala-list-installed-before.txt
 .dotfiles/src/node.sh
 .dotfiles/src/ollama.sh
+.dotfiles/src/sync.sh
 .dotfiles/src/syncthing.sh
 .dotfiles/src/syncthing/syncthing-config-after.json
 .dotfiles/src/syncthing/syncthing-config-before.json

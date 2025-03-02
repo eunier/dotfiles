@@ -40,3 +40,6 @@ if ! command -v nala /dev/null 2>&1; then
   sudo apt upgrade
   sudo apt install nala
 fi
+
+touch ~/.dotfiles/src/apt/apt-sources-list-before.txt
+cat /etc/apt/sources.list > ~/.dotfiles/src/apt/apt-sources-list-after.txt
