@@ -1,0 +1,149 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "mkhl.shfmt"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[zig]": {
+    "editor.defaultFormatter": "ziglang.vscode-zig",
+    "editor.formatOnSave": true,
+    "editor.stickyScroll.defaultModel": "foldingProviderModel",
+    "editor.tabSize": 4,
+    "files.eol": "\n"
+  },
+  "cSpell.userWords": [
+    "anyerror",
+    "comptime",
+    "deinit",
+    "fini",
+    "gamedev",
+    "heightmap",
+    "iciclesoft",
+    "libc",
+    "multihash",
+    "orama",
+    "raylib",
+    "rpinski",
+    "Trunc",
+    "usingnamespace",
+    "usize",
+    "workspacesort",
+    "worktree",
+    "yunieralvarez",
+    "zflecs",
+    "zigversion"
+  ],
+  "chat.commandCenter.enabled": false,
+  "debug.console.fontFamily": "Cascadia Code",
+  "debug.javascript.autoAttachFilter": "smart",
+  "debug.toolBarLocation": "commandCenter",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.codeLensFontFamily": "Cascadia Code",
+  "editor.fontFamily": "Cascadia Code, Fira Code, JetBrains Mono, Monoid, Noto Mono, Ubuntu Mono, 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 14,
+  "editor.fontWeight": "600",
+  "editor.formatOnSave": true,
+  "editor.renderLineHighlight": "none",
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment.line.documentation.zig",
+          "comment.line.double-slash.zig",
+          "comment.line.number-sign.shell",
+          "entity.name.type.alias.ts",
+          "entity.name.type.interface.ts",
+          "entity.name.type.ts",
+          "keyword.control.as.ts",
+          "keyword.control.conditional.ts",
+          "keyword.control.flow.ts",
+          "keyword.control.from.ts",
+          "keyword.control.import.ts",
+          "keyword.control.loop.ts",
+          "keyword.control.satisfies.ts",
+          "keyword.control.trycatch.ts",
+          "keyword.operator.expression.of.ts",
+          "keyword.operator.expression.typeof.ts",
+          "keyword.operator.new.ts",
+          "keyword.todo.zig",
+          "meta.block.ts",
+          "meta.shebang.shell",
+          "punctuation.definition.comment.shebang.shell",
+          "punctuation.definition.comment.shell",
+          "source.shell",
+          "storage.modifier.ts",
+          "storage.type.interface.ts",
+          "storage.type.ts",
+          "storage.type.type.ts",
+          "support.type.builtin.ts",
+          "support.type.primitive.ts",
+          "variable.parameter"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "editor.wordWrap": "on",
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "afterDelay",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "always",
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "material-icon-theme.files.associations": {
+    ".zigversion": "lock"
+  },
+  "material-icon-theme.folders.theme": "classic",
+  "material-icon-theme.saturation": 1,
+  "outline.collapseItems": "alwaysCollapse",
+  "prettier.tabWidth": 2,
+  "sortEditors.sortEditorsAutomatically": true,
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "600",
+  "terminal.integrated.fontWeightBold": "700",
+  "todo-tree.highlights.enabled": false,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "window.autoDetectColorScheme": true,
+  "window.commandCenter": true,
+  "window.customTitleBarVisibility": "auto",
+  "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${profileName}${separator}${appName}",
+  "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "Adwaita Dark",
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.preferredDarkColorTheme": "Adwaita Dark",
+  "workbench.preferredLightColorTheme": "Adwaita Light",
+  "workbench.tree.indent": 12,
+  "workspaceWizard.general.workspacesFolder": "/home/yunieralvarez/Projects/workspaces",
+  "zig.path": "zig",
+  "zig.zls.enabled": "on",
+  "zig.zls.inlayHintsExcludeSingleArgument": false
+}
