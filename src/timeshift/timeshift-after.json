@@ -1,6 +1,6 @@
 {
   "backup_device_uuid" : "2fe22e18-8e10-4210-a44a-99a7083fdaa3",
-  "parent_device_uuid" : "2fe22e18-8e10-4210-a44a-99a7083fdaa3",
+  "parent_device_uuid" : "",
   "do_first_run" : "false",
   "btrfs_mode" : "false",
   "include_btrfs_home_for_backup" : "false",
@@ -20,8 +20,7 @@
   "snapshot_count" : "0",
   "date_format" : "%Y-%m-%d %H:%M:%S",
   "exclude" : [
-    "/home/tron/**",
-    "/root/**"
+    "/home/tron/**"
   ],
   "exclude-apps" : []
 }
