@@ -19,7 +19,11 @@ const data: Data = (
 
 const ignoreMap = new Map<string, string[]>();
 
-ignoreMap.set("[com/raggesilver/BlackBox]", ["was-maximized="]);
+ignoreMap.set("[com/raggesilver/BlackBox]", [
+	"was-maximized=",
+	"window-height=",
+	"window-width=",
+]);
 
 ignoreMap.set("[org/gnome/shell/extensions/caffeine]", [
 	"indicator-position-max=",
@@ -35,6 +39,14 @@ ignoreMap.set("[org/gnome/software]", [
 ]);
 
 ignoreMap.set("[org/gnome/control-center]", ["last-panel="]);
+
+ignoreMap.set("[org/gnome/gitlab/cheywood/Iotas]", [
+	"editor-formatting-bar-visibility=",
+	"first-start=",
+	"last-launched-version=",
+	"nextcloud-prune-threshold",
+	"window-size=",
+]);
 
 const outputArr: string[] = [];
 

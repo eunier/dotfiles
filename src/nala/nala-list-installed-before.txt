@@ -30891,6 +30891,15 @@ vim-tiny 2:9.1.1113-1 [Debian/trixie main]
      If a vim binary is wanted, try one of the following more featureful
      packages: vim, vim-nox, vim-motif, or vim-gtk3.
 
+vivaldi-stable 7.1.3570.58-1 [SparkyLinux/sisters main]
+├── is installed
+└── Experience the web in a whole new way with Vivaldi.
+     Vivaldi is a browser that has the features you need, a style that fits and values you can stand by. Your browser matters. Take control with Vivaldi.
+
+vivaldi-stable 7.1.3570.54-1 [Official Vivaldi package repository/ main]
+└── Experience the web in a whole new way with Vivaldi.
+     Vivaldi is a browser that has the features you need, a style that fits and values you can stand by. Your browser matters. Take control with Vivaldi.
+
 w3m 0.5.3+git20230121-2.1 [Debian/trixie main]
 ├── is installed
 └── WWW browsable pager with excellent tables/frames support
