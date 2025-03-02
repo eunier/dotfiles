@@ -1,6 +1,8 @@
-/home/tron/.config/autostart  [error opening dir]
+/home/tron/.config/autostart
+└── syncthing-start.desktop
 
-0 directories, 0 files
-/home/tron/.config/autostart  [error opening dir]
+1 directory, 1 file
+[drwxr-xr-x tron     tron              46 Mar  2 18:25]  /home/tron/.config/autostart
+└── [-rw-r--r-- tron     tron             308 Mar  2 18:25]  syncthing-start.desktop
 
-0 directories, 0 files
+1 directory, 1 file
