@@ -56,9 +56,11 @@
 .dotfiles/src/fastfetch/fastfetch-output-after.txt
 .dotfiles/src/fastfetch/fastfetch-output-before.txt
 .dotfiles/src/flatpak.sh
+.dotfiles/src/flatpak/flatpak-install.auto.sh
 .dotfiles/src/flatpak/flatpak-install.ts
 .dotfiles/src/flatpak/flatpak-list-after.txt
 .dotfiles/src/flatpak/flatpak-list-before.txt
+.dotfiles/src/flatpak/flatpak-uninstall.auto.sh
 .dotfiles/src/fmt.sh
 .dotfiles/src/fonts.sh
 .dotfiles/src/git.sh

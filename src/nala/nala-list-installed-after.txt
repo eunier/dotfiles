@@ -515,6 +515,18 @@ avahi-daemon 0.8-16 [Debian/trixie main]
      on the network and allows other applications to publish and resolve
      mDNS/DNS-SD records.
 
+avahi-utils 0.8-16 [Debian/trixie main]
+├── is installed
+└── Avahi browsing, publishing and discovery utilities
+     Avahi is a fully LGPL framework for Multicast DNS Service Discovery.
+     It allows programs to publish and discover services and hosts
+     running on a local network with no specific configuration.  For
+     example you can plug into a network and instantly find printers to
+     print to, files to look at and people to talk to.
+     .
+     This package contains several utilities that allow you to interact with
+     the Avahi daemon, including publish, browsing and discovering services.
+
 b43-fwcutter 1:019-13 [Debian/trixie contrib]
 ├── is installed
 └── utility for extracting Broadcom 43xx firmware
@@ -910,6 +922,31 @@ cargo 1.84.0+dfsg1-2 [Debian/trixie main]
      .
      Cargo downloads your Rust project's dependencies and compiles your
      project.
+
+chromium 133.0.6943.126-1+b1 [Debian/trixie main]
+├── is installed
+└── web browser
+     Web browser that aims to build a safer, faster, and more stable internet
+     browsing experience.
+     .
+     This package contains the web browser component.
+
+chromium-common 133.0.6943.126-1+b1 [Debian/trixie main]
+├── is installed
+└── web browser - common resources used by the chromium packages
+     Web browser that aims to build a safer, faster, and more stable internet
+     browsing experience.
+     .
+     This package contains resources that are in common to different chromium
+     packages.
+
+chromium-sandbox 133.0.6943.126-1+b1 [Debian/trixie main]
+├── is installed
+└── web browser - setuid security sandbox for chromium
+     Web browser that aims to build a safer, faster, and more stable internet
+     browsing experience.
+     .
+     This package contains the setuid chromium sandbox.
 
 clang 1:19.0-63 [Debian/trixie main]
 ├── is installed
@@ -6512,6 +6549,14 @@ gir1.2-gweather-4.0 4.4.4-1 [Debian/trixie main]
      It can be used by packages using the GIRepository format to generate
      dynamic bindings.
 
+gir1.2-handy-1 1.8.3-2 [Debian/trixie main]
+├── is installed
+└── GObject introspection files for libhandy
+     libhandy provides GTK widgets and GObjects to ease developing
+     applications for mobile phones.
+     .
+     This package contains the GObject-introspection data in binary typelib format.
+
 gir1.2-harfbuzz-0.0 10.2.0-1 [Debian/trixie main]
 ├── is installed
 └── OpenType text shaping engine (GObject introspection data)
@@ -6654,6 +6699,19 @@ gir1.2-notify-0.7 0.8.4-1 [Debian/trixie main]
      .
      This package can be used by other packages using the GIRepository format to
      generate dynamic bindings.
+
+gir1.2-packagekitglib-1.0 1.3.0-3 [Debian/trixie main]
+├── is installed
+└── GObject introspection data for the PackageKit GLib library
+     PackageKit allows performing simple software management tasks over a DBus
+     interface e.g. refreshing the cache, updating, installing and removing
+     software packages or searching for multimedia codecs and file handlers.
+     .
+     This package contains introspection data for the PackageKit
+     GLib interface library.
+     .
+     It can be used by packages using the GIRepository format to generate
+     dynamic bindings.
 
 gir1.2-panel-1 1.9.0-1 [Debian/trixie main]
 ├── is installed
@@ -25874,6 +25932,16 @@ libxnnpack0.20241108 0.0~git20241108.4ea82e5-1 [Debian/trixie main]
      .
      This package contains the shared object.
 
+libxnvctrl0 535.171.04-1+b2 [Debian/trixie main]
+├── is installed
+└── NV-CONTROL X extension (runtime library)
+     The NV-CONTROL X extension provides a mechanism for X clients to
+     query and set configuration parameters of the NVIDIA X driver.
+     State set by the NV-CONTROL X extension is assumed to be persistent
+     only for the current server generation.
+     .
+     This package contains the shared library.
+
 libxpm4 1:3.5.17-1+b3 [Debian/trixie main]
 ├── is installed
 └── X11 pixmap library
@@ -30157,6 +30225,17 @@ syncthing-gtk 0.9.4.4+ds+git20221205+12a9702d29ab-6 [Debian/trixie main]
      It also provides desktop integration with various file managers
      (Nautilus, Nemo and Caja) as well as with the desktop
      environment in the form of an app indicator.
+
+system-config-printer 1.5.18-3 [Debian/trixie main]
+├── is installed
+└── graphical interface to configure the printing system
+     System-config-printer is a GUI written in Python using GTK+ to
+     configure a CUPS server. Its primary use is to configure the printing
+     system on the local host, but can also be used to setup a remote
+     printer.
+     .
+     In terms of features, it aims to be as complete as the CUPS web
+     administration tool, while being integrated to the desktop.
 
 system-config-printer-common 1.5.18-3 [Debian/trixie main]
 ├── is installed

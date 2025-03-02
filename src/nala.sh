@@ -26,6 +26,7 @@ sudo nala install \
     beaver-notes \
     blackbox-terminal \
     build-essential \
+    chromium \
     code \
     curl \
     dconf-editor \
