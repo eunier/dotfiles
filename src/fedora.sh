@@ -23,9 +23,9 @@ sh ~/.dotfiles/src/tree.sh
 sh ~/.dotfiles/src/vscode.sh
 sh ~/.dotfiles/src/gitlab.sh
 
-# sudo timeshift --check
+sudo timeshift --check
 
-# sh ~/.dotfiles/src/diff.sh
+sh ~/.dotfiles/src/diff.sh
 sh ~/.dotfiles/src/git/git-sync-repo.sh
 
 fastfetch
