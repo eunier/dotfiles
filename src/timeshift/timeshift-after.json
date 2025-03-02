@@ -1,6 +1,6 @@
 {
   "backup_device_uuid" : "2fe22e18-8e10-4210-a44a-99a7083fdaa3",
-  "parent_device_uuid" : "",
+  "parent_device_uuid" : "2fe22e18-8e10-4210-a44a-99a7083fdaa3",
   "do_first_run" : "false",
   "btrfs_mode" : "false",
   "include_btrfs_home_for_backup" : "false",
@@ -16,8 +16,8 @@
   "count_daily" : "5",
   "count_hourly" : "6",
   "count_boot" : "5",
-  "snapshot_size" : "54039414304",
-  "snapshot_count" : "507674",
+  "snapshot_size" : "0",
+  "snapshot_count" : "0",
   "date_format" : "%Y-%m-%d %H:%M:%S",
   "exclude" : [
     "/home/tron/**",

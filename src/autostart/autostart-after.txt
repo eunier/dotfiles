@@ -1,6 +1,6 @@
-/home/tron/.config/autostart
+/home/tron/.config/autostart  [error opening dir]
 
 0 directories, 0 files
-[drwxr-xr-x tron     tron               0 Mar  2 15:12]  /home/tron/.config/autostart
+/home/tron/.config/autostart  [error opening dir]
 
 0 directories, 0 files

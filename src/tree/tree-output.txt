@@ -107,8 +107,6 @@
 │   │                   └── top-down-game
 │   │                       └── TODO.md
 │   ├── gitlab
-│   │   ├── gitlab-auth.sh
-│   │   ├── gitlab-auth-status.txt
 │   │   ├── gitlab-auth.ts
 │   │   └── gitlab-repo-create.md
 │   ├── gitlab.sh
@@ -165,4 +163,4 @@
 └── .vscode
     └── settings.json
 
-36 directories, 130 files
+36 directories, 128 files
