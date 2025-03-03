@@ -37,6 +37,7 @@ sudo dnf upgrade
 # sudo dnf autoremove
 
 sudo dnf install \
+    alsa-lib-devel \
     Beaver-notes \
     brave-browser \
     cargo \
@@ -62,7 +63,21 @@ sudo dnf install \
     jetbrains-mono-fonts \
     jetbrains-mono-nl-fonts \
     keepassxc \
+    libatomic \
     librewolf \
+    libX11 \
+    libX11-devel \
+    libXcursor-devel \
+    libXext \
+    libXext-devel \
+    libXfixes-devel \
+    libXi-devel \
+    libXinerama-devel \
+    libXrandr \
+    libXrandr-devel \
+    mesa-dri-drivers \
+    mesa-libGL \
+    mesa-libGL-devel \
     morewaita-icon-theme \
     mullvad-vpn \
     opendoas \
