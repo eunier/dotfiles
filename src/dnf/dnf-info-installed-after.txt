@@ -24360,12 +24360,12 @@ Vendor          : Fedora Project
 
 Name            : libvncserver
 Epoch           : 0
-Version         : 0.9.14
-Release         : 5.fc41
+Version         : 0.9.15
+Release         : 3.fc41
 Architecture    : x86_64
 Installed size  : 1.0 MiB
-Source          : libvncserver-0.9.14-5.fc41.src.rpm
-From repository : anaconda
+Source          : libvncserver-0.9.15-3.fc41.src.rpm
+From repository : updates
 Summary         : Library to make writing a VNC server easy
 URL             : http://libvnc.github.io/
 License         : GPL-2.0-or-later
