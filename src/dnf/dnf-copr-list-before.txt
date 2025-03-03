@@ -1,0 +1,2 @@
+copr.fedorainfracloud.org/dusansimic/themes
+copr.fedorainfracloud.org/phracek/PyCharm
