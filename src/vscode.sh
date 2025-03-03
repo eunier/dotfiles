@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 code --update-extensions
+echo "Installing code extensions..."
 
 code --install-extension aswinkumar863.sort-editors >/dev/null 2>&1 && printf "."
 code --install-extension biomejs.biome >/dev/null 2>&1 && printf "."
@@ -38,6 +39,7 @@ code --install-extension vadimcn.vscode-lldb >/dev/null 2>&1 && printf "."
 code --install-extension zhuangtongfa.Material-theme >/dev/null 2>&1 && printf "."
 code --install-extension ziglang.vscode-zig >/dev/null 2>&1 && printf "."
 
+echo ""
 touch ~/.dotfiles/src/vscode/vscode-extensions-before.txt
 code --list-extensions >~/.dotfiles/src/vscode/vscode-extensions-after.txt
 
