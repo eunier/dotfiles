@@ -1,3 +1,11 @@
 #!/usr/bin/env bash
 
-cp ~/Projects/com.gitlab.yunieralvarez.repo/repo/zig/top-down-game/TODO.md ~/.dotfiles/src/git/todos/com.gitlab.yunieralvarez.repo/repo/zig/top-down-game/TODO.md
+if [ ! -e "$HOME/Projects/com.gitlab.yunieralvarez.repo/repo/zig/top-down-game/TODO.md" ]; then
+  cp
+  ~/.dotfiles/src/git/todos/com.gitlab.yunieralvarez.repo/repo/zig/top-down-game/TODO.md \
+    ~/Projects/com.gitlab.yunieralvarez.repo/repo/zig/top-down-game/TODO.md
+fi
+
+cp \
+  ~/Projects/com.gitlab.yunieralvarez.repo/repo/zig/top-down-game/TODO.md \
+  ~/.dotfiles/src/git/todos/com.gitlab.yunieralvarez.repo/repo/zig/top-down-game/TODO.md

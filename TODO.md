@@ -6,6 +6,7 @@ Project Description
 
 ### Todo
 
+- [ ] switch to gnome shell light mode  
 - [ ] Save Brave bookmark  
 - [ ] Install ghostty  
 - [ ] Make cli instead of aliases  
