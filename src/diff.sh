@@ -7,8 +7,7 @@ sh ~/.dotfiles/src/diff/diff-doas.sh
 # sh ~/.dotfiles/src/diff/diff-fastfetch-output.sh
 sh ~/.dotfiles/src/diff/diff-flatpak.sh
 sh ~/.dotfiles/src/diff/diff-git-repos.sh
-# sh ~/.dotfiles/src/diff/diff-homebrew.sh
-# sh ~/.dotfiles/src/diff/diff-syncthing-config.sh
+sh ~/.dotfiles/src/diff/diff-syncthing-config.sh
 # sh ~/.dotfiles/src/diff/diff-timeshift.sh
 # sh ~/.dotfiles/src/diff/diff-tree.sh
 # sh ~/.dotfiles/src/diff/diff-vscode-extensions.sh
