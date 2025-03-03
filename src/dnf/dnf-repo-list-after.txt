@@ -10,4 +10,5 @@ mullvad-stable                                   Mullvad VPN
 repository                                       LibreWolf Software Repository
 rpmfusion-nonfree-nvidia-driver                  RPM Fusion for Fedora 41 - Nonfree - NVIDIA Driver
 rpmfusion-nonfree-steam                          RPM Fusion for Fedora 41 - Nonfree - Steam
+terra                                            Terra 41
 updates                                          Fedora 41 - x86_64 - Updates

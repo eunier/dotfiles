@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+if ! dnf repolist | grep -q "tototototo"; then
+    # shellcheck disable=SC2154
+    sudo dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
+fi
+
 if ! dnf repolist | grep -q "Brave Browser"; then
     sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 fi
@@ -53,6 +58,7 @@ sudo dnf install \
     flatpak \
     flatseal \
     geary \
+    ghostty \
     git \
     gitg \
     glab \

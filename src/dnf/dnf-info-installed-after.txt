@@ -8207,6 +8207,76 @@ Description     : This package provides utilities for formatting and printing te
                 : Hint Stream of a linearized PDF file.
 Vendor          : Fedora Project
 
+Name            : ghostty
+Epoch           : 0
+Version         : 1.1.2
+Release         : 2.fc41
+Architecture    : x86_64
+Installed size  : 31.1 MiB
+Source          : ghostty-1.1.2-2.fc41.src.rpm
+From repository : terra
+Summary         : A fast, native terminal emulator written in Zig.
+URL             : https://ghostty.org/
+License         : MIT AND MPL-2.0 AND OFL-1.1 AND (WTFPL OR CC0-1.0) AND Apache-2.0
+Description     : 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
+Vendor          : <NULL>
+
+Name            : ghostty-bash-completion
+Epoch           : 0
+Version         : 1.1.2
+Release         : 2.fc41
+Architecture    : noarch
+Installed size  : 20.0 KiB
+Source          : ghostty-1.1.2-2.fc41.src.rpm
+From repository : terra
+Summary         : Ghostty Bash completion
+URL             : https://ghostty.org/
+License         : MIT AND MPL-2.0 AND OFL-1.1 AND (WTFPL OR CC0-1.0) AND Apache-2.0
+Description     : Bash shell completion for Ghostty.
+Vendor          : <NULL>
+
+Name            : ghostty-fish-completion
+Epoch           : 0
+Version         : 1.1.2
+Release         : 2.fc41
+Architecture    : noarch
+Installed size  : 17.6 KiB
+Source          : ghostty-1.1.2-2.fc41.src.rpm
+From repository : terra
+Summary         : Ghostty Fish completion
+URL             : https://ghostty.org/
+License         : MIT AND MPL-2.0 AND OFL-1.1 AND (WTFPL OR CC0-1.0) AND Apache-2.0
+Description     : Fish shell completion for Ghostty.
+Vendor          : <NULL>
+
+Name            : ghostty-shell-integration
+Epoch           : 0
+Version         : 1.1.2
+Release         : 2.fc41
+Architecture    : noarch
+Installed size  : 46.5 KiB
+Source          : ghostty-1.1.2-2.fc41.src.rpm
+From repository : terra
+Summary         : Ghostty shell integration
+URL             : https://ghostty.org/
+License         : MIT AND MPL-2.0 AND OFL-1.1 AND (WTFPL OR CC0-1.0) AND Apache-2.0
+Description     : This package contains files allowing Ghostty to integrate with various shells.
+Vendor          : <NULL>
+
+Name            : ghostty-terminfo
+Epoch           : 0
+Version         : 1.1.2
+Release         : 2.fc41
+Architecture    : noarch
+Installed size  : 7.5 KiB
+Source          : ghostty-1.1.2-2.fc41.src.rpm
+From repository : terra
+Summary         : Ghostty terminfo
+URL             : https://ghostty.org/
+License         : MIT AND MPL-2.0 AND OFL-1.1 AND (WTFPL OR CC0-1.0) AND Apache-2.0
+Description     : Ghostty's terminfo. Needed for basic terminal function.
+Vendor          : <NULL>
+
 Name            : giflib
 Epoch           : 0
 Version         : 5.2.2
@@ -17660,6 +17730,22 @@ Name            : libdbusmenu
 Epoch           : 0
 Version         : 16.04.0
 Release         : 28.fc41
+Architecture    : i686
+Installed size  : 547.6 KiB
+Source          : libdbusmenu-16.04.0-28.fc41.src.rpm
+From repository : fedora
+Summary         : Library for passing menus over DBus
+URL             : https://launchpad.net/libdbusmenu
+License         : (LGPL-3.0-only OR LGPL-2.1-only) AND GPL-3.0-only
+Description     : This is a small library designed to make sharing and displaying of menu
+                : structures over DBus simple and easy to use. It works for both QT and GTK+ and
+                : makes building menus simple.
+Vendor          : Fedora Project
+
+Name            : libdbusmenu
+Epoch           : 0
+Version         : 16.04.0
+Release         : 28.fc41
 Architecture    : x86_64
 Installed size  : 540.3 KiB
 Source          : libdbusmenu-16.04.0-28.fc41.src.rpm
@@ -17670,6 +17756,20 @@ License         : (LGPL-3.0-only OR LGPL-2.1-only) AND GPL-3.0-only
 Description     : This is a small library designed to make sharing and displaying of menu
                 : structures over DBus simple and easy to use. It works for both QT and GTK+ and
                 : makes building menus simple.
+Vendor          : Fedora Project
+
+Name            : libdbusmenu-gtk3
+Epoch           : 0
+Version         : 16.04.0
+Release         : 28.fc41
+Architecture    : i686
+Installed size  : 83.8 KiB
+Source          : libdbusmenu-16.04.0-28.fc41.src.rpm
+From repository : fedora
+Summary         : Library for passing menus over DBus - Development files - GTK+2 version - GTK+3 version
+URL             : https://launchpad.net/libdbusmenu
+License         : (LGPL-3.0-only OR LGPL-2.1-only) AND GPL-3.0-only
+Description     : Shared libraries for the libdbusmenu-gtk3 library.
 Vendor          : Fedora Project
 
 Name            : libdbusmenu-gtk3
@@ -36741,11 +36841,11 @@ Vendor          : Fedora Project
 Name            : steam
 Epoch           : 0
 Version         : 1.0.0.82
-Release         : 1.fc41
+Release         : 5.fc41
 Architecture    : i686
 Installed size  : 18.6 MiB
-Source          : steam-1.0.0.82-1.fc41.src.rpm
-From repository : rpmfusion-nonfree-steam
+Source          : steam-1.0.0.82-5.fc41.src.rpm
+From repository : terra
 Summary         : Installer for the Steam software distribution service
 URL             : http://www.steampowered.com/
 License         : Steam License Agreement and MIT
@@ -36754,16 +36854,16 @@ Description     : Steam is a software distribution service with an online store,
                 : and screenshot functionality, and many social features.
                 : 
                 : This package contains the installer for the Steam software distribution service.
-Vendor          : RPM Fusion
+Vendor          : <NULL>
 
 Name            : steam-devices
 Epoch           : 0
 Version         : 1.0.0.82
-Release         : 1.fc41
-Architecture    : i686
-Installed size  : 14.3 KiB
-Source          : steam-1.0.0.82-1.fc41.src.rpm
-From repository : rpmfusion-nonfree-steam
+Release         : 5.fc41
+Architecture    : noarch
+Installed size  : 64.4 KiB
+Source          : steam-1.0.0.82-5.fc41.src.rpm
+From repository : terra
 Summary         : Permissions required by Steam for gaming devices
 URL             : http://www.steampowered.com/
 License         : Steam License Agreement and MIT
@@ -36772,7 +36872,7 @@ Description     : Steam is a software distribution service with an online store,
                 : and screenshot functionality, and many social features.
                 : 
                 : This package contains the necessary permissions for gaming devices.
-Vendor          : RPM Fusion
+Vendor          : <NULL>
 
 Name            : stix-fonts
 Epoch           : 0
@@ -37375,6 +37475,20 @@ Description     : Template-GLib is a templating library for GLib. It includes a 
                 : for faster expansion. You can also define scope, custom functions, and more
                 : with the embedded expression language.
 Vendor          : Fedora Project
+
+Name            : terra-release
+Epoch           : 0
+Version         : 41
+Release         : 4
+Architecture    : noarch
+Installed size  : 672.0   B
+Source          : terra-release-41-4.src.rpm
+From repository : terra
+Summary         : Release package for Terra
+URL             : https://terra.fyralabs.com
+License         : MIT
+Description     : Release package for Terra, containing the Terra repository configuration.
+Vendor          : <NULL>
 
 Name            : tesseract-libs
 Epoch           : 0
