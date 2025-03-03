@@ -32,7 +32,7 @@
 ├── com.gitlab.yunieralvarez.repo-resources
 │   └── repo-resources
 ├── com.gitlab.yunieralvarez.top-down-game
-│   └── top-dow-game
+│   └── top-down-game
 ├── .gnome-builder
 │   ├── CACHEDIR.TAG
 │   ├── flatpak

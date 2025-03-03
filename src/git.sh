@@ -17,7 +17,7 @@ git clone git@gitlab.com:yunieralvarez/repo-resources.git ~/Projects/com.gitlab.
 [ $? -eq 128 ] && printf "."
 git clone git@gitlab.com:yunieralvarez/repo.git ~/Projects/com.gitlab.yunieralvarez.repo/repo >/dev/null 2>&1
 [ $? -eq 128 ] && printf "."
-git clone git@gitlab.com:yunieralvarez/top-down-game.git ~/Projects/com.gitlab.yunieralvarez.top-down-game/top-dow-game >/dev/null 2>&1
+git clone git@gitlab.com:yunieralvarez/top-down-game.git ~/Projects/com.gitlab.yunieralvarez.top-down-game/top-down-game >/dev/null 2>&1
 [ $? -eq 128 ] && printf "."
 git clone https://github.com/libsdl-org/SDL.git ~/Projects/com.github.libsdl-org.SDL/SDL >/dev/null 2>&1
 [ $? -eq 128 ] && printf "."
