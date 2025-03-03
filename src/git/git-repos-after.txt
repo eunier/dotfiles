@@ -40,7 +40,17 @@
 │   └── projects
 ├── ocm.github.raysan5.raylib
 │   └── raylib
-└── org.gitlab.gnome.GNOME.gnome-calendar
-    └── gnome-calendar
+├── org.gitlab.gnome.GNOME.gnome-calendar
+│   └── gnome-calendar
+└── workspaces
+    ├── dotfiles.code-workspace
+    ├── flec-zig-raw-c.code-workspace
+    ├── game-top-dow-shooter.code-workspace
+    ├── inbox.code-workspace
+    ├── raylib-zig.code-workspace
+    ├── repo.code-workspace
+    ├── top-down-game.code-workspace
+    ├── zig.code-workspace
+    └── zig-gamedev.code-workspace
 
-43 directories, 1 file
+44 directories, 10 files
