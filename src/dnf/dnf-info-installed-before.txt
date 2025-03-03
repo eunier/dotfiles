@@ -8207,6 +8207,20 @@ Description     : This package provides utilities for formatting and printing te
                 : Hint Stream of a linearized PDF file.
 Vendor          : Fedora Project
 
+Name            : ghostty
+Epoch           : 0
+Version         : 1.1.2
+Release         : 1.fc41
+Architecture    : x86_64
+Installed size  : 35.1 MiB
+Source          : ghostty-1.1.2-1.fc41.src.rpm
+From repository : copr:copr.fedorainfracloud.org:pgdev:ghostty
+Summary         : Fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration
+URL             : https://github.com/ghostty-org/ghostty
+License         : MIT
+Description     : Fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
+Vendor          : Fedora Copr - user pgdev
+
 Name            : giflib
 Epoch           : 0
 Version         : 5.2.2

@@ -1,2 +1,3 @@
 copr.fedorainfracloud.org/dusansimic/themes
+copr.fedorainfracloud.org/pgdev/ghostty
 copr.fedorainfracloud.org/phracek/PyCharm
