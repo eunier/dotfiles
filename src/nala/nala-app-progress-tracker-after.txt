@@ -18,3 +18,5 @@ Progress	Kanban-style task organiser	io.github.smolblackcat.Progress	1.6.0	stabl
 Progress	Kanban-style task organiser	io.github.smolblackcat.Progress	1.6.0	stable	flathub
 Progress	Kanban-style task organiser	io.github.smolblackcat.Progress	1.6.0	stable	flathub
 Progress	Kanban-style task organiser	io.github.smolblackcat.Progress	1.6.0	stable	flathub
+Progress	Kanban-style task organiser	io.github.smolblackcat.Progress	1.6.0	stable	flathub
+Progress	Kanban-style task organiser	io.github.smolblackcat.Progress	1.6.0	stable	flathub

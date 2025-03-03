@@ -1,8 +1,20 @@
 /home/tron/.config/autostart
+├── com.mardojai.ForgeSparks.desktop
+├── @filendesktop.desktop
+├── io.gitlab.news_flash.NewsFlash.desktop
+├── mullvad-vpn.desktop
+├── org.gnome.Solanum.desktop
+├── steam.desktop
 └── syncthing-start.desktop
 
-1 directory, 1 file
-[drwxr-xr-x tron     tron              46 Mar  2 18:25]  /home/tron/.config/autostart
+1 directory, 7 files
+[drwxr-xr-x tron     tron             342 Mar  2 19:21]  /home/tron/.config/autostart
+├── [-rw-r--r-- tron     tron            2255 Mar  2 19:20]  com.mardojai.ForgeSparks.desktop
+├── [-rw-r--r-- tron     tron             183 Mar  2 19:20]  @filendesktop.desktop
+├── [-rw-r--r-- tron     tron            3096 Mar  2 19:20]  io.gitlab.news_flash.NewsFlash.desktop
+├── [-rw-r--r-- tron     tron             195 Mar  2 19:21]  mullvad-vpn.desktop
+├── [-rw-r--r-- tron     tron            3386 Mar  2 19:21]  org.gnome.Solanum.desktop
+├── [-rw-r--r-- tron     tron            7473 Mar  2 19:21]  steam.desktop
 └── [-rw-r--r-- tron     tron             308 Mar  2 18:25]  syncthing-start.desktop
 
-1 directory, 1 file
+1 directory, 7 files
