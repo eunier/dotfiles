@@ -8,8 +8,8 @@
 └── syncthing-start.desktop
 
 1 directory, 7 files
-[drwxr-xr-x tron     tron             342 Mar  2 19:21]  /home/tron/.config/autostart
-├── [-rw-r--r-- tron     tron            2255 Mar  2 19:20]  com.mardojai.ForgeSparks.desktop
+[drwxr-xr-x tron     tron             342 Mar  2 22:36]  /home/tron/.config/autostart
+├── [-rw-r--r-- tron     tron            2255 Mar  2 22:36]  com.mardojai.ForgeSparks.desktop
 ├── [-rw-r--r-- tron     tron             183 Mar  2 19:20]  @filendesktop.desktop
 ├── [-rw-r--r-- tron     tron            3096 Mar  2 19:20]  io.gitlab.news_flash.NewsFlash.desktop
 ├── [-rw-r--r-- tron     tron             195 Mar  2 19:21]  mullvad-vpn.desktop
