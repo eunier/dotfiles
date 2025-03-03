@@ -48,6 +48,8 @@ ignoreMap.set("[org/gnome/gitlab/cheywood/Iotas]", [
 	"window-size=",
 ]);
 
+ignoreMap.set("[org/gnome/builder]", ["window-maximized="])
+
 const outputArr: string[] = [];
 
 for (const [key, settings] of data) {
