@@ -1,4 +1,4 @@
-/home/yunieralvarez/Projects
+/home/tron/Projects
 ├── com.github.eunier.dotfiles
 │   └── dotfiles
 ├── com.github.libsdl-org.SDL
@@ -32,12 +32,10 @@
 ├── com.gitlab.yunieralvarez.repo-resources
 │   └── repo-resources
 ├── com.gitlab.yunieralvarez.top-down-game
-│   ├── top-dow-game
-│   └── top-down-game
+│   └── top-dow-game
 ├── .gnome-builder
 │   ├── CACHEDIR.TAG
 │   ├── flatpak
-│   ├── flatpak-builder
 │   ├── manuals
 │   └── projects
 ├── ocm.github.raysan5.raylib
@@ -55,4 +53,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-46 directories, 10 files
+44 directories, 10 files
