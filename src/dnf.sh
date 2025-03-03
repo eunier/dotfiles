@@ -4,10 +4,6 @@ if ! dnf repolist | grep -q "Brave Browser"; then
     sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 fi
 
-if ! dnf copr list | grep -q 'copr.fedorainfracloud.org/phracek/PyCharm'; then
-    sudo dnf copr enable dusansimic/themes
-fi
-
 if ! dnf repolist | grep -q "LibreWolf Software Repository"; then
     sudo curl -fsSL https://repo.librewolf.net/librewolf.repo | pkexec tee /etc/yum.repos.d/librewolf.repo
 fi
@@ -19,6 +15,10 @@ fi
 if ! dnf repolist | grep -q "Visual Studio Code"; then
     sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
     echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\nautorefresh=1\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo >/dev/null
+fi
+
+if ! dnf copr list | grep -q 'copr.fedorainfracloud.org/phracek/PyCharm'; then
+    sudo dnf copr enable dusansimic/themes
 fi
 
 if ! command -v beaver-notes /dev/null 2>&1; then
