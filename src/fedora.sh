@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 sh ~/.dotfiles/src/fastfetch.sh
-fastfetch
 sh ~/.dotfiles/src/git/git-sync-repo.sh
 
 sh ~/.dotfiles/src/bun.sh
