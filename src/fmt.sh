@@ -2,5 +2,5 @@
 
 cd ~/.dotfiles || exit
 
-prettier --write .
-biome format --write . > /dev/null 2>&1
+prettier --write . >/dev/null 2>&1
+biome format --write . >/dev/null 2>&1
