@@ -142,7 +142,7 @@
   "workbench.preferredDarkColorTheme": "Adwaita Dark",
   "workbench.preferredLightColorTheme": "Adwaita Light",
   "workbench.tree.indent": 12,
-  "workspaceWizard.general.workspacesFolder": "/home/yunieralvarez/Projects/workspaces",
+  "workspaceWizard.general.workspacesFolder": "/home/tron/Projects/workspaces",
   "zig.path": "zig",
   "zig.zls.enabled": "on",
   "zig.zls.inlayHintsExcludeSingleArgument": false
