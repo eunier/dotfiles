@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-if ! dnf repolist | grep -q "tototototo"; then
-    # shellcheck disable=SC2154
-    sudo dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
-fi
-
 if ! dnf repolist | grep -q "Brave Browser"; then
     sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 fi
@@ -20,6 +15,10 @@ fi
 if ! dnf repolist | grep -q "Visual Studio Code"; then
     sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
     echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\nautorefresh=1\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo >/dev/null
+fi
+
+if ! dnf copr list | grep -q 'copr.fedorainfracloud.org/pgdev/ghostty'; then
+    sudo dnf copr enable pgdev/ghostty
 fi
 
 if ! dnf copr list | grep -q 'copr.fedorainfracloud.org/phracek/PyCharm'; then

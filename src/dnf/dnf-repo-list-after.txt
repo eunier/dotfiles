@@ -2,6 +2,7 @@ repo id                                          repo name
 brave-browser                                    Brave Browser
 code                                             Visual Studio Code
 copr:copr.fedorainfracloud.org:dusansimic:themes Copr repo for themes owned by dusansimic
+copr:copr.fedorainfracloud.org:pgdev:ghostty     Copr repo for ghostty owned by pgdev
 copr:copr.fedorainfracloud.org:phracek:PyCharm   Copr repo for PyCharm owned by phracek
 fedora                                           Fedora 41 - x86_64
 fedora-cisco-openh264                            Fedora 41 openh264 (From Cisco) - x86_64
@@ -10,5 +11,4 @@ mullvad-stable                                   Mullvad VPN
 repository                                       LibreWolf Software Repository
 rpmfusion-nonfree-nvidia-driver                  RPM Fusion for Fedora 41 - Nonfree - NVIDIA Driver
 rpmfusion-nonfree-steam                          RPM Fusion for Fedora 41 - Nonfree - Steam
-terra                                            Terra 41
 updates                                          Fedora 41 - x86_64 - Updates
