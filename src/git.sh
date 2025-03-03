@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-git clone git@gitlab.com:yunieralvarez/dotfiles.git /run/media/tron/External/Dotfiles
+echo "Cloning git repos..."
+
+git clone git@gitlab.com:yunieralvarez/dotfiles.git /run/media/tron/External/Dotfiles >/dev/null 2>&1 && printf "."
 
 git clone git@github.com:eunier/dotfiles.git ~/Projects/com.github.eunier.dotfiles/dotfiles >/dev/null 2>&1 && printf "."
 git clone git@gitlab.com:yunieralvarez/game-top-down-shooter-rs.git ~/Projects/com.gitlab.yunieralvarez.game-top-down-shooter-rs/game-top-dow-shooter-rs >/dev/null 2>&1 && printf "."
@@ -20,8 +22,9 @@ git clone https://github.com/SanderMertens/flecs.git ~/Projects/com.github.Sande
 git clone https://github.com/zig-gamedev/zflecs.git ~/Projects/com.github.zig-gamedev.zflecs/zflecs >/dev/null 2>&1 && printf "."
 git clone https://github.com/zig-gamedev/zig-gamedev.git ~/Projects/com.github.zig-gamedev.zig-gamedev/zig-gamedev >/dev/null 2>&1 && printf "."
 git clone https://github.com/ziglang/zig.git ~/Projects/com.github.ziglang.zig/zig >/dev/null 2>&1 && printf "."
-git clone https://gitlab.gnome.org/GNOME/gnome-calendar.git ~/Projects/org.gitlab.gnome.GNOME.gnome-calendar/gnome-calendar
+git clone https://gitlab.gnome.org/GNOME/gnome-calendar.git ~/Projects/org.gitlab.gnome.GNOME.gnome-calendar/gnome-calendar >/dev/null 2>&1 && printf "."
 
+echo ""
 touch ~/.dotfiles/src/git/git-repos-before.txt
 tree ~/Projects -L 2 -a >~/.dotfiles/src/git/git-repos-after.txt
 sh ~/.dotfiles/src/git/git-sync-remote.sh
