@@ -3,6 +3,7 @@ import { $ } from "bun";
 try {
 	const apps = [
 		// spell-checker: disable
+		"app.drey.KeyRack",
 		"app.zen_browser.zen",
 		"codes.merritt.adventurelist",
 		"com.belmoussaoui.Authenticator",
@@ -55,7 +56,6 @@ try {
 		"org.gnome.World.PikaBackup",
 		"page.codeberg.libre_menu_editor.LibreMenuEditor",
 		"re.sonny.Commit",
-		"run app.drey.KeyRack",
 		"se.sjoerd.Graphs",
 		// spell-checker: enable
 	];

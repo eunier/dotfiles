@@ -15,6 +15,5 @@ sh ~/.dotfiles/src/flatpak/flatpak-install.auto.sh
 touch ~/.dotfiles/src/flatpak/flatpak-list-before.txt
 flatpak list >~/.dotfiles/src/flatpak/flatpak-list-after.txt
 
-flatpak search io.github.smolblackcat.Progress >>~/.dotfiles/src/nala/nala-app-progress-tracker-after.txt
 
 # com.mardojai.ForgeSparks token github com.mardojai.ForgeSparks expires 2026-02-18
