@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cp /etc/dnf/dnf.conf ~/.dotfiles/src/files/etc/dnf/dnf.conf
+
 if ! dnf repolist | grep -q "Brave Browser"; then
     sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 fi
@@ -50,7 +52,7 @@ if ! rpm -q rpmfusion-nonfree-release &>/dev/null; then
 fi
 
 sudo dnf upgrade
-# sudo dnf autoremove
+sudo dnf autoremove
 
 sudo dnf install \
     alsa-lib-devel \

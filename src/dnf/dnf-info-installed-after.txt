@@ -3366,21 +3366,6 @@ Description     : This subpackage will handle dependencies common to Podman and 
                 : not required by Skopeo.
 Vendor          : Fedora Project
 
-Name            : copy-jdk-configs
-Epoch           : 0
-Version         : 4.1
-Release         : 6.fc41
-Architecture    : noarch
-Installed size  : 20.3 KiB
-Source          : copy-jdk-configs-4.1-6.fc41.src.rpm
-From repository : anaconda
-Summary         : JDKs configuration files copier
-URL             : https://pagure.io/copy_jdk_configs
-License         : BSD-4.3TAHOE
-Description     : Utility script to transfer JDKs configuration files between updates or for
-                : archiving. With script to fix incorrectly created rpmnew files
-Vendor          : Fedora Project
-
 Name            : coreutils
 Epoch           : 0
 Version         : 9.5
@@ -20642,24 +20627,6 @@ Description     : This package provides the legacy version of libnsl library, fo
                 : applications should use libnsl2 instead to gain IPv6 support.
 Vendor          : Fedora Project
 
-Name            : libnsl
-Epoch           : 0
-Version         : 2.40
-Release         : 21.fc41
-Architecture    : x86_64
-Installed size  : 98.3 KiB
-Source          : glibc-2.40-21.fc41.src.rpm
-From repository : updates
-Summary         : Legacy support library for NIS
-URL             : http://www.gnu.org/software/glibc/
-License         : LGPL-2.1-or-later AND SunPro AND LGPL-2.1-or-later WITH GCC-exception-2.0 AND BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.1-or-later WITH GNU-compiler-exception AND GPL-2.0-only AND ISC AND LicenseRef-Fedora-Public-Domain AND HPND AND CMU-Mach AND LGPL-2.0-or-later AND Unicode-3.0 AND GFDL-1.1-or-later AND GPL-1.0-or-later AND FSFUL AND MIT AND Inner-Net-2.0 AND X11 AND GPL-2.0-or-later WITH GCC-exception-2.0 AND GFDL-1.3-only AND GFDL-1.1-only
-Description     : This package provides the legacy version of libnsl library, for
-                : accessing NIS services.
-                : 
-                : This library is provided for backwards compatibility only;
-                : applications should use libnsl2 instead to gain IPv6 support.
-Vendor          : Fedora Project
-
 Name            : libnsl2
 Epoch           : 0
 Version         : 2.0.1
@@ -25623,27 +25590,6 @@ Description     : This library may be used by user-space applications to generat
                 : trace-points using LTTng.
 Vendor          : Fedora Project
 
-Name            : lua
-Epoch           : 0
-Version         : 5.4.6
-Release         : 6.fc41
-Architecture    : x86_64
-Installed size  : 601.7 KiB
-Source          : lua-5.4.6-6.fc41.src.rpm
-From repository : anaconda
-Summary         : Powerful light-weight programming language
-URL             : https://www.lua.org/
-License         : MIT
-Description     : Lua is a powerful light-weight programming language designed for
-                : extending applications. Lua is also frequently used as a
-                : general-purpose, stand-alone language. Lua is free software.
-                : Lua combines simple procedural syntax with powerful data description
-                : constructs based on associative arrays and extensible semantics. Lua
-                : is dynamically typed, interpreted from bytecodes, and has automatic
-                : memory management with garbage collection, making it ideal for
-                : configuration, scripting, and rapid prototyping.
-Vendor          : Fedora Project
-
 Name            : lua-libs
 Epoch           : 0
 Version         : 5.4.6
@@ -25656,21 +25602,6 @@ Summary         : Libraries for lua
 URL             : https://www.lua.org/
 License         : MIT
 Description     : This package contains the shared libraries for lua.
-Vendor          : Fedora Project
-
-Name            : lua-posix
-Epoch           : 0
-Version         : 36.2.1
-Release         : 7.fc41
-Architecture    : x86_64
-Installed size  : 599.8 KiB
-Source          : lua-posix-36.2.1-7.fc41.src.rpm
-From repository : anaconda
-Summary         : POSIX library for Lua
-URL             : http://luaforge.net/projects/luaposix/
-License         : MIT
-Description     : This is a POSIX library for Lua which provides access to many POSIX features
-                : to Lua programs.
 Vendor          : Fedora Project
 
 Name            : lv2
@@ -29873,22 +29804,6 @@ Description     : If you consult "perldoc -f require" you will see that "require
                 : notation fitting the particular platform you are on.
                 : 
                 : "load" eliminates the need for this overhead and will just DWYM.
-Vendor          : Fedora Project
-
-Name            : perl-Mozilla-CA
-Epoch           : 0
-Version         : 20240730
-Release         : 1.fc41
-Architecture    : noarch
-Installed size  : 9.8 KiB
-Source          : perl-Mozilla-CA-20240730-1.fc41.src.rpm
-From repository : anaconda
-Summary         : Mozilla's CA certificate bundle in PEM format
-URL             : https://metacpan.org/release/Mozilla-CA
-License         : MPL-2.0
-Description     : Mozilla::CA provides a path to ca-certificates copy of Mozilla's bundle of
-                : certificate authority certificates in a form that can be consumed by modules
-                : and libraries based on OpenSSL.
 Vendor          : Fedora Project
 
 Name            : perl-NDBM_File
@@ -36025,22 +35940,6 @@ Description     : The setup package contains a set of important system configura
                 : setup files, such as passwd, group, and profile.
 Vendor          : Fedora Project
 
-Name            : setxkbmap
-Epoch           : 0
-Version         : 1.3.4
-Release         : 4.fc41
-Architecture    : x86_64
-Installed size  : 35.3 KiB
-Source          : setxkbmap-1.3.4-4.fc41.src.rpm
-From repository : anaconda
-Summary         : X11 keymap client
-URL             : https://www.x.org
-License         : HPND
-Description     : setxkbmap is an X11 client to change the keymaps in the X server for a
-                : specified keyboard to use the layout determined by the options listed
-                : on the command line.
-Vendor          : Fedora Project
-
 Name            : sg3_utils-libs
 Epoch           : 0
 Version         : 1.48
@@ -37274,24 +37173,6 @@ License         : LGPL-2.1-or-later AND MIT AND GPL-2.0-or-later
 Description     : systemd-resolved is a system service that provides network name resolution to
                 : local applications. It implements a caching and validating DNS/DNSSEC stub
                 : resolver, as well as an LLMNR and MulticastDNS resolver and responder.
-Vendor          : Fedora Project
-
-Name            : systemd-rpm-macros
-Epoch           : 0
-Version         : 256.11
-Release         : 1.fc41
-Architecture    : noarch
-Installed size  : 10.7 KiB
-Source          : systemd-256.11-1.fc41.src.rpm
-From repository : updates
-Summary         : Macros that define paths and scriptlets related to systemd
-URL             : https://systemd.io
-License         : LGPL-2.1-or-later AND MIT AND GPL-2.0-or-later
-Description     : Just the definitions of rpm macros.
-                : 
-                : See
-                : https://docs.fedoraproject.org/en-US/packaging-guidelines/Scriptlets/#_systemd
-                : for information how to use those macros.
 Vendor          : Fedora Project
 
 Name            : systemd-udev
@@ -38951,20 +38832,6 @@ Description     : Vamp is an API for C and C++ plugins that process sampled audi
                 : to produce descriptive output (measurements or semantic observations).
 Vendor          : Fedora Project
 
-Name            : vapoursynth-libs
-Epoch           : 0
-Version         : 68
-Release         : 3.fc41
-Architecture    : x86_64
-Installed size  : 1.9 MiB
-Source          : vapoursynth-68-3.fc41.src.rpm
-From repository : anaconda
-Summary         : VapourSynth's core library with a C++ API
-URL             : http://www.vapoursynth.com
-License         : LGPLv2
-Description     : VapourSynth's core library with a C++ API.
-Vendor          : Fedora Project
-
 Name            : vazirmatn-vf-fonts
 Epoch           : 0
 Version         : 33.003
@@ -40164,22 +40031,6 @@ Description     : OpenSSL plugin for XML Security Library provides OpenSSL based
                 : for the xmlsec library.
 Vendor          : Fedora Project
 
-Name            : xmodmap
-Epoch           : 0
-Version         : 1.0.11
-Release         : 7.fc41
-Architecture    : x86_64
-Installed size  : 51.4 KiB
-Source          : xmodmap-1.0.11-7.fc41.src.rpm
-From repository : anaconda
-Summary         : Edit and display the X11 core keyboard map
-URL             : https://www.x.org
-License         : MIT AND MIT-open-group
-Description     : The xmodmap program is used to edit and display the keyboard modifier
-                : map and keymap table that are used by client applications to convert
-                : event keycodes into keysyms.
-Vendor          : Fedora Project
-
 Name            : xorg-x11-proto-devel
 Epoch           : 0
 Version         : 2024.1
@@ -40206,35 +40057,6 @@ Summary         : Xwayland
 URL             : http://www.x.org
 License         : MIT
 Description     : Xwayland is an X server for running X clients under Wayland.
-Vendor          : Fedora Project
-
-Name            : xorg-x11-xauth
-Epoch           : 1
-Version         : 1.1.3
-Release         : 2.fc41
-Architecture    : x86_64
-Installed size  : 56.2 KiB
-Source          : xorg-x11-xauth-1.1.3-2.fc41.src.rpm
-From repository : anaconda
-Summary         : X.Org X11 X authority utilities
-URL             : https://www.x.org
-License         : MIT-open-group
-Description     : xauth is used to edit and display the authorization information
-                : used in connecting to an X server.
-Vendor          : Fedora Project
-
-Name            : xorg-x11-xinit
-Epoch           : 0
-Version         : 1.4.3
-Release         : 1.fc41
-Architecture    : x86_64
-Installed size  : 145.0 KiB
-Source          : xorg-x11-xinit-1.4.3-1.fc41.src.rpm
-From repository : updates
-Summary         : X.Org X11 X Window System xinit startup scripts
-URL             : https://www.x.org
-License         : X11-distribute-modifications-variant AND MIT-open-group
-Description     : X.Org X11 X Window System xinit startup scripts.
 Vendor          : Fedora Project
 
 Name            : xprop
@@ -40265,22 +40087,6 @@ License         : HPND-sell-variant
 Description     : xrandr is a commandline utility to set the size, orientation and/or
                 : reflection of the outputs for an X screen. It can also set the screen size
                 : and turn outputs on and off..
-Vendor          : Fedora Project
-
-Name            : xrdb
-Epoch           : 0
-Version         : 1.2.2
-Release         : 4.fc41
-Architecture    : x86_64
-Installed size  : 42.7 KiB
-Source          : xrdb-1.2.2-4.fc41.src.rpm
-From repository : anaconda
-Summary         : X server resource database utility
-URL             : https://www.x.org
-License         : HPND-DEC AND MIT-open-group
-Description     : xrdb is used to get or set the contents of the RESOURCE_MANAGER property on
-                : the root window of screen 0, or the SCREEN_RESOURCES property on the
-                : root window of any or all screens, or everything combined.
 Vendor          : Fedora Project
 
 Name            : xvidcore

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cp ~/.gitconfig ~/.dotfiles/src/files/home/~/.gitconfig
+
 echo "Cloning git repos..."
 
 git clone git@gitlab.com:yunieralvarez/dotfiles.git /run/media/tron/External/Dotfiles >/dev/null 2>&1
