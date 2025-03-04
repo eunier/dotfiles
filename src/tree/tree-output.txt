@@ -87,6 +87,23 @@
 │   │   └── fastfetch-output-before.txt
 │   ├── fastfetch.sh
 │   ├── fedora.sh
+│   ├── files
+│   │   ├── etc
+│   │   │   └── dnf
+│   │   │       └── dnf.conf
+│   │   └── home
+│   │       └── ~
+│   │           ├── .bash_profile
+│   │           ├── .bashrc
+│   │           ├── .config
+│   │           │   ├── Code
+│   │           │   │   └── User
+│   │           │   │       ├── keybindings.json
+│   │           │   │       └── settings.json
+│   │           │   └── fish
+│   │           │       └── config.fish
+│   │           └── .gitconfig
+│   ├── fish.sh
 │   ├── flatpak
 │   │   ├── flatpak-install.auto.sh
 │   │   ├── flatpak-install.ts
@@ -166,4 +183,4 @@
 └── .vscode
     └── settings.json
 
-36 directories, 131 files
+45 directories, 139 files
