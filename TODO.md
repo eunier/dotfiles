@@ -8,30 +8,30 @@ Project Description
 
 - [ ] auto mount backup disk  
 - [ ] track installed gnome extensions  
-- [ ] switch to gnome shell light mode  
 - [ ] Save Brave bookmark  
-- [ ] Install ghostty  
 - [ ] Make cli instead of aliases  
 - [ ] Nerd Fonts  
 - [ ] Polari data  
 - [ ] Avoid calling to install vscode extension if already installed  
 - [ ] Avoid redownlaoding JetBrains font  
 - [ ] nvm doesn't show up on fish  
-- [ ] sync up fish and bash config, aliases  
 - [ ] Music app  
 - [ ] veracrypt  
-- [ ] Don't use yadm  
 - [ ] Do I need to keep a list of installed obsidian plugin and settings?  
 - [ ] NewsFlash: track subscribed rrs  
 - [ ] Change default terminal  
-- [ ] Use zen flatpak or fix icon  
-- [ ] Check if "progress" app nala + flatpak is working  
 
 ### In Progress
 
 
 ### Done ✓
 
+- [x] Check if "progress" app nala + flatpak is working  
+- [x] Use zen flatpak or fix icon  
+- [x] Don't use yadm  
+- [x] sync up fish and bash config, aliases  
+- [x] Install ghostty  
+- [x] switch to gnome shell light mode  
 - [x] add rmpfusion  
 - [x] dconf exclude global settings  
 - [x] vscode font ts file, allow to review settings.json as a argument, different path on mac  
