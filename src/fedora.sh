@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-sh ~/.dotfiles/src/fastfetch.sh
 sh ~/.dotfiles/src/git/git-sync-repo.sh
 
 sh ~/.dotfiles/src/bun.sh
@@ -23,6 +22,8 @@ sh ~/.dotfiles/src/syncthing.sh
 sh ~/.dotfiles/src/timeshift.sh
 sh ~/.dotfiles/src/tree.sh
 sh ~/.dotfiles/src/vscode.sh
+
+sh ~/.dotfiles/src/fastfetch.sh
 
 sh ~/.dotfiles/src/fmt.sh
 sudo timeshift --check
