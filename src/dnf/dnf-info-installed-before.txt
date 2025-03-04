@@ -19824,12 +19824,12 @@ Vendor          : Fedora Project
 
 Name            : liblc3
 Epoch           : 0
-Version         : 1.1.1
-Release         : 3.fc41
+Version         : 1.1.3
+Release         : 1.fc41
 Architecture    : i686
-Installed size  : 174.3 KiB
-Source          : liblc3-1.1.1-3.fc41.src.rpm
-From repository : fedora
+Installed size  : 178.2 KiB
+Source          : liblc3-1.1.3-1.fc41.src.rpm
+From repository : updates
 Summary         : Low Complexity Communication Codec (LC3)
 URL             : https://github.com/google/liblc3
 License         : Apache-2.0
@@ -19841,12 +19841,12 @@ Vendor          : Fedora Project
 
 Name            : liblc3
 Epoch           : 0
-Version         : 1.1.1
-Release         : 3.fc41
+Version         : 1.1.3
+Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 170.9 KiB
-Source          : liblc3-1.1.1-3.fc41.src.rpm
-From repository : anaconda
+Installed size  : 174.9 KiB
+Source          : liblc3-1.1.3-1.fc41.src.rpm
+From repository : updates
 Summary         : Low Complexity Communication Codec (LC3)
 URL             : https://github.com/google/liblc3
 License         : Apache-2.0
@@ -33544,11 +33544,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-audio-alsa
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 32.6 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU ALSA audio driver
 URL             : http://www.qemu.org/
@@ -33558,11 +33558,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-audio-dbus
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 272.1 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU D-Bus audio driver
 URL             : http://www.qemu.org/
@@ -33572,11 +33572,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-audio-jack
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 23.9 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU Jack audio driver
 URL             : http://www.qemu.org/
@@ -33586,11 +33586,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-audio-oss
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 23.8 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU OSS audio driver
 URL             : http://www.qemu.org/
@@ -33600,11 +33600,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-audio-pa
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 31.9 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU PulseAudio audio driver
 URL             : http://www.qemu.org/
@@ -33614,11 +33614,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-audio-pipewire
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 44.7 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU Pipewire audio driver
 URL             : http://www.qemu.org/
@@ -33628,11 +33628,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-audio-sdl
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 23.8 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU SDL audio driver
 URL             : http://www.qemu.org/
@@ -33642,11 +33642,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-audio-spice
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 19.8 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU spice audio driver
 URL             : http://www.qemu.org/
@@ -33656,11 +33656,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-block-blkio
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 36.2 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU blkio block driver
 URL             : http://www.qemu.org/
@@ -33673,11 +33673,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-block-curl
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 36.2 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU CURL block driver
 URL             : http://www.qemu.org/
@@ -33690,11 +33690,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-block-dmg
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 15.3 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU block driver for DMG disk images
 URL             : http://www.qemu.org/
@@ -33706,11 +33706,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-block-gluster
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 35.5 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU Gluster block driver
 URL             : http://www.qemu.org/
@@ -33722,11 +33722,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-block-iscsi
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 54.6 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU iSCSI block driver
 URL             : http://www.qemu.org/
@@ -33738,11 +33738,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-block-nfs
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 33.0 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU NFS block driver
 URL             : http://www.qemu.org/
@@ -33754,11 +33754,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-block-rbd
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 45.0 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU Ceph/RBD block driver
 URL             : http://www.qemu.org/
@@ -33771,11 +33771,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-block-ssh
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 42.6 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU SSH block driver
 URL             : http://www.qemu.org/
@@ -33788,11 +33788,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-char-baum
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 23.7 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU Baum chardev driver
 URL             : http://www.qemu.org/
@@ -33802,11 +33802,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-char-spice
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 24.5 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU spice chardev driver
 URL             : http://www.qemu.org/
@@ -33816,11 +33816,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-common
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 3.1 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU common files needed by all QEMU targets
 URL             : http://www.qemu.org/
@@ -33833,11 +33833,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-device-display-qxl
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 88.7 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU QXL display device
 URL             : http://www.qemu.org/
@@ -33847,11 +33847,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-device-display-vhost-user-gpu
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 731.7 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU QXL display device
 URL             : http://www.qemu.org/
@@ -33861,11 +33861,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-device-display-virtio-gpu
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 71.0 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU virtio-gpu display device
 URL             : http://www.qemu.org/
@@ -33875,11 +33875,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-device-display-virtio-gpu-ccw
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 15.5 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU virtio-gpu-ccw display device
 URL             : http://www.qemu.org/
@@ -33889,11 +33889,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-device-display-virtio-gpu-gl
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 38.0 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU virtio-gpu-gl display device
 URL             : http://www.qemu.org/
@@ -33903,11 +33903,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-device-display-virtio-gpu-pci
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 15.6 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU virtio-gpu-pci display device
 URL             : http://www.qemu.org/
@@ -33917,11 +33917,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-device-display-virtio-gpu-pci-gl
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 15.2 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU virtio-gpu-pci-gl display device
 URL             : http://www.qemu.org/
@@ -33931,11 +33931,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-device-display-virtio-gpu-pci-rutabaga
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 15.3 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU virtio-gpu-pci-rutabaga display device
 URL             : http://www.qemu.org/
@@ -33945,11 +33945,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-device-display-virtio-gpu-rutabaga
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 38.4 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU virtio-gpu-rutabaga display device
 URL             : http://www.qemu.org/
@@ -33959,11 +33959,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-device-display-virtio-vga
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 19.8 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU virtio-vga display device
 URL             : http://www.qemu.org/
@@ -33973,11 +33973,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-device-display-virtio-vga-gl
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 15.4 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU virtio-vga-gl display device
 URL             : http://www.qemu.org/
@@ -33987,11 +33987,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-device-display-virtio-vga-rutabaga
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 15.4 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU virtio-vga-rutabaga display device
 URL             : http://www.qemu.org/
@@ -34001,11 +34001,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-device-usb-host
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 53.0 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU usb host device
 URL             : http://www.qemu.org/
@@ -34015,11 +34015,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-device-usb-redirect
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 72.9 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU usbredir device
 URL             : http://www.qemu.org/
@@ -34029,11 +34029,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-device-usb-smartcard
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 36.7 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU USB smartcard device
 URL             : http://www.qemu.org/
@@ -34043,11 +34043,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-guest-agent
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 962.9 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU guest agent
 URL             : http://www.qemu.org/
@@ -34063,11 +34063,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-img
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 22.9 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU command line tool for manipulating disk images
 URL             : http://www.qemu.org/
@@ -34077,11 +34077,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-kvm
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 0.0   B
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU metapackage for KVM support
 URL             : http://www.qemu.org/
@@ -34093,11 +34093,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-kvm-core
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 0.0   B
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU metapackage for KVM support
 URL             : http://www.qemu.org/
@@ -34109,11 +34109,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-pr-helper
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 959.0 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : qemu-pr-helper utility for qemu
 URL             : http://www.qemu.org/
@@ -34124,11 +34124,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-system-x86
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 0.0   B
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU system emulator for x86
 URL             : http://www.qemu.org/
@@ -34140,11 +34140,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-system-x86-core
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 54.4 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU system emulator for x86
 URL             : http://www.qemu.org/
@@ -34156,11 +34156,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-ui-curses
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 43.8 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU curses UI driver
 URL             : http://www.qemu.org/
@@ -34170,11 +34170,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-ui-egl-headless
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 19.6 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU EGL headless driver
 URL             : http://www.qemu.org/
@@ -34184,11 +34184,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-ui-gtk
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 82.5 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU GTK UI driver
 URL             : http://www.qemu.org/
@@ -34198,11 +34198,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-ui-opengl
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 36.3 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Installed size  : 36.4 KiB
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU opengl support
 URL             : http://www.qemu.org/
@@ -34212,11 +34212,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-ui-sdl
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 44.8 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU SDL UI driver
 URL             : http://www.qemu.org/
@@ -34226,11 +34226,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-ui-spice-app
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 19.6 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU spice-app UI driver
 URL             : http://www.qemu.org/
@@ -34240,11 +34240,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-ui-spice-core
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 63.9 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU spice-core UI driver
 URL             : http://www.qemu.org/
@@ -34254,11 +34254,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 44.6 KiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of qemu targets static build
 URL             : http://www.qemu.org/
@@ -34269,11 +34269,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-aarch64
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 13.5 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of aarch64 qemu targets static build
 URL             : http://www.qemu.org/
@@ -34284,11 +34284,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-alpha
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 3.8 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of alpha qemu targets static build
 URL             : http://www.qemu.org/
@@ -34299,11 +34299,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-arm
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 10.1 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of arm qemu targets static build
 URL             : http://www.qemu.org/
@@ -34314,11 +34314,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-cris
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 3.8 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of cris qemu targets static build
 URL             : http://www.qemu.org/
@@ -34329,11 +34329,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-hexagon
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 5.6 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of hexagon qemu targets static build
 URL             : http://www.qemu.org/
@@ -34344,11 +34344,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-hppa
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 3.9 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of hppa qemu targets static build
 URL             : http://www.qemu.org/
@@ -34359,11 +34359,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-loongarch64
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 4.4 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of loongarch64 qemu targets static build
 URL             : http://www.qemu.org/
@@ -34374,11 +34374,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-m68k
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 4.0 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of m68k qemu targets static build
 URL             : http://www.qemu.org/
@@ -34389,11 +34389,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-microblaze
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 7.6 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of microblaze qemu targets static build
 URL             : http://www.qemu.org/
@@ -34404,11 +34404,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-mips
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 28.8 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of mips qemu targets static build
 URL             : http://www.qemu.org/
@@ -34419,11 +34419,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-or1k
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 3.8 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of or1k qemu targets static build
 URL             : http://www.qemu.org/
@@ -34434,11 +34434,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-ppc
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 14.2 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of ppc qemu targets static build
 URL             : http://www.qemu.org/
@@ -34449,11 +34449,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-riscv
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 10.1 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of riscv qemu targets static build
 URL             : http://www.qemu.org/
@@ -34464,11 +34464,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-s390x
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 4.2 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of s390x qemu targets static build
 URL             : http://www.qemu.org/
@@ -34479,11 +34479,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-sh4
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 7.6 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of sh4 qemu targets static build
 URL             : http://www.qemu.org/
@@ -34494,11 +34494,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-sparc
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 12.0 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of sparc qemu targets static build
 URL             : http://www.qemu.org/
@@ -34509,11 +34509,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-x86
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 9.0 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of x86 qemu targets static build
 URL             : http://www.qemu.org/
@@ -34524,11 +34524,11 @@ Vendor          : Fedora Project
 
 Name            : qemu-user-static-xtensa
 Epoch           : 2
-Version         : 9.1.2
-Release         : 3.fc41
+Version         : 9.1.3
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 13.9 MiB
-Source          : qemu-9.1.2-3.fc41.src.rpm
+Source          : qemu-9.1.3-1.fc41.src.rpm
 From repository : updates
 Summary         : QEMU user mode emulation of xtensa qemu targets static build
 URL             : http://www.qemu.org/
