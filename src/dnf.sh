@@ -37,6 +37,18 @@ if ! command -v @filendesktop /dev/null 2>&1; then
     echo -e "\e[31mDownload '@filendesktop' from 'https://filen.io/products/desktop\e[0m and installed with dnf"
 fi
 
+if ! rpm -q rpmfusion-free-release &>/dev/null; then
+    # shellcheck disable=SC2046
+    sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+    sudo dnf group upgrade core
+fi
+
+if ! rpm -q rpmfusion-nonfree-release &>/dev/null; then
+    # shellcheck disable=SC2046
+    sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+    sudo dnf group upgrade core
+fi
+
 sudo dnf upgrade
 # sudo dnf autoremove
 
@@ -45,6 +57,7 @@ sudo dnf install \
     Beaver-notes \
     brave-browser \
     cargo \
+    discord \
     cascadia-code-fonts \
     cascadia-code-nf-fonts \
     cascadia-code-pl-fonts \

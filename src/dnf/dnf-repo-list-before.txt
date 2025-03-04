@@ -9,6 +9,10 @@ fedora-cisco-openh264                            Fedora 41 openh264 (From Cisco)
 google-chrome                                    google-chrome
 mullvad-stable                                   Mullvad VPN
 repository                                       LibreWolf Software Repository
+rpmfusion-free                                   RPM Fusion for Fedora 41 - Free
+rpmfusion-free-updates                           RPM Fusion for Fedora 41 - Free - Updates
+rpmfusion-nonfree                                RPM Fusion for Fedora 41 - Nonfree
 rpmfusion-nonfree-nvidia-driver                  RPM Fusion for Fedora 41 - Nonfree - NVIDIA Driver
 rpmfusion-nonfree-steam                          RPM Fusion for Fedora 41 - Nonfree - Steam
+rpmfusion-nonfree-updates                        RPM Fusion for Fedora 41 - Nonfree - Updates
 updates                                          Fedora 41 - x86_64 - Updates

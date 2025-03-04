@@ -19,7 +19,9 @@ const data: Data = (
 
 const ignoreMap = new Map<string, string[]>();
 
-ignoreMap.set("[com/raggesilver/BlackBox]", [
+ignoreMap.set("*", [
+	"window-size=",
+	"current-tab=",
 	"was-maximized=",
 	"window-height=",
 	"window-width=",
@@ -52,12 +54,20 @@ ignoreMap.set("[org/gnome/builder]", ["window-maximized="]);
 
 const outputArr: string[] = [];
 
-for (const [key, settings] of data) {
+keyLoop: for (const [key, settings] of data) {
 	outputArr.push(key);
 
 	const ignoredSettings = ignoreMap.get(key);
 
 	for (const setting of settings) {
+		const isSettingGloballyIgnored = ignoreMap
+			.get("*")
+			?.find((s) => setting.startsWith(s));
+
+		if (isSettingGloballyIgnored) {
+			continue keyLoop;
+		}
+
 		if (ignoredSettings) {
 			const shouldIgnoreThisSettings = ignoredSettings.find((s) =>
 				setting.startsWith(s),

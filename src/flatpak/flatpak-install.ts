@@ -5,7 +5,7 @@ try {
 		// spell-checker: disable
 		"app.zen_browser.zen",
 		"com.belmoussaoui.Authenticator",
-		"com.discordapp.Discord",
+		// "com.discordapp.Discord",
 		"com.github.Anuken.Mindustry",
 		"com.github.libresprite.LibreSprite",
 		"com.mardojai.ForgeSparks",

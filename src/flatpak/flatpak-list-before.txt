@@ -1,6 +1,5 @@
 Zen	app.zen_browser.zen	1.8.2b	stable	system
 Authenticator	com.belmoussaoui.Authenticator	4.5.0	stable	system
-Discord	com.discordapp.Discord	0.0.87	stable	system
 Mindustry	com.github.Anuken.Mindustry	146	stable	system
 LibreSprite	com.github.libresprite.LibreSprite	1.0	stable	system
 Forge Sparks	com.mardojai.ForgeSparks	0.4.0	stable	system
@@ -12,7 +11,7 @@ Audio Sharing	de.haeckerfelix.AudioSharing	0.2.4	stable	system
 Calligraphy	dev.geopjr.Calligraphy	1.1.0	stable	system
 FreeTube	io.freetubeapp.FreeTube	0.23.2 Beta	stable	system
 Godots	io.github.MakovWait.Godots	v1.3.stable	stable	system
-Pins	io.github.fabrialberio.pinapp	2.0.1	stable	system
+Pins	io.github.fabrialberio.pinapp	2.1.0	stable	system
 Egghead	io.github.josephmawa.Egghead	0.1.1	stable	system
 Concessio	io.github.ronniedroid.concessio	v0.1.9	stable	system
 Progress	io.github.smolblackcat.Progress	1.6.0	stable	system

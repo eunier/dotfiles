@@ -6,6 +6,7 @@ Project Description
 
 ### Todo
 
+- [ ] track installed gnome extensions
 - [ ] switch to gnome shell light mode
 - [ ] Save Brave bookmark
 - [ ] Install ghostty
@@ -29,6 +30,9 @@ Project Description
 
 ### Done ✓
 
+- [x] add rmpfusion
+- [x] dconf exclude global settings
+- [x] vscode font ts file, allow to review settings.json as a argument, different path on mac
 - [x] Filter out dconf not important settings
 - [x] Does syncthing auto start?
 - [x] Delete old timeshift, take to much space

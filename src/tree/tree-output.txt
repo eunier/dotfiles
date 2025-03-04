@@ -73,7 +73,8 @@
 │   │   ├── dnf-info-installed-after.txt
 │   │   ├── dnf-info-installed-before.txt
 │   │   ├── dnf-repo-list-after.txt
-│   │   └── dnf-repo-list-before.txt
+│   │   ├── dnf-repo-list-before.txt
+│   │   └── dng-thorium-install.sh
 │   ├── dnf.sh
 │   ├── doas
 │   │   ├── doas-after.conf
@@ -165,4 +166,4 @@
 └── .vscode
     └── settings.json
 
-36 directories, 130 files
+36 directories, 131 files

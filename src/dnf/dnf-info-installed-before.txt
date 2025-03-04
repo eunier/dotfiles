@@ -5411,6 +5411,20 @@ Description     : Diffutils includes four utilities: diff, cmp, diff3 and sdiff.
                 : Install diffutils if you need to compare text files.
 Vendor          : Fedora Project
 
+Name            : discord
+Epoch           : 0
+Version         : 0.0.87
+Release         : 1.fc41
+Architecture    : x86_64
+Installed size  : 249.3 MiB
+Source          : discord-0.0.87-1.fc41.src.rpm
+From repository : rpmfusion-nonfree-updates
+Summary         : All-in-one voice and text chat
+URL             : https://discordapp.com/
+License         : Proprietary
+Description     : Linux Release for Discord, a free proprietary VoIP application
+Vendor          : RPM Fusion
+
 Name            : distribution-gpg-keys
 Epoch           : 0
 Version         : 1.110
@@ -16537,6 +16551,58 @@ Description     : The libavutil library is a utility library to aid portable mul
                 : number generators, data structures, additional mathematics functions,
                 : cryptography and multimedia related functionality (like enumerations
                 : for pixel and sample formats).
+Vendor          : Fedora Project
+
+Name            : libayatana-appindicator-gtk3
+Epoch           : 0
+Version         : 0.5.93
+Release         : 6.fc41
+Architecture    : x86_64
+Installed size  : 139.3 KiB
+Source          : libayatana-appindicator-0.5.93-6.fc41.src.rpm
+From repository : fedora
+Summary         : Ayatana Application Indicators - GTK3
+URL             : https://github.com/AyatanaIndicators/libayatana-appindicator
+License         : GPL-3.0-only AND LGPL-3.0-only AND (LGPL-3.0-only OR LGPL-2.1-only)
+Description     : The Ayatana Application Indicator is a library to allow applications
+                : to export a menu into an Application Indicators aware menu bar.
+                : Based on KSNI it also works in KDE and will fallback to generic
+                : Systray support if none of those are available.
+                : 
+                : This version is built against GTK3.
+Vendor          : Fedora Project
+
+Name            : libayatana-ido-gtk3
+Epoch           : 0
+Version         : 0.10.4
+Release         : 1.fc41
+Architecture    : x86_64
+Installed size  : 270.8 KiB
+Source          : libayatana-ido-0.10.4-1.fc41.src.rpm
+From repository : fedora
+Summary         : Ayatana Indicator Display Objects library for GTK3
+URL             : https://github.com/AyatanaIndicators/ayatana-ido
+License         : LGPL-2.0-or-later AND GPL-3.0-only AND (LGPL-3.0-only OR LGPL-2.1-only)
+Description     : Ayatana IDO provides custom GTK menu widgets for Ayatana System Indicators.
+                : 
+                : This version is built against GTK3.
+Vendor          : Fedora Project
+
+Name            : libayatana-indicator-gtk3
+Epoch           : 0
+Version         : 0.9.4
+Release         : 5.fc41
+Architecture    : x86_64
+Installed size  : 123.7 KiB
+Source          : libayatana-indicator-0.9.4-5.fc41.src.rpm
+From repository : fedora
+Summary         : Ayatana Indicators Shared Library for GTK2 for GTK3
+URL             : https://github.com/AyatanaIndicators/libayatana-indicator
+License         : GPL-3.0-only
+Description     : The Ayatana Indicators library contains information to build indicators
+                : to go into modern desktops indicator applets.
+                : 
+                : This version is built against GTK3.
 Vendor          : Fedora Project
 
 Name            : libb2
@@ -35476,6 +35542,36 @@ License         : GPL-2.0-or-later
 Description     : This package contains the RPM shared libraries for signing packages.
 Vendor          : Fedora Project
 
+Name            : rpmfusion-free-release
+Epoch           : 0
+Version         : 41
+Release         : 1
+Architecture    : noarch
+Installed size  : 5.6 KiB
+Source          : rpmfusion-free-release-41-1.src.rpm
+From repository : @commandline
+Summary         : RPM Fusion (free) Repository Configuration
+URL             : http://rpmfusion.org
+License         : BSD
+Description     : RPM Fusion free package repository files for yum and dnf
+                : along with gpg public keys
+Vendor          : RPM Fusion
+
+Name            : rpmfusion-nonfree-release
+Epoch           : 0
+Version         : 41
+Release         : 1
+Architecture    : noarch
+Installed size  : 5.8 KiB
+Source          : rpmfusion-nonfree-release-41-1.src.rpm
+From repository : @commandline
+Summary         : RPM Fusion (nonfree) Repository Configuration
+URL             : http://rpmfusion.org
+License         : BSD
+Description     : RPM Fusion nonfree package repository files for yum and dnf
+                : along with gpg public keys
+Vendor          : RPM Fusion
+
 Name            : rsgain
 Epoch           : 0
 Version         : 3.5.3
@@ -37180,6 +37276,24 @@ Description     : systemd-resolved is a system service that provides network nam
                 : resolver, as well as an LLMNR and MulticastDNS resolver and responder.
 Vendor          : Fedora Project
 
+Name            : systemd-rpm-macros
+Epoch           : 0
+Version         : 256.11
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 10.7 KiB
+Source          : systemd-256.11-1.fc41.src.rpm
+From repository : updates
+Summary         : Macros that define paths and scriptlets related to systemd
+URL             : https://systemd.io
+License         : LGPL-2.1-or-later AND MIT AND GPL-2.0-or-later
+Description     : Just the definitions of rpm macros.
+                : 
+                : See
+                : https://docs.fedoraproject.org/en-US/packaging-guidelines/Scriptlets/#_systemd
+                : for information how to use those macros.
+Vendor          : Fedora Project
+
 Name            : systemd-udev
 Epoch           : 0
 Version         : 256.11
@@ -37791,6 +37905,22 @@ Description     : thermald monitors and controls platform temperature.
                 : impact.  thermald uses the existing Linux kernel infrastructure and can
                 : be easily enhanced.
 Vendor          : Fedora Project
+
+Name            : thorium-browser
+Epoch           : 0
+Version         : 130.0.6723.174
+Release         : 1
+Architecture    : x86_64
+Installed size  : 719.3 MiB
+Source          : thorium-browser-130.0.6723.174-1.src.rpm
+From repository : @commandline
+Summary         : Thorium Browser
+URL             : https://thorium.rocks
+License         : Multiple, see https://thorium.rocks
+Description     : The web browser from Alex313031
+                : 
+                : Thorium is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
+Vendor          : Alex313031
 
 Name            : thrift
 Epoch           : 0

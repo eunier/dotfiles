@@ -1,6 +1,5 @@
 Zen	app.zen_browser.zen	1.8.2b	stable	system
 Authenticator	com.belmoussaoui.Authenticator	4.5.0	stable	system
-Discord	com.discordapp.Discord	0.0.87	stable	system
 Mindustry	com.github.Anuken.Mindustry	146	stable	system
 LibreSprite	com.github.libresprite.LibreSprite	1.0	stable	system
 Forge Sparks	com.mardojai.ForgeSparks	0.4.0	stable	system
@@ -12,7 +11,7 @@ Audio Sharing	de.haeckerfelix.AudioSharing	0.2.4	stable	system
 Calligraphy	dev.geopjr.Calligraphy	1.1.0	stable	system
 FreeTube	io.freetubeapp.FreeTube	0.23.2 Beta	stable	system
 Godots	io.github.MakovWait.Godots	v1.3.stable	stable	system
-Pins	io.github.fabrialberio.pinapp	2.0.1	stable	system
+Pins	io.github.fabrialberio.pinapp	2.1.0	stable	system
 Egghead	io.github.josephmawa.Egghead	0.1.1	stable	system
 Concessio	io.github.ronniedroid.concessio	v0.1.9	stable	system
 Progress	io.github.smolblackcat.Progress	1.6.0	stable	system
@@ -25,7 +24,7 @@ Iconic	nl.emphisia.icon	2024.12.2	stable	system
 Flatpak External Data Checker	org.flathub.flatpak-external-data-checker		stable	system
 Freedesktop Platform	org.freedesktop.Platform	21.08.22	21.08	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.28	23.08	system
-Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.13	24.08	system
+Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.14	24.08	system
 Mesa	org.freedesktop.Platform.GL.default	21.3.9	21.08	system
 Mesa	org.freedesktop.Platform.GL.default	24.3.4	23.08	system
 Mesa (Extra)	org.freedesktop.Platform.GL.default	24.3.4	23.08-extra	system
@@ -35,7 +34,7 @@ FFmpeg extension with extra codecs	org.freedesktop.Platform.ffmpeg-full		24.08	s
 openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	system
 openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	system
 openh264	org.freedesktop.Platform.openh264	2.4.1	2.4.1	system
-Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-24.08.13	24.08	system
+Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-24.08.14	24.08	system
 GNOME Application Platform version 45	org.gnome.Platform		45	system
 GNOME Application Platform version 46	org.gnome.Platform		46	system
 GNOME Application Platform version 47	org.gnome.Platform		47	system

@@ -83,8 +83,7 @@ addToFontMap(fontMap, "Monoid", 14, 600);
 addToFontMap(fontMap, "Noto Mono", 14, 700);
 addToFontMap(fontMap, "Ubuntu Mono", 17, 700);
 
-const path = (process.argv.at(3) ??
-	"~/.config/Code/User/settings.json") as Font;
+const path = process.argv.at(3) ?? "~/.config/Code/User/settings.json";
 
 const config = fontMap.has(font)
 	? fontMap.get(font)
