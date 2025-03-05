@@ -76,7 +76,7 @@ if (!fonts.includes(font)) {
 
 const fontMap = new Map<Font, FontConfig>();
 
-addToFontMap(fontMap, "Cascadia Code", 14, 600);
+addToFontMap(fontMap, "Cascadia Code", 15, 600);
 addToFontMap(fontMap, "Fira Code", 14, 600);
 addToFontMap(fontMap, "JetBrains Mono", 14, 700);
 addToFontMap(fontMap, "Monoid", 14, 600);

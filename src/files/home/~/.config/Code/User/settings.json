@@ -23,6 +23,7 @@
 	},
 	"cSpell.userWords": [
 		"anyerror",
+		"autofetch",
 		"comptime",
 		"deinit",
 		"fini",
@@ -35,6 +36,7 @@
 		"raylib",
 		"rpinski",
 		"Trunc",
+		"trycatch",
 		"usingnamespace",
 		"usize",
 		"workspacesort",

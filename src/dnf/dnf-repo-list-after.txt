@@ -15,4 +15,5 @@ rpmfusion-nonfree                                RPM Fusion for Fedora 41 - Nonf
 rpmfusion-nonfree-nvidia-driver                  RPM Fusion for Fedora 41 - Nonfree - NVIDIA Driver
 rpmfusion-nonfree-steam                          RPM Fusion for Fedora 41 - Nonfree - Steam
 rpmfusion-nonfree-updates                        RPM Fusion for Fedora 41 - Nonfree - Updates
+terra                                            Terra 41
 updates                                          Fedora 41 - x86_64 - Updates
