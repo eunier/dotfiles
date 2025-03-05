@@ -30,6 +30,7 @@ Bella	io.github.josephmawa.Bella	0.1.4	stable	system
 Egghead	io.github.josephmawa.Egghead	0.1.1	stable	system
 Inspector	io.github.nokse22.inspector	0.2.0	stable	system
 Mini Text	io.github.nokse22.minitext	1.0.0	stable	system
+Ultimate Tic Tac Toe	io.github.nokse22.ultimate-tic-tac-toe	1.0.2	stable	system
 BMI	io.github.philippkosarev.bmi	v2.0	stable	system
 Concessio	io.github.ronniedroid.concessio	v0.1.9	stable	system
 Progress	io.github.smolblackcat.Progress	1.6.0	stable	system
@@ -63,6 +64,7 @@ GNOME Application Platform version 47	org.gnome.Platform		47	system
 Solanum	org.gnome.Solanum	5.0.0	stable	system
 Iotas	org.gnome.World.Iotas	0.10.2	stable	system
 Pika Backup	org.gnome.World.PikaBackup	0.7.4	stable	system
+Secrets	org.gnome.World.Secrets	10.4	stable	system
 App Icon Preview	org.gnome.design.AppIconPreview	3.4.0	stable	system
 Emblem	org.gnome.design.Emblem	1.4.0	stable	system
 Lorem	org.gnome.design.Lorem	1.4	stable	system
