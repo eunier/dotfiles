@@ -50,6 +50,13 @@ ignoreMap.set("[org/gnome/gitlab/cheywood/Iotas]", [
 	"window-size=",
 ]);
 
+ignoreMap.set("[org/gnome/boxes]", [
+	"first-run=",
+	"view=",
+	"window-maximized=",
+	"window-position=",
+]);
+
 ignoreMap.set("[org/gnome/builder]", ["window-maximized="]);
 
 const outputArr: string[] = [];
