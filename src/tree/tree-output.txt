@@ -17,7 +17,7 @@
 │   │       └── config.json
 │   └── .gitconfig
 ├── package.json
-├── README.md
+├── readme.md
 ├── scripts
 │   ├── rm-after-files.sh
 │   └── rm-before-after-files.sh
@@ -178,7 +178,7 @@
 │   │   ├── zig-version-list-after.txt
 │   │   └── zig-version-list-before.txt
 │   └── zig.sh
-├── TODO.md
+├── todo.md
 ├── tsconfig.json
 └── .vscode
     └── settings.json
