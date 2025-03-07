@@ -45,11 +45,11 @@ Vendor          : Filen Cloud Dienste UG (haftungsbeschränkt)
 
 Name            : ImageMagick
 Epoch           : 1
-Version         : 7.1.1.43
+Version         : 7.1.1.44
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 88.4 KiB
-Source          : ImageMagick-7.1.1.43-1.fc41.src.rpm
+Source          : ImageMagick-7.1.1.44-1.fc41.src.rpm
 From repository : updates
 Summary         : An X application for displaying and manipulating images
 URL             : https://imagemagick.org/
@@ -71,11 +71,11 @@ Vendor          : Fedora Project
 
 Name            : ImageMagick-libs
 Epoch           : 1
-Version         : 7.1.1.43
+Version         : 7.1.1.44
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 9.1 MiB
-Source          : ImageMagick-7.1.1.43-1.fc41.src.rpm
+Source          : ImageMagick-7.1.1.44-1.fc41.src.rpm
 From repository : updates
 Summary         : ImageMagick libraries to link with
 URL             : https://imagemagick.org/
@@ -536,11 +536,11 @@ Vendor          : Fedora Project
 
 Name            : SDL2_image
 Epoch           : 0
-Version         : 2.8.4
+Version         : 2.8.6
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 213.1 KiB
-Source          : SDL2_image-2.8.4-1.fc41.src.rpm
+Installed size  : 217.9 KiB
+Source          : SDL2_image-2.8.6-1.fc41.src.rpm
 From repository : updates
 Summary         : Image loading library for SDL
 URL             : https://github.com/libsdl-org/SDL_image
@@ -2391,11 +2391,11 @@ Vendor          : Fedora Project
 
 Name            : brave-browser
 Epoch           : 0
-Version         : 1.75.181
+Version         : 1.76.73
 Release         : 1
 Architecture    : x86_64
-Installed size  : 373.7 MiB
-Source          : brave-browser-1.75.181-1.src.rpm
+Installed size  : 390.2 MiB
+Source          : brave-browser-1.76.73-1.src.rpm
 From repository : brave-browser
 Summary         : Brave Web Browser
 URL             : https://brave.com/
@@ -3136,11 +3136,11 @@ Vendor          : Fedora Project
 
 Name            : code
 Epoch           : 0
-Version         : 1.97.2
-Release         : 1739406869.el8
+Version         : 1.98.0
+Release         : 1741124844.el8
 Architecture    : x86_64
-Installed size  : 416.2 MiB
-Source          : code-1.97.2-1739406869.el8.src.rpm
+Installed size  : 400.0 MiB
+Source          : code-1.98.0-1741124844.el8.src.rpm
 From repository : code
 Summary         : Code editing. Redefined.
 URL             : https://code.visualstudio.com/
@@ -3306,12 +3306,12 @@ Vendor          : Fedora Project
 
 Name            : conmon
 Epoch           : 2
-Version         : 2.1.12
-Release         : 3.fc41
+Version         : 2.1.13
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 166.4 KiB
-Source          : conmon-2.1.12-3.fc41.src.rpm
-From repository : anaconda
+Source          : conmon-2.1.13-1.fc41.src.rpm
+From repository : updates
 Summary         : OCI container runtime monitor
 URL             : https://github.com/containers/conmon
 License         : Apache-2.0
@@ -6318,11 +6318,11 @@ Vendor          : Fedora Project
 
 Name            : exfatprogs
 Epoch           : 0
-Version         : 1.2.7
+Version         : 1.2.8
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 255.5 KiB
-Source          : exfatprogs-1.2.7-1.fc41.src.rpm
+Source          : exfatprogs-1.2.8-1.fc41.src.rpm
 From repository : updates
 Summary         : Userspace utilities for exFAT filesystems
 URL             : https://github.com/exfatprogs/exfatprogs
@@ -6874,11 +6874,11 @@ Vendor          : Fedora Project
 
 Name            : firefox
 Epoch           : 0
-Version         : 135.0.1
-Release         : 1.fc41
+Version         : 136.0
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 234.1 MiB
-Source          : firefox-135.0.1-1.fc41.src.rpm
+Installed size  : 235.5 MiB
+Source          : firefox-136.0-2.fc41.src.rpm
 From repository : updates
 Summary         : Mozilla Firefox Web browser
 URL             : https://www.mozilla.org/firefox/
@@ -6889,11 +6889,11 @@ Vendor          : Fedora Project
 
 Name            : firefox-langpacks
 Epoch           : 0
-Version         : 135.0.1
-Release         : 1.fc41
+Version         : 136.0
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 40.7 MiB
-Source          : firefox-135.0.1-1.fc41.src.rpm
+Installed size  : 40.5 MiB
+Source          : firefox-136.0-2.fc41.src.rpm
 From repository : updates
 Summary         : Firefox langpacks
 URL             : https://www.mozilla.org/firefox/
@@ -12284,11 +12284,11 @@ Vendor          : Fedora Project
 Name            : hplip
 Epoch           : 0
 Version         : 3.24.4
-Release         : 1.fc41
+Release         : 4.fc41
 Architecture    : x86_64
-Installed size  : 29.2 MiB
-Source          : hplip-3.24.4-1.fc41.src.rpm
-From repository : anaconda
+Installed size  : 29.1 MiB
+Source          : hplip-3.24.4-4.fc41.src.rpm
+From repository : updates
 Summary         : HP Linux Imaging and Printing Project
 URL             : https://developers.hp.com/hp-linux-imaging-and-printing
 License         : GPL-2.0-or-later AND MIT AND BSD-3-Clause-HP AND IJG AND GPL-2.0-only AND LGPL-2.1-or-later AND BSD-2-Clause AND LicenseRef-Fedora-Public-Domain AND python-ldap
@@ -12299,11 +12299,11 @@ Vendor          : Fedora Project
 Name            : hplip-common
 Epoch           : 0
 Version         : 3.24.4
-Release         : 1.fc41
+Release         : 4.fc41
 Architecture    : x86_64
 Installed size  : 1.4 MiB
-Source          : hplip-3.24.4-1.fc41.src.rpm
-From repository : anaconda
+Source          : hplip-3.24.4-4.fc41.src.rpm
+From repository : updates
 Summary         : Files needed by the HPLIP printer and scanner drivers
 URL             : https://developers.hp.com/hp-linux-imaging-and-printing
 License         : GPL-2.0-or-later AND MIT AND BSD-3-Clause-HP AND IJG AND GPL-2.0-only AND LGPL-2.1-or-later AND BSD-2-Clause AND LicenseRef-Fedora-Public-Domain AND python-ldap
@@ -12313,11 +12313,11 @@ Vendor          : Fedora Project
 Name            : hplip-libs
 Epoch           : 0
 Version         : 3.24.4
-Release         : 1.fc41
+Release         : 4.fc41
 Architecture    : x86_64
 Installed size  : 445.7 KiB
-Source          : hplip-3.24.4-1.fc41.src.rpm
-From repository : anaconda
+Source          : hplip-3.24.4-4.fc41.src.rpm
+From repository : updates
 Summary         : HPLIP libraries
 URL             : https://developers.hp.com/hp-linux-imaging-and-printing
 License         : GPL-2.0-or-later AND MIT AND BSD-3-Clause-HP AND IJG AND GPL-2.0-only AND LGPL-2.1-or-later AND BSD-2-Clause AND LicenseRef-Fedora-Public-Domain AND python-ldap
@@ -12460,11 +12460,11 @@ Vendor          : Fedora Project
 
 Name            : hwdata
 Epoch           : 0
-Version         : 0.392
+Version         : 0.393
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 9.4 MiB
-Source          : hwdata-0.392-1.fc41.src.rpm
+Source          : hwdata-0.393-1.fc41.src.rpm
 From repository : updates
 Summary         : Hardware identification and configuration data
 URL             : https://github.com/vcrhonek/hwdata
@@ -15228,6 +15228,20 @@ License         : GPL-3.0-only
 Description     : The kyotocabinet-libs package provides the essential shared libraries
                 : for any Kyoto Cabinet client program or interface.
 Vendor          : Fedora Project
+
+Name            : lact-libadwaita
+Epoch           : 0
+Version         : 0.7.1
+Release         : 1
+Architecture    : x86_64
+Installed size  : 9.9 MiB
+Source          : lact-libadwaita-0.7.1-1.src.rpm
+From repository : copr:copr.fedorainfracloud.org:ilyaz:LACT
+Summary         : AMDGPU control utility
+URL             : https://github.com/ilya-zlobintsev/LACT
+License         : MIT
+Description     : AMDGPU control utility
+Vendor          : Fedora Copr - user ilyaz
 
 Name            : ladspa
 Epoch           : 0
@@ -20426,11 +20440,11 @@ Vendor          : Fedora Project
 
 Name            : libnbd
 Epoch           : 0
-Version         : 1.22.0
+Version         : 1.22.1
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 453.8 KiB
-Source          : libnbd-1.22.0-1.fc41.src.rpm
+Source          : libnbd-1.22.1-1.fc41.src.rpm
 From repository : updates
 Summary         : NBD client library in userspace
 URL             : https://gitlab.com/nbdkit/libnbd
@@ -22251,11 +22265,11 @@ Vendor          : Fedora Project
 
 Name            : librewolf
 Epoch           : 0
-Version         : 135.0.1
+Version         : 136.0
 Release         : 1
 Architecture    : x86_64
-Installed size  : 350.0 MiB
-Source          : librewolf-135.0.1-1.src.rpm
+Installed size  : 350.4 MiB
+Source          : librewolf-136.0-1.src.rpm
 From repository : repository
 Summary         : The LibreWolf browser
 URL             : https://librewolf-community.gitlab.io/
@@ -22329,11 +22343,11 @@ Vendor          : Fedora Project
 Name            : libsane-hpaio
 Epoch           : 0
 Version         : 3.24.4
-Release         : 1.fc41
+Release         : 4.fc41
 Architecture    : x86_64
 Installed size  : 185.5 KiB
-Source          : hplip-3.24.4-1.fc41.src.rpm
-From repository : anaconda
+Source          : hplip-3.24.4-4.fc41.src.rpm
+From repository : updates
 Summary         : SANE driver for scanners in HP's multi-function devices
 URL             : https://developers.hp.com/hp-linux-imaging-and-printing
 License         : GPL-2.0-or-later AND MIT AND BSD-3-Clause-HP AND IJG AND GPL-2.0-only AND LGPL-2.1-or-later AND BSD-2-Clause AND LicenseRef-Fedora-Public-Domain AND python-ldap
@@ -38969,11 +38983,11 @@ Vendor          : Fedora Project
 
 Name            : vim-common
 Epoch           : 2
-Version         : 9.1.1122
+Version         : 9.1.1169
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 37.6 MiB
-Source          : vim-9.1.1122-1.fc41.src.rpm
+Source          : vim-9.1.1169-1.fc41.src.rpm
 From repository : updates
 Summary         : The common files needed by any version of the VIM editor
 URL             : http://www.vim.org/
@@ -38991,11 +39005,11 @@ Vendor          : Fedora Project
 
 Name            : vim-data
 Epoch           : 2
-Version         : 9.1.1122
+Version         : 9.1.1169
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 10.3 KiB
-Source          : vim-9.1.1122-1.fc41.src.rpm
+Source          : vim-9.1.1169-1.fc41.src.rpm
 From repository : updates
 Summary         : Shared data for Vi and Vim
 URL             : http://www.vim.org/
@@ -39006,11 +39020,11 @@ Vendor          : Fedora Project
 
 Name            : vim-enhanced
 Epoch           : 2
-Version         : 9.1.1122
+Version         : 9.1.1169
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 4.0 MiB
-Source          : vim-9.1.1122-1.fc41.src.rpm
+Source          : vim-9.1.1169-1.fc41.src.rpm
 From repository : updates
 Summary         : A version of the VIM editor which includes recent enhancements
 URL             : http://www.vim.org/
@@ -39030,11 +39044,11 @@ Vendor          : Fedora Project
 
 Name            : vim-filesystem
 Epoch           : 2
-Version         : 9.1.1122
+Version         : 9.1.1169
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 40.0   B
-Source          : vim-9.1.1122-1.fc41.src.rpm
+Source          : vim-9.1.1169-1.fc41.src.rpm
 From repository : updates
 Summary         : VIM filesystem layout
 URL             : http://www.vim.org/
@@ -39045,11 +39059,11 @@ Vendor          : Fedora Project
 
 Name            : vim-minimal
 Epoch           : 2
-Version         : 9.1.1122
+Version         : 9.1.1169
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 1.7 MiB
-Source          : vim-9.1.1122-1.fc41.src.rpm
+Source          : vim-9.1.1169-1.fc41.src.rpm
 From repository : updates
 Summary         : A minimal version of the VIM editor
 URL             : http://www.vim.org/
@@ -40211,11 +40225,11 @@ Vendor          : Fedora Project
 
 Name            : xxd
 Epoch           : 2
-Version         : 9.1.1122
+Version         : 9.1.1169
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 37.4 KiB
-Source          : vim-9.1.1122-1.fc41.src.rpm
+Source          : vim-9.1.1169-1.fc41.src.rpm
 From repository : updates
 Summary         : A hex dump utility
 URL             : http://www.vim.org/
@@ -40402,11 +40416,11 @@ Vendor          : Fedora Project
 
 Name            : zed
 Epoch           : 0
-Version         : 0.176.2
+Version         : 0.176.3
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 190.5 MiB
-Source          : zed-0.176.2-1.fc41.src.rpm
+Source          : zed-0.176.3-1.fc41.src.rpm
 From repository : terra
 Summary         : Zed is a high-performance, multiplayer code editor
 URL             : https://zed.dev/

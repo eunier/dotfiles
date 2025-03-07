@@ -27,7 +27,7 @@ if ! dnf repolist | grep -q "copr:copr.fedorainfracloud.org:ilyaz:LACT"; then
     sudo dnf copr enable ilyaz/LACT
 fi
 
-if ! dnf copr list | grep -q "copr.fedorainfracloud.org:pgdev:ghostty"; then
+if ! dnf copr list | grep -q "copr.fedorainfracloud.org/pgdev/ghostty"; then
     sudo dnf copr enable pgdev/ghostty
 fi
 
