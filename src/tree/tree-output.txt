@@ -88,21 +88,38 @@
 │   ├── fastfetch.sh
 │   ├── fedora.sh
 │   ├── files
-│   │   ├── etc
-│   │   │   └── dnf
-│   │   │       └── dnf.conf
-│   │   └── home
-│   │       └── ~
-│   │           ├── .bash_profile
-│   │           ├── .bashrc
-│   │           ├── .config
-│   │           │   ├── Code
-│   │           │   │   └── User
-│   │           │   │       ├── keybindings.json
-│   │           │   │       └── settings.json
-│   │           │   └── fish
-│   │           │       └── config.fish
-│   │           └── .gitconfig
+│   │   ├── after
+│   │   │   ├── etc
+│   │   │   │   └── dnf
+│   │   │   │       └── dnf.conf
+│   │   │   └── home
+│   │   │       └── ~
+│   │   │           ├── .bash_profile
+│   │   │           ├── .bashrc
+│   │   │           ├── .config
+│   │   │           │   ├── Code
+│   │   │           │   │   └── User
+│   │   │           │   │       ├── keybindings.json
+│   │   │           │   │       └── settings.json
+│   │   │           │   └── fish
+│   │   │           │       └── config.fish
+│   │   │           └── .gitconfig
+│   │   └── before
+│   │       ├── etc
+│   │       │   └── dnf
+│   │       │       └── dnf.conf
+│   │       └── home
+│   │           └── ~
+│   │               ├── .bash_profile
+│   │               ├── .bashrc
+│   │               ├── .config
+│   │               │   ├── Code
+│   │               │   │   └── User
+│   │               │   │       ├── keybindings.json
+│   │               │   │       └── settings.json
+│   │               │   └── fish
+│   │               │       └── config.fish
+│   │               └── .gitconfig
 │   ├── fish.sh
 │   ├── flatpak
 │   │   ├── flatpak-install.auto.sh
@@ -184,4 +201,4 @@
 └── .vscode
     └── settings.json
 
-45 directories, 140 files
+55 directories, 147 files
