@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cp ~/.gitconfig ~/.dotfiles/src/files/home/~/.gitconfig
+cp ~/.gitconfig ~/.dotfiles/src/files/after/home/~/.gitconfig
 
 echo "Cloning git repos..."
 

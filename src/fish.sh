@@ -1,3 +1,3 @@
 #!/usr/bin/bash
 
-cp ~/.config/fish/config.fish ~/.dotfiles/src/files/home/~/.config/fish/config.fish
+cp ~/.config/fish/config.fish ~/.dotfiles/src/files/after/home/~/.config/fish/config.fish

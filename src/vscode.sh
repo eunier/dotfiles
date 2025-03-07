@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-cp ~/.config/Code/User/keybindings.json ~/.dotfiles/src/files/home/~/.config/Code/User/keybindings.json
-cp ~/.config/Code/User/settings.json ~/.dotfiles/src/files/home/~/.config/Code/User/settings.json
+cp ~/.config/Code/User/keybindings.json ~/.dotfiles/src/files/after/home/~/.config/Code/User/keybindings.json
+cp ~/.config/Code/User/settings.json ~/.dotfiles/src/files/after/home/~/.config/Code/User/settings.json
 
 code --update-extensions
 echo "Installing code extensions..."

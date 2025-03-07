@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cp /etc/dnf/dnf.conf ~/.dotfiles/src/files/etc/dnf/dnf.conf
+cp /etc/dnf/dnf.conf ~/.dotfiles/src/files/after/etc/dnf/dnf.conf
 
 if ! dnf repolist | grep -q "Brave Browser"; then
     sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
