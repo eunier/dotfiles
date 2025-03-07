@@ -8,7 +8,13 @@ monoid="Monoid"
 notoMono="Noto Mono"
 ubuntuMono="Ubuntu Mono"
 
+#region call ts script
 # Need to hard restart VsCode after new font installed.
 # "Reload Window" won't work.
 cd ~/.dotfiles || exit
-bun run vscode:font:switch "$cascadiaCode"
+
+font="${1:-"$cascadiaCode"}"
+echo "font is: $font"
+
+bun run vscode:font:switch "$font"
+#endregion

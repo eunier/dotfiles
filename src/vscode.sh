@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-echo "$1"
-
 cp ~/.config/Code/User/keybindings.json ~/.dotfiles/src/files/home/~/.config/Code/User/keybindings.json
 cp ~/.config/Code/User/settings.json ~/.dotfiles/src/files/home/~/.config/Code/User/settings.json
 
@@ -48,7 +46,9 @@ echo ""
 touch ~/.dotfiles/src/vscode/vscode-extensions-before.txt
 code --list-extensions >~/.dotfiles/src/vscode/vscode-extensions-after.txt
 
-sh ~/.dotfiles/src/vscode/vscode-font-switch.sh
+font="${1:-"Cascadia Code"}"
+echo "font is: $font"
+sh ~/.dotfiles/src/vscode/vscode-font-switch.sh "$font" # is not passing the passed value
 
 touch ~/.config/Code/User/settings.json
 touch ~/.dotfiles/src/vscode/vscode-settings-before.jsonc

@@ -142,6 +142,7 @@
 │   ├── nala.sh
 │   ├── node.sh
 │   ├── ollama.sh
+│   ├── playground.sh
 │   ├── sparky.sh
 │   ├── sync.sh
 │   ├── syncthing
@@ -183,4 +184,4 @@
 └── .vscode
     └── settings.json
 
-45 directories, 139 files
+45 directories, 140 files

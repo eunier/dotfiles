@@ -11,7 +11,7 @@ Forge Sparks	com.mardojai.ForgeSparks	0.4.0	stable	system
 Extension Manager	com.mattjakeman.ExtensionManager	0.6.1	stable	system
 Pixelorama	com.orama_interactive.Pixelorama	1.0.5	stable	system
 Blanket	com.rafaelmardojai.Blanket	0.7.0	stable	system
-Spotify	com.spotify.Client	1.2.52.442.g01893f92	stable	system
+Spotify	com.spotify.Client	1.2.53.440.g7b2f582a	stable	system
 Audio Sharing	de.haeckerfelix.AudioSharing	0.2.4	stable	system
 Fragments	de.haeckerfelix.Fragments	3.0.1	stable	system
 Shortwave	de.haeckerfelix.Shortwave	5.0.0	stable	system
