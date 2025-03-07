@@ -1,10 +1,6 @@
-# Project
+# Dotfiles
 
-Project Description
-
-<em>[TODO.md spec & Kanban Board](https://bit.ly/3fCwKfM)</em>
-
-### Todo
+## Todo
 
 - [ ] save repo configs at `sudo vim /etc/yum.repos.d/terra.repo`
 - [ ] prefer fedora default repo over terra, https://chatgpt.com/share/67c77fbc-a73c-800d-b94a-150bdc648c9c
@@ -16,7 +12,7 @@ Project Description
 - [ ] Nerd Fonts
 - [ ] Polari data
 - [ ] Avoid calling to install vscode extension if already installed
-- [ ] Avoid redownlaoding JetBrains font
+- [ ] Avoid re-downloading JetBrains font
 - [ ] nvm doesn't show up on fish
 - [ ] Music app
 - [ ] veracrypt
@@ -24,9 +20,9 @@ Project Description
 - [ ] NewsFlash: track subscribed rrs
 - [ ] Change default terminal
 
-### In Progress
+## In Progress
 
-### Done ✓
+## Done
 
 - [x] Check if "progress" app nala + flatpak is working
 - [x] Use zen flatpak or fix icon
@@ -41,10 +37,10 @@ Project Description
 - [x] Does syncthing auto start?
 - [x] Delete old timeshift, take to much space
 - [x] Set up ollama + vs code extension
-- [x] Install GitLab cli, then start moving repo proejcts to its own repo
+- [x] Install GitLab cli, then start moving repo projects to its own repo
 - [x] Setup Syncthing
-- [x] Change Synthing gui password on Sparky
-- [x] VsCodo TODO in zig, remove extra bold
+- [x] Change Syncthing gui password on Sparky
+- [x] VsCode TODO in zig, remove extra bold
 - [x] Avoid downloading zvm if already installed
 - [x] Fonts
 - [x] Fix TODO.md file not been copied
