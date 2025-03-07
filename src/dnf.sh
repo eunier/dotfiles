@@ -19,15 +19,19 @@ if ! dnf repolist | grep -q "Visual Studio Code"; then
     echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\nautorefresh=1\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo >/dev/null
 fi
 
-if ! dnf repolist | grep -q "terra "; then
+if ! dnf repolist | grep -q "terra"; then
     sudo dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
 fi
 
-if ! dnf copr list | grep -q 'copr.fedorainfracloud.org/pgdev/ghostty'; then
+if ! dnf repolist | grep -q "copr:copr.fedorainfracloud.org:ilyaz:LACT"; then
+    sudo dnf copr enable ilyaz/LACT
+fi
+
+if ! dnf copr list | grep -q "copr:copr.fedorainfracloud.org:pgdev:ghostty"; then
     sudo dnf copr enable pgdev/ghostty
 fi
 
-if ! dnf copr list | grep -q 'copr.fedorainfracloud.org/phracek/PyCharm'; then
+if ! dnf copr list | grep -q 'copr:copr.fedorainfracloud.org/phracek/PyCharm'; then
     sudo dnf copr enable dusansimic/themes
 fi
 
@@ -87,6 +91,7 @@ sudo dnf install \
     jetbrains-mono-fonts \
     jetbrains-mono-nl-fonts \
     keepassxc \
+    lact-libadwaita \
     libatomic \
     librewolf \
     libX11 \
@@ -117,6 +122,8 @@ sudo dnf install \
     tree \
     vim \
     zed
+
+sudo systemctl enable --now lactd
 
 touch ~/.dotfiles/src/dnf/dnf-info-installed-before.txt
 dnf repoquery --info --installed >~/.dotfiles/src/dnf/dnf-info-installed-after.txt
