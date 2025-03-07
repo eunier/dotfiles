@@ -1,20 +1,24 @@
 /home/tron/.config/autostart
 ├── com.mardojai.ForgeSparks.desktop
 ├── @filendesktop.desktop
+├── io.github.nokse22.ultimate-tic-tac-toe.desktop
 ├── io.gitlab.news_flash.NewsFlash.desktop
 ├── mullvad-vpn.desktop
 ├── org.gnome.Solanum.desktop
+├── org.gnome.World.PikaBackup.desktop
 ├── steam.desktop
 └── syncthing-start.desktop
 
-1 directory, 7 files
-[drwxr-xr-x tron     tron             342 Mar  3 08:02]  /home/tron/.config/autostart
+1 directory, 9 files
+[drwxr-xr-x tron     tron             502 Mar  6 10:02]  /home/tron/.config/autostart
 ├── [-rw-r--r-- tron     tron            2255 Mar  3 08:02]  com.mardojai.ForgeSparks.desktop
 ├── [-rw-r--r-- tron     tron             183 Mar  3 08:02]  @filendesktop.desktop
+├── [-rw-r--r-- tron     tron             761 Mar  4 23:11]  io.github.nokse22.ultimate-tic-tac-toe.desktop
 ├── [-rw-r--r-- tron     tron            3096 Mar  3 08:02]  io.gitlab.news_flash.NewsFlash.desktop
 ├── [-rw-r--r-- tron     tron             195 Mar  3 08:02]  mullvad-vpn.desktop
 ├── [-rw-r--r-- tron     tron            3386 Mar  3 08:02]  org.gnome.Solanum.desktop
+├── [-rw-r--r-- tron     tron             176 Mar  6 10:02]  org.gnome.World.PikaBackup.desktop
 ├── [-rw-r--r-- tron     tron            7473 Mar  3 08:02]  steam.desktop
 └── [-rw-r--r-- tron     tron             308 Mar  3 08:02]  syncthing-start.desktop
 
-1 directory, 7 files
+1 directory, 9 files

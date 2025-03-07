@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "$1"
+
 cp ~/.config/Code/User/keybindings.json ~/.dotfiles/src/files/home/~/.config/Code/User/keybindings.json
 cp ~/.config/Code/User/settings.json ~/.dotfiles/src/files/home/~/.config/Code/User/settings.json
 

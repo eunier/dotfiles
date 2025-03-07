@@ -1,6 +1,6 @@
 Key Rack	app.drey.KeyRack	0.4.0	stable	system
 Zen	app.zen_browser.zen	1.8.2b	stable	system
-Adventure List	codes.merritt.adventurelist	0.14.3	stable	system
+Adventure List	codes.merritt.adventurelist	0.15.0	stable	system
 Authenticator	com.belmoussaoui.Authenticator	4.5.0	stable	system
 Mindustry	com.github.Anuken.Mindustry	146	stable	system
 LibreSprite	com.github.libresprite.LibreSprite	1.0	stable	system
@@ -30,6 +30,7 @@ Bella	io.github.josephmawa.Bella	0.1.4	stable	system
 Egghead	io.github.josephmawa.Egghead	0.1.1	stable	system
 Inspector	io.github.nokse22.inspector	0.2.0	stable	system
 Mini Text	io.github.nokse22.minitext	1.0.0	stable	system
+Ultimate Tic Tac Toe	io.github.nokse22.ultimate-tic-tac-toe	1.0.2	stable	system
 BMI	io.github.philippkosarev.bmi	v2.0	stable	system
 Concessio	io.github.ronniedroid.concessio	v0.1.9	stable	system
 Progress	io.github.smolblackcat.Progress	1.6.0	stable	system
@@ -38,7 +39,7 @@ Password	io.gitlab.elescoute.password	1.6.6	stable	system
 Text Pieces	io.gitlab.liferooter.TextPieces	4.1.0	stable	system
 Newsflash	io.gitlab.news_flash.NewsFlash	3.3.5	stable	system
 Mission Center	io.missioncenter.MissionCenter	0.6.2	stable	system
-Obsidian	md.obsidian.Obsidian	1.8.7	stable	system
+Obsidian	md.obsidian.Obsidian	1.8.9	stable	system
 Syncthing GTK	me.kozec.syncthingtk	v0.9.4.5	stable	system
 Iconic	nl.emphisia.icon	2024.12.2	stable	system
 Lemma	org.cvfosammmm.Lemma	32	stable	system
@@ -63,6 +64,7 @@ GNOME Application Platform version 47	org.gnome.Platform		47	system
 Solanum	org.gnome.Solanum	5.0.0	stable	system
 Iotas	org.gnome.World.Iotas	0.10.2	stable	system
 Pika Backup	org.gnome.World.PikaBackup	0.7.4	stable	system
+Secrets	org.gnome.World.Secrets	10.4	stable	system
 App Icon Preview	org.gnome.design.AppIconPreview	3.4.0	stable	system
 Emblem	org.gnome.design.Emblem	1.4.0	stable	system
 Lorem	org.gnome.design.Lorem	1.4	stable	system
