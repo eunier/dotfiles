@@ -20,6 +20,7 @@ Almond	edu.stanford.Almond	2.0.0~alpha.1	stable	system
 Morphosis	garden.jamie.Morphosis	1.4.1	stable	system
 Memorado	im.bernard.Memorado	0.5	stable	system
 FreeTube	io.freetubeapp.FreeTube	0.23.2 Beta	stable	system
+AdwSteamGtk	io.github.Foldex.AdwSteamGtk	0.8.0	stable	system
 Godots	io.github.MakovWait.Godots	v1.3.stable	stable	system
 IP Lookup	io.github.bytezz.IPLookup	0.4.0	stable	system
 Paper Clip	io.github.diegoivan.pdf_metadata_editor	5.0	stable	system
@@ -28,6 +29,7 @@ Hieroglyphic	io.github.finefindus.Hieroglyphic	2.1.0	stable	system
 Embellish	io.github.getnf.embellish	v0.4.5	stable	system
 Bella	io.github.josephmawa.Bella	0.1.4	stable	system
 Egghead	io.github.josephmawa.Egghead	0.1.1	stable	system
+TriPeaks	io.github.mimoguz.TriPeaks-GDX	1.2.3	stable	system
 Inspector	io.github.nokse22.inspector	0.2.0	stable	system
 Mini Text	io.github.nokse22.minitext	1.0.0	stable	system
 Ultimate Tic Tac Toe	io.github.nokse22.ultimate-tic-tac-toe	1.0.2	stable	system
@@ -52,6 +54,7 @@ Mesa	org.freedesktop.Platform.GL.default	24.3.4	23.08	system
 Mesa (Extra)	org.freedesktop.Platform.GL.default	24.3.4	23.08-extra	system
 Mesa	org.freedesktop.Platform.GL.default	24.3.4	24.08	system
 Mesa (Extra)	org.freedesktop.Platform.GL.default	24.3.4	24.08extra	system
+FFmpeg extension with extra codecs	org.freedesktop.Platform.ffmpeg-full		23.08	system
 FFmpeg extension with extra codecs	org.freedesktop.Platform.ffmpeg-full		24.08	system
 openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	system
 openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	system
@@ -70,6 +73,10 @@ Emblem	org.gnome.design.Emblem	1.4.0	stable	system
 Lorem	org.gnome.design.Lorem	1.4	stable	system
 Color Palette	org.gnome.design.Palette	2.0.3	stable	system
 Buffer	org.gnome.gitlab.cheywood.Buffer	0.9.9	stable	system
+Cavalier	org.nickvision.cavalier	2024.1.0	stable	system
+Denaro	org.nickvision.money	2024.2.0	stable	system
+Tagger	org.nickvision.tagger	2024.6.0	stable	system
+Parabolic	org.nickvision.tubeconverter	2025.1.4	stable	system
 Main Menu	page.codeberg.libre_menu_editor.LibreMenuEditor	1.9.1	stable	system
 Commit	re.sonny.Commit	4.2	stable	system
 Graphs	se.sjoerd.Graphs	1.8.4	stable	system
