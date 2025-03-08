@@ -5,7 +5,7 @@ Authenticator	com.belmoussaoui.Authenticator	4.5.0	stable	system
 Mindustry	com.github.Anuken.Mindustry	146	stable	system
 LibreSprite	com.github.libresprite.LibreSprite	1.0	stable	system
 Timer	com.github.vikdevelop.timer	3.5	stable	system
-Alpaca	com.jeffser.Alpaca	5.0.5	stable	system
+Alpaca	com.jeffser.Alpaca	5.1.0	stable	system
 Time Tracker	com.lynnmichaelmartin.TimeTracker	2.1.0	stable	system
 Forge Sparks	com.mardojai.ForgeSparks	0.4.0	stable	system
 Extension Manager	com.mattjakeman.ExtensionManager	0.6.1	stable	system
