@@ -6,6 +6,7 @@ cp ~/.config/Code/User/settings.json ~/.dotfiles/src/files/after/home/~/.config/
 code --update-extensions
 echo "Installing code extensions..."
 
+#spell-checker: disable
 code --install-extension aswinkumar863.sort-editors >/dev/null 2>&1 && printf "."
 code --install-extension biomejs.biome >/dev/null 2>&1 && printf "."
 code --install-extension chrisdias.vscode-opennewinstance >/dev/null 2>&1 && printf "."
@@ -38,9 +39,11 @@ code --install-extension rust-lang.rust-analyzer >/dev/null 2>&1 && printf "."
 code --install-extension stkb.rewrap >/dev/null 2>&1 && printf "."
 code --install-extension streetsidesoftware.code-spell-checker >/dev/null 2>&1 && printf "."
 code --install-extension timonwong.shellcheck >/dev/null 2>&1 && printf "."
+code --install-extension usernamehw.errorlens >/dev/null 2>&1 && printf "."
 code --install-extension vadimcn.vscode-lldb >/dev/null 2>&1 && printf "."
 code --install-extension zhuangtongfa.Material-theme >/dev/null 2>&1 && printf "."
 code --install-extension ziglang.vscode-zig >/dev/null 2>&1 && printf "."
+#spell-checker: enable
 
 echo ""
 touch ~/.dotfiles/src/vscode/vscode-extensions-before.txt

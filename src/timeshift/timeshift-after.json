@@ -16,6 +16,8 @@
 	"count_daily": "5",
 	"count_hourly": "6",
 	"count_boot": "5",
+	"snapshot_size": "68413338363",
+	"snapshot_count": "636862",
 	"date_format": "%Y-%m-%d %H:%M:%S",
 	"exclude": ["/home/tron/**", "/root/**"],
 	"exclude-apps": []

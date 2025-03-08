@@ -10987,10 +10987,10 @@ Vendor          : Fedora Project
 Name            : grub2-common
 Epoch           : 1
 Version         : 2.12
-Release         : 15.fc41
+Release         : 19.fc41
 Architecture    : noarch
 Installed size  : 6.1 MiB
-Source          : grub2-2.12-15.fc41.src.rpm
+Source          : grub2-2.12-19.fc41.src.rpm
 From repository : updates
 Summary         : grub2 common layout
 URL             : http://www.gnu.org/software/grub/
@@ -11002,10 +11002,10 @@ Vendor          : Fedora Project
 Name            : grub2-efi-ia32
 Epoch           : 1
 Version         : 2.12
-Release         : 15.fc41
+Release         : 19.fc41
 Architecture    : x86_64
 Installed size  : 5.2 MiB
-Source          : grub2-2.12-15.fc41.src.rpm
+Source          : grub2-2.12-19.fc41.src.rpm
 From repository : updates
 Summary         : GRUB for EFI systems.
 URL             : http://www.gnu.org/software/grub/
@@ -11022,10 +11022,10 @@ Vendor          : Fedora Project
 Name            : grub2-efi-ia32-cdboot
 Epoch           : 1
 Version         : 2.12
-Release         : 15.fc41
+Release         : 19.fc41
 Architecture    : x86_64
 Installed size  : 5.2 MiB
-Source          : grub2-2.12-15.fc41.src.rpm
+Source          : grub2-2.12-19.fc41.src.rpm
 From repository : updates
 Summary         : Files used to boot removeable media with EFI
 URL             : http://www.gnu.org/software/grub/
@@ -11042,10 +11042,10 @@ Vendor          : Fedora Project
 Name            : grub2-efi-x64
 Epoch           : 1
 Version         : 2.12
-Release         : 15.fc41
+Release         : 19.fc41
 Architecture    : x86_64
 Installed size  : 6.2 MiB
-Source          : grub2-2.12-15.fc41.src.rpm
+Source          : grub2-2.12-19.fc41.src.rpm
 From repository : updates
 Summary         : GRUB for EFI systems.
 URL             : http://www.gnu.org/software/grub/
@@ -11062,10 +11062,10 @@ Vendor          : Fedora Project
 Name            : grub2-efi-x64-cdboot
 Epoch           : 1
 Version         : 2.12
-Release         : 15.fc41
+Release         : 19.fc41
 Architecture    : x86_64
 Installed size  : 6.2 MiB
-Source          : grub2-2.12-15.fc41.src.rpm
+Source          : grub2-2.12-19.fc41.src.rpm
 From repository : updates
 Summary         : Files used to boot removeable media with EFI
 URL             : http://www.gnu.org/software/grub/
@@ -11082,10 +11082,10 @@ Vendor          : Fedora Project
 Name            : grub2-pc
 Epoch           : 1
 Version         : 2.12
-Release         : 15.fc41
+Release         : 19.fc41
 Architecture    : x86_64
 Installed size  : 31.0   B
-Source          : grub2-2.12-15.fc41.src.rpm
+Source          : grub2-2.12-19.fc41.src.rpm
 From repository : updates
 Summary         : Bootloader with support for Linux, Multiboot, and more
 URL             : http://www.gnu.org/software/grub/
@@ -11102,10 +11102,10 @@ Vendor          : Fedora Project
 Name            : grub2-pc-modules
 Epoch           : 1
 Version         : 2.12
-Release         : 15.fc41
+Release         : 19.fc41
 Architecture    : noarch
 Installed size  : 3.2 MiB
-Source          : grub2-2.12-15.fc41.src.rpm
+Source          : grub2-2.12-19.fc41.src.rpm
 From repository : updates
 Summary         : Modules used to build custom grub images
 URL             : http://www.gnu.org/software/grub/
@@ -11122,10 +11122,10 @@ Vendor          : Fedora Project
 Name            : grub2-tools
 Epoch           : 1
 Version         : 2.12
-Release         : 15.fc41
+Release         : 19.fc41
 Architecture    : x86_64
 Installed size  : 7.7 MiB
-Source          : grub2-2.12-15.fc41.src.rpm
+Source          : grub2-2.12-19.fc41.src.rpm
 From repository : updates
 Summary         : Support tools for GRUB.
 URL             : http://www.gnu.org/software/grub/
@@ -11142,10 +11142,10 @@ Vendor          : Fedora Project
 Name            : grub2-tools-efi
 Epoch           : 1
 Version         : 2.12
-Release         : 15.fc41
+Release         : 19.fc41
 Architecture    : x86_64
 Installed size  : 2.5 MiB
-Source          : grub2-2.12-15.fc41.src.rpm
+Source          : grub2-2.12-19.fc41.src.rpm
 From repository : updates
 Summary         : Support tools for GRUB.
 URL             : http://www.gnu.org/software/grub/
@@ -11162,10 +11162,10 @@ Vendor          : Fedora Project
 Name            : grub2-tools-extra
 Epoch           : 1
 Version         : 2.12
-Release         : 15.fc41
+Release         : 19.fc41
 Architecture    : x86_64
 Installed size  : 5.0 MiB
-Source          : grub2-2.12-15.fc41.src.rpm
+Source          : grub2-2.12-19.fc41.src.rpm
 From repository : updates
 Summary         : Support tools for GRUB.
 URL             : http://www.gnu.org/software/grub/
@@ -11182,10 +11182,10 @@ Vendor          : Fedora Project
 Name            : grub2-tools-minimal
 Epoch           : 1
 Version         : 2.12
-Release         : 15.fc41
+Release         : 19.fc41
 Architecture    : x86_64
 Installed size  : 3.0 MiB
-Source          : grub2-2.12-15.fc41.src.rpm
+Source          : grub2-2.12-19.fc41.src.rpm
 From repository : updates
 Summary         : Support tools for GRUB.
 URL             : http://www.gnu.org/software/grub/
@@ -23987,10 +23987,10 @@ Vendor          : Fedora Project
 Name            : libvirt-client
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 960.4 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 973.1 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Client side utilities of the libvirt library
 URL             : https://libvirt.org/
@@ -24002,10 +24002,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 718.7 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 726.6 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Server side daemon and supporting files for libvirt library
 URL             : https://libvirt.org/
@@ -24018,10 +24018,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-common
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 306.7 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 314.1 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Files and utilities used by daemons
 URL             : https://libvirt.org/
@@ -24032,10 +24032,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-config-network
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
 Installed size  : 470.0   B
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Default configuration files for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24046,10 +24046,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-interface
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 745.3 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 754.6 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Interface driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24061,10 +24061,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-network
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 880.8 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 892.6 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Network driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24077,10 +24077,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-nodedev
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 813.3 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 823.2 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Nodedev driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24093,10 +24093,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-nwfilter
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 837.6 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 844.3 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Nwfilter driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24109,10 +24109,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-qemu
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 2.7 MiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 2.8 MiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : QEMU driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24125,10 +24125,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-secret
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 741.1 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 750.3 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Secret driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24140,10 +24140,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
 Installed size  : 0.0   B
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Storage driver plugin including all backends for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24156,10 +24156,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-core
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 913.7 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 923.7 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Storage driver plugin including base backends for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24172,10 +24172,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-disk
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 30.6 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 31.9 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for disk
 URL             : https://libvirt.org/
@@ -24187,10 +24187,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-gluster
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 41.0 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 43.4 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for gluster
 URL             : https://libvirt.org/
@@ -24202,10 +24202,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-iscsi
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 22.6 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 23.8 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for iscsi
 URL             : https://libvirt.org/
@@ -24217,10 +24217,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-iscsi-direct
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 30.6 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 31.9 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for iscsi-direct
 URL             : https://libvirt.org/
@@ -24232,10 +24232,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-logical
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 30.6 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 32.0 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for lvm volumes
 URL             : https://libvirt.org/
@@ -24247,10 +24247,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-mpath
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 18.6 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 19.7 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for multipath volumes
 URL             : https://libvirt.org/
@@ -24262,10 +24262,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-rbd
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 42.7 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 44.1 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for rbd
 URL             : https://libvirt.org/
@@ -24277,10 +24277,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-scsi
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 22.6 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 23.8 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for local scsi devices
 URL             : https://libvirt.org/
@@ -24292,10 +24292,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-zfs
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 22.6 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 23.8 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for ZFS
 URL             : https://libvirt.org/
@@ -24307,10 +24307,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-kvm
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
 Installed size  : 0.0   B
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Server side daemon & driver required to run KVM guests
 URL             : https://libvirt.org/
@@ -24322,10 +24322,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-lock
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 101.8 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 103.8 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Server side daemon for managing locks
 URL             : https://libvirt.org/
@@ -24337,10 +24337,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-log
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 108.4 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 110.5 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Server side daemon for managing logs
 URL             : https://libvirt.org/
@@ -24351,10 +24351,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-plugin-lockd
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 30.5 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 31.8 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : lockd client plugin for virtlockd
 URL             : https://libvirt.org/
@@ -24366,10 +24366,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-proxy
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 716.5 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 724.3 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Server side daemon providing libvirtd proxy
 URL             : https://libvirt.org/
@@ -24426,10 +24426,10 @@ Vendor          : Fedora Project
 Name            : libvirt-libs
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 26.5 MiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 26.6 MiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Client side libraries
 URL             : https://libvirt.org/
@@ -24440,10 +24440,10 @@ Vendor          : Fedora Project
 Name            : libvirt-ssh-proxy
 Epoch           : 0
 Version         : 10.6.0
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
-Installed size  : 18.8 KiB
-Source          : libvirt-10.6.0-6.fc41.src.rpm
+Installed size  : 20.0 KiB
+Source          : libvirt-10.6.0-7.fc41.src.rpm
 From repository : updates
 Summary         : Libvirt SSH proxy
 URL             : https://libvirt.org/

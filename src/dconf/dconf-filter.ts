@@ -38,6 +38,7 @@ ignoreMap.set("[org/gnome/software]", [
 	"flatpak-purge-timestamp=",
 	"toggle-state=",
 	"user-enabled=",
+	"update-notification-timestamp=",
 ]);
 
 ignoreMap.set("[org/gnome/control-center]", ["last-panel="]);
@@ -58,6 +59,9 @@ ignoreMap.set("[org/gnome/boxes]", [
 ]);
 
 ignoreMap.set("[org/gnome/builder]", ["window-maximized="]);
+
+ignoreMap.set("[org/gnome/rhythmbox]", ["position="]);
+ignoreMap.set("[org/gnome/rhythmbox/player]", ["volume="]);
 
 const outputArr: string[] = [];
 
