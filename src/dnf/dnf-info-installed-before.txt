@@ -2995,10 +2995,10 @@ Vendor          : Fedora Project
 Name            : clang
 Epoch           : 0
 Version         : 19.1.7
-Release         : 2.fc41
+Release         : 3.fc41
 Architecture    : x86_64
 Installed size  : 184.8 KiB
-Source          : llvm-19.1.7-2.fc41.src.rpm
+Source          : llvm-19.1.7-3.fc41.src.rpm
 From repository : updates
 Summary         : A C language family front-end for LLVM
 URL             : http://llvm.org
@@ -3020,10 +3020,10 @@ Vendor          : Fedora Project
 Name            : clang-libs
 Epoch           : 0
 Version         : 19.1.7
-Release         : 2.fc41
+Release         : 3.fc41
 Architecture    : x86_64
-Installed size  : 125.0 MiB
-Source          : llvm-19.1.7-2.fc41.src.rpm
+Installed size  : 125.3 MiB
+Source          : llvm-19.1.7-3.fc41.src.rpm
 From repository : updates
 Summary         : Runtime library for clang
 URL             : http://llvm.org
@@ -3034,10 +3034,10 @@ Vendor          : Fedora Project
 Name            : clang-resource-filesystem
 Epoch           : 0
 Version         : 19.1.7
-Release         : 2.fc41
+Release         : 3.fc41
 Architecture    : x86_64
 Installed size  : 15.3 KiB
-Source          : llvm-19.1.7-2.fc41.src.rpm
+Source          : llvm-19.1.7-3.fc41.src.rpm
 From repository : updates
 Summary         : Filesystem package that owns the clang resource directory
 URL             : http://llvm.org
@@ -3048,10 +3048,10 @@ Vendor          : Fedora Project
 Name            : clang-tools-extra
 Epoch           : 0
 Version         : 19.1.7
-Release         : 2.fc41
+Release         : 3.fc41
 Architecture    : x86_64
 Installed size  : 69.2 MiB
-Source          : llvm-19.1.7-2.fc41.src.rpm
+Source          : llvm-19.1.7-3.fc41.src.rpm
 From repository : updates
 Summary         : Extra tools for clang
 URL             : http://llvm.org
@@ -3241,10 +3241,10 @@ Vendor          : Fedora Project
 Name            : compiler-rt
 Epoch           : 0
 Version         : 19.1.7
-Release         : 2.fc41
+Release         : 3.fc41
 Architecture    : x86_64
 Installed size  : 36.5 MiB
-Source          : llvm-19.1.7-2.fc41.src.rpm
+Source          : llvm-19.1.7-3.fc41.src.rpm
 From repository : updates
 Summary         : LLVM "compiler-rt" runtime libraries
 URL             : http://llvm.org
@@ -17624,11 +17624,11 @@ Vendor          : Fedora Project
 
 Name            : libcupsfilters
 Epoch           : 1
-Version         : 2.1.0
-Release         : 6.fc41
+Version         : 2.1.1
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 1.5 MiB
-Source          : libcupsfilters-2.1.0-6.fc41.src.rpm
+Source          : libcupsfilters-2.1.1-1.fc41.src.rpm
 From repository : updates
 Summary         : Library for developing printing filters
 URL             : https://github.com/OpenPrinting/libcupsfilters
@@ -20859,10 +20859,10 @@ Vendor          : Fedora Project
 Name            : libomp
 Epoch           : 0
 Version         : 19.1.7
-Release         : 2.fc41
+Release         : 3.fc41
 Architecture    : x86_64
 Installed size  : 1.9 MiB
-Source          : llvm-19.1.7-2.fc41.src.rpm
+Source          : llvm-19.1.7-3.fc41.src.rpm
 From repository : updates
 Summary         : OpenMP runtime for clang
 URL             : http://openmp.llvm.org
@@ -20873,10 +20873,10 @@ Vendor          : Fedora Project
 Name            : libomp-devel
 Epoch           : 0
 Version         : 19.1.7
-Release         : 2.fc41
+Release         : 3.fc41
 Architecture    : x86_64
 Installed size  : 31.2 MiB
-Source          : llvm-19.1.7-2.fc41.src.rpm
+Source          : llvm-19.1.7-3.fc41.src.rpm
 From repository : updates
 Summary         : OpenMP header files
 URL             : http://openmp.llvm.org
@@ -22266,10 +22266,10 @@ Vendor          : Fedora Project
 Name            : librewolf
 Epoch           : 0
 Version         : 136.0
-Release         : 1
+Release         : 2
 Architecture    : x86_64
 Installed size  : 350.4 MiB
-Source          : librewolf-136.0-1.src.rpm
+Source          : librewolf-136.0-2.src.rpm
 From repository : repository
 Summary         : The LibreWolf browser
 URL             : https://librewolf-community.gitlab.io/
@@ -25451,10 +25451,10 @@ Vendor          : Fedora Project
 Name            : llvm-libs
 Epoch           : 0
 Version         : 19.1.7
-Release         : 2.fc41
+Release         : 3.fc41
 Architecture    : i686
 Installed size  : 129.2 MiB
-Source          : llvm-19.1.7-2.fc41.src.rpm
+Source          : llvm-19.1.7-3.fc41.src.rpm
 From repository : updates
 Summary         : LLVM shared libraries
 URL             : http://llvm.org
@@ -25465,10 +25465,10 @@ Vendor          : Fedora Project
 Name            : llvm-libs
 Epoch           : 0
 Version         : 19.1.7
-Release         : 2.fc41
+Release         : 3.fc41
 Architecture    : x86_64
 Installed size  : 124.5 MiB
-Source          : llvm-19.1.7-2.fc41.src.rpm
+Source          : llvm-19.1.7-3.fc41.src.rpm
 From repository : updates
 Summary         : LLVM shared libraries
 URL             : http://llvm.org

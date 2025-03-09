@@ -4,7 +4,7 @@
 
 - [ ] `vscode.sh` should take parameter of vscode config file path, there is a different path for mac
 - [ ] save repo configs at `sudo vim /etc/yum.repos.d/terra.repo`
-- [ ] prefer fedora default repo over terra, https://chatgpt.com/share/67c77fbc-a73c-800d-b94a-150bdc648c9c
+- [ ] prefer fedora default repo over terra, <https://chatgpt.com/share/67c77fbc-a73c-800d-b94a-150bdc648c9c>
 - [ ] dnf config, make it faster
 - [ ] auto mount backup disk
 - [ ] track installed gnome extensions

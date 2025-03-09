@@ -1,5 +1,5 @@
 Key Rack	app.drey.KeyRack	0.4.0	stable	system
-Zen	app.zen_browser.zen	1.8.2b	stable	system
+Zen	app.zen_browser.zen	1.9b	stable	system
 Adventure List	codes.merritt.adventurelist	0.15.0	stable	system
 Authenticator	com.belmoussaoui.Authenticator	4.5.0	stable	system
 Mindustry	com.github.Anuken.Mindustry	146	stable	system

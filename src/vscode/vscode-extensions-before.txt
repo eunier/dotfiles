@@ -33,6 +33,7 @@ rust-lang.rust-analyzer
 stkb.rewrap
 streetsidesoftware.code-spell-checker
 timonwong.shellcheck
+usernamehw.errorlens
 vadimcn.vscode-lldb
 zhuangtongfa.material-theme
 ziglang.vscode-zig

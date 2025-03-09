@@ -33,6 +33,17 @@ ignoreMap.set("[org/gnome/shell/extensions/caffeine]", [
 	"user-enabled=",
 ]);
 
+ignoreMap.set("[org/gtk/settings/file-chooser]", ["window-position="]);
+
+ignoreMap.set("[org/gnome/nautilus/window-state]", [
+	"initial-size=",
+	"initial-size-file-chooser=",
+]);
+
+ignoreMap.set("[org/gnome/portal/filechooser/org.nickvision.money]", [
+	"last-folder-path=",
+]);
+
 ignoreMap.set("[org/gnome/software]", [
 	"check-timestamp=",
 	"flatpak-purge-timestamp=",
@@ -41,7 +52,9 @@ ignoreMap.set("[org/gnome/software]", [
 	"update-notification-timestamp=",
 ]);
 
-ignoreMap.set("[org/gnome/control-center]", ["last-panel="]);
+ignoreMap.set("[org/gnome/control-center]", ["last-panel=", "window-state="]);
+
+ignoreMap.set("[org/gnome/evince/default]", ["sidebar-page=", "window-ratio="]);
 
 ignoreMap.set("[org/gnome/gitlab/cheywood/Iotas]", [
 	"editor-formatting-bar-visibility=",

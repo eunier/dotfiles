@@ -91,6 +91,7 @@ sudo dnf install \
     jetbrains-mono-fonts \
     jetbrains-mono-nl-fonts \
     keepassxc \
+    kodi \
     lact-libadwaita \
     libatomic \
     librewolf \
@@ -107,6 +108,7 @@ sudo dnf install \
     mesa-dri-drivers \
     mesa-libGL \
     mesa-libGL-devel \
+    minecraft-launcher \
     morewaita-icon-theme \
     mullvad-vpn \
     opendoas \
