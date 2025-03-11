@@ -3635,6 +3635,22 @@ Description     : This package is used by Fedora mainly for executing files by c
                 : your system.
 Vendor          : Fedora Project
 
+Name            : crossguid
+Epoch           : 0
+Version         : 0
+Release         : 0.24.20160908gitfef89a4.fc41
+Architecture    : x86_64
+Installed size  : 23.7 KiB
+Source          : crossguid-0-0.24.20160908gitfef89a4.fc41.src.rpm
+From repository : fedora
+Summary         : Lightweight cross platform C++ GUID/UUID library
+URL             : https://github.com/graeme-hill/crossguid/
+License         : MIT
+Description     : CrossGuid is a minimal, cross platform, C++ GUID library. It uses the best
+                : native GUID/UUID generator on the given platform and has a generic class for
+                : parsing, stringifying, and comparing IDs.
+Vendor          : Fedora Project
+
 Name            : crun
 Epoch           : 0
 Version         : 1.20
@@ -3712,6 +3728,21 @@ Summary         : Cryptsetup shared library
 URL             : https://gitlab.com/cryptsetup/cryptsetup
 License         : GPL-2.0-or-later WITH cryptsetup-OpenSSL-exception AND LGPL-2.1-or-later WITH cryptsetup-OpenSSL-exception
 Description     : This package contains the cryptsetup shared library, libcryptsetup.
+Vendor          : Fedora Project
+
+Name            : crystalhd-firmware
+Epoch           : 0
+Version         : 3.10.0
+Release         : 33.fc41
+Architecture    : noarch
+Installed size  : 3.5 MiB
+Source          : libcrystalhd-3.10.0-33.fc41.src.rpm
+From repository : fedora
+Summary         : Firmware for the Broadcom Crystal HD video decoder
+URL             : http://www.broadcom.com/support/crystal-hd/
+License         : Redistributable, no modification permitted
+Description     : Firmwares for the Broadcom Crystal HD (bcm970012 and bcm970015)
+                : video decoders.
 Vendor          : Fedora Project
 
 Name            : ctags
@@ -7384,6 +7415,22 @@ License         : GPLv2+
 Description     : fros plugin for screencasting using Gnome3 integrated screencaster
 Vendor          : Fedora Project
 
+Name            : fstrcmp
+Epoch           : 0
+Version         : 0.7.D001
+Release         : 23.fc41
+Architecture    : x86_64
+Installed size  : 92.1 KiB
+Source          : fstrcmp-0.7.D001-23.fc41.src.rpm
+From repository : fedora
+Summary         : Fuzzy string compare library
+URL             : http://fstrcmp.sourceforge.net/
+License         : GPLv3+
+Description     : The fstrcmp package provides a library which may be used to make fuzzy
+                : comparisons of strings and byte arrays. It also provides simple commands for use
+                : in shell scripts.
+Vendor          : Fedora Project
+
 Name            : fstrm
 Epoch           : 0
 Version         : 0.6.1
@@ -8740,11 +8787,11 @@ Vendor          : Fedora Project
 
 Name            : glycin-loaders
 Epoch           : 0
-Version         : 1.1.4
+Version         : 1.1.6
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 10.9 MiB
-Source          : glycin-1.1.4-1.fc41.src.rpm
+Installed size  : 11.2 MiB
+Source          : glycin-1.1.6-1.fc41.src.rpm
 From repository : updates
 Summary         : Sandboxed image rendering (image loading backends)
 URL             : https://gitlab.gnome.org/sophie-h/glycin
@@ -12858,6 +12905,22 @@ Description     : Imath is a basic, light-weight, and efficient C++ representati
                 : the “half” 16-bit floating-point type.
 Vendor          : Fedora Project
 
+Name            : info
+Epoch           : 0
+Version         : 7.1
+Release         : 3.fc41
+Architecture    : x86_64
+Installed size  : 361.8 KiB
+Source          : texinfo-7.1-3.fc41.src.rpm
+From repository : fedora
+Summary         : A stand-alone TTY-based reader for GNU texinfo documentation
+URL             : http://www.gnu.org/software/texinfo/
+License         : GPL-3.0-or-later
+Description     : The GNU project uses the texinfo file format for much of its
+                : documentation. The info package provides a standalone TTY-based
+                : browser program for viewing texinfo files.
+Vendor          : Fedora Project
+
 Name            : inih
 Epoch           : 0
 Version         : 58
@@ -13080,12 +13143,12 @@ Vendor          : Fedora Project
 
 Name            : ipp-usb
 Epoch           : 0
-Version         : 0.9.28
+Version         : 0.9.29
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 6.3 MiB
-Source          : golang-github-openprinting-ipp-usb-0.9.28-1.fc41.src.rpm
-From repository : anaconda
+Installed size  : 6.4 MiB
+Source          : golang-github-openprinting-ipp-usb-0.9.29-1.fc41.src.rpm
+From repository : updates
 Summary         : HTTP reverse proxy capable of IPP-over-USB connection
 URL             : https://github.com/OpenPrinting/ipp-usb
 License         : BSD-2-Clause
@@ -13460,6 +13523,20 @@ Summary         : Runtime libraries for jasper
 URL             : http://www.ece.uvic.ca/~frodo/jasper/
 License         : JasPer-2.0
 Description     : Runtime libraries for jasper.
+Vendor          : Fedora Project
+
+Name            : java-21-openjdk
+Epoch           : 1
+Version         : 21.0.6.0.7
+Release         : 6.fc41
+Architecture    : x86_64
+Installed size  : 1.0 MiB
+Source          : java-21-openjdk-21.0.6.0.7-6.fc41.src.rpm
+From repository : updates
+Summary         : OpenJDK 21 Runtime Environment
+URL             : http://openjdk.java.net/
+License         : ASL 1.1 and ASL 2.0 and BSD and BSD with advertising and GPL+ and GPLv2 and GPLv2 with exceptions and IJG and LGPLv2+ and MIT and MPLv2.0 and Public Domain and W3C and zlib and ISC and FTL and RSA
+Description     : The OpenJDK 21 runtime environment.
 Vendor          : Fedora Project
 
 Name            : java-21-openjdk-headless
@@ -15167,6 +15244,37 @@ License         : GPL-2.0-or-later AND GPL-3.0-or-later AND FSFUL AND FSFULLRWD 
 Description     : The kmod-libs package provides runtime libraries for any application that
                 : wishes to load or unload Linux kernel modules from the running system.
 Vendor          : Fedora Project
+
+Name            : kodi
+Epoch           : 0
+Version         : 21.2
+Release         : 4.fc41
+Architecture    : x86_64
+Installed size  : 70.9 MiB
+Source          : kodi-21.2-4.fc41.src.rpm
+From repository : rpmfusion-free-updates
+Summary         : Media center
+URL             : https://www.kodi.tv/
+License         : GPLv2+ and GPLv3+ and LGPLv2+ and BSD and MIT
+Description     : Kodi is a free cross-platform media-player jukebox and entertainment hub.
+                : Kodi can play a spectrum of of multimedia formats, and featuring playlist,
+                : audio visualizations, slideshow, and weather forecast functions, together
+                : third-party plugins.
+Vendor          : RPM Fusion
+
+Name            : kodi-firewalld
+Epoch           : 0
+Version         : 21.2
+Release         : 4.fc41
+Architecture    : x86_64
+Installed size  : 73.5 KiB
+Source          : kodi-21.2-4.fc41.src.rpm
+From repository : rpmfusion-free-updates
+Summary         : FirewallD metadata files for Kodi
+URL             : https://www.kodi.tv/
+License         : GPLv2+ and GPLv3+ and LGPLv2+ and BSD and MIT
+Description     : This package contains FirewallD files for Kodi.
+Vendor          : RPM Fusion
 
 Name            : kpartx
 Epoch           : 0
@@ -17441,6 +17549,25 @@ Description     : Libcdr is library providing ability to interpret and import Co
                 : libreoffice.
 Vendor          : Fedora Project
 
+Name            : libcec
+Epoch           : 0
+Version         : 6.0.2
+Release         : 18.fc41
+Architecture    : x86_64
+Installed size  : 687.7 KiB
+Source          : libcec-6.0.2-18.fc41.src.rpm
+From repository : fedora
+Summary         : Library and utilities for HDMI-CEC device control
+URL             : http://libcec.pulse-eight.com/
+License         : GPL-2.0-or-later
+Description     : libCEC allows you in combination with the right hardware to control your device
+                : with your TV remote control over your existing HDMI cabling.
+                : 
+                : libCEC is an enabling platform for the CEC bus in HDMI, it allows developers to
+                : interact with other HDMI devices without having to worry about the communication
+                : overhead, handshaking, and the various ways of send messages for each vendor.
+Vendor          : Fedora Project
+
 Name            : libchewing
 Epoch           : 0
 Version         : 0.9.1
@@ -17605,6 +17732,24 @@ Description     : Libconfig is a simple library for manipulating structured conf
                 : files. This file format is more compact and more readable than XML. And
                 : unlike XML, it is type-aware, so it is not necessary to do string parsing
                 : in application code.
+Vendor          : Fedora Project
+
+Name            : libcrystalhd
+Epoch           : 0
+Version         : 3.10.0
+Release         : 33.fc41
+Architecture    : x86_64
+Installed size  : 122.4 KiB
+Source          : libcrystalhd-3.10.0-33.fc41.src.rpm
+From repository : fedora
+Summary         : Broadcom Crystal HD device interface library
+URL             : http://www.broadcom.com/support/crystal-hd/
+License         : LGPLv2
+Description     : The libcrystalhd library provides userspace access to Broadcom Crystal HD
+                : video decoder devices. The device supports hardware decoding of MPEG-2,
+                : h.264 and VC1 video codecs, up to 1080p at 40fps for the first-generation
+                : bcm970012 hardware, and up to 1080p at 60fps for the second-generation
+                : bcm970015 hardware.
 Vendor          : Fedora Project
 
 Name            : libcue
@@ -19848,11 +19993,11 @@ Vendor          : Fedora Project
 
 Name            : libkexiv2-qt5
 Epoch           : 0
-Version         : 24.12.2
+Version         : 24.12.3
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 368.0 KiB
-Source          : libkexiv2-24.12.2-1.fc41.src.rpm
+Source          : libkexiv2-24.12.3-1.fc41.src.rpm
 From repository : updates
 Summary         : Qt5 version of libkexiv2
 URL             : https://invent.kde.org/graphics/libkexiv2
@@ -20127,6 +20272,23 @@ Description     : The LiquidRescale (lqr) library provides a C/C++ API for
                 : technique.
 Vendor          : Fedora Project
 
+Name            : libmad
+Epoch           : 0
+Version         : 0.16.4
+Release         : 4.fc41
+Architecture    : x86_64
+Installed size  : 179.2 KiB
+Source          : libmad-0.16.4-4.fc41.src.rpm
+From repository : fedora
+Summary         : MPEG audio decoder library
+URL             : https://codeberg.org/tenacityteam/libmad
+License         : GPL-2.0-or-later
+Description     : MAD is a high-quality MPEG audio decoder. It currently supports MPEG-1
+                : and the MPEG-2 extension to Lower Sampling Frequencies, as well as the
+                : so-called MPEG 2.5 format. All three audio layers (Layer I, Layer II,
+                : and Layer III a.k.a. MP3) are fully implemented.
+Vendor          : Fedora Project
+
 Name            : libmanette
 Epoch           : 0
 Version         : 0.2.9
@@ -20231,6 +20393,31 @@ Summary         : Library for managing media art caches
 URL             : https://gitlab.gnome.org/GNOME/libmediaart
 License         : LGPL-2.1-or-later
 Description     : Library tasked with managing, extracting and handling media art caches.
+Vendor          : Fedora Project
+
+Name            : libmicrohttpd
+Epoch           : 1
+Version         : 1.0.1
+Release         : 2.fc41
+Architecture    : x86_64
+Installed size  : 281.9 KiB
+Source          : libmicrohttpd-1.0.1-2.fc41.src.rpm
+From repository : fedora
+Summary         : Lightweight library for embedding a webserver in applications
+URL             : http://www.gnu.org/software/libmicrohttpd/
+License         : LGPL-2.1-or-later AND (LGPL-2.1-or-later OR GPL-2.0-or-later WITH eCos-exception-2.0) AND GFDL-1.3-no-invariants-or-later
+Description     : GNU libmicrohttpd is a small C library that is supposed to make it
+                : easy to run an HTTP server as part of another application.
+                : Key features that distinguish libmicrohttpd from other projects are:
+                : 
+                : * C library: fast and small
+                : * API is simple, expressive and fully reentrant
+                : * Implementation is http 1.1 compliant
+                : * HTTP server can listen on multiple ports
+                : * Support for IPv6
+                : * Support for incremental processing of POST data
+                : * Creates binary of only 25k (for now)
+                : * Three different threading models
 Vendor          : Fedora Project
 
 Name            : libmng
@@ -21662,10 +21849,10 @@ Vendor          : Fedora Project
 Name            : librados2
 Epoch           : 2
 Version         : 19.2.1
-Release         : 1.fc41
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 17.1 MiB
-Source          : ceph-19.2.1-1.fc41.src.rpm
+Source          : ceph-19.2.1-2.fc41.src.rpm
 From repository : updates
 Summary         : RADOS distributed object store client library
 URL             : http://ceph.com/
@@ -21710,10 +21897,10 @@ Vendor          : Fedora Project
 Name            : librbd1
 Epoch           : 2
 Version         : 19.2.1
-Release         : 1.fc41
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 15.9 MiB
-Source          : ceph-19.2.1-1.fc41.src.rpm
+Source          : ceph-19.2.1-2.fc41.src.rpm
 From repository : updates
 Summary         : RADOS block device client library
 URL             : http://ceph.com/
@@ -22305,6 +22492,20 @@ URL             : https://wiki.gnome.org/Projects/LibRsvg
 License         : LGPL-2.1-or-later AND Apache-2.0 AND BSD-3-Clause AND MIT AND MPL-2.0 AND Unicode-DFS-2016 AND (0BSD OR MIT OR Apache-2.0) AND (Apache-2.0 OR MIT) AND (MIT OR Apache-2.0 OR Zlib) AND (Unlicense OR MIT)
 Description     : An SVG library based on cairo.
 Vendor          : Fedora Project
+
+Name            : librtmp
+Epoch           : 0
+Version         : 2.6^20240301git6f6bb13
+Release         : 1.fc41
+Architecture    : x86_64
+Installed size  : 163.1 KiB
+Source          : rtmpdump-2.6^20240301git6f6bb13-1.fc41.src.rpm
+From repository : terra
+Summary         : Support library for RTMP streams
+URL             : https://git.ffmpeg.org/gitweb/rtmpdump.git
+License         : LGPLv2+
+Description     : librtmp is a support library for RTMP streams. All forms of RTMP are supported.
+Vendor          : <NULL>
 
 Name            : libsamplerate
 Epoch           : 0
@@ -23684,6 +23885,24 @@ Description     : The libusal package contains C libraries that allows applicati
                 : CD-R media.
 Vendor          : Fedora Project
 
+Name            : libusb-compat-0.1
+Epoch           : 0
+Version         : 0.1.8
+Release         : 8.fc41
+Architecture    : x86_64
+Installed size  : 57.1 KiB
+Source          : libusb-compat-0.1-0.1.8-8.fc41.src.rpm
+From repository : fedora
+Summary         : Compatibility shim around libusb-1.0 offering the old 0.1 API
+URL             : https://github.com/libusb/libusb-compat-0.1
+License         : LGPLv2+
+Description     : This package provides a shim / compatibility layer on top of libusb1
+                : offering the old 0.1 API for applications which do not have been ported
+                : to the new 1.0 API yet. Where ever possible applications really should
+                : use and / or be ported to the new 1.0 API instead of relying on this
+                : compatibility library.
+Vendor          : Fedora Project
+
 Name            : libusb1
 Epoch           : 0
 Version         : 1.0.27
@@ -25010,11 +25229,11 @@ Vendor          : Fedora Project
 
 Name            : libxdp
 Epoch           : 0
-Version         : 1.5.2
+Version         : 1.5.3
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 162.4 KiB
-Source          : xdp-tools-1.5.2-1.fc41.src.rpm
+Source          : xdp-tools-1.5.3-1.fc41.src.rpm
 From repository : updates
 Summary         : XDP helper library
 URL             : https://github.com/xdp-project/xdp-tools
@@ -25393,6 +25612,24 @@ Summary         : WHENCE License file
 URL             : http://www.kernel.org/
 License         : GPL-1.0-or-later AND GPL-2.0-or-later AND LicenseRef-Callaway-MIT AND LicenseRef-Callaway-Redistributable-no-modification-permitted
 Description     : This package contains the WHENCE license file which documents the vendor license details.
+Vendor          : Fedora Project
+
+Name            : lirc-libs
+Epoch           : 0
+Version         : 0.10.0
+Release         : 44.fc41
+Architecture    : x86_64
+Installed size  : 344.8 KiB
+Source          : lirc-0.10.0-44.fc41.src.rpm
+From repository : fedora
+Summary         : LIRC libraries
+URL             : http://www.lirc.org/
+License         : GPLv2 and BSD
+Description     : Part of the LIRC package suite which handles IR remotes. See
+                : the package lirc for more.
+                : 
+                : This package includes shared libraries that applications use to
+                : interface with LIRC.
 Vendor          : Fedora Project
 
 Name            : livesys-scripts
@@ -26447,6 +26684,20 @@ Description     : The microcode_ctl utility is a companion to the microcode driv
                 : back to the old microcode.
 Vendor          : Fedora Project
 
+Name            : minecraft-launcher
+Epoch           : 0
+Version         : 1121
+Release         : 3.fc41
+Architecture    : x86_64
+Installed size  : 1.6 MiB
+Source          : minecraft-launcher-1121-3.fc41.src.rpm
+From repository : terra
+Summary         : Official launcher for Minecraft
+URL             : https://minecraft.net
+License         : Proprietary
+Description     : The official Linux release of the launcher for Minecraft, a game about placing blocks and going on adventures.
+Vendor          : <NULL>
+
 Name            : minizip-ng-compat
 Epoch           : 0
 Version         : 4.0.7
@@ -26462,6 +26713,22 @@ Description     : minizip-ng is a minizip replacement that provides optimization
                 : systems.
                 : The minizip-ng-compat package contains the library that is API and binary
                 : compatible with minizip.
+Vendor          : Fedora Project
+
+Name            : mkfontscale
+Epoch           : 0
+Version         : 1.2.3
+Release         : 1.fc41
+Architecture    : x86_64
+Installed size  : 49.2 KiB
+Source          : mkfontscale-1.2.3-1.fc41.src.rpm
+From repository : fedora
+Summary         : Tool to generate legacy X11 font system index files
+URL             : https://www.x.org
+License         : MIT-open-group AND X11 AND MIT AND HPND-sell-variant
+Description     : mkfontscale creates the fonts.scale and fonts.dir index files used by the
+                : legacy X11 font system.  It now includes the mkfontdir script previously
+                : distributed separately for compatibility with older X11 versions.
 Vendor          : Fedora Project
 
 Name            : mkpasswd
@@ -28884,6 +29151,25 @@ Description     : This package contains a library for inspecting and setting
                 : devices connected to the PCI bus.
 Vendor          : Fedora Project
 
+Name            : pcre
+Epoch           : 0
+Version         : 8.45
+Release         : 1.fc41.7
+Architecture    : x86_64
+Installed size  : 545.8 KiB
+Source          : pcre-8.45-1.fc41.7.src.rpm
+From repository : fedora
+Summary         : Perl-compatible regular expression library
+URL             : https://www.pcre.org/
+License         : BSD-3-Clause
+Description     : PCRE, Perl-compatible regular expression, library has its own native API, but
+                : a set of wrapper functions that are based on the POSIX API are also supplied
+                : in the libpcreposix library. Note that this just provides a POSIX calling
+                : interface to PCRE: the regular expressions themselves still follow Perl syntax
+                : and semantics. This package provides support for strings in 8-bit and UTF-8
+                : encodings. Detailed change log is provided by pcre-doc package.
+Vendor          : Fedora Project
+
 Name            : pcre2
 Epoch           : 0
 Version         : 10.44
@@ -31170,6 +31456,20 @@ Summary         : Common files shared between Plasma 5 and Plasma 6 versions of 
 URL             : https://invent.kde.org/plasma/breeze.git
 License         : BSD-3-Clause AND CC0-1.0 AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only AND (GPL-2.0-only OR GPL-3.0-only) AND MIT
 Description     : Common files shared between Plasma 5 and Plasma 6 versions of the Breeze style.
+Vendor          : Fedora Project
+
+Name            : platform
+Epoch           : 0
+Version         : 2.1.0.1
+Release         : 20.fc41
+Architecture    : x86_64
+Installed size  : 73.6 KiB
+Source          : platform-2.1.0.1-20.fc41.src.rpm
+From repository : fedora
+Summary         : Platform support library used by libCEC and binary add-ons for Kodi
+URL             : https://github.com/Pulse-Eight/platform/
+License         : GPLv2+
+Description     : Platform support library used by libCEC and binary add-ons for Kodi.
 Vendor          : Fedora Project
 
 Name            : plocate
@@ -36108,6 +36408,20 @@ License         : BSD and GPLv2+
 Description     : Utility library that provides a way to manage subid ranges.
 Vendor          : Fedora Project
 
+Name            : shairplay-libs
+Epoch           : 0
+Version         : 0.9.0
+Release         : 25.20180824git096b61a.fc41
+Architecture    : x86_64
+Installed size  : 308.8 KiB
+Source          : shairplay-0.9.0-25.20180824git096b61a.fc41.src.rpm
+From repository : fedora
+Summary         : Libraries for shairplay
+URL             : https://github.com/juhovh/shairplay/
+License         : MIT and BSD and LGPLv2+
+Description     : The shairplay-libs package contains the runtime shared libraries for shairplay.
+Vendor          : Fedora Project
+
 Name            : shared-mime-info
 Epoch           : 0
 Version         : 2.3
@@ -36410,6 +36724,21 @@ URL             : https://sourceforge.net/p/soxr/wiki/Home/
 License         : LGPLv2+
 Description     : The SoX Resampler library `libsoxr' performs one-dimensional sample-rate
                 : conversion -- it may be used, for example, to resample PCM-encoded audio.
+Vendor          : Fedora Project
+
+Name            : spdlog
+Epoch           : 0
+Version         : 1.14.1
+Release         : 3.fc41
+Architecture    : x86_64
+Installed size  : 355.2 KiB
+Source          : spdlog-1.14.1-3.fc41.src.rpm
+From repository : fedora
+Summary         : Super fast C++ logging library
+URL             : https://github.com/gabime/spdlog
+License         : MIT
+Description     : This is a packaged version of the gabime/spdlog C++ logging
+                : library available at Github.
 Vendor          : Fedora Project
 
 Name            : speech-dispatcher
@@ -37146,11 +37475,11 @@ Vendor          : Fedora Project
 
 Name            : systemd
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 16.7 MiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Installed size  : 16.4 MiB
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : System and Service Manager
 URL             : https://systemd.io
@@ -37171,11 +37500,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-container
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 1.5 MiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Installed size  : 2.1 MiB
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : Tools for containers and VMs
 URL             : https://systemd.io
@@ -37188,11 +37517,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-libs
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : i686
 Installed size  : 2.0 MiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : systemd libraries
 URL             : https://systemd.io
@@ -37202,11 +37531,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-libs
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 2.0 MiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : systemd libraries
 URL             : https://systemd.io
@@ -37216,11 +37545,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-networkd
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 2.1 MiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : System daemon that manages network configurations
 URL             : https://systemd.io
@@ -37232,11 +37561,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-oomd-defaults
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 187.0   B
-Source          : systemd-256.11-1.fc41.src.rpm
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : Configuration files for systemd-oomd
 URL             : https://systemd.io
@@ -37247,11 +37576,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-pam
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 1.1 MiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : systemd PAM module
 URL             : https://systemd.io
@@ -37261,11 +37590,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-resolved
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 661.4 KiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Installed size  : 671.1 KiB
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : Network Name Resolution manager
 URL             : https://systemd.io
@@ -37277,11 +37606,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-udev
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 11.9 MiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Installed size  : 12.0 MiB
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : Rule-based device node and kernel event manager
 URL             : https://systemd.io
@@ -38008,6 +38337,48 @@ Description     : Timeshift for Linux is an application that provides functional
                 : Ubuntu-type subvolume layout (with @ and @home subvolumes).
 Vendor          : Fedora Project
 
+Name            : tinyxml
+Epoch           : 0
+Version         : 2.6.2
+Release         : 30.fc41
+Architecture    : x86_64
+Installed size  : 139.5 KiB
+Source          : tinyxml-2.6.2-30.fc41.src.rpm
+From repository : fedora
+Summary         : A simple, small, C++ XML parser
+URL             : http://www.grinninglizard.com/tinyxml/
+License         : zlib
+Description     : TinyXML is a simple, small, C++ XML parser that can be easily integrating
+                : into other programs. Have you ever found yourself writing a text file parser
+                : every time you needed to save human readable data or serialize objects?
+                : TinyXML solves the text I/O file once and for all.
+                : (Or, as a friend said, ends the Just Another Text File Parser problem.)
+Vendor          : Fedora Project
+
+Name            : tinyxml2
+Epoch           : 0
+Version         : 9.0.0
+Release         : 5.fc41
+Architecture    : x86_64
+Installed size  : 103.8 KiB
+Source          : tinyxml2-9.0.0-5.fc41.src.rpm
+From repository : fedora
+Summary         : Simple, small and efficient C++ XML parser
+URL             : https://github.com/leethomason/tinyxml2
+License         : zlib
+Description     : TinyXML-2 is a simple, small, efficient, C++ XML parser that can be
+                : easily integrated into other programs. It uses a Document Object Model
+                : (DOM), meaning the XML data is parsed into a C++ objects that can be
+                : browsed and manipulated, and then written to disk or another output stream.
+                : 
+                : TinyXML-2 doesn't parse or use DTDs (Document Type Definitions) nor XSLs
+                : (eXtensible Stylesheet Language).
+                : 
+                : TinyXML-2 uses a similar API to TinyXML-1, But the implementation of the
+                : parser was completely re-written to make it more appropriate for use in a
+                : game. It uses less memory, is faster, and uses far fewer memory allocations.
+Vendor          : Fedora Project
+
 Name            : tiwilink-firmware
 Epoch           : 0
 Version         : 20241210
@@ -38256,6 +38627,22 @@ Description     : The idea of tslib is to have a core library that provides stan
                 : specifies one module, and the parameters for that module.  The modules
                 : are loaded in order, with the first one processing the touchscreen data
                 : first.
+Vendor          : Fedora Project
+
+Name            : ttmkfdir
+Epoch           : 0
+Version         : 3.0.9
+Release         : 71.fc41
+Architecture    : x86_64
+Installed size  : 122.7 KiB
+Source          : ttmkfdir-3.0.9-71.fc41.src.rpm
+From repository : fedora
+Summary         : Utility to create fonts.scale files for truetype fonts
+URL             : 
+License         : LGPL-2.0-or-later
+Description     : ttmkfdir is a utility used to create fonts.scale files in
+                : TrueType font directories in order to prepare them for use
+                : by the font server.
 Vendor          : Fedora Project
 
 Name            : tuned
@@ -39397,6 +39784,27 @@ Description     : WavPack is a completely open audio compression format providin
                 : performance and functionality.
 Vendor          : Fedora Project
 
+Name            : waylandpp
+Epoch           : 0
+Version         : 1.0.0
+Release         : 6.fc41
+Architecture    : x86_64
+Installed size  : 2.1 MiB
+Source          : waylandpp-1.0.0-6.fc41.src.rpm
+From repository : fedora
+Summary         : Wayland C++ bindings
+URL             : https://github.com/NilsBrause/waylandpp/
+License         : BSD and MIT and GPLv3+
+Description     : Wayland is an object oriented display protocol, which features request and
+                : events. Requests can be seen as method calls on certain objects, whereas events
+                : can be seen as signals of an object. This makes the Wayland protocol a perfect
+                : candidate for a C++ binding.
+                : 
+                : The goal of this library is to create such a C++ binding for Wayland using the
+                : most modern C++ technology currently available, providing an easy to use C++ API
+                : to Wayland.
+Vendor          : Fedora Project
+
 Name            : webkit2gtk4.1
 Epoch           : 0
 Version         : 2.46.6
@@ -40143,6 +40551,21 @@ URL             : http://www.aleksey.com/xmlsec/
 License         : MIT
 Description     : OpenSSL plugin for XML Security Library provides OpenSSL based crypto services
                 : for the xmlsec library.
+Vendor          : Fedora Project
+
+Name            : xorg-x11-fonts-Type1
+Epoch           : 0
+Version         : 7.5
+Release         : 39.fc41
+Architecture    : noarch
+Installed size  : 863.3 KiB
+Source          : xorg-x11-fonts-7.5-39.fc41.src.rpm
+From repository : fedora
+Summary         : Type1 fonts provided by the X Window System
+URL             : https://www.x.org
+License         : HPND AND Adobe-Utopia AND Cronyx AND MIT AND Lucida-Bitmap-Fonts AND Bitstream-Charter AND X11
+Description     : A collection of Type1 fonts which are part of the core X Window System
+                : distribution.
 Vendor          : Fedora Project
 
 Name            : xorg-x11-proto-devel

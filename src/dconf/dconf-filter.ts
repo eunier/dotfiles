@@ -19,21 +19,47 @@ const data: Data = (
 
 const ignoreMap = new Map<string, string[]>();
 
-ignoreMap.set("*", [
+ignoreMap.set("[org/gnome/boxes]", [
+	"first-run=",
+	"view=",
+	"window-maximized=",
+	"window-position=",
+]);
+
+ignoreMap.set("[org/gnome/builder]", ["window-maximized="]);
+
+ignoreMap.set("[org/gnome/calculator]", [
+	"angle-units=",
+	"base=",
+	"button-mode=",
+	"number-format=",
+	"show-thousands=",
+	"show-zeroes=",
+	"source-currency=",
+	"source-units=",
+	"target-currency=",
+	"target-units=",
+	"window-maximized=",
+	"accuracy=",
+]);
+
+ignoreMap.set("[org/gnome/control-center]", ["last-panel=", "window-state="]);
+
+ignoreMap.set("[org/gnome/evince/default]", [
+	"sidebar-page=",
+	"window-ratio=",
+	"dual-page-odd-left=",
+]);
+
+ignoreMap.set("[org/gnome/gitlab/cheywood/Iotas]", [
+	"editor-formatting-bar-visibility=",
+	"first-start=",
+	"last-launched-version=",
+	"nextcloud-prune-threshold",
 	"window-size=",
-	"current-tab=",
-	"was-maximized=",
-	"window-height=",
-	"window-width=",
 ]);
 
-ignoreMap.set("[org/gnome/shell/extensions/caffeine]", [
-	"indicator-position-max=",
-	"toggle-state=",
-	"user-enabled=",
-]);
-
-ignoreMap.set("[org/gtk/settings/file-chooser]", ["window-position="]);
+ignoreMap.set("[org/gnome/gnome-system-monitor/proctree]", ["sort-col="]);
 
 ignoreMap.set("[org/gnome/nautilus/window-state]", [
 	"initial-size=",
@@ -44,6 +70,16 @@ ignoreMap.set("[org/gnome/portal/filechooser/org.nickvision.money]", [
 	"last-folder-path=",
 ]);
 
+ignoreMap.set("[org/gnome/rhythmbox]", ["position="]);
+
+ignoreMap.set("[org/gnome/rhythmbox/player]", ["volume="]);
+
+ignoreMap.set("[org/gnome/shell/extensions/caffeine]", [
+	"indicator-position-max=",
+	"toggle-state=",
+	"user-enabled=",
+]);
+
 ignoreMap.set("[org/gnome/software]", [
 	"check-timestamp=",
 	"flatpak-purge-timestamp=",
@@ -52,29 +88,15 @@ ignoreMap.set("[org/gnome/software]", [
 	"update-notification-timestamp=",
 ]);
 
-ignoreMap.set("[org/gnome/control-center]", ["last-panel=", "window-state="]);
+ignoreMap.set("[org/gtk/settings/file-chooser]", ["window-position="]);
 
-ignoreMap.set("[org/gnome/evince/default]", ["sidebar-page=", "window-ratio="]);
-
-ignoreMap.set("[org/gnome/gitlab/cheywood/Iotas]", [
-	"editor-formatting-bar-visibility=",
-	"first-start=",
-	"last-launched-version=",
-	"nextcloud-prune-threshold",
+ignoreMap.set("*", [
 	"window-size=",
+	"current-tab=",
+	"was-maximized=",
+	"window-height=",
+	"window-width=",
 ]);
-
-ignoreMap.set("[org/gnome/boxes]", [
-	"first-run=",
-	"view=",
-	"window-maximized=",
-	"window-position=",
-]);
-
-ignoreMap.set("[org/gnome/builder]", ["window-maximized="]);
-
-ignoreMap.set("[org/gnome/rhythmbox]", ["position="]);
-ignoreMap.set("[org/gnome/rhythmbox/player]", ["volume="]);
 
 const outputArr: string[] = [];
 

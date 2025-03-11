@@ -328,11 +328,11 @@ Vendor          : Fedora Project
 
 Name            : NetworkManager-ssh
 Epoch           : 0
-Version         : 1.2.13
-Release         : 5.fc41
+Version         : 1.2.14
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 222.6 KiB
-Source          : NetworkManager-ssh-1.2.13-5.fc41.src.rpm
+Source          : NetworkManager-ssh-1.2.14-2.fc41.src.rpm
 From repository : updates
 Summary         : NetworkManager VPN plugin for SSH
 URL             : https://github.com/danfruehauf/NetworkManager-ssh
@@ -343,17 +343,31 @@ Vendor          : Fedora Project
 
 Name            : NetworkManager-ssh-gnome
 Epoch           : 0
-Version         : 1.2.13
-Release         : 5.fc41
+Version         : 1.2.14
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 161.3 KiB
-Source          : NetworkManager-ssh-1.2.13-5.fc41.src.rpm
+Source          : NetworkManager-ssh-1.2.14-2.fc41.src.rpm
 From repository : updates
 Summary         : NetworkManager VPN plugin for SSH - GNOME files
 URL             : https://github.com/danfruehauf/NetworkManager-ssh
 License         : GPL-2.0-or-later
 Description     : This package contains software for integrating VPN capabilities with
                 : the OpenSSH server with NetworkManager (GNOME files).
+Vendor          : Fedora Project
+
+Name            : NetworkManager-ssh-selinux
+Epoch           : 0
+Version         : 1.2.14
+Release         : 2.fc41
+Architecture    : x86_64
+Installed size  : 18.4 KiB
+Source          : NetworkManager-ssh-1.2.14-2.fc41.src.rpm
+From repository : updates
+Summary         : NetworkManager-ssh selinux policy module
+URL             : https://github.com/danfruehauf/NetworkManager-ssh
+License         : GPL-2.0-or-later
+Description     : Install NetworkManager-ssh-selinux policy
 Vendor          : Fedora Project
 
 Name            : NetworkManager-team
@@ -8787,11 +8801,11 @@ Vendor          : Fedora Project
 
 Name            : glycin-loaders
 Epoch           : 0
-Version         : 1.1.4
+Version         : 1.1.6
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 10.9 MiB
-Source          : glycin-1.1.4-1.fc41.src.rpm
+Installed size  : 11.2 MiB
+Source          : glycin-1.1.6-1.fc41.src.rpm
 From repository : updates
 Summary         : Sandboxed image rendering (image loading backends)
 URL             : https://gitlab.gnome.org/sophie-h/glycin
@@ -8880,12 +8894,12 @@ Vendor          : Fedora Project
 
 Name            : gnome-app-list
 Epoch           : 0
-Version         : 1.0
+Version         : 2.0
 Release         : 1.fc41
 Architecture    : noarch
-Installed size  : 59.1 KiB
-Source          : gnome-app-list-1.0-1.fc41.src.rpm
-From repository : anaconda
+Installed size  : 71.5 KiB
+Source          : gnome-app-list-2.0-1.fc41.src.rpm
+From repository : updates
 Summary         : A curated list of apps to feature or highlight in GNOME
 URL             : https://gitlab.gnome.org/GNOME/gnome-app-list/
 License         : LGPL-2.1-or-later
@@ -13143,12 +13157,12 @@ Vendor          : Fedora Project
 
 Name            : ipp-usb
 Epoch           : 0
-Version         : 0.9.28
+Version         : 0.9.29
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 6.3 MiB
-Source          : golang-github-openprinting-ipp-usb-0.9.28-1.fc41.src.rpm
-From repository : anaconda
+Installed size  : 6.4 MiB
+Source          : golang-github-openprinting-ipp-usb-0.9.29-1.fc41.src.rpm
+From repository : updates
 Summary         : HTTP reverse proxy capable of IPP-over-USB connection
 URL             : https://github.com/OpenPrinting/ipp-usb
 License         : BSD-2-Clause
@@ -19993,11 +20007,11 @@ Vendor          : Fedora Project
 
 Name            : libkexiv2-qt5
 Epoch           : 0
-Version         : 24.12.2
+Version         : 24.12.3
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 368.0 KiB
-Source          : libkexiv2-24.12.2-1.fc41.src.rpm
+Source          : libkexiv2-24.12.3-1.fc41.src.rpm
 From repository : updates
 Summary         : Qt5 version of libkexiv2
 URL             : https://invent.kde.org/graphics/libkexiv2
@@ -21849,10 +21863,10 @@ Vendor          : Fedora Project
 Name            : librados2
 Epoch           : 2
 Version         : 19.2.1
-Release         : 1.fc41
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 17.1 MiB
-Source          : ceph-19.2.1-1.fc41.src.rpm
+Source          : ceph-19.2.1-2.fc41.src.rpm
 From repository : updates
 Summary         : RADOS distributed object store client library
 URL             : http://ceph.com/
@@ -21897,10 +21911,10 @@ Vendor          : Fedora Project
 Name            : librbd1
 Epoch           : 2
 Version         : 19.2.1
-Release         : 1.fc41
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 15.9 MiB
-Source          : ceph-19.2.1-1.fc41.src.rpm
+Source          : ceph-19.2.1-2.fc41.src.rpm
 From repository : updates
 Summary         : RADOS block device client library
 URL             : http://ceph.com/
@@ -25229,11 +25243,11 @@ Vendor          : Fedora Project
 
 Name            : libxdp
 Epoch           : 0
-Version         : 1.5.2
+Version         : 1.5.3
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 162.4 KiB
-Source          : xdp-tools-1.5.2-1.fc41.src.rpm
+Source          : xdp-tools-1.5.3-1.fc41.src.rpm
 From repository : updates
 Summary         : XDP helper library
 URL             : https://github.com/xdp-project/xdp-tools
@@ -31997,11 +32011,11 @@ Vendor          : Fedora Project
 
 Name            : ptyxis
 Epoch           : 0
-Version         : 47.6
+Version         : 47.10
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 1.5 MiB
-Source          : ptyxis-47.6-1.fc41.src.rpm
+Installed size  : 1.6 MiB
+Source          : ptyxis-47.10-1.fc41.src.rpm
 From repository : updates
 Summary         : A container oriented terminal for GNOME
 URL             : https://gitlab.gnome.org/chergert/ptyxis
@@ -37475,11 +37489,11 @@ Vendor          : Fedora Project
 
 Name            : systemd
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 16.7 MiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Installed size  : 16.4 MiB
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : System and Service Manager
 URL             : https://systemd.io
@@ -37500,11 +37514,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-container
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 1.5 MiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Installed size  : 2.1 MiB
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : Tools for containers and VMs
 URL             : https://systemd.io
@@ -37517,11 +37531,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-libs
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : i686
 Installed size  : 2.0 MiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : systemd libraries
 URL             : https://systemd.io
@@ -37531,11 +37545,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-libs
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 2.0 MiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : systemd libraries
 URL             : https://systemd.io
@@ -37545,11 +37559,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-networkd
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 2.1 MiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : System daemon that manages network configurations
 URL             : https://systemd.io
@@ -37561,11 +37575,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-oomd-defaults
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 187.0   B
-Source          : systemd-256.11-1.fc41.src.rpm
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : Configuration files for systemd-oomd
 URL             : https://systemd.io
@@ -37576,11 +37590,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-pam
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 1.1 MiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : systemd PAM module
 URL             : https://systemd.io
@@ -37590,11 +37604,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-resolved
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 661.4 KiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Installed size  : 671.1 KiB
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : Network Name Resolution manager
 URL             : https://systemd.io
@@ -37606,11 +37620,11 @@ Vendor          : Fedora Project
 
 Name            : systemd-udev
 Epoch           : 0
-Version         : 256.11
+Version         : 256.12
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 11.9 MiB
-Source          : systemd-256.11-1.fc41.src.rpm
+Installed size  : 12.0 MiB
+Source          : systemd-256.12-1.fc41.src.rpm
 From repository : updates
 Summary         : Rule-based device node and kernel event manager
 URL             : https://systemd.io
