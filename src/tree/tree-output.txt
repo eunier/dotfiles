@@ -105,23 +105,22 @@
 │   │   │           │   └── fish
 │   │   │           │       └── config.fish
 │   │   │           └── .gitconfig
-│   │   ├── before
-│   │   │   ├── etc
-│   │   │   │   └── dnf
-│   │   │   │       └── dnf.conf
-│   │   │   └── home
-│   │   │       └── ~
-│   │   │           ├── .bash_profile
-│   │   │           ├── .bashrc
-│   │   │           ├── .config
-│   │   │           │   ├── Code
-│   │   │           │   │   └── User
-│   │   │           │   │       ├── keybindings.json
-│   │   │           │   │       └── settings.json
-│   │   │           │   └── fish
-│   │   │           │       └── config.fish
-│   │   │           └── .gitconfig
-│   │   └── system
+│   │   └── before
+│   │       ├── etc
+│   │       │   └── dnf
+│   │       │       └── dnf.conf
+│   │       └── home
+│   │           └── ~
+│   │               ├── .bash_profile
+│   │               ├── .bashrc
+│   │               ├── .config
+│   │               │   ├── Code
+│   │               │   │   └── User
+│   │               │   │       ├── keybindings.json
+│   │               │   │       └── settings.json
+│   │               │   └── fish
+│   │               │       └── config.fish
+│   │               └── .gitconfig
 │   ├── fish.sh
 │   ├── flatpak
 │   │   ├── flatpak-install.auto.sh
@@ -203,4 +202,4 @@
 └── .vscode
     └── settings.json
 
-56 directories, 148 files
+55 directories, 148 files
