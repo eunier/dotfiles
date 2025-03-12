@@ -43,6 +43,22 @@ License         : AGPLv3
 Description     : Filen Desktop Client
 Vendor          : Filen Cloud Dienste UG (haftungsbeschränkt)
 
+Name            : GConf2
+Epoch           : 0
+Version         : 3.2.6
+Release         : 42.fc41
+Architecture    : x86_64
+Installed size  : 6.3 MiB
+Source          : GConf2-3.2.6-42.fc41.src.rpm
+From repository : fedora
+Summary         : A process-transparent configuration system
+URL             : https://gitlab.gnome.org/Archive/gconf/
+License         : LGPLv2+ and GPLv2+
+Description     : GConf is a process-transparent configuration database API used to
+                : store user preferences. It has pluggable backends and features to
+                : support workgroup administration.
+Vendor          : Fedora Project
+
 Name            : ImageMagick
 Epoch           : 1
 Version         : 7.1.1.44
@@ -328,11 +344,11 @@ Vendor          : Fedora Project
 
 Name            : NetworkManager-ssh
 Epoch           : 0
-Version         : 1.2.13
-Release         : 5.fc41
+Version         : 1.2.14
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 222.6 KiB
-Source          : NetworkManager-ssh-1.2.13-5.fc41.src.rpm
+Source          : NetworkManager-ssh-1.2.14-2.fc41.src.rpm
 From repository : updates
 Summary         : NetworkManager VPN plugin for SSH
 URL             : https://github.com/danfruehauf/NetworkManager-ssh
@@ -343,17 +359,31 @@ Vendor          : Fedora Project
 
 Name            : NetworkManager-ssh-gnome
 Epoch           : 0
-Version         : 1.2.13
-Release         : 5.fc41
+Version         : 1.2.14
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 161.3 KiB
-Source          : NetworkManager-ssh-1.2.13-5.fc41.src.rpm
+Source          : NetworkManager-ssh-1.2.14-2.fc41.src.rpm
 From repository : updates
 Summary         : NetworkManager VPN plugin for SSH - GNOME files
 URL             : https://github.com/danfruehauf/NetworkManager-ssh
 License         : GPL-2.0-or-later
 Description     : This package contains software for integrating VPN capabilities with
                 : the OpenSSH server with NetworkManager (GNOME files).
+Vendor          : Fedora Project
+
+Name            : NetworkManager-ssh-selinux
+Epoch           : 0
+Version         : 1.2.14
+Release         : 2.fc41
+Architecture    : x86_64
+Installed size  : 18.4 KiB
+Source          : NetworkManager-ssh-1.2.14-2.fc41.src.rpm
+From repository : updates
+Summary         : NetworkManager-ssh selinux policy module
+URL             : https://github.com/danfruehauf/NetworkManager-ssh
+License         : GPL-2.0-or-later
+Description     : Install NetworkManager-ssh-selinux policy
 Vendor          : Fedora Project
 
 Name            : NetworkManager-team
@@ -5429,17 +5459,18 @@ Vendor          : Fedora Project
 
 Name            : discord
 Epoch           : 0
-Version         : 0.0.87
+Version         : 0.0.88
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 249.3 MiB
-Source          : discord-0.0.87-1.fc41.src.rpm
-From repository : rpmfusion-nonfree-updates
-Summary         : All-in-one voice and text chat
-URL             : https://discordapp.com/
-License         : Proprietary
-Description     : Linux Release for Discord, a free proprietary VoIP application
-Vendor          : RPM Fusion
+Source          : discord-0.0.88-1.fc41.src.rpm
+From repository : terra
+Summary         : Free Voice and Text Chat for Gamers
+URL             : https://discord.com
+License         : https://discord.com/terms
+Description     : All-in-one voice and text chat for gamers that's free, secure, and works on
+                : both your desktop and phone.
+Vendor          : <NULL>
 
 Name            : distribution-gpg-keys
 Epoch           : 0
@@ -6437,6 +6468,24 @@ Description     : This is expat, the C library for parsing XML, written by James
                 : start tag is an example of the kind of structures for which you may
                 : register handlers.
 Vendor          : Fedora Project
+
+Name            : extest-steam
+Epoch           : 0
+Version         : 20241119git.d6863d9
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 397.0   B
+Source          : extest-20241119git.d6863d9-1.fc41.src.rpm
+From repository : terra
+Summary         : Extest subpackage that patches Steam's scripts to load Extest
+URL             : https://github.com/KyleGospo/extest
+License         : MIT
+Description     : This subpackage contains scripts that patch Steam's scripts to load Extest. This is necessary for Extest to work with Steam on Wayland.
+                : 
+                : 
+                : 
+                : Requires:        extest.i686
+Vendor          : <NULL>
 
 Name            : f2fs-tools
 Epoch           : 0
@@ -8880,12 +8929,12 @@ Vendor          : Fedora Project
 
 Name            : gnome-app-list
 Epoch           : 0
-Version         : 1.0
+Version         : 2.0
 Release         : 1.fc41
 Architecture    : noarch
-Installed size  : 59.1 KiB
-Source          : gnome-app-list-1.0-1.fc41.src.rpm
-From repository : anaconda
+Installed size  : 71.5 KiB
+Source          : gnome-app-list-2.0-1.fc41.src.rpm
+From repository : updates
 Summary         : A curated list of apps to feature or highlight in GNOME
 URL             : https://gitlab.gnome.org/GNOME/gnome-app-list/
 License         : LGPL-2.1-or-later
@@ -16714,58 +16763,6 @@ Description     : The libavutil library is a utility library to aid portable mul
                 : number generators, data structures, additional mathematics functions,
                 : cryptography and multimedia related functionality (like enumerations
                 : for pixel and sample formats).
-Vendor          : Fedora Project
-
-Name            : libayatana-appindicator-gtk3
-Epoch           : 0
-Version         : 0.5.93
-Release         : 6.fc41
-Architecture    : x86_64
-Installed size  : 139.3 KiB
-Source          : libayatana-appindicator-0.5.93-6.fc41.src.rpm
-From repository : fedora
-Summary         : Ayatana Application Indicators - GTK3
-URL             : https://github.com/AyatanaIndicators/libayatana-appindicator
-License         : GPL-3.0-only AND LGPL-3.0-only AND (LGPL-3.0-only OR LGPL-2.1-only)
-Description     : The Ayatana Application Indicator is a library to allow applications
-                : to export a menu into an Application Indicators aware menu bar.
-                : Based on KSNI it also works in KDE and will fallback to generic
-                : Systray support if none of those are available.
-                : 
-                : This version is built against GTK3.
-Vendor          : Fedora Project
-
-Name            : libayatana-ido-gtk3
-Epoch           : 0
-Version         : 0.10.4
-Release         : 1.fc41
-Architecture    : x86_64
-Installed size  : 270.8 KiB
-Source          : libayatana-ido-0.10.4-1.fc41.src.rpm
-From repository : fedora
-Summary         : Ayatana Indicator Display Objects library for GTK3
-URL             : https://github.com/AyatanaIndicators/ayatana-ido
-License         : LGPL-2.0-or-later AND GPL-3.0-only AND (LGPL-3.0-only OR LGPL-2.1-only)
-Description     : Ayatana IDO provides custom GTK menu widgets for Ayatana System Indicators.
-                : 
-                : This version is built against GTK3.
-Vendor          : Fedora Project
-
-Name            : libayatana-indicator-gtk3
-Epoch           : 0
-Version         : 0.9.4
-Release         : 5.fc41
-Architecture    : x86_64
-Installed size  : 123.7 KiB
-Source          : libayatana-indicator-0.9.4-5.fc41.src.rpm
-From repository : fedora
-Summary         : Ayatana Indicators Shared Library for GTK2 for GTK3
-URL             : https://github.com/AyatanaIndicators/libayatana-indicator
-License         : GPL-3.0-only
-Description     : The Ayatana Indicators library contains information to build indicators
-                : to go into modern desktops indicator applets.
-                : 
-                : This version is built against GTK3.
 Vendor          : Fedora Project
 
 Name            : libb2
@@ -31997,11 +31994,11 @@ Vendor          : Fedora Project
 
 Name            : ptyxis
 Epoch           : 0
-Version         : 47.6
+Version         : 47.10
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 1.5 MiB
-Source          : ptyxis-47.6-1.fc41.src.rpm
+Installed size  : 1.6 MiB
+Source          : ptyxis-47.10-1.fc41.src.rpm
 From repository : updates
 Summary         : A container oriented terminal for GNOME
 URL             : https://gitlab.gnome.org/chergert/ptyxis
@@ -37179,10 +37176,10 @@ Vendor          : Fedora Project
 Name            : steam
 Epoch           : 0
 Version         : 1.0.0.82
-Release         : 5.fc41
+Release         : 6.fc41
 Architecture    : i686
 Installed size  : 18.6 MiB
-Source          : steam-1.0.0.82-5.fc41.src.rpm
+Source          : steam-1.0.0.82-6.fc41.src.rpm
 From repository : terra
 Summary         : Installer for the Steam software distribution service
 URL             : http://www.steampowered.com/
@@ -37197,10 +37194,10 @@ Vendor          : <NULL>
 Name            : steam-devices
 Epoch           : 0
 Version         : 1.0.0.82
-Release         : 5.fc41
+Release         : 6.fc41
 Architecture    : noarch
 Installed size  : 64.4 KiB
-Source          : steam-1.0.0.82-5.fc41.src.rpm
+Source          : steam-1.0.0.82-6.fc41.src.rpm
 From repository : terra
 Summary         : Permissions required by Steam for gaming devices
 URL             : http://www.steampowered.com/
