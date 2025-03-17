@@ -10,8 +10,8 @@ else
   zvm upgrade
 fi
 
-zvm install --zls 0.13.0
-zvm use 0.13.0
+zvm install --zls 0.14.0
+zvm use 0.14.0
 
 if test -f "$HOME/.dotfiles/zvm.tar"; then
   rm "$HOME/.dotfiles/zvm.tar"

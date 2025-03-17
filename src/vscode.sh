@@ -17,6 +17,7 @@ code --install-extension egirlcatnip.adwaita-github-theme >/dev/null 2>&1 && pri
 code --install-extension esbenp.prettier-vscode >/dev/null 2>&1 && printf "."
 code --install-extension evan-buss.font-switcher >/dev/null 2>&1 && printf "."
 code --install-extension Gruntfuggly.todo-tree >/dev/null 2>&1 && printf "."
+code --install-extension humao.rest-client >/dev/null 2>&1 && printf "."
 code --install-extension iciclesoft.workspacesort >/dev/null 2>&1 && printf "."
 code --install-extension JannisX11.batch-rename-extension >/dev/null 2>&1 && printf "."
 code --install-extension maattdd.gitless >/dev/null 2>&1 && printf "."
@@ -41,6 +42,7 @@ code --install-extension streetsidesoftware.code-spell-checker >/dev/null 2>&1 &
 code --install-extension timonwong.shellcheck >/dev/null 2>&1 && printf "."
 code --install-extension usernamehw.errorlens >/dev/null 2>&1 && printf "."
 code --install-extension vadimcn.vscode-lldb >/dev/null 2>&1 && printf "."
+code --install-extension wk-j.vscode-httpie >/dev/null 2>&1 && printf "."
 code --install-extension zhuangtongfa.Material-theme >/dev/null 2>&1 && printf "."
 code --install-extension ziglang.vscode-zig >/dev/null 2>&1 && printf "."
 #spell-checker: enable

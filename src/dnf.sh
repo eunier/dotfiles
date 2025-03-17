@@ -88,6 +88,7 @@ sudo dnf install \
     gnome-builder \
     gnome-tweaks \
     google-chrome-stable \
+    httpie \
     jetbrains-mono-fonts \
     jetbrains-mono-nl-fonts \
     keepassxc \
@@ -103,6 +104,8 @@ sudo dnf install \
     libXfixes-devel \
     libXi-devel \
     libXinerama-devel \
+    libxkbcommon \
+    libxkbcommon-devel \
     libXrandr \
     libXrandr-devel \
     mesa-dri-drivers \
@@ -123,6 +126,8 @@ sudo dnf install \
     timeshift \
     tree \
     vim \
+    wayland-devel \
+    wayland-protocols-devel \
     zed
 
 sudo systemctl enable --now lactd

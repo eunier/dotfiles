@@ -8,6 +8,7 @@ egirlcatnip.adwaita-github-theme
 esbenp.prettier-vscode
 evan-buss.font-switcher
 gruntfuggly.todo-tree
+humao.rest-client
 iciclesoft.workspacesort
 jannisx11.batch-rename-extension
 maattdd.gitless
@@ -35,5 +36,6 @@ streetsidesoftware.code-spell-checker
 timonwong.shellcheck
 usernamehw.errorlens
 vadimcn.vscode-lldb
+wk-j.vscode-httpie
 zhuangtongfa.material-theme
 ziglang.vscode-zig
