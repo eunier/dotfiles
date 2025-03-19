@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # shellcheck disable=SC2034
+adwaitaMono="Adwaita Mono"
 cascadiaCode="Cascadia Code"
 firaCode="Fira Code"
 jetBrainsMono="JetBrains Mono"

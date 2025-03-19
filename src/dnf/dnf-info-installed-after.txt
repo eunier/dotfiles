@@ -1367,12 +1367,12 @@ Vendor          : Fedora Project
 
 Name            : appstream
 Epoch           : 0
-Version         : 1.0.2
-Release         : 4.fc41
+Version         : 1.0.4
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 3.5 MiB
-Source          : appstream-1.0.2-4.fc41.src.rpm
-From repository : anaconda
+Installed size  : 4.3 MiB
+Source          : appstream-1.0.4-2.fc41.src.rpm
+From repository : updates
 Summary         : Utilities to generate, maintain and access the AppStream database
 URL             : https://github.com/ximion/appstream
 License         : GPL-2.0-or-later AND LGPL-2.1-or-later
@@ -1382,12 +1382,12 @@ Vendor          : Fedora Project
 
 Name            : appstream-compose
 Epoch           : 0
-Version         : 1.0.2
-Release         : 4.fc41
+Version         : 1.0.4
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 372.7 KiB
-Source          : appstream-1.0.2-4.fc41.src.rpm
-From repository : fedora
+Installed size  : 372.8 KiB
+Source          : appstream-1.0.4-2.fc41.src.rpm
+From repository : updates
 Summary         : Library for generating AppStream data
 URL             : https://github.com/ximion/appstream
 License         : GPL-2.0-or-later AND LGPL-2.1-or-later
@@ -8319,10 +8319,10 @@ Vendor          : Fedora Project
 Name            : ghostty
 Epoch           : 0
 Version         : 1.1.2
-Release         : 2.fc41
+Release         : 3.fc41
 Architecture    : x86_64
 Installed size  : 31.1 MiB
-Source          : ghostty-1.1.2-2.fc41.src.rpm
+Source          : ghostty-1.1.2-3.fc41.src.rpm
 From repository : terra
 Summary         : A fast, native terminal emulator written in Zig.
 URL             : https://ghostty.org/
@@ -8333,10 +8333,10 @@ Vendor          : <NULL>
 Name            : ghostty-bash-completion
 Epoch           : 0
 Version         : 1.1.2
-Release         : 2.fc41
+Release         : 3.fc41
 Architecture    : noarch
 Installed size  : 20.0 KiB
-Source          : ghostty-1.1.2-2.fc41.src.rpm
+Source          : ghostty-1.1.2-3.fc41.src.rpm
 From repository : terra
 Summary         : Ghostty Bash completion
 URL             : https://ghostty.org/
@@ -8347,10 +8347,10 @@ Vendor          : <NULL>
 Name            : ghostty-fish-completion
 Epoch           : 0
 Version         : 1.1.2
-Release         : 2.fc41
+Release         : 3.fc41
 Architecture    : noarch
 Installed size  : 17.6 KiB
-Source          : ghostty-1.1.2-2.fc41.src.rpm
+Source          : ghostty-1.1.2-3.fc41.src.rpm
 From repository : terra
 Summary         : Ghostty Fish completion
 URL             : https://ghostty.org/
@@ -8361,10 +8361,10 @@ Vendor          : <NULL>
 Name            : ghostty-shell-integration
 Epoch           : 0
 Version         : 1.1.2
-Release         : 2.fc41
+Release         : 3.fc41
 Architecture    : noarch
 Installed size  : 46.5 KiB
-Source          : ghostty-1.1.2-2.fc41.src.rpm
+Source          : ghostty-1.1.2-3.fc41.src.rpm
 From repository : terra
 Summary         : Ghostty shell integration
 URL             : https://ghostty.org/
@@ -8375,10 +8375,10 @@ Vendor          : <NULL>
 Name            : ghostty-terminfo
 Epoch           : 0
 Version         : 1.1.2
-Release         : 2.fc41
+Release         : 3.fc41
 Architecture    : noarch
 Installed size  : 7.5 KiB
-Source          : ghostty-1.1.2-2.fc41.src.rpm
+Source          : ghostty-1.1.2-3.fc41.src.rpm
 From repository : terra
 Summary         : Ghostty terminfo
 URL             : https://ghostty.org/
@@ -12990,12 +12990,12 @@ Vendor          : Fedora Project
 
 Name            : info
 Epoch           : 0
-Version         : 7.1
-Release         : 3.fc41
+Version         : 7.1.1
+Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 361.8 KiB
-Source          : texinfo-7.1-3.fc41.src.rpm
-From repository : fedora
+Installed size  : 361.7 KiB
+Source          : texinfo-7.1.1-1.fc41.src.rpm
+From repository : updates
 Summary         : A stand-alone TTY-based reader for GNU texinfo documentation
 URL             : http://www.gnu.org/software/texinfo/
 License         : GPL-3.0-or-later
@@ -15495,11 +15495,11 @@ Vendor          : Fedora Project
 
 Name            : lact-libadwaita
 Epoch           : 0
-Version         : 0.7.1
+Version         : 0.7.2
 Release         : 1
 Architecture    : x86_64
 Installed size  : 9.9 MiB
-Source          : lact-libadwaita-0.7.1-1.src.rpm
+Source          : lact-libadwaita-0.7.2-1.src.rpm
 From repository : copr:copr.fedorainfracloud.org:ilyaz:LACT
 Summary         : AMDGPU control utility
 URL             : https://github.com/ilya-zlobintsev/LACT
@@ -37519,10 +37519,10 @@ Vendor          : Fedora Project
 Name            : steam
 Epoch           : 0
 Version         : 1.0.0.82
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : i686
 Installed size  : 18.6 MiB
-Source          : steam-1.0.0.82-6.fc41.src.rpm
+Source          : steam-1.0.0.82-7.fc41.src.rpm
 From repository : terra
 Summary         : Installer for the Steam software distribution service
 URL             : http://www.steampowered.com/
@@ -37534,23 +37534,39 @@ Description     : Steam is a software distribution service with an online store,
                 : This package contains the installer for the Steam software distribution service.
 Vendor          : <NULL>
 
-Name            : steam-devices
+Name            : steam-device-rules
 Epoch           : 0
 Version         : 1.0.0.82
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : noarch
-Installed size  : 64.4 KiB
-Source          : steam-1.0.0.82-6.fc41.src.rpm
+Installed size  : 55.4 KiB
+Source          : steam-1.0.0.82-7.fc41.src.rpm
 From repository : terra
-Summary         : Permissions required by Steam for gaming devices
+Summary         : Fix for keyboard/mouse/tablet being detected as joystick in Linux
 URL             : http://www.steampowered.com/
 License         : Steam License Agreement and MIT
-Description     : Steam is a software distribution service with an online store, automated
-                : installation, automatic updates, achievements, SteamCloud synchronized savegame
-                : and screenshot functionality, and many social features.
-                : 
-                : This package contains the necessary permissions for gaming devices.
+Description     : This package contains fixes for devices being detected incorrectly by Steam.
 Vendor          : <NULL>
+
+Name            : steam-devices
+Epoch           : 0
+Version         : 1.0.0.100^git20240522.0.e2971e4
+Release         : 2.fc41
+Architecture    : noarch
+Installed size  : 10.1 KiB
+Source          : steam-devices-1.0.0.100^git20240522.0.e2971e4-2.fc41.src.rpm
+From repository : updates
+Summary         : Device support for Steam-related hardware
+URL             : https://github.com/ValveSoftware/steam-devices/
+License         : MIT
+Description     : The Steam Controller features dual trackpads, HD haptic feedback, dual-stage
+                : triggers, back grip buttons, and fully-customizable control schemes.
+                : Steam VR is a full-features, 360° room-scale virtual reality experience
+                : 
+                : This package also provides support for many other third party devices, such
+                : as gamepads and joysticks, that can be used by Wine, Lutris, Heroic, and
+                : other non-steam games and game launchers.
+Vendor          : Fedora Project
 
 Name            : stix-fonts
 Epoch           : 0
@@ -40106,6 +40122,20 @@ Description     : This project provides the Khronos official Vulkan ICD desktop
                 : loader for Windows, Linux, and MacOS.
 Vendor          : Fedora Project
 
+Name            : vulkan-tools
+Epoch           : 0
+Version         : 1.4.304.0
+Release         : 1.fc41
+Architecture    : x86_64
+Installed size  : 1.3 MiB
+Source          : vulkan-tools-1.4.304.0-1.fc41.src.rpm
+From repository : updates
+Summary         : Vulkan tools
+URL             : https://github.com/KhronosGroup/Vulkan-Tools
+License         : Apache-2.0
+Description     : Vulkan tools
+Vendor          : Fedora Project
+
 Name            : wavpack
 Epoch           : 0
 Version         : 5.7.0
@@ -41226,11 +41256,11 @@ Vendor          : Fedora Project
 
 Name            : zed
 Epoch           : 0
-Version         : 0.177.9
+Version         : 0.177.11
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 191.8 MiB
-Source          : zed-0.177.9-1.fc41.src.rpm
+Installed size  : 191.9 MiB
+Source          : zed-0.177.11-1.fc41.src.rpm
 From repository : terra
 Summary         : Zed is a high-performance, multiplayer code editor
 URL             : https://zed.dev/

@@ -2,6 +2,7 @@ import { $ } from "bun";
 
 const defaultFonts = ["'Droid Sans Mono'", "'monospace'", "monospace"] as const;
 const fonts = [
+	"Adwaita Mono",
 	"Cascadia Code",
 	"Fira Code",
 	"JetBrains Mono",
@@ -76,6 +77,7 @@ if (!fonts.includes(font)) {
 
 const fontMap = new Map<Font, FontConfig>();
 
+addToFontMap(fontMap, "Adwaita Mono", 15, 600);
 addToFontMap(fontMap, "Cascadia Code", 15, 600);
 addToFontMap(fontMap, "Fira Code", 14, 600);
 addToFontMap(fontMap, "JetBrains Mono", 14, 700);

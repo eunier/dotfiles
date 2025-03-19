@@ -53,7 +53,7 @@
 	"debug.toolBarLocation": "commandCenter",
 	"diffEditor.ignoreTrimWhitespace": true,
 	"editor.codeLensFontFamily": "Cascadia Code",
-	"editor.fontFamily": "Cascadia Code, Fira Code, JetBrains Mono, Monoid, Noto Mono, Ubuntu Mono, 'Droid Sans Mono', 'monospace', monospace",
+	"editor.fontFamily": "Cascadia Code, Adwaita Mono, Fira Code, JetBrains Mono, Monoid, Noto Mono, Ubuntu Mono, 'Droid Sans Mono', 'monospace', monospace",
 	"editor.fontLigatures": false,
 	"editor.fontSize": 15,
 	"editor.fontWeight": "600",

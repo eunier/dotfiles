@@ -42,13 +42,15 @@ Text Pieces	io.gitlab.liferooter.TextPieces	4.1.0	stable	system
 Newsflash	io.gitlab.news_flash.NewsFlash	3.3.5	stable	system
 Mission Center	io.missioncenter.MissionCenter	0.6.2	stable	system
 Obsidian	md.obsidian.Obsidian	1.8.9	stable	system
+Ticket Booth	me.iepure.Ticketbooth	1.1.1	stable	system
+Dev Toolbox	me.iepure.devtoolbox	1.2.3	stable	system
 Syncthing GTK	me.kozec.syncthingtk	v0.9.4.5	stable	system
 Iconic	nl.emphisia.icon	2024.12.2	stable	system
 Lemma	org.cvfosammmm.Lemma	32	stable	system
 Flatpak External Data Checker	org.flathub.flatpak-external-data-checker		stable	system
 Freedesktop Platform	org.freedesktop.Platform	21.08.22	21.08	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.28	23.08	system
-Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.15	24.08	system
+Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.16	24.08	system
 Mesa	org.freedesktop.Platform.GL.default	21.3.9	21.08	system
 Mesa	org.freedesktop.Platform.GL.default	24.3.4	23.08	system
 Mesa (Extra)	org.freedesktop.Platform.GL.default	24.3.4	23.08-extra	system
@@ -60,14 +62,14 @@ openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	system
 openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	system
 openh264	org.freedesktop.Platform.openh264	2.4.1	2.4.1	system
 openh264	org.freedesktop.Platform.openh264	2.5.1	2.5.1	system
-Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-24.08.15	24.08	system
+Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-24.08.16	24.08	system
 GNOME Application Platform version 41	org.gnome.Platform		41	system
 GNOME Application Platform version 45	org.gnome.Platform		45	system
 GNOME Application Platform version 46	org.gnome.Platform		46	system
 GNOME Application Platform version 47	org.gnome.Platform		47	system
 GNOME Application Platform version 48	org.gnome.Platform		48	system
 Solanum	org.gnome.Solanum	5.0.0	stable	system
-Iotas	org.gnome.World.Iotas	0.10.2	stable	system
+Iotas	org.gnome.World.Iotas	0.10.3	stable	system
 Pika Backup	org.gnome.World.PikaBackup	0.7.4	stable	system
 Secrets	org.gnome.World.Secrets	10.4	stable	system
 App Icon Preview	org.gnome.design.AppIconPreview	3.4.0	stable	system

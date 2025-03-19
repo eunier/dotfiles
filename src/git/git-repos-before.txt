@@ -50,7 +50,8 @@
     ├── raylib-zig.code-workspace
     ├── repo.code-workspace
     ├── top-down-game.code-workspace
+    ├── zflecs.code-workspace
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-44 directories, 10 files
+44 directories, 11 files

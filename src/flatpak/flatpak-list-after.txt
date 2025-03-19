@@ -42,6 +42,8 @@ Text Pieces	io.gitlab.liferooter.TextPieces	4.1.0	stable	system
 Newsflash	io.gitlab.news_flash.NewsFlash	3.3.5	stable	system
 Mission Center	io.missioncenter.MissionCenter	0.6.2	stable	system
 Obsidian	md.obsidian.Obsidian	1.8.9	stable	system
+Ticket Booth	me.iepure.Ticketbooth	1.1.1	stable	system
+Dev Toolbox	me.iepure.devtoolbox	1.2.3	stable	system
 Syncthing GTK	me.kozec.syncthingtk	v0.9.4.5	stable	system
 Iconic	nl.emphisia.icon	2024.12.2	stable	system
 Lemma	org.cvfosammmm.Lemma	32	stable	system
@@ -71,8 +73,8 @@ Iotas	org.gnome.World.Iotas	0.10.3	stable	system
 Pika Backup	org.gnome.World.PikaBackup	0.7.4	stable	system
 Secrets	org.gnome.World.Secrets	10.4	stable	system
 App Icon Preview	org.gnome.design.AppIconPreview	3.4.0	stable	system
-Emblem	org.gnome.design.Emblem	1.4.0	stable	system
-Lorem	org.gnome.design.Lorem	1.4	stable	system
+Emblem	org.gnome.design.Emblem	1.5.0	stable	system
+Lorem	org.gnome.design.Lorem	1.5	stable	system
 Color Palette	org.gnome.design.Palette	2.0.3	stable	system
 Buffer	org.gnome.gitlab.cheywood.Buffer	0.9.9	stable	system
 Cavalier	org.nickvision.cavalier	2024.1.0	stable	system

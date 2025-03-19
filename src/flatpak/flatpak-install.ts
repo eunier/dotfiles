@@ -47,6 +47,8 @@ try {
 		"io.gitlab.news_flash.NewsFlash",
 		"io.missioncenter.MissionCenter",
 		"md.obsidian.Obsidian",
+		"me.iepure.devtoolbox",
+		"me.iepure.Ticketbooth",
 		"nl.emphisia.icon",
 		"org.cvfosammmm.Lemma",
 		"org.gnome.design.AppIconPreview",
