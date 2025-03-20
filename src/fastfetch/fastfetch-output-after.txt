@@ -7,7 +7,7 @@ DE: GNOME 47.4
 WM: Mutter (Wayland)
 WM Theme: Adwaita
 Icons: MoreWaita [GTK2/3/4]
-Font: Adwaita Sans (11pt) [GTK2/3/4]
+Font: Cantarell (11pt) [GTK2/3/4]
 Cursor: Adwaita (24px)
 GPU 1: AMD Radeon RX 6950 XT [Discrete]
 GPU 2: AMD Raphael [Integrated]
