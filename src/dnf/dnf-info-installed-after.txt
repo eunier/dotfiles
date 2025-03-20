@@ -41256,11 +41256,11 @@ Vendor          : Fedora Project
 
 Name            : zed
 Epoch           : 0
-Version         : 0.177.11
+Version         : 0.178.5
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 191.9 MiB
-Source          : zed-0.177.11-1.fc41.src.rpm
+Installed size  : 194.7 MiB
+Source          : zed-0.178.5-1.fc41.src.rpm
 From repository : terra
 Summary         : Zed is a high-performance, multiplayer code editor
 URL             : https://zed.dev/
