@@ -76,7 +76,7 @@ App Icon Preview	org.gnome.design.AppIconPreview	3.4.0	stable	system
 Emblem	org.gnome.design.Emblem	1.5.0	stable	system
 Lorem	org.gnome.design.Lorem	1.5	stable	system
 Color Palette	org.gnome.design.Palette	2.0.3	stable	system
-Buffer	org.gnome.gitlab.cheywood.Buffer	0.9.9	stable	system
+Buffer	org.gnome.gitlab.cheywood.Buffer	0.9.10	stable	system
 Cavalier	org.nickvision.cavalier	2024.1.0	stable	system
 Denaro	org.nickvision.money	2024.2.0	stable	system
 Tagger	org.nickvision.tagger	2024.6.0	stable	system
