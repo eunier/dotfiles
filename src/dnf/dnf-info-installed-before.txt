@@ -3364,11 +3364,11 @@ Vendor          : Fedora Project
 
 Name            : container-selinux
 Epoch           : 4
-Version         : 2.235.0
-Release         : 2.fc41
+Version         : 2.236.0
+Release         : 1.fc41
 Architecture    : noarch
-Installed size  : 72.1 KiB
-Source          : container-selinux-2.235.0-2.fc41.src.rpm
+Installed size  : 72.4 KiB
+Source          : container-selinux-2.236.0-1.fc41.src.rpm
 From repository : updates
 Summary         : SELinux policies for container runtimes
 URL             : https://github.com/containers/container-selinux
@@ -5613,11 +5613,11 @@ Vendor          : Fedora Project
 
 Name            : dnf5
 Epoch           : 0
-Version         : 5.2.11.0
+Version         : 5.2.12.0
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 2.2 MiB
-Source          : dnf5-5.2.11.0-1.fc41.src.rpm
+Source          : dnf5-5.2.12.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Command-line package manager
 URL             : https://github.com/rpm-software-management/dnf5
@@ -5629,11 +5629,11 @@ Vendor          : Fedora Project
 
 Name            : dnf5-plugins
 Epoch           : 0
-Version         : 5.2.11.0
+Version         : 5.2.12.0
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 1.2 MiB
-Source          : dnf5-5.2.11.0-1.fc41.src.rpm
+Source          : dnf5-5.2.12.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Plugins for dnf5
 URL             : https://github.com/rpm-software-management/dnf5
@@ -7605,11 +7605,11 @@ Vendor          : Fedora Project
 
 Name            : fwupd
 Epoch           : 0
-Version         : 1.9.28
+Version         : 1.9.29
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 7.5 MiB
-Source          : fwupd-1.9.28-1.fc41.src.rpm
+Source          : fwupd-1.9.29-1.fc41.src.rpm
 From repository : updates
 Summary         : Firmware update daemon
 URL             : https://github.com/fwupd/fwupd
@@ -7634,11 +7634,11 @@ Vendor          : Fedora Project
 
 Name            : fwupd-plugin-flashrom
 Epoch           : 0
-Version         : 1.9.28
+Version         : 1.9.29
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 35.8 KiB
-Source          : fwupd-1.9.28-1.fc41.src.rpm
+Source          : fwupd-1.9.29-1.fc41.src.rpm
 From repository : updates
 Summary         : fwupd plugin using flashrom
 URL             : https://github.com/fwupd/fwupd
@@ -7649,11 +7649,11 @@ Vendor          : Fedora Project
 
 Name            : fwupd-plugin-modem-manager
 Epoch           : 0
-Version         : 1.9.28
+Version         : 1.9.29
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 137.3 KiB
-Source          : fwupd-1.9.28-1.fc41.src.rpm
+Source          : fwupd-1.9.29-1.fc41.src.rpm
 From repository : updates
 Summary         : fwupd plugin using ModemManger
 URL             : https://github.com/fwupd/fwupd
@@ -7664,11 +7664,11 @@ Vendor          : Fedora Project
 
 Name            : fwupd-plugin-uefi-capsule-data
 Epoch           : 0
-Version         : 1.9.28
+Version         : 1.9.29
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 2.0 MiB
-Source          : fwupd-1.9.28-1.fc41.src.rpm
+Source          : fwupd-1.9.29-1.fc41.src.rpm
 From repository : updates
 Summary         : Localized data for the UEFI UX capsule
 URL             : https://github.com/fwupd/fwupd
@@ -8402,11 +8402,11 @@ Vendor          : Fedora Project
 
 Name            : git
 Epoch           : 0
-Version         : 2.48.1
+Version         : 2.49.0
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 85.3 KiB
-Source          : git-2.48.1-1.fc41.src.rpm
+Source          : git-2.49.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Fast Version Control System
 URL             : https://git-scm.com/
@@ -8422,11 +8422,11 @@ Vendor          : Fedora Project
 
 Name            : git-core
 Epoch           : 0
-Version         : 2.48.1
+Version         : 2.49.0
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 22.5 MiB
-Source          : git-2.48.1-1.fc41.src.rpm
+Installed size  : 22.8 MiB
+Source          : git-2.49.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Core package of git with minimal functionality
 URL             : https://git-scm.com/
@@ -8443,11 +8443,11 @@ Vendor          : Fedora Project
 
 Name            : git-core-doc
 Epoch           : 0
-Version         : 2.48.1
+Version         : 2.49.0
 Release         : 1.fc41
 Architecture    : noarch
-Installed size  : 17.4 MiB
-Source          : git-2.48.1-1.fc41.src.rpm
+Installed size  : 17.6 MiB
+Source          : git-2.49.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Documentation files for git-core
 URL             : https://git-scm.com/
@@ -18258,11 +18258,11 @@ Vendor          : Fedora Project
 
 Name            : libdnf5
 Epoch           : 0
-Version         : 5.2.11.0
+Version         : 5.2.12.0
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 3.5 MiB
-Source          : dnf5-5.2.11.0-1.fc41.src.rpm
+Installed size  : 3.6 MiB
+Source          : dnf5-5.2.12.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Package management library
 URL             : https://github.com/rpm-software-management/dnf5
@@ -18272,11 +18272,11 @@ Vendor          : Fedora Project
 
 Name            : libdnf5-cli
 Epoch           : 0
-Version         : 5.2.11.0
+Version         : 5.2.12.0
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 883.1 KiB
-Source          : dnf5-5.2.11.0-1.fc41.src.rpm
+Installed size  : 883.4 KiB
+Source          : dnf5-5.2.12.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Library for working with a terminal in a command-line package manager
 URL             : https://github.com/rpm-software-management/dnf5
@@ -30008,11 +30008,11 @@ Vendor          : Fedora Project
 
 Name            : perl-Git
 Epoch           : 0
-Version         : 2.48.1
+Version         : 2.49.0
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 64.0 KiB
-Source          : git-2.48.1-1.fc41.src.rpm
+Source          : git-2.49.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Perl interface to Git
 URL             : https://git-scm.com/
@@ -33979,12 +33979,12 @@ Vendor          : Fedora Project
 
 Name            : python3-rpm
 Epoch           : 0
-Version         : 4.20.0
+Version         : 4.20.1
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 175.3 KiB
-Source          : rpm-4.20.0-1.fc41.src.rpm
-From repository : anaconda
+Source          : rpm-4.20.1-1.fc41.src.rpm
+From repository : updates
 Summary         : Python 3 bindings for apps which will manipulate RPM packages
 URL             : http://www.rpm.org/
 License         : GPL-2.0-or-later
@@ -36082,12 +36082,12 @@ Vendor          : Fedora Project
 
 Name            : rpm
 Epoch           : 0
-Version         : 4.20.0
+Version         : 4.20.1
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 3.1 MiB
-Source          : rpm-4.20.0-1.fc41.src.rpm
-From repository : anaconda
+Source          : rpm-4.20.1-1.fc41.src.rpm
+From repository : updates
 Summary         : The RPM package management system
 URL             : http://www.rpm.org/
 License         : GPL-2.0-or-later
@@ -36100,12 +36100,12 @@ Vendor          : Fedora Project
 
 Name            : rpm-build-libs
 Epoch           : 0
-Version         : 4.20.0
+Version         : 4.20.1
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 206.7 KiB
-Source          : rpm-4.20.0-1.fc41.src.rpm
-From repository : anaconda
+Installed size  : 210.7 KiB
+Source          : rpm-4.20.1-1.fc41.src.rpm
+From repository : updates
 Summary         : Libraries for building RPM packages
 URL             : http://www.rpm.org/
 License         : GPL-2.0-or-later
@@ -36114,12 +36114,12 @@ Vendor          : Fedora Project
 
 Name            : rpm-libs
 Epoch           : 0
-Version         : 4.20.0
+Version         : 4.20.1
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 725.9 KiB
-Source          : rpm-4.20.0-1.fc41.src.rpm
-From repository : anaconda
+Installed size  : 730.0 KiB
+Source          : rpm-4.20.1-1.fc41.src.rpm
+From repository : updates
 Summary         : Libraries for manipulating RPM packages
 URL             : http://www.rpm.org/
 License         : GPL-2.0-or-later OR LGPL-2.1-or-later
@@ -36128,12 +36128,12 @@ Vendor          : Fedora Project
 
 Name            : rpm-plugin-audit
 Epoch           : 0
-Version         : 4.20.0
+Version         : 4.20.1
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 16.2 KiB
-Source          : rpm-4.20.0-1.fc41.src.rpm
-From repository : anaconda
+Installed size  : 16.1 KiB
+Source          : rpm-4.20.1-1.fc41.src.rpm
+From repository : updates
 Summary         : Rpm plugin for logging audit events on package operations
 URL             : http://www.rpm.org/
 License         : GPL-2.0-or-later
@@ -36142,12 +36142,12 @@ Vendor          : Fedora Project
 
 Name            : rpm-plugin-selinux
 Epoch           : 0
-Version         : 4.20.0
+Version         : 4.20.1
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 16.1 KiB
-Source          : rpm-4.20.0-1.fc41.src.rpm
-From repository : anaconda
+Installed size  : 16.0 KiB
+Source          : rpm-4.20.1-1.fc41.src.rpm
+From repository : updates
 Summary         : Rpm plugin for SELinux functionality
 URL             : http://www.rpm.org/
 License         : GPL-2.0-or-later
@@ -36156,12 +36156,12 @@ Vendor          : Fedora Project
 
 Name            : rpm-plugin-systemd-inhibit
 Epoch           : 0
-Version         : 4.20.0
+Version         : 4.20.1
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 16.3 KiB
-Source          : rpm-4.20.0-1.fc41.src.rpm
-From repository : anaconda
+Installed size  : 16.2 KiB
+Source          : rpm-4.20.1-1.fc41.src.rpm
+From repository : updates
 Summary         : Rpm plugin for systemd inhibit functionality
 URL             : http://www.rpm.org/
 License         : GPL-2.0-or-later
@@ -36185,12 +36185,12 @@ Vendor          : Fedora Project
 
 Name            : rpm-sign-libs
 Epoch           : 0
-Version         : 4.20.0
+Version         : 4.20.1
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 39.4 KiB
-Source          : rpm-4.20.0-1.fc41.src.rpm
-From repository : anaconda
+Source          : rpm-4.20.1-1.fc41.src.rpm
+From repository : updates
 Summary         : Libraries for signing RPM packages
 URL             : http://www.rpm.org/
 License         : GPL-2.0-or-later
@@ -37550,22 +37550,18 @@ Vendor          : <NULL>
 
 Name            : steam-devices
 Epoch           : 0
-Version         : 1.0.0.100^git20240522.0.e2971e4
+Version         : 1.0.0.101^git20240522.e2971e4
 Release         : 2.fc41
 Architecture    : noarch
 Installed size  : 10.1 KiB
-Source          : steam-devices-1.0.0.100^git20240522.0.e2971e4-2.fc41.src.rpm
+Source          : steam-devices-1.0.0.101^git20240522.e2971e4-2.fc41.src.rpm
 From repository : updates
 Summary         : Device support for Steam-related hardware
 URL             : https://github.com/ValveSoftware/steam-devices/
 License         : MIT
-Description     : The Steam Controller features dual trackpads, HD haptic feedback, dual-stage
-                : triggers, back grip buttons, and fully-customizable control schemes.
-                : Steam VR is a full-features, 360° room-scale virtual reality experience
-                : 
-                : This package also provides support for many other third party devices, such
-                : as gamepads and joysticks, that can be used by Wine, Lutris, Heroic, and
-                : other non-steam games and game launchers.
+Description     : This package contains the necessary permissions for gaming devices (such as
+                : gamepads, joysticks and VR headsets) that can be used by Wine, Lutris, Heroic,
+                : and other non-Steam games and game launchers.
 Vendor          : Fedora Project
 
 Name            : stix-fonts
@@ -37765,11 +37761,11 @@ Vendor          : Fedora Project
 
 Name            : syncthing
 Epoch           : 0
-Version         : 1.28.1
+Version         : 1.29.3
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 24.5 MiB
-Source          : syncthing-1.28.1-1.fc41.src.rpm
+Installed size  : 23.1 MiB
+Source          : syncthing-1.29.3-1.fc41.src.rpm
 From repository : updates
 Summary         : Continuous File Synchronization
 URL             : https://syncthing.net

@@ -91,10 +91,12 @@ ignoreMap.set("[org/gnome/software]", [
 ignoreMap.set("[org/gtk/settings/file-chooser]", ["window-position="]);
 
 ignoreMap.set("*", [
-	"window-size=",
 	"current-tab=",
+	"sidebar-width=",
+	"sort-order=",
 	"was-maximized=",
 	"window-height=",
+	"window-size=",
 	"window-width=",
 ]);
 
