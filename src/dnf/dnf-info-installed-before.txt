@@ -2421,11 +2421,11 @@ Vendor          : Fedora Project
 
 Name            : brave-browser
 Epoch           : 0
-Version         : 1.76.74
+Version         : 1.76.80
 Release         : 1
 Architecture    : x86_64
-Installed size  : 388.7 MiB
-Source          : brave-browser-1.76.74-1.src.rpm
+Installed size  : 388.4 MiB
+Source          : brave-browser-1.76.80-1.src.rpm
 From repository : brave-browser
 Summary         : Brave Web Browser
 URL             : https://brave.com/
@@ -9914,11 +9914,11 @@ Vendor          : Fedora Project
 
 Name            : google-chrome-stable
 Epoch           : 0
-Version         : 134.0.6998.88
+Version         : 134.0.6998.117
 Release         : 1
 Architecture    : x86_64
-Installed size  : 357.1 MiB
-Source          : google-chrome-stable-134.0.6998.88-1.src.rpm
+Installed size  : 357.2 MiB
+Source          : google-chrome-stable-134.0.6998.117-1.src.rpm
 From repository : google-chrome
 Summary         : Google Chrome
 URL             : https://chrome.google.com/
@@ -22571,11 +22571,11 @@ Vendor          : Fedora Project
 
 Name            : librewolf
 Epoch           : 0
-Version         : 136.0.1
+Version         : 136.0.2
 Release         : 1
 Architecture    : x86_64
 Installed size  : 350.4 MiB
-Source          : librewolf-136.0.1-1.src.rpm
+Source          : librewolf-136.0.2-1.src.rpm
 From repository : repository
 Summary         : The LibreWolf browser
 URL             : https://librewolf-community.gitlab.io/
