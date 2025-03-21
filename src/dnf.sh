@@ -95,6 +95,8 @@ sudo dnf install \
     kodi \
     lact-libadwaita \
     libatomic \
+    libdecor \
+    libdecor-devel \
     librewolf \
     libX11 \
     libX11-devel \

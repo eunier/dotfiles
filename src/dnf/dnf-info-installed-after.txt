@@ -18146,6 +18146,21 @@ Description     : Libdecor provides a small helper library for providing client 
                 : to Wayland clients.
 Vendor          : Fedora Project
 
+Name            : libdecor-devel
+Epoch           : 0
+Version         : 0.2.2
+Release         : 4.fc41
+Architecture    : x86_64
+Installed size  : 13.6 KiB
+Source          : libdecor-0.2.2-4.fc41.src.rpm
+From repository : fedora
+Summary         : Development files for libdecor
+URL             : https://gitlab.freedesktop.org/libdecor/libdecor
+License         : MIT
+Description     : The libdecor-devel package contains libraries and header files for
+                : developing applications that use libdecor.
+Vendor          : Fedora Project
+
 Name            : libdeflate
 Epoch           : 0
 Version         : 1.23
