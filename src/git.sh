@@ -9,6 +9,8 @@ git clone git@gitlab.com:yunieralvarez/dotfiles.git /run/media/tron/External/Dot
 
 git clone git@github.com:eunier/dotfiles.git ~/Projects/com.github.eunier.dotfiles/dotfiles >/dev/null 2>&1
 [ $? -eq 128 ] && printf "."
+git clone git@gitlab.com:yunieralvarez/expense-tracker.git ~/Projects/com.gitlab.yunieralvarez.expense-tracker/expense-tracker >/dev/null 2>&1
+[ $? -eq 128 ] && printf "."
 git clone git@gitlab.com:yunieralvarez/game-top-down-shooter-rs.git ~/Projects/com.gitlab.yunieralvarez.game-top-down-shooter-rs/game-top-dow-shooter-rs >/dev/null 2>&1
 [ $? -eq 128 ] && printf "."
 git clone git@gitlab.com:yunieralvarez/godot-first-person-shooter-demo.git ~/Projects/com.gitlab.yunieralvarez.godot-first-person-shooter-demo/godot-first-person-shooter-demo >/dev/null 2>&1

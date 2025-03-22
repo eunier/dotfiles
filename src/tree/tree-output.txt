@@ -139,11 +139,9 @@
 │   │   ├── git-sync-repo.sh
 │   │   ├── git-todo.sh
 │   │   └── todos
-│   │       └── com.gitlab.yunieralvarez.repo
-│   │           └── repo
-│   │               └── zig
-│   │                   └── top-down-game
-│   │                       └── TODO.md
+│   │       └── com.gitlab.yunieralvarez.top-down-game
+│   │           └── top-down-game
+│   │               └── todo.md
 │   ├── gitlab
 │   │   ├── gitlab-auth.sh
 │   │   ├── gitlab-auth-status.txt
@@ -204,4 +202,4 @@
 └── .vscode
     └── settings.json
 
-56 directories, 149 files
+54 directories, 149 files

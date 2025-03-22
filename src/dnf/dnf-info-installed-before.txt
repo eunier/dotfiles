@@ -6968,11 +6968,11 @@ Vendor          : Fedora Project
 
 Name            : firefox
 Epoch           : 0
-Version         : 136.0.1
+Version         : 136.0.2
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 235.4 MiB
-Source          : firefox-136.0.1-1.fc41.src.rpm
+Installed size  : 235.6 MiB
+Source          : firefox-136.0.2-1.fc41.src.rpm
 From repository : updates
 Summary         : Mozilla Firefox Web browser
 URL             : https://www.mozilla.org/firefox/
@@ -6983,11 +6983,11 @@ Vendor          : Fedora Project
 
 Name            : firefox-langpacks
 Epoch           : 0
-Version         : 136.0.1
+Version         : 136.0.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 40.5 MiB
-Source          : firefox-136.0.1-1.fc41.src.rpm
+Source          : firefox-136.0.2-1.fc41.src.rpm
 From repository : updates
 Summary         : Firefox langpacks
 URL             : https://www.mozilla.org/firefox/
@@ -18146,6 +18146,21 @@ Description     : Libdecor provides a small helper library for providing client 
                 : to Wayland clients.
 Vendor          : Fedora Project
 
+Name            : libdecor-devel
+Epoch           : 0
+Version         : 0.2.2
+Release         : 4.fc41
+Architecture    : x86_64
+Installed size  : 13.6 KiB
+Source          : libdecor-0.2.2-4.fc41.src.rpm
+From repository : fedora
+Summary         : Development files for libdecor
+URL             : https://gitlab.freedesktop.org/libdecor/libdecor
+License         : MIT
+Description     : The libdecor-devel package contains libraries and header files for
+                : developing applications that use libdecor.
+Vendor          : Fedora Project
+
 Name            : libdeflate
 Epoch           : 0
 Version         : 1.23
@@ -18931,12 +18946,12 @@ Vendor          : Fedora Project
 
 Name            : libfprint
 Epoch           : 0
-Version         : 1.94.8
+Version         : 1.94.9
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 828.3 KiB
-Source          : libfprint-1.94.8-1.fc41.src.rpm
-From repository : anaconda
+Installed size  : 843.1 KiB
+Source          : libfprint-1.94.9-1.fc41.src.rpm
+From repository : updates
 Summary         : Toolkit for fingerprint scanner
 URL             : http://www.freedesktop.org/wiki/Software/fprint/libfprint
 License         : LicenseRef-Callaway-LGPLv2+
@@ -29429,12 +29444,12 @@ Vendor          : Fedora Project
 
 Name            : pcsc-lite
 Epoch           : 0
-Version         : 2.3.0
+Version         : 2.3.1
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 220.1 KiB
-Source          : pcsc-lite-2.3.0-1.fc41.src.rpm
-From repository : anaconda
+Installed size  : 221.4 KiB
+Source          : pcsc-lite-2.3.1-1.fc41.src.rpm
+From repository : updates
 Summary         : PC/SC Lite smart card framework and applications
 URL             : https://pcsclite.apdu.fr/
 License         : BSD-3-Clause AND BSD-2-Clause AND GPL-3.0-or-later
@@ -29464,12 +29479,12 @@ Vendor          : Fedora Project
 
 Name            : pcsc-lite-libs
 Epoch           : 0
-Version         : 2.3.0
+Version         : 2.3.1
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 68.0 KiB
-Source          : pcsc-lite-2.3.0-1.fc41.src.rpm
-From repository : anaconda
+Installed size  : 68.1 KiB
+Source          : pcsc-lite-2.3.1-1.fc41.src.rpm
+From repository : updates
 Summary         : PC/SC Lite libraries
 URL             : https://pcsclite.apdu.fr/
 License         : BSD-3-Clause AND BSD-2-Clause AND GPL-3.0-or-later
