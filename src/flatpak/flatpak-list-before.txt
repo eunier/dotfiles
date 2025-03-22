@@ -17,7 +17,7 @@ Fragments	de.haeckerfelix.Fragments	3.0.1	stable	system
 Shortwave	de.haeckerfelix.Shortwave	5.0.0	stable	system
 Calligraphy	dev.geopjr.Calligraphy	1.2.0	stable	system
 Almond	edu.stanford.Almond	2.0.0~alpha.1	stable	system
-Morphosis	garden.jamie.Morphosis	48.0	stable	system
+Morphosis	garden.jamie.Morphosis	48.1	stable	system
 Memorado	im.bernard.Memorado	0.5	stable	system
 FreeTube	io.freetubeapp.FreeTube	0.23.2 Beta	stable	system
 AdwSteamGtk	io.github.Foldex.AdwSteamGtk	0.8.0	stable	system
