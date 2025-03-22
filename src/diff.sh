@@ -11,6 +11,7 @@ sh ~/.dotfiles/src/diff/diff-fastfetch-output.sh
 sh ~/.dotfiles/src/diff/diff-files.sh
 sh ~/.dotfiles/src/diff/diff-flatpak.sh
 sh ~/.dotfiles/src/diff/diff-git-repos.sh
+sh ~/.dotfiles/src/diff/diff-homebrew.sh
 sh ~/.dotfiles/src/diff/diff-syncthing-config.sh
 sh ~/.dotfiles/src/diff/diff-timeshift.sh
 sh ~/.dotfiles/src/diff/diff-tree.sh
