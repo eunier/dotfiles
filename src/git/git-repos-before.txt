@@ -21,6 +21,8 @@
 │   └── zig-gamedev
 ├── com.github.ziglang.zig
 │   └── zig
+├── com.gitlab.yunieralvarez.expense-tracker
+│   └── expense-tracker
 ├── com.gitlab.yunieralvarez.game-top-down-shooter-rs
 │   └── game-top-dow-shooter-rs
 ├── com.gitlab.yunieralvarez.godot-first-person-shooter-demo
@@ -54,4 +56,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-44 directories, 11 files
+46 directories, 11 files
