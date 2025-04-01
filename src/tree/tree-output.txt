@@ -150,6 +150,7 @@
 │   ├── gitlab.sh
 │   ├── git.sh
 │   ├── homebrew
+│   │   ├── homebrew-list-after.txt
 │   │   └── homebrew-list-before.txt
 │   ├── homebrew.sh
 │   ├── main.sh
@@ -202,4 +203,4 @@
 └── .vscode
     └── settings.json
 
-54 directories, 149 files
+54 directories, 150 files

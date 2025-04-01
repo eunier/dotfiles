@@ -67,6 +67,7 @@ try {
 		"page.codeberg.libre_menu_editor.LibreMenuEditor",
 		"re.sonny.Commit",
 		"se.sjoerd.Graphs",
+		"us.zoom.Zoom",
 		// spell-checker: enable
 	];
 
