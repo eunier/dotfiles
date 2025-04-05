@@ -94,6 +94,7 @@ sudo dnf install \
     keepassxc \
     kodi \
     lact-libadwaita \
+    libadwaita-demo \
     libatomic \
     libdecor \
     libdecor-devel \

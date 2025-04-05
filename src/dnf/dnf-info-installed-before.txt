@@ -1780,11 +1780,11 @@ Vendor          : Fedora Project
 
 Name            : autocorr-en
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 288.6 KiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : English auto-correction rules
 URL             : http://www.libreoffice.org/
@@ -2421,11 +2421,11 @@ Vendor          : Fedora Project
 
 Name            : brave-browser
 Epoch           : 0
-Version         : 1.76.82
+Version         : 1.77.95
 Release         : 1
 Architecture    : x86_64
-Installed size  : 388.3 MiB
-Source          : brave-browser-1.76.82-1.src.rpm
+Installed size  : 390.5 MiB
+Source          : brave-browser-1.77.95-1.src.rpm
 From repository : brave-browser
 Summary         : Brave Web Browser
 URL             : https://brave.com/
@@ -6916,11 +6916,11 @@ Vendor          : Fedora Project
 
 Name            : firefox
 Epoch           : 0
-Version         : 136.0.3
-Release         : 1.fc41
+Version         : 137.0
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 235.6 MiB
-Source          : firefox-136.0.3-1.fc41.src.rpm
+Installed size  : 237.4 MiB
+Source          : firefox-137.0-2.fc41.src.rpm
 From repository : updates
 Summary         : Mozilla Firefox Web browser
 URL             : https://www.mozilla.org/firefox/
@@ -6931,11 +6931,11 @@ Vendor          : Fedora Project
 
 Name            : firefox-langpacks
 Epoch           : 0
-Version         : 136.0.3
-Release         : 1.fc41
+Version         : 137.0
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 40.5 MiB
-Source          : firefox-136.0.3-1.fc41.src.rpm
+Installed size  : 41.2 MiB
+Source          : firefox-137.0-2.fc41.src.rpm
 From repository : updates
 Summary         : Firefox langpacks
 URL             : https://www.mozilla.org/firefox/
@@ -9862,11 +9862,11 @@ Vendor          : Fedora Project
 
 Name            : google-chrome-stable
 Epoch           : 0
-Version         : 134.0.6998.165
+Version         : 135.0.7049.52
 Release         : 1
 Architecture    : x86_64
-Installed size  : 356.2 MiB
-Source          : google-chrome-stable-134.0.6998.165-1.src.rpm
+Installed size  : 359.0 MiB
+Source          : google-chrome-stable-135.0.7049.52-1.src.rpm
 From repository : google-chrome
 Summary         : Google Chrome
 URL             : https://chrome.google.com/
@@ -22007,11 +22007,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-calc
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 26.3 MiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : LibreOffice Spreadsheet Application
 URL             : http://www.libreoffice.org/
@@ -22021,11 +22021,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-core
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 285.0 MiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : Core modules for LibreOffice
 URL             : http://www.libreoffice.org/
@@ -22035,11 +22035,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-data
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 3.3 MiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : LibreOffice data files
 URL             : http://www.libreoffice.org/
@@ -22049,11 +22049,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-emailmerge
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 26.4 KiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : Email mail-merge component for LibreOffice
 URL             : http://www.libreoffice.org/
@@ -22063,11 +22063,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-filters
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 0.0   B
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : All import / export filters
 URL             : http://www.libreoffice.org/
@@ -22078,11 +22078,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-graphicfilter
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 1.0 MiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : LibreOffice Extra Graphic filters
 URL             : http://www.libreoffice.org/
@@ -22092,11 +22092,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-gtk3
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 1.9 MiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : LibreOffice GTK+ 3 integration plug-in
 URL             : http://www.libreoffice.org/
@@ -22106,11 +22106,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-gtk4
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 1.8 MiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : LibreOffice GTK+ 4 experimental integration plug-in
 URL             : http://www.libreoffice.org/
@@ -22120,11 +22120,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-help-en
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 28.5 MiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : English help for LibreOffice
 URL             : http://www.libreoffice.org/
@@ -22134,11 +22134,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-impress
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 806.6 KiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : LibreOffice Presentation Application
 URL             : http://www.libreoffice.org/
@@ -22148,11 +22148,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-kf5
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 924.6 KiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : LibreOffice KDE Frameworks 5 integration plug-in
 URL             : http://www.libreoffice.org/
@@ -22162,11 +22162,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-langpack-en
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 171.9 KiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : English language pack for LibreOffice
 URL             : http://www.libreoffice.org/
@@ -22176,11 +22176,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-ogltrans
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 308.2 KiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : 3D OpenGL slide transitions for LibreOffice
 URL             : http://www.libreoffice.org/
@@ -22191,11 +22191,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-opensymbol-fonts
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 440.0 KiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : LibreOffice dingbats font
 URL             : http://www.libreoffice.org/
@@ -22206,11 +22206,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-pdfimport
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 590.1 KiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Installed size  : 590.0 KiB
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : PDF Importer for LibreOffice Draw
 URL             : http://www.libreoffice.org/
@@ -22221,11 +22221,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-pyuno
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 2.1 MiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : Python support for LibreOffice
 URL             : http://www.libreoffice.org/
@@ -22237,11 +22237,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-ure
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 6.6 MiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : UNO Runtime Environment
 URL             : http://www.libreoffice.org/
@@ -22256,11 +22256,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-ure-common
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 2.3 MiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : Common UNO Runtime Environment
 URL             : http://www.libreoffice.org/
@@ -22270,11 +22270,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-writer
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 12.1 MiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : LibreOffice Word Processor Application
 URL             : http://www.libreoffice.org/
@@ -22284,11 +22284,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-xsltfilter
 Epoch           : 1
-Version         : 24.8.6.1
+Version         : 24.8.6.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 4.3 MiB
-Source          : libreoffice-24.8.6.1-1.fc41.src.rpm
+Source          : libreoffice-24.8.6.2-1.fc41.src.rpm
 From repository : updates
 Summary         : Optional xsltfilter module for LibreOffice
 URL             : http://www.libreoffice.org/
@@ -28446,11 +28446,11 @@ Vendor          : Fedora Project
 
 Name            : openldap
 Epoch           : 0
-Version         : 2.6.8
-Release         : 7.fc41
+Version         : 2.6.9
+Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 631.4 KiB
-Source          : openldap-2.6.8-7.fc41.src.rpm
+Installed size  : 645.3 KiB
+Source          : openldap-2.6.9-1.fc41.src.rpm
 From repository : updates
 Summary         : LDAP support libraries
 URL             : http://www.openldap.org/
@@ -32384,12 +32384,12 @@ Vendor          : Fedora Project
 
 Name            : python3-beautifulsoup4
 Epoch           : 0
-Version         : 4.12.3
-Release         : 7.fc41
+Version         : 4.13.3
+Release         : 2.fc41
 Architecture    : noarch
-Installed size  : 1.4 MiB
-Source          : python-beautifulsoup4-4.12.3-7.fc41.src.rpm
-From repository : anaconda
+Installed size  : 1.9 MiB
+Source          : python-beautifulsoup4-4.13.3-2.fc41.src.rpm
+From repository : updates
 Summary         : HTML/XML parser for quick-turnaround applications like screen-scraping
 URL             : http://www.crummy.com/software/BeautifulSoup/
 License         : MIT
@@ -34098,6 +34098,36 @@ License         : MIT
 Description     : Tempita is a small templating language for text substitution.
 Vendor          : Fedora Project
 
+Name            : python3-typing-extensions
+Epoch           : 0
+Version         : 4.12.2
+Release         : 3.fc41
+Architecture    : noarch
+Installed size  : 464.5 KiB
+Source          : python-typing-extensions-4.12.2-3.fc41.src.rpm
+From repository : fedora
+Summary         : Python Typing Extensions
+URL             : https://pypi.org/project/typing-extensions/
+License         : PSF-2.0
+Description     : The typing_extensions module serves two related purposes:
+                : 
+                :   Enable use of new type system features on older Python versions.
+                :   For example, typing.TypeGuard is new in Python 3.10, but typing_extensions
+                :   allows users on previous Python versions to use it too.
+                : 
+                :   Enable experimentation with new type system PEPs before they are accepted and
+                :   added to the typing module.
+                : 
+                : typing_extensions is treated specially by static type checkers such as mypy and
+                : pyright. Objects defined in typing_extensions are treated the same way as
+                : equivalent forms in typing.
+                : 
+                : typing_extensions uses Semantic Versioning. The major version will be
+                : incremented only for backwards-incompatible changes. Therefore, it's safe to
+                : depend on typing_extensions like this: typing_extensions >=x.y, <(x+1),
+                : where x.y is the first version that includes all features you need.
+Vendor          : Fedora Project
+
 Name            : python3-unbound
 Epoch           : 0
 Version         : 1.22.0
@@ -34181,15 +34211,15 @@ Vendor          : Fedora Project
 
 Name            : qca-qt6
 Epoch           : 0
-Version         : 2.3.8
-Release         : 2.fc41
+Version         : 2.3.10
+Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 1.7 MiB
-Source          : qca-2.3.8-2.fc41.src.rpm
-From repository : anaconda
+Source          : qca-2.3.10-1.fc41.src.rpm
+From repository : updates
 Summary         : Qt6 Cryptographic Architecture
 URL             : https://userbase.kde.org/QCA
-License         : LGPLv2+
+License         : LGPL-2.1-only
 Description     : Taking a hint from the similarly-named Java Cryptography Architecture,
                 : QCA aims to provide a straightforward and cross-platform crypto API,
                 : using Qt datatypes and conventions. QCA separates the API from the
@@ -34202,15 +34232,15 @@ Vendor          : Fedora Project
 
 Name            : qca-qt6-ossl
 Epoch           : 0
-Version         : 2.3.8
-Release         : 2.fc41
+Version         : 2.3.10
+Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 416.3 KiB
-Source          : qca-2.3.8-2.fc41.src.rpm
-From repository : anaconda
+Installed size  : 420.4 KiB
+Source          : qca-2.3.10-1.fc41.src.rpm
+From repository : updates
 Summary         : Openssl plugin for the Qt6 Cryptographic Architecture
 URL             : https://userbase.kde.org/QCA
-License         : LGPLv2+
+License         : LGPL-2.1-only
 Description     : Openssl plugin for the Qt6 Cryptographic Architecture.
 Vendor          : Fedora Project
 
@@ -40051,11 +40081,11 @@ Vendor          : Fedora Project
 
 Name            : wayland-protocols-devel
 Epoch           : 0
-Version         : 1.41
+Version         : 1.42
 Release         : 1.fc41
 Architecture    : noarch
-Installed size  : 912.5 KiB
-Source          : wayland-protocols-1.41-1.fc41.src.rpm
+Installed size  : 919.3 KiB
+Source          : wayland-protocols-1.42-1.fc41.src.rpm
 From repository : updates
 Summary         : Wayland protocols that adds functionality not available in the core protocol
 URL             : https://wayland.freedesktop.org/

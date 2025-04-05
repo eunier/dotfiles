@@ -6,9 +6,9 @@ Mindustry	com.github.Anuken.Mindustry	146	stable	system
 LibreSprite	com.github.libresprite.LibreSprite	1.0	stable	system
 Timer	com.github.vikdevelop.timer	3.5	stable	system
 Alpaca	com.jeffser.Alpaca	5.3.0	stable	system
-Time Tracker	com.lynnmichaelmartin.TimeTracker	2.1.0	stable	system
+Time Tracker	com.lynnmichaelmartin.TimeTracker	2.1.3	stable	system
 Forge Sparks	com.mardojai.ForgeSparks	0.4.0	stable	system
-Extension Manager	com.mattjakeman.ExtensionManager	0.6.2	stable	system
+Extension Manager	com.mattjakeman.ExtensionManager	0.6.3	stable	system
 Pixelorama	com.orama_interactive.Pixelorama	1.1	stable	system
 Blanket	com.rafaelmardojai.Blanket	0.7.0	stable	system
 Spotify	com.spotify.Client	1.2.56.502.ga68d2d4f	stable	system
@@ -26,7 +26,7 @@ IP Lookup	io.github.bytezz.IPLookup	0.4.0	stable	system
 Paper Clip	io.github.diegoivan.pdf_metadata_editor	5.0	stable	system
 Pins	io.github.fabrialberio.pinapp	2.2.0	stable	system
 Hieroglyphic	io.github.finefindus.Hieroglyphic	2.1.0	stable	system
-Embellish	io.github.getnf.embellish	v0.4.5	stable	system
+Embellish	io.github.getnf.embellish	v0.4.6	stable	system
 Bella	io.github.josephmawa.Bella	0.1.4	stable	system
 Egghead	io.github.josephmawa.Egghead	0.1.1	stable	system
 TriPeaks	io.github.mimoguz.TriPeaks-GDX	1.2.3	stable	system
@@ -34,7 +34,7 @@ Inspector	io.github.nokse22.inspector	0.2.0	stable	system
 Mini Text	io.github.nokse22.minitext	1.0.0	stable	system
 Ultimate Tic Tac Toe	io.github.nokse22.ultimate-tic-tac-toe	1.0.2	stable	system
 BMI	io.github.philippkosarev.bmi	v2.0	stable	system
-Concessio	io.github.ronniedroid.concessio	v0.1.9	stable	system
+Concessio	io.github.ronniedroid.concessio	v0.1.10	stable	system
 Progress	io.github.smolblackcat.Progress	1.6.0	stable	system
 Schedule	io.github.zhrexl.thisweekinmylife	0.0.6	stable	system
 Password	io.gitlab.elescoute.password	1.6.6	stable	system
@@ -82,5 +82,6 @@ Denaro	org.nickvision.money	2024.2.0	stable	system
 Tagger	org.nickvision.tagger	2024.6.0	stable	system
 Parabolic	org.nickvision.tubeconverter	2025.1.4	stable	system
 Main Menu	page.codeberg.libre_menu_editor.LibreMenuEditor	1.9.1	stable	system
-Commit	re.sonny.Commit	4.2	stable	system
+Commit	re.sonny.Commit	4.3	stable	system
 Graphs	se.sjoerd.Graphs	1.8.4	stable	system
+Zoom	us.zoom.Zoom	6.4.1.587	stable	system
