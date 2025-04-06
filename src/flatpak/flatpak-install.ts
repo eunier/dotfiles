@@ -21,6 +21,7 @@ try {
 		"de.haeckerfelix.Fragments",
 		"de.haeckerfelix.Shortwave",
 		"dev.geopjr.Calligraphy",
+		"dev.restfox.Restfox",
 		"edu.stanford.Almond",
 		"garden.jamie.Morphosis",
 		"im.bernard.Memorado",
