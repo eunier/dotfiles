@@ -44,6 +44,7 @@
 		"libc",
 		"multihash",
 		"orama",
+		"orelse",
 		"raylib",
 		"rpinski",
 		"shfmt",
@@ -62,6 +63,9 @@
 	"debug.javascript.autoAttachFilter": "smart",
 	"debug.toolBarLocation": "commandCenter",
 	"diffEditor.ignoreTrimWhitespace": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
 	"editor.codeLensFontFamily": "Cascadia Code",
 	"editor.fontFamily": "Cascadia Code, Adwaita Mono, Fira Code, JetBrains Mono, Monoid, Noto Mono, Ubuntu Mono, 'Droid Sans Mono', 'monospace', monospace",
 	"editor.fontLigatures": false,
@@ -117,6 +121,12 @@
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
 	"files.autoSave": "afterDelay",
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/.hg/store/**": true,
+		"**/node_modules/*/**": true
+	},
 	"git.autofetch": true,
 	"git.confirmSync": false,
 	"git.enableSmartCommit": true,
@@ -125,6 +135,7 @@
 	"javascript.inlayHints.parameterTypes.enabled": true,
 	"javascript.inlayHints.propertyDeclarationTypes.enabled": true,
 	"javascript.inlayHints.variableTypes.enabled": true,
+	"material-icon-theme.activeIconPack": "",
 	"material-icon-theme.files.associations": {
 		".zigversion": "lock"
 	},
@@ -145,6 +156,7 @@
 	"typescript.inlayHints.parameterTypes.enabled": true,
 	"typescript.inlayHints.propertyDeclarationTypes.enabled": true,
 	"typescript.inlayHints.variableTypes.enabled": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
 	"window.autoDetectColorScheme": true,
 	"window.commandCenter": true,
 	"window.customTitleBarVisibility": "auto",
@@ -155,7 +167,6 @@
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.preferredDarkColorTheme": "Adwaita Dark",
 	"workbench.preferredLightColorTheme": "Adwaita Light",
-	"workbench.sideBar.location": "right",
 	"workbench.tree.indent": 12,
 	"workspaceWizard.general.workspacesFolder": "/home/tron/Projects/workspaces",
 	"zig.path": "zig",

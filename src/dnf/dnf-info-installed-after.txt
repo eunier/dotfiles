@@ -3146,11 +3146,11 @@ Vendor          : Fedora Project
 
 Name            : code
 Epoch           : 0
-Version         : 1.98.2
-Release         : 1741788968.el8
+Version         : 1.99.0
+Release         : 1743632525.el8
 Architecture    : x86_64
-Installed size  : 400.0 MiB
-Source          : code-1.98.2-1741788968.el8.src.rpm
+Installed size  : 400.4 MiB
+Source          : code-1.99.0-1743632525.el8.src.rpm
 From repository : code
 Summary         : Code editing. Redefined.
 URL             : https://code.visualstudio.com/
@@ -4046,6 +4046,20 @@ Description     : Device DAX is a facility for establishing DAX mappings of perf
                 : feature-differentiated memory. daxctl-libs provides an enumeration /
                 : control API for these devices.
 Vendor          : Fedora Project
+
+Name            : dbeaver-ce
+Epoch           : 0
+Version         : 25.0.1
+Release         : stable
+Architecture    : x86_64
+Installed size  : 163.2 MiB
+Source          : (none)
+From repository : @commandline
+Summary         : Universal Database Manager and SQL Client
+URL             : https://dbeaver.io/
+License         : ASL 2.0
+Description     : Universal Database Manager and SQL Client
+Vendor          : DBeaver Corp
 
 Name            : dbus
 Epoch           : 1
@@ -15427,11 +15441,11 @@ Vendor          : Fedora Project
 
 Name            : lact-libadwaita
 Epoch           : 0
-Version         : 0.7.2
+Version         : 0.7.3
 Release         : 1
 Architecture    : x86_64
-Installed size  : 9.9 MiB
-Source          : lact-libadwaita-0.7.2-1.src.rpm
+Installed size  : 10.2 MiB
+Source          : lact-libadwaita-0.7.3-1.src.rpm
 From repository : copr:copr.fedorainfracloud.org:ilyaz:LACT
 Summary         : AMDGPU control utility
 URL             : https://github.com/ilya-zlobintsev/LACT
@@ -31762,6 +31776,22 @@ Description     : podman (Pod Manager) is a fully featured container engine that
                 : manipulate images (but not containers) created by the other.
 Vendor          : Fedora Project
 
+Name            : podman-compose
+Epoch           : 0
+Version         : 1.3.0
+Release         : 2.fc41
+Architecture    : noarch
+Installed size  : 366.9 KiB
+Source          : podman-compose-1.3.0-2.fc41.src.rpm
+From repository : updates
+Summary         : Run docker-compose.yml using podman
+URL             : https://github.com/containers/podman-compose
+License         : GPL-2.0-only
+Description     : An implementation of docker-compose with podman backend.
+                : The main objective of this project is to be able to run docker-compose.yml
+                : unmodified and rootless.
+Vendor          : Fedora Project
+
 Name            : polari
 Epoch           : 0
 Version         : 46.0
@@ -31973,6 +32003,75 @@ Description     : Popt is a C library for parsing command line parameters. Popt 
                 : arguments to be aliased via configuration files and includes utility
                 : functions for parsing arbitrary strings into argv[] arrays using
                 : shell-like rules.
+Vendor          : Fedora Project
+
+Name            : postgresql
+Epoch           : 0
+Version         : 16.8
+Release         : 1.fc41
+Architecture    : x86_64
+Installed size  : 7.8 MiB
+Source          : postgresql16-16.8-1.fc41.src.rpm
+From repository : updates
+Summary         : PostgreSQL client programs
+URL             : http://www.postgresql.org/
+License         : PostgreSQL
+Description     : PostgreSQL is an advanced Object-Relational database management system (DBMS).
+                : The base postgresql package contains the client programs that you'll need to
+                : access a PostgreSQL DBMS server, as well as HTML documentation for the whole
+                : system.  These client programs can be located on the same machine as the
+                : PostgreSQL server, or on a remote machine that accesses a PostgreSQL server
+                : over a network connection.  The PostgreSQL server can be found in the
+                : postgresql-server sub-package.
+Vendor          : Fedora Project
+
+Name            : postgresql-contrib
+Epoch           : 0
+Version         : 16.8
+Release         : 1.fc41
+Architecture    : x86_64
+Installed size  : 3.5 MiB
+Source          : postgresql16-16.8-1.fc41.src.rpm
+From repository : updates
+Summary         : Extension modules distributed with PostgreSQL
+URL             : http://www.postgresql.org/
+License         : PostgreSQL
+Description     : The postgresql-contrib package contains various extension modules that are
+                : included in the PostgreSQL distribution.
+Vendor          : Fedora Project
+
+Name            : postgresql-private-libs
+Epoch           : 0
+Version         : 16.8
+Release         : 1.fc41
+Architecture    : x86_64
+Installed size  : 335.6 KiB
+Source          : postgresql16-16.8-1.fc41.src.rpm
+From repository : updates
+Summary         : The shared libraries required only for this build of PostgreSQL server
+URL             : http://www.postgresql.org/
+License         : PostgreSQL
+Description     : The postgresql-private-libs package provides the shared libraries for this
+                : build of PostgreSQL server and plugins build with this version of server.
+                : For shared libraries used by client packages that need to connect to a
+                : PostgreSQL server, install libpq package instead.
+Vendor          : Fedora Project
+
+Name            : postgresql-server
+Epoch           : 0
+Version         : 16.8
+Release         : 1.fc41
+Architecture    : x86_64
+Installed size  : 29.5 MiB
+Source          : postgresql16-16.8-1.fc41.src.rpm
+From repository : updates
+Summary         : The programs needed to create and run a PostgreSQL server
+URL             : http://www.postgresql.org/
+License         : PostgreSQL
+Description     : PostgreSQL is an advanced Object-Relational database management system (DBMS).
+                : The postgresql-server package contains the programs needed to create
+                : and run a PostgreSQL server, which will in turn allow you to create
+                : and maintain PostgreSQL databases.
 Vendor          : Fedora Project
 
 Name            : ppp
@@ -32456,6 +32555,37 @@ Description     : This package contains enhancements to the gobject-introspectio
                 : libblockdev in Python3.
 Vendor          : Fedora Project
 
+Name            : python3-boto3
+Epoch           : 0
+Version         : 1.37.25
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 2.1 MiB
+Source          : python-boto3-1.37.25-1.fc41.src.rpm
+From repository : updates
+Summary         : The AWS SDK for Python
+URL             : https://github.com/boto/boto3
+License         : Apache-2.0
+Description     : Boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for
+                : Python, which allows Python developers to write software that makes use of
+                : services like Amazon S3 and Amazon EC2.
+Vendor          : Fedora Project
+
+Name            : python3-botocore
+Epoch           : 0
+Version         : 1.37.25
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 100.7 MiB
+Source          : python-botocore-1.37.25-1.fc41.src.rpm
+From repository : updates
+Summary         : Low-level, data-driven core of boto 3
+URL             : https://github.com/boto/botocore
+License         : Apache-2.0
+Description     : A low-level interface to a growing number of Amazon Web Services. The
+                : botocore package is the foundation for the AWS CLI as well as boto3.
+Vendor          : Fedora Project
+
 Name            : python3-brlapi
 Epoch           : 0
 Version         : 0.8.5
@@ -32759,6 +32889,35 @@ Description     : Core Plugins for DNF, Python 3 interface. This package enhance
                 : Additionally provides generate_completion_cache passive plugin.
 Vendor          : Fedora Project
 
+Name            : python3-dotenv
+Epoch           : 0
+Version         : 1.0.1
+Release         : 3.fc41
+Architecture    : noarch
+Installed size  : 120.1 KiB
+Source          : python-dotenv-1.0.1-3.fc41.src.rpm
+From repository : fedora
+Summary         : Read key-value pairs from a .env file and set them as environment variables
+URL             : https://github.com/theskumar/python-dotenv
+License         : BSD-3-Clause
+Description     : Reads the key/value pair from .env file and adds them to environment variable.
+Vendor          : Fedora Project
+
+Name            : python3-dotenv+cli
+Epoch           : 0
+Version         : 1.0.1
+Release         : 3.fc41
+Architecture    : noarch
+Installed size  : 24.5 KiB
+Source          : python-dotenv-1.0.1-3.fc41.src.rpm
+From repository : fedora
+Summary         : Metapackage for python3-dotenv: cli extras
+URL             : https://github.com/theskumar/python-dotenv
+License         : BSD-3-Clause
+Description     : This is a metapackage bringing in cli extras requires for python3-dotenv.
+                : It makes sure the dependencies are installed.
+Vendor          : Fedora Project
+
 Name            : python3-enchant
 Epoch           : 0
 Version         : 3.2.2
@@ -32931,6 +33090,21 @@ License         : MIT
 Description     : A simple (really simple) library for working with ISO639-2 language codes.
                 : 
                 : Python 3 version.
+Vendor          : Fedora Project
+
+Name            : python3-jmespath
+Epoch           : 0
+Version         : 1.0.1
+Release         : 8.fc41
+Architecture    : noarch
+Installed size  : 149.8 KiB
+Source          : python-jmespath-1.0.1-8.fc41.src.rpm
+From repository : fedora
+Summary         : JSON Matching Expressions
+URL             : https://github.com/jmespath/jmespath.py
+License         : MIT
+Description     : JMESPath allows you to declaratively specify how to extract elements from
+                : a JSON document.
 Vendor          : Fedora Project
 
 Name            : python3-jwt
@@ -33940,6 +34114,22 @@ Description     : The python3-rpm package contains a module that permits applica
                 : 
                 : This package should be installed if you want to develop Python 3
                 : programs that will manipulate RPM packages and databases.
+Vendor          : Fedora Project
+
+Name            : python3-s3transfer
+Epoch           : 0
+Version         : 0.11.4
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 632.8 KiB
+Source          : python-s3transfer-0.11.4-1.fc41.src.rpm
+From repository : updates
+Summary         : Amazon S3 Transfer Manager
+URL             : https://pypi.org/project/s3transfer/
+License         : Apache-2.0
+Description     : S3transfer is a Python library for managing Amazon S3 transfers.
+                : 
+                : Python 3 version.
 Vendor          : Fedora Project
 
 Name            : python3-satyr
@@ -39596,6 +39786,28 @@ URL             : https://en.wikipedia.org/wiki/Util-linux
 License         : GPL-2.0-only AND GPL-2.0-or-later AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause-UC AND LicenseRef-Fedora-Public-Domain
 Description     : This is a very basic set of Linux utilities that is necessary on
                 : minimal installations.
+Vendor          : Fedora Project
+
+Name            : uuid
+Epoch           : 0
+Version         : 1.6.2
+Release         : 64.fc41
+Architecture    : x86_64
+Installed size  : 128.9 KiB
+Source          : uuid-1.6.2-64.fc41.src.rpm
+From repository : fedora
+Summary         : Universally Unique Identifier library
+URL             : http://www.ossp.org/pkg/lib/uuid/
+License         : MIT
+Description     : OSSP uuid is a ISO-C:1999 application programming interface (API)
+                : and corresponding command line interface (CLI) for the generation
+                : of DCE 1.1, ISO/IEC 11578:1996 and RFC 4122 compliant Universally
+                : Unique Identifier (UUID). It supports DCE 1.1 variant UUIDs of version
+                : 1 (time and node based), version 3 (name based, MD5), version 4
+                : (random number based) and version 5 (name based, SHA-1). Additional
+                : API bindings are provided for the languages ISO-C++:1998 and Perl:5
+                : Optional backward compatibility exists for the ISO-C DCE-1.1 and Perl
+                : Data::UUID APIs.
 Vendor          : Fedora Project
 
 Name            : vamp-plugin-sdk

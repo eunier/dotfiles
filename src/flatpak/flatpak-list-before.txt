@@ -1,5 +1,5 @@
 Key Rack	app.drey.KeyRack	0.4.0	stable	system
-Zen	app.zen_browser.zen	1.10.3b	stable	system
+Zen	app.zen_browser.zen	1.11b	stable	system
 Adventure List	codes.merritt.adventurelist	0.15.0	stable	system
 Authenticator	com.belmoussaoui.Authenticator	4.6.2	stable	system
 Mindustry	com.github.Anuken.Mindustry	146	stable	system
@@ -71,7 +71,7 @@ GNOME Application Platform version 48	org.gnome.Platform		48	system
 Solanum	org.gnome.Solanum	5.0.0	stable	system
 Iotas	org.gnome.World.Iotas	0.11.0	stable	system
 Pika Backup	org.gnome.World.PikaBackup	0.7.4	stable	system
-Secrets	org.gnome.World.Secrets	10.4	stable	system
+Secrets	org.gnome.World.Secrets	11.0	stable	system
 App Icon Preview	org.gnome.design.AppIconPreview	3.4.0	stable	system
 Emblem	org.gnome.design.Emblem	1.5.0	stable	system
 Lorem	org.gnome.design.Lorem	1.5	stable	system
@@ -84,4 +84,4 @@ Parabolic	org.nickvision.tubeconverter	2025.1.4	stable	system
 Main Menu	page.codeberg.libre_menu_editor.LibreMenuEditor	1.9.1	stable	system
 Commit	re.sonny.Commit	4.3	stable	system
 Graphs	se.sjoerd.Graphs	1.8.4	stable	system
-Zoom	us.zoom.Zoom	6.4.1.587	stable	system
+Zoom	us.zoom.Zoom	6.4.3.827	stable	system

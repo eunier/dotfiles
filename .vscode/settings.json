@@ -75,6 +75,7 @@
 		"gsettings",
 		"haeckerfelix",
 		"ilyaz",
+		"initdb",
 		"Jannis",
 		"josephmawa",
 		"julians",
@@ -126,6 +127,7 @@
 		"opennewinstance",
 		"orhun",
 		"pflannery",
+		"pgadmin",
 		"pgdev",
 		"philippun",
 		"phracek",
@@ -181,6 +183,7 @@
 		"zflecs",
 		"zhrexl",
 		"zhuangtongfa",
-		"ziglang"
+		"ziglang",
+		"zigzap"
 	]
 }

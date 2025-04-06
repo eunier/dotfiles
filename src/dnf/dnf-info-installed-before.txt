@@ -344,11 +344,11 @@ Vendor          : Fedora Project
 
 Name            : NetworkManager-ssh
 Epoch           : 0
-Version         : 1.2.14
-Release         : 2.fc41
+Version         : 1.3.1
+Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 222.6 KiB
-Source          : NetworkManager-ssh-1.2.14-2.fc41.src.rpm
+Installed size  : 230.7 KiB
+Source          : NetworkManager-ssh-1.3.1-1.fc41.src.rpm
 From repository : updates
 Summary         : NetworkManager VPN plugin for SSH
 URL             : https://github.com/danfruehauf/NetworkManager-ssh
@@ -359,11 +359,11 @@ Vendor          : Fedora Project
 
 Name            : NetworkManager-ssh-gnome
 Epoch           : 0
-Version         : 1.2.14
-Release         : 2.fc41
+Version         : 1.3.1
+Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 161.3 KiB
-Source          : NetworkManager-ssh-1.2.14-2.fc41.src.rpm
+Installed size  : 173.4 KiB
+Source          : NetworkManager-ssh-1.3.1-1.fc41.src.rpm
 From repository : updates
 Summary         : NetworkManager VPN plugin for SSH - GNOME files
 URL             : https://github.com/danfruehauf/NetworkManager-ssh
@@ -374,11 +374,11 @@ Vendor          : Fedora Project
 
 Name            : NetworkManager-ssh-selinux
 Epoch           : 0
-Version         : 1.2.14
-Release         : 2.fc41
+Version         : 1.3.1
+Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 18.4 KiB
-Source          : NetworkManager-ssh-1.2.14-2.fc41.src.rpm
+Installed size  : 18.5 KiB
+Source          : NetworkManager-ssh-1.3.1-1.fc41.src.rpm
 From repository : updates
 Summary         : NetworkManager-ssh selinux policy module
 URL             : https://github.com/danfruehauf/NetworkManager-ssh
@@ -7287,11 +7287,11 @@ Vendor          : Fedora Project
 Name            : freeglut
 Epoch           : 0
 Version         : 3.6.0
-Release         : 2.fc41
+Release         : 4.fc41
 Architecture    : x86_64
 Installed size  : 471.9 KiB
-Source          : freeglut-3.6.0-2.fc41.src.rpm
-From repository : anaconda
+Source          : freeglut-3.6.0-4.fc41.src.rpm
+From repository : updates
 Summary         : A freely licensed alternative to the GLUT library
 URL             : http://freeglut.sourceforge.net
 License         : MIT
@@ -7846,10 +7846,10 @@ Vendor          : Fedora Project
 Name            : gdb
 Epoch           : 0
 Version         : 16.2
-Release         : 1.fc41
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 455.3 KiB
-Source          : gdb-16.2-1.fc41.src.rpm
+Source          : gdb-16.2-2.fc41.src.rpm
 From repository : updates
 Summary         : A GNU source-level debugger for C, C++, Fortran, Go and other languages
 URL             : https://gnu.org/software/gdb/
@@ -7866,10 +7866,10 @@ Vendor          : Fedora Project
 Name            : gdb-headless
 Epoch           : 0
 Version         : 16.2
-Release         : 1.fc41
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 15.7 MiB
-Source          : gdb-16.2-1.fc41.src.rpm
+Source          : gdb-16.2-2.fc41.src.rpm
 From repository : updates
 Summary         : A GNU source-level debugger for C, C++, Fortran, Go and other languages
 URL             : https://gnu.org/software/gdb/
@@ -8214,10 +8214,10 @@ Vendor          : Fedora Project
 Name            : ghostscript
 Epoch           : 0
 Version         : 10.03.1
-Release         : 4.fc41
+Release         : 5.fc41
 Architecture    : x86_64
 Installed size  : 34.9 KiB
-Source          : ghostscript-10.03.1-4.fc41.src.rpm
+Source          : ghostscript-10.03.1-5.fc41.src.rpm
 From repository : updates
 Summary         : Interpreter for PostScript language & PDF
 URL             : https://ghostscript.com/
@@ -8234,10 +8234,10 @@ Vendor          : Fedora Project
 Name            : ghostscript-tools-fonts
 Epoch           : 0
 Version         : 10.03.1
-Release         : 4.fc41
+Release         : 5.fc41
 Architecture    : noarch
 Installed size  : 2.5 KiB
-Source          : ghostscript-10.03.1-4.fc41.src.rpm
+Source          : ghostscript-10.03.1-5.fc41.src.rpm
 From repository : updates
 Summary         : Ghostscript's font utilities
 URL             : https://ghostscript.com/
@@ -8249,10 +8249,10 @@ Vendor          : Fedora Project
 Name            : ghostscript-tools-printing
 Epoch           : 0
 Version         : 10.03.1
-Release         : 4.fc41
+Release         : 5.fc41
 Architecture    : noarch
 Installed size  : 3.5 KiB
-Source          : ghostscript-10.03.1-4.fc41.src.rpm
+Source          : ghostscript-10.03.1-5.fc41.src.rpm
 From repository : updates
 Summary         : Ghostscript's printing utilities
 URL             : https://ghostscript.com/
@@ -16432,6 +16432,20 @@ License         : LGPL-2.1-or-later AND MIT
 Description     : Building blocks for modern GNOME applications.
 Vendor          : Fedora Project
 
+Name            : libadwaita-demo
+Epoch           : 0
+Version         : 1.6.5
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 7.6 KiB
+Source          : libadwaita-1.6.5-1.fc41.src.rpm
+From repository : updates
+Summary         : Demo files for libadwaita
+URL             : https://gitlab.gnome.org/GNOME/libadwaita
+License         : LGPL-2.1-or-later AND MIT
+Description     : Demo files for libadwaita.
+Vendor          : Fedora Project
+
 Name            : libaio
 Epoch           : 0
 Version         : 0.3.111
@@ -18338,11 +18352,11 @@ Vendor          : Fedora Project
 Name            : libebur128
 Epoch           : 0
 Version         : 1.2.6
-Release         : 10.fc41
+Release         : 12.fc41
 Architecture    : x86_64
-Installed size  : 35.4 KiB
-Source          : libebur128-1.2.6-10.fc41.src.rpm
-From repository : fedora
+Installed size  : 39.4 KiB
+Source          : libebur128-1.2.6-12.fc41.src.rpm
+From repository : updates
 Summary         : A library that implements the EBU R 128 standard for loudness normalization
 URL             : https://github.com/jiixyj/libebur128
 License         : MIT
@@ -19417,10 +19431,10 @@ Vendor          : Fedora Project
 Name            : libgs
 Epoch           : 0
 Version         : 10.03.1
-Release         : 4.fc41
+Release         : 5.fc41
 Architecture    : x86_64
 Installed size  : 23.3 MiB
-Source          : ghostscript-10.03.1-4.fc41.src.rpm
+Source          : ghostscript-10.03.1-5.fc41.src.rpm
 From repository : updates
 Summary         : Library providing Ghostcript's core functionality
 URL             : https://ghostscript.com/
@@ -31562,11 +31576,11 @@ Vendor          : Fedora Project
 
 Name            : plasma-breeze-common
 Epoch           : 0
-Version         : 6.3.3
+Version         : 6.3.4
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 41.2 MiB
-Source          : plasma-breeze-6.3.3-1.fc41.src.rpm
+Source          : plasma-breeze-6.3.4-1.fc41.src.rpm
 From repository : updates
 Summary         : Common files shared between Plasma 5 and Plasma 6 versions of the Breeze style
 URL             : https://invent.kde.org/plasma/breeze.git

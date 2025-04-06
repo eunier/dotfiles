@@ -62,6 +62,8 @@ fi
 sudo dnf upgrade
 sudo dnf autoremove
 
+# https://dbeaver.io/
+
 sudo dnf install \
     alsa-lib-devel \
     Beaver-notes \
@@ -119,7 +121,11 @@ sudo dnf install \
     mullvad-vpn \
     opendoas \
     picard \
+    podman-compose \
     polari \
+    postgresql \
+    postgresql-contrib \
+    postgresql-server \
     rust \
     ShellCheck \
     shfmt \

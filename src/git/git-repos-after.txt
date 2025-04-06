@@ -21,6 +21,8 @@
 │   └── zig-gamedev
 ├── com.github.ziglang.zig
 │   └── zig
+├── com.github.zigzap.zap
+│   └── zap
 ├── com.gitlab.yunieralvarez.expense-tracker
 │   └── expense-tracker
 ├── com.gitlab.yunieralvarez.game-top-down-shooter-rs
@@ -46,9 +48,13 @@
 │   └── gnome-calendar
 └── workspaces
     ├── dotfiles.code-workspace
+    ├── expense-tracker-app.code-workspace
+    ├── expense-tracker.code-workspace
     ├── flec-zig-raw-c.code-workspace
     ├── game-top-dow-shooter.code-workspace
     ├── inbox.code-workspace
+    ├── inbox-eta.code-workspace
+    ├── inbox-tdg.code-workspace
     ├── raylib-zig.code-workspace
     ├── repo.code-workspace
     ├── top-down-game.code-workspace
@@ -56,4 +62,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-46 directories, 11 files
+48 directories, 15 files

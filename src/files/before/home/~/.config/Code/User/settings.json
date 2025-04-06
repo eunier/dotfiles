@@ -46,6 +46,7 @@
 		"orama",
 		"raylib",
 		"rpinski",
+		"shfmt",
 		"Trunc",
 		"trycatch",
 		"usingnamespace",
@@ -61,6 +62,9 @@
 	"debug.javascript.autoAttachFilter": "smart",
 	"debug.toolBarLocation": "commandCenter",
 	"diffEditor.ignoreTrimWhitespace": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
 	"editor.codeLensFontFamily": "Cascadia Code",
 	"editor.fontFamily": "Cascadia Code, Adwaita Mono, Fira Code, JetBrains Mono, Monoid, Noto Mono, Ubuntu Mono, 'Droid Sans Mono', 'monospace', monospace",
 	"editor.fontLigatures": false,
@@ -144,6 +148,7 @@
 	"typescript.inlayHints.parameterTypes.enabled": true,
 	"typescript.inlayHints.propertyDeclarationTypes.enabled": true,
 	"typescript.inlayHints.variableTypes.enabled": true,
+	"typescript.updateImportsOnFileMove.enabled": "always",
 	"window.autoDetectColorScheme": true,
 	"window.commandCenter": true,
 	"window.customTitleBarVisibility": "auto",
@@ -154,7 +159,6 @@
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.preferredDarkColorTheme": "Adwaita Dark",
 	"workbench.preferredLightColorTheme": "Adwaita Light",
-	"workbench.sideBar.location": "right",
 	"workbench.tree.indent": 12,
 	"workspaceWizard.general.workspacesFolder": "/home/tron/Projects/workspaces",
 	"zig.path": "zig",

@@ -23,3 +23,11 @@ cat ~/.ssh/id_ed25519.pub
 ```
 
 Add output to the git web platform corresponding settings.
+
+### Postgres
+
+Run this after initial installation
+
+```bash
+sudo postgresql-setup --initdb
+```

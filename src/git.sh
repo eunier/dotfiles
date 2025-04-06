@@ -47,6 +47,8 @@ git clone https://github.com/ziglang/zig.git ~/Projects/com.github.ziglang.zig/z
 [ $? -eq 128 ] && printf "."
 git clone https://gitlab.gnome.org/GNOME/gnome-calendar.git ~/Projects/org.gitlab.gnome.GNOME.gnome-calendar/gnome-calendar >/dev/null 2>&1
 [ $? -eq 128 ] && printf "."
+git clone https://github.com/zigzap/zap.git ~/Projects/com.github.zigzap.zap/zap >/dev/null 2>&1
+[ $? -eq 128 ] && printf "."
 
 echo ""
 touch ~/.dotfiles/src/git/git-repos-before.txt
