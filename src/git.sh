@@ -8,7 +8,6 @@ git clone git@gitlab.com:yunieralvarez/dotfiles.git /run/media/tron/External/Dot
 [ $? -eq 128 ] && printf "."
 
 git clone git@github.com:eunier/dotfiles.git ~/Projects/com.github.eunier.dotfiles/dotfiles >/dev/null 2>&1
-[ $? -eq 128 ] && printf "."
 git clone git@gitlab.com:yunieralvarez/expense-tracker.git ~/Projects/com.gitlab.yunieralvarez.expense-tracker/expense-tracker >/dev/null 2>&1
 [ $? -eq 128 ] && printf "."
 git clone git@gitlab.com:yunieralvarez/game-top-down-shooter-rs.git ~/Projects/com.gitlab.yunieralvarez.game-top-down-shooter-rs/game-top-dow-shooter-rs >/dev/null 2>&1
@@ -45,9 +44,9 @@ git clone https://github.com/zig-gamedev/zig-gamedev.git ~/Projects/com.github.z
 [ $? -eq 128 ] && printf "."
 git clone https://github.com/ziglang/zig.git ~/Projects/com.github.ziglang.zig/zig >/dev/null 2>&1
 [ $? -eq 128 ] && printf "."
-git clone https://gitlab.gnome.org/GNOME/gnome-calendar.git ~/Projects/org.gitlab.gnome.GNOME.gnome-calendar/gnome-calendar >/dev/null 2>&1
-[ $? -eq 128 ] && printf "."
 git clone https://github.com/zigzap/zap.git ~/Projects/com.github.zigzap.zap/zap >/dev/null 2>&1
+[ $? -eq 128 ] && printf "."
+git clone https://gitlab.gnome.org/GNOME/gnome-calendar.git ~/Projects/org.gitlab.gnome.GNOME.gnome-calendar/gnome-calendar >/dev/null 2>&1
 [ $? -eq 128 ] && printf "."
 
 echo ""

@@ -64,7 +64,8 @@
 	"debug.toolBarLocation": "commandCenter",
 	"diffEditor.ignoreTrimWhitespace": true,
 	"editor.codeActionsOnSave": {
-		"source.organizeImports": "explicit"
+		"quickfix.biome": "explicit",
+		"source.organizeImports.biome": "explicit"
 	},
 	"editor.codeLensFontFamily": "Cascadia Code",
 	"editor.fontFamily": "Cascadia Code, Adwaita Mono, Fira Code, JetBrains Mono, Monoid, Noto Mono, Ubuntu Mono, 'Droid Sans Mono', 'monospace', monospace",
@@ -171,5 +172,14 @@
 	"workspaceWizard.general.workspacesFolder": "/home/tron/Projects/workspaces",
 	"zig.path": "zig",
 	"zig.zls.enabled": "on",
-	"zig.zls.inlayHintsExcludeSingleArgument": false
+	"zig.zls.inlayHintsExcludeSingleArgument": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"files.associations": {
+		".env.template": "properties"
+	},
+	"javascript.inlayHints.parameterNames.enabled": "literals",
+	"javascript.referencesCodeLens.enabled": true,
+	"javascript.referencesCodeLens.showOnAllFunctions": true,
+	"typescript.referencesCodeLens.enabled": true,
+	"typescript.referencesCodeLens.showOnAllFunctions": true
 }

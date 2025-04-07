@@ -48,6 +48,7 @@ code --install-extension wk-j.vscode-httpie >/dev/null 2>&1 && printf "."
 code --install-extension zhuangtongfa.Material-theme >/dev/null 2>&1 && printf "."
 code --install-extension ziglang.vscode-zig >/dev/null 2>&1 && printf "."
 code --install-extension Zignd.html-css-class-completion >/dev/null 2>&1 && printf "."
+code --install-extension meganrogge.template-string-converter >/dev/null 2>&1 && printf "."
 #spell-checker: enable
 
 echo ""

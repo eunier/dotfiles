@@ -16,6 +16,7 @@ maattdd.gitless
 mads-hartmann.bash-ide-vscode
 maptz.regionfolder
 mariusalchimavicius.json-to-ts
+meganrogge.template-string-converter
 mkhl.shfmt
 ms-vscode.cmake-tools
 ms-vscode.cpptools

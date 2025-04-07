@@ -50,6 +50,7 @@
     ├── dotfiles.code-workspace
     ├── expense-tracker-app.code-workspace
     ├── expense-tracker.code-workspace
+    ├── expense-tracker-playground.code-workspace
     ├── flec-zig-raw-c.code-workspace
     ├── game-top-dow-shooter.code-workspace
     ├── inbox.code-workspace
@@ -62,4 +63,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-48 directories, 15 files
+48 directories, 16 files

@@ -52,11 +52,11 @@ Iconic	nl.emphisia.icon	2025.3.2	stable	system
 Lemma	org.cvfosammmm.Lemma	32	stable	system
 Flatpak External Data Checker	org.flathub.flatpak-external-data-checker		stable	system
 Freedesktop Platform	org.freedesktop.Platform	21.08.22	21.08	system
-Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.29	23.08	system
+Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.30	23.08	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.16	24.08	system
 Mesa	org.freedesktop.Platform.GL.default	21.3.9	21.08	system
-Mesa	org.freedesktop.Platform.GL.default	24.3.4	23.08	system
-Mesa (Extra)	org.freedesktop.Platform.GL.default	24.3.4	23.08-extra	system
+Mesa	org.freedesktop.Platform.GL.default	25.0.3	23.08	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	25.0.3	23.08-extra	system
 Mesa	org.freedesktop.Platform.GL.default	24.3.4	24.08	system
 Mesa (Extra)	org.freedesktop.Platform.GL.default	24.3.4	24.08extra	system
 FFmpeg extension with extra codecs	org.freedesktop.Platform.ffmpeg-full		23.08	system
@@ -71,7 +71,7 @@ GNOME Application Platform version 45	org.gnome.Platform		45	system
 GNOME Application Platform version 46	org.gnome.Platform		46	system
 GNOME Application Platform version 47	org.gnome.Platform		47	system
 GNOME Application Platform version 48	org.gnome.Platform		48	system
-Solanum	org.gnome.Solanum	5.0.0	stable	system
+Solanum	org.gnome.Solanum	6.0.0	stable	system
 Iotas	org.gnome.World.Iotas	0.11.0	stable	system
 Pika Backup	org.gnome.World.PikaBackup	0.7.4	stable	system
 Secrets	org.gnome.World.Secrets	11.0	stable	system
