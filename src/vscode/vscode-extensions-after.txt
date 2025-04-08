@@ -9,6 +9,7 @@ egirlcatnip.adwaita-github-theme
 esbenp.prettier-vscode
 evan-buss.font-switcher
 gruntfuggly.todo-tree
+hossaini.bootstrap-intellisense
 humao.rest-client
 iciclesoft.workspacesort
 jannisx11.batch-rename-extension

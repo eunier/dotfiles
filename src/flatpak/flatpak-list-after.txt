@@ -34,7 +34,7 @@ TriPeaks	io.github.mimoguz.TriPeaks-GDX	1.2.3	stable	system
 Inspector	io.github.nokse22.inspector	0.2.0	stable	system
 Mini Text	io.github.nokse22.minitext	1.0.0	stable	system
 Ultimate Tic Tac Toe	io.github.nokse22.ultimate-tic-tac-toe	1.0.2	stable	system
-BMI	io.github.philippkosarev.bmi	v2.0	stable	system
+BMI	io.github.philippkosarev.bmi	v3.0	stable	system
 Concessio	io.github.ronniedroid.concessio	v0.1.10	stable	system
 Progress	io.github.smolblackcat.Progress	1.6.0	stable	system
 Schedule	io.github.zhrexl.thisweekinmylife	0.0.6	stable	system
@@ -84,7 +84,7 @@ Cavalier	org.nickvision.cavalier	2024.1.0	stable	system
 Denaro	org.nickvision.money	2024.2.0	stable	system
 Tagger	org.nickvision.tagger	2024.6.0	stable	system
 Parabolic	org.nickvision.tubeconverter	2025.1.4	stable	system
-pgAdmin 4	org.pgadmin.pgadmin4	9.1	stable	system
+pgAdmin 4	org.pgadmin.pgadmin4	9.2	stable	system
 Main Menu	page.codeberg.libre_menu_editor.LibreMenuEditor	1.9.1	stable	system
 Commit	re.sonny.Commit	4.3	stable	system
 Graphs	se.sjoerd.Graphs	1.8.4	stable	system

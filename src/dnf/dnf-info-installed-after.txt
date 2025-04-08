@@ -2155,11 +2155,11 @@ Vendor          : Fedora Project
 
 Name            : bluez
 Epoch           : 0
-Version         : 5.79
-Release         : 1.fc41
+Version         : 5.81
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 3.3 MiB
-Source          : bluez-5.79-1.fc41.src.rpm
+Installed size  : 3.4 MiB
+Source          : bluez-5.81-2.fc41.src.rpm
 From repository : updates
 Summary         : Bluetooth utilities
 URL             : http://www.bluez.org/
@@ -2179,11 +2179,11 @@ Vendor          : Fedora Project
 
 Name            : bluez-cups
 Epoch           : 0
-Version         : 5.79
-Release         : 1.fc41
+Version         : 5.81
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 48.2 KiB
-Source          : bluez-5.79-1.fc41.src.rpm
+Source          : bluez-5.81-2.fc41.src.rpm
 From repository : updates
 Summary         : CUPS printer backend for Bluetooth printers
 URL             : http://www.bluez.org/
@@ -2193,11 +2193,11 @@ Vendor          : Fedora Project
 
 Name            : bluez-libs
 Epoch           : 0
-Version         : 5.79
-Release         : 1.fc41
+Version         : 5.81
+Release         : 2.fc41
 Architecture    : i686
 Installed size  : 201.8 KiB
-Source          : bluez-5.79-1.fc41.src.rpm
+Source          : bluez-5.81-2.fc41.src.rpm
 From repository : updates
 Summary         : Libraries for use in Bluetooth applications
 URL             : http://www.bluez.org/
@@ -2207,11 +2207,11 @@ Vendor          : Fedora Project
 
 Name            : bluez-libs
 Epoch           : 0
-Version         : 5.79
-Release         : 1.fc41
+Version         : 5.81
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 202.4 KiB
-Source          : bluez-5.79-1.fc41.src.rpm
+Installed size  : 198.4 KiB
+Source          : bluez-5.81-2.fc41.src.rpm
 From repository : updates
 Summary         : Libraries for use in Bluetooth applications
 URL             : http://www.bluez.org/
@@ -2221,11 +2221,11 @@ Vendor          : Fedora Project
 
 Name            : bluez-obexd
 Epoch           : 0
-Version         : 5.79
-Release         : 1.fc41
+Version         : 5.81
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 345.1 KiB
-Source          : bluez-5.79-1.fc41.src.rpm
+Installed size  : 350.8 KiB
+Source          : bluez-5.81-2.fc41.src.rpm
 From repository : updates
 Summary         : Object Exchange daemon for sharing content
 URL             : http://www.bluez.org/
@@ -2753,11 +2753,11 @@ Vendor          : Fedora Project
 
 Name            : cargo
 Epoch           : 0
-Version         : 1.85.1
+Version         : 1.86.0
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 20.2 MiB
-Source          : rust-1.85.1-1.fc41.src.rpm
+Installed size  : 20.3 MiB
+Source          : rust-1.86.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Rust's package manager and build tool
 URL             : https://www.rust-lang.org
@@ -5574,10 +5574,10 @@ Vendor          : Fedora Project
 Name            : dnf5
 Epoch           : 0
 Version         : 5.2.12.0
-Release         : 1.fc41
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 2.2 MiB
-Source          : dnf5-5.2.12.0-1.fc41.src.rpm
+Source          : dnf5-5.2.12.0-2.fc41.src.rpm
 From repository : updates
 Summary         : Command-line package manager
 URL             : https://github.com/rpm-software-management/dnf5
@@ -5590,10 +5590,10 @@ Vendor          : Fedora Project
 Name            : dnf5-plugins
 Epoch           : 0
 Version         : 5.2.12.0
-Release         : 1.fc41
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 1.2 MiB
-Source          : dnf5-5.2.12.0-1.fc41.src.rpm
+Source          : dnf5-5.2.12.0-2.fc41.src.rpm
 From repository : updates
 Summary         : Plugins for dnf5
 URL             : https://github.com/rpm-software-management/dnf5
@@ -12856,11 +12856,11 @@ Vendor          : Fedora Project
 
 Name            : ibus-typing-booster
 Epoch           : 0
-Version         : 2.27.29
+Version         : 2.27.30
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 5.4 MiB
-Source          : ibus-typing-booster-2.27.29-1.fc41.src.rpm
+Source          : ibus-typing-booster-2.27.30-1.fc41.src.rpm
 From repository : updates
 Summary         : A completion input method
 URL             : https://mike-fabian.github.io/ibus-typing-booster/
@@ -13599,11 +13599,11 @@ Vendor          : Fedora Project
 
 Name            : javascriptcoregtk4.1
 Epoch           : 0
-Version         : 2.48.0
-Release         : 1.fc41
+Version         : 2.48.1
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 30.0 MiB
-Source          : webkitgtk-2.48.0-1.fc41.src.rpm
+Source          : webkitgtk-2.48.1-2.fc41.src.rpm
 From repository : updates
 Summary         : JavaScript engine from webkit2gtk4.1
 URL             : https://www.webkitgtk.org/
@@ -13613,11 +13613,11 @@ Vendor          : Fedora Project
 
 Name            : javascriptcoregtk6.0
 Epoch           : 0
-Version         : 2.48.0
-Release         : 1.fc41
+Version         : 2.48.1
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 30.0 MiB
-Source          : webkitgtk-2.48.0-1.fc41.src.rpm
+Source          : webkitgtk-2.48.1-2.fc41.src.rpm
 From repository : updates
 Summary         : JavaScript engine from webkitgtk6.0
 URL             : https://www.webkitgtk.org/
@@ -18234,10 +18234,10 @@ Vendor          : Fedora Project
 Name            : libdnf5
 Epoch           : 0
 Version         : 5.2.12.0
-Release         : 1.fc41
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 3.6 MiB
-Source          : dnf5-5.2.12.0-1.fc41.src.rpm
+Source          : dnf5-5.2.12.0-2.fc41.src.rpm
 From repository : updates
 Summary         : Package management library
 URL             : https://github.com/rpm-software-management/dnf5
@@ -18248,10 +18248,10 @@ Vendor          : Fedora Project
 Name            : libdnf5-cli
 Epoch           : 0
 Version         : 5.2.12.0
-Release         : 1.fc41
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 883.4 KiB
-Source          : dnf5-5.2.12.0-1.fc41.src.rpm
+Source          : dnf5-5.2.12.0-2.fc41.src.rpm
 From repository : updates
 Summary         : Library for working with a terminal in a command-line package manager
 URL             : https://github.com/rpm-software-management/dnf5
@@ -19179,23 +19179,6 @@ Summary         : Git library for GLib
 URL             : https://wiki.gnome.org/Projects/Libgit2-glib
 License         : LicenseRef-Callaway-LGPLv2+
 Description     : libgit2-glib is a glib wrapper library around the libgit2 git access library.
-Vendor          : Fedora Project
-
-Name            : libgit2_1.8
-Epoch           : 0
-Version         : 1.8.4
-Release         : 1.fc41
-Architecture    : x86_64
-Installed size  : 1.3 MiB
-Source          : libgit2_1.8-1.8.4-1.fc41.src.rpm
-From repository : updates
-Summary         : C implementation of the Git core methods as a library with a solid API
-URL             : https://libgit2.org/
-License         : LicenseRef-Callaway-GPLv2-with-exceptions
-Description     : libgit2 is a portable, pure C implementation of the Git core methods
-                : provided as a re-entrant linkable library with a solid API, allowing
-                : you to write native speed custom Git applications in any language
-                : with bindings.
 Vendor          : Fedora Project
 
 Name            : libglusterfs0
@@ -22546,11 +22529,11 @@ Vendor          : Fedora Project
 
 Name            : librewolf
 Epoch           : 0
-Version         : 136.0.4
-Release         : 1
+Version         : 137.0
+Release         : 3
 Architecture    : x86_64
-Installed size  : 350.4 MiB
-Source          : librewolf-136.0.4-1.src.rpm
+Installed size  : 352.9 MiB
+Source          : librewolf-137.0-3.src.rpm
 From repository : repository
 Summary         : The LibreWolf browser
 URL             : https://librewolf-community.gitlab.io/
@@ -28652,11 +28635,11 @@ Vendor          : Fedora Project
 
 Name            : openvpn
 Epoch           : 0
-Version         : 2.6.13
+Version         : 2.6.14
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 1.8 MiB
-Source          : openvpn-2.6.13-1.fc41.src.rpm
+Source          : openvpn-2.6.14-1.fc41.src.rpm
 From repository : updates
 Summary         : A full-featured TLS VPN solution
 URL             : https://community.openvpn.net/
@@ -32557,11 +32540,11 @@ Vendor          : Fedora Project
 
 Name            : python3-boto3
 Epoch           : 0
-Version         : 1.37.25
+Version         : 1.37.28
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 2.1 MiB
-Source          : python-boto3-1.37.25-1.fc41.src.rpm
+Source          : python-boto3-1.37.28-1.fc41.src.rpm
 From repository : updates
 Summary         : The AWS SDK for Python
 URL             : https://github.com/boto/boto3
@@ -32573,11 +32556,11 @@ Vendor          : Fedora Project
 
 Name            : python3-botocore
 Epoch           : 0
-Version         : 1.37.25
+Version         : 1.37.28
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 100.7 MiB
-Source          : python-botocore-1.37.25-1.fc41.src.rpm
+Source          : python-botocore-1.37.28-1.fc41.src.rpm
 From repository : updates
 Summary         : Low-level, data-driven core of boto 3
 URL             : https://github.com/boto/botocore
@@ -36479,11 +36462,11 @@ Vendor          : Fedora Project
 
 Name            : rust
 Epoch           : 0
-Version         : 1.85.1
+Version         : 1.86.0
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 83.6 MiB
-Source          : rust-1.85.1-1.fc41.src.rpm
+Installed size  : 85.3 MiB
+Source          : rust-1.86.0-1.fc41.src.rpm
 From repository : updates
 Summary         : The Rust Programming Language
 URL             : https://www.rust-lang.org
@@ -36496,11 +36479,11 @@ Vendor          : Fedora Project
 
 Name            : rust-std-static
 Epoch           : 0
-Version         : 1.85.1
+Version         : 1.86.0
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 154.6 MiB
-Source          : rust-1.85.1-1.fc41.src.rpm
+Installed size  : 153.7 MiB
+Source          : rust-1.86.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Standard library for Rust
 URL             : https://www.rust-lang.org
@@ -39862,11 +39845,11 @@ Vendor          : Fedora Project
 
 Name            : vim-common
 Epoch           : 2
-Version         : 9.1.1227
+Version         : 9.1.1275
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 37.8 MiB
-Source          : vim-9.1.1227-1.fc41.src.rpm
+Installed size  : 37.9 MiB
+Source          : vim-9.1.1275-1.fc41.src.rpm
 From repository : updates
 Summary         : The common files needed by any version of the VIM editor
 URL             : http://www.vim.org/
@@ -39884,11 +39867,11 @@ Vendor          : Fedora Project
 
 Name            : vim-data
 Epoch           : 2
-Version         : 9.1.1227
+Version         : 9.1.1275
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 10.3 KiB
-Source          : vim-9.1.1227-1.fc41.src.rpm
+Source          : vim-9.1.1275-1.fc41.src.rpm
 From repository : updates
 Summary         : Shared data for Vi and Vim
 URL             : http://www.vim.org/
@@ -39899,11 +39882,11 @@ Vendor          : Fedora Project
 
 Name            : vim-enhanced
 Epoch           : 2
-Version         : 9.1.1227
+Version         : 9.1.1275
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 4.0 MiB
-Source          : vim-9.1.1227-1.fc41.src.rpm
+Installed size  : 4.1 MiB
+Source          : vim-9.1.1275-1.fc41.src.rpm
 From repository : updates
 Summary         : A version of the VIM editor which includes recent enhancements
 URL             : http://www.vim.org/
@@ -39923,11 +39906,11 @@ Vendor          : Fedora Project
 
 Name            : vim-filesystem
 Epoch           : 2
-Version         : 9.1.1227
+Version         : 9.1.1275
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 40.0   B
-Source          : vim-9.1.1227-1.fc41.src.rpm
+Source          : vim-9.1.1275-1.fc41.src.rpm
 From repository : updates
 Summary         : VIM filesystem layout
 URL             : http://www.vim.org/
@@ -39938,11 +39921,11 @@ Vendor          : Fedora Project
 
 Name            : vim-minimal
 Epoch           : 2
-Version         : 9.1.1227
+Version         : 9.1.1275
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 1.7 MiB
-Source          : vim-9.1.1227-1.fc41.src.rpm
+Source          : vim-9.1.1275-1.fc41.src.rpm
 From repository : updates
 Summary         : A minimal version of the VIM editor
 URL             : http://www.vim.org/
@@ -40346,11 +40329,11 @@ Vendor          : Fedora Project
 
 Name            : webkit2gtk4.1
 Epoch           : 0
-Version         : 2.48.0
-Release         : 1.fc41
+Version         : 2.48.1
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 86.1 MiB
-Source          : webkitgtk-2.48.0-1.fc41.src.rpm
+Installed size  : 86.2 MiB
+Source          : webkitgtk-2.48.1-2.fc41.src.rpm
 From repository : updates
 Summary         : WebKitGTK for GTK 3 and libsoup 3
 URL             : https://www.webkitgtk.org/
@@ -40361,11 +40344,11 @@ Vendor          : Fedora Project
 
 Name            : webkitgtk6.0
 Epoch           : 0
-Version         : 2.48.0
-Release         : 1.fc41
+Version         : 2.48.1
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 86.1 MiB
-Source          : webkitgtk-2.48.0-1.fc41.src.rpm
+Installed size  : 86.2 MiB
+Source          : webkitgtk-2.48.1-2.fc41.src.rpm
 From repository : updates
 Summary         : WebKitGTK for GTK 4
 URL             : https://www.webkitgtk.org/
@@ -41171,11 +41154,11 @@ Vendor          : Fedora Project
 
 Name            : xxd
 Epoch           : 2
-Version         : 9.1.1227
+Version         : 9.1.1275
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 37.4 KiB
-Source          : vim-9.1.1227-1.fc41.src.rpm
+Source          : vim-9.1.1275-1.fc41.src.rpm
 From repository : updates
 Summary         : A hex dump utility
 URL             : http://www.vim.org/
