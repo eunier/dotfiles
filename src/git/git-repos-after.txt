@@ -24,7 +24,8 @@
 ├── com.github.zigzap.zap
 │   └── zap
 ├── com.gitlab.yunieralvarez.expense-tracker
-│   └── expense-tracker
+│   ├── expense-tracker
+│   └── expense-tracker (Copy)
 ├── com.gitlab.yunieralvarez.game-top-down-shooter-rs
 │   └── game-top-dow-shooter-rs
 ├── com.gitlab.yunieralvarez.godot-first-person-shooter-demo
@@ -50,6 +51,7 @@
     ├── dotfiles.code-workspace
     ├── expense-tracker-app.code-workspace
     ├── expense-tracker.code-workspace
+    ├── expense-tracker (Copy).code-workspace
     ├── expense-tracker-playground.code-workspace
     ├── flec-zig-raw-c.code-workspace
     ├── game-top-dow-shooter.code-workspace
@@ -63,4 +65,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-48 directories, 16 files
+49 directories, 17 files

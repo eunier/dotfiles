@@ -1140,11 +1140,11 @@ Vendor          : Fedora Project
 
 Name            : alsa-sof-firmware
 Epoch           : 0
-Version         : 2025.01
+Version         : 2025.01.1
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 8.6 MiB
-Source          : alsa-sof-firmware-2025.01-1.fc41.src.rpm
+Source          : alsa-sof-firmware-2025.01.1-1.fc41.src.rpm
 From repository : updates
 Summary         : Firmware and topology files for Sound Open Firmware project
 URL             : https://github.com/thesofproject/sof-bin
@@ -6162,11 +6162,11 @@ Vendor          : Fedora Project
 
 Name            : epiphany
 Epoch           : 1
-Version         : 47.2
+Version         : 47.4
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 8.5 MiB
-Source          : epiphany-47.2-1.fc41.src.rpm
+Installed size  : 8.6 MiB
+Source          : epiphany-47.4-1.fc41.src.rpm
 From repository : updates
 Summary         : Web browser for GNOME
 URL             : https://wiki.gnome.org/Apps/Web
@@ -6179,11 +6179,11 @@ Vendor          : Fedora Project
 
 Name            : epiphany-runtime
 Epoch           : 1
-Version         : 47.2
+Version         : 47.4
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 2.4 MiB
-Source          : epiphany-47.2-1.fc41.src.rpm
+Source          : epiphany-47.4-1.fc41.src.rpm
 From repository : updates
 Summary         : Epiphany runtime suitable for web applications
 URL             : https://wiki.gnome.org/Apps/Web
@@ -12552,11 +12552,11 @@ Vendor          : Fedora Project
 
 Name            : hwdata
 Epoch           : 0
-Version         : 0.393
+Version         : 0.394
 Release         : 1.fc41
 Architecture    : noarch
-Installed size  : 9.4 MiB
-Source          : hwdata-0.393-1.fc41.src.rpm
+Installed size  : 9.5 MiB
+Source          : hwdata-0.394-1.fc41.src.rpm
 From repository : updates
 Summary         : Hardware identification and configuration data
 URL             : https://github.com/vcrhonek/hwdata
@@ -20197,11 +20197,11 @@ Vendor          : Fedora Project
 
 Name            : libldb
 Epoch           : 2
-Version         : 4.21.4
+Version         : 4.21.5
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 443.0 KiB
-Source          : samba-4.21.4-1.fc41.src.rpm
+Installed size  : 442.9 KiB
+Source          : samba-4.21.5-1.fc41.src.rpm
 From repository : updates
 Summary         : A schema-less, ldap like, API and database
 URL             : https://www.samba.org
@@ -22965,11 +22965,11 @@ Vendor          : Fedora Project
 
 Name            : libsmbclient
 Epoch           : 2
-Version         : 4.21.4
+Version         : 4.21.5
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 163.9 KiB
-Source          : samba-4.21.4-1.fc41.src.rpm
+Source          : samba-4.21.5-1.fc41.src.rpm
 From repository : updates
 Summary         : The SMB client library
 URL             : https://www.samba.org
@@ -25040,11 +25040,11 @@ Vendor          : Fedora Project
 
 Name            : libwbclient
 Epoch           : 2
-Version         : 4.21.4
+Version         : 4.21.5
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 68.6 KiB
-Source          : samba-4.21.4-1.fc41.src.rpm
+Installed size  : 68.5 KiB
+Source          : samba-4.21.5-1.fc41.src.rpm
 From repository : updates
 Summary         : The winbind client library
 URL             : https://www.samba.org
@@ -25246,10 +25246,10 @@ Vendor          : Fedora Project
 Name            : libxcrypt
 Epoch           : 0
 Version         : 4.4.38
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
 Installed size  : 288.5 KiB
-Source          : libxcrypt-4.4.38-6.fc41.src.rpm
+Source          : libxcrypt-4.4.38-7.fc41.src.rpm
 From repository : updates
 Summary         : Extended crypt library for descrypt, md5crypt, bcrypt, and others
 URL             : https://github.com/besser82/libxcrypt
@@ -25277,10 +25277,10 @@ Vendor          : Fedora Project
 Name            : libxcrypt-devel
 Epoch           : 0
 Version         : 4.4.38
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
 Installed size  : 30.8 KiB
-Source          : libxcrypt-4.4.38-6.fc41.src.rpm
+Source          : libxcrypt-4.4.38-7.fc41.src.rpm
 From repository : updates
 Summary         : Development files for libxcrypt
 URL             : https://github.com/besser82/libxcrypt
@@ -32540,11 +32540,11 @@ Vendor          : Fedora Project
 
 Name            : python3-boto3
 Epoch           : 0
-Version         : 1.37.28
+Version         : 1.37.29
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 2.1 MiB
-Source          : python-boto3-1.37.28-1.fc41.src.rpm
+Source          : python-boto3-1.37.29-1.fc41.src.rpm
 From repository : updates
 Summary         : The AWS SDK for Python
 URL             : https://github.com/boto/boto3
@@ -32556,11 +32556,11 @@ Vendor          : Fedora Project
 
 Name            : python3-botocore
 Epoch           : 0
-Version         : 1.37.28
+Version         : 1.37.29
 Release         : 1.fc41
 Architecture    : noarch
-Installed size  : 100.7 MiB
-Source          : python-botocore-1.37.28-1.fc41.src.rpm
+Installed size  : 100.8 MiB
+Source          : python-botocore-1.37.29-1.fc41.src.rpm
 From repository : updates
 Summary         : Low-level, data-driven core of boto 3
 URL             : https://github.com/boto/botocore
@@ -36528,11 +36528,11 @@ Vendor          : Fedora Project
 
 Name            : samba-client
 Epoch           : 2
-Version         : 4.21.4
+Version         : 4.21.5
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 2.5 MiB
-Source          : samba-4.21.4-1.fc41.src.rpm
+Source          : samba-4.21.5-1.fc41.src.rpm
 From repository : updates
 Summary         : Samba client programs
 URL             : https://www.samba.org
@@ -36544,11 +36544,11 @@ Vendor          : Fedora Project
 
 Name            : samba-client-libs
 Epoch           : 2
-Version         : 4.21.4
+Version         : 4.21.5
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 19.2 MiB
-Source          : samba-4.21.4-1.fc41.src.rpm
+Source          : samba-4.21.5-1.fc41.src.rpm
 From repository : updates
 Summary         : Samba client libraries
 URL             : https://www.samba.org
@@ -36559,11 +36559,11 @@ Vendor          : Fedora Project
 
 Name            : samba-common
 Epoch           : 2
-Version         : 4.21.4
+Version         : 4.21.5
 Release         : 1.fc41
 Architecture    : noarch
-Installed size  : 213.5 KiB
-Source          : samba-4.21.4-1.fc41.src.rpm
+Installed size  : 216.3 KiB
+Source          : samba-4.21.5-1.fc41.src.rpm
 From repository : updates
 Summary         : Files used by both Samba servers and clients
 URL             : https://www.samba.org
@@ -36574,11 +36574,11 @@ Vendor          : Fedora Project
 
 Name            : samba-common-libs
 Epoch           : 2
-Version         : 4.21.4
+Version         : 4.21.5
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 259.4 KiB
-Source          : samba-4.21.4-1.fc41.src.rpm
+Source          : samba-4.21.5-1.fc41.src.rpm
 From repository : updates
 Summary         : Libraries used by both Samba servers and clients
 URL             : https://www.samba.org
@@ -37406,11 +37406,11 @@ Vendor          : Fedora Project
 
 Name            : spirv-tools-libs
 Epoch           : 0
-Version         : 2024.4
+Version         : 2025.1
 Release         : 1.fc41
 Architecture    : i686
-Installed size  : 5.8 MiB
-Source          : spirv-tools-2024.4-1.fc41.src.rpm
+Installed size  : 6.0 MiB
+Source          : spirv-tools-2025.1-1.fc41.src.rpm
 From repository : updates
 Summary         : Library files for spirv-tools
 URL             : https://github.com/KhronosGroup/SPIRV-Tools
@@ -37420,11 +37420,11 @@ Vendor          : Fedora Project
 
 Name            : spirv-tools-libs
 Epoch           : 0
-Version         : 2024.4
+Version         : 2025.1
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 5.4 MiB
-Source          : spirv-tools-2024.4-1.fc41.src.rpm
+Installed size  : 5.6 MiB
+Source          : spirv-tools-2025.1-1.fc41.src.rpm
 From repository : updates
 Summary         : Library files for spirv-tools
 URL             : https://github.com/KhronosGroup/SPIRV-Tools
@@ -39329,11 +39329,11 @@ Vendor          : Fedora Project
 
 Name            : upower
 Epoch           : 0
-Version         : 1.90.7
+Version         : 1.90.8
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 511.0 KiB
-Source          : upower-1.90.7-1.fc41.src.rpm
+Installed size  : 528.5 KiB
+Source          : upower-1.90.8-1.fc41.src.rpm
 From repository : updates
 Summary         : Power Management Service
 URL             : http://upower.freedesktop.org/
@@ -39344,11 +39344,11 @@ Vendor          : Fedora Project
 
 Name            : upower-libs
 Epoch           : 0
-Version         : 1.90.7
+Version         : 1.90.8
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 171.6 KiB
-Source          : upower-1.90.7-1.fc41.src.rpm
+Installed size  : 174.7 KiB
+Source          : upower-1.90.8-1.fc41.src.rpm
 From repository : updates
 Summary         : Client libraries for UPower
 URL             : http://upower.freedesktop.org/
@@ -40213,11 +40213,11 @@ Vendor          : Fedora Project
 
 Name            : vulkan-loader
 Epoch           : 0
-Version         : 1.4.304.0
+Version         : 1.4.309.0
 Release         : 1.fc41
 Architecture    : i686
-Installed size  : 562.6 KiB
-Source          : vulkan-loader-1.4.304.0-1.fc41.src.rpm
+Installed size  : 576.2 KiB
+Source          : vulkan-loader-1.4.309.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Vulkan ICD desktop loader
 URL             : https://github.com/KhronosGroup/Vulkan-Loader
@@ -40228,11 +40228,11 @@ Vendor          : Fedora Project
 
 Name            : vulkan-loader
 Epoch           : 0
-Version         : 1.4.304.0
+Version         : 1.4.309.0
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 519.3 KiB
-Source          : vulkan-loader-1.4.304.0-1.fc41.src.rpm
+Installed size  : 536.6 KiB
+Source          : vulkan-loader-1.4.309.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Vulkan ICD desktop loader
 URL             : https://github.com/KhronosGroup/Vulkan-Loader
@@ -40243,11 +40243,11 @@ Vendor          : Fedora Project
 
 Name            : vulkan-tools
 Epoch           : 0
-Version         : 1.4.304.0
+Version         : 1.4.309.0
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 1.3 MiB
-Source          : vulkan-tools-1.4.304.0-1.fc41.src.rpm
+Installed size  : 1.5 MiB
+Source          : vulkan-tools-1.4.309.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Vulkan tools
 URL             : https://github.com/KhronosGroup/Vulkan-Tools
@@ -40290,11 +40290,11 @@ Vendor          : Fedora Project
 
 Name            : wayland-protocols-devel
 Epoch           : 0
-Version         : 1.42
+Version         : 1.43
 Release         : 1.fc41
 Architecture    : noarch
-Installed size  : 919.3 KiB
-Source          : wayland-protocols-1.42-1.fc41.src.rpm
+Installed size  : 926.8 KiB
+Source          : wayland-protocols-1.43-1.fc41.src.rpm
 From repository : updates
 Summary         : Wayland protocols that adds functionality not available in the core protocol
 URL             : https://wayland.freedesktop.org/
