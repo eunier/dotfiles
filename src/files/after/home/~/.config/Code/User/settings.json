@@ -48,6 +48,7 @@
 		"raylib",
 		"rpinski",
 		"shfmt",
+		"trpc",
 		"Trunc",
 		"trycatch",
 		"usingnamespace",
@@ -58,7 +59,6 @@
 		"zflecs",
 		"zigversion"
 	],
-	"chat.commandCenter.enabled": false,
 	"debug.console.fontFamily": "Cascadia Code",
 	"debug.javascript.autoAttachFilter": "smart",
 	"debug.toolBarLocation": "commandCenter",
