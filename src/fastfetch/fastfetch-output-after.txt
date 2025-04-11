@@ -1,8 +1,8 @@
 OS: Fedora Linux 41 (Workstation Edition) x86_64
 Kernel: Linux 6.13.9-200.fc41.x86_64
-Packages: 2527 (rpm), 91 (flatpak), 15 (brew)
-Display (Acer X34): 3440x1440 @ 100 Hz in 34" [External] *
+Packages: 2527 (rpm), 93 (flatpak), 15 (brew)
 Display (LG HDR QHD): 2560x1440 @ 60 Hz in 32" [External]
+Display (Acer X34): 3440x1440 @ 100 Hz in 34" [External] *
 DE: GNOME 47.5
 WM: Mutter (Wayland)
 WM Theme: Adwaita

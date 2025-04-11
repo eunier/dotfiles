@@ -1,5 +1,6 @@
 aswinkumar863.sort-editors
 biomejs.biome
+bradlc.vscode-tailwindcss
 chrisdias.vscode-opennewinstance
 coddx.coddx-alpha
 davidanson.vscode-markdownlint
@@ -7,7 +8,10 @@ editorconfig.editorconfig
 egirlcatnip.adwaita-github-theme
 esbenp.prettier-vscode
 evan-buss.font-switcher
+github.copilot
+github.copilot-chat
 gruntfuggly.todo-tree
+hossaini.bootstrap-intellisense
 humao.rest-client
 iciclesoft.workspacesort
 jannisx11.batch-rename-extension
@@ -15,6 +19,7 @@ maattdd.gitless
 mads-hartmann.bash-ide-vscode
 maptz.regionfolder
 mariusalchimavicius.json-to-ts
+meganrogge.template-string-converter
 mkhl.shfmt
 ms-vscode.cmake-tools
 ms-vscode.cpptools
@@ -26,6 +31,7 @@ pflannery.vscode-versionlens
 piousdeer.adwaita-theme
 pkief.copy-branch-name
 pkief.material-icon-theme
+pranaygp.vscode-css-peek
 richie5um2.vscode-sort-json
 rjmacarthy.twinny
 rob-bennett.workspacewizard
@@ -39,3 +45,4 @@ vadimcn.vscode-lldb
 wk-j.vscode-httpie
 zhuangtongfa.material-theme
 ziglang.vscode-zig
+zignd.html-css-class-completion

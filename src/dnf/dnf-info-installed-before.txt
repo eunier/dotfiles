@@ -1140,11 +1140,11 @@ Vendor          : Fedora Project
 
 Name            : alsa-sof-firmware
 Epoch           : 0
-Version         : 2025.01
+Version         : 2025.01.1
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 8.6 MiB
-Source          : alsa-sof-firmware-2025.01-1.fc41.src.rpm
+Source          : alsa-sof-firmware-2025.01.1-1.fc41.src.rpm
 From repository : updates
 Summary         : Firmware and topology files for Sound Open Firmware project
 URL             : https://github.com/thesofproject/sof-bin
@@ -2155,11 +2155,11 @@ Vendor          : Fedora Project
 
 Name            : bluez
 Epoch           : 0
-Version         : 5.79
-Release         : 1.fc41
+Version         : 5.81
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 3.3 MiB
-Source          : bluez-5.79-1.fc41.src.rpm
+Installed size  : 3.4 MiB
+Source          : bluez-5.81-2.fc41.src.rpm
 From repository : updates
 Summary         : Bluetooth utilities
 URL             : http://www.bluez.org/
@@ -2179,11 +2179,11 @@ Vendor          : Fedora Project
 
 Name            : bluez-cups
 Epoch           : 0
-Version         : 5.79
-Release         : 1.fc41
+Version         : 5.81
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 48.2 KiB
-Source          : bluez-5.79-1.fc41.src.rpm
+Source          : bluez-5.81-2.fc41.src.rpm
 From repository : updates
 Summary         : CUPS printer backend for Bluetooth printers
 URL             : http://www.bluez.org/
@@ -2193,11 +2193,11 @@ Vendor          : Fedora Project
 
 Name            : bluez-libs
 Epoch           : 0
-Version         : 5.79
-Release         : 1.fc41
+Version         : 5.81
+Release         : 2.fc41
 Architecture    : i686
 Installed size  : 201.8 KiB
-Source          : bluez-5.79-1.fc41.src.rpm
+Source          : bluez-5.81-2.fc41.src.rpm
 From repository : updates
 Summary         : Libraries for use in Bluetooth applications
 URL             : http://www.bluez.org/
@@ -2207,11 +2207,11 @@ Vendor          : Fedora Project
 
 Name            : bluez-libs
 Epoch           : 0
-Version         : 5.79
-Release         : 1.fc41
+Version         : 5.81
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 202.4 KiB
-Source          : bluez-5.79-1.fc41.src.rpm
+Installed size  : 198.4 KiB
+Source          : bluez-5.81-2.fc41.src.rpm
 From repository : updates
 Summary         : Libraries for use in Bluetooth applications
 URL             : http://www.bluez.org/
@@ -2221,11 +2221,11 @@ Vendor          : Fedora Project
 
 Name            : bluez-obexd
 Epoch           : 0
-Version         : 5.79
-Release         : 1.fc41
+Version         : 5.81
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 345.1 KiB
-Source          : bluez-5.79-1.fc41.src.rpm
+Installed size  : 350.8 KiB
+Source          : bluez-5.81-2.fc41.src.rpm
 From repository : updates
 Summary         : Object Exchange daemon for sharing content
 URL             : http://www.bluez.org/
@@ -2421,11 +2421,11 @@ Vendor          : Fedora Project
 
 Name            : brave-browser
 Epoch           : 0
-Version         : 1.77.95
+Version         : 1.77.97
 Release         : 1
 Architecture    : x86_64
-Installed size  : 390.5 MiB
-Source          : brave-browser-1.77.95-1.src.rpm
+Installed size  : 390.7 MiB
+Source          : brave-browser-1.77.97-1.src.rpm
 From repository : brave-browser
 Summary         : Brave Web Browser
 URL             : https://brave.com/
@@ -2753,11 +2753,11 @@ Vendor          : Fedora Project
 
 Name            : cargo
 Epoch           : 0
-Version         : 1.85.1
+Version         : 1.86.0
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 20.2 MiB
-Source          : rust-1.85.1-1.fc41.src.rpm
+Installed size  : 20.3 MiB
+Source          : rust-1.86.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Rust's package manager and build tool
 URL             : https://www.rust-lang.org
@@ -3146,11 +3146,11 @@ Vendor          : Fedora Project
 
 Name            : code
 Epoch           : 0
-Version         : 1.98.2
-Release         : 1741788968.el8
+Version         : 1.99.1
+Release         : 1743784577.el8
 Architecture    : x86_64
-Installed size  : 400.0 MiB
-Source          : code-1.98.2-1741788968.el8.src.rpm
+Installed size  : 400.4 MiB
+Source          : code-1.99.1-1743784577.el8.src.rpm
 From repository : code
 Summary         : Code editing. Redefined.
 URL             : https://code.visualstudio.com/
@@ -3663,11 +3663,11 @@ Vendor          : Fedora Project
 
 Name            : crun
 Epoch           : 0
-Version         : 1.20
-Release         : 2.fc41
+Version         : 1.21
+Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 544.2 KiB
-Source          : crun-1.20-2.fc41.src.rpm
+Installed size  : 548.2 KiB
+Source          : crun-1.21-1.fc41.src.rpm
 From repository : updates
 Summary         : OCI runtime written in C
 URL             : https://github.com/containers/crun
@@ -4046,6 +4046,20 @@ Description     : Device DAX is a facility for establishing DAX mappings of perf
                 : feature-differentiated memory. daxctl-libs provides an enumeration /
                 : control API for these devices.
 Vendor          : Fedora Project
+
+Name            : dbeaver-ce
+Epoch           : 0
+Version         : 25.0.1
+Release         : stable
+Architecture    : x86_64
+Installed size  : 163.2 MiB
+Source          : (none)
+From repository : @commandline
+Summary         : Universal Database Manager and SQL Client
+URL             : https://dbeaver.io/
+License         : ASL 2.0
+Description     : Universal Database Manager and SQL Client
+Vendor          : DBeaver Corp
 
 Name            : dbus
 Epoch           : 1
@@ -5560,10 +5574,10 @@ Vendor          : Fedora Project
 Name            : dnf5
 Epoch           : 0
 Version         : 5.2.12.0
-Release         : 1.fc41
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 2.2 MiB
-Source          : dnf5-5.2.12.0-1.fc41.src.rpm
+Source          : dnf5-5.2.12.0-2.fc41.src.rpm
 From repository : updates
 Summary         : Command-line package manager
 URL             : https://github.com/rpm-software-management/dnf5
@@ -5576,10 +5590,10 @@ Vendor          : Fedora Project
 Name            : dnf5-plugins
 Epoch           : 0
 Version         : 5.2.12.0
-Release         : 1.fc41
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 1.2 MiB
-Source          : dnf5-5.2.12.0-1.fc41.src.rpm
+Source          : dnf5-5.2.12.0-2.fc41.src.rpm
 From repository : updates
 Summary         : Plugins for dnf5
 URL             : https://github.com/rpm-software-management/dnf5
@@ -6148,11 +6162,11 @@ Vendor          : Fedora Project
 
 Name            : epiphany
 Epoch           : 1
-Version         : 47.2
+Version         : 47.4
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 8.5 MiB
-Source          : epiphany-47.2-1.fc41.src.rpm
+Installed size  : 8.6 MiB
+Source          : epiphany-47.4-1.fc41.src.rpm
 From repository : updates
 Summary         : Web browser for GNOME
 URL             : https://wiki.gnome.org/Apps/Web
@@ -6165,11 +6179,11 @@ Vendor          : Fedora Project
 
 Name            : epiphany-runtime
 Epoch           : 1
-Version         : 47.2
+Version         : 47.4
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 2.4 MiB
-Source          : epiphany-47.2-1.fc41.src.rpm
+Source          : epiphany-47.4-1.fc41.src.rpm
 From repository : updates
 Summary         : Epiphany runtime suitable for web applications
 URL             : https://wiki.gnome.org/Apps/Web
@@ -9862,11 +9876,11 @@ Vendor          : Fedora Project
 
 Name            : google-chrome-stable
 Epoch           : 0
-Version         : 135.0.7049.52
+Version         : 135.0.7049.84
 Release         : 1
 Architecture    : x86_64
-Installed size  : 359.0 MiB
-Source          : google-chrome-stable-135.0.7049.52-1.src.rpm
+Installed size  : 359.2 MiB
+Source          : google-chrome-stable-135.0.7049.84-1.src.rpm
 From repository : google-chrome
 Summary         : Google Chrome
 URL             : https://chrome.google.com/
@@ -11937,10 +11951,10 @@ Vendor          : Fedora Project
 Name            : gutenprint
 Epoch           : 0
 Version         : 5.3.5
-Release         : 4.fc41
+Release         : 5.fc41
 Architecture    : x86_64
 Installed size  : 29.1 MiB
-Source          : gutenprint-5.3.5-4.fc41.src.rpm
+Source          : gutenprint-5.3.5-5.fc41.src.rpm
 From repository : updates
 Summary         : Printer Drivers Package
 URL             : http://gimp-print.sourceforge.net/
@@ -11953,10 +11967,10 @@ Vendor          : Fedora Project
 Name            : gutenprint-cups
 Epoch           : 0
 Version         : 5.3.5
-Release         : 4.fc41
+Release         : 5.fc41
 Architecture    : x86_64
 Installed size  : 1.1 MiB
-Source          : gutenprint-5.3.5-4.fc41.src.rpm
+Source          : gutenprint-5.3.5-5.fc41.src.rpm
 From repository : updates
 Summary         : CUPS drivers for Canon, Epson, HP and compatible printers
 URL             : http://gimp-print.sourceforge.net/
@@ -11968,10 +11982,10 @@ Vendor          : Fedora Project
 Name            : gutenprint-libs
 Epoch           : 0
 Version         : 5.3.5
-Release         : 4.fc41
+Release         : 5.fc41
 Architecture    : x86_64
 Installed size  : 338.6 KiB
-Source          : gutenprint-5.3.5-4.fc41.src.rpm
+Source          : gutenprint-5.3.5-5.fc41.src.rpm
 From repository : updates
 Summary         : libgutenprint library
 URL             : http://gimp-print.sourceforge.net/
@@ -12538,11 +12552,11 @@ Vendor          : Fedora Project
 
 Name            : hwdata
 Epoch           : 0
-Version         : 0.393
+Version         : 0.394
 Release         : 1.fc41
 Architecture    : noarch
-Installed size  : 9.4 MiB
-Source          : hwdata-0.393-1.fc41.src.rpm
+Installed size  : 9.5 MiB
+Source          : hwdata-0.394-1.fc41.src.rpm
 From repository : updates
 Summary         : Hardware identification and configuration data
 URL             : https://github.com/vcrhonek/hwdata
@@ -12842,11 +12856,11 @@ Vendor          : Fedora Project
 
 Name            : ibus-typing-booster
 Epoch           : 0
-Version         : 2.27.29
+Version         : 2.27.30
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 5.4 MiB
-Source          : ibus-typing-booster-2.27.29-1.fc41.src.rpm
+Source          : ibus-typing-booster-2.27.30-1.fc41.src.rpm
 From repository : updates
 Summary         : A completion input method
 URL             : https://mike-fabian.github.io/ibus-typing-booster/
@@ -13585,11 +13599,11 @@ Vendor          : Fedora Project
 
 Name            : javascriptcoregtk4.1
 Epoch           : 0
-Version         : 2.48.0
-Release         : 1.fc41
+Version         : 2.48.1
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 30.0 MiB
-Source          : webkitgtk-2.48.0-1.fc41.src.rpm
+Source          : webkitgtk-2.48.1-2.fc41.src.rpm
 From repository : updates
 Summary         : JavaScript engine from webkit2gtk4.1
 URL             : https://www.webkitgtk.org/
@@ -13599,11 +13613,11 @@ Vendor          : Fedora Project
 
 Name            : javascriptcoregtk6.0
 Epoch           : 0
-Version         : 2.48.0
-Release         : 1.fc41
+Version         : 2.48.1
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 30.0 MiB
-Source          : webkitgtk-2.48.0-1.fc41.src.rpm
+Source          : webkitgtk-2.48.1-2.fc41.src.rpm
 From repository : updates
 Summary         : JavaScript engine from webkitgtk6.0
 URL             : https://www.webkitgtk.org/
@@ -15427,11 +15441,11 @@ Vendor          : Fedora Project
 
 Name            : lact-libadwaita
 Epoch           : 0
-Version         : 0.7.2
-Release         : 1
+Version         : 0.7.3
+Release         : 2
 Architecture    : x86_64
-Installed size  : 9.9 MiB
-Source          : lact-libadwaita-0.7.2-1.src.rpm
+Installed size  : 10.2 MiB
+Source          : lact-libadwaita-0.7.3-2.src.rpm
 From repository : copr:copr.fedorainfracloud.org:ilyaz:LACT
 Summary         : AMDGPU control utility
 URL             : https://github.com/ilya-zlobintsev/LACT
@@ -18220,10 +18234,10 @@ Vendor          : Fedora Project
 Name            : libdnf5
 Epoch           : 0
 Version         : 5.2.12.0
-Release         : 1.fc41
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 3.6 MiB
-Source          : dnf5-5.2.12.0-1.fc41.src.rpm
+Source          : dnf5-5.2.12.0-2.fc41.src.rpm
 From repository : updates
 Summary         : Package management library
 URL             : https://github.com/rpm-software-management/dnf5
@@ -18234,10 +18248,10 @@ Vendor          : Fedora Project
 Name            : libdnf5-cli
 Epoch           : 0
 Version         : 5.2.12.0
-Release         : 1.fc41
+Release         : 2.fc41
 Architecture    : x86_64
 Installed size  : 883.4 KiB
-Source          : dnf5-5.2.12.0-1.fc41.src.rpm
+Source          : dnf5-5.2.12.0-2.fc41.src.rpm
 From repository : updates
 Summary         : Library for working with a terminal in a command-line package manager
 URL             : https://github.com/rpm-software-management/dnf5
@@ -19165,23 +19179,6 @@ Summary         : Git library for GLib
 URL             : https://wiki.gnome.org/Projects/Libgit2-glib
 License         : LicenseRef-Callaway-LGPLv2+
 Description     : libgit2-glib is a glib wrapper library around the libgit2 git access library.
-Vendor          : Fedora Project
-
-Name            : libgit2_1.8
-Epoch           : 0
-Version         : 1.8.4
-Release         : 1.fc41
-Architecture    : x86_64
-Installed size  : 1.3 MiB
-Source          : libgit2_1.8-1.8.4-1.fc41.src.rpm
-From repository : updates
-Summary         : C implementation of the Git core methods as a library with a solid API
-URL             : https://libgit2.org/
-License         : LicenseRef-Callaway-GPLv2-with-exceptions
-Description     : libgit2 is a portable, pure C implementation of the Git core methods
-                : provided as a re-entrant linkable library with a solid API, allowing
-                : you to write native speed custom Git applications in any language
-                : with bindings.
 Vendor          : Fedora Project
 
 Name            : libglusterfs0
@@ -20200,11 +20197,11 @@ Vendor          : Fedora Project
 
 Name            : libldb
 Epoch           : 2
-Version         : 4.21.4
+Version         : 4.21.5
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 443.0 KiB
-Source          : samba-4.21.4-1.fc41.src.rpm
+Installed size  : 442.9 KiB
+Source          : samba-4.21.5-1.fc41.src.rpm
 From repository : updates
 Summary         : A schema-less, ldap like, API and database
 URL             : https://www.samba.org
@@ -22532,11 +22529,11 @@ Vendor          : Fedora Project
 
 Name            : librewolf
 Epoch           : 0
-Version         : 136.0.4
+Version         : 137.0.1
 Release         : 1
 Architecture    : x86_64
-Installed size  : 350.4 MiB
-Source          : librewolf-136.0.4-1.src.rpm
+Installed size  : 352.9 MiB
+Source          : librewolf-137.0.1-1.src.rpm
 From repository : repository
 Summary         : The LibreWolf browser
 URL             : https://librewolf-community.gitlab.io/
@@ -22968,11 +22965,11 @@ Vendor          : Fedora Project
 
 Name            : libsmbclient
 Epoch           : 2
-Version         : 4.21.4
+Version         : 4.21.5
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 163.9 KiB
-Source          : samba-4.21.4-1.fc41.src.rpm
+Source          : samba-4.21.5-1.fc41.src.rpm
 From repository : updates
 Summary         : The SMB client library
 URL             : https://www.samba.org
@@ -25043,11 +25040,11 @@ Vendor          : Fedora Project
 
 Name            : libwbclient
 Epoch           : 2
-Version         : 4.21.4
+Version         : 4.21.5
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 68.6 KiB
-Source          : samba-4.21.4-1.fc41.src.rpm
+Installed size  : 68.5 KiB
+Source          : samba-4.21.5-1.fc41.src.rpm
 From repository : updates
 Summary         : The winbind client library
 URL             : https://www.samba.org
@@ -25249,10 +25246,10 @@ Vendor          : Fedora Project
 Name            : libxcrypt
 Epoch           : 0
 Version         : 4.4.38
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
 Installed size  : 288.5 KiB
-Source          : libxcrypt-4.4.38-6.fc41.src.rpm
+Source          : libxcrypt-4.4.38-7.fc41.src.rpm
 From repository : updates
 Summary         : Extended crypt library for descrypt, md5crypt, bcrypt, and others
 URL             : https://github.com/besser82/libxcrypt
@@ -25280,10 +25277,10 @@ Vendor          : Fedora Project
 Name            : libxcrypt-devel
 Epoch           : 0
 Version         : 4.4.38
-Release         : 6.fc41
+Release         : 7.fc41
 Architecture    : x86_64
 Installed size  : 30.8 KiB
-Source          : libxcrypt-4.4.38-6.fc41.src.rpm
+Source          : libxcrypt-4.4.38-7.fc41.src.rpm
 From repository : updates
 Summary         : Development files for libxcrypt
 URL             : https://github.com/besser82/libxcrypt
@@ -28638,11 +28635,11 @@ Vendor          : Fedora Project
 
 Name            : openvpn
 Epoch           : 0
-Version         : 2.6.13
+Version         : 2.6.14
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 1.8 MiB
-Source          : openvpn-2.6.13-1.fc41.src.rpm
+Source          : openvpn-2.6.14-1.fc41.src.rpm
 From repository : updates
 Summary         : A full-featured TLS VPN solution
 URL             : https://community.openvpn.net/
@@ -31741,11 +31738,11 @@ Vendor          : Fedora Project
 
 Name            : podman
 Epoch           : 5
-Version         : 5.4.1
+Version         : 5.4.2
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 49.2 MiB
-Source          : podman-5.4.1-1.fc41.src.rpm
+Source          : podman-5.4.2-1.fc41.src.rpm
 From repository : updates
 Summary         : Manage Pods, Containers and Container Images
 URL             : https://podman.io/
@@ -31760,6 +31757,22 @@ Description     : podman (Pod Manager) is a fully featured container engine that
                 : podman uses Buildah(1) internally to create container images.
                 : Both tools share image (not container) storage, hence each can use or
                 : manipulate images (but not containers) created by the other.
+Vendor          : Fedora Project
+
+Name            : podman-compose
+Epoch           : 0
+Version         : 1.3.0
+Release         : 2.fc41
+Architecture    : noarch
+Installed size  : 366.9 KiB
+Source          : podman-compose-1.3.0-2.fc41.src.rpm
+From repository : updates
+Summary         : Run docker-compose.yml using podman
+URL             : https://github.com/containers/podman-compose
+License         : GPL-2.0-only
+Description     : An implementation of docker-compose with podman backend.
+                : The main objective of this project is to be able to run docker-compose.yml
+                : unmodified and rootless.
 Vendor          : Fedora Project
 
 Name            : polari
@@ -31973,6 +31986,75 @@ Description     : Popt is a C library for parsing command line parameters. Popt 
                 : arguments to be aliased via configuration files and includes utility
                 : functions for parsing arbitrary strings into argv[] arrays using
                 : shell-like rules.
+Vendor          : Fedora Project
+
+Name            : postgresql
+Epoch           : 0
+Version         : 16.8
+Release         : 1.fc41
+Architecture    : x86_64
+Installed size  : 7.8 MiB
+Source          : postgresql16-16.8-1.fc41.src.rpm
+From repository : updates
+Summary         : PostgreSQL client programs
+URL             : http://www.postgresql.org/
+License         : PostgreSQL
+Description     : PostgreSQL is an advanced Object-Relational database management system (DBMS).
+                : The base postgresql package contains the client programs that you'll need to
+                : access a PostgreSQL DBMS server, as well as HTML documentation for the whole
+                : system.  These client programs can be located on the same machine as the
+                : PostgreSQL server, or on a remote machine that accesses a PostgreSQL server
+                : over a network connection.  The PostgreSQL server can be found in the
+                : postgresql-server sub-package.
+Vendor          : Fedora Project
+
+Name            : postgresql-contrib
+Epoch           : 0
+Version         : 16.8
+Release         : 1.fc41
+Architecture    : x86_64
+Installed size  : 3.5 MiB
+Source          : postgresql16-16.8-1.fc41.src.rpm
+From repository : updates
+Summary         : Extension modules distributed with PostgreSQL
+URL             : http://www.postgresql.org/
+License         : PostgreSQL
+Description     : The postgresql-contrib package contains various extension modules that are
+                : included in the PostgreSQL distribution.
+Vendor          : Fedora Project
+
+Name            : postgresql-private-libs
+Epoch           : 0
+Version         : 16.8
+Release         : 1.fc41
+Architecture    : x86_64
+Installed size  : 335.6 KiB
+Source          : postgresql16-16.8-1.fc41.src.rpm
+From repository : updates
+Summary         : The shared libraries required only for this build of PostgreSQL server
+URL             : http://www.postgresql.org/
+License         : PostgreSQL
+Description     : The postgresql-private-libs package provides the shared libraries for this
+                : build of PostgreSQL server and plugins build with this version of server.
+                : For shared libraries used by client packages that need to connect to a
+                : PostgreSQL server, install libpq package instead.
+Vendor          : Fedora Project
+
+Name            : postgresql-server
+Epoch           : 0
+Version         : 16.8
+Release         : 1.fc41
+Architecture    : x86_64
+Installed size  : 29.5 MiB
+Source          : postgresql16-16.8-1.fc41.src.rpm
+From repository : updates
+Summary         : The programs needed to create and run a PostgreSQL server
+URL             : http://www.postgresql.org/
+License         : PostgreSQL
+Description     : PostgreSQL is an advanced Object-Relational database management system (DBMS).
+                : The postgresql-server package contains the programs needed to create
+                : and run a PostgreSQL server, which will in turn allow you to create
+                : and maintain PostgreSQL databases.
 Vendor          : Fedora Project
 
 Name            : ppp
@@ -32456,6 +32538,37 @@ Description     : This package contains enhancements to the gobject-introspectio
                 : libblockdev in Python3.
 Vendor          : Fedora Project
 
+Name            : python3-boto3
+Epoch           : 0
+Version         : 1.37.29
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 2.1 MiB
+Source          : python-boto3-1.37.29-1.fc41.src.rpm
+From repository : updates
+Summary         : The AWS SDK for Python
+URL             : https://github.com/boto/boto3
+License         : Apache-2.0
+Description     : Boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for
+                : Python, which allows Python developers to write software that makes use of
+                : services like Amazon S3 and Amazon EC2.
+Vendor          : Fedora Project
+
+Name            : python3-botocore
+Epoch           : 0
+Version         : 1.37.29
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 100.8 MiB
+Source          : python-botocore-1.37.29-1.fc41.src.rpm
+From repository : updates
+Summary         : Low-level, data-driven core of boto 3
+URL             : https://github.com/boto/botocore
+License         : Apache-2.0
+Description     : A low-level interface to a growing number of Amazon Web Services. The
+                : botocore package is the foundation for the AWS CLI as well as boto3.
+Vendor          : Fedora Project
+
 Name            : python3-brlapi
 Epoch           : 0
 Version         : 0.8.5
@@ -32759,6 +32872,35 @@ Description     : Core Plugins for DNF, Python 3 interface. This package enhance
                 : Additionally provides generate_completion_cache passive plugin.
 Vendor          : Fedora Project
 
+Name            : python3-dotenv
+Epoch           : 0
+Version         : 1.0.1
+Release         : 3.fc41
+Architecture    : noarch
+Installed size  : 120.1 KiB
+Source          : python-dotenv-1.0.1-3.fc41.src.rpm
+From repository : fedora
+Summary         : Read key-value pairs from a .env file and set them as environment variables
+URL             : https://github.com/theskumar/python-dotenv
+License         : BSD-3-Clause
+Description     : Reads the key/value pair from .env file and adds them to environment variable.
+Vendor          : Fedora Project
+
+Name            : python3-dotenv+cli
+Epoch           : 0
+Version         : 1.0.1
+Release         : 3.fc41
+Architecture    : noarch
+Installed size  : 24.5 KiB
+Source          : python-dotenv-1.0.1-3.fc41.src.rpm
+From repository : fedora
+Summary         : Metapackage for python3-dotenv: cli extras
+URL             : https://github.com/theskumar/python-dotenv
+License         : BSD-3-Clause
+Description     : This is a metapackage bringing in cli extras requires for python3-dotenv.
+                : It makes sure the dependencies are installed.
+Vendor          : Fedora Project
+
 Name            : python3-enchant
 Epoch           : 0
 Version         : 3.2.2
@@ -32931,6 +33073,21 @@ License         : MIT
 Description     : A simple (really simple) library for working with ISO639-2 language codes.
                 : 
                 : Python 3 version.
+Vendor          : Fedora Project
+
+Name            : python3-jmespath
+Epoch           : 0
+Version         : 1.0.1
+Release         : 8.fc41
+Architecture    : noarch
+Installed size  : 149.8 KiB
+Source          : python-jmespath-1.0.1-8.fc41.src.rpm
+From repository : fedora
+Summary         : JSON Matching Expressions
+URL             : https://github.com/jmespath/jmespath.py
+License         : MIT
+Description     : JMESPath allows you to declaratively specify how to extract elements from
+                : a JSON document.
 Vendor          : Fedora Project
 
 Name            : python3-jwt
@@ -33940,6 +34097,22 @@ Description     : The python3-rpm package contains a module that permits applica
                 : 
                 : This package should be installed if you want to develop Python 3
                 : programs that will manipulate RPM packages and databases.
+Vendor          : Fedora Project
+
+Name            : python3-s3transfer
+Epoch           : 0
+Version         : 0.11.4
+Release         : 1.fc41
+Architecture    : noarch
+Installed size  : 632.8 KiB
+Source          : python-s3transfer-0.11.4-1.fc41.src.rpm
+From repository : updates
+Summary         : Amazon S3 Transfer Manager
+URL             : https://pypi.org/project/s3transfer/
+License         : Apache-2.0
+Description     : S3transfer is a Python library for managing Amazon S3 transfers.
+                : 
+                : Python 3 version.
 Vendor          : Fedora Project
 
 Name            : python3-satyr
@@ -36289,11 +36462,11 @@ Vendor          : Fedora Project
 
 Name            : rust
 Epoch           : 0
-Version         : 1.85.1
+Version         : 1.86.0
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 83.6 MiB
-Source          : rust-1.85.1-1.fc41.src.rpm
+Installed size  : 85.3 MiB
+Source          : rust-1.86.0-1.fc41.src.rpm
 From repository : updates
 Summary         : The Rust Programming Language
 URL             : https://www.rust-lang.org
@@ -36306,11 +36479,11 @@ Vendor          : Fedora Project
 
 Name            : rust-std-static
 Epoch           : 0
-Version         : 1.85.1
+Version         : 1.86.0
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 154.6 MiB
-Source          : rust-1.85.1-1.fc41.src.rpm
+Installed size  : 153.7 MiB
+Source          : rust-1.86.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Standard library for Rust
 URL             : https://www.rust-lang.org
@@ -36355,11 +36528,11 @@ Vendor          : Fedora Project
 
 Name            : samba-client
 Epoch           : 2
-Version         : 4.21.4
+Version         : 4.21.5
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 2.5 MiB
-Source          : samba-4.21.4-1.fc41.src.rpm
+Source          : samba-4.21.5-1.fc41.src.rpm
 From repository : updates
 Summary         : Samba client programs
 URL             : https://www.samba.org
@@ -36371,11 +36544,11 @@ Vendor          : Fedora Project
 
 Name            : samba-client-libs
 Epoch           : 2
-Version         : 4.21.4
+Version         : 4.21.5
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 19.2 MiB
-Source          : samba-4.21.4-1.fc41.src.rpm
+Source          : samba-4.21.5-1.fc41.src.rpm
 From repository : updates
 Summary         : Samba client libraries
 URL             : https://www.samba.org
@@ -36386,11 +36559,11 @@ Vendor          : Fedora Project
 
 Name            : samba-common
 Epoch           : 2
-Version         : 4.21.4
+Version         : 4.21.5
 Release         : 1.fc41
 Architecture    : noarch
-Installed size  : 213.5 KiB
-Source          : samba-4.21.4-1.fc41.src.rpm
+Installed size  : 216.3 KiB
+Source          : samba-4.21.5-1.fc41.src.rpm
 From repository : updates
 Summary         : Files used by both Samba servers and clients
 URL             : https://www.samba.org
@@ -36401,11 +36574,11 @@ Vendor          : Fedora Project
 
 Name            : samba-common-libs
 Epoch           : 2
-Version         : 4.21.4
+Version         : 4.21.5
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 259.4 KiB
-Source          : samba-4.21.4-1.fc41.src.rpm
+Source          : samba-4.21.5-1.fc41.src.rpm
 From repository : updates
 Summary         : Libraries used by both Samba servers and clients
 URL             : https://www.samba.org
@@ -37233,11 +37406,11 @@ Vendor          : Fedora Project
 
 Name            : spirv-tools-libs
 Epoch           : 0
-Version         : 2024.4
+Version         : 2025.1
 Release         : 1.fc41
 Architecture    : i686
-Installed size  : 5.8 MiB
-Source          : spirv-tools-2024.4-1.fc41.src.rpm
+Installed size  : 6.0 MiB
+Source          : spirv-tools-2025.1-1.fc41.src.rpm
 From repository : updates
 Summary         : Library files for spirv-tools
 URL             : https://github.com/KhronosGroup/SPIRV-Tools
@@ -37247,11 +37420,11 @@ Vendor          : Fedora Project
 
 Name            : spirv-tools-libs
 Epoch           : 0
-Version         : 2024.4
+Version         : 2025.1
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 5.4 MiB
-Source          : spirv-tools-2024.4-1.fc41.src.rpm
+Installed size  : 5.6 MiB
+Source          : spirv-tools-2025.1-1.fc41.src.rpm
 From repository : updates
 Summary         : Library files for spirv-tools
 URL             : https://github.com/KhronosGroup/SPIRV-Tools
@@ -39156,11 +39329,11 @@ Vendor          : Fedora Project
 
 Name            : upower
 Epoch           : 0
-Version         : 1.90.7
+Version         : 1.90.8
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 511.0 KiB
-Source          : upower-1.90.7-1.fc41.src.rpm
+Installed size  : 528.5 KiB
+Source          : upower-1.90.8-1.fc41.src.rpm
 From repository : updates
 Summary         : Power Management Service
 URL             : http://upower.freedesktop.org/
@@ -39171,11 +39344,11 @@ Vendor          : Fedora Project
 
 Name            : upower-libs
 Epoch           : 0
-Version         : 1.90.7
+Version         : 1.90.8
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 171.6 KiB
-Source          : upower-1.90.7-1.fc41.src.rpm
+Installed size  : 174.7 KiB
+Source          : upower-1.90.8-1.fc41.src.rpm
 From repository : updates
 Summary         : Client libraries for UPower
 URL             : http://upower.freedesktop.org/
@@ -39598,6 +39771,28 @@ Description     : This is a very basic set of Linux utilities that is necessary 
                 : minimal installations.
 Vendor          : Fedora Project
 
+Name            : uuid
+Epoch           : 0
+Version         : 1.6.2
+Release         : 64.fc41
+Architecture    : x86_64
+Installed size  : 128.9 KiB
+Source          : uuid-1.6.2-64.fc41.src.rpm
+From repository : fedora
+Summary         : Universally Unique Identifier library
+URL             : http://www.ossp.org/pkg/lib/uuid/
+License         : MIT
+Description     : OSSP uuid is a ISO-C:1999 application programming interface (API)
+                : and corresponding command line interface (CLI) for the generation
+                : of DCE 1.1, ISO/IEC 11578:1996 and RFC 4122 compliant Universally
+                : Unique Identifier (UUID). It supports DCE 1.1 variant UUIDs of version
+                : 1 (time and node based), version 3 (name based, MD5), version 4
+                : (random number based) and version 5 (name based, SHA-1). Additional
+                : API bindings are provided for the languages ISO-C++:1998 and Perl:5
+                : Optional backward compatibility exists for the ISO-C DCE-1.1 and Perl
+                : Data::UUID APIs.
+Vendor          : Fedora Project
+
 Name            : vamp-plugin-sdk
 Epoch           : 0
 Version         : 2.10
@@ -39650,11 +39845,11 @@ Vendor          : Fedora Project
 
 Name            : vim-common
 Epoch           : 2
-Version         : 9.1.1227
+Version         : 9.1.1275
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 37.8 MiB
-Source          : vim-9.1.1227-1.fc41.src.rpm
+Installed size  : 37.9 MiB
+Source          : vim-9.1.1275-1.fc41.src.rpm
 From repository : updates
 Summary         : The common files needed by any version of the VIM editor
 URL             : http://www.vim.org/
@@ -39672,11 +39867,11 @@ Vendor          : Fedora Project
 
 Name            : vim-data
 Epoch           : 2
-Version         : 9.1.1227
+Version         : 9.1.1275
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 10.3 KiB
-Source          : vim-9.1.1227-1.fc41.src.rpm
+Source          : vim-9.1.1275-1.fc41.src.rpm
 From repository : updates
 Summary         : Shared data for Vi and Vim
 URL             : http://www.vim.org/
@@ -39687,11 +39882,11 @@ Vendor          : Fedora Project
 
 Name            : vim-enhanced
 Epoch           : 2
-Version         : 9.1.1227
+Version         : 9.1.1275
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 4.0 MiB
-Source          : vim-9.1.1227-1.fc41.src.rpm
+Installed size  : 4.1 MiB
+Source          : vim-9.1.1275-1.fc41.src.rpm
 From repository : updates
 Summary         : A version of the VIM editor which includes recent enhancements
 URL             : http://www.vim.org/
@@ -39711,11 +39906,11 @@ Vendor          : Fedora Project
 
 Name            : vim-filesystem
 Epoch           : 2
-Version         : 9.1.1227
+Version         : 9.1.1275
 Release         : 1.fc41
 Architecture    : noarch
 Installed size  : 40.0   B
-Source          : vim-9.1.1227-1.fc41.src.rpm
+Source          : vim-9.1.1275-1.fc41.src.rpm
 From repository : updates
 Summary         : VIM filesystem layout
 URL             : http://www.vim.org/
@@ -39726,11 +39921,11 @@ Vendor          : Fedora Project
 
 Name            : vim-minimal
 Epoch           : 2
-Version         : 9.1.1227
+Version         : 9.1.1275
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 1.7 MiB
-Source          : vim-9.1.1227-1.fc41.src.rpm
+Source          : vim-9.1.1275-1.fc41.src.rpm
 From repository : updates
 Summary         : A minimal version of the VIM editor
 URL             : http://www.vim.org/
@@ -40018,11 +40213,11 @@ Vendor          : Fedora Project
 
 Name            : vulkan-loader
 Epoch           : 0
-Version         : 1.4.304.0
+Version         : 1.4.309.0
 Release         : 1.fc41
 Architecture    : i686
-Installed size  : 562.6 KiB
-Source          : vulkan-loader-1.4.304.0-1.fc41.src.rpm
+Installed size  : 576.2 KiB
+Source          : vulkan-loader-1.4.309.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Vulkan ICD desktop loader
 URL             : https://github.com/KhronosGroup/Vulkan-Loader
@@ -40033,11 +40228,11 @@ Vendor          : Fedora Project
 
 Name            : vulkan-loader
 Epoch           : 0
-Version         : 1.4.304.0
+Version         : 1.4.309.0
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 519.3 KiB
-Source          : vulkan-loader-1.4.304.0-1.fc41.src.rpm
+Installed size  : 536.6 KiB
+Source          : vulkan-loader-1.4.309.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Vulkan ICD desktop loader
 URL             : https://github.com/KhronosGroup/Vulkan-Loader
@@ -40048,11 +40243,11 @@ Vendor          : Fedora Project
 
 Name            : vulkan-tools
 Epoch           : 0
-Version         : 1.4.304.0
+Version         : 1.4.309.0
 Release         : 1.fc41
 Architecture    : x86_64
-Installed size  : 1.3 MiB
-Source          : vulkan-tools-1.4.304.0-1.fc41.src.rpm
+Installed size  : 1.5 MiB
+Source          : vulkan-tools-1.4.309.0-1.fc41.src.rpm
 From repository : updates
 Summary         : Vulkan tools
 URL             : https://github.com/KhronosGroup/Vulkan-Tools
@@ -40095,11 +40290,11 @@ Vendor          : Fedora Project
 
 Name            : wayland-protocols-devel
 Epoch           : 0
-Version         : 1.42
+Version         : 1.43
 Release         : 1.fc41
 Architecture    : noarch
-Installed size  : 919.3 KiB
-Source          : wayland-protocols-1.42-1.fc41.src.rpm
+Installed size  : 926.8 KiB
+Source          : wayland-protocols-1.43-1.fc41.src.rpm
 From repository : updates
 Summary         : Wayland protocols that adds functionality not available in the core protocol
 URL             : https://wayland.freedesktop.org/
@@ -40134,11 +40329,11 @@ Vendor          : Fedora Project
 
 Name            : webkit2gtk4.1
 Epoch           : 0
-Version         : 2.48.0
-Release         : 1.fc41
+Version         : 2.48.1
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 86.1 MiB
-Source          : webkitgtk-2.48.0-1.fc41.src.rpm
+Installed size  : 86.2 MiB
+Source          : webkitgtk-2.48.1-2.fc41.src.rpm
 From repository : updates
 Summary         : WebKitGTK for GTK 3 and libsoup 3
 URL             : https://www.webkitgtk.org/
@@ -40149,11 +40344,11 @@ Vendor          : Fedora Project
 
 Name            : webkitgtk6.0
 Epoch           : 0
-Version         : 2.48.0
-Release         : 1.fc41
+Version         : 2.48.1
+Release         : 2.fc41
 Architecture    : x86_64
-Installed size  : 86.1 MiB
-Source          : webkitgtk-2.48.0-1.fc41.src.rpm
+Installed size  : 86.2 MiB
+Source          : webkitgtk-2.48.1-2.fc41.src.rpm
 From repository : updates
 Summary         : WebKitGTK for GTK 4
 URL             : https://www.webkitgtk.org/
@@ -40959,11 +41154,11 @@ Vendor          : Fedora Project
 
 Name            : xxd
 Epoch           : 2
-Version         : 9.1.1227
+Version         : 9.1.1275
 Release         : 1.fc41
 Architecture    : x86_64
 Installed size  : 37.4 KiB
-Source          : vim-9.1.1227-1.fc41.src.rpm
+Source          : vim-9.1.1275-1.fc41.src.rpm
 From repository : updates
 Summary         : A hex dump utility
 URL             : http://www.vim.org/

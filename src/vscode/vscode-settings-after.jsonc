@@ -9,7 +9,7 @@
 		"editor.defaultFormatter": "biomejs.biome"
 	},
 	"[jsonc]": {
-		"editor.defaultFormatter": "biomejs.biome"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[markdown]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -121,6 +121,9 @@
 	"explorer.compactFolders": false,
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
+	"files.associations": {
+		".env.template": "properties"
+	},
 	"files.autoSave": "afterDelay",
 	"files.watcherExclude": {
 		"**/.git/objects/**": true,
@@ -133,10 +136,14 @@
 	"git.enableSmartCommit": true,
 	"git.openRepositoryInParentFolders": "always",
 	"javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+	"javascript.inlayHints.parameterNames.enabled": "literals",
 	"javascript.inlayHints.parameterTypes.enabled": true,
 	"javascript.inlayHints.propertyDeclarationTypes.enabled": true,
 	"javascript.inlayHints.variableTypes.enabled": true,
-	"material-icon-theme.activeIconPack": "",
+	"javascript.referencesCodeLens.enabled": true,
+	"javascript.referencesCodeLens.showOnAllFunctions": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"material-icon-theme.activeIconPack": "none",
 	"material-icon-theme.files.associations": {
 		".zigversion": "lock"
 	},
@@ -157,6 +164,8 @@
 	"typescript.inlayHints.parameterTypes.enabled": true,
 	"typescript.inlayHints.propertyDeclarationTypes.enabled": true,
 	"typescript.inlayHints.variableTypes.enabled": true,
+	"typescript.referencesCodeLens.enabled": true,
+	"typescript.referencesCodeLens.showOnAllFunctions": true,
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"window.autoDetectColorScheme": true,
 	"window.commandCenter": true,
@@ -172,14 +181,5 @@
 	"workspaceWizard.general.workspacesFolder": "/home/tron/Projects/workspaces",
 	"zig.path": "zig",
 	"zig.zls.enabled": "on",
-	"zig.zls.inlayHintsExcludeSingleArgument": false,
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"files.associations": {
-		".env.template": "properties"
-	},
-	"javascript.inlayHints.parameterNames.enabled": "literals",
-	"javascript.referencesCodeLens.enabled": true,
-	"javascript.referencesCodeLens.showOnAllFunctions": true,
-	"typescript.referencesCodeLens.enabled": true,
-	"typescript.referencesCodeLens.showOnAllFunctions": true
+	"zig.zls.inlayHintsExcludeSingleArgument": false
 }

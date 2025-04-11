@@ -100,6 +100,8 @@ ignoreMap.set("*", [
 	"window-width=",
 ]);
 
+ignoreMap.set("[org/gnome/epiphany/state]", ["is-maximized="]);
+
 const outputArr: string[] = [];
 
 keyLoop: for (const [key, settings] of data) {
