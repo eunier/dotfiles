@@ -31,7 +31,7 @@
 ├── com.gitlab.yunieralvarez.godot-first-person-shooter-demo
 │   └── godot-first-person-shooter-demo
 ├── com.gitlab.yunieralvarez.playground
-│   └── playground.git
+│   └── playground
 ├── com.gitlab.yunieralvarez.qmkl
 │   └── qmkl
 ├── com.gitlab.yunieralvarez.repo

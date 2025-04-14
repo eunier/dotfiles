@@ -1,3 +1,4 @@
+akamud.vscode-theme-onelight
 aswinkumar863.sort-editors
 biomejs.biome
 bradlc.vscode-tailwindcss
@@ -10,6 +11,7 @@ esbenp.prettier-vscode
 evan-buss.font-switcher
 github.copilot
 github.copilot-chat
+github.github-vscode-theme
 gruntfuggly.todo-tree
 hossaini.bootstrap-intellisense
 humao.rest-client
@@ -17,6 +19,7 @@ iciclesoft.workspacesort
 jannisx11.batch-rename-extension
 maattdd.gitless
 mads-hartmann.bash-ide-vscode
+mani-sh-reddy.atom-one-light-modern
 maptz.regionfolder
 mariusalchimavicius.json-to-ts
 meganrogge.template-string-converter
