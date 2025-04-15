@@ -30,6 +30,8 @@
 │   └── game-top-dow-shooter-rs
 ├── com.gitlab.yunieralvarez.godot-first-person-shooter-demo
 │   └── godot-first-person-shooter-demo
+├── com.gitlab.yunieralvarez.playground
+│   └── playground
 ├── com.gitlab.yunieralvarez.qmkl
 │   └── qmkl
 ├── com.gitlab.yunieralvarez.repo
@@ -65,4 +67,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-49 directories, 17 files
+51 directories, 17 files
