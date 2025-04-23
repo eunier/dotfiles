@@ -11,7 +11,7 @@
 		"vscode:font:switch": "bun run src/vscode/vscode-font-switch.ts"
 	},
 	"devDependencies": {
-		"@types/bun": "1.2.9"
+		"@types/bun": "1.2.10"
 	},
 	"peerDependencies": {
 		"typescript": "5.8.3"

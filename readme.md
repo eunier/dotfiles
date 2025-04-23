@@ -31,3 +31,23 @@ Run this after initial installation
 ```bash
 sudo postgresql-setup --initdb
 ```
+
+### Increase File Watch Limit
+
+- Check the current limit
+
+```bash
+cat /proc/sys/fs/inotify/max_user_watches
+```
+
+- Increase the limit
+
+```bash
+echo "fs.inotify.max_user_watches=524288" | sudo tee -a /etc/sysctl.conf
+```
+
+- Apply the changes
+
+```bash
+sudo sysctl -p
+```
