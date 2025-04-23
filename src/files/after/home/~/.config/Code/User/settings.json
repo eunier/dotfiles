@@ -187,5 +187,6 @@
 	"workspaceWizard.general.workspacesFolder": "/home/tron/Projects/workspaces",
 	"zig.path": "zig",
 	"zig.zls.enabled": "on",
-	"zig.zls.inlayHintsExcludeSingleArgument": false
+	"zig.zls.inlayHintsExcludeSingleArgument": false,
+	"workspaceWizard.general.startOnNewWindow": "None"
 }

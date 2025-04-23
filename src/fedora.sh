@@ -4,6 +4,7 @@ sh ~/.dotfiles/src/git/git-sync-repo.sh
 
 sh ~/.dotfiles/src/bun.sh
 sh ~/.dotfiles/src/node.sh
+sh ~/.dotfiles/src/pnpm.sh
 
 sh ~/.dotfiles/src/dnf.sh
 sh ~/.dotfiles/src/flatpak.sh

@@ -184,6 +184,7 @@
 	"workbench.preferredDarkColorTheme": "Adwaita Dark",
 	"workbench.preferredLightColorTheme": "Atom One Light",
 	"workbench.tree.indent": 12,
+	"workspaceWizard.general.startOnNewWindow": "None",
 	"workspaceWizard.general.workspacesFolder": "/home/tron/Projects/workspaces",
 	"zig.path": "zig",
 	"zig.zls.enabled": "on",

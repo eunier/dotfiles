@@ -25,6 +25,7 @@
 │   └── zap
 ├── com.gitlab.yunieralvarez.expense-tracker
 │   ├── expense-tracker
+│   ├── expense-tracker-api
 │   └── expense-tracker (Copy)
 ├── com.gitlab.yunieralvarez.game-top-down-shooter-rs
 │   └── game-top-dow-shooter-rs
@@ -68,4 +69,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-51 directories, 18 files
+52 directories, 18 files

@@ -6,3 +6,8 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # User specific environment and startup programs
+
+
+# Added by Toolbox App
+export PATH="$PATH:/home/tron/.local/share/JetBrains/Toolbox/scripts"
+
