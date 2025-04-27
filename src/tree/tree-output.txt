@@ -162,6 +162,7 @@
 │   ├── node.sh
 │   ├── ollama.sh
 │   ├── playground.sh
+│   ├── pnpm.sh
 │   ├── sparky.sh
 │   ├── sync.sh
 │   ├── syncthing
@@ -203,4 +204,4 @@
 └── .vscode
     └── settings.json
 
-54 directories, 150 files
+54 directories, 151 files

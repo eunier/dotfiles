@@ -170,6 +170,7 @@
 	"typescript.inlayHints.propertyDeclarationTypes.enabled": true,
 	"typescript.inlayHints.variableTypes.enabled": true,
 	"typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+	"typescript.preferences.importModuleSpecifier": "relative",
 	"typescript.referencesCodeLens.enabled": true,
 	"typescript.referencesCodeLens.showOnAllFunctions": true,
 	"typescript.updateImportsOnFileMove.enabled": "always",
@@ -184,9 +185,9 @@
 	"workbench.preferredDarkColorTheme": "Adwaita Dark",
 	"workbench.preferredLightColorTheme": "Atom One Light",
 	"workbench.tree.indent": 12,
+	"workspaceWizard.general.startOnNewWindow": "None",
 	"workspaceWizard.general.workspacesFolder": "/home/tron/Projects/workspaces",
 	"zig.path": "zig",
 	"zig.zls.enabled": "on",
-	"zig.zls.inlayHintsExcludeSingleArgument": false,
-	"workspaceWizard.general.startOnNewWindow": "None"
+	"zig.zls.inlayHintsExcludeSingleArgument": false
 }

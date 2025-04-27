@@ -1,13 +1,13 @@
-OS: Fedora Linux 41 (Workstation Edition) x86_64
-Kernel: Linux 6.13.10-200.fc41.x86_64
-Packages: 2527 (rpm), 93 (flatpak), 15 (brew)
+OS: Fedora Linux 42 (Workstation Edition) x86_64
+Kernel: Linux 6.14.3-300.fc42.x86_64
+Packages: 2560 (rpm), 93 (flatpak), 15 (brew)
 Display (LG HDR QHD): 2560x1440 @ 60 Hz in 32" [External]
 Display (Acer X34): 3440x1440 @ 100 Hz in 34" [External] *
-DE: GNOME 47.5
+DE: GNOME 48.1
 WM: Mutter (Wayland)
 WM Theme: Adwaita
 Icons: MoreWaita [GTK2/3/4]
-Font: Cantarell (11pt) [GTK2/3/4]
+Font: Adwaita Sans (11pt) [GTK2/3/4]
 Cursor: Adwaita (24px)
 GPU 1: AMD Radeon RX 6950 XT [Discrete]
 GPU 2: AMD Raphael [Integrated]

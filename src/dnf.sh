@@ -76,6 +76,8 @@ sudo dnf install \
     dconf-editor \
     discord \
     epiphany \
+    f41-backgrounds-base-0 \
+    f41-backgrounds-gnome-0 \
     fastfetch \
     fira-code-fonts \
     fish \
@@ -126,6 +128,7 @@ sudo dnf install \
     postgresql \
     postgresql-contrib \
     postgresql-server \
+    remove-retired-packages \
     rust \
     ShellCheck \
     shfmt \

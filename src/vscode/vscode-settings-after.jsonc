@@ -170,6 +170,7 @@
 	"typescript.inlayHints.propertyDeclarationTypes.enabled": true,
 	"typescript.inlayHints.variableTypes.enabled": true,
 	"typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+	"typescript.preferences.importModuleSpecifier": "relative",
 	"typescript.referencesCodeLens.enabled": true,
 	"typescript.referencesCodeLens.showOnAllFunctions": true,
 	"typescript.updateImportsOnFileMove.enabled": "always",

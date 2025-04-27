@@ -8,6 +8,7 @@ echo "Installing code extensions..."
 
 #spell-checker: disable
 code --install-extension akamud.vscode-theme-onelight >/dev/null 2>&1 && printf "."
+code --install-extension Angular.ng-template >/dev/null 2>&1 && printf "."
 code --install-extension aswinkumar863.sort-editors >/dev/null 2>&1 && printf "."
 code --install-extension biomejs.biome >/dev/null 2>&1 && printf "."
 code --install-extension bradlc.vscode-tailwindcss >/dev/null 2>&1 && printf "."
