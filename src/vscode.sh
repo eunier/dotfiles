@@ -50,6 +50,7 @@ code --install-extension streetsidesoftware.code-spell-checker >/dev/null 2>&1 &
 code --install-extension timonwong.shellcheck >/dev/null 2>&1 && printf "."
 code --install-extension usernamehw.errorlens >/dev/null 2>&1 && printf "."
 code --install-extension vadimcn.vscode-lldb >/dev/null 2>&1 && printf "."
+code --install-extension vsls-contrib.gistfs >/dev/null 2>&1 && printf "."
 code --install-extension wk-j.vscode-httpie >/dev/null 2>&1 && printf "."
 code --install-extension yoavbls.pretty-ts-errors >/dev/null 2>&1 && printf "."
 code --install-extension zhuangtongfa.Material-theme >/dev/null 2>&1 && printf "."
