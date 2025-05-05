@@ -1,6 +1,37 @@
 .
 ├── biome.json
 ├── bun.lock
+├── dotfiles
+│   ├── bun.lock
+│   ├── eslint.config.mjs
+│   ├── .gitignore
+│   ├── .idea
+│   │   ├── codeStyles
+│   │   │   ├── codeStyleConfig.xml
+│   │   │   └── Project.xml
+│   │   ├── dotfiles.iml
+│   │   ├── .gitignore
+│   │   ├── inspectionProfiles
+│   │   │   └── Project_Default.xml
+│   │   ├── modules.xml
+│   │   ├── prettier.xml
+│   │   ├── vcs.xml
+│   │   └── workspace.xml
+│   ├── nest-cli.json
+│   ├── package.json
+│   ├── .prettierrc
+│   ├── README.md
+│   ├── src
+│   │   ├── app.controller.spec.ts
+│   │   ├── app.controller.ts
+│   │   ├── app.module.ts
+│   │   ├── app.service.ts
+│   │   └── main.ts
+│   ├── test
+│   │   ├── app.e2e-spec.ts
+│   │   └── jest-e2e.json
+│   ├── tsconfig.build.json
+│   └── tsconfig.json
 ├── .gitignore
 ├── home
 │   ├── .bashrc
@@ -16,6 +47,12 @@
 │   │   └── syncthing-gtk
 │   │       └── config.json
 │   └── .gitconfig
+├── .idea
+│   ├── .dotfiles.iml
+│   ├── .gitignore
+│   ├── modules.xml
+│   ├── vcs.xml
+│   └── workspace.xml
 ├── package.json
 ├── readme.md
 ├── scripts
@@ -204,4 +241,4 @@
 └── .vscode
     └── settings.json
 
-54 directories, 151 files
+61 directories, 181 files

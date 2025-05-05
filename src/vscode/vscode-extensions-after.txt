@@ -1,7 +1,9 @@
 akamud.vscode-theme-onelight
 angular.ng-template
 aswinkumar863.sort-editors
+bierner.markdown-mermaid
 biomejs.biome
+bpruitt-goddard.mermaid-markdown-syntax-highlighting
 bradlc.vscode-tailwindcss
 chrisdias.vscode-opennewinstance
 coddx.coddx-alpha
@@ -30,6 +32,7 @@ ms-vscode.cpptools
 ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes
 orhun.last-commit
+orta.vscode-jest
 oven.bun-vscode
 pflannery.vscode-versionlens
 piousdeer.adwaita-theme
@@ -37,6 +40,7 @@ pkief.copy-branch-name
 pkief.material-icon-theme
 pranaygp.vscode-css-peek
 richie5um2.vscode-sort-json
+ritwickdey.liveserver
 rjmacarthy.twinny
 rob-bennett.workspacewizard
 rpinski.shebang-snippets
@@ -46,6 +50,7 @@ streetsidesoftware.code-spell-checker
 timonwong.shellcheck
 usernamehw.errorlens
 vadimcn.vscode-lldb
+vsls-contrib.gistfs
 wk-j.vscode-httpie
 yoavbls.pretty-ts-errors
 zhuangtongfa.material-theme

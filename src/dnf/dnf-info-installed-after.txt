@@ -99,6 +99,30 @@ License         : ImageMagick
 Description     : This packages contains a shared libraries to use within other applications.
 Vendor          : Fedora Project
 
+Name            : LCEVCdec
+Epoch           : 0
+Version         : 3.3.5
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 483.0 KiB
+Source          : LCEVCdec-3.3.5-1.fc42.src.rpm
+From repository : terra
+Summary         : MPEG-5 LCEVC Decoder
+URL             : https://docs.v-nova.com/v-nova/lcevc/lcevc-sdk-overview
+License         : BSD-3-Clause-Clear
+Description     : Low Complexity Enhancement Video Codec Decoder (LCEVCdec) is the primary MPEG-5
+                : Part 2 decoder SDK repository maintained by V-Nova.
+                : 
+                : Features:
+                :  - Decode LCEVC compliant bitstreams
+                :  - Support for a range of formats including YUV, NV12 and RGBA
+                :  - Support for a range of colour formats including BT709 and BT2020
+                :  - Support for HDR and 10-bit streams
+                :  - Support for ABR ladders
+                :  - CPU pixel processing stage
+                :  - Extensive API
+Vendor          : <NULL>
+
 Name            : LibRaw
 Epoch           : 0
 Version         : 0.21.4
@@ -1817,11 +1841,11 @@ Vendor          : Fedora Project
 
 Name            : autocorr-en
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 287.3 KiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : English auto-correction rules
 URL             : http://www.libreoffice.org/
@@ -2458,11 +2482,11 @@ Vendor          : Fedora Project
 
 Name            : brave-browser
 Epoch           : 0
-Version         : 1.77.101
+Version         : 1.78.94
 Release         : 1
 Architecture    : x86_64
-Installed size  : 391.8 MiB
-Source          : brave-browser-1.77.101-1.src.rpm
+Installed size  : 394.7 MiB
+Source          : brave-browser-1.78.94-1.src.rpm
 From repository : brave-browser
 Summary         : Brave Web Browser
 URL             : https://brave.com/
@@ -4079,6 +4103,22 @@ Description     : The cyrus-sasl-plain package contains the Cyrus SASL plugins w
                 : PLAIN and LOGIN authentication schemes.
 Vendor          : Fedora Project
 
+Name            : davs2-libs
+Epoch           : 0
+Version         : 1.7
+Release         : 1.20220903gitb41cf11.fc42
+Architecture    : x86_64
+Installed size  : 726.4 KiB
+Source          : davs2-1.7-1.20220903gitb41cf11.fc42.src.rpm
+From repository : terra
+Summary         : AVS2-P2/IEEE1857.4 decoder library
+URL             : https://github.com/pkuvcl/davs2
+License         : GPLv2
+Description     : davs2 is an open-source decoder of AVS2-P2/IEEE1857.4 video coding standard.
+                : 
+                : This package contains the shared library.
+Vendor          : <NULL>
+
 Name            : daxctl-libs
 Epoch           : 0
 Version         : 81
@@ -4097,12 +4137,12 @@ Vendor          : Fedora Project
 
 Name            : dbeaver-ce
 Epoch           : 0
-Version         : 25.0.1
+Version         : 25.0.3
 Release         : stable
 Architecture    : x86_64
-Installed size  : 163.2 MiB
+Installed size  : 163.6 MiB
 Source          : (none)
-From repository : @commandline
+From repository : <unknown>
 Summary         : Universal Database Manager and SQL Client
 URL             : https://dbeaver.io/
 License         : ASL 2.0
@@ -4312,11 +4352,11 @@ Vendor          : Fedora Project
 Name            : debugedit
 Epoch           : 0
 Version         : 5.1
-Release         : 5.fc42
+Release         : 6.fc42
 Architecture    : x86_64
 Installed size  : 192.7 KiB
-Source          : debugedit-5.1-5.fc42.src.rpm
-From repository : fedora
+Source          : debugedit-5.1-6.fc42.src.rpm
+From repository : updates
 Summary         : Tools and scripts for creating debuginfo and source file distributions, collect build-ids and rewrite source paths in DWARF data for debugging, tracing and profiling.
 URL             : https://sourceware.org/debugedit/
 License         : GPL-3.0-or-later AND GPL-2.0-or-later AND LGPL-2.0-or-later
@@ -5537,11 +5577,11 @@ Vendor          : Fedora Project
 
 Name            : discord
 Epoch           : 0
-Version         : 0.0.92
+Version         : 0.0.94
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 249.6 MiB
-Source          : discord-0.0.92-1.fc42.src.rpm
+Installed size  : 256.7 MiB
+Source          : discord-0.0.94-1.fc42.src.rpm
 From repository : terra
 Summary         : Free Voice and Text Chat for Gamers
 URL             : https://discord.com
@@ -6094,12 +6134,12 @@ Vendor          : Fedora Project
 
 Name            : elfutils
 Epoch           : 0
-Version         : 0.192
-Release         : 9.fc42
+Version         : 0.193
+Release         : 2.fc42
 Architecture    : x86_64
-Installed size  : 2.6 MiB
-Source          : elfutils-0.192-9.fc42.src.rpm
-From repository : fedora
+Installed size  : 2.9 MiB
+Source          : elfutils-0.193-2.fc42.src.rpm
+From repository : updates
 Summary         : A collection of utilities and DSOs to handle ELF files and DWARF data
 URL             : http://elfutils.org/
 License         : GPL-3.0-or-later AND (GPL-2.0-or-later OR LGPL-3.0-or-later) AND GFDL-1.3-no-invariants-or-later
@@ -6113,12 +6153,12 @@ Vendor          : Fedora Project
 
 Name            : elfutils-debuginfod-client
 Epoch           : 0
-Version         : 0.192
-Release         : 9.fc42
+Version         : 0.193
+Release         : 2.fc42
 Architecture    : i686
 Installed size  : 74.2 KiB
-Source          : elfutils-0.192-9.fc42.src.rpm
-From repository : fedora
+Source          : elfutils-0.193-2.fc42.src.rpm
+From repository : updates
 Summary         : Library and command line client for build-id HTTP ELF/DWARF server
 URL             : http://elfutils.org/
 License         : GPL-3.0-or-later AND (GPL-2.0-or-later OR LGPL-3.0-or-later)
@@ -6130,12 +6170,12 @@ Vendor          : Fedora Project
 
 Name            : elfutils-debuginfod-client
 Epoch           : 0
-Version         : 0.192
-Release         : 9.fc42
+Version         : 0.193
+Release         : 2.fc42
 Architecture    : x86_64
-Installed size  : 79.9 KiB
-Source          : elfutils-0.192-9.fc42.src.rpm
-From repository : fedora
+Installed size  : 83.9 KiB
+Source          : elfutils-0.193-2.fc42.src.rpm
+From repository : updates
 Summary         : Library and command line client for build-id HTTP ELF/DWARF server
 URL             : http://elfutils.org/
 License         : GPL-3.0-or-later AND (GPL-2.0-or-later OR LGPL-3.0-or-later)
@@ -6147,12 +6187,12 @@ Vendor          : Fedora Project
 
 Name            : elfutils-default-yama-scope
 Epoch           : 0
-Version         : 0.192
-Release         : 9.fc42
+Version         : 0.193
+Release         : 2.fc42
 Architecture    : noarch
 Installed size  : 1.8 KiB
-Source          : elfutils-0.192-9.fc42.src.rpm
-From repository : fedora
+Source          : elfutils-0.193-2.fc42.src.rpm
+From repository : updates
 Summary         : Default yama attach scope sysctl setting
 URL             : http://elfutils.org/
 License         : GPL-2.0-or-later OR LGPL-3.0-or-later
@@ -6167,12 +6207,12 @@ Vendor          : Fedora Project
 
 Name            : elfutils-libelf
 Epoch           : 0
-Version         : 0.192
-Release         : 9.fc42
+Version         : 0.193
+Release         : 2.fc42
 Architecture    : i686
 Installed size  : 1.2 MiB
-Source          : elfutils-0.192-9.fc42.src.rpm
-From repository : fedora
+Source          : elfutils-0.193-2.fc42.src.rpm
+From repository : updates
 Summary         : Library to read and write ELF files
 URL             : http://elfutils.org/
 License         : GPL-2.0-or-later OR LGPL-3.0-or-later
@@ -6184,12 +6224,12 @@ Vendor          : Fedora Project
 
 Name            : elfutils-libelf
 Epoch           : 0
-Version         : 0.192
-Release         : 9.fc42
+Version         : 0.193
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 1.2 MiB
-Source          : elfutils-0.192-9.fc42.src.rpm
-From repository : fedora
+Source          : elfutils-0.193-2.fc42.src.rpm
+From repository : updates
 Summary         : Library to read and write ELF files
 URL             : http://elfutils.org/
 License         : GPL-2.0-or-later OR LGPL-3.0-or-later
@@ -6201,12 +6241,12 @@ Vendor          : Fedora Project
 
 Name            : elfutils-libs
 Epoch           : 0
-Version         : 0.192
-Release         : 9.fc42
+Version         : 0.193
+Release         : 2.fc42
 Architecture    : i686
-Installed size  : 717.4 KiB
-Source          : elfutils-0.192-9.fc42.src.rpm
-From repository : fedora
+Installed size  : 733.9 KiB
+Source          : elfutils-0.193-2.fc42.src.rpm
+From repository : updates
 Summary         : Libraries to handle compiled objects
 URL             : http://elfutils.org/
 License         : GPL-2.0-or-later OR LGPL-3.0-or-later
@@ -6219,12 +6259,12 @@ Vendor          : Fedora Project
 
 Name            : elfutils-libs
 Epoch           : 0
-Version         : 0.192
-Release         : 9.fc42
+Version         : 0.193
+Release         : 2.fc42
 Architecture    : x86_64
-Installed size  : 667.0 KiB
-Source          : elfutils-0.192-9.fc42.src.rpm
-From repository : fedora
+Installed size  : 683.4 KiB
+Source          : elfutils-0.193-2.fc42.src.rpm
+From repository : updates
 Summary         : Libraries to handle compiled objects
 URL             : http://elfutils.org/
 License         : GPL-2.0-or-later OR LGPL-3.0-or-later
@@ -6547,6 +6587,26 @@ Description     : This is expat, the C library for parsing XML, written by James
                 : register handlers.
 Vendor          : Fedora Project
 
+Name            : extest-steam
+Epoch           : 0
+Version         : 20241119git.d6863d9
+Release         : 2.fc42
+Architecture    : noarch
+Installed size  : 397.0   B
+Source          : extest-20241119git.d6863d9-2.fc42.src.rpm
+From repository : terra
+Summary         : Extest subpackage that patches Steam's scripts to load Extest
+URL             : https://github.com/bazzite-org/extest
+License         : MIT
+Description     : This subpackage contains scripts that patch Steam's scripts to load Extest. This is necessary for Extest to work with Steam on Wayland.
+                : 
+                : 
+                : 
+                : 
+                : 
+                : Requires:        extest
+Vendor          : <NULL>
+
 Name            : f2fs-tools
 Epoch           : 0
 Version         : 1.16.0
@@ -6611,12 +6671,12 @@ Vendor          : Fedora Project
 
 Name            : fastfetch
 Epoch           : 0
-Version         : 2.39.1
+Version         : 2.41.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.5 MiB
-Source          : fastfetch-2.39.1-1.fc42.src.rpm
-From repository : fedora
+Source          : fastfetch-2.41.0-1.fc42.src.rpm
+From repository : updates
 Summary         : Fast neofetch-like system information tool
 URL             : https://github.com/fastfetch-cli/fastfetch
 License         : MIT
@@ -6888,26 +6948,22 @@ Description     : Repository files that make some select non-Fedora software ava
                 : via search in gnome-software.
 Vendor          : Fedora Project
 
-Name            : ffmpeg-free
-Epoch           : 0
+Name            : ffmpeg
+Epoch           : 1
 Version         : 7.1.1
-Release         : 3.fc42
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 2.5 MiB
-Source          : ffmpeg-7.1.1-3.fc42.src.rpm
-From repository : fedora
+Installed size  : 2.7 MiB
+Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+From repository : terra
 Summary         : A complete solution to record, convert and stream audio and video
-URL             : https://ffmpeg.org/
-License         : GPL-3.0-or-later
-Description     : FFmpeg is a leading multimedia framework, able to decode, encode, transcode,
-                : mux, demux, stream, filter and play pretty much anything that humans and
-                : machines have created. It supports the most obscure ancient formats up to the
-                : cutting edge. No matter if they were designed by some standards committee, the
-                : community or a corporation.
-                : 
-                : 
-                : This build of ffmpeg is limited in the number of codecs supported.
-Vendor          : Fedora Project
+URL             : http://ffmpeg.org/
+License         : LGPL-3.0-or-later
+Description     : FFmpeg is a complete and free Internet live audio and video
+                : broadcasting solution for Linux/Unix. It also includes a digital
+                : VCR. It can encode in real time in many formats including MPEG1 audio
+                : and video, MPEG4, h263, ac3, asf, avi, real, mjpeg, and flash.
+Vendor          : <NULL>
 
 Name            : fftw-libs-double
 Epoch           : 0
@@ -7042,11 +7098,11 @@ Vendor          : Fedora Project
 
 Name            : firefox
 Epoch           : 0
-Version         : 137.0
-Release         : 2.fc42
+Version         : 138.0.1
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 238.0 MiB
-Source          : firefox-137.0-2.fc42.src.rpm
+Installed size  : 240.2 MiB
+Source          : firefox-138.0.1-1.fc42.src.rpm
 From repository : updates
 Summary         : Mozilla Firefox Web browser
 URL             : https://www.mozilla.org/firefox/
@@ -7057,11 +7113,11 @@ Vendor          : Fedora Project
 
 Name            : firefox-langpacks
 Epoch           : 0
-Version         : 137.0
-Release         : 2.fc42
+Version         : 138.0.1
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 41.2 MiB
-Source          : firefox-137.0-2.fc42.src.rpm
+Installed size  : 40.6 MiB
+Source          : firefox-138.0.1-1.fc42.src.rpm
 From repository : updates
 Summary         : Firefox langpacks
 URL             : https://www.mozilla.org/firefox/
@@ -7251,12 +7307,12 @@ Vendor          : Fedora Project
 
 Name            : flatseal
 Epoch           : 0
-Version         : 2.3.0
-Release         : 2.fc42
+Version         : 2.3.1
+Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 583.6 KiB
-Source          : flatseal-2.3.0-2.fc42.src.rpm
-From repository : fedora
+Installed size  : 610.4 KiB
+Source          : flatseal-2.3.1-1.fc42.src.rpm
+From repository : updates
 Summary         : Manage Flatpak permissions
 URL             : https://github.com/tchx84/Flatseal
 License         : GPL-3.0-or-later
@@ -8854,15 +8910,15 @@ Vendor          : Fedora Project
 
 Name            : glycin-loaders
 Epoch           : 0
-Version         : 1.2.0
+Version         : 1.2.1
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 10.4 MiB
-Source          : glycin-1.2.0-1.fc42.src.rpm
-From repository : fedora
+Installed size  : 10.5 MiB
+Source          : glycin-1.2.1-1.fc42.src.rpm
+From repository : updates
 Summary         : Sandboxed image rendering (image loading backends)
 URL             : https://gitlab.gnome.org/GNOME/glycin
-License         : (MPL-2.0 OR LGPL-2.1-or-later) AND BSD-2-Clause AND BSD-3-Clause AND GPL-3.0-or-later AND ISC AND MIT AND (0BSD OR MIT OR Apache-2.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (MIT OR Apache-2.0 OR Zlib) AND (Unlicense OR MIT)
+License         : (MPL-2.0 OR LGPL-2.1-or-later) AND BSD-3-Clause AND GPL-3.0-or-later AND IJG AND ISC AND MIT AND Unicode-3.0 AND (0BSD OR MIT OR Apache-2.0) AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (MIT OR Apache-2.0 OR Zlib) AND (Unlicense OR MIT)
 Description     : Sandboxed and extendable image decoding.
                 : 
                 : This package contains the different image loading backends.
@@ -9731,12 +9787,12 @@ Vendor          : Fedora Project
 
 Name            : gnome-user-docs
 Epoch           : 0
-Version         : 47.5
+Version         : 48.1
 Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 57.9 MiB
-Source          : gnome-user-docs-47.5-1.fc42.src.rpm
-From repository : fedora
+Installed size  : 58.0 MiB
+Source          : gnome-user-docs-48.1-1.fc42.src.rpm
+From repository : updates
 Summary         : GNOME User Documentation
 URL             : https://help.gnome.org/
 License         : CC-BY-SA-3.0
@@ -9947,11 +10003,11 @@ Vendor          : Fedora Project
 
 Name            : google-chrome-stable
 Epoch           : 0
-Version         : 135.0.7049.114
+Version         : 136.0.7103.59
 Release         : 1
 Architecture    : x86_64
-Installed size  : 360.4 MiB
-Source          : google-chrome-stable-135.0.7049.114-1.src.rpm
+Installed size  : 362.7 MiB
+Source          : google-chrome-stable-136.0.7103.59-1.src.rpm
 From repository : google-chrome
 Summary         : Google Chrome
 URL             : https://chrome.google.com/
@@ -11604,12 +11660,12 @@ Vendor          : Fedora Project
 
 Name            : gstreamer1-plugin-gtk4
 Epoch           : 0
-Version         : 0.13.4
+Version         : 0.13.5
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 775.1 KiB
-Source          : rust-gst-plugin-gtk4-0.13.4-1.fc42.src.rpm
-From repository : fedora
+Installed size  : 790.7 KiB
+Source          : rust-gst-plugin-gtk4-0.13.5-1.fc42.src.rpm
+From repository : updates
 Summary         : GStreamer GTK 4 sink element
 URL             : https://crates.io/crates/gst-plugin-gtk4
 License         : MPL-2.0 AND MIT AND (Apache-2.0 OR MIT) AND (Unlicense OR MIT)
@@ -12998,11 +13054,11 @@ Vendor          : Fedora Project
 
 Name            : ibus-typing-booster
 Epoch           : 0
-Version         : 2.27.41
+Version         : 2.27.42
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 5.3 MiB
-Source          : ibus-typing-booster-2.27.41-1.fc42.src.rpm
+Source          : ibus-typing-booster-2.27.42-1.fc42.src.rpm
 From repository : updates
 Summary         : A completion input method
 URL             : https://mike-fabian.github.io/ibus-typing-booster/
@@ -13404,10 +13460,10 @@ Vendor          : Fedora Project
 Name            : iptables-libs
 Epoch           : 0
 Version         : 1.8.11
-Release         : 6.fc42
+Release         : 7.fc42
 Architecture    : x86_64
 Installed size  : 1.5 MiB
-Source          : iptables-1.8.11-6.fc42.src.rpm
+Source          : iptables-1.8.11-7.fc42.src.rpm
 From repository : updates
 Summary         : libxtables and iptables extensions userspace support
 URL             : https://www.netfilter.org/projects/iptables
@@ -13421,10 +13477,10 @@ Vendor          : Fedora Project
 Name            : iptables-nft
 Epoch           : 0
 Version         : 1.8.11
-Release         : 6.fc42
+Release         : 7.fc42
 Architecture    : x86_64
 Installed size  : 465.6 KiB
-Source          : iptables-1.8.11-6.fc42.src.rpm
+Source          : iptables-1.8.11-7.fc42.src.rpm
 From repository : updates
 Summary         : nftables compatibility for iptables, arptables and ebtables
 URL             : https://www.netfilter.org/projects/iptables
@@ -14242,20 +14298,6 @@ Vendor          : Fedora Project
 
 Name            : kernel
 Epoch           : 0
-Version         : 6.13.12
-Release         : 200.fc41
-Architecture    : x86_64
-Installed size  : 0.0   B
-Source          : kernel-6.13.12-200.fc41.src.rpm
-From repository : updates
-Summary         : The Linux kernel
-URL             : https://www.kernel.org/
-License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2 AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : The kernel meta package
-Vendor          : Fedora Project
-
-Name            : kernel
-Epoch           : 0
 Version         : 6.14.3
 Release         : 200.fc41
 Architecture    : x86_64
@@ -14282,21 +14324,18 @@ License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND (
 Description     : The kernel meta package
 Vendor          : Fedora Project
 
-Name            : kernel-core
+Name            : kernel
 Epoch           : 0
-Version         : 6.13.12
-Release         : 200.fc41
+Version         : 6.14.4
+Release         : 300.fc42
 Architecture    : x86_64
-Installed size  : 75.3 MiB
-Source          : kernel-6.13.12-200.fc41.src.rpm
+Installed size  : 0.0   B
+Source          : kernel-6.14.4-300.fc42.src.rpm
 From repository : updates
 Summary         : The Linux kernel
 URL             : https://www.kernel.org/
-License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2 AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : The kernel package contains the Linux kernel (vmlinuz), the core of any
-                : Linux operating system.  The kernel handles the basic functions
-                : of the operating system: memory allocation, process allocation, device
-                : input and output, etc.
+License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
+Description     : The kernel meta package
 Vendor          : Fedora Project
 
 Name            : kernel-core
@@ -14333,6 +14372,23 @@ Description     : The kernel package contains the Linux kernel (vmlinuz), the co
                 : input and output, etc.
 Vendor          : Fedora Project
 
+Name            : kernel-core
+Epoch           : 0
+Version         : 6.14.4
+Release         : 300.fc42
+Architecture    : x86_64
+Installed size  : 75.9 MiB
+Source          : kernel-6.14.4-300.fc42.src.rpm
+From repository : updates
+Summary         : The Linux kernel
+URL             : https://www.kernel.org/
+License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
+Description     : The kernel package contains the Linux kernel (vmlinuz), the core of any
+                : Linux operating system.  The kernel handles the basic functions
+                : of the operating system: memory allocation, process allocation, device
+                : input and output, etc.
+Vendor          : Fedora Project
+
 Name            : kernel-headers
 Epoch           : 0
 Version         : 6.14.3
@@ -14349,20 +14405,6 @@ Description     : Kernel-headers includes the C header files that specify the in
                 : header files define structures and constants that are needed for
                 : building most standard programs and are also needed for rebuilding the
                 : glibc package.
-Vendor          : Fedora Project
-
-Name            : kernel-modules
-Epoch           : 0
-Version         : 6.13.12
-Release         : 200.fc41
-Architecture    : x86_64
-Installed size  : 64.3 MiB
-Source          : kernel-6.13.12-200.fc41.src.rpm
-From repository : updates
-Summary         : kernel modules to match the core kernel
-URL             : https://www.kernel.org/
-License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2 AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : This package provides commonly used kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
 Name            : kernel-modules
@@ -14393,18 +14435,18 @@ License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND (
 Description     : This package provides commonly used kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
-Name            : kernel-modules-core
+Name            : kernel-modules
 Epoch           : 0
-Version         : 6.13.12
-Release         : 200.fc41
+Version         : 6.14.4
+Release         : 300.fc42
 Architecture    : x86_64
-Installed size  : 37.8 MiB
-Source          : kernel-6.13.12-200.fc41.src.rpm
+Installed size  : 65.1 MiB
+Source          : kernel-6.14.4-300.fc42.src.rpm
 From repository : updates
-Summary         : Core kernel modules to match the core kernel
+Summary         : kernel modules to match the core kernel
 URL             : https://www.kernel.org/
-License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2 AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : This package provides essential kernel modules for the core kernel package.
+License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
+Description     : This package provides commonly used kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
 Name            : kernel-modules-core
@@ -14435,18 +14477,18 @@ License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND (
 Description     : This package provides essential kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
-Name            : kernel-modules-extra
+Name            : kernel-modules-core
 Epoch           : 0
-Version         : 6.13.12
-Release         : 200.fc41
+Version         : 6.14.4
+Release         : 300.fc42
 Architecture    : x86_64
-Installed size  : 2.7 MiB
-Source          : kernel-6.13.12-200.fc41.src.rpm
+Installed size  : 38.9 MiB
+Source          : kernel-6.14.4-300.fc42.src.rpm
 From repository : updates
-Summary         : Extra kernel modules to match the kernel
+Summary         : Core kernel modules to match the core kernel
 URL             : https://www.kernel.org/
-License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2 AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : This package provides less commonly used kernel modules for the kernel package.
+License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
+Description     : This package provides essential kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
 Name            : kernel-modules-extra
@@ -14477,13 +14519,27 @@ License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND (
 Description     : This package provides less commonly used kernel modules for the kernel package.
 Vendor          : Fedora Project
 
+Name            : kernel-modules-extra
+Epoch           : 0
+Version         : 6.14.4
+Release         : 300.fc42
+Architecture    : x86_64
+Installed size  : 2.6 MiB
+Source          : kernel-6.14.4-300.fc42.src.rpm
+From repository : updates
+Summary         : Extra kernel modules to match the kernel
+URL             : https://www.kernel.org/
+License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
+Description     : This package provides less commonly used kernel modules for the kernel package.
+Vendor          : Fedora Project
+
 Name            : kernel-tools
 Epoch           : 0
-Version         : 6.14.3
+Version         : 6.14.4
 Release         : 300.fc42
 Architecture    : x86_64
 Installed size  : 2.1 MiB
-Source          : kernel-6.14.3-300.fc42.src.rpm
+Source          : kernel-6.14.4-300.fc42.src.rpm
 From repository : updates
 Summary         : Assortment of tools for the Linux kernel
 URL             : https://www.kernel.org/
@@ -14494,11 +14550,11 @@ Vendor          : Fedora Project
 
 Name            : kernel-tools-libs
 Epoch           : 0
-Version         : 6.14.3
+Version         : 6.14.4
 Release         : 300.fc42
 Architecture    : x86_64
 Installed size  : 30.3 KiB
-Source          : kernel-6.14.3-300.fc42.src.rpm
+Source          : kernel-6.14.4-300.fc42.src.rpm
 From repository : updates
 Summary         : Libraries for the kernels-tools
 URL             : https://www.kernel.org/
@@ -15390,10 +15446,10 @@ Vendor          : Fedora Project
 Name            : kf6-knotifications
 Epoch           : 0
 Version         : 6.13.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
-Installed size  : 424.3 KiB
-Source          : kf6-knotifications-6.13.0-1.fc42.src.rpm
+Installed size  : 428.4 KiB
+Source          : kf6-knotifications-6.13.0-2.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 2 solution with abstraction for system notifications
 URL             : https://invent.kde.org/frameworks/knotifications
@@ -15581,6 +15637,21 @@ Description     : Kerberos is a network authentication system. The krb5-libs pac
                 : contains the shared libraries needed by Kerberos 5. If you are using
                 : Kerberos, you need to install this package.
 Vendor          : Fedora Project
+
+Name            : kvazaar-libs
+Epoch           : 0
+Version         : 2.3.1
+Release         : 2.fc42
+Architecture    : x86_64
+Installed size  : 562.1 KiB
+Source          : kvazaar-2.3.1-2.fc42.src.rpm
+From repository : terra
+Summary         : HEVC encoder kvazaar libraries
+URL             : https://ultravideo.fi/kvazaar.html
+License         : BSD and ISC
+Description     : The kvazaar-devel package contains libraries and header files for developing
+                : applications that use kvazaar. This package contains the shared libraries.
+Vendor          : <NULL>
 
 Name            : kyotocabinet-libs
 Epoch           : 0
@@ -16864,76 +16935,68 @@ Description     : The libavc1394 library allows utilities to control IEEE-1394 d
                 : to control devices like the tape on a VCR or camcorder.
 Vendor          : Fedora Project
 
-Name            : libavcodec-free
-Epoch           : 0
+Name            : libavcodec
+Epoch           : 1
 Version         : 7.1.1
-Release         : 3.fc42
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 9.6 MiB
-Source          : ffmpeg-7.1.1-3.fc42.src.rpm
-From repository : fedora
+Installed size  : 12.9 MiB
+Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+From repository : terra
 Summary         : FFmpeg codec library
-URL             : https://ffmpeg.org/
-License         : GPL-3.0-or-later
-Description     : The libavcodec library provides a generic encoding/decoding framework
-                : and contains multiple decoders and encoders for audio, video and
-                : subtitle streams, and several bitstream filters.
-                : 
-                : 
-                : This build of ffmpeg is limited in the number of codecs supported.
-Vendor          : Fedora Project
+URL             : http://ffmpeg.org/
+License         : LGPL-3.0-or-later
+Description     : The libavcodec library provides a generic encoding/decoding framework and
+                : contains multiple decoders and encoders for audio, video and subtitle streams,
+                : and several bitstream filters.
+Vendor          : <NULL>
 
-Name            : libavdevice-free
-Epoch           : 0
+Name            : libavdevice
+Epoch           : 1
 Version         : 7.1.1
-Release         : 3.fc42
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 215.1 KiB
-Source          : ffmpeg-7.1.1-3.fc42.src.rpm
-From repository : fedora
-Summary         : FFmpeg device library
-URL             : https://ffmpeg.org/
-License         : GPL-3.0-or-later
-Description     : The libavdevice library provides a generic framework for grabbing from
-                : and rendering to many common multimedia input/output devices, and
-                : supports several input and output devices, including Video4Linux2, VfW,
-                : DShow, and ALSA.
-Vendor          : Fedora Project
+Installed size  : 207.1 KiB
+Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+From repository : terra
+Summary         : FFMpeg devices muxing/demuxing library
+URL             : http://ffmpeg.org/
+License         : LGPL-3.0-or-later
+Description     : Libavdevice is a complementary library to libavf "libavformat". It provides
+                : various "special" platform-specific muxers and demuxers, e.g. for grabbing
+                : devices, audio capture and playback etc.
+Vendor          : <NULL>
 
-Name            : libavfilter-free
-Epoch           : 0
+Name            : libavfilter
+Epoch           : 1
 Version         : 7.1.1
-Release         : 3.fc42
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 4.1 MiB
-Source          : ffmpeg-7.1.1-3.fc42.src.rpm
-From repository : fedora
+Installed size  : 4.3 MiB
+Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+From repository : terra
 Summary         : FFmpeg audio and video filtering library
-URL             : https://ffmpeg.org/
-License         : GPL-3.0-or-later
-Description     : The libavfilter library provides a generic audio/video filtering
-                : framework containing several filters, sources and sinks.
-Vendor          : Fedora Project
+URL             : http://ffmpeg.org/
+License         : LGPL-3.0-or-later
+Description     : The libavfilter library provides a generic audio/video filtering framework
+                : containing several filters, sources and sinks.
+Vendor          : <NULL>
 
-Name            : libavformat-free
-Epoch           : 0
+Name            : libavformat
+Epoch           : 1
 Version         : 7.1.1
-Release         : 3.fc42
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 2.6 MiB
-Source          : ffmpeg-7.1.1-3.fc42.src.rpm
-From repository : fedora
+Installed size  : 2.5 MiB
+Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+From repository : terra
 Summary         : FFmpeg's stream format library
-URL             : https://ffmpeg.org/
-License         : GPL-3.0-or-later
-Description     : The libavformat library provides a generic framework for multiplexing
-                : and demultiplexing (muxing and demuxing) audio, video and subtitle
-                : streams. It encompasses multiple muxers and demuxers for multimedia
-                : container formats.
-                : 
-                : 
-                : This build of ffmpeg is limited in the number of codecs supported.
-Vendor          : Fedora Project
+URL             : http://ffmpeg.org/
+License         : LGPL-3.0-or-later
+Description     : The libavformat library provides a generic framework for multiplexing and
+                : demultiplexing (muxing and demuxing) audio, video and subtitle streams.
+                : It encompasses multiple muxers and demuxers for multimedia container formats.
+Vendor          : <NULL>
 
 Name            : libavif
 Epoch           : 0
@@ -16952,23 +17015,23 @@ Description     : This library aims to be a friendly, portable C implementation 
                 : https://aomediacodec.github.io/av1-avif/
 Vendor          : Fedora Project
 
-Name            : libavutil-free
-Epoch           : 0
+Name            : libavutil
+Epoch           : 1
 Version         : 7.1.1
-Release         : 3.fc42
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 963.0 KiB
-Source          : ffmpeg-7.1.1-3.fc42.src.rpm
-From repository : fedora
+Installed size  : 982.5 KiB
+Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+From repository : terra
 Summary         : FFmpeg's utility library
-URL             : https://ffmpeg.org/
-License         : GPL-3.0-or-later
+URL             : http://ffmpeg.org/
+License         : LGPL-3.0-or-later
 Description     : The libavutil library is a utility library to aid portable multimedia
                 : programming. It contains safe portable string functions, random
                 : number generators, data structures, additional mathematics functions,
                 : cryptography and multimedia related functionality (like enumerations
                 : for pixel and sample formats).
-Vendor          : Fedora Project
+Vendor          : <NULL>
 
 Name            : libayatana-appindicator-gtk3
 Epoch           : 0
@@ -18208,6 +18271,22 @@ Name            : libdbusmenu
 Epoch           : 0
 Version         : 16.04.0
 Release         : 29.fc42
+Architecture    : i686
+Installed size  : 547.4 KiB
+Source          : libdbusmenu-16.04.0-29.fc42.src.rpm
+From repository : fedora
+Summary         : Library for passing menus over DBus
+URL             : https://launchpad.net/libdbusmenu
+License         : (LGPL-3.0-only OR LGPL-2.1-only) AND GPL-3.0-only
+Description     : This is a small library designed to make sharing and displaying of menu
+                : structures over DBus simple and easy to use. It works for both QT and GTK+ and
+                : makes building menus simple.
+Vendor          : Fedora Project
+
+Name            : libdbusmenu
+Epoch           : 0
+Version         : 16.04.0
+Release         : 29.fc42
 Architecture    : x86_64
 Installed size  : 540.1 KiB
 Source          : libdbusmenu-16.04.0-29.fc42.src.rpm
@@ -18218,6 +18297,20 @@ License         : (LGPL-3.0-only OR LGPL-2.1-only) AND GPL-3.0-only
 Description     : This is a small library designed to make sharing and displaying of menu
                 : structures over DBus simple and easy to use. It works for both QT and GTK+ and
                 : makes building menus simple.
+Vendor          : Fedora Project
+
+Name            : libdbusmenu-gtk3
+Epoch           : 0
+Version         : 16.04.0
+Release         : 29.fc42
+Architecture    : i686
+Installed size  : 87.7 KiB
+Source          : libdbusmenu-16.04.0-29.fc42.src.rpm
+From repository : fedora
+Summary         : Library for passing menus over DBus - Development files - GTK+2 version - GTK+3 version
+URL             : https://launchpad.net/libdbusmenu
+License         : (LGPL-3.0-only OR LGPL-2.1-only) AND GPL-3.0-only
+Description     : Shared libraries for the libdbusmenu-gtk3 library.
 Vendor          : Fedora Project
 
 Name            : libdbusmenu-gtk3
@@ -19789,12 +19882,12 @@ Vendor          : Fedora Project
 
 Name            : libheif
 Epoch           : 0
-Version         : 1.19.7
+Version         : 1.19.8
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.3 MiB
-Source          : libheif-1.19.7-1.fc42.src.rpm
-From repository : fedora
+Source          : libheif-1.19.8-1.fc42.src.rpm
+From repository : updates
 Summary         : HEIF and AVIF file format decoder and encoder
 URL             : https://github.com/strukturag/libheif
 License         : LGPL-3.0-or-later and MIT
@@ -21165,6 +21258,25 @@ Description     : libnotify is a library for sending desktop notifications to a 
                 : form of information without getting in the user's way.
 Vendor          : Fedora Project
 
+Name            : libnpp
+Epoch           : 1
+Version         : 12.3.3.100
+Release         : 2.fc42
+Architecture    : x86_64
+Installed size  : 305.4 MiB
+Source          : libnpp-12.3.3.100-2.fc42.src.rpm
+From repository : terra
+Summary         : NVIDIA Performance Primitives libraries
+URL             : https://developer.nvidia.com/cuda-toolkit
+License         : CUDA Toolkit
+Description     : The NVIDIA Performance Primitives library (NPP) is a collection of
+                : GPU-accelerated image, video, and signal processing functions that deliver 5x
+                : to 10x faster performance than comparable CPU-only implementations. Using NPP,
+                : developers can take advantage of over 1900 image processing and approx 600
+                : signal processing primitives to achieve significant improvements in application
+                : performance in a matter of hours.
+Vendor          : <NULL>
+
 Name            : libnsl
 Epoch           : 0
 Version         : 2.41
@@ -21344,11 +21456,11 @@ Vendor          : Fedora Project
 Name            : libopenjph
 Epoch           : 0
 Version         : 0.21.2
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
-Installed size  : 456.8 KiB
-Source          : openjph-0.21.2-1.fc42.src.rpm
-From repository : fedora
+Installed size  : 458.2 KiB
+Source          : openjph-0.21.2-2.fc42.src.rpm
+From repository : updates
 Summary         : JPEG-2000 Part-15 library
 URL             : https://openjph.org/
 License         : BSD-2-Clause
@@ -21864,21 +21976,21 @@ Description     : libportal provides GIO-style asynchronous APIs for most Flatpa
                 : This package provides files for GTK 4 and libportal.
 Vendor          : Fedora Project
 
-Name            : libpostproc-free
-Epoch           : 0
+Name            : libpostproc
+Epoch           : 1
 Version         : 7.1.1
-Release         : 3.fc42
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 85.6 KiB
-Source          : ffmpeg-7.1.1-3.fc42.src.rpm
-From repository : fedora
+Installed size  : 77.6 KiB
+Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+From repository : terra
 Summary         : FFmpeg post-processing library
-URL             : https://ffmpeg.org/
-License         : GPL-3.0-or-later
+URL             : http://ffmpeg.org/
+License         : LGPL-3.0-or-later
 Description     : A library with video postprocessing filters, such as deblocking and
                 : deringing filters, noise reduction, automatic contrast and brightness
                 : correction, linear/cubic interpolating deinterlacing.
-Vendor          : Fedora Project
+Vendor          : <NULL>
 
 Name            : libppd
 Epoch           : 1
@@ -22225,11 +22337,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-calc
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 26.5 MiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : LibreOffice Spreadsheet Application
 URL             : http://www.libreoffice.org/
@@ -22239,11 +22351,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-core
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 285.3 MiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : Core modules for LibreOffice
 URL             : http://www.libreoffice.org/
@@ -22253,11 +22365,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-data
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 3.3 MiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : LibreOffice data files
 URL             : http://www.libreoffice.org/
@@ -22267,11 +22379,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-emailmerge
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 29.9 KiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : Email mail-merge component for LibreOffice
 URL             : http://www.libreoffice.org/
@@ -22281,11 +22393,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-filters
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 0.0   B
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : All import / export filters
 URL             : http://www.libreoffice.org/
@@ -22296,11 +22408,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-graphicfilter
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.0 MiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : LibreOffice Extra Graphic filters
 URL             : http://www.libreoffice.org/
@@ -22310,11 +22422,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-gtk3
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.9 MiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : LibreOffice GTK+ 3 integration plug-in
 URL             : http://www.libreoffice.org/
@@ -22324,11 +22436,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-gtk4
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.8 MiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : LibreOffice GTK+ 4 experimental integration plug-in
 URL             : http://www.libreoffice.org/
@@ -22338,11 +22450,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-help-en
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 28.8 MiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : English help for LibreOffice
 URL             : http://www.libreoffice.org/
@@ -22352,11 +22464,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-impress
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 798.5 KiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : LibreOffice Presentation Application
 URL             : http://www.libreoffice.org/
@@ -22366,11 +22478,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-kf5
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.3 MiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : LibreOffice KDE Frameworks 5 integration plug-in
 URL             : http://www.libreoffice.org/
@@ -22380,11 +22492,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-langpack-en
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 171.9 KiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : English language pack for LibreOffice
 URL             : http://www.libreoffice.org/
@@ -22394,11 +22506,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-ogltrans
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 304.2 KiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : 3D OpenGL slide transitions for LibreOffice
 URL             : http://www.libreoffice.org/
@@ -22409,11 +22521,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-opensymbol-fonts
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 438.7 KiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : LibreOffice dingbats font
 URL             : http://www.libreoffice.org/
@@ -22424,11 +22536,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-pdfimport
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 578.4 KiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : PDF Importer for LibreOffice Draw
 URL             : http://www.libreoffice.org/
@@ -22439,11 +22551,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-pyuno
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 2.1 MiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : Python support for LibreOffice
 URL             : http://www.libreoffice.org/
@@ -22455,11 +22567,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-ure
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 6.4 MiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : UNO Runtime Environment
 URL             : http://www.libreoffice.org/
@@ -22474,11 +22586,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-ure-common
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 2.3 MiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : Common UNO Runtime Environment
 URL             : http://www.libreoffice.org/
@@ -22488,11 +22600,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-writer
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 12.1 MiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : LibreOffice Word Processor Application
 URL             : http://www.libreoffice.org/
@@ -22502,11 +22614,11 @@ Vendor          : Fedora Project
 
 Name            : libreoffice-xsltfilter
 Epoch           : 1
-Version         : 25.2.3.1
+Version         : 25.2.3.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 4.3 MiB
-Source          : libreoffice-25.2.3.1-1.fc42.src.rpm
+Source          : libreoffice-25.2.3.2-1.fc42.src.rpm
 From repository : updates
 Summary         : Optional xsltfilter module for LibreOffice
 URL             : http://www.libreoffice.org/
@@ -22736,12 +22848,12 @@ Vendor          : Fedora Project
 
 Name            : librewolf
 Epoch           : 0
-Version         : 137.0.2
-Release         : 1
+Version         : 138.0.1
+Release         : 2
 Architecture    : x86_64
-Installed size  : 352.9 MiB
-Source          : librewolf-137.0.2-1.src.rpm
-From repository : <unknown>
+Installed size  : 352.6 MiB
+Source          : librewolf-138.0.1-2.src.rpm
+From repository : repository
 Summary         : The LibreWolf browser
 URL             : https://librewolf-community.gitlab.io/
 License         : MPL
@@ -23351,11 +23463,11 @@ Vendor          : Fedora Project
 
 Name            : libspelling
 Epoch           : 0
-Version         : 0.4.7
+Version         : 0.4.8
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 241.2 KiB
-Source          : libspelling-0.4.7-1.fc42.src.rpm
+Installed size  : 242.2 KiB
+Source          : libspelling-0.4.8-1.fc42.src.rpm
 From repository : updates
 Summary         : Spellcheck library for GTK 4
 URL             : https://gitlab.gnome.org/GNOME/libspelling
@@ -23621,35 +23733,35 @@ Description     : Stemming algorithms written in C.
                 : - Yiddish
 Vendor          : Fedora Project
 
-Name            : libswresample-free
-Epoch           : 0
+Name            : libswresample
+Epoch           : 1
 Version         : 7.1.1
-Release         : 3.fc42
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 147.3 KiB
-Source          : ffmpeg-7.1.1-3.fc42.src.rpm
-From repository : fedora
+Installed size  : 143.5 KiB
+Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+From repository : terra
 Summary         : FFmpeg software resampling library
-URL             : https://ffmpeg.org/
-License         : GPL-3.0-or-later
+URL             : http://ffmpeg.org/
+License         : LGPL-3.0-or-later
 Description     : The libswresample library performs audio conversion between different
                 : sample rates, channel layout and channel formats.
-Vendor          : Fedora Project
+Vendor          : <NULL>
 
-Name            : libswscale-free
-Epoch           : 0
+Name            : libswscale
+Epoch           : 1
 Version         : 7.1.1
-Release         : 3.fc42
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 623.4 KiB
-Source          : ffmpeg-7.1.1-3.fc42.src.rpm
-From repository : fedora
+Installed size  : 622.3 KiB
+Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+From repository : terra
 Summary         : FFmpeg image scaling and colorspace/pixel conversion library
-URL             : https://ffmpeg.org/
-License         : GPL-3.0-or-later
+URL             : http://ffmpeg.org/
+License         : LGPL-3.0-or-later
 Description     : The libswscale library performs image scaling and colorspace and
                 : pixel format conversion operations.
-Vendor          : Fedora Project
+Vendor          : <NULL>
 
 Name            : libtalloc
 Epoch           : 0
@@ -24493,11 +24605,11 @@ Vendor          : Fedora Project
 Name            : libvirt-client
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 965.1 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Client side utilities of the libvirt library
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24508,11 +24620,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 726.4 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Server side daemon and supporting files for libvirt library
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24524,11 +24636,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-common
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 327.3 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Files and utilities used by daemons
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24538,11 +24650,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-config-network
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 470.0   B
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Default configuration files for the libvirtd daemon
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24552,11 +24664,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-interface
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
-Installed size  : 754.4 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Installed size  : 750.3 KiB
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Interface driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24567,11 +24679,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-network
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
-Installed size  : 884.3 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Installed size  : 880.2 KiB
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Network driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24583,11 +24695,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-nodedev
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
-Installed size  : 819.0 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Installed size  : 814.9 KiB
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Nodedev driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24599,11 +24711,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-nwfilter
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
-Installed size  : 844.1 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Installed size  : 840.0 KiB
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Nwfilter driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24615,11 +24727,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-qemu
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 2.8 MiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : QEMU driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24631,11 +24743,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-secret
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
-Installed size  : 746.2 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Installed size  : 742.1 KiB
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Secret driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24646,11 +24758,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 0.0   B
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Storage driver plugin including all backends for the libvirtd daemon
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24662,11 +24774,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-core
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
-Installed size  : 911.3 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Installed size  : 907.2 KiB
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Storage driver plugin including base backends for the libvirtd daemon
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24678,11 +24790,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-disk
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 27.8 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Storage driver plugin for disk
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24693,11 +24805,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-gluster
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 35.2 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Storage driver plugin for gluster
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24708,11 +24820,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-iscsi
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 19.7 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Storage driver plugin for iscsi
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24723,11 +24835,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-iscsi-direct
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 27.8 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Storage driver plugin for iscsi-direct
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24738,11 +24850,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-logical
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 27.9 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Storage driver plugin for lvm volumes
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24753,11 +24865,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-mpath
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 15.6 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Storage driver plugin for multipath volumes
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24768,11 +24880,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-rbd
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 40.0 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Storage driver plugin for rbd
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24783,11 +24895,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-scsi
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 19.7 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Storage driver plugin for local scsi devices
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24798,11 +24910,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-zfs
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 19.7 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Storage driver plugin for ZFS
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24813,11 +24925,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-kvm
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 0.0   B
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Server side daemon & driver required to run KVM guests
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24828,11 +24940,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-lock
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 99.6 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Server side daemon for managing locks
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24843,11 +24955,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-log
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
-Installed size  : 110.4 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Installed size  : 106.4 KiB
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Server side daemon for managing logs
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24857,11 +24969,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-plugin-lockd
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 27.7 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : lockd client plugin for virtlockd
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24872,11 +24984,11 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-proxy
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 724.2 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Server side daemon providing libvirtd proxy
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24932,11 +25044,11 @@ Vendor          : Fedora Project
 Name            : libvirt-libs
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 27.2 MiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Client side libraries
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -24946,11 +25058,11 @@ Vendor          : Fedora Project
 Name            : libvirt-ssh-proxy
 Epoch           : 0
 Version         : 11.0.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 19.9 KiB
-Source          : libvirt-11.0.0-1.fc42.src.rpm
-From repository : fedora
+Source          : libvirt-11.0.0-2.fc42.src.rpm
+From repository : updates
 Summary         : Libvirt SSH proxy
 URL             : https://libvirt.org/
 License         : GPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND OFL-1.1
@@ -25405,6 +25517,22 @@ URL             : http://www.openwsman.org/
 License         : BSD-3-Clause AND MIT
 Description     : Openwsman library for packages dependent on openwsman.
 Vendor          : Fedora Project
+
+Name            : libxavs
+Epoch           : 0
+Version         : 0.1.55
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 357.9 KiB
+Source          : xavs-0.1.55-1.fc42.src.rpm
+From repository : terra
+Summary         : AVS1 (First-generation AVS Standards) library
+URL             : https://xavs.sourceforge.net/
+License         : GPLv2
+Description     : AVS is a complete standard system including system, video, audio, and digital
+                : rights management, providing a more comprehensive solution for the digital audio
+                : and video industry.
+Vendor          : <NULL>
 
 Name            : libxcb
 Epoch           : 0
@@ -26146,12 +26274,12 @@ Vendor          : Fedora Project
 
 Name            : loupe
 Epoch           : 0
-Version         : 48.0
+Version         : 48.1
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 8.2 MiB
-Source          : loupe-48.0-1.fc42.src.rpm
-From repository : fedora
+Installed size  : 8.3 MiB
+Source          : loupe-48.1-1.fc42.src.rpm
+From repository : updates
 Summary         : Image viewer
 URL             : https://gitlab.gnome.org/GNOME/loupe
 License         : GPL-3.0-or-later AND ISC AND MIT AND Unicode-3.0 AND Unicode-DFS-2016 AND (Apache-2.0 OR MIT) AND (Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT) AND (BSD-2-Clause OR Apache-2.0 OR MIT) AND (MIT OR Apache-2.0 OR Zlib) AND (MPL-2.0 OR LGPL-2.1-or-later) AND (Unlicense OR MIT)
@@ -32797,11 +32925,11 @@ Vendor          : Fedora Project
 
 Name            : python3-boto3
 Epoch           : 0
-Version         : 1.38.2
+Version         : 1.38.5
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 2.1 MiB
-Source          : python-boto3-1.38.2-1.fc42.src.rpm
+Source          : python-boto3-1.38.5-1.fc42.src.rpm
 From repository : updates
 Summary         : The AWS SDK for Python
 URL             : https://github.com/boto/boto3
@@ -32813,11 +32941,11 @@ Vendor          : Fedora Project
 
 Name            : python3-botocore
 Epoch           : 0
-Version         : 1.38.2
+Version         : 1.38.5
 Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 101.0 MiB
-Source          : python-botocore-1.38.2-1.fc42.src.rpm
+Installed size  : 101.2 MiB
+Source          : python-botocore-1.38.5-1.fc42.src.rpm
 From repository : updates
 Summary         : Low-level, data-driven core of boto 3
 URL             : https://github.com/boto/botocore
@@ -33890,11 +34018,11 @@ Vendor          : Fedora Project
 
 Name            : python3-perf
 Epoch           : 0
-Version         : 6.14.3
+Version         : 6.14.4
 Release         : 300.fc42
 Architecture    : x86_64
 Installed size  : 8.4 MiB
-Source          : kernel-6.14.3-300.fc42.src.rpm
+Source          : kernel-6.14.4-300.fc42.src.rpm
 From repository : updates
 Summary         : Python bindings for apps which will manipulate perf events
 URL             : https://www.kernel.org/
@@ -34033,12 +34161,12 @@ Vendor          : Fedora Project
 
 Name            : python3-productmd
 Epoch           : 0
-Version         : 1.43
-Release         : 2.fc42
+Version         : 1.45
+Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 343.2 KiB
-Source          : python-productmd-1.43-2.fc42.src.rpm
-From repository : fedora
+Installed size  : 343.8 KiB
+Source          : python-productmd-1.45-1.fc42.src.rpm
+From repository : updates
 Summary         : Library providing parsers for metadata related to OS installation
 URL             : https://github.com/release-engineering/productmd
 License         : LGPL-2.1-only
@@ -34600,12 +34728,12 @@ Vendor          : Fedora Project
 
 Name            : python3-soupsieve
 Epoch           : 0
-Version         : 2.6
-Release         : 5.fc42
+Version         : 2.7
+Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 291.9 KiB
-Source          : python-soupsieve-2.6-5.fc42.src.rpm
-From repository : fedora
+Installed size  : 298.2 KiB
+Source          : python-soupsieve-2.7-1.fc42.src.rpm
+From repository : updates
 Summary         : CSS selector library
 URL             : https://github.com/facelessuser/soupsieve
 License         : MIT
@@ -36262,10 +36390,10 @@ Vendor          : Fedora Project
 Name            : qt6-qtbase
 Epoch           : 0
 Version         : 6.9.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 12.8 MiB
-Source          : qt6-qtbase-6.9.0-1.fc42.src.rpm
+Source          : qt6-qtbase-6.9.0-2.fc42.src.rpm
 From repository : updates
 Summary         : Qt6 - QtBase components
 URL             : http://qt-project.org/
@@ -36279,10 +36407,10 @@ Vendor          : Fedora Project
 Name            : qt6-qtbase-common
 Epoch           : 0
 Version         : 6.9.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : noarch
 Installed size  : 74.0   B
-Source          : qt6-qtbase-6.9.0-1.fc42.src.rpm
+Source          : qt6-qtbase-6.9.0-2.fc42.src.rpm
 From repository : updates
 Summary         : Common files for Qt6
 URL             : http://qt-project.org/
@@ -36293,10 +36421,10 @@ Vendor          : Fedora Project
 Name            : qt6-qtbase-gui
 Epoch           : 0
 Version         : 6.9.0
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 23.6 MiB
-Source          : qt6-qtbase-6.9.0-1.fc42.src.rpm
+Source          : qt6-qtbase-6.9.0-2.fc42.src.rpm
 From repository : updates
 Summary         : Qt6 GUI-related libraries
 URL             : http://qt-project.org/
@@ -38106,11 +38234,11 @@ Vendor          : Fedora Project
 Name            : steam
 Epoch           : 0
 Version         : 1.0.0.82
-Release         : 4.fc42
+Release         : 8.fc42
 Architecture    : i686
 Installed size  : 18.6 MiB
-Source          : steam-1.0.0.82-4.fc42.src.rpm
-From repository : rpmfusion-nonfree-steam
+Source          : steam-1.0.0.82-8.fc42.src.rpm
+From repository : terra
 Summary         : Installer for the Steam software distribution service
 URL             : http://www.steampowered.com/
 License         : Steam License Agreement and MIT
@@ -38119,7 +38247,21 @@ Description     : Steam is a software distribution service with an online store,
                 : and screenshot functionality, and many social features.
                 : 
                 : This package contains the installer for the Steam software distribution service.
-Vendor          : RPM Fusion
+Vendor          : <NULL>
+
+Name            : steam-device-rules
+Epoch           : 0
+Version         : 1.0.0.82
+Release         : 8.fc42
+Architecture    : noarch
+Installed size  : 55.4 KiB
+Source          : steam-1.0.0.82-8.fc42.src.rpm
+From repository : terra
+Summary         : Fix for keyboard/mouse/tablet being detected as joystick in Linux
+URL             : http://www.steampowered.com/
+License         : Steam License Agreement and MIT
+Description     : This package contains fixes for devices being detected incorrectly by Steam.
+Vendor          : <NULL>
 
 Name            : steam-devices
 Epoch           : 0
@@ -38240,6 +38382,20 @@ Description     : The Scalable Video Technology for AV1 Encoder (SVT-AV1 Encoder
                 : encoding / transcoding video applications.
                 : 
                 : This package contains SVT-AV1 libraries.
+Vendor          : Fedora Project
+
+Name            : svt-vp9-libs
+Epoch           : 0
+Version         : 0.3.0
+Release         : 13.fc42
+Architecture    : x86_64
+Installed size  : 778.4 KiB
+Source          : svt-vp9-0.3.0-13.fc42.src.rpm
+From repository : fedora
+Summary         : Libraries for svt-hevc
+URL             : https://github.com/OpenVisualCloud/SVT-VP9
+License         : BSD-2-Clause-Patent and ISC
+Description     : Libraries for development svt-hevc.
 Vendor          : Fedora Project
 
 Name            : switcheroo-control
@@ -39631,6 +39787,21 @@ License         : LicenseRef-Fedora-Public-Domain AND (GPL-2.0-only WITH ClassPa
 Description     : This package contains timezone information for use by Java runtimes.
 Vendor          : Fedora Project
 
+Name            : uavs3d-libs
+Epoch           : 0
+Version         : 1.2.0
+Release         : 4.20230223git1fd0491.fc42
+Architecture    : x86_64
+Installed size  : 627.8 KiB
+Source          : uavs3d-1.2.0-4.20230223git1fd0491.fc42.src.rpm
+From repository : terra
+Summary         : AVS3 decoder library
+URL             : https://github.com/uavs3/uavs3d
+License         : BSD
+Description     : Opensource and cross-platform AVS3 decoder that supports AVS3-P2 baseline
+                : profile.
+Vendor          : <NULL>
+
 Name            : uchardet
 Epoch           : 0
 Version         : 0.0.8
@@ -40734,6 +40905,21 @@ License         : Apache-2.0
 Description     : Vulkan tools
 Vendor          : Fedora Project
 
+Name            : vvenc-libs
+Epoch           : 0
+Version         : 1.12.1
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 3.2 MiB
+Source          : vvenc-1.12.1-1.fc42.src.rpm
+From repository : terra
+Summary         : VVenC, the Fraunhofer Versatile Video Encoder vvenc libraries
+URL             : https://github.com/fraunhoferhhi/vvenc
+License         : BSD-3-Clause
+Description     : The vvenc-devel package contains libraries and header files for developing
+                : applications that use vvenc. This package contains the shared libraries.
+Vendor          : <NULL>
+
 Name            : wavpack
 Epoch           : 0
 Version         : 5.8.1
@@ -40770,11 +40956,11 @@ Vendor          : Fedora Project
 
 Name            : wayland-protocols-devel
 Epoch           : 0
-Version         : 1.43
+Version         : 1.44
 Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 926.8 KiB
-Source          : wayland-protocols-1.43-1.fc42.src.rpm
+Installed size  : 953.3 KiB
+Source          : wayland-protocols-1.44-1.fc42.src.rpm
 From repository : updates
 Summary         : Wayland protocols that adds functionality not available in the core protocol
 URL             : https://wayland.freedesktop.org/
@@ -41099,6 +41285,55 @@ Description     : wsdd implements a Web Service Discovery host daemon. This enab
                 : hosts, like your local NAS device, to be found by Web Service Discovery Clients
                 : like Windows.
 Vendor          : Fedora Project
+
+Name            : x264-libs
+Epoch           : 0
+Version         : 0.164
+Release         : 16.20231001git31e19f92.fc42
+Architecture    : x86_64
+Installed size  : 2.7 MiB
+Source          : x264-0.164-16.20231001git31e19f92.fc42.src.rpm
+From repository : rpmfusion-free
+Summary         : Library for encoding H264/AVC video streams
+URL             : https://www.videolan.org/developers/x264.html
+License         : GPLv2+
+Description     : x264 is a free library for encoding H264/AVC video streams, written from
+                : scratch.
+Vendor          : RPM Fusion
+
+Name            : x265-libs
+Epoch           : 0
+Version         : 4.1
+Release         : 2.fc42
+Architecture    : x86_64
+Installed size  : 16.7 MiB
+Source          : x265-4.1-2.fc42.src.rpm
+From repository : rpmfusion-free
+Summary         : H.265/HEVC encoder library
+URL             : http://x265.org/
+License         : GPLv2+ and BSD
+Description     : The primary objective of x265 is to become the best H.265/HEVC encoder
+                : available anywhere, offering the highest compression efficiency and the
+                : highest performance on a wide variety of hardware platforms.
+                : 
+                : This package contains the shared library.
+Vendor          : RPM Fusion
+
+Name            : xavs2-libs
+Epoch           : 0
+Version         : 1.4
+Release         : 1.20190422giteae1e8b.fc42
+Architecture    : x86_64
+Installed size  : 1.9 MiB
+Source          : xavs2-1.4-1.20190422giteae1e8b.fc42.src.rpm
+From repository : terra
+Summary         : AVS2-P2/IEEE1857.4 encoder library
+URL             : https://github.com/pkuvcl/xavs2
+License         : GPLv2
+Description     : davs2 is an open-source encoder of AVS2-P2/IEEE1857.4 video coding standard.
+                : 
+                : This package contains the shared library.
+Vendor          : <NULL>
 
 Name            : xcb-util
 Epoch           : 0
@@ -41884,11 +42119,11 @@ Vendor          : Fedora Project
 
 Name            : zed
 Epoch           : 0
-Version         : 0.183.11
-Release         : 2.fc42
+Version         : 0.184.10
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 215.1 MiB
-Source          : zed-0.183.11-2.fc42.src.rpm
+Installed size  : 217.2 MiB
+Source          : zed-0.184.10-1.fc42.src.rpm
 From repository : terra
 Summary         : Zed is a high-performance, multiplayer code editor
 URL             : https://zed.dev/

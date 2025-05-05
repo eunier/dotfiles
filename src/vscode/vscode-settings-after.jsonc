@@ -9,7 +9,7 @@
 		"editor.defaultFormatter": "biomejs.biome"
 	},
 	"[jsonc]": {
-		"editor.defaultFormatter": "biomejs.biome"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[markdown]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -75,13 +75,16 @@
 	"editor.fontWeight": "600",
 	"editor.formatOnSave": true,
 	"editor.renderLineHighlight": "none",
-	"editor.rulers": [80],
+	"editor.rulers": [],
 	"editor.tabSize": 2,
 	"editor.tokenColorCustomizations": {
+		"[GitHub Light]": {},
 		"textMateRules": [
 			{
 				"scope": [
+					"comment.block.documentation.ts",
 					"comment.line.documentation.zig",
+					"comment.line.double-slash.ts",
 					"comment.line.double-slash.zig",
 					"comment.line.number-sign.shell",
 					"entity.name.type.alias.ts",
@@ -147,13 +150,14 @@
 	"javascript.referencesCodeLens.enabled": true,
 	"javascript.referencesCodeLens.showOnAllFunctions": true,
 	"javascript.updateImportsOnFileMove.enabled": "always",
+	"jest.runMode": "on-demand",
 	"material-icon-theme.activeIconPack": "none",
 	"material-icon-theme.files.associations": {
 		".zigversion": "lock"
 	},
 	"material-icon-theme.folders.theme": "classic",
 	"material-icon-theme.saturation": 1,
-	"outline.collapseItems": "alwaysCollapse",
+	"outline.collapseItems": "alwaysExpand",
 	"prettier.tabWidth": 2,
 	"sortEditors.sortEditorsAutomatically": true,
 	"telemetry.telemetryLevel": "off",
@@ -183,7 +187,7 @@
 	"workbench.editor.pinnedTabsOnSeparateRow": true,
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.preferredDarkColorTheme": "Adwaita Dark",
-	"workbench.preferredLightColorTheme": "Atom One Light",
+	"workbench.preferredLightColorTheme": "GitHub Light",
 	"workbench.tree.indent": 12,
 	"workspaceWizard.general.startOnNewWindow": "None",
 	"workspaceWizard.general.workspacesFolder": "/home/tron/Projects/workspaces",
