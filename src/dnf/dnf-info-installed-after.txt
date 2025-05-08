@@ -4137,10 +4137,10 @@ Vendor          : Fedora Project
 
 Name            : dbeaver-ce
 Epoch           : 0
-Version         : 25.0.3
+Version         : 25.0.4
 Release         : stable
 Architecture    : x86_64
-Installed size  : 163.6 MiB
+Installed size  : 163.7 MiB
 Source          : (none)
 From repository : <unknown>
 Summary         : Universal Database Manager and SQL Client
