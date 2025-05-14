@@ -6951,10 +6951,10 @@ Vendor          : Fedora Project
 Name            : ffmpeg
 Epoch           : 1
 Version         : 7.1.1
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 2.7 MiB
-Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+Source          : ffmpeg-7.1.1-2.fc42.src.rpm
 From repository : terra
 Summary         : A complete solution to record, convert and stream audio and video
 URL             : http://ffmpeg.org/
@@ -16938,10 +16938,10 @@ Vendor          : Fedora Project
 Name            : libavcodec
 Epoch           : 1
 Version         : 7.1.1
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 12.9 MiB
-Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+Source          : ffmpeg-7.1.1-2.fc42.src.rpm
 From repository : terra
 Summary         : FFmpeg codec library
 URL             : http://ffmpeg.org/
@@ -16954,10 +16954,10 @@ Vendor          : <NULL>
 Name            : libavdevice
 Epoch           : 1
 Version         : 7.1.1
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 207.1 KiB
-Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+Source          : ffmpeg-7.1.1-2.fc42.src.rpm
 From repository : terra
 Summary         : FFMpeg devices muxing/demuxing library
 URL             : http://ffmpeg.org/
@@ -16970,10 +16970,10 @@ Vendor          : <NULL>
 Name            : libavfilter
 Epoch           : 1
 Version         : 7.1.1
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 4.3 MiB
-Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+Source          : ffmpeg-7.1.1-2.fc42.src.rpm
 From repository : terra
 Summary         : FFmpeg audio and video filtering library
 URL             : http://ffmpeg.org/
@@ -16985,10 +16985,10 @@ Vendor          : <NULL>
 Name            : libavformat
 Epoch           : 1
 Version         : 7.1.1
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 2.5 MiB
-Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+Source          : ffmpeg-7.1.1-2.fc42.src.rpm
 From repository : terra
 Summary         : FFmpeg's stream format library
 URL             : http://ffmpeg.org/
@@ -17018,10 +17018,10 @@ Vendor          : Fedora Project
 Name            : libavutil
 Epoch           : 1
 Version         : 7.1.1
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 982.5 KiB
-Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+Source          : ffmpeg-7.1.1-2.fc42.src.rpm
 From repository : terra
 Summary         : FFmpeg's utility library
 URL             : http://ffmpeg.org/
@@ -21979,10 +21979,10 @@ Vendor          : Fedora Project
 Name            : libpostproc
 Epoch           : 1
 Version         : 7.1.1
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 77.6 KiB
-Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+Source          : ffmpeg-7.1.1-2.fc42.src.rpm
 From repository : terra
 Summary         : FFmpeg post-processing library
 URL             : http://ffmpeg.org/
@@ -23736,10 +23736,10 @@ Vendor          : Fedora Project
 Name            : libswresample
 Epoch           : 1
 Version         : 7.1.1
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 143.5 KiB
-Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+Source          : ffmpeg-7.1.1-2.fc42.src.rpm
 From repository : terra
 Summary         : FFmpeg software resampling library
 URL             : http://ffmpeg.org/
@@ -23751,10 +23751,10 @@ Vendor          : <NULL>
 Name            : libswscale
 Epoch           : 1
 Version         : 7.1.1
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 622.3 KiB
-Source          : ffmpeg-7.1.1-1.fc42.src.rpm
+Source          : ffmpeg-7.1.1-2.fc42.src.rpm
 From repository : terra
 Summary         : FFmpeg image scaling and colorspace/pixel conversion library
 URL             : http://ffmpeg.org/
@@ -40970,18 +40970,17 @@ Vendor          : Fedora Project
 
 Name            : vvenc-libs
 Epoch           : 0
-Version         : 1.12.1
-Release         : 1.fc42
+Version         : 1.13.1
+Release         : 3.fc42
 Architecture    : x86_64
-Installed size  : 3.2 MiB
-Source          : vvenc-1.12.1-1.fc42.src.rpm
-From repository : terra
-Summary         : VVenC, the Fraunhofer Versatile Video Encoder vvenc libraries
+Installed size  : 3.3 MiB
+Source          : vvenc-1.13.1-3.fc42.src.rpm
+From repository : rpmfusion-free-updates
+Summary         : Library  files for vvenc
 URL             : https://github.com/fraunhoferhhi/vvenc
-License         : BSD-3-Clause
-Description     : The vvenc-devel package contains libraries and header files for developing
-                : applications that use vvenc. This package contains the shared libraries.
-Vendor          : <NULL>
+License         : BSD-3-Clause-Clear
+Description     : The vvenc-libs package contains the library files
+Vendor          : RPM Fusion
 
 Name            : wavpack
 Epoch           : 0
@@ -42182,11 +42181,11 @@ Vendor          : Fedora Project
 
 Name            : zed
 Epoch           : 0
-Version         : 0.185.15
+Version         : 0.185.16
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 220.4 MiB
-Source          : zed-0.185.15-1.fc42.src.rpm
+Installed size  : 220.5 MiB
+Source          : zed-0.185.16-1.fc42.src.rpm
 From repository : terra
 Summary         : Zed is a high-performance, multiplayer code editor
 URL             : https://zed.dev/

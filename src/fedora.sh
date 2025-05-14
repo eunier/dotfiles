@@ -17,6 +17,7 @@ sh ~/.dotfiles/src/autostart.sh
 sh ~/.dotfiles/src/bash.sh
 sh ~/.dotfiles/src/dconf.sh
 sh ~/.dotfiles/src/doas.sh
+sh ~/.dotfiles/src/dotnet.sh
 sh ~/.dotfiles/src/fish.sh
 sh ~/.dotfiles/src/font.sh
 sh ~/.dotfiles/src/gitlab.sh
