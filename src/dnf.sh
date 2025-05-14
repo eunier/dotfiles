@@ -75,6 +75,7 @@ sudo dnf install \
     code \
     dconf-editor \
     discord \
+    dotnet-sdk-9.0 \
     epiphany \
     f41-backgrounds-base-0 \
     f41-backgrounds-gnome-0 \

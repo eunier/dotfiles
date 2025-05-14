@@ -1550,6 +1550,44 @@ Description     : A library for ARIB STD-B24, decoding JIS 8 bit characters and 
                 : stream.
 Vendor          : Fedora Project
 
+Name            : aspnetcore-runtime-9.0
+Epoch           : 0
+Version         : 9.0.4
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 22.3 MiB
+Source          : dotnet9.0-9.0.105-1.fc42.src.rpm
+From repository : updates
+Summary         : ASP.NET Core 9.0 runtime
+URL             : https://github.com/dotnet/
+License         : 0BSD AND Apache-2.0 AND (Apache-2.0 WITH LLVM-exception) AND APSL-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND BSL-1.0 AND bzip2-1.0.6 AND CC0-1.0 AND CC-BY-3.0 AND CC-BY-4.0 AND CC-PDDC AND CNRI-Python AND EPL-1.0 AND GPL-2.0-only AND (GPL-2.0-only WITH GCC-exception-2.0) AND GPL-2.0-or-later AND GPL-3.0-only AND ICU AND ISC AND LGPL-2.1-only AND LGPL-2.1-or-later AND LicenseRef-Fedora-Public-Domain AND LicenseRef-ISO-8879 AND MIT AND MIT-Wu AND MS-PL AND MS-RL AND NCSA AND OFL-1.1 AND OpenSSL AND Unicode-DFS-2015 AND Unicode-DFS-2016 AND W3C-19980720 AND X11 AND Zlib
+Description     : The ASP.NET Core runtime contains everything needed to run .NET
+                : web applications. It includes a high performance Virtual Machine as
+                : well as the framework libraries used by .NET applications.
+                : 
+                : ASP.NET Core is a fast, lightweight and modular platform for creating
+                : cross platform web applications that work on Linux, Mac and Windows.
+                : 
+                : It particularly focuses on creating console applications, web
+                : applications and micro-services.
+Vendor          : Fedora Project
+
+Name            : aspnetcore-targeting-pack-9.0
+Epoch           : 0
+Version         : 9.0.4
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 14.6 MiB
+Source          : dotnet9.0-9.0.105-1.fc42.src.rpm
+From repository : updates
+Summary         : Targeting Pack for Microsoft.AspNetCore.App 9.0
+URL             : https://github.com/dotnet/
+License         : 0BSD AND Apache-2.0 AND (Apache-2.0 WITH LLVM-exception) AND APSL-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND BSL-1.0 AND bzip2-1.0.6 AND CC0-1.0 AND CC-BY-3.0 AND CC-BY-4.0 AND CC-PDDC AND CNRI-Python AND EPL-1.0 AND GPL-2.0-only AND (GPL-2.0-only WITH GCC-exception-2.0) AND GPL-2.0-or-later AND GPL-3.0-only AND ICU AND ISC AND LGPL-2.1-only AND LGPL-2.1-or-later AND LicenseRef-Fedora-Public-Domain AND LicenseRef-ISO-8879 AND MIT AND MIT-Wu AND MS-PL AND MS-RL AND NCSA AND OFL-1.1 AND OpenSSL AND Unicode-DFS-2015 AND Unicode-DFS-2016 AND W3C-19980720 AND X11 AND Zlib
+Description     : This package provides a targeting pack for Microsoft.AspNetCore.App 9.0
+                : that allows developers to compile against and target Microsoft.AspNetCore.App 9.0
+                : applications using the .NET SDK.
+Vendor          : Fedora Project
+
 Name            : at-spi2-atk
 Epoch           : 0
 Version         : 2.56.2
@@ -5842,6 +5880,143 @@ Summary         : Libraries to parse configuration files
 URL             : https://github.com/williamh/dotconf/
 License         : LGPL-2.1-only AND Apache-1.1
 Description     : Dotconf is a library used to handle configuration files.
+Vendor          : Fedora Project
+
+Name            : dotnet-apphost-pack-9.0
+Epoch           : 0
+Version         : 9.0.4
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 11.1 MiB
+Source          : dotnet9.0-9.0.105-1.fc42.src.rpm
+From repository : updates
+Summary         : Targeting Pack for Microsoft.NETCore.App 9.0
+URL             : https://github.com/dotnet/
+License         : 0BSD AND Apache-2.0 AND (Apache-2.0 WITH LLVM-exception) AND APSL-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND BSL-1.0 AND bzip2-1.0.6 AND CC0-1.0 AND CC-BY-3.0 AND CC-BY-4.0 AND CC-PDDC AND CNRI-Python AND EPL-1.0 AND GPL-2.0-only AND (GPL-2.0-only WITH GCC-exception-2.0) AND GPL-2.0-or-later AND GPL-3.0-only AND ICU AND ISC AND LGPL-2.1-only AND LGPL-2.1-or-later AND LicenseRef-Fedora-Public-Domain AND LicenseRef-ISO-8879 AND MIT AND MIT-Wu AND MS-PL AND MS-RL AND NCSA AND OFL-1.1 AND OpenSSL AND Unicode-DFS-2015 AND Unicode-DFS-2016 AND W3C-19980720 AND X11 AND Zlib
+Description     : This package provides a targeting pack for Microsoft.NETCore.App 9.0
+                : that allows developers to compile against and target Microsoft.NETCore.App 9.0
+                : applications using the .NET SDK.
+Vendor          : Fedora Project
+
+Name            : dotnet-host
+Epoch           : 0
+Version         : 9.0.4
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 302.0 KiB
+Source          : dotnet9.0-9.0.105-1.fc42.src.rpm
+From repository : updates
+Summary         : .NET command line launcher
+URL             : https://github.com/dotnet/
+License         : 0BSD AND Apache-2.0 AND (Apache-2.0 WITH LLVM-exception) AND APSL-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND BSL-1.0 AND bzip2-1.0.6 AND CC0-1.0 AND CC-BY-3.0 AND CC-BY-4.0 AND CC-PDDC AND CNRI-Python AND EPL-1.0 AND GPL-2.0-only AND (GPL-2.0-only WITH GCC-exception-2.0) AND GPL-2.0-or-later AND GPL-3.0-only AND ICU AND ISC AND LGPL-2.1-only AND LGPL-2.1-or-later AND LicenseRef-Fedora-Public-Domain AND LicenseRef-ISO-8879 AND MIT AND MIT-Wu AND MS-PL AND MS-RL AND NCSA AND OFL-1.1 AND OpenSSL AND Unicode-DFS-2015 AND Unicode-DFS-2016 AND W3C-19980720 AND X11 AND Zlib
+Description     : The .NET host is a command line program that runs a standalone
+                : .NET application or launches the SDK.
+                : 
+                : .NET is a fast, lightweight and modular platform for creating
+                : cross platform applications that work on Linux, Mac and Windows.
+                : 
+                : It particularly focuses on creating console applications, web
+                : applications and micro-services.
+Vendor          : Fedora Project
+
+Name            : dotnet-hostfxr-9.0
+Epoch           : 0
+Version         : 9.0.4
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 309.4 KiB
+Source          : dotnet9.0-9.0.105-1.fc42.src.rpm
+From repository : updates
+Summary         : .NET command line host resolver
+URL             : https://github.com/dotnet/
+License         : 0BSD AND Apache-2.0 AND (Apache-2.0 WITH LLVM-exception) AND APSL-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND BSL-1.0 AND bzip2-1.0.6 AND CC0-1.0 AND CC-BY-3.0 AND CC-BY-4.0 AND CC-PDDC AND CNRI-Python AND EPL-1.0 AND GPL-2.0-only AND (GPL-2.0-only WITH GCC-exception-2.0) AND GPL-2.0-or-later AND GPL-3.0-only AND ICU AND ISC AND LGPL-2.1-only AND LGPL-2.1-or-later AND LicenseRef-Fedora-Public-Domain AND LicenseRef-ISO-8879 AND MIT AND MIT-Wu AND MS-PL AND MS-RL AND NCSA AND OFL-1.1 AND OpenSSL AND Unicode-DFS-2015 AND Unicode-DFS-2016 AND W3C-19980720 AND X11 AND Zlib
+Description     : The .NET host resolver contains the logic to resolve and select
+                : the right version of the .NET SDK or runtime to use.
+                : 
+                : .NET is a fast, lightweight and modular platform for creating
+                : cross platform applications that work on Linux, Mac and Windows.
+                : 
+                : It particularly focuses on creating console applications, web
+                : applications and micro-services.
+Vendor          : Fedora Project
+
+Name            : dotnet-runtime-9.0
+Epoch           : 0
+Version         : 9.0.4
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 70.5 MiB
+Source          : dotnet9.0-9.0.105-1.fc42.src.rpm
+From repository : updates
+Summary         : NET 9.0 runtime
+URL             : https://github.com/dotnet/
+License         : 0BSD AND Apache-2.0 AND (Apache-2.0 WITH LLVM-exception) AND APSL-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND BSL-1.0 AND bzip2-1.0.6 AND CC0-1.0 AND CC-BY-3.0 AND CC-BY-4.0 AND CC-PDDC AND CNRI-Python AND EPL-1.0 AND GPL-2.0-only AND (GPL-2.0-only WITH GCC-exception-2.0) AND GPL-2.0-or-later AND GPL-3.0-only AND ICU AND ISC AND LGPL-2.1-only AND LGPL-2.1-or-later AND LicenseRef-Fedora-Public-Domain AND LicenseRef-ISO-8879 AND MIT AND MIT-Wu AND MS-PL AND MS-RL AND NCSA AND OFL-1.1 AND OpenSSL AND Unicode-DFS-2015 AND Unicode-DFS-2016 AND W3C-19980720 AND X11 AND Zlib
+Description     : The .NET runtime contains everything needed to run .NET applications.
+                : It includes a high performance Virtual Machine as well as the framework
+                : libraries used by .NET applications.
+                : 
+                : .NET is a fast, lightweight and modular platform for creating
+                : cross platform applications that work on Linux, Mac and Windows.
+                : 
+                : It particularly focuses on creating console applications, web
+                : applications and micro-services.
+Vendor          : Fedora Project
+
+Name            : dotnet-sdk-9.0
+Epoch           : 0
+Version         : 9.0.105
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 279.8 MiB
+Source          : dotnet9.0-9.0.105-1.fc42.src.rpm
+From repository : updates
+Summary         : .NET 9.0 Software Development Kit
+URL             : https://github.com/dotnet/
+License         : 0BSD AND Apache-2.0 AND (Apache-2.0 WITH LLVM-exception) AND APSL-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND BSL-1.0 AND bzip2-1.0.6 AND CC0-1.0 AND CC-BY-3.0 AND CC-BY-4.0 AND CC-PDDC AND CNRI-Python AND EPL-1.0 AND GPL-2.0-only AND (GPL-2.0-only WITH GCC-exception-2.0) AND GPL-2.0-or-later AND GPL-3.0-only AND ICU AND ISC AND LGPL-2.1-only AND LGPL-2.1-or-later AND LicenseRef-Fedora-Public-Domain AND LicenseRef-ISO-8879 AND MIT AND MIT-Wu AND MS-PL AND MS-RL AND NCSA AND OFL-1.1 AND OpenSSL AND Unicode-DFS-2015 AND Unicode-DFS-2016 AND W3C-19980720 AND X11 AND Zlib
+Description     : The .NET SDK is a collection of command line applications to
+                : create, build, publish and run .NET applications.
+                : 
+                : .NET is a fast, lightweight and modular platform for creating
+                : cross platform applications that work on Linux, Mac and Windows.
+                : 
+                : It particularly focuses on creating console applications, web
+                : applications and micro-services.
+Vendor          : Fedora Project
+
+Name            : dotnet-targeting-pack-9.0
+Epoch           : 0
+Version         : 9.0.4
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 36.9 MiB
+Source          : dotnet9.0-9.0.105-1.fc42.src.rpm
+From repository : updates
+Summary         : Targeting Pack for Microsoft.NETCore.App 9.0
+URL             : https://github.com/dotnet/
+License         : 0BSD AND Apache-2.0 AND (Apache-2.0 WITH LLVM-exception) AND APSL-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND BSL-1.0 AND bzip2-1.0.6 AND CC0-1.0 AND CC-BY-3.0 AND CC-BY-4.0 AND CC-PDDC AND CNRI-Python AND EPL-1.0 AND GPL-2.0-only AND (GPL-2.0-only WITH GCC-exception-2.0) AND GPL-2.0-or-later AND GPL-3.0-only AND ICU AND ISC AND LGPL-2.1-only AND LGPL-2.1-or-later AND LicenseRef-Fedora-Public-Domain AND LicenseRef-ISO-8879 AND MIT AND MIT-Wu AND MS-PL AND MS-RL AND NCSA AND OFL-1.1 AND OpenSSL AND Unicode-DFS-2015 AND Unicode-DFS-2016 AND W3C-19980720 AND X11 AND Zlib
+Description     : This package provides a targeting pack for Microsoft.NETCore.App 9.0
+                : that allows developers to compile against and target Microsoft.NETCore.App 9.0
+                : applications using the .NET SDK.
+Vendor          : Fedora Project
+
+Name            : dotnet-templates-9.0
+Epoch           : 0
+Version         : 9.0.105
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 9.7 MiB
+Source          : dotnet9.0-9.0.105-1.fc42.src.rpm
+From repository : updates
+Summary         : .NET 9.0 templates
+URL             : https://github.com/dotnet/
+License         : 0BSD AND Apache-2.0 AND (Apache-2.0 WITH LLVM-exception) AND APSL-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND BSL-1.0 AND bzip2-1.0.6 AND CC0-1.0 AND CC-BY-3.0 AND CC-BY-4.0 AND CC-PDDC AND CNRI-Python AND EPL-1.0 AND GPL-2.0-only AND (GPL-2.0-only WITH GCC-exception-2.0) AND GPL-2.0-or-later AND GPL-3.0-only AND ICU AND ISC AND LGPL-2.1-only AND LGPL-2.1-or-later AND LicenseRef-Fedora-Public-Domain AND LicenseRef-ISO-8879 AND MIT AND MIT-Wu AND MS-PL AND MS-RL AND NCSA AND OFL-1.1 AND OpenSSL AND Unicode-DFS-2015 AND Unicode-DFS-2016 AND W3C-19980720 AND X11 AND Zlib
+Description     : This package contains templates used by the .NET SDK.
+                : 
+                : .NET is a fast, lightweight and modular platform for creating
+                : cross platform applications that work on Linux, Mac and Windows.
+                : 
+                : It particularly focuses on creating console applications, web
+                : applications and micro-services.
 Vendor          : Fedora Project
 
 Name            : double-conversion
@@ -28091,6 +28266,22 @@ Description     : OCI network stack
                 : * Support for rootless containers
                 : * Support for IPv4 and IPv6
                 : * Support for container DNS resolution via aardvark-dns.
+Vendor          : Fedora Project
+
+Name            : netstandard-targeting-pack-2.1
+Epoch           : 0
+Version         : 9.0.105
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 17.9 MiB
+Source          : dotnet9.0-9.0.105-1.fc42.src.rpm
+From repository : updates
+Summary         : Targeting Pack for NETStandard.Library 2.1
+URL             : https://github.com/dotnet/
+License         : 0BSD AND Apache-2.0 AND (Apache-2.0 WITH LLVM-exception) AND APSL-2.0 AND BSD-2-Clause AND BSD-3-Clause AND BSD-4-Clause AND BSL-1.0 AND bzip2-1.0.6 AND CC0-1.0 AND CC-BY-3.0 AND CC-BY-4.0 AND CC-PDDC AND CNRI-Python AND EPL-1.0 AND GPL-2.0-only AND (GPL-2.0-only WITH GCC-exception-2.0) AND GPL-2.0-or-later AND GPL-3.0-only AND ICU AND ISC AND LGPL-2.1-only AND LGPL-2.1-or-later AND LicenseRef-Fedora-Public-Domain AND LicenseRef-ISO-8879 AND MIT AND MIT-Wu AND MS-PL AND MS-RL AND NCSA AND OFL-1.1 AND OpenSSL AND Unicode-DFS-2015 AND Unicode-DFS-2016 AND W3C-19980720 AND X11 AND Zlib
+Description     : This package provides a targeting pack for NETStandard.Library 2.1
+                : that allows developers to compile against and target NETStandard.Library 2.1
+                : applications using the .NET SDK.
 Vendor          : Fedora Project
 
 Name            : nettle
