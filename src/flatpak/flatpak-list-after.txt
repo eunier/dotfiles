@@ -1,5 +1,5 @@
 Key Rack	app.drey.KeyRack	0.4.0	stable	system
-Zen	app.zen_browser.zen	1.12.1b	stable	system
+Zen	app.zen_browser.zen	1.12.3b	stable	system
 Adventure List	codes.merritt.adventurelist	0.15.0	stable	system
 Authenticator	com.belmoussaoui.Authenticator	4.6.2	stable	system
 Mindustry	com.github.Anuken.Mindustry	146	stable	system
@@ -17,7 +17,7 @@ Audio Sharing	de.haeckerfelix.AudioSharing	0.2.4	stable	system
 Fragments	de.haeckerfelix.Fragments	3.0.1	stable	system
 Shortwave	de.haeckerfelix.Shortwave	5.0.0	stable	system
 Calligraphy	dev.geopjr.Calligraphy	1.2.0	stable	system
-Restfox	dev.restfox.Restfox	0.36.0	stable	system
+Restfox	dev.restfox.Restfox	0.37.0	stable	system
 Almond	edu.stanford.Almond	2.0.0~alpha.1	stable	system
 Morphosis	garden.jamie.Morphosis	48.2	stable	system
 Memorado	im.bernard.Memorado	0.5	stable	system
@@ -28,11 +28,11 @@ IP Lookup	io.github.bytezz.IPLookup	0.4.0	stable	system
 Paper Clip	io.github.diegoivan.pdf_metadata_editor	5.0	stable	system
 Pins	io.github.fabrialberio.pinapp	2.2.0	stable	system
 Hieroglyphic	io.github.finefindus.Hieroglyphic	2.1.0	stable	system
-Embellish	io.github.getnf.embellish	v0.4.6	stable	system
+Embellish	io.github.getnf.embellish	v0.4.7	stable	system
 Bella	io.github.josephmawa.Bella	0.1.4	stable	system
 Egghead	io.github.josephmawa.Egghead	0.1.1	stable	system
 TriPeaks	io.github.mimoguz.TriPeaks-GDX	1.2.3	stable	system
-Inspector	io.github.nokse22.inspector	0.2.0	stable	system
+Inspector	io.github.nokse22.inspector	0.3.0	stable	system
 Mini Text	io.github.nokse22.minitext	1.0.0	stable	system
 Ultimate Tic Tac Toe	io.github.nokse22.ultimate-tic-tac-toe	1.1.0	stable	system
 BMI	io.github.philippkosarev.bmi	v3.0	stable	system
@@ -44,20 +44,20 @@ Text Pieces	io.gitlab.liferooter.TextPieces	4.2.0	stable	system
 Newsflash	io.gitlab.news_flash.NewsFlash	3.3.5	stable	system
 HTTPie	io.httpie.Httpie	2024.1.2	stable	system
 Mission Center	io.missioncenter.MissionCenter	1.0.0	stable	system
-Podman Desktop	io.podman_desktop.PodmanDesktop	1.18.0	stable	system
+Podman Desktop	io.podman_desktop.PodmanDesktop	1.18.1	stable	system
 Obsidian	md.obsidian.Obsidian	1.8.10	stable	system
-Ticket Booth	me.iepure.Ticketbooth	1.1.1	stable	system
+Ticket Booth	me.iepure.Ticketbooth	1.2.0	stable	system
 Dev Toolbox	me.iepure.devtoolbox	1.2.5	stable	system
 Syncthing GTK	me.kozec.syncthingtk	v0.9.4.5	stable	system
 Web Apps	net.codelogistics.webapps	0.5.11	stable	system
 Iconic	nl.emphisia.icon	2025.3.2	stable	system
 Lemma	org.cvfosammmm.Lemma	32	stable	system
 Flatpak External Data Checker	org.flathub.flatpak-external-data-checker		stable	system
-Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.30	23.08	system
+Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.31	23.08	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.19	24.08	system
 Mesa	org.freedesktop.Platform.GL.default	21.3.9	21.08	system
-Mesa	org.freedesktop.Platform.GL.default	25.0.3	23.08	system
-Mesa (Extra)	org.freedesktop.Platform.GL.default	25.0.3	23.08-extra	system
+Mesa	org.freedesktop.Platform.GL.default	25.0.5	23.08	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	25.0.5	23.08-extra	system
 Mesa	org.freedesktop.Platform.GL.default	25.0.5	24.08	system
 Mesa (Extra)	org.freedesktop.Platform.GL.default	25.0.5	24.08extra	system
 FFmpeg extension with extra codecs	org.freedesktop.Platform.ffmpeg-full		23.08	system
@@ -84,9 +84,9 @@ Buffer	org.gnome.gitlab.cheywood.Buffer	0.10.0	stable	system
 Cavalier	org.nickvision.cavalier	2024.1.0	stable	system
 Denaro	org.nickvision.money	2024.2.0	stable	system
 Tagger	org.nickvision.tagger	2024.6.0	stable	system
-Parabolic	org.nickvision.tubeconverter	2025.5.1	stable	system
+Parabolic	org.nickvision.tubeconverter	2025.5.3	stable	system
 pgAdmin 4	org.pgadmin.pgadmin4	9.3	stable	system
-Main Menu	page.codeberg.libre_menu_editor.LibreMenuEditor	1.9.1	stable	system
+Main Menu	page.codeberg.libre_menu_editor.LibreMenuEditor	1.9.2	stable	system
 Commit	re.sonny.Commit	4.3	stable	system
 Graphs	se.sjoerd.Graphs	1.8.4	stable	system
 Zoom	us.zoom.Zoom	6.4.6.1370	stable	system

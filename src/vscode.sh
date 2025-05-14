@@ -57,11 +57,13 @@ code --install-extension usernamehw.errorlens >/dev/null 2>&1 && printf "."
 code --install-extension vadimcn.vscode-lldb >/dev/null 2>&1 && printf "."
 code --install-extension vsls-contrib.gistfs >/dev/null 2>&1 && printf "."
 code --install-extension wk-j.vscode-httpie >/dev/null 2>&1 && printf "."
+code --install-extension wraith13.zoombar-vscode >/dev/null 2>&1 && printf "."
 code --install-extension yoavbls.pretty-ts-errors >/dev/null 2>&1 && printf "."
 code --install-extension zhuangtongfa.Material-theme >/dev/null 2>&1 && printf "."
 code --install-extension ziglang.vscode-zig >/dev/null 2>&1 && printf "."
 code --install-extension Zignd.html-css-class-completion >/dev/null 2>&1 && printf "."
 #spell-checker: enable
+
 
 echo ""
 touch ~/.dotfiles/src/vscode/vscode-extensions-before.txt
