@@ -1,4 +1,7 @@
 {
+	"[csharp]": {
+		"editor.defaultFormatter": "csharpier.csharpier-vscode"
+	},
 	"[css]": {
 		"editor.defaultFormatter": "biomejs.biome"
 	},
@@ -34,6 +37,7 @@
 	"cSpell.userWords": [
 		"adipiscor",
 		"anyerror",
+		"ASPNETCORE",
 		"autofetch",
 		"comptime",
 		"deinit",
@@ -87,7 +91,6 @@
 	"editor.formatOnSave": true,
 	"editor.renderLineHighlight": "none",
 	"editor.rulers": [],
-	"editor.tabSize": 2,
 	"editor.tokenColorCustomizations": {
 		"[Adwaita Light]": {
 			"textMateRules": [
@@ -231,7 +234,7 @@
 	"workbench.editor.pinnedTabsOnSeparateRow": true,
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.preferredDarkColorTheme": "Adwaita Dark",
-	"workbench.preferredLightColorTheme": "Adwaita Light",
+	"workbench.preferredLightColorTheme": "GitHub Light",
 	"workbench.tree.indent": 12,
 	"workspaceWizard.general.startOnNewWindow": "None",
 	"workspaceWizard.general.workspacesFolder": "/home/tron/Projects/workspaces",

@@ -7,6 +7,8 @@ bpruitt-goddard.mermaid-markdown-syntax-highlighting
 bradlc.vscode-tailwindcss
 chrisdias.vscode-opennewinstance
 coddx.coddx-alpha
+codezombiech.gitignore
+csharpier.csharpier-vscode
 davidanson.vscode-markdownlint
 editorconfig.editorconfig
 egirlcatnip.adwaita-github-theme
@@ -42,6 +44,7 @@ ms-vscode.remote-repositories
 orhun.last-commit
 orta.vscode-jest
 oven.bun-vscode
+patcx.vscode-nuget-gallery
 pflannery.vscode-versionlens
 piousdeer.adwaita-theme
 pkief.copy-branch-name

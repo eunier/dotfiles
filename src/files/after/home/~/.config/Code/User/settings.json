@@ -34,6 +34,7 @@
 	"cSpell.userWords": [
 		"adipiscor",
 		"anyerror",
+		"ASPNETCORE",
 		"autofetch",
 		"comptime",
 		"deinit",
@@ -62,10 +63,19 @@
 		"zflecs",
 		"zigversion"
 	],
+	"csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
+	"csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
+	"csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
+	"csharp.inlayHints.enableInlayHintsForTypes": true,
 	"debug.console.fontFamily": "Cascadia Code",
 	"debug.javascript.autoAttachFilter": "smart",
 	"debug.toolBarLocation": "commandCenter",
 	"diffEditor.ignoreTrimWhitespace": true,
+	"dotnet.inlayHints.enableInlayHintsForIndexerParameters": true,
+	"dotnet.inlayHints.enableInlayHintsForLiteralParameters": true,
+	"dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
+	"dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
+	"dotnet.inlayHints.enableInlayHintsForParameters": true,
 	"editor.codeActionsOnSave": {
 		"quickfix.biome": "explicit",
 		"source.organizeImports.biome": "explicit"
@@ -78,7 +88,6 @@
 	"editor.formatOnSave": true,
 	"editor.renderLineHighlight": "none",
 	"editor.rulers": [],
-	"editor.tabSize": 2,
 	"editor.tokenColorCustomizations": {
 		"[Adwaita Light]": {
 			"textMateRules": [
@@ -222,20 +231,14 @@
 	"workbench.editor.pinnedTabsOnSeparateRow": true,
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.preferredDarkColorTheme": "Adwaita Dark",
-	"workbench.preferredLightColorTheme": "Adwaita Light",
+	"workbench.preferredLightColorTheme": "GitHub Light",
 	"workbench.tree.indent": 12,
 	"workspaceWizard.general.startOnNewWindow": "None",
 	"workspaceWizard.general.workspacesFolder": "/home/tron/Projects/workspaces",
 	"zig.path": "zig",
 	"zig.zls.enabled": "on",
 	"zig.zls.inlayHintsExcludeSingleArgument": false,
-	"csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
-	"csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
-	"csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
-	"csharp.inlayHints.enableInlayHintsForTypes": true,
-	"dotnet.inlayHints.enableInlayHintsForIndexerParameters": true,
-	"dotnet.inlayHints.enableInlayHintsForLiteralParameters": true,
-	"dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
-	"dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
-	"dotnet.inlayHints.enableInlayHintsForParameters": true
+	"[csharp]": {
+		"editor.defaultFormatter": "csharpier.csharpier-vscode"
+	}
 }
