@@ -118,7 +118,6 @@
 │   │   ├── doas-after.conf
 │   │   └── doas-before.conf
 │   ├── doas.sh
-│   ├── dotnet.sh
 │   ├── fastfetch
 │   │   ├── fastfetch-config-after.jsonc
 │   │   ├── fastfetch-config-before.jsonc
@@ -242,4 +241,4 @@
 └── .vscode
     └── settings.json
 
-61 directories, 182 files
+61 directories, 181 files

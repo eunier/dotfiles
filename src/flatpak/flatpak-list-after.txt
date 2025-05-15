@@ -1,5 +1,5 @@
 Key Rack	app.drey.KeyRack	0.4.0	stable	system
-Zen	app.zen_browser.zen	1.12.3b	stable	system
+Zen	app.zen_browser.zen	1.12.5b	stable	system
 Adventure List	codes.merritt.adventurelist	0.15.0	stable	system
 Authenticator	com.belmoussaoui.Authenticator	4.6.2	stable	system
 Mindustry	com.github.Anuken.Mindustry	146	stable	system
@@ -24,13 +24,13 @@ Memorado	im.bernard.Memorado	0.5	stable	system
 FreeTube	io.freetubeapp.FreeTube	0.23.5 Beta	stable	system
 AdwSteamGtk	io.github.Foldex.AdwSteamGtk	0.8.0	stable	system
 Godots	io.github.MakovWait.Godots	v1.3.stable	stable	system
-IP Lookup	io.github.bytezz.IPLookup	0.4.0	stable	system
+IP Lookup	io.github.bytezz.IPLookup	0.4.1	stable	system
 Paper Clip	io.github.diegoivan.pdf_metadata_editor	5.0	stable	system
 Pins	io.github.fabrialberio.pinapp	2.2.0	stable	system
 Hieroglyphic	io.github.finefindus.Hieroglyphic	2.1.0	stable	system
 Embellish	io.github.getnf.embellish	v0.4.7	stable	system
 Bella	io.github.josephmawa.Bella	0.1.4	stable	system
-Egghead	io.github.josephmawa.Egghead	0.1.1	stable	system
+Egghead	io.github.josephmawa.Egghead	0.1.2	stable	system
 TriPeaks	io.github.mimoguz.TriPeaks-GDX	1.2.3	stable	system
 Inspector	io.github.nokse22.inspector	0.3.0	stable	system
 Mini Text	io.github.nokse22.minitext	1.0.0	stable	system

@@ -62,10 +62,19 @@
 		"zflecs",
 		"zigversion"
 	],
+	"csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
+	"csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
+	"csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
+	"csharp.inlayHints.enableInlayHintsForTypes": true,
 	"debug.console.fontFamily": "Cascadia Code",
 	"debug.javascript.autoAttachFilter": "smart",
 	"debug.toolBarLocation": "commandCenter",
 	"diffEditor.ignoreTrimWhitespace": true,
+	"dotnet.inlayHints.enableInlayHintsForIndexerParameters": true,
+	"dotnet.inlayHints.enableInlayHintsForLiteralParameters": true,
+	"dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
+	"dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
+	"dotnet.inlayHints.enableInlayHintsForParameters": true,
 	"editor.codeActionsOnSave": {
 		"quickfix.biome": "explicit",
 		"source.organizeImports.biome": "explicit"

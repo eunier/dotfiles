@@ -2565,11 +2565,11 @@ Vendor          : Fedora Project
 
 Name            : breeze-icon-theme
 Epoch           : 0
-Version         : 6.13.0
-Release         : 2.fc42
+Version         : 6.14.0
+Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 27.0 MiB
-Source          : kf6-breeze-icons-6.13.0-2.fc42.src.rpm
+Installed size  : 26.9 MiB
+Source          : kf6-breeze-icons-6.14.0-1.fc42.src.rpm
 From repository : updates
 Summary         : Breeze icon theme
 URL             : https://api.kde.org/frameworks/breeze-icons/html/
@@ -2579,11 +2579,11 @@ Vendor          : Fedora Project
 
 Name            : breeze-icon-theme-fedora
 Epoch           : 0
-Version         : 6.13.0
-Release         : 2.fc42
+Version         : 6.14.0
+Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 3.7 KiB
-Source          : kf6-breeze-icons-6.13.0-2.fc42.src.rpm
+Source          : kf6-breeze-icons-6.14.0-1.fc42.src.rpm
 From repository : updates
 Summary         : Breeze icon theme Fedora specific icons
 URL             : https://api.kde.org/frameworks/breeze-icons/html/
@@ -7273,11 +7273,11 @@ Vendor          : Fedora Project
 
 Name            : firefox
 Epoch           : 0
-Version         : 138.0.1
+Version         : 138.0.3
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 240.2 MiB
-Source          : firefox-138.0.1-1.fc42.src.rpm
+Installed size  : 240.1 MiB
+Source          : firefox-138.0.3-1.fc42.src.rpm
 From repository : updates
 Summary         : Mozilla Firefox Web browser
 URL             : https://www.mozilla.org/firefox/
@@ -7288,11 +7288,11 @@ Vendor          : Fedora Project
 
 Name            : firefox-langpacks
 Epoch           : 0
-Version         : 138.0.1
+Version         : 138.0.3
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 40.6 MiB
-Source          : firefox-138.0.1-1.fc42.src.rpm
+Source          : firefox-138.0.3-1.fc42.src.rpm
 From repository : updates
 Summary         : Firefox langpacks
 URL             : https://www.mozilla.org/firefox/
@@ -9761,12 +9761,12 @@ Vendor          : Fedora Project
 
 Name            : gnome-shell-extension-appindicator
 Epoch           : 0
-Version         : 59
-Release         : 4.fc42
+Version         : 60
+Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 246.3 KiB
-Source          : gnome-shell-extension-appindicator-59-4.fc42.src.rpm
-From repository : fedora
+Installed size  : 249.9 KiB
+Source          : gnome-shell-extension-appindicator-60-1.fc42.src.rpm
+From repository : updates
 Summary         : AppIndicator/KStatusNotifierItem support for GNOME Shell
 URL             : https://github.com/ubuntu/gnome-shell-extension-appindicator
 License         : GPL-2.0-only
@@ -12729,10 +12729,10 @@ Vendor          : Fedora Project
 Name            : hplip
 Epoch           : 0
 Version         : 3.25.2
-Release         : 2.fc42
+Release         : 3.fc42
 Architecture    : x86_64
 Installed size  : 29.3 MiB
-Source          : hplip-3.25.2-2.fc42.src.rpm
+Source          : hplip-3.25.2-3.fc42.src.rpm
 From repository : updates
 Summary         : HP Linux Imaging and Printing Project
 URL             : https://developers.hp.com/hp-linux-imaging-and-printing
@@ -12744,10 +12744,10 @@ Vendor          : Fedora Project
 Name            : hplip-common
 Epoch           : 0
 Version         : 3.25.2
-Release         : 2.fc42
+Release         : 3.fc42
 Architecture    : x86_64
 Installed size  : 1.5 MiB
-Source          : hplip-3.25.2-2.fc42.src.rpm
+Source          : hplip-3.25.2-3.fc42.src.rpm
 From repository : updates
 Summary         : Files needed by the HPLIP printer and scanner drivers
 URL             : https://developers.hp.com/hp-linux-imaging-and-printing
@@ -12758,10 +12758,10 @@ Vendor          : Fedora Project
 Name            : hplip-libs
 Epoch           : 0
 Version         : 3.25.2
-Release         : 2.fc42
+Release         : 3.fc42
 Architecture    : x86_64
-Installed size  : 425.2 KiB
-Source          : hplip-3.25.2-2.fc42.src.rpm
+Installed size  : 425.3 KiB
+Source          : hplip-3.25.2-3.fc42.src.rpm
 From repository : updates
 Summary         : HPLIP libraries
 URL             : https://developers.hp.com/hp-linux-imaging-and-printing
@@ -13229,11 +13229,11 @@ Vendor          : Fedora Project
 
 Name            : ibus-typing-booster
 Epoch           : 0
-Version         : 2.27.52
+Version         : 2.27.53
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 6.6 MiB
-Source          : ibus-typing-booster-2.27.52-1.fc42.src.rpm
+Source          : ibus-typing-booster-2.27.53-1.fc42.src.rpm
 From repository : updates
 Summary         : A completion input method
 URL             : https://mike-fabian.github.io/ibus-typing-booster/
@@ -14289,6 +14289,20 @@ Summary         : JPEG-XL image loader for GTK+ applications
 URL             : https://jpeg.org/jpegxl/
 License         : BSD-3-Clause AND Apache-2.0 AND Zlib
 Description     : Jxl-pixbuf-loader contains a plugin to load JPEG-XL images in GTK+ applications.
+Vendor          : Fedora Project
+
+Name            : jxrlib
+Epoch           : 0
+Version         : 1.1
+Release         : 30.fc42
+Architecture    : x86_64
+Installed size  : 775.9 KiB
+Source          : jxrlib-1.1-30.fc42.src.rpm
+From repository : fedora
+Summary         : Open source implementation of jpegxr
+URL             : https://jxrlib.codeplex.com/
+License         : LicenseRef-Callaway-BSD
+Description     : This is an open source implementation of the jpegxr image format standard.
 Vendor          : Fedora Project
 
 Name            : kasumi-common
@@ -15472,11 +15486,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-filesystem
 Epoch           : 0
-Version         : 6.13.0
+Version         : 6.14.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.5 KiB
-Source          : kf6-6.13.0-1.fc42.src.rpm
+Source          : kf6-6.14.0-1.fc42.src.rpm
 From repository : updates
 Summary         : Filesystem for KDE Frameworks 6
 URL             : http://www.kde.org
@@ -15486,11 +15500,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-karchive
 Epoch           : 0
-Version         : 6.13.0
-Release         : 1.fc42
+Version         : 6.14.0
+Release         : 2.fc42
 Architecture    : x86_64
-Installed size  : 718.3 KiB
-Source          : kf6-karchive-6.13.0-1.fc42.src.rpm
+Installed size  : 728.1 KiB
+Source          : kf6-karchive-6.14.0-2.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon with archive functions
 URL             : https://invent.kde.org/frameworks/karchive
@@ -15500,11 +15514,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kcolorscheme
 Epoch           : 0
-Version         : 6.13.0
-Release         : 2.fc42
+Version         : 6.14.0
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 214.3 KiB
-Source          : kf6-kcolorscheme-6.13.0-2.fc42.src.rpm
+Installed size  : 218.3 KiB
+Source          : kf6-kcolorscheme-6.14.0-1.fc42.src.rpm
 From repository : updates
 Summary         : Classes to read and interact with KColorScheme
 URL             : https://invent.kde.org/frameworks/kcolorscheme
@@ -15514,11 +15528,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kconfig
 Epoch           : 0
-Version         : 6.13.0
+Version         : 6.14.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 2.1 MiB
-Source          : kf6-kconfig-6.13.0-1.fc42.src.rpm
+Source          : kf6-kconfig-6.14.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon with advanced configuration system
 URL             : https://invent.kde.org/frameworks/kconfig
@@ -15529,11 +15543,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kcoreaddons
 Epoch           : 0
-Version         : 6.13.0
-Release         : 2.fc42
+Version         : 6.14.0
+Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.8 MiB
-Source          : kf6-kcoreaddons-6.13.0-2.fc42.src.rpm
+Source          : kf6-kcoreaddons-6.14.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon with various classes on top of QtCore
 URL             : https://invent.kde.org/frameworks/kcoreaddons
@@ -15546,11 +15560,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kcrash
 Epoch           : 0
-Version         : 6.13.0
+Version         : 6.14.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 87.8 KiB
-Source          : kf6-kcrash-6.13.0-1.fc42.src.rpm
+Source          : kf6-kcrash-6.14.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 2 addon for handling application crashes
 URL             : https://invent.kde.org/frameworks/kcrash
@@ -15560,11 +15574,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kdbusaddons
 Epoch           : 0
-Version         : 6.13.0
-Release         : 2.fc42
+Version         : 6.14.0
+Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 280.9 KiB
-Source          : kf6-kdbusaddons-6.13.0-2.fc42.src.rpm
+Source          : kf6-kdbusaddons-6.14.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon with various classes on top of QtDBus
 URL             : https://invent.kde.org/frameworks/kdbusaddons
@@ -15575,11 +15589,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kguiaddons
 Epoch           : 0
-Version         : 6.13.0
-Release         : 2.fc42
+Version         : 6.14.0
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 545.3 KiB
-Source          : kf6-kguiaddons-6.13.0-2.fc42.src.rpm
+Installed size  : 579.6 KiB
+Source          : kf6-kguiaddons-6.14.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon with various classes on top of QtGui
 URL             : https://invent.kde.org/frameworks/kguiaddons
@@ -15589,11 +15603,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-ki18n
 Epoch           : 0
-Version         : 6.13.0
+Version         : 6.14.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 17.4 MiB
-Source          : kf6-ki18n-6.13.0-1.fc42.src.rpm
+Source          : kf6-ki18n-6.14.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon for localization
 URL             : https://invent.kde.org/frameworks/ki18n
@@ -15603,11 +15617,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kimageformats
 Epoch           : 0
-Version         : 6.13.0
+Version         : 6.14.0
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 1.9 MiB
-Source          : kf6-kimageformats-6.13.0-1.fc42.src.rpm
+Installed size  : 2.2 MiB
+Source          : kf6-kimageformats-6.14.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon with additional image plugins for QtGui
 URL             : https://invent.kde.org/frameworks/kimageformats
@@ -15620,11 +15634,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-knotifications
 Epoch           : 0
-Version         : 6.13.0
-Release         : 2.fc42
+Version         : 6.14.0
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 428.4 KiB
-Source          : kf6-knotifications-6.13.0-2.fc42.src.rpm
+Installed size  : 428.5 KiB
+Source          : kf6-knotifications-6.14.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 2 solution with abstraction for system notifications
 URL             : https://invent.kde.org/frameworks/knotifications
@@ -15635,11 +15649,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kwallet
 Epoch           : 0
-Version         : 6.13.0
-Release         : 1.fc42
+Version         : 6.14.0
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 2.2 MiB
-Source          : kf6-kwallet-6.13.0-1.fc42.src.rpm
+Source          : kf6-kwallet-6.14.0-2.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 3 solution for password management
 URL             : https://invent.kde.org/frameworks/kwallet
@@ -15649,11 +15663,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kwallet-libs
 Epoch           : 0
-Version         : 6.13.0
-Release         : 1.fc42
+Version         : 6.14.0
+Release         : 2.fc42
 Architecture    : x86_64
-Installed size  : 282.1 KiB
-Source          : kf6-kwallet-6.13.0-1.fc42.src.rpm
+Installed size  : 282.2 KiB
+Source          : kf6-kwallet-6.14.0-2.fc42.src.rpm
 From repository : updates
 Summary         : KWallet framework libraries
 URL             : https://invent.kde.org/frameworks/kwallet
@@ -15663,11 +15677,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kwidgetsaddons
 Epoch           : 0
-Version         : 6.13.0
-Release         : 2.fc42
+Version         : 6.14.0
+Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 4.9 MiB
-Source          : kf6-kwidgetsaddons-6.13.0-2.fc42.src.rpm
+Source          : kf6-kwidgetsaddons-6.14.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon with various classes on top of QtWidgets
 URL             : https://invent.kde.org/frameworks/kwidgetsaddons
@@ -15677,11 +15691,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kwindowsystem
 Epoch           : 0
-Version         : 6.13.0
-Release         : 2.fc42
+Version         : 6.14.0
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 676.0 KiB
-Source          : kf6-kwindowsystem-6.13.0-2.fc42.src.rpm
+Installed size  : 680.5 KiB
+Source          : kf6-kwindowsystem-6.14.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 integration module with classes for windows management
 URL             : https://invent.kde.org/frameworks/kwindowsystem
@@ -23115,10 +23129,10 @@ Vendor          : Fedora Project
 Name            : libsane-hpaio
 Epoch           : 0
 Version         : 3.25.2
-Release         : 2.fc42
+Release         : 3.fc42
 Architecture    : x86_64
 Installed size  : 181.4 KiB
-Source          : hplip-3.25.2-2.fc42.src.rpm
+Source          : hplip-3.25.2-3.fc42.src.rpm
 From repository : updates
 Summary         : SANE driver for scanners in HP's multi-function devices
 URL             : https://developers.hp.com/hp-linux-imaging-and-printing
@@ -25838,12 +25852,12 @@ Vendor          : Fedora Project
 
 Name            : libxdp
 Epoch           : 0
-Version         : 1.5.3
+Version         : 1.5.4
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 162.4 KiB
-Source          : xdp-tools-1.5.3-1.fc42.src.rpm
-From repository : fedora
+Installed size  : 161.7 KiB
+Source          : xdp-tools-1.5.4-1.fc42.src.rpm
+From repository : updates
 Summary         : XDP helper library
 URL             : https://github.com/xdp-project/xdp-tools
 License         : LGPL-2.1-only OR BSD-2-Clause

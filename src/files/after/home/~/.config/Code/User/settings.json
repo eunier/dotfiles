@@ -228,5 +228,14 @@
 	"workspaceWizard.general.workspacesFolder": "/home/tron/Projects/workspaces",
 	"zig.path": "zig",
 	"zig.zls.enabled": "on",
-	"zig.zls.inlayHintsExcludeSingleArgument": false
+	"zig.zls.inlayHintsExcludeSingleArgument": false,
+	"csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
+	"csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
+	"csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": true,
+	"csharp.inlayHints.enableInlayHintsForTypes": true,
+	"dotnet.inlayHints.enableInlayHintsForIndexerParameters": true,
+	"dotnet.inlayHints.enableInlayHintsForLiteralParameters": true,
+	"dotnet.inlayHints.enableInlayHintsForObjectCreationParameters": true,
+	"dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
+	"dotnet.inlayHints.enableInlayHintsForParameters": true
 }
