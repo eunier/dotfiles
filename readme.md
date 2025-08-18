@@ -71,7 +71,6 @@ sudo dnf system-upgrade download --releasever=123
 ```
 
 1. Resolve any issues:
-
    - If dependencies are missing, run:
 
      ```bash

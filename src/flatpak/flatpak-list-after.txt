@@ -1,92 +1,93 @@
 Key Rack	app.drey.KeyRack	0.4.0	stable	system
-Zen	app.zen_browser.zen	1.12.6b	stable	system
+Zen	app.zen_browser.zen	1.14.11b	stable	system
 Adventure List	codes.merritt.adventurelist	0.15.0	stable	system
 Authenticator	com.belmoussaoui.Authenticator	4.6.2	stable	system
 Mindustry	com.github.Anuken.Mindustry	146	stable	system
-PDF Arranger	com.github.jeromerobert.pdfarranger	1.11.1	stable	system
+PDF Arranger	com.github.jeromerobert.pdfarranger	1.12.1	stable	system
 LibreSprite	com.github.libresprite.LibreSprite	1.1-dev	stable	system
+Clapper Enhancers	com.github.rafostar.Clapper.Enhancers		stable	system
 Timer	com.github.vikdevelop.timer	3.5	stable	system
-Alpaca	com.jeffser.Alpaca	6.0.5	stable	system
-Time Tracker	com.lynnmichaelmartin.TimeTracker	2.1.3	stable	system
-Forge Sparks	com.mardojai.ForgeSparks	0.4.0	stable	system
+Alpaca	com.jeffser.Alpaca	7.6.0	stable	system
+Time Tracker	com.lynnmichaelmartin.TimeTracker	2.1.6	stable	system
+Forge Sparks	com.mardojai.ForgeSparks	1.0.1	stable	system
 Extension Manager	com.mattjakeman.ExtensionManager	0.6.3	stable	system
-Pixelorama	com.orama_interactive.Pixelorama	1.1.1	stable	system
-Blanket	com.rafaelmardojai.Blanket	0.7.0	stable	system
-Spotify	com.spotify.Client	1.2.60.564.gcc6305cb	stable	system
+Pixelorama	com.orama_interactive.Pixelorama	1.1.4	stable	system
+Blanket	com.rafaelmardojai.Blanket	0.8.0	stable	system
+Spotify	com.spotify.Client	1.2.63.394.g126b0d89	stable	system
 Audio Sharing	de.haeckerfelix.AudioSharing	0.2.4	stable	system
 Fragments	de.haeckerfelix.Fragments	3.0.1	stable	system
 Shortwave	de.haeckerfelix.Shortwave	5.0.0	stable	system
 Calligraphy	dev.geopjr.Calligraphy	1.2.0	stable	system
-Restfox	dev.restfox.Restfox	0.37.0	stable	system
+Restfox	dev.restfox.Restfox	0.40.0	stable	system
 Almond	edu.stanford.Almond	2.0.0~alpha.1	stable	system
 Morphosis	garden.jamie.Morphosis	48.2	stable	system
 Memorado	im.bernard.Memorado	0.5	stable	system
-FreeTube	io.freetubeapp.FreeTube	0.23.5 Beta	stable	system
+FreeTube	io.freetubeapp.FreeTube	0.23.7 Beta	stable	system
 AdwSteamGtk	io.github.Foldex.AdwSteamGtk	0.8.0	stable	system
 Godots	io.github.MakovWait.Godots	v1.3.stable	stable	system
 IP Lookup	io.github.bytezz.IPLookup	0.4.1	stable	system
 Paper Clip	io.github.diegoivan.pdf_metadata_editor	5.0	stable	system
-Pins	io.github.fabrialberio.pinapp	2.3.0	stable	system
+Pins	io.github.fabrialberio.pinapp	2.4.1	stable	system
 Hieroglyphic	io.github.finefindus.Hieroglyphic	2.1.0	stable	system
-Embellish	io.github.getnf.embellish	v0.4.7	stable	system
-Bella	io.github.josephmawa.Bella	0.1.5	stable	system
+Embellish	io.github.getnf.embellish	v0.5.1	stable	system
+Bella	io.github.josephmawa.Bella	0.1.6	stable	system
 Egghead	io.github.josephmawa.Egghead	0.1.2	stable	system
 TriPeaks	io.github.mimoguz.TriPeaks-GDX	1.2.3	stable	system
 Inspector	io.github.nokse22.inspector	0.3.0	stable	system
 Mini Text	io.github.nokse22.minitext	1.0.0	stable	system
 Ultimate Tic Tac Toe	io.github.nokse22.ultimate-tic-tac-toe	1.1.0	stable	system
-BMI	io.github.philippkosarev.bmi	v3.0	stable	system
+BMI	io.github.philippkosarev.bmi	v4.0	stable	system
 Concessio	io.github.ronniedroid.concessio	v0.1.10	stable	system
 Progress	io.github.smolblackcat.Progress	1.6.0	stable	system
 Schedule	io.github.zhrexl.thisweekinmylife	0.0.6	stable	system
-Password	io.gitlab.elescoute.password	1.6.6	stable	system
+Password	io.gitlab.elescoute.password	1.6.7	stable	system
 Text Pieces	io.gitlab.liferooter.TextPieces	4.2.0	stable	system
-Newsflash	io.gitlab.news_flash.NewsFlash	3.3.5	stable	system
-HTTPie	io.httpie.Httpie	2024.1.2	stable	system
-Mission Center	io.missioncenter.MissionCenter	1.0.0	stable	system
-Podman Desktop	io.podman_desktop.PodmanDesktop	1.18.1	stable	system
+Newsflash	io.gitlab.news_flash.NewsFlash	4.1.4	stable	system
+HTTPie	io.httpie.Httpie	2025.2.0	stable	system
+Mission Center	io.missioncenter.MissionCenter	1.0.2	stable	system
+Podman Desktop	io.podman_desktop.PodmanDesktop	1.20.2	stable	system
 Obsidian	md.obsidian.Obsidian	1.8.10	stable	system
 Ticket Booth	me.iepure.Ticketbooth	1.2.0	stable	system
-Dev Toolbox	me.iepure.devtoolbox	1.2.5	stable	system
+Dev Toolbox	me.iepure.devtoolbox	1.3.0	stable	system
 Syncthing GTK	me.kozec.syncthingtk	v0.9.4.5	stable	system
 Web Apps	net.codelogistics.webapps	0.5.11	stable	system
 Iconic	nl.emphisia.icon	2025.3.2	stable	system
-Lemma	org.cvfosammmm.Lemma	32	stable	system
+Lemma	org.cvfosammmm.Lemma	39	stable	system
 Flatpak External Data Checker	org.flathub.flatpak-external-data-checker		stable	system
-Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.31	23.08	system
-Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.19	24.08	system
+Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.32	23.08	system
+Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.23	24.08	system
 Mesa	org.freedesktop.Platform.GL.default	21.3.9	21.08	system
-Mesa	org.freedesktop.Platform.GL.default	25.0.5	23.08	system
-Mesa (Extra)	org.freedesktop.Platform.GL.default	25.0.5	23.08-extra	system
-Mesa	org.freedesktop.Platform.GL.default	25.0.5	24.08	system
-Mesa (Extra)	org.freedesktop.Platform.GL.default	25.0.5	24.08extra	system
+Mesa	org.freedesktop.Platform.GL.default	25.0.7	23.08	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	25.0.7	23.08-extra	system
+Mesa	org.freedesktop.Platform.GL.default	25.1.7	24.08	system
+Mesa (Extra)	org.freedesktop.Platform.GL.default	25.1.7	24.08extra	system
 FFmpeg extension with extra codecs	org.freedesktop.Platform.ffmpeg-full		23.08	system
 FFmpeg extension with extra codecs	org.freedesktop.Platform.ffmpeg-full		24.08	system
 openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	system
 openh264	org.freedesktop.Platform.openh264	2.1.0	2.2.0	system
 openh264	org.freedesktop.Platform.openh264	2.4.1	2.4.1	system
 openh264	org.freedesktop.Platform.openh264	2.5.1	2.5.1	system
-Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-24.08.19	24.08	system
+Freedesktop SDK	org.freedesktop.Sdk	freedesktop-sdk-24.08.23	24.08	system
 GNOME Application Platform version 41	org.gnome.Platform		41	system
 GNOME Application Platform version 45	org.gnome.Platform		45	system
 GNOME Application Platform version 46	org.gnome.Platform		46	system
 GNOME Application Platform version 47	org.gnome.Platform		47	system
 GNOME Application Platform version 48	org.gnome.Platform		48	system
 Solanum	org.gnome.Solanum	6.0.0	stable	system
-Iotas	org.gnome.World.Iotas	0.11.1	stable	system
+Iotas	org.gnome.World.Iotas	0.11.2	stable	system
 Pika Backup	org.gnome.World.PikaBackup	0.7.4	stable	system
 Secrets	org.gnome.World.Secrets	11.1.1	stable	system
 App Icon Preview	org.gnome.design.AppIconPreview	3.5.1	stable	system
 Emblem	org.gnome.design.Emblem	1.5.0	stable	system
 Lorem	org.gnome.design.Lorem	1.5	stable	system
-Color Palette	org.gnome.design.Palette	2.0.3	stable	system
-Buffer	org.gnome.gitlab.cheywood.Buffer	0.10.0	stable	system
+Color Palette	org.gnome.design.Palette	3.0.0	stable	system
+Buffer	org.gnome.gitlab.cheywood.Buffer	0.10.1	stable	system
 Cavalier	org.nickvision.cavalier	2024.1.0	stable	system
 Denaro	org.nickvision.money	2024.2.0	stable	system
 Tagger	org.nickvision.tagger	2024.6.0	stable	system
-Parabolic	org.nickvision.tubeconverter	2025.5.3	stable	system
-pgAdmin 4	org.pgadmin.pgadmin4	9.3	stable	system
-Main Menu	page.codeberg.libre_menu_editor.LibreMenuEditor	1.9.2	stable	system
+Parabolic	org.nickvision.tubeconverter	2025.8.0	stable	system
+pgAdmin 4	org.pgadmin.pgadmin4	9.5	stable	system
+Main Menu	page.codeberg.libre_menu_editor.LibreMenuEditor	1.9.3	stable	system
 Commit	re.sonny.Commit	4.3	stable	system
-Graphs	se.sjoerd.Graphs	1.8.4	stable	system
-Zoom	us.zoom.Zoom	6.4.6.1370	stable	system
+Graphs	se.sjoerd.Graphs	1.8.5	stable	system
+Zoom	us.zoom.Zoom	6.5.8.3527	stable	system

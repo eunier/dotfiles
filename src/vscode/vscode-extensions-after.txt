@@ -32,6 +32,7 @@ maptz.regionfolder
 mariusalchimavicius.json-to-ts
 meganrogge.template-string-converter
 mkhl.shfmt
+ms-dotnettools.blazorwasm-companion
 ms-dotnettools.csdevkit
 ms-dotnettools.csharp
 ms-dotnettools.vscode-dotnet-runtime

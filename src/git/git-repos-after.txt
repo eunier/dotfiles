@@ -59,7 +59,6 @@
     ├── expense-tracker-inbox.code-workspace
     ├── expense-tracker-playground.code-workspace
     ├── flec-zig-raw-c.code-workspace
-    ├── game-top-dow-shooter.code-workspace
     ├── inbox.code-workspace
     ├── inbox-eta.code-workspace
     ├── inbox-tdg.code-workspace
@@ -70,4 +69,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-51 directories, 20 files
+51 directories, 19 files
