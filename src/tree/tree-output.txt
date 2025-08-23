@@ -3,7 +3,39 @@
 ├── bun.lock
 ├── csharp
 │   ├── CLI
+│   │   ├── bin
+│   │   │   └── Debug
+│   │   │       └── net9.0
+│   │   │           ├── CLI
+│   │   │           ├── CLI.deps.json
+│   │   │           ├── CLI.dll
+│   │   │           ├── CLI.pdb
+│   │   │           └── CLI.runtimeconfig.json
 │   │   ├── CLI.csproj
+│   │   ├── obj
+│   │   │   ├── CLI.csproj.nuget.dgspec.json
+│   │   │   ├── CLI.csproj.nuget.g.props
+│   │   │   ├── CLI.csproj.nuget.g.targets
+│   │   │   ├── Debug
+│   │   │   │   └── net9.0
+│   │   │   │       ├── apphost
+│   │   │   │       ├── CLI.AssemblyInfo.cs
+│   │   │   │       ├── CLI.AssemblyInfoInputs.cache
+│   │   │   │       ├── CLI.assets.cache
+│   │   │   │       ├── CLI.csproj.CoreCompileInputs.cache
+│   │   │   │       ├── CLI.csproj.FileListAbsolute.txt
+│   │   │   │       ├── CLI.dll
+│   │   │   │       ├── CLI.GeneratedMSBuildEditorConfig.editorconfig
+│   │   │   │       ├── CLI.genruntimeconfig.cache
+│   │   │   │       ├── CLI.pdb
+│   │   │   │       ├── CLI.sourcelink.json
+│   │   │   │       ├── .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+│   │   │   │       ├── ref
+│   │   │   │       │   └── CLI.dll
+│   │   │   │       └── refint
+│   │   │   │           └── CLI.dll
+│   │   │   ├── project.assets.json
+│   │   │   └── project.nuget.cache
 │   │   └── Program.cs
 │   ├── .config
 │   │   └── dotnet-tools.json
@@ -34,11 +66,24 @@
 │   ├── .dotfiles.iml
 │   ├── .gitignore
 │   ├── modules.xml
-│   └── vcs.xml
+│   ├── vcs.xml
+│   └── workspace.xml
 ├── nest
 │   ├── bun.lock
 │   ├── eslint.config.mjs
 │   ├── .gitignore
+│   ├── .idea
+│   │   ├── codeStyles
+│   │   │   ├── codeStyleConfig.xml
+│   │   │   └── Project.xml
+│   │   ├── dotfiles.iml
+│   │   ├── .gitignore
+│   │   ├── inspectionProfiles
+│   │   │   └── Project_Default.xml
+│   │   ├── modules.xml
+│   │   ├── prettier.xml
+│   │   ├── vcs.xml
+│   │   └── workspace.xml
 │   ├── nest-cli.json
 │   ├── package.json
 │   ├── .prettierrc
@@ -143,22 +188,23 @@
 │   │   │           │   └── fish
 │   │   │           │       └── config.fish
 │   │   │           └── .gitconfig
-│   │   └── before
-│   │       ├── etc
-│   │       │   └── dnf
-│   │       │       └── dnf.conf
-│   │       └── home
-│   │           └── ~
-│   │               ├── .bash_profile
-│   │               ├── .bashrc
-│   │               ├── .config
-│   │               │   ├── Code
-│   │               │   │   └── User
-│   │               │   │       ├── keybindings.json
-│   │               │   │       └── settings.json
-│   │               │   └── fish
-│   │               │       └── config.fish
-│   │               └── .gitconfig
+│   │   ├── before
+│   │   │   ├── etc
+│   │   │   │   └── dnf
+│   │   │   │       └── dnf.conf
+│   │   │   └── home
+│   │   │       └── ~
+│   │   │           ├── .bash_profile
+│   │   │           ├── .bashrc
+│   │   │           ├── .config
+│   │   │           │   ├── Code
+│   │   │           │   │   └── User
+│   │   │           │   │       ├── keybindings.json
+│   │   │           │   │       └── settings.json
+│   │   │           │   └── fish
+│   │   │           │       └── config.fish
+│   │   │           └── .gitconfig
+│   │   └── system
 │   ├── fish.sh
 │   ├── flatpak
 │   │   ├── flatpak-install.auto.sh
@@ -241,4 +287,4 @@
 └── .vscode
     └── settings.json
 
-61 directories, 181 files
+73 directories, 215 files

@@ -37,6 +37,17 @@ export ZVM_INSTALL="$HOME/.zvm/self"
 export PATH="$PATH:$HOME/.zvm/bin"
 export PATH="$PATH:$ZVM_INSTALL/"
 
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# homebrew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
 # pnpm
 export PNPM_HOME="/home/tron/.local/share/pnpm"
 case ":$PATH:" in
@@ -45,4 +56,6 @@ case ":$PATH:" in
 esac
 # pnpm end
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)

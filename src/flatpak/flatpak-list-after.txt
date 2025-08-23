@@ -40,6 +40,7 @@ BMI	io.github.philippkosarev.bmi	v4.0	stable	system
 Concessio	io.github.ronniedroid.concessio	v0.1.10	stable	system
 Progress	io.github.smolblackcat.Progress	1.6.0	stable	system
 Schedule	io.github.zhrexl.thisweekinmylife	0.0.6	stable	system
+Impression	io.gitlab.adhami3310.Impression	3.5.0	stable	system
 Password	io.gitlab.elescoute.password	1.6.7	stable	system
 Text Pieces	io.gitlab.liferooter.TextPieces	4.2.0	stable	system
 Newsflash	io.gitlab.news_flash.NewsFlash	4.1.4	stable	system

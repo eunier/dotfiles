@@ -44,6 +44,7 @@ try {
     "io.github.ronniedroid.concessio",
     "io.github.smolblackcat.Progress",
     "io.github.zhrexl.thisweekinmylife",
+    "io.gitlab.adhami3310.Impression",
     "io.gitlab.elescoute.password",
     "io.gitlab.liferooter.TextPieces",
     "io.gitlab.news_flash.NewsFlash",
