@@ -1,4 +1,5 @@
 Version     Installed   ZLS
+0.15.1                  
 0.14.1                  
 0.14.0      [installed] (zls tagged)
 0.13.0      [installed] (zls tagged)
@@ -19,4 +20,4 @@ Version     Installed   ZLS
 0.3.0                   
 0.2.0                   
 0.1.1                   
-master (remote) (0.15.0-dev.1593+399bace2f)            
+master (remote) (0.16.0-dev.13+1594c8055)            
