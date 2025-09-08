@@ -13,16 +13,16 @@
 
 1 directory, 11 files
 [drwxr-xr-x tron     tron             580 Apr 15 07:23]  /home/tron/.config/autostart
-├── [-rw-r--r-- tron     tron            2255 Mar  3 08:02]  com.mardojai.ForgeSparks.desktop
-├── [-rw-r--r-- tron     tron             183 Mar  3 08:02]  @filendesktop.desktop
-├── [-rw-r--r-- tron     tron             761 Mar  4 23:11]  io.github.nokse22.ultimate-tic-tac-toe.desktop
-├── [-rw-r--r-- tron     tron            3096 Mar  3 08:02]  io.gitlab.news_flash.NewsFlash.desktop
+├── [-rw-r--r-- tron     tron            2255 Mar  3  2025]  com.mardojai.ForgeSparks.desktop
+├── [-rw-r--r-- tron     tron             183 Mar  3  2025]  @filendesktop.desktop
+├── [-rw-r--r-- tron     tron             761 Mar  4  2025]  io.github.nokse22.ultimate-tic-tac-toe.desktop
+├── [-rw-r--r-- tron     tron            3096 Mar  3  2025]  io.gitlab.news_flash.NewsFlash.desktop
 ├── [-rwxr--r-- tron     tron             451 Jun  9 16:07]  jetbrains-toolbox.desktop
 ├── [-rw-r--r-- tron     tron             147 Apr 15 07:23]  mimeinfo.cache
-├── [-rw-r--r-- tron     tron             195 Mar  3 08:02]  mullvad-vpn.desktop
-├── [-rw-r--r-- tron     tron            3386 Mar  3 08:02]  org.gnome.Solanum.desktop
+├── [-rw-r--r-- tron     tron             195 Mar  3  2025]  mullvad-vpn.desktop
+├── [-rw-r--r-- tron     tron            3386 Mar  3  2025]  org.gnome.Solanum.desktop
 ├── [-rw-r--r-- tron     tron             219 Apr  5 19:18]  org.gnome.World.PikaBackup.desktop
-├── [-rw-r--r-- tron     tron            7473 Mar  3 08:02]  steam.desktop
-└── [-rw-r--r-- tron     tron             308 Mar  3 08:02]  syncthing-start.desktop
+├── [-rw-r--r-- tron     tron            7473 Mar  3  2025]  steam.desktop
+└── [-rw-r--r-- tron     tron             308 Mar  3  2025]  syncthing-start.desktop
 
 1 directory, 11 files

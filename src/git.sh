@@ -7,11 +7,37 @@ echo "Cloning git repos..."
 git clone git@gitlab.com:yunieralvarez/dotfiles.git /run/media/tron/External/Dotfiles
 [ $? -eq 128 ] && printf "."
 
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+[ $? -eq 128 ] && printf "."
+
 git clone git@github.com:eunier/dotfiles.git ~/Projects/com.github.eunier.dotfiles/dotfiles
 [ $? -eq 128 ] && printf "."
 git clone git@gitlab.com:yunieralvarez/expense-tracker.git ~/Projects/com.gitlab.yunieralvarez.expense-tracker/expense-tracker
 [ $? -eq 128 ] && printf "."
 git clone git@gitlab.com:yunieralvarez/game-top-down-shooter-rs.git ~/Projects/com.gitlab.yunieralvarez.game-top-down-shooter-rs/game-top-dow-shooter-rs
+[ $? -eq 128 ] && printf "."
+git clone git@gitlab.com:yunieralvarez/game-tracker.git ~/Projects/com.gitlab.yunieralvarez.game-tracker/game-tracker
 [ $? -eq 128 ] && printf "."
 git clone git@gitlab.com:yunieralvarez/godot-first-person-shooter-demo.git ~/Projects/com.gitlab.yunieralvarez.godot-first-person-shooter-demo/godot-first-person-shooter-demo
 [ $? -eq 128 ] && printf "."
@@ -51,7 +77,6 @@ git clone https://github.com/zigzap/zap.git ~/Projects/com.github.zigzap.zap/zap
 [ $? -eq 128 ] && printf "."
 git clone https://gitlab.gnome.org/GNOME/gnome-calendar.git ~/Projects/org.gitlab.gnome.GNOME.gnome-calendar/gnome-calendar
 [ $? -eq 128 ] && printf "."
-
 echo ""
 touch ~/.dotfiles/src/git/git-repos-before.txt
 tree ~/Projects -L 2 -a >~/.dotfiles/src/git/git-repos-after.txt
