@@ -29,6 +29,7 @@
 ├── com.gitlab.yunieralvarez.game-top-down-shooter-rs
 │   └── game-top-dow-shooter-rs
 ├── com.gitlab.yunieralvarez.game-tracker
+│   └── game-tracker
 ├── com.gitlab.yunieralvarez.godot-first-person-shooter-demo
 │   └── godot-first-person-shooter-demo
 ├── com.gitlab.yunieralvarez.playground
@@ -70,4 +71,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-52 directories, 19 files
+53 directories, 19 files
