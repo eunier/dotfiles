@@ -17,6 +17,7 @@ try {
     "com.mattjakeman.ExtensionManager",
     "com.orama_interactive.Pixelorama",
     "com.rafaelmardojai.Blanket",
+    "com.snes9x.Snes9x",
     "com.spotify.Client",
     "de.haeckerfelix.AudioSharing",
     "de.haeckerfelix.Fragments",

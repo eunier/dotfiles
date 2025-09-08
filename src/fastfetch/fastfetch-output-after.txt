@@ -1,8 +1,9 @@
 OS: Fedora Linux 42 (Workstation Edition) x86_64
-Kernel: Linux 6.15.8-200.fc42.x86_64
-Packages: 2596 (rpm), 93 (flatpak), 15 (brew)
-Display (Acer X34): 3440x1440 @ 100 Hz in 34" [External]
-DE: GNOME 48.3
+Kernel: Linux 6.15.10-200.fc42.x86_64
+Packages: 2596 (rpm), 95 (flatpak), 15 (brew)
+Display (Acer X34): 3440x1440 @ 100 Hz in 34" [External] *
+Display (LG HDR QHD): 2560x1440 @ 60 Hz in 32" [External]
+DE: GNOME 48.4
 WM: Mutter (Wayland)
 WM Theme: Adwaita
 Icons: MoreWaita [GTK2/3/4]
