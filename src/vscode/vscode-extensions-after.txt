@@ -2,7 +2,6 @@ akamud.vscode-theme-onelight
 angular.ng-template
 aswinkumar863.sort-editors
 bierner.markdown-mermaid
-biomejs.biome
 bpruitt-goddard.mermaid-markdown-syntax-highlighting
 bradlc.vscode-tailwindcss
 chrisdias.vscode-opennewinstance
@@ -42,6 +41,7 @@ ms-vscode.cpptools
 ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes
 ms-vscode.remote-repositories
+olifink.fedora-gnome-light-dark
 orhun.last-commit
 orta.vscode-jest
 oven.bun-vscode

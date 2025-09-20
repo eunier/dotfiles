@@ -13,6 +13,8 @@
 │   └── zig-ecs
 ├── com.github.pwbh.SDL
 │   └── SDL
+├── com.github.raylib-zig.raylib-zig
+│   └── raylib-zig
 ├── com.github.SanderMertens.flecs
 │   └── flecs
 ├── com.github.zig-gamedev.zflecs
@@ -71,4 +73,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-53 directories, 19 files
+55 directories, 19 files

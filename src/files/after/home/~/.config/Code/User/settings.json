@@ -24,7 +24,7 @@
     "editor.defaultFormatter": "mkhl.shfmt"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "biomejs.biome"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"
@@ -85,8 +85,8 @@
   "dotnet.inlayHints.enableInlayHintsForOtherParameters": true,
   "dotnet.inlayHints.enableInlayHintsForParameters": true,
   "editor.codeActionsOnSave": {
-    "quickfix.biome": "explicit",
-    "source.organizeImports.biome": "explicit"
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
   },
   "editor.codeLensFontFamily": "Cascadia Code",
   "editor.fontFamily": "Cascadia Code, Adwaita Mono, Fira Code, JetBrains Mono, Monoid, Noto Mono, Ubuntu Mono, 'Droid Sans Mono', 'monospace', monospace",
@@ -245,5 +245,8 @@
   "workspaceWizard.general.workspacesFolder": "/home/tron/Projects/workspaces",
   "zig.path": "zig",
   "zig.zls.enabled": "on",
-  "zig.zls.inlayHintsExcludeSingleArgument": false
+  "zig.zls.inlayHintsExcludeSingleArgument": false,
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

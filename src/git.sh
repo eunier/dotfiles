@@ -5,31 +5,6 @@ cp ~/.gitconfig ~/.dotfiles/src/files/after/home/~/.gitconfig
 echo "Cloning git repos..."
 
 git clone git@gitlab.com:yunieralvarez/dotfiles.git /run/media/tron/External/Dotfiles
-[ $? -eq 128 ] && printf "."
-
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
-[ $? -eq 128 ] && printf "."
 
 git clone git@github.com:eunier/dotfiles.git ~/Projects/com.github.eunier.dotfiles/dotfiles
 [ $? -eq 128 ] && printf "."
@@ -59,6 +34,8 @@ git clone https://github.com/linuxy/coyote-ecs.git ~/Projects/com.github.linuxy.
 [ $? -eq 128 ] && printf "."
 git clone https://github.com/Not-Nik/raylib-zig.git ~/Projects/com.github.Not-Nik.raylib-zig/raylib-zig
 [ $? -eq 128 ] && printf "."
+git clone https://github.com/raylib-zig/raylib-zig.git ~/Projects/com.github.raylib-zig.raylib-zig/raylib-zig
+[ $? -eq 128 ] && printf "."
 git clone https://github.com/prime31/zig-ecs.git ~/Projects/com.github.prime31.zig-ecs/zig-ecs
 [ $? -eq 128 ] && printf "."
 git clone https://github.com/pwbh/SDL.git ~/Projects/com.github.pwbh.SDL/SDL
@@ -77,6 +54,7 @@ git clone https://github.com/zigzap/zap.git ~/Projects/com.github.zigzap.zap/zap
 [ $? -eq 128 ] && printf "."
 git clone https://gitlab.gnome.org/GNOME/gnome-calendar.git ~/Projects/org.gitlab.gnome.GNOME.gnome-calendar/gnome-calendar
 [ $? -eq 128 ] && printf "."
+
 echo ""
 touch ~/.dotfiles/src/git/git-repos-before.txt
 tree ~/Projects -L 2 -a >~/.dotfiles/src/git/git-repos-after.txt
