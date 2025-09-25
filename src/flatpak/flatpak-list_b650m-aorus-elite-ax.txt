@@ -1,8 +1,10 @@
 Key Rack	app.drey.KeyRack	0.4.0	stable	system
-Zen	app.zen_browser.zen	1.15.5b	stable	system
+Zen	app.zen_browser.zen	1.16.1b	stable	system
 Adventure List	codes.merritt.adventurelist	0.15.0	stable	system
 Authenticator	com.belmoussaoui.Authenticator	4.6.2	stable	system
+Decoder	com.belmoussaoui.Decoder	0.8.0	stable	system
 Mindustry	com.github.Anuken.Mindustry	146	stable	system
+Wike	com.github.hugolabe.Wike	3.1.1	stable	system
 PDF Arranger	com.github.jeromerobert.pdfarranger	1.12.1	stable	system
 LibreSprite	com.github.libresprite.LibreSprite	1.1-dev	stable	system
 Clapper Enhancers	com.github.rafostar.Clapper.Enhancers		stable	system
@@ -30,15 +32,19 @@ IP Lookup	io.github.bytezz.IPLookup	0.4.1	stable	system
 Paper Clip	io.github.diegoivan.pdf_metadata_editor	5.0	stable	system
 Pins	io.github.fabrialberio.pinapp	2.4.2	stable	system
 Hieroglyphic	io.github.finefindus.Hieroglyphic	2.1.0	stable	system
+Binary	io.github.fizzyizzy05.binary	5.3	stable	system
+Ignition	io.github.flattool.Ignition	2.1.2	stable	system
 Embellish	io.github.getnf.embellish	v0.5.1	stable	system
 Bella	io.github.josephmawa.Bella	0.1.6	stable	system
 Egghead	io.github.josephmawa.Egghead	0.1.2	stable	system
+Kasasa	io.github.kelvinnovais.Kasasa	1.1.4	stable	system
 TriPeaks	io.github.mimoguz.TriPeaks-GDX	1.2.3	stable	system
 Inspector	io.github.nokse22.inspector	0.3.0	stable	system
 Mini Text	io.github.nokse22.minitext	1.0.0	stable	system
 Ultimate Tic Tac Toe	io.github.nokse22.ultimate-tic-tac-toe	1.1.0	stable	system
 BMI	io.github.philippkosarev.bmi	v4.0	stable	system
 Concessio	io.github.ronniedroid.concessio	v0.1.10	stable	system
+Mousai	io.github.seadve.Mousai	0.7.9	stable	system
 Progress	io.github.smolblackcat.Progress	1.6.0	stable	system
 Schedule	io.github.zhrexl.thisweekinmylife	0.0.6	stable	system
 Impression	io.gitlab.adhami3310.Impression	3.5.1	stable	system
@@ -54,8 +60,7 @@ Dev Toolbox	me.iepure.devtoolbox	1.3.0	stable	system
 Syncthing GTK	me.kozec.syncthingtk	v0.9.4.5	stable	system
 Web Apps	net.codelogistics.webapps	0.5.11	stable	system
 Iconic	nl.emphisia.icon	2025.3.2	stable	system
-Lemma	org.cvfosammmm.Lemma	44	stable	system
-Flatpak External Data Checker	org.flathub.flatpak-external-data-checker		stable	system
+Lemma	org.cvfosammmm.Lemma	45	stable	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.33	23.08	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.25	24.08	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-25.08.0	25.08	system
@@ -97,5 +102,6 @@ Parabolic	org.nickvision.tubeconverter	2025.10.0	stable	system
 pgAdmin 4	org.pgadmin.pgadmin4	9.8	stable	system
 Main Menu	page.codeberg.libre_menu_editor.LibreMenuEditor	1.9.4	stable	system
 Commit	re.sonny.Commit	4.3	stable	system
+Eloquent	re.sonny.Eloquent	1.2	stable	system
 Graphs	se.sjoerd.Graphs	1.8.5	stable	system
 Zoom	us.zoom.Zoom	6.6.0.4410	stable	system

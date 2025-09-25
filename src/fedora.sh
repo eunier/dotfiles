@@ -11,7 +11,7 @@ sh ~/.dotfiles/src/flatpak.sh
 sh ~/.dotfiles/src/ollama.sh
 sh ~/.dotfiles/src/zig.sh
 sh ~/.dotfiles/src/git.sh
-# sh ~/.dotfiles/src/homebrew.sh
+sh ~/.dotfiles/src/homebrew.sh
 
 # sh ~/.dotfiles/src/autostart.sh
 # sh ~/.dotfiles/src/bash.sh

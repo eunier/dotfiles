@@ -42607,11 +42607,11 @@ Vendor          : Fedora Project
 
 Name            : zed
 Epoch           : 0
-Version         : 0.205.4
+Version         : 0.205.5
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 264.4 MiB
-Source          : zed-0.205.4-1.fc42.src.rpm
+Source          : zed-0.205.5-1.fc42.src.rpm
 From repository : terra
 Summary         : Zed is a high-performance, multiplayer code editor
 URL             : https://zed.dev/
@@ -42621,11 +42621,11 @@ Vendor          : Terra
 
 Name            : zed-cli
 Epoch           : 0
-Version         : 0.205.4
+Version         : 0.205.5
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 2.7 MiB
-Source          : zed-0.205.4-1.fc42.src.rpm
+Source          : zed-0.205.5-1.fc42.src.rpm
 From repository : terra
 Summary         : Provides the /usr/bin/zed binary
 URL             : https://zed.dev/

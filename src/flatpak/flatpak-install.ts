@@ -7,7 +7,9 @@ try {
     "app.zen_browser.zen",
     "codes.merritt.adventurelist",
     "com.belmoussaoui.Authenticator",
+    "com.belmoussaoui.Decoder",
     "com.github.Anuken.Mindustry",
+    "com.github.hugolabe.Wike",
     "com.github.jeromerobert.pdfarranger",
     "com.github.libresprite.LibreSprite",
     "com.github.vikdevelop.timer",
@@ -32,10 +34,13 @@ try {
     "io.github.diegoivan.pdf_metadata_editor",
     "io.github.fabrialberio.pinapp",
     "io.github.finefindus.Hieroglyphic",
+    "io.github.fizzyizzy05.binary",
+    "io.github.flattool.Ignition",
     "io.github.Foldex.AdwSteamGtk",
     "io.github.getnf.embellish",
     "io.github.josephmawa.Bella",
     "io.github.josephmawa.Egghead",
+    "io.github.kelvinnovais.Kasasa",
     "io.github.MakovWait.Godots",
     "io.github.mimoguz.TriPeaks-GDX",
     "io.github.nokse22.inspector",
@@ -43,6 +48,7 @@ try {
     "io.github.nokse22.ultimate-tic-tac-toe",
     "io.github.philippkosarev.bmi",
     "io.github.ronniedroid.concessio",
+    "io.github.seadve.Mousai",
     "io.github.smolblackcat.Progress",
     "io.github.zhrexl.thisweekinmylife",
     "io.gitlab.adhami3310.Impression",
@@ -55,6 +61,7 @@ try {
     "md.obsidian.Obsidian",
     "me.iepure.devtoolbox",
     "me.iepure.Ticketbooth",
+    "me.kozec.syncthingtk",
     "net.codelogistics.webapps",
     "nl.emphisia.icon",
     "org.cvfosammmm.Lemma",
@@ -74,6 +81,7 @@ try {
     "org.pgadmin.pgadmin4",
     "page.codeberg.libre_menu_editor.LibreMenuEditor",
     "re.sonny.Commit",
+    "re.sonny.Eloquent",
     "se.sjoerd.Graphs",
     "us.zoom.Zoom",
     // spell-checker: enable
@@ -106,7 +114,7 @@ try {
     }
   }
 
-  const removeCmd = toRemove.length ? toInstall.join(" ") : "";
+  const removeCmd = toRemove.length ? toRemove.join(" ") : "";
   const installCmd = toInstall.length ? toInstall.join(" ") : "";
 
   await $`echo "#!/usr/bin/env bash" > ~/.dotfiles/src/flatpak/flatpak-uninstall.auto.sh`;
