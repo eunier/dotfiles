@@ -2520,12 +2520,12 @@ Vendor          : Fedora Project
 
 Name            : brave-browser
 Epoch           : 0
-Version         : 1.82.170
+Version         : 1.82.172
 Release         : 1
 Architecture    : x86_64
-Installed size  : 406.8 MiB
-Source          : brave-browser-1.82.170-1.src.rpm
-From repository : brave-browser
+Installed size  : 405.3 MiB
+Source          : brave-browser-1.82.172-1.src.rpm
+From repository : <unknown>
 Summary         : Brave Web Browser
 URL             : https://brave.com/
 License         : Multiple, see https://brave.com/
@@ -10231,12 +10231,12 @@ Vendor          : Fedora Project
 
 Name            : google-chrome-stable
 Epoch           : 0
-Version         : 140.0.7339.185
+Version         : 140.0.7339.207
 Release         : 1
 Architecture    : x86_64
-Installed size  : 377.4 MiB
-Source          : google-chrome-stable-140.0.7339.185-1.src.rpm
-From repository : google-chrome
+Installed size  : 376.7 MiB
+Source          : google-chrome-stable-140.0.7339.207-1.src.rpm
+From repository : <unknown>
 Summary         : Google Chrome
 URL             : https://chrome.google.com/
 License         : Multiple, see https://chrome.google.com/
