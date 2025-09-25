@@ -3,22 +3,16 @@
 │   ├── dotfiles
 │   └── dotfilesy
 ├── com.github.libsdl-org.SDL
-│   ├── SDL
 │   └── SDLy
 ├── com.github.libsdl-org.sdlwiki
-│   ├── libsdl-org
 │   └── libsdl-orgy
 ├── com.github.linuxy.coyote-ecs
-│   ├── coyote-ecs
 │   └── coyote-ecsy
 ├── com.github.Not-Nik.raylib-zig
-│   ├── raylib-zig
 │   └── raylib-zigy
 ├── com.github.prime31.zig-ecs
-│   ├── zig-ecs
 │   └── zig-ecsy
 ├── com.github.pwbh.SDL
-│   ├── SDL
 │   └── SDLy
 ├── com.github.raylib-zig.raylib-zig
 │   └── raylib-zig
@@ -95,4 +89,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-77 directories, 19 files
+71 directories, 19 files
