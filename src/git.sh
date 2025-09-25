@@ -47,4 +47,4 @@ done
 echo ""
 tree ~/Projects -L 2 -a >$REPO_PATH/src/git/git-repos-"$COMPUTER_MODEL".txt
 sh $REPO_PATH/src/git/git-sync-remote.sh
-sh $REPO_PATH/src/git/git-todo.sh
+

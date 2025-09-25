@@ -1,27 +1,24 @@
 #!/usr/bin/env bash
 
-COMPUTER_MODEL=$(sudo dmidecode -s system-product-name | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
 REPO_PATH=~/.dotfiles
 
 time=$(date +"%H")
 
 if [ "$time" -ge 18 ] || [ "$time" -lt 7 ]; then
-  echo "Syncing secondary git repos..."
+	echo "Syncing secondary git repos..."
+	cd ~/Projects/com.github.eunier.dotfiles/dotfiles || exit
+	git reset --hard
+	find ~/Projects/com.github.eunier.dotfiles/dotfiles -mindepth 1 -not -path '*/.git/*' -not -name '.git' -exec rm -rf {} +
 
-  cd ~/Projects/com.github.eunier.dotfiles/dotfiles || exit
-  git reset --hard
+	rsync \
+		--archive \
+		--exclude=node_modules \
+		--exclude=.git \
+		$REPO_PATH/ ~/Projects/com.github.eunier.dotfiles/dotfiles/
 
-  find ~/Projects/com.github.eunier.dotfiles/dotfiles -mindepth 1 -not -path '*/.git/*' -not -name '.git' -exec rm -rf {} +
-
-  rsync \
-    --archive \
-    --exclude=node_modules \
-    --exclude=.git \
-    ~/.dotfiles/ ~/Projects/com.github.eunier.dotfiles/dotfiles/
-
-  git add .
-  git commit -m "auto sync from primary repo"
-  git push
+	git add .
+	git commit -m "auto sync from primary repo"
+	git push
 else
-  echo "Not syncing secondary git repo due to time. Current hour: $time"
+	echo "Not syncing secondary git repo due to time. Current hour: $time"
 fi
