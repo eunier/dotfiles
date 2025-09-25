@@ -42,7 +42,6 @@
 │   ├── expense-tracker (Copy)
 │   └── expense-trackery
 ├── com.gitlab.yunieralvarez.game-top-down-shooter-rs
-│   ├── game-top-dow-shooter-rs
 │   └── game-top-dow-shooter-rsy
 ├── com.gitlab.yunieralvarez.game-tracker
 │   ├── game-tracker
@@ -96,4 +95,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-78 directories, 19 files
+77 directories, 19 files
