@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
 
+COMPUTER_MODEL=$(sudo dmidecode -s system-product-name | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+REPO_PATH=~/.dotfiles
+
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak update
 
 flatpak install --assumeyes \
-    flathub org.flathub.flatpak-external-data-checker \
-    flathub me.kozec.syncthingtk
+	flathub org.flathub.flatpak-external-data-checker \
+	flathub me.kozec.syncthingtk
 
-cd ~/.dotfiles || exit
+cd $REPO_PATH || exit
 bun run flatpak:install
-sh ~/.dotfiles/src/flatpak/flatpak-uninstall.auto.sh
-sh ~/.dotfiles/src/flatpak/flatpak-install.auto.sh
+sh $REPO_PATH/src/flatpak/flatpak-uninstall.auto.sh
+sh $REPO_PATH/src/flatpak/flatpak-install.auto.sh
 
-touch ~/.dotfiles/src/flatpak/flatpak-list-before.txt
-flatpak list >~/.dotfiles/src/flatpak/flatpak-list-after.txt
-
-
-# com.mardojai.ForgeSparks token github com.mardojai.ForgeSparks expires 2026-02-18
+FLATPAK_LIST_TXT_PATH=$REPO_PATH/src/flatpak/flatpak-list_$COMPUTER_MODEL.txt
+flatpak list >"$FLATPAK_LIST_TXT_PATH"

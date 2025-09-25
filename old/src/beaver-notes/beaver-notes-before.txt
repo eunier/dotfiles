@@ -1,0 +1,25 @@
+Beaver Notes	Private note taking app	com.beavernotes.beavernotes	3.9.0	stable	flathub
+Package: beaver-notes
+Version: 3.9.0
+Architecture: amd64
+Installed: yes
+Priority: optional
+Essential: no
+Section: default
+Source: beaver-notes
+Maintainer: Daniele Rolli <danielerolli@proton.me>
+Installed-Size: 314.7 MB
+Depends: 
+  libgtk-3-0
+  libnotify4
+  libnss3
+  libxss1
+  libxtst6
+  xdg-utils
+  libatspi2.0-0
+  libuuid1
+  libsecret-1-0
+Recommends: libappindicator3-1
+Homepage: https://beavernotes.com
+APT-Sources: local install
+Description: Your Personal Note-Taking Haven for Privacy and Efficiency

@@ -1,0 +1,15 @@
+binutils
+ca-certificates
+gcc
+git-cliff
+gmp
+isl
+libgit2
+libmpc
+libssh2
+lz4
+mpfr
+openssl@3
+xz
+zlib
+zstd

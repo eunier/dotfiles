@@ -54,7 +54,7 @@ Dev Toolbox	me.iepure.devtoolbox	1.3.0	stable	system
 Syncthing GTK	me.kozec.syncthingtk	v0.9.4.5	stable	system
 Web Apps	net.codelogistics.webapps	0.5.11	stable	system
 Iconic	nl.emphisia.icon	2025.3.2	stable	system
-Lemma	org.cvfosammmm.Lemma	43	stable	system
+Lemma	org.cvfosammmm.Lemma	44	stable	system
 Flatpak External Data Checker	org.flathub.flatpak-external-data-checker		stable	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.33	23.08	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.25	24.08	system

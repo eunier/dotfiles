@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd ~/.dotfiles
+cd ~/.dotfiles || exit
 git add .
 git commit -m "sync"
 git push

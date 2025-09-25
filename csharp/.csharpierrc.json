@@ -1,6 +1,6 @@
 {
-  "printWidth": 100,
-  "useTabs": true,
-  "indentSize": 4,
-  "endOfLine": "auto"
+	"printWidth": 100,
+	"useTabs": true,
+	"indentSize": 4,
+	"endOfLine": "auto"
 }

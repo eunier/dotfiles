@@ -91,7 +91,7 @@ try {
   const wantedApps = apps;
 
   for (const app of installedApps) {
-    const isInstalledAppWanted = (wantedApps as string[]).includes(app);
+    const isInstalledAppWanted = wantedApps.includes(app);
 
     if (!isInstalledAppWanted) {
       toRemove.push(app);
