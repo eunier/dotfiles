@@ -32,9 +32,17 @@ repos=(
 	"https://gitlab.gnome.org/GNOME/gnome-calendar.git ~/Projects/org.gitlab.gnome.GNOME.gnome-calendar/gnome-calendar"
 )
 
-for repo in "${repos[@]}"; do
-	git clone "$repo"
-	[ $? -eq 128 ] && printf "."
+for entry in "${repos[@]}"; do
+	url=$(echo "$entry" | awk '{print $1}')
+	path=$(echo "$entry" | awk '{print $2}')
+	# echo "git clone $url $path"
+	expanded_path=$(eval echo "$path")
+
+	if [ ! -d "$expanded_path" ]; then
+		git clone "$url" "$expanded_path"
+	else
+		echo "Skipping $expanded_path (already exists)"
+	fi
 done
 
 echo ""

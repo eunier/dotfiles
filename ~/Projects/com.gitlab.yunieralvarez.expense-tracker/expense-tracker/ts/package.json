@@ -1,0 +1,16 @@
+{
+	"name": "expense-tracker",
+	"version": "0.1.0",
+	"workspaces": ["packages/*"],
+	"scripts": {
+		"changelog": "bun changeset",
+		"changelog:version": "bun changeset version",
+		"changelog:tag": "bun changeset tag"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@changesets/cli": "^2.28.1",
+		"expense-tracker-api": "workspace:*",
+		"expense-tracker-web": "workspace:*"
+	}
+}

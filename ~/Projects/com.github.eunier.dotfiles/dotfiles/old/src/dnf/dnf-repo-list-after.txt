@@ -1,0 +1,20 @@
+repo id                                          repo name
+brave-browser                                    Brave Browser
+code                                             Visual Studio Code
+copr:copr.fedorainfracloud.org:dusansimic:themes Copr repo for themes owned by dusansimic
+copr:copr.fedorainfracloud.org:ilyaz:LACT        Copr repo for LACT owned by ilyaz
+copr:copr.fedorainfracloud.org:pgdev:ghostty     Copr repo for ghostty owned by pgdev
+copr:copr.fedorainfracloud.org:phracek:PyCharm   Copr repo for PyCharm owned by phracek
+fedora                                           Fedora 42 - x86_64
+fedora-cisco-openh264                            Fedora 42 openh264 (From Cisco) - x86_64
+google-chrome                                    google-chrome
+mullvad-stable                                   Mullvad VPN
+repository                                       LibreWolf Software Repository
+rpmfusion-free                                   RPM Fusion for Fedora 42 - Free
+rpmfusion-free-updates                           RPM Fusion for Fedora 42 - Free - Updates
+rpmfusion-nonfree                                RPM Fusion for Fedora 42 - Nonfree
+rpmfusion-nonfree-nvidia-driver                  RPM Fusion for Fedora 42 - Nonfree - NVIDIA Driver
+rpmfusion-nonfree-steam                          RPM Fusion for Fedora 42 - Nonfree - Steam
+rpmfusion-nonfree-updates                        RPM Fusion for Fedora 42 - Nonfree - Updates
+terra                                            Terra 42
+updates                                          Fedora 42 - x86_64 - Updates

@@ -1,0 +1,289 @@
+.
+├── bun.lock
+├── csharp
+│   ├── CLI
+│   │   ├── bin
+│   │   │   └── Debug
+│   │   │       └── net9.0
+│   │   │           ├── CLI
+│   │   │           ├── CLI.deps.json
+│   │   │           ├── CLI.dll
+│   │   │           ├── CLI.pdb
+│   │   │           └── CLI.runtimeconfig.json
+│   │   ├── CLI.csproj
+│   │   ├── obj
+│   │   │   ├── CLI.csproj.nuget.dgspec.json
+│   │   │   ├── CLI.csproj.nuget.g.props
+│   │   │   ├── CLI.csproj.nuget.g.targets
+│   │   │   ├── Debug
+│   │   │   │   └── net9.0
+│   │   │   │       ├── apphost
+│   │   │   │       ├── CLI.AssemblyInfo.cs
+│   │   │   │       ├── CLI.AssemblyInfoInputs.cache
+│   │   │   │       ├── CLI.assets.cache
+│   │   │   │       ├── CLI.csproj.CoreCompileInputs.cache
+│   │   │   │       ├── CLI.csproj.FileListAbsolute.txt
+│   │   │   │       ├── CLI.dll
+│   │   │   │       ├── CLI.GeneratedMSBuildEditorConfig.editorconfig
+│   │   │   │       ├── CLI.genruntimeconfig.cache
+│   │   │   │       ├── CLI.pdb
+│   │   │   │       ├── CLI.sourcelink.json
+│   │   │   │       ├── .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+│   │   │   │       ├── ref
+│   │   │   │       │   └── CLI.dll
+│   │   │   │       └── refint
+│   │   │   │           └── CLI.dll
+│   │   │   ├── project.assets.json
+│   │   │   └── project.nuget.cache
+│   │   └── Program.cs
+│   ├── .config
+│   │   └── dotnet-tools.json
+│   ├── .csharpierrc.json
+│   ├── Dotfiles.sln
+│   ├── .editorconfig
+│   ├── .gitignore
+│   └── .vscode
+│       ├── launch.json
+│       ├── settings.json
+│       └── tasks.json
+├── .gitignore
+├── home
+│   ├── .bashrc
+│   ├── .config
+│   │   ├── Code
+│   │   │   └── User
+│   │   │       ├── keybindings.json
+│   │   │       └── settings.json
+│   │   ├── fish
+│   │   │   └── config.fish
+│   │   ├── syncthing
+│   │   │   └── config.xml
+│   │   └── syncthing-gtk
+│   │       └── config.json
+│   └── .gitconfig
+├── .idea
+│   ├── .dotfiles.iml
+│   ├── .gitignore
+│   ├── modules.xml
+│   ├── vcs.xml
+│   └── workspace.xml
+├── nest
+│   ├── bun.lock
+│   ├── eslint.config.mjs
+│   ├── .gitignore
+│   ├── .idea
+│   │   ├── codeStyles
+│   │   │   ├── codeStyleConfig.xml
+│   │   │   └── Project.xml
+│   │   ├── dotfiles.iml
+│   │   ├── .gitignore
+│   │   ├── inspectionProfiles
+│   │   │   └── Project_Default.xml
+│   │   ├── modules.xml
+│   │   ├── prettier.xml
+│   │   ├── vcs.xml
+│   │   └── workspace.xml
+│   ├── nest-cli.json
+│   ├── package.json
+│   ├── .prettierrc
+│   ├── README.md
+│   ├── src
+│   │   ├── app.controller.spec.ts
+│   │   ├── app.controller.ts
+│   │   ├── app.module.ts
+│   │   ├── app.service.ts
+│   │   └── main.ts
+│   ├── test
+│   │   ├── app.e2e-spec.ts
+│   │   └── jest-e2e.json
+│   ├── tsconfig.build.json
+│   └── tsconfig.json
+├── package.json
+├── readme.md
+├── scripts
+│   ├── rm-after-files.sh
+│   └── rm-before-after-files.sh
+├── src
+│   ├── apt
+│   │   ├── apt-fonts.sh
+│   │   └── apt-sources-list-before.txt
+│   ├── apt.sh
+│   ├── autostart
+│   │   ├── autostart-after.txt
+│   │   └── autostart-before.txt
+│   ├── autostart.sh
+│   ├── bash.sh
+│   ├── beaver-notes
+│   │   └── beaver-notes-before.txt
+│   ├── beaver-notes.sh
+│   ├── bun
+│   │   └── repo-update.sh
+│   ├── bun.sh
+│   ├── dconf
+│   │   ├── dconf-after.conf
+│   │   ├── dconf-before.conf
+│   │   ├── dconf-filter.ts
+│   │   └── dconf-raw-after.conf
+│   ├── dconf.sh
+│   ├── diff
+│   │   ├── diff-apt-sources-list.sh
+│   │   ├── diff-autostart.sh
+│   │   ├── diff-beaver-notes.sh
+│   │   ├── diff-dconf.sh
+│   │   ├── diff-dnf-copr-list.sh
+│   │   ├── diff-dnf-info-installed.sh
+│   │   ├── diff-dnf-repo-list.sh
+│   │   ├── diff-doas.sh
+│   │   ├── diff-fastfetch-config.sh
+│   │   ├── diff-fastfetch-output.sh
+│   │   ├── diff-files.sh
+│   │   ├── diff-flatpak.sh
+│   │   ├── diff-git-repos.sh
+│   │   ├── diff-homebrew.sh
+│   │   ├── diff-nala-app-progress-tracker.sh
+│   │   ├── diff-nala-list-installed.sh
+│   │   ├── diff-syncthing-config.sh
+│   │   ├── diff-timeshift.sh
+│   │   ├── diff-tree.sh
+│   │   ├── diff-vscode-extensions.sh
+│   │   ├── diff-vscode-keybindings.sh
+│   │   ├── diff-vscode-settings.sh
+│   │   └── diff-zig-version-list.sh
+│   ├── diff.sh
+│   ├── dnf
+│   │   ├── dnf-copr-list-after.txt
+│   │   ├── dnf-copr-list-before.txt
+│   │   ├── dnf-info-installed-after.txt
+│   │   ├── dnf-info-installed-before.txt
+│   │   ├── dnf-repo-list-after.txt
+│   │   ├── dnf-repo-list-before.txt
+│   │   └── dng-thorium-install.sh
+│   ├── dnf.sh
+│   ├── doas
+│   │   ├── doas-after.conf
+│   │   └── doas-before.conf
+│   ├── doas.sh
+│   ├── fastfetch
+│   │   ├── fastfetch-config-after.jsonc
+│   │   ├── fastfetch-config-before.jsonc
+│   │   ├── fastfetch-output-after.txt
+│   │   └── fastfetch-output-before.txt
+│   ├── fastfetch.sh
+│   ├── fedora.sh
+│   ├── files
+│   │   ├── after
+│   │   │   ├── etc
+│   │   │   │   └── dnf
+│   │   │   │       └── dnf.conf
+│   │   │   └── home
+│   │   │       └── ~
+│   │   │           ├── .bash_profile
+│   │   │           ├── .bashrc
+│   │   │           ├── .config
+│   │   │           │   ├── Code
+│   │   │           │   │   └── User
+│   │   │           │   │       ├── keybindings.json
+│   │   │           │   │       └── settings.json
+│   │   │           │   └── fish
+│   │   │           │       └── config.fish
+│   │   │           └── .gitconfig
+│   │   ├── before
+│   │   │   ├── etc
+│   │   │   │   └── dnf
+│   │   │   │       └── dnf.conf
+│   │   │   └── home
+│   │   │       └── ~
+│   │   │           ├── .bash_profile
+│   │   │           ├── .bashrc
+│   │   │           ├── .config
+│   │   │           │   ├── Code
+│   │   │           │   │   └── User
+│   │   │           │   │       ├── keybindings.json
+│   │   │           │   │       └── settings.json
+│   │   │           │   └── fish
+│   │   │           │       └── config.fish
+│   │   │           └── .gitconfig
+│   │   └── system
+│   ├── fish.sh
+│   ├── flatpak
+│   │   ├── flatpak-install.auto.sh
+│   │   ├── flatpak-install.ts
+│   │   ├── flatpak-list-after.txt
+│   │   ├── flatpak-list-before.txt
+│   │   └── flatpak-uninstall.auto.sh
+│   ├── flatpak.sh
+│   ├── fmt.sh
+│   ├── font.sh
+│   ├── git
+│   │   ├── git-repos-after.txt
+│   │   ├── git-repos-before.txt
+│   │   ├── git-sync-remote.sh
+│   │   ├── git-sync-repo.sh
+│   │   ├── git-todo.sh
+│   │   └── todos
+│   │       └── com.gitlab.yunieralvarez.top-down-game
+│   │           └── top-down-game
+│   │               └── todo.md
+│   ├── gitlab
+│   │   ├── gitlab-auth.sh
+│   │   ├── gitlab-auth-status.txt
+│   │   ├── gitlab-auth.ts
+│   │   └── gitlab-repo-create.md
+│   ├── gitlab.sh
+│   ├── git.sh
+│   ├── homebrew
+│   │   ├── homebrew-list-after.txt
+│   │   └── homebrew-list-before.txt
+│   ├── homebrew.sh
+│   ├── main.sh
+│   ├── nala
+│   │   ├── nala-app-progress-tracker-after.txt
+│   │   ├── nala-app-progress-tracker-before.txt
+│   │   └── nala-list-installed-before.txt
+│   ├── nala.sh
+│   ├── node.sh
+│   ├── ollama.sh
+│   ├── playground.sh
+│   ├── pnpm.sh
+│   ├── sparky.sh
+│   ├── sync.sh
+│   ├── syncthing
+│   │   ├── syncthing-config-after.json
+│   │   ├── syncthing-config-before.json
+│   │   └── syncthing-config-mask.ts
+│   ├── syncthing.sh
+│   ├── timeshift
+│   │   ├── timeshift-after.json
+│   │   └── timeshift-before.json
+│   ├── timeshift.sh
+│   ├── tree
+│   │   └── tree-output.txt
+│   ├── tree.sh
+│   ├── vscode
+│   │   ├── vscode-adwaita-dark.jsonc
+│   │   ├── vscode-adwaita-light.jsonc
+│   │   ├── vscode-extensions-after.txt
+│   │   ├── vscode-extensions-before.txt
+│   │   ├── vscode-font-switch.sh
+│   │   ├── vscode-font-switch.ts
+│   │   ├── vscode-font-ui.sh
+│   │   ├── vscode-keybindings-after.jsonc
+│   │   ├── vscode-keybindings-before.jsonc
+│   │   ├── vscode-settings-after.jsonc
+│   │   ├── vscode-settings-before.jsonc
+│   │   └── vscode-uninstall-all-extensions.bash
+│   ├── vscode.sh
+│   ├── yadm
+│   │   └── yadm-ls-files.txt
+│   ├── yadm.sh
+│   ├── zen.sh
+│   ├── zig
+│   │   ├── zig-version-list-after.txt
+│   │   └── zig-version-list-before.txt
+│   └── zig.sh
+├── todo.md
+├── tsconfig.json
+└── .vscode
+    └── settings.json
+
+73 directories, 214 files

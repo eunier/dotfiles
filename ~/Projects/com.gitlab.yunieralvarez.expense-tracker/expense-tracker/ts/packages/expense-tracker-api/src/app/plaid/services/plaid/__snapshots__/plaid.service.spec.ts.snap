@@ -1,0 +1,463 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlaidService fetchTransactions should return transactions 1`] = `
+TransactionFetchResponse {
+  "added": [
+    {
+      "account_id": "Azpc9Jo5vTzfrW64A0ERc",
+      "amount": 85.03975051087359,
+      "category": [
+        "Toys",
+      ],
+      "date": "Wed Apr 15 1970 02:51:59 GMT-0500 (Eastern Standard Time)",
+      "name": "Reilly Group",
+      "transaction_id": "_E9FyKZOc4maR-SR30M64",
+    },
+    {
+      "account_id": "EzDT_V7mmu0l46a_rvuo7",
+      "amount": 32.38546738323137,
+      "category": [
+        "Jewelry",
+      ],
+      "date": "Tue Aug 11 1970 07:03:16 GMT-0400 (Eastern Daylight Time)",
+      "name": "Muller - Hamill",
+      "transaction_id": "nyV1bCga8VpKEB2OteQ7b",
+    },
+    {
+      "account_id": "dDD46RPDjjKsh-lvI7LPi",
+      "amount": 27.427319182017406,
+      "category": [
+        "Kids",
+      ],
+      "date": "Sat Apr 26 1969 22:31:12 GMT-0500 (Eastern Daylight Time)",
+      "name": "Daugherty, Reilly and Monahan",
+      "transaction_id": "WpXYU4oYcKiizvs_sEibY",
+    },
+    {
+      "account_id": "7QP3Wrsvpwsry1kxDAKkq",
+      "amount": 95.9282317683173,
+      "category": [
+        "Sports",
+      ],
+      "date": "Tue Mar 03 1970 08:05:19 GMT-0500 (Eastern Standard Time)",
+      "name": "Little Group",
+      "transaction_id": "L4ZeVinbi1BuyZ6lXGWUg",
+    },
+    {
+      "account_id": "hV9SUBn3wQeq3IfHjNxxF",
+      "amount": 38.59612268626281,
+      "category": [
+        "Automotive",
+      ],
+      "date": "Fri Dec 04 1970 05:14:56 GMT-0500 (Eastern Standard Time)",
+      "name": "Schiller, Barrows and Tromp",
+      "transaction_id": "XH_6aLuonhQ4X0UoTKM7V",
+    },
+    {
+      "account_id": "IfkjlKO1PjH7LWbcspioy",
+      "amount": 7.019756256919473,
+      "category": [
+        "Garden",
+      ],
+      "date": "Sat Jan 17 1970 04:22:27 GMT-0500 (Eastern Standard Time)",
+      "name": "Huel - Kshlerin",
+      "transaction_id": "gIm5RzHe8Bwg0LDjFn3Q7",
+    },
+    {
+      "account_id": "vGIhZtx2QKvqXUfTJhH9P",
+      "amount": 32.153611882827384,
+      "category": [
+        "Garden",
+      ],
+      "date": "Wed Jan 14 1970 20:27:06 GMT-0500 (Eastern Standard Time)",
+      "name": "Kilback - Prohaska",
+      "transaction_id": "mQZMP6V1RPmDCnkXG80ii",
+    },
+    {
+      "account_id": "2NSJW_bO_MxsLtxXyNdlN",
+      "amount": 70.38102255694346,
+      "category": [
+        "Industrial",
+      ],
+      "date": "Thu Dec 10 1970 18:02:31 GMT-0500 (Eastern Standard Time)",
+      "name": "Abernathy, Lebsack and Robel",
+      "transaction_id": "d9pdWUiPCs-wlFYvNYBUb",
+    },
+    {
+      "account_id": "gWibtK2Xjg1fK8pPBBlVl",
+      "amount": 76.55983547480653,
+      "category": [
+        "Health",
+      ],
+      "date": "Sun Feb 08 1970 09:16:37 GMT-0500 (Eastern Standard Time)",
+      "name": "Olson - Cole",
+      "transaction_id": "kMIHrkV3QIQPMMyQY1jYB",
+    },
+    {
+      "account_id": "7uJ1lJhkhuCOjSc-bvUyB",
+      "amount": 77.03280649191593,
+      "category": [
+        "Computers",
+      ],
+      "date": "Sun Jul 05 1970 15:27:47 GMT-0400 (Eastern Daylight Time)",
+      "name": "Leannon LLC",
+      "transaction_id": "orsDhKMNmH1dhLf2sOBoF",
+    },
+    {
+      "account_id": "AHvT6rLMqSw1leoiUkzOW",
+      "amount": 73.4638808912215,
+      "category": [
+        "Garden",
+      ],
+      "date": "Wed Mar 04 1970 02:28:29 GMT-0500 (Eastern Standard Time)",
+      "name": "Crooks Inc",
+      "transaction_id": "NTEPY-xuZQ50EReB11qFP",
+    },
+    {
+      "account_id": "1NHjojQhvspjbTdq7X_ca",
+      "amount": 7.572961930434263,
+      "category": [
+        "Automotive",
+      ],
+      "date": "Fri Oct 31 1969 21:17:30 GMT-0500 (Eastern Daylight Time)",
+      "name": "Johns Group",
+      "transaction_id": "b_czxoIRCtsfGc0wCq-KJ",
+    },
+    {
+      "account_id": "DSSy_kSsCytYW4EAgTQzh",
+      "amount": 82.51297065468142,
+      "category": [
+        "Kids",
+      ],
+      "date": "Sun Aug 17 1969 07:11:54 GMT-0400 (Eastern Daylight Time)",
+      "name": "Sanford - Hansen",
+      "transaction_id": "O2DtTEulzKVkLspwZPgFh",
+    },
+    {
+      "account_id": "QbllY1WCMoUcxkr5QAAlB",
+      "amount": 86.4093335956091,
+      "category": [
+        "Sports",
+      ],
+      "date": "Wed Jan 08 1969 03:09:59 GMT-0500 (Eastern Standard Time)",
+      "name": "Casper, Jacobi and Batz",
+      "transaction_id": "Rlsm2Un5JV7Uzsz4vNF3F",
+    },
+    {
+      "account_id": "iQ1sQNUGhaXlxMgNjnz7A",
+      "amount": 75.54903497130294,
+      "category": [
+        "Industrial",
+      ],
+      "date": "Fri Apr 17 1970 16:39:01 GMT-0500 (Eastern Standard Time)",
+      "name": "Stark, Trantow and Lockman",
+      "transaction_id": "_xeqFoOhF3GZKDfVn-92P",
+    },
+  ],
+  "modified": [
+    {
+      "account_id": "Op1ORV7R4aBcQP-J0wRIn",
+      "amount": 88.82750610460744,
+      "category": [
+        "Shoes",
+      ],
+      "date": "Tue Apr 15 1969 18:03:52 GMT-0500 (Eastern Daylight Time)",
+      "name": "Morissette, Ernser and Cartwright",
+      "transaction_id": "1FCxl2ItaWB8zK5Lqng4L",
+    },
+    {
+      "account_id": "mNcUm8PhuoXqmdG6_HKix",
+      "amount": 20.228591153120014,
+      "category": [
+        "Shoes",
+      ],
+      "date": "Tue Jan 14 1969 03:15:23 GMT-0500 (Eastern Standard Time)",
+      "name": "Stiedemann, Hahn and Murphy",
+      "transaction_id": "CibPrK4uI6l-wBqOR16K5",
+    },
+    {
+      "account_id": "41BCWuzyyLPNN8cR2DVkK",
+      "amount": 73.2343988476618,
+      "category": [
+        "Games",
+      ],
+      "date": "Sun May 24 1970 03:20:47 GMT-0400 (Eastern Daylight Time)",
+      "name": "Robel - Mante",
+      "transaction_id": "HeuyxJbPBGRm867-3yF4F",
+    },
+    {
+      "account_id": "7rAzOHEnnbDCVv7cHyMF4",
+      "amount": 89.14594879373317,
+      "category": [
+        "Baby",
+      ],
+      "date": "Tue Jan 27 1970 14:21:57 GMT-0500 (Eastern Standard Time)",
+      "name": "Runolfsdottir and Sons",
+      "transaction_id": "rngXp-g6XD1UGc4B_xAn_",
+    },
+    {
+      "account_id": "jMJWlCjZfVLTgspHtikuk",
+      "amount": 75.38738769420088,
+      "category": [
+        "Electronics",
+      ],
+      "date": "Tue Oct 27 1970 06:03:42 GMT-0500 (Eastern Standard Time)",
+      "name": "Dickens, Lowe and DuBuque",
+      "transaction_id": "SZaqK6t_Sji6Ko7RokT2t",
+    },
+    {
+      "account_id": "4qdlIw7Gzg_bYTFp-VY29",
+      "amount": 14.865170997661515,
+      "category": [
+        "Beauty",
+      ],
+      "date": "Wed Jun 17 1970 05:18:58 GMT-0400 (Eastern Daylight Time)",
+      "name": "Collins and Sons",
+      "transaction_id": "AtotM_HscmggUXQysgORv",
+    },
+    {
+      "account_id": "MR9lQksiX3use7wc_D74B",
+      "amount": 68.3346163083279,
+      "category": [
+        "Kids",
+      ],
+      "date": "Fri Sep 04 1970 21:17:55 GMT-0400 (Eastern Daylight Time)",
+      "name": "Rogahn - Goyette",
+      "transaction_id": "f_139-227fzoglO_YH6d-",
+    },
+    {
+      "account_id": "wy_XeKTK4BcHc7RhHvAuZ",
+      "amount": 98.87989037179706,
+      "category": [
+        "Clothing",
+      ],
+      "date": "Thu Dec 18 1969 09:25:47 GMT-0500 (Eastern Standard Time)",
+      "name": "Mante - Roob",
+      "transaction_id": "C9MVtlx4sFUPLrOY8kVz3",
+    },
+    {
+      "account_id": "TEgcyvnO4SVN3rFbIXJnt",
+      "amount": 15.489811589303171,
+      "category": [
+        "Garden",
+      ],
+      "date": "Fri Sep 18 1970 10:30:54 GMT-0400 (Eastern Daylight Time)",
+      "name": "Kub - Prosacco",
+      "transaction_id": "pcRuE3ZAarU3LaTC9Kti_",
+    },
+    {
+      "account_id": "3_UWwaRFHKCPt0RdgB8kS",
+      "amount": 94.02204989853836,
+      "category": [
+        "Computers",
+      ],
+      "date": "Wed Jul 08 1970 03:34:46 GMT-0400 (Eastern Daylight Time)",
+      "name": "Farrell Group",
+      "transaction_id": "TGimpn1flrEuEb-u0k07l",
+    },
+    {
+      "account_id": "-L8Bj1MAUxU3B31xiww_R",
+      "amount": 26.059453398167076,
+      "category": [
+        "Books",
+      ],
+      "date": "Thu Jan 08 1970 13:09:59 GMT-0500 (Eastern Standard Time)",
+      "name": "Stanton - Jerde",
+      "transaction_id": "ZVMFhN5N3DDGsYiKaWR5Q",
+    },
+    {
+      "account_id": "p8T2NixdWdIJ66Gjs2gBd",
+      "amount": 82.9885336758508,
+      "category": [
+        "Outdoors",
+      ],
+      "date": "Sun Mar 16 1969 19:22:51 GMT-0500 (Eastern Daylight Time)",
+      "name": "Littel and Sons",
+      "transaction_id": "mOWsFc_6din0H5PuvpX6e",
+    },
+    {
+      "account_id": "FHX_z9Ctv2R5cKTorFK1F",
+      "amount": 47.42696269999202,
+      "category": [
+        "Clothing",
+      ],
+      "date": "Tue Oct 13 1970 07:40:41 GMT-0400 (Eastern Daylight Time)",
+      "name": "Kutch Group",
+      "transaction_id": "32pqtePI-hNQFfjjsTUQy",
+    },
+    {
+      "account_id": "5AbrYDDlhBZkUh4esn13m",
+      "amount": 58.25352674113403,
+      "category": [
+        "Garden",
+      ],
+      "date": "Wed Dec 09 1970 21:48:59 GMT-0500 (Eastern Standard Time)",
+      "name": "Wisozk LLC",
+      "transaction_id": "LaRyXr04iYtdvXX21Dqz0",
+    },
+    {
+      "account_id": "pVSfrmMaBXCz1Jtz7fCQl",
+      "amount": 64.02586721982914,
+      "category": [
+        "Automotive",
+      ],
+      "date": "Fri Jun 20 1969 06:01:35 GMT-0400 (Eastern Daylight Time)",
+      "name": "Robel - Conn",
+      "transaction_id": "jwaRlniWSKLNCiRfw3K_k",
+    },
+  ],
+  "removed": [
+    {
+      "account_id": "fbnOqLPAsFOInXrWE-rsM",
+      "amount": 69.98665503992902,
+      "category": [
+        "Grocery",
+      ],
+      "date": "Sun May 18 1969 04:06:53 GMT-0400 (Eastern Daylight Time)",
+      "name": "Hyatt - Huels",
+      "transaction_id": "k9g8eJvLU4n7Pib5t_oM8",
+    },
+    {
+      "account_id": "G0LYnTqWwpkOywzZKCTkj",
+      "amount": 43.8262245387399,
+      "category": [
+        "Electronics",
+      ],
+      "date": "Wed Jan 08 1969 08:50:30 GMT-0500 (Eastern Standard Time)",
+      "name": "Jones - Corwin",
+      "transaction_id": "mwGr6N7HNzK4mYt4FCGWr",
+    },
+    {
+      "account_id": "nCookkE2HCivl90yVDOmv",
+      "amount": 49.40235206680773,
+      "category": [
+        "Tools",
+      ],
+      "date": "Mon Jul 20 1970 08:12:32 GMT-0400 (Eastern Daylight Time)",
+      "name": "Gulgowski - Dare",
+      "transaction_id": "iWliIHCB0EGXcMAPwNOse",
+    },
+    {
+      "account_id": "I1q6ZGY44CEGKegLbECq8",
+      "amount": 87.95130288024616,
+      "category": [
+        "Grocery",
+      ],
+      "date": "Tue Feb 17 1970 04:10:36 GMT-0500 (Eastern Standard Time)",
+      "name": "Keebler Group",
+      "transaction_id": "G41YvZaJhAR1hzn9aew9w",
+    },
+    {
+      "account_id": "VRKd7_1IqvE5tYekZSf2A",
+      "amount": 83.82639681583936,
+      "category": [
+        "Movies",
+      ],
+      "date": "Tue Mar 11 1969 09:30:33 GMT-0500 (Eastern Daylight Time)",
+      "name": "Boyer - Brakus",
+      "transaction_id": "4cjMgWv-ddWLI3EuY6dCX",
+    },
+    {
+      "account_id": "bKW_uuDplf0g16kHeIa6o",
+      "amount": 70.46461529965694,
+      "category": [
+        "Shoes",
+      ],
+      "date": "Mon Mar 10 1969 06:11:53 GMT-0500 (Eastern Daylight Time)",
+      "name": "Tremblay - Hansen",
+      "transaction_id": "hyVOw8NV0-BAqVDKJM9IC",
+    },
+    {
+      "account_id": "Bj7ke16Uk0-HT9yw2A0xj",
+      "amount": 49.848796708524425,
+      "category": [
+        "Toys",
+      ],
+      "date": "Fri Jul 24 1970 01:52:27 GMT-0400 (Eastern Daylight Time)",
+      "name": "Herzog - Keeling",
+      "transaction_id": "M2C8pU4jtoTjafrehQdy_",
+    },
+    {
+      "account_id": "B2tzMIOoF4_AJwCF18OCf",
+      "amount": 24.258071712299166,
+      "category": [
+        "Music",
+      ],
+      "date": "Tue Mar 17 1970 17:41:15 GMT-0500 (Eastern Standard Time)",
+      "name": "Murazik - Gusikowski",
+      "transaction_id": "9O9zw3kKB-5jMm5G0Akb3",
+    },
+    {
+      "account_id": "yEdo05zTHGLk8Z4cqRtSs",
+      "amount": 19.616651015389884,
+      "category": [
+        "Health",
+      ],
+      "date": "Mon Nov 30 1970 21:09:57 GMT-0500 (Eastern Standard Time)",
+      "name": "Rice - Rippin",
+      "transaction_id": "MtC1r1Q9_P05UXytNyNjk",
+    },
+    {
+      "account_id": "kC6SW0A-lpldgPAhoFLJy",
+      "amount": 61.11489712918258,
+      "category": [
+        "Electronics",
+      ],
+      "date": "Thu Aug 28 1969 04:42:41 GMT-0400 (Eastern Daylight Time)",
+      "name": "Wunsch, Wilderman and Metz",
+      "transaction_id": "461OTHUW99Hf8wnHrdd-i",
+    },
+    {
+      "account_id": "qvuyuYnXXE4qfDVB6cM8Z",
+      "amount": 17.769172036567937,
+      "category": [
+        "Health",
+      ],
+      "date": "Thu Jul 23 1970 12:36:28 GMT-0400 (Eastern Daylight Time)",
+      "name": "Little LLC",
+      "transaction_id": "PFef70HKy3KF8Z-4mNCiL",
+    },
+    {
+      "account_id": "-OwVIN_qBAUS7jqXYFfHo",
+      "amount": 23.249630506622786,
+      "category": [
+        "Tools",
+      ],
+      "date": "Fri Jan 09 1970 07:27:28 GMT-0500 (Eastern Standard Time)",
+      "name": "Hettinger, Schultz and Stamm",
+      "transaction_id": "SRgexZzCmxfDhd10rA-Md",
+    },
+    {
+      "account_id": "f60bOLiV0_AUiVF3LHFV3",
+      "amount": 53.848493294587406,
+      "category": [
+        "Health",
+      ],
+      "date": "Wed Aug 06 1969 09:04:20 GMT-0400 (Eastern Daylight Time)",
+      "name": "Kiehn - Stehr",
+      "transaction_id": "tI6DrEQkP4loaYeXB5nJa",
+    },
+    {
+      "account_id": "4rrBglayMtFIIwCh4blb1",
+      "amount": 57.71539103744784,
+      "category": [
+        "Home",
+      ],
+      "date": "Thu Mar 13 1969 23:09:09 GMT-0500 (Eastern Daylight Time)",
+      "name": "Cartwright, Funk and Predovic",
+      "transaction_id": "cI9pp2L5kQ62_yyibFPYa",
+    },
+    {
+      "account_id": "bUajq95FHl6SvTgM_Ajh-",
+      "amount": 74.65766098901433,
+      "category": [
+        "Home",
+      ],
+      "date": "Fri Aug 14 1970 23:35:07 GMT-0400 (Eastern Daylight Time)",
+      "name": "Kozey and Sons",
+      "transaction_id": "oCwsPDn5P7xrrq19hLMn7",
+    },
+  ],
+  "transactionCursor": "SHg4mfixDQMIWBXvTRgqO",
+}
+`;

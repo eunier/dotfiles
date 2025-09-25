@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkService exchangePublicToken when user is found it should attached the user to the source 1`] = `
+[
+  AccountEntity {
+    "createdAt": 1970-01-01T00:00:00.000Z,
+    "id": undefined,
+    "mask": "3379",
+    "name": "Wolff, Runolfsson and Schuppe",
+    "plaidId": "aBWd8ptaJw_kUJf9SQiRO",
+    "source": SourceEntity {
+      "accessToken": "5jOaCaBoz0oDA3dcm-ffJ",
+      "accounts": [],
+      "createdAt": 1970-01-01T00:00:00.000Z,
+      "id": undefined,
+      "institution": {
+        "id": "tWLMn0svIx0Xkj43n16QV",
+        "name": "Daniel Group",
+        "plaidId": "PQ6prHq3oUljN9fYjoAWt",
+      },
+      "plaidId": "Nwk0S-3w2051b00yFB7m-",
+      "requestId": "2-Rl3_pLKJ3sxzbI6I_YX",
+      "transactionCursor": undefined,
+      "updatedAt": 1970-01-01T00:00:00.000Z,
+      "user": {
+        "email": "Dakota.Ruecker35@hotmail.com",
+        "id": "ocf3kxo28INwBsWaXH0xH",
+        "password": "4ihn1bKgs39te3GayvkFz",
+      },
+      Symbol(EntityRepositoryType): [Function],
+    },
+    "subtype": "gjr8WElkk9v4DW3_1lK4u",
+    "transactions": [],
+    "updatedAt": 1970-01-01T00:00:00.000Z,
+    Symbol(EntityRepositoryType): [Function],
+  },
+  AccountEntity {
+    "createdAt": 1970-01-01T00:00:00.000Z,
+    "id": undefined,
+    "mask": "3688",
+    "name": "Dietrich and Sons",
+    "plaidId": "j5_CIYzsRjl3Re2-1ICva",
+    "source": SourceEntity {
+      "accessToken": "5jOaCaBoz0oDA3dcm-ffJ",
+      "accounts": [],
+      "createdAt": 1970-01-01T00:00:00.000Z,
+      "id": undefined,
+      "institution": {
+        "id": "tWLMn0svIx0Xkj43n16QV",
+        "name": "Daniel Group",
+        "plaidId": "PQ6prHq3oUljN9fYjoAWt",
+      },
+      "plaidId": "Nwk0S-3w2051b00yFB7m-",
+      "requestId": "2-Rl3_pLKJ3sxzbI6I_YX",
+      "transactionCursor": undefined,
+      "updatedAt": 1970-01-01T00:00:00.000Z,
+      "user": {
+        "email": "Dakota.Ruecker35@hotmail.com",
+        "id": "ocf3kxo28INwBsWaXH0xH",
+        "password": "4ihn1bKgs39te3GayvkFz",
+      },
+      Symbol(EntityRepositoryType): [Function],
+    },
+    "subtype": "ZRG-35VCu6YOTT62iN0G1",
+    "transactions": [],
+    "updatedAt": 1970-01-01T00:00:00.000Z,
+    Symbol(EntityRepositoryType): [Function],
+  },
+]
+`;

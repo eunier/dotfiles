@@ -1,0 +1,63 @@
+<h1>{{ welcomeLabel() }}</h1>
+
+<form fxLayout="column" [formGroup]="form" (ngSubmit)="onSubmit()">
+  <mat-form-field appearance="outline">
+    <mat-label>Email</mat-label>
+
+    <input
+      matInput
+      placeholder="name@mail.com"
+      required
+      type="email"
+      [formControlName]="FormControlName.Email"
+    />
+
+    @if (
+      form.get(FormControlName.Email)?.invalid &&
+      form.get(FormControlName.Email)?.hasError("required")
+    ) {
+      <mat-error>Required</mat-error>
+    }
+
+    @if (
+      form.get(FormControlName.Email)?.invalid &&
+      form.get(FormControlName.Email)?.hasError("email")
+    ) {
+      <mat-error>Invalid Email</mat-error>
+    }
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Password</mat-label>
+
+    <input
+      matInput
+      required
+      type="password"
+      [formControlName]="FormControlName.Password"
+    />
+
+    @if (
+      form.get(FormControlName.Password)?.invalid &&
+      form.get(FormControlName.Password)?.hasError("required")
+    ) {
+      <mat-error>Required</mat-error>
+    }
+
+    @if (
+      form.get(FormControlName.Password)?.invalid &&
+      form.get(FormControlName.Password)?.hasError("minlength")
+    ) {
+      <mat-error>Invalid Password</mat-error>
+    }
+  </mat-form-field>
+
+  <button mat-button type="submit" [disabled]="!form.valid">
+    {{ submitLabel() }}
+  </button>
+</form>
+
+<p>
+  {{ questionLabel() }}
+  <a mat-button [routerLink]="linkAddress()">{{ linkLabel() }}</a>
+</p>
