@@ -34,8 +34,7 @@ repos=(
 
 for entry in "${repos[@]}"; do
 	url=$(echo "$entry" | awk '{print $1}')
-	path=$(echo "$entry" | awk '{print $2}')
-	# echo "git clone $url $path"
+	path=$(echo "$entry" | awk '{print $2}')y
 	expanded_path=$(eval echo "$path")
 
 	if [ ! -d "$expanded_path" ]; then

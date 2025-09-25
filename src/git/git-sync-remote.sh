@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+COMPUTER_MODEL=$(sudo dmidecode -s system-product-name | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+REPO_PATH=~/.dotfiles
+
 time=$(date +"%H")
 
 if [ "$time" -ge 18 ] || [ "$time" -lt 7 ]; then
