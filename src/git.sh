@@ -45,6 +45,5 @@ for entry in "${repos[@]}"; do
 done
 
 echo ""
-tree ~/Projects -L 2 -a >$REPO_PATH/src/git/git-repos-"$COMPUTER_MODEL".txt
+tree ~/Projects -L 2 -a >$REPO_PATH/src/git/git-repos_"$COMPUTER_MODEL".txt
 sh $REPO_PATH/src/git/git-sync-remote.sh
-

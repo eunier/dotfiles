@@ -23,4 +23,4 @@ brew upgrade
 brew install gcc
 brew install git-cliff
 
-brew list >"$REPO_PATH"/src/homebrew/homebrew-list-"$COMPUTER_MODEL".txt
+brew list >"$REPO_PATH"/src/homebrew/homebrew-list_"$COMPUTER_MODEL".txt
