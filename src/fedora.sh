@@ -13,7 +13,7 @@ sh ~/.dotfiles/src/zig.sh
 sh ~/.dotfiles/src/git.sh
 sh ~/.dotfiles/src/homebrew.sh
 
-# sh ~/.dotfiles/src/autostart.sh
+sh ~/.dotfiles/src/autostart.sh
 # sh ~/.dotfiles/src/bash.sh
 # sh ~/.dotfiles/src/dconf.sh
 # sh ~/.dotfiles/src/doas.sh

@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
-touch ~/.dotfiles/src/autostart/autostart-before.txt
-tree ~/.config/autostart > ~/.dotfiles/src/autostart/autostart-after.txt
-tree -aDgNpqsu ~/.config/autostart >> ~/.dotfiles/src/autostart/autostart-after.txt
+COMPUTER_MODEL=$(sudo dmidecode -s system-product-name | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+REPO_PATH=~/.dotfiles
+
+AUTOSTART_TXT_PATH=$REPO_PATH/src/autostart/autostart_$COMPUTER_MODEL.txt
+tree ~/.config/autostart >"$AUTOSTART_TXT_PATH"
+tree -aDgNpqsu ~/.config/autostart >>"$AUTOSTART_TXT_PATH"
