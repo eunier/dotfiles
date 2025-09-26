@@ -1,3 +1,8 @@
 #!/usr/bin/bash
 
-cp ~/.config/fish/config.fish ~/.dotfiles/src/files/after/home/~/.config/fish/config.fish
+COMPUTER_MODEL=$(sudo dmidecode -s system-product-name | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+REPO_PATH=~/.dotfiles
+
+DEST="$REPO_PATH/src/files/$COMPUTER_MODEL/home/.config/fish/config.fish"
+mkdir -p "$(dirname "$DEST")"
+cp ~/.config/fish/config.fish "$DEST"
