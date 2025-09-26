@@ -5,7 +5,7 @@ REPO_PATH=~/.dotfiles
 
 DEST="$REPO_PATH/src/files/$COMPUTER_MODEL/home/~/.gitconfig.txt"
 mkdir -p "$(dirname "$DEST")"
-cp ~/.gitconfig $REPO_PATH/src/files/"$COMPUTER_MODEL"/home/~/.gitconfig
+cp ~/.gitconfig "$DEST"
 
 echo "Cloning git repos..."
 
