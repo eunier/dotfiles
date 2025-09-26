@@ -65,6 +65,7 @@ try {
     "net.codelogistics.webapps",
     "nl.emphisia.icon",
     "org.cvfosammmm.Lemma",
+    "org.flathub.flatpak-external-data-checker",
     "org.gnome.design.AppIconPreview",
     "org.gnome.design.Emblem",
     "org.gnome.design.Lorem",
@@ -99,10 +100,7 @@ try {
   const wantedApps = apps;
 
   for (const app of installedApps) {
-    const isInstalledAppWanted =
-      app !== "org.flathub.flatpak-external-data-checker" &&
-      app !== "org.flathub.flatpak_external_data_checker.Locale" &&
-      wantedApps.includes(app);
+    const isInstalledAppWanted = wantedApps.includes(app);
 
     if (!isInstalledAppWanted) {
       toRemove.push(app);
