@@ -294,12 +294,12 @@ Vendor          : Fedora Project
 
 Name            : NetworkManager-openvpn
 Epoch           : 1
-Version         : 1.12.0
-Release         : 3.fc42
+Version         : 1.12.3
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 1.2 MiB
-Source          : NetworkManager-openvpn-1.12.0-3.fc42.src.rpm
-From repository : fedora
+Installed size  : 1.3 MiB
+Source          : NetworkManager-openvpn-1.12.3-1.fc42.src.rpm
+From repository : updates
 Summary         : NetworkManager VPN plugin for OpenVPN
 URL             : http://www.gnome.org/projects/NetworkManager/
 License         : GPL-2.0-or-later
@@ -309,12 +309,12 @@ Vendor          : Fedora Project
 
 Name            : NetworkManager-openvpn-gnome
 Epoch           : 1
-Version         : 1.12.0
-Release         : 3.fc42
+Version         : 1.12.3
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 358.4 KiB
-Source          : NetworkManager-openvpn-1.12.0-3.fc42.src.rpm
-From repository : fedora
+Installed size  : 354.7 KiB
+Source          : NetworkManager-openvpn-1.12.3-1.fc42.src.rpm
+From repository : updates
 Summary         : NetworkManager VPN plugin for OpenVPN - GNOME files
 URL             : http://www.gnome.org/projects/NetworkManager/
 License         : GPL-2.0-or-later
@@ -3896,10 +3896,10 @@ Vendor          : Fedora Project
 Name            : cups
 Epoch           : 1
 Version         : 2.4.14
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 8.1 MiB
-Source          : cups-2.4.14-1.fc42.src.rpm
+Source          : cups-2.4.14-2.fc42.src.rpm
 From repository : updates
 Summary         : CUPS printing system
 URL             : https://openprinting.github.io/cups/
@@ -3930,10 +3930,10 @@ Vendor          : Fedora Project
 Name            : cups-client
 Epoch           : 1
 Version         : 2.4.14
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 178.8 KiB
-Source          : cups-2.4.14-1.fc42.src.rpm
+Source          : cups-2.4.14-2.fc42.src.rpm
 From repository : updates
 Summary         : CUPS printing system - client programs
 URL             : https://openprinting.github.io/cups/
@@ -3946,10 +3946,10 @@ Vendor          : Fedora Project
 Name            : cups-filesystem
 Epoch           : 1
 Version         : 2.4.14
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : noarch
 Installed size  : 0.0   B
-Source          : cups-2.4.14-1.fc42.src.rpm
+Source          : cups-2.4.14-2.fc42.src.rpm
 From repository : updates
 Summary         : CUPS printing system - directory layout
 URL             : https://openprinting.github.io/cups/
@@ -3998,10 +3998,10 @@ Vendor          : Fedora Project
 Name            : cups-ipptool
 Epoch           : 1
 Version         : 2.4.14
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 4.4 MiB
-Source          : cups-2.4.14-1.fc42.src.rpm
+Source          : cups-2.4.14-2.fc42.src.rpm
 From repository : updates
 Summary         : CUPS printing system - tool for performing IPP requests
 URL             : https://openprinting.github.io/cups/
@@ -4012,10 +4012,10 @@ Vendor          : Fedora Project
 Name            : cups-libs
 Epoch           : 1
 Version         : 2.4.14
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : i686
 Installed size  : 673.4 KiB
-Source          : cups-2.4.14-1.fc42.src.rpm
+Source          : cups-2.4.14-2.fc42.src.rpm
 From repository : updates
 Summary         : CUPS printing system - libraries
 URL             : https://openprinting.github.io/cups/
@@ -4031,10 +4031,10 @@ Vendor          : Fedora Project
 Name            : cups-libs
 Epoch           : 1
 Version         : 2.4.14
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 618.7 KiB
-Source          : cups-2.4.14-1.fc42.src.rpm
+Source          : cups-2.4.14-2.fc42.src.rpm
 From repository : updates
 Summary         : CUPS printing system - libraries
 URL             : https://openprinting.github.io/cups/
@@ -6039,10 +6039,10 @@ Vendor          : Fedora Project
 Name            : dracut
 Epoch           : 0
 Version         : 107
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 1.6 MiB
-Source          : dracut-107-3.fc42.src.rpm
+Source          : dracut-107-4.fc42.src.rpm
 From repository : updates
 Summary         : Initramfs generator using udev
 URL             : https://github.com/dracut-ng/dracut-ng/wiki/
@@ -6058,10 +6058,10 @@ Vendor          : Fedora Project
 Name            : dracut-config-rescue
 Epoch           : 0
 Version         : 107
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 4.5 KiB
-Source          : dracut-107-3.fc42.src.rpm
+Source          : dracut-107-4.fc42.src.rpm
 From repository : updates
 Summary         : dracut configuration to turn on rescue image generation
 URL             : https://github.com/dracut-ng/dracut-ng/wiki/
@@ -6073,10 +6073,10 @@ Vendor          : Fedora Project
 Name            : dracut-live
 Epoch           : 0
 Version         : 107
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 40.5 KiB
-Source          : dracut-107-3.fc42.src.rpm
+Source          : dracut-107-4.fc42.src.rpm
 From repository : updates
 Summary         : dracut modules to build a dracut initramfs with live image capabilities
 URL             : https://github.com/dracut-ng/dracut-ng/wiki/
@@ -6088,10 +6088,10 @@ Vendor          : Fedora Project
 Name            : dracut-network
 Epoch           : 0
 Version         : 107
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 112.8 KiB
-Source          : dracut-107-3.fc42.src.rpm
+Source          : dracut-107-4.fc42.src.rpm
 From repository : updates
 Summary         : dracut modules to build a dracut initramfs with network support
 URL             : https://github.com/dracut-ng/dracut-ng/wiki/
@@ -6103,10 +6103,10 @@ Vendor          : Fedora Project
 Name            : dracut-squash
 Epoch           : 0
 Version         : 107
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 7.2 KiB
-Source          : dracut-107-3.fc42.src.rpm
+Source          : dracut-107-4.fc42.src.rpm
 From repository : updates
 Summary         : dracut module to build an initramfs with most files in a squashfs image
 URL             : https://github.com/dracut-ng/dracut-ng/wiki/
@@ -20580,11 +20580,11 @@ Vendor          : Fedora Project
 
 Name            : libkexiv2-qt5
 Epoch           : 0
-Version         : 25.08.0
+Version         : 25.08.1
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 363.9 KiB
-Source          : libkexiv2-25.08.0-1.fc42.src.rpm
+Source          : libkexiv2-25.08.1-1.fc42.src.rpm
 From repository : updates
 Summary         : Qt5 version of libkexiv2
 URL             : https://invent.kde.org/graphics/libkexiv2
@@ -24734,11 +24734,11 @@ Vendor          : Fedora Project
 
 Name            : libva-intel-media-driver
 Epoch           : 0
-Version         : 25.2.6
+Version         : 25.3.4
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 9.6 MiB
-Source          : intel-media-driver-free-25.2.6-1.fc42.src.rpm
+Source          : intel-media-driver-free-25.3.4-1.fc42.src.rpm
 From repository : updates
 Summary         : The Intel Media Driver for VAAPI.
 URL             : https://github.com/intel/media-driver
@@ -32375,12 +32375,12 @@ Vendor          : Fedora Project
 
 Name            : podman-compose
 Epoch           : 0
-Version         : 1.4.1
-Release         : 1.fc42
+Version         : 1.5.0
+Release         : 1.1.fc42
 Architecture    : noarch
-Installed size  : 404.6 KiB
-Source          : podman-compose-1.4.1-1.fc42.src.rpm
-From repository : <unknown>
+Installed size  : 623.1 KiB
+Source          : podman-compose-1.5.0-1.1.fc42.src.rpm
+From repository : updates
 Summary         : Run docker-compose.yml using podman
 URL             : https://github.com/containers/podman-compose
 License         : GPL-2.0-only
@@ -33217,11 +33217,11 @@ Vendor          : Fedora Project
 
 Name            : python3-boto3
 Epoch           : 0
-Version         : 1.40.33
+Version         : 1.40.36
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 2.2 MiB
-Source          : python-boto3-1.40.33-1.fc42.src.rpm
+Source          : python-boto3-1.40.36-1.fc42.src.rpm
 From repository : updates
 Summary         : The AWS SDK for Python
 URL             : https://github.com/boto/boto3
@@ -33233,11 +33233,11 @@ Vendor          : Fedora Project
 
 Name            : python3-botocore
 Epoch           : 0
-Version         : 1.40.33
+Version         : 1.40.36
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 104.6 MiB
-Source          : python-botocore-1.40.33-1.fc42.src.rpm
+Source          : python-botocore-1.40.36-1.fc42.src.rpm
 From repository : updates
 Summary         : Low-level, data-driven core of boto 3
 URL             : https://github.com/boto/botocore
