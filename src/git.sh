@@ -3,7 +3,7 @@
 COMPUTER_MODEL=$(sudo dmidecode -s system-product-name | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
 REPO_PATH=~/.dotfiles
 
-DEST="$REPO_PATH/src/files/$COMPUTER_MODEL/home/~/.gitconfig"
+DEST="$REPO_PATH/src/files/$COMPUTER_MODEL/home/~/.gitconfig.txt"
 mkdir -p "$(dirname "$DEST")"
 cp ~/.gitconfig $REPO_PATH/src/files/"$COMPUTER_MODEL"/home/~/.gitconfig
 
