@@ -37,7 +37,7 @@ repos=(
 
 for entry in "${repos[@]}"; do
 	url=$(echo "$entry" | awk '{print $1}')
-	path=$(echo "$entry" | awk '{print $2}')y
+	path=$(echo "$entry" | awk '{print $2}')
 	expanded_path=$(eval echo "$path")
 
 	if [ ! -d "$expanded_path" ]; then

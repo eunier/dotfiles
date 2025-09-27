@@ -2255,10 +2255,10 @@ Vendor          : Fedora Project
 Name            : bluez
 Epoch           : 0
 Version         : 5.84
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 3.5 MiB
-Source          : bluez-5.84-1.fc42.src.rpm
+Source          : bluez-5.84-2.fc42.src.rpm
 From repository : updates
 Summary         : Bluetooth utilities
 URL             : http://www.bluez.org/
@@ -2279,10 +2279,10 @@ Vendor          : Fedora Project
 Name            : bluez-cups
 Epoch           : 0
 Version         : 5.84
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 48.1 KiB
-Source          : bluez-5.84-1.fc42.src.rpm
+Source          : bluez-5.84-2.fc42.src.rpm
 From repository : updates
 Summary         : CUPS printer backend for Bluetooth printers
 URL             : http://www.bluez.org/
@@ -2293,10 +2293,10 @@ Vendor          : Fedora Project
 Name            : bluez-libs
 Epoch           : 0
 Version         : 5.84
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : i686
 Installed size  : 197.6 KiB
-Source          : bluez-5.84-1.fc42.src.rpm
+Source          : bluez-5.84-2.fc42.src.rpm
 From repository : updates
 Summary         : Libraries for use in Bluetooth applications
 URL             : http://www.bluez.org/
@@ -2307,10 +2307,10 @@ Vendor          : Fedora Project
 Name            : bluez-libs
 Epoch           : 0
 Version         : 5.84
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 198.3 KiB
-Source          : bluez-5.84-1.fc42.src.rpm
+Source          : bluez-5.84-2.fc42.src.rpm
 From repository : updates
 Summary         : Libraries for use in Bluetooth applications
 URL             : http://www.bluez.org/
@@ -2321,10 +2321,10 @@ Vendor          : Fedora Project
 Name            : bluez-obexd
 Epoch           : 0
 Version         : 5.84
-Release         : 1.fc42
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 350.7 KiB
-Source          : bluez-5.84-1.fc42.src.rpm
+Source          : bluez-5.84-2.fc42.src.rpm
 From repository : updates
 Summary         : Object Exchange daemon for sharing content
 URL             : http://www.bluez.org/

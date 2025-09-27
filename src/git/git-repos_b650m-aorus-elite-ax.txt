@@ -3,16 +3,22 @@
 │   ├── dotfiles
 │   └── dotfilesy
 ├── com.github.libsdl-org.SDL
+│   ├── SDL
 │   └── SDLy
 ├── com.github.libsdl-org.sdlwiki
+│   ├── libsdl-org
 │   └── libsdl-orgy
 ├── com.github.linuxy.coyote-ecs
+│   ├── coyote-ecs
 │   └── coyote-ecsy
 ├── com.github.Not-Nik.raylib-zig
+│   ├── raylib-zig
 │   └── raylib-zigy
 ├── com.github.prime31.zig-ecs
+│   ├── zig-ecs
 │   └── zig-ecsy
 ├── com.github.pwbh.SDL
+│   ├── SDL
 │   └── SDLy
 ├── com.github.raylib-zig.raylib-zig
 │   └── raylib-zig
@@ -36,6 +42,7 @@
 │   ├── expense-tracker (Copy)
 │   └── expense-trackery
 ├── com.gitlab.yunieralvarez.game-top-down-shooter-rs
+│   ├── game-top-dow-shooter-rs
 │   └── game-top-dow-shooter-rsy
 ├── com.gitlab.yunieralvarez.game-tracker
 │   ├── game-tracker
@@ -89,4 +96,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-71 directories, 19 files
+78 directories, 19 files

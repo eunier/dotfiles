@@ -1,84 +1,90 @@
 #!/usr/bin/env bash
 
+COMPUTER_MODEL=$(sudo dmidecode -s system-product-name | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+REPO_PATH=~/.dotfiles
+
 cp ~/.config/Code/User/keybindings.json ~/.dotfiles/src/files/after/home/~/.config/Code/User/keybindings.json
 cp ~/.config/Code/User/settings.json ~/.dotfiles/src/files/after/home/~/.config/Code/User/settings.json
 
 code --update-extensions
 echo "Installing code extensions..."
 
-#spell-checker: disable
-code --install-extension akamud.vscode-theme-onelight
-code --install-extension Angular.ng-template
-code --install-extension aswinkumar863.sort-editors
-code --install-extension bierner.markdown-mermaid
-code --install-extension bpruitt-goddard.mermaid-markdown-syntax-highlighting
-code --install-extension bradlc.vscode-tailwindcss
-code --install-extension chrisdias.vscode-opennewinstance
-code --install-extension coddx.coddx-alpha
-code --install-extension codezombiech.gitignore
-code --install-extension csharpier.csharpier-vscode
-code --install-extension DavidAnson.vscode-markdownlint
-code --install-extension EditorConfig.EditorConfig
-code --install-extension egirlcatnip.adwaita-github-theme
-code --install-extension esbenp.prettier-vscode
-code --install-extension evan-buss.font-switcher
-code --install-extension GitHub.github-vscode-theme
-code --install-extension Gruntfuggly.todo-tree
-code --install-extension hossaini.bootstrap-intellisense
-code --install-extension humao.rest-client
-code --install-extension iciclesoft.workspacesort
-code --install-extension inferrinizzard.prettier-sql-vscode
-code --install-extension JannisX11.batch-rename-extension
-code --install-extension maattdd.gitless
-code --install-extension mads-hartmann.bash-ide-vscode
-code --install-extension mani-sh-reddy.atom-one-light-modern
-code --install-extension maptz.regionfolder
-code --install-extension MariusAlchimavicius.json-to-ts
-code --install-extension meganrogge.template-string-converter
-code --install-extension mkhl.shfmt
-code --install-extension ms-dotnettools.blazorwasm-companion
-code --install-extension ms-vscode.cpptools-extension-pack
-code --install-extension olifink.fedora-gnome-light-dark
-code --install-extension orhun.last-commit
-code --install-extension Orta.vscode-jest
-code --install-extension oven.bun-vscode
-code --install-extension patcx.vscode-nuget-gallery
-code --install-extension pflannery.vscode-versionlens
-code --install-extension piousdeer.adwaita-theme
-code --install-extension PKief.copy-branch-name
-code --install-extension PKief.material-icon-theme
-code --install-extension pranaygp.vscode-css-peek
-code --install-extension richie5um2.vscode-sort-json
-code --install-extension ritwickdey.LiveServer
-code --install-extension rjmacarthy.twinny
-code --install-extension rob-bennett.workspaceWizard
-code --install-extension rpinski.shebang-snippets
-code --install-extension rust-lang.rust-analyzer
-code --install-extension stkb.rewrap
-code --install-extension streetsidesoftware.code-spell-checker
-code --install-extension timonwong.shellcheck
-code --install-extension usernamehw.errorlens
-code --install-extension vadimcn.vscode-lldb
-code --install-extension vsls-contrib.gistfs
-code --install-extension wk-j.vscode-httpie
-code --install-extension wraith13.zoombar-vscode
-code --install-extension yoavbls.pretty-ts-errors
-code --install-extension zhuangtongfa.Material-theme
-code --install-extension ziglang.vscode-zig
-code --install-extension Zignd.html-css-class-completion
-#spell-checker: enable
+extensions=(
+	#spell-checker: disable
+	"akamud.vscode-theme-onelight"
+	"Angular.ng-template"
+	"aswinkumar863.sort-editors"
+	"bierner.markdown-mermaid"
+	"bpruitt-goddard.mermaid-markdown-syntax-highlighting"
+	"bradlc.vscode-tailwindcss"
+	"chrisdias.vscode-opennewinstance"
+	"coddx.coddx-alpha"
+	"codezombiech.gitignore"
+	"csharpier.csharpier-vscode"
+	"DavidAnson.vscode-markdownlint"
+	"EditorConfig.EditorConfig"
+	"egirlcatnip.adwaita-github-theme"
+	"esbenp.prettier-vscode"
+	"evan-buss.font-switcher"
+	"GitHub.github-vscode-theme"
+	"Gruntfuggly.todo-tree"
+	"hossaini.bootstrap-intellisense"
+	"humao.rest-client"
+	"iciclesoft.workspacesort"
+	"inferrinizzard.prettier-sql-vscode"
+	"JannisX11.batch-rename-extension"
+	"maattdd.gitless"
+	"mads-hartmann.bash-ide-vscode"
+	"mani-sh-reddy.atom-one-light-modern"
+	"maptz.regionfolder"
+	"MariusAlchimavicius.json-to-ts"
+	"meganrogge.template-string-converter"
+	"mkhl.shfmt"
+	"ms-dotnettools.blazorwasm-companion"
+	"ms-vscode.cpptools-extension-pack"
+	"olifink.fedora-gnome-light-dark"
+	"orhun.last-commit"
+	"Orta.vscode-jest"
+	"oven.bun-vscode"
+	"patcx.vscode-nuget-gallery"
+	"pflannery.vscode-versionlens"
+	"piousdeer.adwaita-theme"
+	"PKief.copy-branch-name"
+	"PKief.material-icon-theme"
+	"pranaygp.vscode-css-peek"
+	"richie5um2.vscode-sort-json"
+	"ritwickdey.LiveServer"
+	"rjmacarthy.twinny"
+	"rob-bennett.workspaceWizard"
+	"rpinski.shebang-snippets"
+	"rust-lang.rust-analyzer"
+	"stkb.rewrap"
+	"streetsidesoftware.code-spell-checker"
+	"timonwong.shellcheck"
+	"usernamehw.errorlens"
+	"vadimcn.vscode-lldb"
+	"vsls-contrib.gistfs"
+	"wk-j.vscode-httpie"
+	"wraith13.zoombar-vscode"
+	"yoavbls.pretty-ts-errors"
+	"zhuangtongfa.Material-theme"
+	"ziglang.vscode-zig"
+	"Zignd.html-css-class-completion"
+	#spell-checker: enable
+)
+
+for ext in "${extensions[@]}"; do
+	code --install-extension "$ext"
+	sleep 0.5
+done
 
 echo ""
-touch ~/.dotfiles/src/vscode/vscode-extensions-before.txt
-code --list-extensions >~/.dotfiles/src/vscode/vscode-extensions-after.txt
+code --list-extensions >$REPO_PATH/src/vscode/vscode-extensions-"$COMPUTER_MODEL".txt
 
-font="${1:-"Cascadia Code"}"
-sh ~/.dotfiles/src/vscode/vscode-font-switch.sh "$font" # is not passing the passed value
+sh $REPO_PATH/src/vscode/vscode-font-switch.sh
 
 touch ~/.config/Code/User/settings.json
-touch ~/.dotfiles/src/vscode/vscode-settings-before.jsonc
-cp ~/.config/Code/User/settings.json ~/.dotfiles/src/vscode/vscode-settings-after.jsonc
+cp ~/.config/Code/User/settings.json $REPO_PATH/src/vscode/vscode-settings-"$COMPUTER_MODEL".jsonc
 
 touch ~/.config/Code/User/keybindings.json
-touch ~/.dotfiles/src/vscode/vscode-keybindings-before.jsonc
-cp ~/.config/Code/User/keybindings.json ~/.dotfiles/src/vscode/vscode-keybindings-after.jsonc
+cp ~/.config/Code/User/keybindings.json $REPO_PATH/src/vscode/vscode-keybindings-"$COMPUTER_MODEL".jsonc
