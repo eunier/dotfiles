@@ -22,6 +22,7 @@ extensions=(
 	"codezombiech.gitignore"
 	"csharpier.csharpier-vscode"
 	"DavidAnson.vscode-markdownlint"
+	"eamodio.gitlens"
 	"EditorConfig.EditorConfig"
 	"egirlcatnip.adwaita-github-theme"
 	"esbenp.prettier-vscode"
@@ -33,7 +34,6 @@ extensions=(
 	"iciclesoft.workspacesort"
 	"inferrinizzard.prettier-sql-vscode"
 	"JannisX11.batch-rename-extension"
-	"maattdd.gitless"
 	"mads-hartmann.bash-ide-vscode"
 	"mani-sh-reddy.atom-one-light-modern"
 	"maptz.regionfolder"
@@ -73,9 +73,9 @@ extensions=(
 	#spell-checker: enable
 )
 
+# FATAL ERROR: v8::ToLocalChecked Empty MaybeLocal
 for ext in "${extensions[@]}"; do
 	code --install-extension "$ext"
-	sleep 0.5
 done
 
 echo ""
