@@ -1,81 +1,58 @@
 /home/tron/Projects
 ├── com.github.eunier.dotfiles
-│   ├── dotfiles
-│   └── dotfilesy
+│   └── dotfiles
 ├── com.github.libsdl-org.SDL
-│   ├── SDL
-│   └── SDLy
+│   └── SDL
 ├── com.github.libsdl-org.sdlwiki
-│   ├── libsdl-org
-│   └── libsdl-orgy
+│   └── libsdl-org
 ├── com.github.linuxy.coyote-ecs
-│   ├── coyote-ecs
-│   └── coyote-ecsy
+│   └── coyote-ecs
 ├── com.github.Not-Nik.raylib-zig
-│   ├── raylib-zig
-│   └── raylib-zigy
+│   └── raylib-zig
 ├── com.github.prime31.zig-ecs
-│   ├── zig-ecs
-│   └── zig-ecsy
+│   └── zig-ecs
 ├── com.github.pwbh.SDL
-│   ├── SDL
-│   └── SDLy
+│   └── SDL
 ├── com.github.raylib-zig.raylib-zig
 │   └── raylib-zig
 ├── com.github.SanderMertens.flecs
-│   ├── flecs
-│   └── flecsy
+│   └── flecs
 ├── com.github.zig-gamedev.zflecs
-│   ├── zflecs
-│   └── zflecsy
+│   └── zflecs
 ├── com.github.zig-gamedev.zig-gamedev
-│   ├── zig-gamedev
-│   └── zig-gamedevy
+│   └── zig-gamedev
 ├── com.github.ziglang.zig
-│   ├── zig
-│   └── zigy
+│   └── zig
 ├── com.github.zigzap.zap
-│   ├── zap
-│   └── zapy
+│   └── zap
 ├── com.gitlab.yunieralvarez.expense-tracker
 │   ├── expense-tracker
-│   ├── expense-tracker (Copy)
-│   └── expense-trackery
+│   └── expense-tracker (Copy)
 ├── com.gitlab.yunieralvarez.game-top-down-shooter-rs
-│   ├── game-top-dow-shooter-rs
-│   └── game-top-dow-shooter-rsy
+│   └── game-top-dow-shooter-rs
 ├── com.gitlab.yunieralvarez.game-tracker
-│   ├── game-tracker
-│   └── game-trackery
+│   └── game-tracker
 ├── com.gitlab.yunieralvarez.godot-first-person-shooter-demo
-│   ├── godot-first-person-shooter-demo
-│   └── godot-first-person-shooter-demoy
+│   └── godot-first-person-shooter-demo
 ├── com.gitlab.yunieralvarez.playground
-│   ├── playground
-│   └── playgroundy
+│   └── playground
 ├── com.gitlab.yunieralvarez.qmkl
-│   ├── qmkl
-│   └── qmkly
+│   └── qmkl
 ├── com.gitlab.yunieralvarez.repo
-│   ├── repo
-│   └── repoy
+│   └── repo
 ├── com.gitlab.yunieralvarez.repo-resources
-│   ├── repo-resources
-│   └── repo-resourcesy
+│   └── repo-resources
 ├── com.gitlab.yunieralvarez.top-down-game
-│   ├── top-down-game
-│   └── top-down-gamey
+│   └── top-down-game
 ├── .gnome-builder
 │   ├── CACHEDIR.TAG
 │   ├── flatpak
 │   ├── manuals
 │   └── projects
 ├── ocm.github.raysan5.raylib
-│   ├── raylib
-│   └── rayliby
+│   └── raylib
 ├── org.gitlab.gnome.GNOME.gnome-calendar
-│   ├── gnome-calendar
-│   └── gnome-calendary
+│   └── gnome-calendar
 └── workspaces
     ├── dotfiles.code-workspace
     ├── dotfiles-csharp.code-workspace
@@ -96,4 +73,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-78 directories, 19 files
+55 directories, 19 files

@@ -24,7 +24,7 @@ sh ~/.dotfiles/src/fish.sh
 # sh ~/.dotfiles/src/syncthing.sh
 # sh ~/.dotfiles/src/timeshift.sh
 # sh ~/.dotfiles/src/tree.sh
-# sh ~/.dotfiles/src/vscode.sh
+sh ~/.dotfiles/src/vscode.sh
 
 # sh ~/.dotfiles/src/fastfetch.sh
 
