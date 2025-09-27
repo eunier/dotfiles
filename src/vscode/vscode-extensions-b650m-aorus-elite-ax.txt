@@ -9,6 +9,7 @@ coddx.coddx-alpha
 codezombiech.gitignore
 csharpier.csharpier-vscode
 davidanson.vscode-markdownlint
+eamodio.gitlens
 editorconfig.editorconfig
 egirlcatnip.adwaita-github-theme
 esbenp.prettier-vscode
@@ -24,7 +25,6 @@ humao.rest-client
 iciclesoft.workspacesort
 inferrinizzard.prettier-sql-vscode
 jannisx11.batch-rename-extension
-maattdd.gitless
 mads-hartmann.bash-ide-vscode
 mani-sh-reddy.atom-one-light-modern
 maptz.regionfolder

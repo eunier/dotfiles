@@ -1,5 +1,6 @@
 Key Rack	app.drey.KeyRack	0.4.0	stable	system
 Zen	app.zen_browser.zen	1.16.1b	stable	system
+Tally	ca.vlacroix.Tally	0.6.3	stable	system
 Adventure List	codes.merritt.adventurelist	0.15.0	stable	system
 Authenticator	com.belmoussaoui.Authenticator	4.6.2	stable	system
 Decoder	com.belmoussaoui.Decoder	0.8.0	stable	system

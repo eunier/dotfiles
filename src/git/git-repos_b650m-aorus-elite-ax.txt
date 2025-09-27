@@ -44,6 +44,8 @@
 │   └── repo-resources
 ├── com.gitlab.yunieralvarez.top-down-game
 │   └── top-down-game
+├── com.gitlab.yunieralvarez.zig-ecs
+│   └── zig-ecs
 ├── .gnome-builder
 │   ├── CACHEDIR.TAG
 │   ├── flatpak
@@ -73,4 +75,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-55 directories, 19 files
+57 directories, 19 files

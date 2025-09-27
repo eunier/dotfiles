@@ -5,6 +5,7 @@ try {
     // spell-checker: disable
     "app.drey.KeyRack",
     "app.zen_browser.zen",
+    "ca.vlacroix.Tally",
     "codes.merritt.adventurelist",
     "com.belmoussaoui.Authenticator",
     "com.belmoussaoui.Decoder",

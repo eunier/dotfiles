@@ -20,6 +20,7 @@ repos=(
 	"git@gitlab.com:yunieralvarez/repo-resources.git ~/Projects/com.gitlab.yunieralvarez.repo-resources/repo-resources"
 	"git@gitlab.com:yunieralvarez/repo.git ~/Projects/com.gitlab.yunieralvarez.repo/repo"
 	"git@gitlab.com:yunieralvarez/top-down-game.git ~/Projects/com.gitlab.yunieralvarez.top-down-game/top-down-game"
+	"git@gitlab.com:yunieralvarez/zig-ecs.git ~/Projects/com.gitlab.yunieralvarez.zig-ecs/zig-ecs"
 	"https://github.com/libsdl-org/SDL.git ~/Projects/com.github.libsdl-org.SDL/SDL"
 	"https://github.com/libsdl-org/sdlwiki.git ~/Projects/com.github.libsdl-org.sdlwiki/libsdl-org"
 	"https://github.com/linuxy/coyote-ecs.git ~/Projects/com.github.linuxy.coyote-ecs/coyote-ecs"
