@@ -11,6 +11,7 @@ echo "Cloning git repos..."
 
 repos=(
 	"git@github.com:eunier/dotfiles.git ~/Projects/com.github.eunier.dotfiles/dotfiles"
+	"git@gitlab.com:yunieralvarez/ecs-ts.git ~/Projects/com.gitlab.yunieralvarez.ecs-ts/ecs-ts"
 	"git@gitlab.com:yunieralvarez/expense-tracker.git ~/Projects/com.gitlab.yunieralvarez.expense-tracker/expense-tracker"
 	"git@gitlab.com:yunieralvarez/game-top-down-shooter-rs.git ~/Projects/com.gitlab.yunieralvarez.game-top-down-shooter-rs/game-top-dow-shooter-rs"
 	"git@gitlab.com:yunieralvarez/game-tracker.git ~/Projects/com.gitlab.yunieralvarez.game-tracker/game-tracker"
@@ -20,7 +21,6 @@ repos=(
 	"git@gitlab.com:yunieralvarez/repo-resources.git ~/Projects/com.gitlab.yunieralvarez.repo-resources/repo-resources"
 	"git@gitlab.com:yunieralvarez/repo.git ~/Projects/com.gitlab.yunieralvarez.repo/repo"
 	"git@gitlab.com:yunieralvarez/top-down-game.git ~/Projects/com.gitlab.yunieralvarez.top-down-game/top-down-game"
-	"git@gitlab.com:yunieralvarez/zig-ecs.git ~/Projects/com.gitlab.yunieralvarez.zig-ecs/zig-ecs"
 	"https://github.com/libsdl-org/SDL.git ~/Projects/com.github.libsdl-org.SDL/SDL"
 	"https://github.com/libsdl-org/sdlwiki.git ~/Projects/com.github.libsdl-org.sdlwiki/libsdl-org"
 	"https://github.com/linuxy/coyote-ecs.git ~/Projects/com.github.linuxy.coyote-ecs/coyote-ecs"
