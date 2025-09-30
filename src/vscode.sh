@@ -60,6 +60,7 @@ extensions=(
 	"rust-lang.rust-analyzer"
 	"stkb.rewrap"
 	"streetsidesoftware.code-spell-checker"
+	"tamasfe.even-better-toml"
 	"timonwong.shellcheck"
 	"usernamehw.errorlens"
 	"vadimcn.vscode-lldb"
