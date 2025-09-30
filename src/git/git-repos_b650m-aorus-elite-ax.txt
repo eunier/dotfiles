@@ -73,7 +73,6 @@
     ├── top-down-game.code-workspace
     ├── zflecs.code-workspace
     ├── zig.code-workspace
-    ├── zig-ecs.code-workspace
     └── zig-gamedev.code-workspace
 
-57 directories, 20 files
+57 directories, 19 files

@@ -19,7 +19,7 @@ sh ~/.dotfiles/src/bash.sh
 # sh ~/.dotfiles/src/doas.sh
 sh ~/.dotfiles/src/fish.sh
 # sh ~/.dotfiles/src/font.sh
-# sh ~/.dotfiles/src/gitlab.sh
+sh ~/.dotfiles/src/gitlab.sh
 # sh ~/.dotfiles/src/sync.sh
 # sh ~/.dotfiles/src/syncthing.sh
 # sh ~/.dotfiles/src/timeshift.sh

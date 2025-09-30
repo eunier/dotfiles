@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
-cd ~/.dotfiles || exit
-echo "#!/usr/bin/env bash" >~/.dotfiles/src/gitlab/gitlab-auth.sh
-glab auth status >~/.dotfiles/src/gitlab/gitlab-auth-status.txt 2>&1 || true
+COMPUTER_MODEL=$(sudo dmidecode -s system-product-name | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+REPO_PATH=~/.dotfiles
+
+cd $REPO_PATH || exit
+echo "#!/usr/bin/env bash" >$REPO_PATH/src/gitlab/gitlab-auth.sh
+glab auth status >$REPO_PATH/src/gitlab/gitlab-auth-status_"$COMPUTER_MODEL".txt 2>&1 || true
 bun run gitlab:auth
-sh ~/.dotfiles/src/gitlab/gitlab-auth.sh
+sh $REPO_PATH/src/gitlab/gitlab-auth.sh
