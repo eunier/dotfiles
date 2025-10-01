@@ -80,7 +80,7 @@ extensions=(
 # done
 
 echo ""
-code --list-extensions >$REPO_PATH/src/vscode/vscode-extensions-"$COMPUTER_MODEL".txt
+code --list-extensions >$REPO_PATH/src/vscode/vscode-extensions_"$COMPUTER_MODEL".txt
 
 sh $REPO_PATH/src/vscode/vscode-font-switch.sh
 

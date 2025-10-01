@@ -27,6 +27,8 @@
 │   └── zap
 ├── com.gitlab.yunieralvarez.ecs-ts
 │   └── ecs-ts
+├── com.gitlab.yunieralvarez.ecs-zig
+│   └── ecs-zig
 ├── com.gitlab.yunieralvarez.expense-tracker
 │   ├── expense-tracker
 │   └── expense-tracker (Copy)
@@ -58,6 +60,7 @@
 └── workspaces
     ├── dotfiles.code-workspace
     ├── dotfiles-csharp.code-workspace
+    ├── ecs-zig.code-workspace
     ├── expense-tracker-app.code-workspace
     ├── expense-tracker.code-workspace
     ├── expense-tracker (Copy).code-workspace
@@ -75,4 +78,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-57 directories, 19 files
+59 directories, 20 files

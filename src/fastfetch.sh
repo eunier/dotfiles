@@ -1,23 +1,28 @@
 #!/usr/bin/env bash
 
+COMPUTER_MODEL=$(sudo dmidecode -s system-product-name | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+REPO_PATH=~/.dotfiles
+
 if ! [ -f "$HOME/.config/fastfetch/config.jsonc" ]; then
-  fastfetch --gen-config
+	fastfetch --gen-config
 fi
 
-touch ~/.dotfiles/src/fastfetch/fastfetch-config-before.jsonc
-cp ~/.config/fastfetch/config.jsonc ~/.dotfiles/src/fastfetch/fastfetch-config-after.jsonc
+cp ~/.config/fastfetch/config.jsonc $REPO_PATH/src/fastfetch/fastfetch-config_"$COMPUTER_MODEL".jsonc
 
-touch ~/.dotfiles/src/fastfetch/fastfetch-output-before.txt
+fastfetch_output_output_path=$REPO_PATH/src/fastfetch/fastfetch-output_$COMPUTER_MODEL.txt
+touch "$fastfetch_output_output_path"
 
-fastfetch --logo none --structure os > ~/.dotfiles/src/fastfetch/fastfetch-output-after.txt
-fastfetch --logo none --structure kernel >> ~/.dotfiles/src/fastfetch/fastfetch-output-after.txt
-fastfetch --logo none --structure packages >> ~/.dotfiles/src/fastfetch/fastfetch-output-after.txt
-fastfetch --logo none --structure display >> ~/.dotfiles/src/fastfetch/fastfetch-output-after.txt
-fastfetch --logo none --structure de >> ~/.dotfiles/src/fastfetch/fastfetch-output-after.txt
-fastfetch --logo none --structure wm >> ~/.dotfiles/src/fastfetch/fastfetch-output-after.txt
-fastfetch --logo none --structure wmtheme >> ~/.dotfiles/src/fastfetch/fastfetch-output-after.txt
-fastfetch --logo none --structure icons >> ~/.dotfiles/src/fastfetch/fastfetch-output-after.txt
-fastfetch --logo none --structure font >> ~/.dotfiles/src/fastfetch/fastfetch-output-after.txt
-fastfetch --logo none --structure cursor >> ~/.dotfiles/src/fastfetch/fastfetch-output-after.txt
-fastfetch --logo none --structure gpu >> ~/.dotfiles/src/fastfetch/fastfetch-output-after.txt
-fastfetch --logo none --structure locale >> ~/.dotfiles/src/fastfetch/fastfetch-output-after.txt
+{
+	fastfetch --logo none --structure os
+	fastfetch --logo none --structure kernel
+	fastfetch --logo none --structure packages
+	fastfetch --logo none --structure display
+	fastfetch --logo none --structure de
+	fastfetch --logo none --structure wm
+	fastfetch --logo none --structure wmtheme
+	fastfetch --logo none --structure icons
+	fastfetch --logo none --structure font
+	fastfetch --logo none --structure cursor
+	fastfetch --logo none --structure gpu
+	fastfetch --logo none --structure locale
+} >>"$fastfetch_output_output_path"
