@@ -12,8 +12,9 @@ cp ~/.config/fastfetch/config.jsonc $REPO_PATH/src/fastfetch/fastfetch-config_"$
 fastfetch_output_output_path=$REPO_PATH/src/fastfetch/fastfetch-output_$COMPUTER_MODEL.txt
 touch "$fastfetch_output_output_path"
 
+fastfetch --logo none --structure os >"$fastfetch_output_output_path"
+
 {
-	fastfetch --logo none --structure os
 	fastfetch --logo none --structure kernel
 	fastfetch --logo none --structure packages
 	fastfetch --logo none --structure display
