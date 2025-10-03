@@ -44,6 +44,7 @@ try {
     "io.github.kelvinnovais.Kasasa",
     "io.github.MakovWait.Godots",
     "io.github.mimoguz.TriPeaks-GDX",
+    "io.github.mpobaschnig.Vaults",
     "io.github.nokse22.inspector",
     "io.github.nokse22.minitext",
     "io.github.nokse22.ultimate-tic-tac-toe",
@@ -86,6 +87,7 @@ try {
     "re.sonny.Eloquent",
     "se.sjoerd.Graphs",
     "us.zoom.Zoom",
+    "xyz.ketok.Speedtest",
     // spell-checker: enable
   ];
 

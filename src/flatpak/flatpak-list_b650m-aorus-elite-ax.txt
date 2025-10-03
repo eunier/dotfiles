@@ -40,6 +40,7 @@ Bella	io.github.josephmawa.Bella	0.1.6	stable	system
 Egghead	io.github.josephmawa.Egghead	0.1.2	stable	system
 Kasasa	io.github.kelvinnovais.Kasasa	1.1.4	stable	system
 TriPeaks	io.github.mimoguz.TriPeaks-GDX	1.2.3	stable	system
+Vaults	io.github.mpobaschnig.Vaults	0.10.0	stable	system
 Inspector	io.github.nokse22.inspector	0.3.0	stable	system
 Mini Text	io.github.nokse22.minitext	1.0.0	stable	system
 Ultimate Tic Tac Toe	io.github.nokse22.ultimate-tic-tac-toe	1.1.0	stable	system
@@ -107,3 +108,4 @@ Commit	re.sonny.Commit	4.3	stable	system
 Eloquent	re.sonny.Eloquent	1.2	stable	system
 Graphs	se.sjoerd.Graphs	1.8.5	stable	system
 Zoom	us.zoom.Zoom	6.6.0.4410	stable	system
+Speedtest	xyz.ketok.Speedtest	1.4.0	stable	system
