@@ -1262,11 +1262,11 @@ Vendor          : Fedora Project
 
 Name            : amd-gpu-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
-Installed size  : 26.1 MiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Installed size  : 25.7 MiB
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware for AMD GPUs
 URL             : http://www.kernel.org/
@@ -1276,11 +1276,11 @@ Vendor          : Fedora Project
 
 Name            : amd-ucode-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
 Installed size  : 419.9 KiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Microcode updates for AMD CPUs
 URL             : http://www.kernel.org/
@@ -1492,11 +1492,11 @@ Vendor          : Fedora Project
 Name            : apr-util
 Epoch           : 0
 Version         : 1.6.3
-Release         : 22.fc42
+Release         : 25.fc42
 Architecture    : x86_64
 Installed size  : 216.5 KiB
-Source          : apr-util-1.6.3-22.fc42.src.rpm
-From repository : fedora
+Source          : apr-util-1.6.3-25.fc42.src.rpm
+From repository : updates
 Summary         : Apache Portable Runtime Utility library
 URL             : https://apr.apache.org/
 License         : Apache-2.0 AND (Beerware AND LicenseRef-Fedora-Public-Domain AND OLDAP-2.7 AND BSD-4.3RENO)
@@ -1509,11 +1509,11 @@ Vendor          : Fedora Project
 Name            : apr-util-lmdb
 Epoch           : 0
 Version         : 1.6.3
-Release         : 22.fc42
+Release         : 25.fc42
 Architecture    : x86_64
-Installed size  : 14.2 KiB
-Source          : apr-util-1.6.3-22.fc42.src.rpm
-From repository : fedora
+Installed size  : 11.1 KiB
+Source          : apr-util-1.6.3-25.fc42.src.rpm
+From repository : updates
 Summary         : APR utility library LMDB driver
 URL             : https://apr.apache.org/
 License         : Apache-2.0 AND (Beerware AND LicenseRef-Fedora-Public-Domain AND OLDAP-2.7 AND BSD-4.3RENO)
@@ -1524,11 +1524,11 @@ Vendor          : Fedora Project
 Name            : apr-util-openssl
 Epoch           : 0
 Version         : 1.6.3
-Release         : 22.fc42
+Release         : 25.fc42
 Architecture    : x86_64
-Installed size  : 22.4 KiB
-Source          : apr-util-1.6.3-22.fc42.src.rpm
-From repository : fedora
+Installed size  : 19.4 KiB
+Source          : apr-util-1.6.3-25.fc42.src.rpm
+From repository : updates
 Summary         : APR utility library OpenSSL crypto support
 URL             : https://apr.apache.org/
 License         : Apache-2.0 AND (Beerware AND LicenseRef-Fedora-Public-Domain AND OLDAP-2.7 AND BSD-4.3RENO)
@@ -1552,11 +1552,11 @@ Vendor          : Fedora Project
 
 Name            : aspnetcore-runtime-9.0
 Epoch           : 0
-Version         : 9.0.8
+Version         : 9.0.9
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 22.3 MiB
-Source          : dotnet9.0-9.0.109-1.fc42.src.rpm
+Source          : dotnet9.0-9.0.110-1.fc42.src.rpm
 From repository : updates
 Summary         : ASP.NET Core 9.0 runtime
 URL             : https://github.com/dotnet/
@@ -1574,11 +1574,11 @@ Vendor          : Fedora Project
 
 Name            : aspnetcore-targeting-pack-9.0
 Epoch           : 0
-Version         : 9.0.8
+Version         : 9.0.9
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 14.6 MiB
-Source          : dotnet9.0-9.0.109-1.fc42.src.rpm
+Source          : dotnet9.0-9.0.110-1.fc42.src.rpm
 From repository : updates
 Summary         : Targeting Pack for Microsoft.AspNetCore.App 9.0
 URL             : https://github.com/dotnet/
@@ -1680,11 +1680,11 @@ Vendor          : Fedora Project
 
 Name            : atheros-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
-Installed size  : 36.5 MiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Installed size  : 40.9 MiB
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware for Qualcomm Atheros WiFi/Bluetooth adapters
 URL             : http://www.kernel.org/
@@ -2551,11 +2551,11 @@ Vendor          : <NULL>
 
 Name            : brcmfmac-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
 Installed size  : 9.5 MiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware for Broadcom/Cypress brcmfmac WiFi/Bluetooth adapters
 URL             : http://www.kernel.org/
@@ -3074,11 +3074,11 @@ Vendor          : Fedora Project
 
 Name            : cirrus-audio-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
-Installed size  : 1.8 MiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Installed size  : 1.9 MiB
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware for Cirrus audio amplifiers and codecs
 URL             : http://www.kernel.org/
@@ -5884,11 +5884,11 @@ Vendor          : Fedora Project
 
 Name            : dotnet-apphost-pack-9.0
 Epoch           : 0
-Version         : 9.0.8
+Version         : 9.0.9
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 11.1 MiB
-Source          : dotnet9.0-9.0.109-1.fc42.src.rpm
+Installed size  : 11.2 MiB
+Source          : dotnet9.0-9.0.110-1.fc42.src.rpm
 From repository : updates
 Summary         : Targeting Pack for Microsoft.NETCore.App 9.0
 URL             : https://github.com/dotnet/
@@ -5900,11 +5900,11 @@ Vendor          : Fedora Project
 
 Name            : dotnet-host
 Epoch           : 0
-Version         : 9.0.8
+Version         : 9.0.9
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 302.4 KiB
-Source          : dotnet9.0-9.0.109-1.fc42.src.rpm
+Source          : dotnet9.0-9.0.110-1.fc42.src.rpm
 From repository : updates
 Summary         : .NET command line launcher
 URL             : https://github.com/dotnet/
@@ -5921,11 +5921,11 @@ Vendor          : Fedora Project
 
 Name            : dotnet-hostfxr-9.0
 Epoch           : 0
-Version         : 9.0.8
+Version         : 9.0.9
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 310.1 KiB
-Source          : dotnet9.0-9.0.109-1.fc42.src.rpm
+Source          : dotnet9.0-9.0.110-1.fc42.src.rpm
 From repository : updates
 Summary         : .NET command line host resolver
 URL             : https://github.com/dotnet/
@@ -5942,11 +5942,11 @@ Vendor          : Fedora Project
 
 Name            : dotnet-runtime-9.0
 Epoch           : 0
-Version         : 9.0.8
+Version         : 9.0.9
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 70.5 MiB
-Source          : dotnet9.0-9.0.109-1.fc42.src.rpm
+Installed size  : 70.8 MiB
+Source          : dotnet9.0-9.0.110-1.fc42.src.rpm
 From repository : updates
 Summary         : NET 9.0 runtime
 URL             : https://github.com/dotnet/
@@ -5964,11 +5964,11 @@ Vendor          : Fedora Project
 
 Name            : dotnet-sdk-9.0
 Epoch           : 0
-Version         : 9.0.109
+Version         : 9.0.110
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 279.8 MiB
-Source          : dotnet9.0-9.0.109-1.fc42.src.rpm
+Source          : dotnet9.0-9.0.110-1.fc42.src.rpm
 From repository : updates
 Summary         : .NET 9.0 Software Development Kit
 URL             : https://github.com/dotnet/
@@ -5985,11 +5985,11 @@ Vendor          : Fedora Project
 
 Name            : dotnet-targeting-pack-9.0
 Epoch           : 0
-Version         : 9.0.8
+Version         : 9.0.9
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 36.9 MiB
-Source          : dotnet9.0-9.0.109-1.fc42.src.rpm
+Source          : dotnet9.0-9.0.110-1.fc42.src.rpm
 From repository : updates
 Summary         : Targeting Pack for Microsoft.NETCore.App 9.0
 URL             : https://github.com/dotnet/
@@ -6001,11 +6001,11 @@ Vendor          : Fedora Project
 
 Name            : dotnet-templates-9.0
 Epoch           : 0
-Version         : 9.0.109
+Version         : 9.0.110
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 9.7 MiB
-Source          : dotnet9.0-9.0.109-1.fc42.src.rpm
+Source          : dotnet9.0-9.0.110-1.fc42.src.rpm
 From repository : updates
 Summary         : .NET 9.0 templates
 URL             : https://github.com/dotnet/
@@ -12418,11 +12418,11 @@ Vendor          : Fedora Project
 
 Name            : gvfs
 Epoch           : 0
-Version         : 1.57.2
+Version         : 1.58.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.2 MiB
-Source          : gvfs-1.57.2-1.fc42.src.rpm
+Source          : gvfs-1.58.0-1.fc42.src.rpm
 From repository : updates
 Summary         : Backends for the gio framework in GLib
 URL             : https://wiki.gnome.org/Projects/gvfs
@@ -12433,11 +12433,11 @@ Vendor          : Fedora Project
 
 Name            : gvfs-afc
 Epoch           : 0
-Version         : 1.57.2
+Version         : 1.58.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 153.8 KiB
-Source          : gvfs-1.57.2-1.fc42.src.rpm
+Source          : gvfs-1.58.0-1.fc42.src.rpm
 From repository : updates
 Summary         : AFC support for gvfs
 URL             : https://wiki.gnome.org/Projects/gvfs
@@ -12448,11 +12448,11 @@ Vendor          : Fedora Project
 
 Name            : gvfs-afp
 Epoch           : 0
-Version         : 1.57.2
+Version         : 1.58.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 191.8 KiB
-Source          : gvfs-1.57.2-1.fc42.src.rpm
+Source          : gvfs-1.58.0-1.fc42.src.rpm
 From repository : updates
 Summary         : AFP support for gvfs
 URL             : https://wiki.gnome.org/Projects/gvfs
@@ -12464,11 +12464,11 @@ Vendor          : Fedora Project
 
 Name            : gvfs-archive
 Epoch           : 0
-Version         : 1.57.2
+Version         : 1.58.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 40.0 KiB
-Source          : gvfs-1.57.2-1.fc42.src.rpm
+Source          : gvfs-1.58.0-1.fc42.src.rpm
 From repository : updates
 Summary         : Archiving support for gvfs
 URL             : https://wiki.gnome.org/Projects/gvfs
@@ -12479,11 +12479,11 @@ Vendor          : Fedora Project
 
 Name            : gvfs-client
 Epoch           : 0
-Version         : 1.57.2
+Version         : 1.58.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 4.1 MiB
-Source          : gvfs-1.57.2-1.fc42.src.rpm
+Source          : gvfs-1.58.0-1.fc42.src.rpm
 From repository : updates
 Summary         : Client modules of backends for the gio framework in GLib
 URL             : https://wiki.gnome.org/Projects/gvfs
@@ -12494,11 +12494,11 @@ Vendor          : Fedora Project
 
 Name            : gvfs-fuse
 Epoch           : 0
-Version         : 1.57.2
+Version         : 1.58.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 49.9 KiB
-Source          : gvfs-1.57.2-1.fc42.src.rpm
+Source          : gvfs-1.58.0-1.fc42.src.rpm
 From repository : updates
 Summary         : FUSE support for gvfs
 URL             : https://wiki.gnome.org/Projects/gvfs
@@ -12509,11 +12509,11 @@ Vendor          : Fedora Project
 
 Name            : gvfs-goa
 Epoch           : 0
-Version         : 1.57.2
+Version         : 1.58.0
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 242.9 KiB
-Source          : gvfs-1.57.2-1.fc42.src.rpm
+Installed size  : 242.8 KiB
+Source          : gvfs-1.58.0-1.fc42.src.rpm
 From repository : updates
 Summary         : GOA support for gvfs
 URL             : https://wiki.gnome.org/Projects/gvfs
@@ -12524,11 +12524,11 @@ Vendor          : Fedora Project
 
 Name            : gvfs-gphoto2
 Epoch           : 0
-Version         : 1.57.2
+Version         : 1.58.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 162.0 KiB
-Source          : gvfs-1.57.2-1.fc42.src.rpm
+Source          : gvfs-1.58.0-1.fc42.src.rpm
 From repository : updates
 Summary         : gphoto2 support for gvfs
 URL             : https://wiki.gnome.org/Projects/gvfs
@@ -12540,11 +12540,11 @@ Vendor          : Fedora Project
 
 Name            : gvfs-mtp
 Epoch           : 0
-Version         : 1.57.2
+Version         : 1.58.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 165.9 KiB
-Source          : gvfs-1.57.2-1.fc42.src.rpm
+Source          : gvfs-1.58.0-1.fc42.src.rpm
 From repository : updates
 Summary         : MTP support for gvfs
 URL             : https://wiki.gnome.org/Projects/gvfs
@@ -12555,11 +12555,11 @@ Vendor          : Fedora Project
 
 Name            : gvfs-smb
 Epoch           : 0
-Version         : 1.57.2
+Version         : 1.58.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 100.4 KiB
-Source          : gvfs-1.57.2-1.fc42.src.rpm
+Source          : gvfs-1.58.0-1.fc42.src.rpm
 From repository : updates
 Summary         : Windows fileshare support for gvfs
 URL             : https://wiki.gnome.org/Projects/gvfs
@@ -13296,11 +13296,11 @@ Vendor          : Fedora Project
 
 Name            : ibus-typing-booster
 Epoch           : 0
-Version         : 2.27.75
-Release         : 2.fc42
+Version         : 2.28.0
+Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 7.5 MiB
-Source          : ibus-typing-booster-2.27.75-2.fc42.src.rpm
+Installed size  : 7.6 MiB
+Source          : ibus-typing-booster-2.28.0-1.fc42.src.rpm
 From repository : updates
 Summary         : A completion input method
 URL             : https://mike-fabian.github.io/ibus-typing-booster/
@@ -13497,11 +13497,11 @@ Vendor          : Fedora Project
 
 Name            : intel-audio-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
 Installed size  : 3.3 MiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware for Intel audio DSP amplifiers and codecs
 URL             : http://www.kernel.org/
@@ -13527,11 +13527,11 @@ Vendor          : Fedora Project
 
 Name            : intel-gpu-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
-Installed size  : 8.7 MiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Installed size  : 8.8 MiB
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware for Intel GPUs
 URL             : http://www.kernel.org/
@@ -13563,11 +13563,11 @@ Vendor          : Fedora Project
 
 Name            : intel-vpl-gpu-rt
 Epoch           : 0
-Version         : 25.3.2
+Version         : 25.3.4
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 11.7 MiB
-Source          : intel-vpl-gpu-rt-25.3.2-1.fc42.src.rpm
+Source          : intel-vpl-gpu-rt-25.3.4-1.fc42.src.rpm
 From repository : updates
 Summary         : Intel Video Processing Library (Intel VPL) GPU Runtime
 URL             : https://www.intel.com/content/www/us/en/developer/tools/oneapi/onevpl.html
@@ -13579,11 +13579,11 @@ Vendor          : Fedora Project
 
 Name            : intel-vsc-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
 Installed size  : 7.7 MiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware files for Intel Visual Sensing Controller (IVSC)
 URL             : http://www.kernel.org/
@@ -13894,11 +13894,11 @@ Vendor          : Fedora Project
 
 Name            : iwlegacy-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
-Installed size  : 123.1 KiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Installed size  : 123.2 KiB
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware for Intel(R) Wireless WiFi Link 3945(A)BG and 4965AGN adapters
 URL             : http://www.kernel.org/
@@ -13911,11 +13911,11 @@ Vendor          : Fedora Project
 
 Name            : iwlwifi-dvm-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
 Installed size  : 1.8 MiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : DVM Firmware for Intel(R) Wireless WiFi adapters
 URL             : http://www.kernel.org/
@@ -13926,13 +13926,30 @@ Description     : This package contains the firmware required by the iwlwifi dri
                 : provided LICENSE file. Please read it carefully.
 Vendor          : Fedora Project
 
+Name            : iwlwifi-mld-firmware
+Epoch           : 0
+Version         : 20250917
+Release         : 2.fc42
+Architecture    : noarch
+Installed size  : 5.9 MiB
+Source          : linux-firmware-20250917-2.fc42.src.rpm
+From repository : updates
+Summary         : MLD Firmware for Intel(R) Wireless WiFi adapters
+URL             : http://www.kernel.org/
+License         : LicenseRef-Callaway-Redistributable-no-modification-permitted
+Description     : This package contains the firmware required by the iwlwifi driver
+                : for Linux built with MLD firmware support (CONFIG_IWLMLD=y/m).  Usage of
+                : the firmware is subject to the terms and conditions contained inside the
+                : provided LICENSE file. Please read it carefully.
+Vendor          : Fedora Project
+
 Name            : iwlwifi-mvm-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
-Installed size  : 65.9 MiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Installed size  : 62.7 MiB
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : MVM Firmware for Intel(R) Wireless WiFi adapters
 URL             : http://www.kernel.org/
@@ -14554,20 +14571,6 @@ Vendor          : Fedora Project
 
 Name            : kernel
 Epoch           : 0
-Version         : 6.16.4
-Release         : 200.fc42
-Architecture    : x86_64
-Installed size  : 0.0   B
-Source          : kernel-6.16.4-200.fc42.src.rpm
-From repository : updates
-Summary         : The Linux kernel
-URL             : https://www.kernel.org/
-License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : The kernel meta package
-Vendor          : Fedora Project
-
-Name            : kernel
-Epoch           : 0
 Version         : 6.16.7
 Release         : 200.fc42
 Architecture    : x86_64
@@ -14594,21 +14597,18 @@ License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND (
 Description     : The kernel meta package
 Vendor          : Fedora Project
 
-Name            : kernel-core
+Name            : kernel
 Epoch           : 0
-Version         : 6.16.4
+Version         : 6.16.9
 Release         : 200.fc42
 Architecture    : x86_64
-Installed size  : 97.3 MiB
-Source          : kernel-6.16.4-200.fc42.src.rpm
+Installed size  : 0.0   B
+Source          : kernel-6.16.9-200.fc42.src.rpm
 From repository : updates
 Summary         : The Linux kernel
 URL             : https://www.kernel.org/
 License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : The kernel package contains the Linux kernel (vmlinuz), the core of any
-                : Linux operating system.  The kernel handles the basic functions
-                : of the operating system: memory allocation, process allocation, device
-                : input and output, etc.
+Description     : The kernel meta package
 Vendor          : Fedora Project
 
 Name            : kernel-core
@@ -14635,6 +14635,23 @@ Release         : 200.fc42
 Architecture    : x86_64
 Installed size  : 97.3 MiB
 Source          : kernel-6.16.8-200.fc42.src.rpm
+From repository : updates
+Summary         : The Linux kernel
+URL             : https://www.kernel.org/
+License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
+Description     : The kernel package contains the Linux kernel (vmlinuz), the core of any
+                : Linux operating system.  The kernel handles the basic functions
+                : of the operating system: memory allocation, process allocation, device
+                : input and output, etc.
+Vendor          : Fedora Project
+
+Name            : kernel-core
+Epoch           : 0
+Version         : 6.16.9
+Release         : 200.fc42
+Architecture    : x86_64
+Installed size  : 97.3 MiB
+Source          : kernel-6.16.9-200.fc42.src.rpm
 From repository : updates
 Summary         : The Linux kernel
 URL             : https://www.kernel.org/
@@ -14665,20 +14682,6 @@ Vendor          : Fedora Project
 
 Name            : kernel-modules
 Epoch           : 0
-Version         : 6.16.4
-Release         : 200.fc42
-Architecture    : x86_64
-Installed size  : 94.6 MiB
-Source          : kernel-6.16.4-200.fc42.src.rpm
-From repository : updates
-Summary         : kernel modules to match the core kernel
-URL             : https://www.kernel.org/
-License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : This package provides commonly used kernel modules for the core kernel package.
-Vendor          : Fedora Project
-
-Name            : kernel-modules
-Epoch           : 0
 Version         : 6.16.7
 Release         : 200.fc42
 Architecture    : x86_64
@@ -14705,18 +14708,18 @@ License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND (
 Description     : This package provides commonly used kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
-Name            : kernel-modules-core
+Name            : kernel-modules
 Epoch           : 0
-Version         : 6.16.4
+Version         : 6.16.9
 Release         : 200.fc42
 Architecture    : x86_64
-Installed size  : 67.8 MiB
-Source          : kernel-6.16.4-200.fc42.src.rpm
+Installed size  : 94.6 MiB
+Source          : kernel-6.16.9-200.fc42.src.rpm
 From repository : updates
-Summary         : Core kernel modules to match the core kernel
+Summary         : kernel modules to match the core kernel
 URL             : https://www.kernel.org/
 License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : This package provides essential kernel modules for the core kernel package.
+Description     : This package provides commonly used kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
 Name            : kernel-modules-core
@@ -14747,18 +14750,18 @@ License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND (
 Description     : This package provides essential kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
-Name            : kernel-modules-extra
+Name            : kernel-modules-core
 Epoch           : 0
-Version         : 6.16.4
+Version         : 6.16.9
 Release         : 200.fc42
 Architecture    : x86_64
-Installed size  : 4.2 MiB
-Source          : kernel-6.16.4-200.fc42.src.rpm
+Installed size  : 67.8 MiB
+Source          : kernel-6.16.9-200.fc42.src.rpm
 From repository : updates
-Summary         : Extra kernel modules to match the kernel
+Summary         : Core kernel modules to match the core kernel
 URL             : https://www.kernel.org/
 License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : This package provides less commonly used kernel modules for the kernel package.
+Description     : This package provides essential kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
 Name            : kernel-modules-extra
@@ -14782,6 +14785,20 @@ Release         : 200.fc42
 Architecture    : x86_64
 Installed size  : 4.2 MiB
 Source          : kernel-6.16.8-200.fc42.src.rpm
+From repository : updates
+Summary         : Extra kernel modules to match the kernel
+URL             : https://www.kernel.org/
+License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
+Description     : This package provides less commonly used kernel modules for the kernel package.
+Vendor          : Fedora Project
+
+Name            : kernel-modules-extra
+Epoch           : 0
+Version         : 6.16.9
+Release         : 200.fc42
+Architecture    : x86_64
+Installed size  : 4.2 MiB
+Source          : kernel-6.16.9-200.fc42.src.rpm
 From repository : updates
 Summary         : Extra kernel modules to match the kernel
 URL             : https://www.kernel.org/
@@ -14791,11 +14808,11 @@ Vendor          : Fedora Project
 
 Name            : kernel-tools
 Epoch           : 0
-Version         : 6.16.8
+Version         : 6.16.9
 Release         : 200.fc42
 Architecture    : x86_64
 Installed size  : 2.3 MiB
-Source          : kernel-6.16.8-200.fc42.src.rpm
+Source          : kernel-6.16.9-200.fc42.src.rpm
 From repository : updates
 Summary         : Assortment of tools for the Linux kernel
 URL             : https://www.kernel.org/
@@ -14806,11 +14823,11 @@ Vendor          : Fedora Project
 
 Name            : kernel-tools-libs
 Epoch           : 0
-Version         : 6.16.8
+Version         : 6.16.9
 Release         : 200.fc42
 Architecture    : x86_64
 Installed size  : 30.3 KiB
-Source          : kernel-6.16.8-200.fc42.src.rpm
+Source          : kernel-6.16.9-200.fc42.src.rpm
 From repository : updates
 Summary         : Libraries for the kernels-tools
 URL             : https://www.kernel.org/
@@ -19145,11 +19162,11 @@ Vendor          : Fedora Project
 
 Name            : libertas-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
 Installed size  : 1.3 MiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware for Marvell Libertas SD/USB WiFi Network Adapters
 URL             : http://www.kernel.org/
@@ -20495,12 +20512,12 @@ Vendor          : Fedora Project
 
 Name            : libjcat
 Epoch           : 0
-Version         : 0.2.3
+Version         : 0.2.4
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 209.6 KiB
-Source          : libjcat-0.2.3-1.fc42.src.rpm
-From repository : fedora
+Installed size  : 213.8 KiB
+Source          : libjcat-0.2.4-1.fc42.src.rpm
+From repository : updates
 Summary         : Library for reading Jcat files
 URL             : https://github.com/hughsie/libjcat
 License         : LGPL-2.1-or-later
@@ -26301,11 +26318,11 @@ Vendor          : Fedora Project
 
 Name            : linux-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
-Installed size  : 42.2 MiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Installed size  : 40.8 MiB
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware files used by the Linux kernel
 URL             : http://www.kernel.org/
@@ -26316,11 +26333,11 @@ Vendor          : Fedora Project
 
 Name            : linux-firmware-whence
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
-Installed size  : 326.4 KiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Installed size  : 345.8 KiB
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : WHENCE License file
 URL             : http://www.kernel.org/
@@ -27703,11 +27720,11 @@ Vendor          : Fedora Project
 
 Name            : mt7xxx-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
-Installed size  : 20.2 MiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Installed size  : 18.4 MiB
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware for Mediatek 7600/7900 series WiFi/Bluetooth adapters
 URL             : http://www.kernel.org/
@@ -28354,11 +28371,11 @@ Vendor          : Fedora Project
 
 Name            : netstandard-targeting-pack-2.1
 Epoch           : 0
-Version         : 9.0.109
+Version         : 9.0.110
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 17.9 MiB
-Source          : dotnet9.0-9.0.109-1.fc42.src.rpm
+Source          : dotnet9.0-9.0.110-1.fc42.src.rpm
 From repository : updates
 Summary         : Targeting Pack for NETStandard.Library 2.1
 URL             : https://github.com/dotnet/
@@ -28827,11 +28844,11 @@ Vendor          : Fedora Project
 
 Name            : nvidia-gpu-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
 Installed size  : 101.0 MiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware for NVIDIA GPUs
 URL             : http://www.kernel.org/
@@ -28855,11 +28872,11 @@ Vendor          : Fedora Project
 
 Name            : nxpwireless-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
 Installed size  : 905.2 KiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware for NXP WiFi/Bluetooth/UWB adapters
 URL             : http://www.kernel.org/
@@ -32387,11 +32404,11 @@ Vendor          : Fedora Project
 
 Name            : podman
 Epoch           : 5
-Version         : 5.6.1
+Version         : 5.6.2
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 47.3 MiB
-Source          : podman-5.6.1-1.fc42.src.rpm
+Source          : podman-5.6.2-1.fc42.src.rpm
 From repository : updates
 Summary         : Manage Pods, Containers and Container Images
 URL             : https://podman.io/
@@ -33192,11 +33209,11 @@ Vendor          : Fedora Project
 
 Name            : python3-beautifulsoup4
 Epoch           : 0
-Version         : 4.13.5
+Version         : 4.14.2
 Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 952.6 KiB
-Source          : python-beautifulsoup4-4.13.5-1.fc42.src.rpm
+Installed size  : 973.5 KiB
+Source          : python-beautifulsoup4-4.14.2-1.fc42.src.rpm
 From repository : updates
 Summary         : HTML/XML parser for quick-turnaround applications like screen-scraping
 URL             : http://www.crummy.com/software/BeautifulSoup/
@@ -34424,11 +34441,11 @@ Vendor          : Fedora Project
 
 Name            : python3-perf
 Epoch           : 0
-Version         : 6.16.8
+Version         : 6.16.9
 Release         : 200.fc42
 Architecture    : x86_64
 Installed size  : 9.4 MiB
-Source          : kernel-6.16.8-200.fc42.src.rpm
+Source          : kernel-6.16.9-200.fc42.src.rpm
 From repository : updates
 Summary         : Python bindings for apps which will manipulate perf events
 URL             : https://www.kernel.org/
@@ -35412,11 +35429,11 @@ Vendor          : Fedora Project
 
 Name            : qcom-wwan-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
 Installed size  : 300.4 KiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware for Qualcomm Wireless WAN modems
 URL             : http://www.kernel.org/
@@ -37057,11 +37074,11 @@ Vendor          : Fedora Project
 
 Name            : realtek-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
 Installed size  : 5.2 MiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware for Realtek WiFi/Bluetooth adapters
 URL             : http://www.kernel.org/
@@ -39976,11 +39993,11 @@ Vendor          : Fedora Project
 
 Name            : tiwilink-firmware
 Epoch           : 0
-Version         : 20250808
-Release         : 1.fc42
+Version         : 20250917
+Release         : 2.fc42
 Architecture    : noarch
 Installed size  : 4.6 MiB
-Source          : linux-firmware-20250808-1.fc42.src.rpm
+Source          : linux-firmware-20250917-2.fc42.src.rpm
 From repository : updates
 Summary         : Firmware for Texas Instruments WiFi/Bluetooth adapters
 URL             : http://www.kernel.org/
