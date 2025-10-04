@@ -33269,11 +33269,11 @@ Vendor          : Fedora Project
 
 Name            : python3-boto3
 Epoch           : 0
-Version         : 1.40.39
+Version         : 1.40.43
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 2.2 MiB
-Source          : python-boto3-1.40.39-1.fc42.src.rpm
+Source          : python-boto3-1.40.43-1.fc42.src.rpm
 From repository : updates
 Summary         : The AWS SDK for Python
 URL             : https://github.com/boto/boto3
@@ -33285,11 +33285,11 @@ Vendor          : Fedora Project
 
 Name            : python3-botocore
 Epoch           : 0
-Version         : 1.40.39
+Version         : 1.40.43
 Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 104.6 MiB
-Source          : python-botocore-1.40.39-1.fc42.src.rpm
+Installed size  : 104.8 MiB
+Source          : python-botocore-1.40.43-1.fc42.src.rpm
 From repository : updates
 Summary         : Low-level, data-driven core of boto 3
 URL             : https://github.com/boto/botocore

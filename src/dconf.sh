@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-touch ~/.dotfiles/src/dconf/dconf-before.conf
-dconf dump / > ~/.dotfiles/src/dconf/dconf-raw-after.conf
-cd ~/.dotfiles || exit
+COMPUTER_MODEL=$(sudo dmidecode -s system-product-name | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+REPO_PATH=~/.dotfiles
+
+dconf dump / >$REPO_PATH/src/dconf/dconf-raw_"$COMPUTER_MODEL".conf
+cd $REPO_PATH || exit
 bun run dconf:dconf-filter
