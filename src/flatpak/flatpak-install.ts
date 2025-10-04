@@ -121,18 +121,18 @@ try {
   const removeCmd = toRemove.length ? toRemove.join(" ") : "";
   const installCmd = toInstall.length ? toInstall.join(" ") : "";
 
-  await $`echo "#!/usr/bin/env bash" > ~/.dotfiles/src/flatpak/flatpak-uninstall.auto.sh`;
-  await $`echo "" >> ~/.dotfiles/src/flatpak/flatpak-uninstall.auto.sh`;
+  await $`echo "#!/usr/bin/env bash" > ~/.dotfiles/src/flatpak/flatpak-uninstall.auto.local.sh`;
+  await $`echo "" >> ~/.dotfiles/src/flatpak/flatpak-uninstall.auto.local.sh`;
 
-  await $`echo "#!/usr/bin/env bash" > ~/.dotfiles/src/flatpak/flatpak-install.auto.sh`;
-  await $`echo "" >> ~/.dotfiles/src/flatpak/flatpak-install.auto.sh`;
+  await $`echo "#!/usr/bin/env bash" > ~/.dotfiles/src/flatpak/flatpak-install.auto.local.sh`;
+  await $`echo "" >> ~/.dotfiles/src/flatpak/flatpak-install.auto.local.sh`;
 
   if (removeCmd) {
-    await $`echo "flatpak uninstall ${removeCmd}" >> ~/.dotfiles/src/flatpak/flatpak-uninstall.auto.sh`;
+    await $`echo "flatpak uninstall ${removeCmd}" >> ~/.dotfiles/src/flatpak/flatpak-uninstall.auto.local.sh`;
   }
 
   if (installCmd) {
-    await $`echo "flatpak install flathub ${installCmd}" >> ~/.dotfiles/src/flatpak/flatpak-uninstall.auto.sh`;
+    await $`echo "flatpak install flathub ${installCmd}" >> ~/.dotfiles/src/flatpak/flatpak-uninstall.auto.local.sh`;
   }
 } catch (err) {
   console.error(err);

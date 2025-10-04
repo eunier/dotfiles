@@ -1,13 +1,6 @@
-*-after-raw.conf
-*-after-raw.jsonc
-*-after-raw.txt
-*-before-raw.conf
-*-before-raw.jsonc
-*-before-raw.txt
+*.local.conf
+*.local.jsonc
+*.local.sh
+*.local.txt
 *.tar
 node_modules/
-src/flatpak/flatpak-install.auto.sh
-src/flatpak/flatpak-uninstall.auto.sh
-src/gitlab/gitlab-auth-status.txt
-src/gitlab/gitlab-auth.sh
-src/gitlab/gitlab-repo-create.ts

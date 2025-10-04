@@ -2,8 +2,13 @@ import { $ } from "bun";
 
 type Data = [string, string[]][];
 
+let computerModel =
+  await $`sudo dmidecode -s system-product-name | tr '[:upper:]' '[:lower:]' | tr ' ' '-'`.text();
+
+computerModel = computerModel.replace("\n", "");
+
 const data: Data = (
-  await $`cat ~/.dotfiles/src/dconf/dconf-raw-after.conf`.text()
+  await $`cat ~/.dotfiles/src/dconf/dconf-raw_${computerModel}.local.conf`.text()
 )
   .split("\n\n")
   .map((chunk) => {
@@ -134,8 +139,4 @@ const output = outputArr.reduce((acc, line) => {
   return `${acc}${acc === "" ? "" : "\n"}${line}`;
 }, "");
 
-let computerModel =
-  await $`sudo dmidecode -s system-product-name | tr '[:upper:]' '[:lower:]' | tr ' ' '-'`.text();
-
-computerModel = computerModel.replace("\n", "");
 await $`echo ${output} > ~/.dotfiles/src/dconf/dconf_${computerModel}.conf`.quiet();
