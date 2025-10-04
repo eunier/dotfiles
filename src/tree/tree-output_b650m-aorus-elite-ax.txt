@@ -42,8 +42,9 @@
 │   │   └── repo-update.sh
 │   ├── bun.sh
 │   ├── dconf
+│   │   ├── dconf_b650m-aorus-elite-ax.conf
 │   │   ├── dconf-filter.ts
-│   │   └── dconf-raw_b650m-aorus-elite-ax.conf
+│   │   └── dconf-raw_b650m-aorus-elite-ax.local.conf
 │   ├── dconf.sh
 │   ├── diff
 │   │   ├── diff-apt-sources-list.sh
@@ -72,11 +73,8 @@
 │   ├── diff.sh
 │   ├── dnf
 │   │   ├── dnf-copr-list_b650m-aorus-elite-ax.txt
-│   │   ├── dnf-copr-list_.txt
 │   │   ├── dnf-info-installed_b650m-aorus-elite-ax.txt
-│   │   ├── dnf-info-installed_.txt
-│   │   ├── dnf-repo-list_b650m-aorus-elite-ax.txt
-│   │   └── dnf-repo-list_.txt
+│   │   └── dnf-repo-list_b650m-aorus-elite-ax.txt
 │   ├── dnf.sh
 │   ├── doas
 │   │   ├── doas-after.conf
@@ -140,9 +138,11 @@
 │   │   └── system
 │   ├── fish.sh
 │   ├── flatpak
+│   │   ├── flatpak-install.auto.local.sh
 │   │   ├── flatpak-install.auto.sh
 │   │   ├── flatpak-install.ts
 │   │   ├── flatpak-list_b650m-aorus-elite-ax.txt
+│   │   ├── flatpak-uninstall.auto.local.sh
 │   │   └── flatpak-uninstall.auto.sh
 │   ├── flatpak.sh
 │   ├── fmt.sh
@@ -152,6 +152,7 @@
 │   │   ├── git-sync-remote.sh
 │   │   └── git-sync-repo.sh
 │   ├── gitlab
+│   │   ├── gitlab-auth.local.sh
 │   │   ├── gitlab-auth.sh
 │   │   ├── gitlab-auth-status_b650m-aorus-elite-ax.txt
 │   │   ├── gitlab-auth.ts
@@ -212,4 +213,4 @@
 └── .vscode
     └── settings.json
 
-61 directories, 152 files
+61 directories, 153 files

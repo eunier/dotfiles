@@ -1,8 +1,5 @@
 import { $ } from "bun";
 
-// COMPUTER_MODEL=$(sudo dmidecode -s system-product-name | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
-// REPO_PATH=~/.dotfiles
-
 const repoPath = "~/.dotfiles";
 
 let computerModel =
