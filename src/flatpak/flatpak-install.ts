@@ -5,6 +5,7 @@ try {
     // spell-checker: disable
     "app.drey.KeyRack",
     "app.zen_browser.zen",
+    "be.alexandervanhee.gradia",
     "ca.vlacroix.Tally",
     "codes.merritt.adventurelist",
     "com.belmoussaoui.Authenticator",
@@ -18,6 +19,7 @@ try {
     "com.lynnmichaelmartin.TimeTracker",
     "com.mardojai.ForgeSparks",
     "com.mattjakeman.ExtensionManager",
+    "com.odnoyko.valot",
     "com.orama_interactive.Pixelorama",
     "com.rafaelmardojai.Blanket",
     "com.snes9x.Snes9x",
@@ -49,6 +51,7 @@ try {
     "io.github.nokse22.minitext",
     "io.github.nokse22.ultimate-tic-tac-toe",
     "io.github.philippkosarev.bmi",
+    "io.github.pieterdd.RcloneShuttle",
     "io.github.ronniedroid.concessio",
     "io.github.seadve.Mousai",
     "io.github.smolblackcat.Progress",

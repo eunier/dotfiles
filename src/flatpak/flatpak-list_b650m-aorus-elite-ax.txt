@@ -1,5 +1,6 @@
 Key Rack	app.drey.KeyRack	0.4.0	stable	system
 Zen	app.zen_browser.zen	1.16.2b	stable	system
+Gradia	be.alexandervanhee.gradia	1.11.1	stable	system
 Tally	ca.vlacroix.Tally	0.7	stable	system
 Adventure List	codes.merritt.adventurelist	0.15.0	stable	system
 Authenticator	com.belmoussaoui.Authenticator	4.6.2	stable	system
@@ -14,6 +15,7 @@ Alpaca	com.jeffser.Alpaca	8.1.1	stable	system
 Time Tracker	com.lynnmichaelmartin.TimeTracker	2.1.8	stable	system
 Forge Sparks	com.mardojai.ForgeSparks	1.0.1	stable	system
 Extension Manager	com.mattjakeman.ExtensionManager	0.6.5	stable	system
+Valot	com.odnoyko.valot	0.8.3	stable	system
 Pixelorama	com.orama_interactive.Pixelorama	1.1.5	stable	system
 Blanket	com.rafaelmardojai.Blanket	0.8.0	stable	system
 Snes9x	com.snes9x.Snes9x	1.63	stable	system
@@ -45,6 +47,7 @@ Inspector	io.github.nokse22.inspector	0.3.0	stable	system
 Mini Text	io.github.nokse22.minitext	1.0.0	stable	system
 Ultimate Tic Tac Toe	io.github.nokse22.ultimate-tic-tac-toe	1.1.0	stable	system
 BMI	io.github.philippkosarev.bmi	v4.0	stable	system
+Rclone Shuttle	io.github.pieterdd.RcloneShuttle	0.1.5	stable	system
 Concessio	io.github.ronniedroid.concessio	v0.1.10	stable	system
 Mousai	io.github.seadve.Mousai	0.7.9	stable	system
 Progress	io.github.smolblackcat.Progress	1.6.0	stable	system
