@@ -12,6 +12,8 @@ LibreSprite	com.github.libresprite.LibreSprite	1.1-dev	stable	system
 Clapper Enhancers	com.github.rafostar.Clapper.Enhancers		stable	system
 Timer	com.github.vikdevelop.timer	3.5	stable	system
 Alpaca	com.jeffser.Alpaca	8.1.1	stable	system
+Alpaca AMD Support	com.jeffser.Alpaca.Plugins.AMD	0.12.0	stable	system
+Ollama Instance	com.jeffser.Alpaca.Plugins.Ollama	0.12.0	stable	system
 Time Tracker	com.lynnmichaelmartin.TimeTracker	2.1.8	stable	system
 Forge Sparks	com.mardojai.ForgeSparks	1.0.1	stable	system
 Extension Manager	com.mattjakeman.ExtensionManager	0.6.5	stable	system

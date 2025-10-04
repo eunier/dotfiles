@@ -15,6 +15,8 @@ try {
     "com.github.jeromerobert.pdfarranger",
     "com.github.libresprite.LibreSprite",
     "com.github.vikdevelop.timer",
+    "com.jeffser.Alpaca.Plugins.AMD",
+    "com.jeffser.Alpaca.Plugins.Ollama",
     "com.jeffser.Alpaca",
     "com.lynnmichaelmartin.TimeTracker",
     "com.mardojai.ForgeSparks",
