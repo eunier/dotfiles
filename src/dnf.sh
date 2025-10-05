@@ -27,7 +27,7 @@ fi
 # fi
 
 if dnf repolist all | grep -q "^terra"; then
-	sudo dnf config-manager --remove-repo terra
+	sudo rm /etc/yum.repos.d/terra.repo
 
 	# Check packages from terra repo
 	# dnf repoquery --installed --repoid=terra
