@@ -19,6 +19,7 @@ Forge Sparks	com.mardojai.ForgeSparks	1.0.1	stable	system
 Extension Manager	com.mattjakeman.ExtensionManager	0.6.5	stable	system
 Valot	com.odnoyko.valot	0.8.3	stable	system
 Pixelorama	com.orama_interactive.Pixelorama	1.1.5	stable	system
+Sessions	com.pojtinger.felicitas.Sessions	0.1.6	stable	system
 Blanket	com.rafaelmardojai.Blanket	0.8.0	stable	system
 Snes9x	com.snes9x.Snes9x	1.63	stable	system
 Spotify	com.spotify.Client	1.2.63.394.g126b0d89	stable	system
@@ -26,6 +27,7 @@ Audio Sharing	de.haeckerfelix.AudioSharing	0.2.4	stable	system
 Fragments	de.haeckerfelix.Fragments	3.0.1	stable	system
 Shortwave	de.haeckerfelix.Shortwave	5.0.0	stable	system
 Calligraphy	dev.geopjr.Calligraphy	1.2.0	stable	system
+Turntable	dev.geopjr.Turntable	0.4.0	stable	system
 Restfox	dev.restfox.Restfox	0.40.0	stable	system
 Almond	edu.stanford.Almond	2.0.0~alpha.1	stable	system
 Morphosis	garden.jamie.Morphosis	49.0	stable	system
@@ -42,6 +44,7 @@ Ignition	io.github.flattool.Ignition	2.1.2	stable	system
 Embellish	io.github.getnf.embellish	v0.5.1	stable	system
 Bella	io.github.josephmawa.Bella	0.1.6	stable	system
 Egghead	io.github.josephmawa.Egghead	0.1.2	stable	system
+Gauge	io.github.josephmawa.Gauge	0.1.2	stable	system
 Kasasa	io.github.kelvinnovais.Kasasa	1.1.4	stable	system
 TriPeaks	io.github.mimoguz.TriPeaks-GDX	1.2.3	stable	system
 Vaults	io.github.mpobaschnig.Vaults	0.10.0	stable	system

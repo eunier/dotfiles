@@ -46,31 +46,6 @@
 │   │   ├── dconf-filter.ts
 │   │   └── dconf-raw_b650m-aorus-elite-ax.local.conf
 │   ├── dconf.sh
-│   ├── diff
-│   │   ├── diff-apt-sources-list.sh
-│   │   ├── diff-autostart.sh
-│   │   ├── diff-beaver-notes.sh
-│   │   ├── diff-dconf.sh
-│   │   ├── diff-dnf-copr-list.sh
-│   │   ├── diff-dnf-info-installed.sh
-│   │   ├── diff-dnf-repo-list.sh
-│   │   ├── diff-doas.sh
-│   │   ├── diff-fastfetch-config.sh
-│   │   ├── diff-fastfetch-output.sh
-│   │   ├── diff-files.sh
-│   │   ├── diff-flatpak.sh
-│   │   ├── diff-git-repos.sh
-│   │   ├── diff-homebrew.sh
-│   │   ├── diff-nala-app-progress-tracker.sh
-│   │   ├── diff-nala-list-installed.sh
-│   │   ├── diff-syncthing-config.sh
-│   │   ├── diff-timeshift.sh
-│   │   ├── diff-tree.sh
-│   │   ├── diff-vscode-extensions.sh
-│   │   ├── diff-vscode-keybindings.sh
-│   │   ├── diff-vscode-settings.sh
-│   │   └── diff-zig-version-list.sh
-│   ├── diff.sh
 │   ├── dnf
 │   │   ├── dnf-copr-list_b650m-aorus-elite-ax.txt
 │   │   ├── dnf-info-installed_b650m-aorus-elite-ax.txt
@@ -85,56 +60,15 @@
 │   ├── fastfetch.sh
 │   ├── fedora.sh
 │   ├── files
-│   │   ├── after
-│   │   │   ├── etc
-│   │   │   │   └── dnf
-│   │   │   │       └── dnf.conf
-│   │   │   └── home
-│   │   │       └── ~
-│   │   │           ├── .bash_profile
-│   │   │           ├── .bashrc
-│   │   │           ├── .config
-│   │   │           │   ├── Code
-│   │   │           │   │   └── User
-│   │   │           │   │       ├── keybindings.json
-│   │   │           │   │       └── settings.json
-│   │   │           │   └── fish
-│   │   │           │       └── config.fish
-│   │   │           └── .gitconfig
-│   │   ├── b650m-aorus-elite-ax
-│   │   │   └── home
-│   │   │       ├── ~
-│   │   │       │   ├── .bash_profile.txt
-│   │   │       │   ├── .bashrc.txt
-│   │   │       │   └── .gitconfig.txt
-│   │   │       └── .config
-│   │   │           └── fish
-│   │   │               └── config.fish.txt
-│   │   ├── before
-│   │   │   ├── etc
-│   │   │   │   └── dnf
-│   │   │   │       └── dnf.conf
-│   │   │   └── home
-│   │   │       └── ~
-│   │   │           ├── .bash_profile
-│   │   │           ├── .bashrc
-│   │   │           ├── .config
-│   │   │           │   ├── Code
-│   │   │           │   │   └── User
-│   │   │           │   │       ├── keybindings.json
-│   │   │           │   │       └── settings.json
-│   │   │           │   └── fish
-│   │   │           │       └── config.fish
-│   │   │           └── .gitconfig
-│   │   ├── home
-│   │   │   ├── ~
-│   │   │   │   ├── .bash_profile.txt
-│   │   │   │   ├── .bashrc.txt
-│   │   │   │   └── .gitconfig.txt
-│   │   │   └── .config
-│   │   │       └── fish
-│   │   │           └── config.fish.txt
-│   │   └── system
+│   │   └── b650m-aorus-elite-ax
+│   │       └── home
+│   │           ├── ~
+│   │           │   ├── .bash_profile.txt
+│   │           │   ├── .bashrc.txt
+│   │           │   └── .gitconfig.txt
+│   │           └── .config
+│   │               └── fish
+│   │                   └── config.fish.txt
 │   ├── fish.sh
 │   ├── flatpak
 │   │   ├── flatpak-install.auto.local.sh
@@ -210,4 +144,4 @@
 └── .vscode
     └── settings.json
 
-61 directories, 150 files
+37 directories, 108 files
