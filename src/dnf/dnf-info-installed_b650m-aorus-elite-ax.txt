@@ -1495,6 +1495,21 @@ License         : Apache-2.0 AND (Beerware AND LicenseRef-Fedora-Public-Domain A
 Description     : This package provides the OpenSSL crypto support for the apr-util.
 Vendor          : Fedora Project
 
+Name            : aribb24
+Epoch           : 0
+Version         : 1.0.3^20160216git5e9be27
+Release         : 2.fc42
+Architecture    : x86_64
+Installed size  : 81.8 KiB
+Source          : aribb24-1.0.3^20160216git5e9be27-2.fc42.src.rpm
+From repository : fedora
+Summary         : A library for ARIB STD-B24
+URL             : https://github.com/nkoriyama/aribb24
+License         : LGPL-3.0-only
+Description     : A library for ARIB STD-B24, decoding JIS 8 bit characters and parsing MPEG-TS
+                : stream.
+Vendor          : Fedora Project
+
 Name            : aspnetcore-runtime-9.0
 Epoch           : 0
 Version         : 9.0.9
@@ -3187,6 +3202,35 @@ License         : BSD-2-Clause AND MIT
 Description     : This package provides the cmark library.
 Vendor          : Fedora Project
 
+Name            : code
+Epoch           : 0
+Version         : 1.104.3
+Release         : 1759409494.el8
+Architecture    : x86_64
+Installed size  : 433.1 MiB
+Source          : code-1.104.3-1759409494.el8.src.rpm
+From repository : code
+Summary         : Code editing. Redefined.
+URL             : https://code.visualstudio.com/
+License         : Multiple, see https://code.visualstudio.com/license
+Description     : Visual Studio Code is a new choice of tool that combines the simplicity of a code editor with what developers need for the core edit-build-debug cycle. See https://code.visualstudio.com/docs/setup/linux for installation instructions and FAQ.
+Vendor          : Microsoft Corporation
+
+Name            : codec2
+Epoch           : 0
+Version         : 1.2.0
+Release         : 6.fc42
+Architecture    : x86_64
+Installed size  : 1.4 MiB
+Source          : codec2-1.2.0-6.fc42.src.rpm
+From repository : fedora
+Summary         : Next-Generation Digital Voice for Two-Way Radio
+URL             : http://rowetel.com/codec2.html
+License         : LGPL-2.1-only
+Description     : Codec 2 is an open source (LGPL licensed) speech codec for 2400 bit/s
+                : and below. This is the runtime library package.
+Vendor          : Fedora Project
+
 Name            : color-filesystem
 Epoch           : 0
 Version         : 1
@@ -3659,6 +3703,22 @@ Description     : This package is used by Fedora mainly for executing files by c
                 : your system.
 Vendor          : Fedora Project
 
+Name            : crossguid
+Epoch           : 0
+Version         : 0
+Release         : 0.25.20160908gitfef89a4.fc42
+Architecture    : x86_64
+Installed size  : 27.6 KiB
+Source          : crossguid-0-0.25.20160908gitfef89a4.fc42.src.rpm
+From repository : fedora
+Summary         : Lightweight cross platform C++ GUID/UUID library
+URL             : https://github.com/graeme-hill/crossguid/
+License         : MIT
+Description     : CrossGuid is a minimal, cross platform, C++ GUID library. It uses the best
+                : native GUID/UUID generator on the given platform and has a generic class for
+                : parsing, stringifying, and comparing IDs.
+Vendor          : Fedora Project
+
 Name            : crun
 Epoch           : 0
 Version         : 1.24
@@ -3733,6 +3793,21 @@ Summary         : Cryptsetup shared library
 URL             : https://gitlab.com/cryptsetup/cryptsetup
 License         : GPL-2.0-or-later WITH cryptsetup-OpenSSL-exception AND LGPL-2.1-or-later WITH cryptsetup-OpenSSL-exception
 Description     : This package contains the cryptsetup shared library, libcryptsetup.
+Vendor          : Fedora Project
+
+Name            : crystalhd-firmware
+Epoch           : 0
+Version         : 3.10.0
+Release         : 35.fc42
+Architecture    : noarch
+Installed size  : 3.5 MiB
+Source          : libcrystalhd-3.10.0-35.fc42.src.rpm
+From repository : fedora
+Summary         : Firmware for the Broadcom Crystal HD video decoder
+URL             : http://www.broadcom.com/support/crystal-hd/
+License         : LicenseRef-Callaway-Redistributable-no-modification-permitted
+Description     : Firmwares for the Broadcom Crystal HD (bcm970012 and bcm970015)
+                : video decoders.
 Vendor          : Fedora Project
 
 Name            : ctags
@@ -7013,6 +7088,24 @@ Description     : Repository files that make some select non-Fedora software ava
                 : via search in gnome-software.
 Vendor          : Fedora Project
 
+Name            : ffmpeg-libs
+Epoch           : 0
+Version         : 7.1.2
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 21.2 MiB
+Source          : ffmpeg-7.1.2-1.fc42.src.rpm
+From repository : rpmfusion-free-updates
+Summary         : Libraries for ffmpeg
+URL             : https://ffmpeg.org/
+License         : GPLv3+
+Description     : FFmpeg is a complete and free Internet live audio and video
+                : broadcasting solution for Linux/Unix. It also includes a digital
+                : VCR. It can encode in real time in many formats including MPEG1 audio
+                : and video, MPEG4, h263, ac3, asf, avi, real, mjpeg, and flash.
+                : This package contains the libraries for ffmpeg
+Vendor          : RPM Fusion
+
 Name            : fftw-libs-double
 Epoch           : 0
 Version         : 3.3.10
@@ -7634,6 +7727,22 @@ License         : GPL-2.0-or-later
 Description     : fros plugin for screencasting using Gnome3 integrated screencaster
 Vendor          : Fedora Project
 
+Name            : fstrcmp
+Epoch           : 0
+Version         : 0.7.D001
+Release         : 25.fc42
+Architecture    : x86_64
+Installed size  : 103.8 KiB
+Source          : fstrcmp-0.7.D001-25.fc42.src.rpm
+From repository : fedora
+Summary         : Fuzzy string compare library
+URL             : http://fstrcmp.sourceforge.net/
+License         : GPL-3.0-or-later
+Description     : The fstrcmp package provides a library which may be used to make fuzzy
+                : comparisons of strings and byte arrays. It also provides simple commands for use
+                : in shell scripts.
+Vendor          : Fedora Project
+
 Name            : fstrm
 Epoch           : 0
 Version         : 0.6.1
@@ -7817,6 +7926,31 @@ Description     : This provides the pregenerated BMP artwork for the UX capsule,
                 : "Installing firmware update…" localized text to be shown during a UEFI firmware
                 : update operation. This subpackage is probably not required on embedded hardware
                 : or server machines.
+Vendor          : Fedora Project
+
+Name            : game-music-emu
+Epoch           : 0
+Version         : 0.6.3
+Release         : 17.fc42
+Architecture    : x86_64
+Installed size  : 331.4 KiB
+Source          : game-music-emu-0.6.3-17.fc42.src.rpm
+From repository : fedora
+Summary         : Video game music file emulation/playback library
+URL             : https://bitbucket.org/mpyne/game-music-emu/wiki/Home
+License         : LicenseRef-Callaway-LGPLv2+
+Description     : Game_Music_Emu is a collection of video game music file emulators that support
+                : the following formats and systems:
+                : 
+                :  * AY       ZX Spectrum/Amstrad CPC
+                :  * GBS      Nintendo Game Boy
+                :  * GYM      Sega Genesis/Mega Drive
+                :  * HES      NEC TurboGrafx-16/PC Engine
+                :  * KSS      MSX Home Computer/other Z80 systems (doesn't support FM sound)
+                :  * NSF/NSFE Nintendo NES/Famicom (with VRC 6, Namco 106, and FME-7 sound)
+                :  * SAP      Atari systems using POKEY sound chip
+                :  * SPC      Super Nintendo/Super Famicom
+                :  * VGM/VGZ  Sega Master System/Mark III, Sega Genesis/Mega Drive,BBC Micro
 Vendor          : Fedora Project
 
 Name            : gamemode
@@ -8444,6 +8578,20 @@ URL             : https://github.com/ghostty-org/ghostty
 License         : MIT
 Description     : Fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
 Vendor          : Fedora Copr - user scottames
+
+Name            : giflib
+Epoch           : 0
+Version         : 5.2.2
+Release         : 6.fc42
+Architecture    : x86_64
+Installed size  : 112.1 KiB
+Source          : giflib-5.2.2-6.fc42.src.rpm
+From repository : updates
+Summary         : A library and utilities for processing GIFs
+URL             : http://www.sourceforge.net/projects/giflib/
+License         : MIT
+Description     : giflib is a library for reading and writing gif images.
+Vendor          : Fedora Project
 
 Name            : git
 Epoch           : 0
@@ -12988,6 +13136,25 @@ License         : GPL-3.0-or-later
 Description     : IIO accelerometer sensor to input device proxy.
 Vendor          : Fedora Project
 
+Name            : ilbc
+Epoch           : 0
+Version         : 3.0.4
+Release         : 13.fc42
+Architecture    : x86_64
+Installed size  : 95.4 KiB
+Source          : ilbc-3.0.4-13.fc42.src.rpm
+From repository : fedora
+Summary         : Internet Low Bitrate Codec
+URL             : https://github.com/TimothyGu/libilbc
+License         : BSD-3-Clause
+Description     : iLBC (internet Low Bitrate Codec) is a FREE speech codec suitable for robust
+                : voice communication over IP. The codec is designed for narrow band speech and
+                : results in a payload bit rate of 13.33 kbit/s with an encoding frame length of
+                : 30 ms and 15.20 kbps with an encoding length of 20 ms. The iLBC codec enables
+                : graceful speech quality degradation in the case of lost frames, which occurs in
+                : connection with lost or delayed IP packets.
+Vendor          : Fedora Project
+
 Name            : ima-evm-utils-libs
 Epoch           : 0
 Version         : 1.6.2
@@ -13018,6 +13185,22 @@ Description     : Imath is a basic, light-weight, and efficient C++ representati
                 : vectors and matrices and other simple but useful mathematical objects,
                 : functions, and data types common in computer graphics applications, including
                 : the “half” 16-bit floating-point type.
+Vendor          : Fedora Project
+
+Name            : info
+Epoch           : 0
+Version         : 7.2
+Release         : 3.fc42
+Architecture    : x86_64
+Installed size  : 357.9 KiB
+Source          : texinfo-7.2-3.fc42.src.rpm
+From repository : fedora
+Summary         : A stand-alone TTY-based reader for GNU texinfo documentation
+URL             : http://www.gnu.org/software/texinfo/
+License         : GPL-3.0-or-later
+Description     : The GNU project uses the texinfo file format for much of its
+                : documentation. The info package provides a standalone TTY-based
+                : browser program for viewing texinfo files.
 Vendor          : Fedora Project
 
 Name            : inih
@@ -15464,6 +15647,37 @@ Description     : The kmod-libs package provides runtime libraries for any appli
                 : wishes to load or unload Linux kernel modules from the running system.
 Vendor          : Fedora Project
 
+Name            : kodi
+Epoch           : 0
+Version         : 21.2
+Release         : 6.fc42
+Architecture    : x86_64
+Installed size  : 71.4 MiB
+Source          : kodi-21.2-6.fc42.src.rpm
+From repository : rpmfusion-free-updates
+Summary         : Media center
+URL             : https://www.kodi.tv/
+License         : GPLv2+ and GPLv3+ and LGPLv2+ and BSD and MIT
+Description     : Kodi is a free cross-platform media-player jukebox and entertainment hub.
+                : Kodi can play a spectrum of of multimedia formats, and featuring playlist,
+                : audio visualizations, slideshow, and weather forecast functions, together
+                : third-party plugins.
+Vendor          : RPM Fusion
+
+Name            : kodi-firewalld
+Epoch           : 0
+Version         : 21.2
+Release         : 6.fc42
+Architecture    : x86_64
+Installed size  : 73.5 KiB
+Source          : kodi-21.2-6.fc42.src.rpm
+From repository : rpmfusion-free-updates
+Summary         : FirewallD metadata files for Kodi
+URL             : https://www.kodi.tv/
+License         : GPLv2+ and GPLv3+ and LGPLv2+ and BSD and MIT
+Description     : This package contains FirewallD files for Kodi.
+Vendor          : RPM Fusion
+
 Name            : kpartx
 Epoch           : 0
 Version         : 0.10.0
@@ -15657,6 +15871,35 @@ License         : MIT AND GPL-3.0-or-later
 Description     : LittleCMS intends to be a small-footprint, speed optimized color management
                 : engine in open source form. LCMS2 is the current version of LCMS, and can be
                 : parallel installed with the original (deprecated) lcms.
+Vendor          : Fedora Project
+
+Name            : leptonica
+Epoch           : 0
+Version         : 1.85.0
+Release         : 2.fc42
+Architecture    : x86_64
+Installed size  : 3.0 MiB
+Source          : leptonica-1.85.0-2.fc42.src.rpm
+From repository : fedora
+Summary         : C library for efficient image processing and image analysis operations
+URL             : https://github.com/danbloomberg/leptonica
+License         : Leptonica
+Description     : The library supports many operations that are useful on
+                :  * Document images
+                :  * Natural images
+                : 
+                : Fundamental image processing and image analysis operations
+                :  * Rasterop (aka bitblt)
+                :  * Affine transforms (scaling, translation, rotation, shear)
+                :    on images of arbitrary pixel depth
+                :  * Projective and bi-linear transforms
+                :  * Binary and gray scale morphology, rank order filters, and
+                :    convolution
+                :  * Seed-fill and connected components
+                :  * Image transformations with changes in pixel depth, both at
+                :    the same scale and with scale change
+                :  * Pixelwise masking, blending, enhancement, arithmetic ops,
+                :    etc.
 Vendor          : Fedora Project
 
 Name            : less
@@ -16597,6 +16840,49 @@ Description     : Argon2 is a password-hashing function that summarizes the stat
                 : for credential storage, key derivation, or other applications.
 Vendor          : Fedora Project
 
+Name            : libaribcaption
+Epoch           : 0
+Version         : 1.1.1
+Release         : 2.fc42
+Architecture    : x86_64
+Installed size  : 248.5 KiB
+Source          : libaribcaption-1.1.1-2.fc42.src.rpm
+From repository : fedora
+Summary         : Portable ARIB STD-B24 Caption Decoder/Renderer
+URL             : https://github.com/xqq/libaribcaption
+License         : MIT
+Description     : Decoder and renderer for handling ARIB STD-B24 based broadcast captions, making
+                : it possible for general players to render ARIB captions with the same effect
+                : (or even better) as Television.
+                : 
+                : Features
+                : - Support captions in Japanese (ARIB STD-B24 JIS), Latin languages (ABNT NBR
+                :   15606-1) and Philippine (ARIB STD-B24 UTF-8)
+                : - Full support for rendering ARIB additional symbols (Gaiji) and DRCScharacters
+                : - Lightweight and portable implementation that works on various platforms
+                : - Performance optimized (SSE2 on x86/x64) graphics rendering
+                : - Multiple text rendering backend driven by DirectWrite / CoreText / FreeType
+                : - Zero third-party dependencies on Windows (using DirectWrite) and macOS / iOS
+                :   (using CoreText)
+                : - Built-in font fallback mechanism
+                : - Built-in DRCS converting table for replacing / rendering known DRCS characters
+                :   into / by alternative Unicode
+Vendor          : Fedora Project
+
+Name            : libass
+Epoch           : 0
+Version         : 0.17.3
+Release         : 3.fc42
+Architecture    : x86_64
+Installed size  : 290.1 KiB
+Source          : libass-0.17.3-3.fc42.src.rpm
+From repository : fedora
+Summary         : Portable library for SSA/ASS subtitles rendering
+URL             : https://github.com/libass
+License         : ISC
+Description     : Libass is a portable library for SSA/ASS subtitles rendering.
+Vendor          : Fedora Project
+
 Name            : libassuan
 Epoch           : 0
 Version         : 2.5.7
@@ -17224,6 +17510,23 @@ Description     : Brotli is a generic-purpose lossless compression algorithm tha
                 : It is similar in speed with deflate but offers more dense compression.
 Vendor          : Fedora Project
 
+Name            : libbs2b
+Epoch           : 0
+Version         : 3.1.0
+Release         : 35.fc42
+Architecture    : x86_64
+Installed size  : 72.0 KiB
+Source          : libbs2b-3.1.0-35.fc42.src.rpm
+From repository : fedora
+Summary         : Bauer stereophonic-to-binaural DSP library
+URL             : http://bs2b.sourceforge.net/
+License         : MIT
+Description     : The Bauer stereophonic-to-binaural DSP (bs2b) library and plugins is designed
+                : to improve headphone listening of stereo audio records. Recommended for
+                : headphone prolonged listening to disable superstereo fatigue without essential
+                : distortions.
+Vendor          : Fedora Project
+
 Name            : libbsd
 Epoch           : 0
 Version         : 0.12.2
@@ -17535,6 +17838,25 @@ Description     : Libcdr is library providing ability to interpret and import Co
                 : libreoffice.
 Vendor          : Fedora Project
 
+Name            : libcec
+Epoch           : 0
+Version         : 7.1.1
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 694.0 KiB
+Source          : libcec-7.1.1-1.fc42.src.rpm
+From repository : updates
+Summary         : Library and utilities for HDMI-CEC device control
+URL             : http://libcec.pulse-eight.com/
+License         : GPL-2.0-or-later
+Description     : libCEC allows you in combination with the right hardware to control your device
+                : with your TV remote control over your existing HDMI cabling.
+                : 
+                : libCEC is an enabling platform for the CEC bus in HDMI, it allows developers to
+                : interact with other HDMI devices without having to worry about the communication
+                : overhead, handshaking, and the various ways of send messages for each vendor.
+Vendor          : Fedora Project
+
 Name            : libchewing
 Epoch           : 0
 Version         : 0.9.1
@@ -17551,6 +17873,27 @@ Description     : libchewing is an intelligent phonetic input method library for
                 : It provides the core algorithm and logic that can be used by various
                 : input methods. The Chewing input method is a smart bopomofo phonetics
                 : input method that is useful for inputting Mandarin Chinese.
+Vendor          : Fedora Project
+
+Name            : libchromaprint
+Epoch           : 0
+Version         : 1.5.1
+Release         : 24.fc42
+Architecture    : x86_64
+Installed size  : 64.5 KiB
+Source          : chromaprint-1.5.1-24.fc42.src.rpm
+From repository : fedora
+Summary         : Library implementing the AcoustID fingerprinting
+URL             : http://www.acoustid.org/chromaprint
+License         : GPL-2.0-or-later
+Description     : Chromaprint library is the core component of the AcoustID project. It's a
+                : client-side library that implements a custom algorithm for extracting
+                : fingerprints from raw audio sources.
+                : 
+                : The library exposes a simple C API. The documentation for the C API can be
+                : found in the main header file.
+                : 
+                : License for binaries is GPLv2+ but source code is MIT + LGPLv2+
 Vendor          : Fedora Project
 
 Name            : libcloudproviders
@@ -17678,6 +18021,24 @@ Description     : Libconfig is a simple library for manipulating structured conf
                 : files. This file format is more compact and more readable than XML. And
                 : unlike XML, it is type-aware, so it is not necessary to do string parsing
                 : in application code.
+Vendor          : Fedora Project
+
+Name            : libcrystalhd
+Epoch           : 0
+Version         : 3.10.0
+Release         : 35.fc42
+Architecture    : x86_64
+Installed size  : 122.3 KiB
+Source          : libcrystalhd-3.10.0-35.fc42.src.rpm
+From repository : fedora
+Summary         : Broadcom Crystal HD device interface library
+URL             : http://www.broadcom.com/support/crystal-hd/
+License         : LicenseRef-Callaway-LGPLv2
+Description     : The libcrystalhd library provides userspace access to Broadcom Crystal HD
+                : video decoder devices. The device supports hardware decoding of MPEG-2,
+                : h.264 and VC1 video codecs, up to 1080p at 40fps for the first-generation
+                : bcm970012 hardware, and up to 1080p at 60fps for the second-generation
+                : bcm970015 hardware.
 Vendor          : Fedora Project
 
 Name            : libcupsfilters
@@ -18087,6 +18448,22 @@ Summary         : Libdnf5 plugin for detecting and removing expired PGP keys
 URL             : https://github.com/rpm-software-management/dnf5
 License         : LGPL-2.1-or-later
 Description     : Libdnf5 plugin for detecting and removing expired PGP keys.
+Vendor          : Fedora Project
+
+Name            : libdovi
+Epoch           : 0
+Version         : 3.3.1
+Release         : 2.fc42
+Architecture    : x86_64
+Installed size  : 593.7 KiB
+Source          : rust-dolby_vision-3.3.1-2.fc42.src.rpm
+From repository : fedora
+Summary         : Dolby Vision metadata parsing and writing
+URL             : https://crates.io/crates/dolby_vision
+License         : MIT AND (Apache-2.0 OR BSL-1.0) AND (Apache-2.0 OR MIT) AND (Unlicense OR MIT) AND (Zlib OR Apache-2.0 OR MIT)
+Description     : Dolby Vision metadata parsing and writing.
+                : 
+                : This package contains the C library.
 Vendor          : Fedora Project
 
 Name            : libdrm
@@ -20141,6 +20518,23 @@ Description     : The LiquidRescale (lqr) library provides a C/C++ API for
                 : technique.
 Vendor          : Fedora Project
 
+Name            : libmad
+Epoch           : 0
+Version         : 0.16.4
+Release         : 5.fc42
+Architecture    : x86_64
+Installed size  : 179.1 KiB
+Source          : libmad-0.16.4-5.fc42.src.rpm
+From repository : fedora
+Summary         : MPEG audio decoder library
+URL             : https://codeberg.org/tenacityteam/libmad
+License         : GPL-2.0-or-later
+Description     : MAD is a high-quality MPEG audio decoder. It currently supports MPEG-1
+                : and the MPEG-2 extension to Lower Sampling Frequencies, as well as the
+                : so-called MPEG 2.5 format. All three audio layers (Layer I, Layer II,
+                : and Layer III a.k.a. MP3) are fully implemented.
+Vendor          : Fedora Project
+
 Name            : libmanette
 Epoch           : 0
 Version         : 0.2.12
@@ -20247,6 +20641,31 @@ License         : LGPL-2.1-or-later
 Description     : Library tasked with managing, extracting and handling media art caches.
 Vendor          : Fedora Project
 
+Name            : libmicrohttpd
+Epoch           : 1
+Version         : 1.0.2
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 298.0 KiB
+Source          : libmicrohttpd-1.0.2-1.fc42.src.rpm
+From repository : updates
+Summary         : Lightweight library for embedding a webserver in applications
+URL             : http://www.gnu.org/software/libmicrohttpd/
+License         : LGPL-2.1-or-later AND (LGPL-2.1-or-later OR GPL-2.0-or-later WITH eCos-exception-2.0) AND GFDL-1.3-no-invariants-or-later
+Description     : GNU libmicrohttpd is a small C library that is supposed to make it
+                : easy to run an HTTP server as part of another application.
+                : Key features that distinguish libmicrohttpd from other projects are:
+                : 
+                : * C library: fast and small
+                : * API is simple, expressive and fully reentrant
+                : * Implementation is http 1.1 compliant
+                : * HTTP server can listen on multiple ports
+                : * Support for IPv6
+                : * Support for incremental processing of POST data
+                : * Creates binary of only 25k (for now)
+                : * Three different threading models
+Vendor          : Fedora Project
+
 Name            : libmng
 Epoch           : 0
 Version         : 2.0.3
@@ -20280,6 +20699,20 @@ Description     : libmnl is a minimalistic user-space library oriented to Netlin
                 : the Netlink header and TLVs that are repetitive and easy to get wrong.
                 : This library aims to provide simple helpers that allows you to re-use code and
                 : to avoid re-inventing the wheel.
+Vendor          : Fedora Project
+
+Name            : libmodplug
+Epoch           : 1
+Version         : 0.8.9.0
+Release         : 27.fc42
+Architecture    : x86_64
+Installed size  : 355.2 KiB
+Source          : libmodplug-0.8.9.0-27.fc42.src.rpm
+From repository : fedora
+Summary         : Modplug mod music file format library
+URL             : http://modplug-xmms.sourceforge.net/
+License         : LicenseRef-Fedora-Public-Domain
+Description     : Modplug mod music file format library.
 Vendor          : Fedora Project
 
 Name            : libmodulemd
@@ -20421,6 +20854,21 @@ Description     : libmwaw is a library for import of old Mac documents. It suppo
                 : ClarisWorks, MacPaint, MacWrite or Microsoft Word for Mac. A full list
                 : of supported formats is available at
                 : https://sourceforge.net/p/libmwaw/wiki/Home/ .
+Vendor          : Fedora Project
+
+Name            : libmysofa
+Epoch           : 0
+Version         : 1.3.3
+Release         : 2.fc42
+Architecture    : x86_64
+Installed size  : 78.7 KiB
+Source          : libmysofa-1.3.3-2.fc42.src.rpm
+From repository : fedora
+Summary         : C functions for reading HRTFs
+URL             : https://github.com/hoene/libmysofa
+License         : BSD-3-Clause
+Description     : This is a simple set of C functions to read AES SOFA files, if they
+                : contain HRTFs stored according to the AES69-2015 standard.
 Vendor          : Fedora Project
 
 Name            : libnbd
@@ -20885,6 +21333,25 @@ Description     : This package contains libopenjph, a library implementing the J
                 : standard Part 15.
 Vendor          : Fedora Project
 
+Name            : libopenmpt
+Epoch           : 0
+Version         : 0.8.3
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 1.8 MiB
+Source          : libopenmpt-0.8.3-1.fc42.src.rpm
+From repository : updates
+Summary         : C/C++ library to decode tracker music module (MOD) files
+URL             : https://lib.openmpt.org/libopenmpt/
+License         : BSD-3-Clause
+Description     : libopenmpt is a cross-platform C++ and C library to decode tracked music
+                : files (modules) into a raw PCM audio stream.
+                : 
+                : libopenmpt is based on the player code of the OpenMPT project (Open
+                : ModPlug Tracker). In order to avoid code base fragmentation, libopenmpt is
+                : developed in the same source code repository as OpenMPT.
+Vendor          : Fedora Project
+
 Name            : liborcus
 Epoch           : 0
 Version         : 0.20.2
@@ -21230,6 +21697,30 @@ URL             : http://pkgconf.org/
 License         : ISC AND BSD-4-Clause AND BSD-2-Clause AND pkgconf AND MIT
 Description     : This package provides libraries for applications to use the functionality
                 : of pkgconf.
+Vendor          : Fedora Project
+
+Name            : libplacebo
+Epoch           : 0
+Version         : 7.349.0
+Release         : 5.fc42
+Architecture    : x86_64
+Installed size  : 1.1 MiB
+Source          : libplacebo-7.349.0-5.fc42.src.rpm
+From repository : fedora
+Summary         : Reusable library for GPU-accelerated video/image rendering primitives
+URL             : https://github.com/haasn/libplacebo
+License         : LGPL-2.0-or-later
+Description     : libplacebo is essentially the core rendering algorithms and ideas of
+                : mpv turned into a library. This grew out of an interest to accomplish
+                : the following goals:
+                : 
+                : - Clean up mpv's internal API and make it reusable for other projects.
+                : - Provide a standard library of useful GPU-accelerated image processing
+                :   primitives based on GLSL, so projects like VLC or Firefox can use them
+                :   without incurring a heavy dependency on `libmpv`.
+                : - Rewrite core parts of mpv's GPU-accelerated video renderer on top of
+                :   redesigned abstractions. (Basically, I wanted to eliminate code smell
+                :   like `shader_cache.c` and totally redesign `gpu/video.c`)
 Vendor          : Fedora Project
 
 Name            : libplist
@@ -22217,6 +22708,21 @@ License         : LGPL-2.1-or-later AND Apache-2.0 AND BSD-3-Clause AND MIT AND 
 Description     : An SVG library based on cairo.
 Vendor          : Fedora Project
 
+Name            : librtmp
+Epoch           : 0
+Version         : 2.6
+Release         : 1.20240301.git6f6bb13.fc42
+Architecture    : x86_64
+Installed size  : 165.6 KiB
+Source          : rtmpdump-2.6-1.20240301.git6f6bb13.fc42.src.rpm
+From repository : rpmfusion-free
+Summary         : Support library for RTMP streams
+URL             : https://rtmpdump.mplayerhq.hu/
+License         : LGPLv2+
+Description     : librtmp is a support library for RTMP streams. All forms of RTMP are supported,
+                : including rtmp://, rtmpt://, rtmpe://, rtmpte://, and rtmps://.
+Vendor          : RPM Fusion
+
 Name            : libsamplerate
 Epoch           : 0
 Version         : 0.2.2
@@ -22478,6 +22984,20 @@ Description     : Security-enhanced Linux is a feature of the Linux® kernel and
                 : It is used by checkpolicy (the policy compiler) and similar tools, as well
                 : as by programs like load_policy that need to perform specific transformations
                 : on binary policies such as customizing policy boolean settings.
+Vendor          : Fedora Project
+
+Name            : libshaderc
+Epoch           : 0
+Version         : 2025.2
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 3.6 MiB
+Source          : shaderc-2025.2-1.fc42.src.rpm
+From repository : updates
+Summary         : A library for compiling shader strings into SPIR-V
+URL             : https://github.com/google/shaderc
+License         : Apache-2.0
+Description     : A library for compiling shader strings into SPIR-V.
 Vendor          : Fedora Project
 
 Name            : libshout
@@ -23439,6 +23959,23 @@ Description     : This package contains the dynamic library, which provides
                 : access to the udisksd daemon.
 Vendor          : Fedora Project
 
+Name            : libunibreak
+Epoch           : 0
+Version         : 6.1
+Release         : 3.fc42
+Architecture    : x86_64
+Installed size  : 139.2 KiB
+Source          : libunibreak-6.1-3.fc42.src.rpm
+From repository : fedora
+Summary         : A Unicode line-breaking library
+URL             : https://github.com/adah1972/libunibreak
+License         : Zlib
+Description     : Libunibreak is an implementation of the line breaking and word
+                : breaking algorithms as described in Unicode Standard Annex 14 and
+                : Unicode Standard Annex 29. It is designed to be used in a generic text
+                : renderer.
+Vendor          : Fedora Project
+
 Name            : libunistring
 Epoch           : 0
 Version         : 1.1
@@ -23532,6 +24069,24 @@ License         : GPL-2.0-only
 Description     : The libusal package contains C libraries that allows applications
                 : to communicate with SCSI devices and is well suitable for writing
                 : CD-R media.
+Vendor          : Fedora Project
+
+Name            : libusb-compat-0.1
+Epoch           : 0
+Version         : 0.1.8
+Release         : 10.fc42
+Architecture    : x86_64
+Installed size  : 53.0 KiB
+Source          : libusb-compat-0.1-0.1.8-10.fc42.src.rpm
+From repository : fedora
+Summary         : Compatibility shim around libusb-1.0 offering the old 0.1 API
+URL             : https://github.com/libusb/libusb-compat-0.1
+License         : LicenseRef-Callaway-LGPLv2+
+Description     : This package provides a shim / compatibility layer on top of libusb1
+                : offering the old 0.1 API for applications which do not have been ported
+                : to the new 1.0 API yet. Where ever possible applications really should
+                : use and / or be ported to the new 1.0 API instead of relying on this
+                : compatibility library.
 Vendor          : Fedora Project
 
 Name            : libusb1
@@ -23765,6 +24320,22 @@ Version         : 1.5
 Release         : 9.fc42
 Architecture    : i686
 Installed size  : 20.0 KiB
+Source          : libvdpau-1.5-9.fc42.src.rpm
+From repository : fedora
+Summary         : Wrapper library for the Video Decode and Presentation API
+URL             : https://freedesktop.org/wiki/Software/VDPAU/
+License         : MIT
+Description     : VDPAU is the Video Decode and Presentation API for UNIX. It provides an
+                : interface to video decode acceleration and presentation hardware present in
+                : modern GPUs.
+Vendor          : Fedora Project
+
+Name            : libvdpau
+Epoch           : 0
+Version         : 1.5
+Release         : 9.fc42
+Architecture    : x86_64
+Installed size  : 20.7 KiB
 Source          : libvdpau-1.5-9.fc42.src.rpm
 From repository : fedora
 Summary         : Wrapper library for the Video Decode and Presentation API
@@ -25211,6 +25782,23 @@ License         : BSD-3-Clause AND GPL-2.0-only
 Description     : Zstandard compression shared library.
 Vendor          : Fedora Project
 
+Name            : lilv-libs
+Epoch           : 0
+Version         : 0.24.26
+Release         : 2.fc42
+Architecture    : x86_64
+Installed size  : 115.3 KiB
+Source          : lilv-0.24.26-2.fc42.src.rpm
+From repository : fedora
+Summary         : Libraries for lilv
+URL             : https://drobilla.net/software/lilv
+License         : MIT
+Description     : lilv is a lightweight C library for Resource Description Syntax which
+                : supports reading and writing Turtle and NTriples.
+                : 
+                : This package contains the libraries for lilv.
+Vendor          : Fedora Project
+
 Name            : linux-atm-libs
 Epoch           : 0
 Version         : 2.5.1
@@ -25252,6 +25840,24 @@ Summary         : WHENCE License file
 URL             : http://www.kernel.org/
 License         : GPL-1.0-or-later AND GPL-2.0-or-later AND MIT AND LicenseRef-Callaway-Redistributable-no-modification-permitted
 Description     : This package contains the WHENCE license file which documents the vendor license details.
+Vendor          : Fedora Project
+
+Name            : lirc-libs
+Epoch           : 0
+Version         : 0.10.2
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 332.3 KiB
+Source          : lirc-0.10.2-1.fc42.src.rpm
+From repository : updates
+Summary         : LIRC libraries
+URL             : http://www.lirc.org/
+License         : GPL-2.0-only AND LicenseRef-Callaway-BSD
+Description     : Part of the LIRC package suite which handles IR remotes. See
+                : the package lirc for more.
+                : 
+                : This package includes shared libraries that applications use to
+                : interface with LIRC.
 Vendor          : Fedora Project
 
 Name            : livesys-scripts
@@ -25481,6 +26087,23 @@ Description     : The Low Memory Monitor is an early boot daemon that will monit
                 : pressure information coming from the kernel, and, first, send a signal
                 : to user-space applications when memory is running low, and then activate
                 : the kernel's OOM killer when memory is running really low.
+Vendor          : Fedora Project
+
+Name            : lpcnetfreedv
+Epoch           : 0
+Version         : 0.5
+Release         : 8.fc42
+Architecture    : x86_64
+Installed size  : 14.8 MiB
+Source          : lpcnetfreedv-0.5-8.fc42.src.rpm
+From repository : fedora
+Summary         : LPCNet for FreeDV
+URL             : https://github.com/drowe67/LPCNet
+License         : LicenseRef-Callaway-BSD
+Description     : Experimental version of LPCNet that has been used to develop FreeDV 2020 - a HF
+                : radio Digial Voice mode for over the air experimentation with Neural Net speech
+                : coding. Possibly the first use of Neural Net speech coding in real world
+                : operation.
 Vendor          : Fedora Project
 
 Name            : lpsolve
@@ -27954,6 +28577,21 @@ Description     : OpenPACE implements Extended Access Control (EAC) version 2 as
                 : secure channels.
 Vendor          : Fedora Project
 
+Name            : openpgm
+Epoch           : 0
+Version         : 5.3.128
+Release         : 4.fc42
+Architecture    : x86_64
+Installed size  : 316.3 KiB
+Source          : openpgm-5.3.128-4.fc42.src.rpm
+From repository : fedora
+Summary         : An implementation of the PGM reliable multicast protocol
+URL             : https://github.com/steve-o/openpgm
+License         : LGPL-2.1-or-later
+Description     : OpenPGM is an open source implementation of the Pragmatic General
+                : Multicast (PGM) specification in RFC 3208.
+Vendor          : Fedora Project
+
 Name            : opensc
 Epoch           : 0
 Version         : 0.26.1
@@ -28693,6 +29331,25 @@ URL             : https://mj.ucw.cz/sw/pciutils/
 License         : GPL-2.0-or-later
 Description     : This package contains a library for inspecting and setting
                 : devices connected to the PCI bus.
+Vendor          : Fedora Project
+
+Name            : pcre
+Epoch           : 0
+Version         : 8.45
+Release         : 1.fc42.8
+Architecture    : x86_64
+Installed size  : 537.6 KiB
+Source          : pcre-8.45-1.fc42.8.src.rpm
+From repository : fedora
+Summary         : Perl-compatible regular expression library
+URL             : https://www.pcre.org/
+License         : BSD-3-Clause
+Description     : PCRE, Perl-compatible regular expression, library has its own native API, but
+                : a set of wrapper functions that are based on the POSIX API are also supplied
+                : in the libpcreposix library. Note that this just provides a POSIX calling
+                : interface to PCRE: the regular expressions themselves still follow Perl syntax
+                : and semantics. This package provides support for strings in 8-bit and UTF-8
+                : encodings. Detailed change log is provided by pcre-doc package.
 Vendor          : Fedora Project
 
 Name            : pcre2
@@ -31009,6 +31666,20 @@ Summary         : Common files shared between Plasma 5 and Plasma 6 versions of 
 URL             : https://invent.kde.org/plasma/breeze.git
 License         : BSD-3-Clause AND CC0-1.0 AND GPL-2.0-only AND GPL-2.0-or-later AND GPL-3.0-only AND (GPL-2.0-only OR GPL-3.0-only) AND MIT
 Description     : Common files shared between Plasma 5 and Plasma 6 versions of the Breeze style.
+Vendor          : Fedora Project
+
+Name            : platform
+Epoch           : 0
+Version         : 2.1.0.1
+Release         : 22.fc42
+Architecture    : x86_64
+Installed size  : 77.5 KiB
+Source          : platform-2.1.0.1-22.fc42.src.rpm
+From repository : fedora
+Summary         : Platform support library used by libCEC and binary add-ons for Kodi
+URL             : https://github.com/Pulse-Eight/platform/
+License         : GPL-2.0-or-later
+Description     : Platform support library used by libCEC and binary add-ons for Kodi.
 Vendor          : Fedora Project
 
 Name            : plocate
@@ -36185,6 +36856,23 @@ Description     : RealtimeKit is a D-Bus system service that changes the
                 : processes.
 Vendor          : Fedora Project
 
+Name            : rubberband-libs
+Epoch           : 0
+Version         : 4.0.0
+Release         : 3.fc42
+Architecture    : x86_64
+Installed size  : 459.1 KiB
+Source          : rubberband-4.0.0-3.fc42.src.rpm
+From repository : fedora
+Summary         : Audio time-stretching and pitch-shifting library
+URL             : http://www.breakfastquay.com/rubberband/
+License         : GPL-2.0-or-later
+Description     : Rubber Band provides an API that permits you to change the
+                : tempo and pitch of an audio recording independently of one another.
+                : 
+                : This package provides a shared library for use by applications.
+Vendor          : Fedora Project
+
 Name            : rust
 Epoch           : 0
 Version         : 1.89.0
@@ -36583,6 +37271,25 @@ License         : GPL-2.0-or-later
 Description     : SELinux targeted policy package.
 Vendor          : Fedora Project
 
+Name            : serd
+Epoch           : 0
+Version         : 0.32.4
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 135.0 KiB
+Source          : serd-0.32.4-1.fc42.src.rpm
+From repository : fedora
+Summary         : A lightweight C library for RDF syntax
+URL             : https://drobilla.net/software/serd.html
+License         : ISC
+Description     : serd is a lightweight C library for RDF syntax which supports reading and
+                : writing Turtle, TRiG, NTriples, and NQuads.
+                : 
+                : Serd is suitable for performance-critical or resource-limited applications,
+                : such as serialising very large data sets, network protocols, or embedded
+                : systems that require minimal dependencies and lightweight deployment.
+Vendor          : Fedora Project
+
 Name            : setup
 Epoch           : 0
 Version         : 2.15.0
@@ -36680,6 +37387,20 @@ Summary         : A library to manage subordinate uid and gid ranges
 URL             : https://github.com/shadow-maint/shadow
 License         : BSD-3-Clause AND GPL-2.0-or-later
 Description     : Utility library that provides a way to manage subid ranges.
+Vendor          : Fedora Project
+
+Name            : shairplay-libs
+Epoch           : 0
+Version         : 0.9.0
+Release         : 27.20180824git096b61a.fc42
+Architecture    : x86_64
+Installed size  : 313.0 KiB
+Source          : shairplay-0.9.0-27.20180824git096b61a.fc42.src.rpm
+From repository : fedora
+Summary         : Libraries for shairplay
+URL             : https://github.com/juhovh/shairplay/
+License         : LicenseRef-Callaway-MIT AND LicenseRef-Callaway-BSD AND LicenseRef-Callaway-LGPLv2+
+Description     : The shairplay-libs package contains the runtime shared libraries for shairplay.
 Vendor          : Fedora Project
 
 Name            : shared-mime-info
@@ -36882,6 +37603,23 @@ License         : GPL-3.0-or-later AND ISC AND MIT AND Unicode-3.0 AND Unicode-D
 Description     : Take pictures and videos on your computer, tablet, or phone.
 Vendor          : Fedora Project
 
+Name            : sord
+Epoch           : 0
+Version         : 0.16.18
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 85.7 KiB
+Source          : sord-0.16.18-1.fc42.src.rpm
+From repository : fedora
+Summary         : A lightweight Resource Description Framework (RDF) C library
+URL             : https://drobilla.net/software/sord.html
+License         : ISC
+Description     : sord is a lightweight C library for storing Resource Description
+                : Framework (RDF) data in memory. sord and parent library serd form
+                : a lightweight RDF tool-set for resource limited or performance critical
+                : applications.
+Vendor          : Fedora Project
+
 Name            : sos
 Epoch           : 0
 Version         : 4.10.0
@@ -36967,6 +37705,21 @@ URL             : https://sourceforge.net/p/soxr/wiki/Home/
 License         : LGPL-2.1-or-later
 Description     : The SoX Resampler library `libsoxr' performs one-dimensional sample-rate
                 : conversion -- it may be used, for example, to resample PCM-encoded audio.
+Vendor          : Fedora Project
+
+Name            : spdlog
+Epoch           : 0
+Version         : 1.15.3
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 360.1 KiB
+Source          : spdlog-1.15.3-1.fc42.src.rpm
+From repository : updates
+Summary         : Super fast C++ logging library
+URL             : https://github.com/gabime/spdlog
+License         : MIT
+Description     : This is a packaged version of the gabime/spdlog C++ logging
+                : library available at Github.
 Vendor          : Fedora Project
 
 Name            : speech-dispatcher
@@ -37212,6 +37965,38 @@ URL             : https://github.com/plougher/squashfs-tools
 License         : GPL-2.0-or-later
 Description     : Squashfs is a highly compressed read-only filesystem for Linux.  This package
                 : contains the utilities for manipulating squashfs filesystems.
+Vendor          : Fedora Project
+
+Name            : sratom
+Epoch           : 0
+Version         : 0.6.18
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 44.7 KiB
+Source          : sratom-0.6.18-1.fc42.src.rpm
+From repository : fedora
+Summary         : A C library for serializing LV2 plugins
+URL             : https://drobilla.net/software/sratom
+License         : MIT
+Description     : sratom is a C library for serializing LV2 atoms to/from Turtle. It is
+                : intended to be a full serialization solution for LV2 atoms, allowing
+                : implementations to serialize binary atoms to strings and read them back again.
+                : This is particularly useful for saving plugin state, or implementing plugin
+                : control with network transparency.
+Vendor          : Fedora Project
+
+Name            : srt-libs
+Epoch           : 0
+Version         : 1.5.4
+Release         : 2.fc42
+Architecture    : x86_64
+Installed size  : 997.8 KiB
+Source          : srt-1.5.4-2.fc42.src.rpm
+From repository : fedora
+Summary         : Secure Reliable Transport protocol libraries
+URL             : https://www.srtalliance.org
+License         : MPL-2.0
+Description     : Secure Reliable Transport protocol libraries
 Vendor          : Fedora Project
 
 Name            : sshpass
@@ -38016,6 +38801,72 @@ License         : MIT
 Description     : Release package for Terra, containing the Terra repository configuration.
 Vendor          : <NULL>
 
+Name            : tesseract-common
+Epoch           : 0
+Version         : 5.5.0
+Release         : 5.fc42
+Architecture    : noarch
+Installed size  : 14.7 KiB
+Source          : tesseract-5.5.0-5.fc42.src.rpm
+From repository : updates
+Summary         : Configuration files for ${name}
+URL             : https://github.com/tesseract-ocr/tesseract
+License         : Apache-2.0
+Description     : A commercial quality OCR engine originally developed at HP between 1985 and
+                : 1995. In 1995, this engine was among the top 3 evaluated by UNLV. It was
+                : open-sourced by HP and UNLV in 2005.
+                : 
+                : The tesseract-common package contains configuration files for tesseract.
+Vendor          : Fedora Project
+
+Name            : tesseract-langpack-eng
+Epoch           : 0
+Version         : 4.1.0
+Release         : 10.fc42
+Architecture    : noarch
+Installed size  : 3.9 MiB
+Source          : tesseract-tessdata-4.1.0-10.fc42.src.rpm
+From repository : updates
+Summary         : English language data for tesseract-tessdata
+URL             : https://github.com/tesseract-ocr/tessdata_fast
+License         : Apache-2.0
+Description     : This package contains the fast integer version of the English language
+                : trained models for the Tesseract Open Source OCR Engine.
+Vendor          : Fedora Project
+
+Name            : tesseract-libs
+Epoch           : 0
+Version         : 5.5.0
+Release         : 5.fc42
+Architecture    : x86_64
+Installed size  : 3.3 MiB
+Source          : tesseract-5.5.0-5.fc42.src.rpm
+From repository : updates
+Summary         : Shared libraries for tesseract
+URL             : https://github.com/tesseract-ocr/tesseract
+License         : Apache-2.0
+Description     : A commercial quality OCR engine originally developed at HP between 1985 and
+                : 1995. In 1995, this engine was among the top 3 evaluated by UNLV. It was
+                : open-sourced by HP and UNLV in 2005.
+                : 
+                : The tesseract-libs package contains shared libraries
+                : for tesseract.
+Vendor          : Fedora Project
+
+Name            : tesseract-tessdata-doc
+Epoch           : 0
+Version         : 4.1.0
+Release         : 10.fc42
+Architecture    : noarch
+Installed size  : 15.0 KiB
+Source          : tesseract-tessdata-4.1.0-10.fc42.src.rpm
+From repository : updates
+Summary         : Documentation for tesseract-tessdata
+URL             : https://github.com/tesseract-ocr/tessdata_fast
+License         : Apache-2.0
+Description     : The tesseract-tessdata-doc package contains the documentation for tesseract-tessdata.
+Vendor          : Fedora Project
+
 Name            : texlive-base
 Epoch           : 11
 Version         : 20230311
@@ -38482,6 +39333,48 @@ Description     : Tinysparql is a powerful desktop-neutral first class object da
                 : linking and audit trails for a file object.
                 : 
                 : Metadata indexers are provided by the localsearch package.
+Vendor          : Fedora Project
+
+Name            : tinyxml
+Epoch           : 0
+Version         : 2.6.2
+Release         : 31.fc42
+Architecture    : x86_64
+Installed size  : 135.6 KiB
+Source          : tinyxml-2.6.2-31.fc42.src.rpm
+From repository : fedora
+Summary         : A simple, small, C++ XML parser
+URL             : http://www.grinninglizard.com/tinyxml/
+License         : zlib
+Description     : TinyXML is a simple, small, C++ XML parser that can be easily integrating
+                : into other programs. Have you ever found yourself writing a text file parser
+                : every time you needed to save human readable data or serialize objects?
+                : TinyXML solves the text I/O file once and for all.
+                : (Or, as a friend said, ends the Just Another Text File Parser problem.)
+Vendor          : Fedora Project
+
+Name            : tinyxml2
+Epoch           : 0
+Version         : 10.0.0
+Release         : 18.fc42
+Architecture    : x86_64
+Installed size  : 104.6 KiB
+Source          : tinyxml2-10.0.0-18.fc42.src.rpm
+From repository : updates
+Summary         : Simple, small and efficient C++ XML parser
+URL             : https://github.com/leethomason/tinyxml2
+License         : Zlib
+Description     : TinyXML-2 is a simple, small, efficient, C++ XML parser that can be easily
+                : integrated into other programs. It uses a Document Object Model (DOM), meaning
+                : the XML data is parsed into a C++ objects that can be browsed and manipulated,
+                : and then written to disk or another output stream.
+                : 
+                : TinyXML-2 doesn’t parse or use DTDs (Document Type Definitions) nor XSLs
+                : (eXtensible Stylesheet Language).
+                : 
+                : TinyXML-2 uses a similar API to TinyXML-1, But the implementation of the parser
+                : was completely re-written to make it more appropriate for use in a game. It
+                : uses less memory, is faster, and uses far fewer memory allocations.
 Vendor          : Fedora Project
 
 Name            : tiwilink-firmware
@@ -39439,6 +40332,21 @@ Description     :
                 : This is the variable version of this font.
 Vendor          : Fedora Project
 
+Name            : vid.stab
+Epoch           : 0
+Version         : 1.1.1
+Release         : 5.fc42
+Architecture    : x86_64
+Installed size  : 92.2 KiB
+Source          : vid.stab-1.1.1-5.fc42.src.rpm
+From repository : fedora
+Summary         : Video stabilize library for fmpeg, mlt or transcode
+URL             : http://public.hronopik.de/vid.stab
+License         : GPL-2.0-or-later
+Description     : Vidstab is a video stabilization library which can be plugged-in with Ffmpeg
+                : and Transcode.
+Vendor          : Fedora Project
+
 Name            : vim-common
 Epoch           : 2
 Version         : 9.1.1775
@@ -39718,6 +40626,38 @@ License         : GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause AND BS
 Description     : Video output plugins for VLC media player
 Vendor          : Fedora Project
 
+Name            : vmaf-models
+Epoch           : 0
+Version         : 3.0.0
+Release         : 3.fc42
+Architecture    : noarch
+Installed size  : 4.9 MiB
+Source          : vmaf-3.0.0-3.fc42.src.rpm
+From repository : fedora
+Summary         : Model files for vmaf
+URL             : https://github.com/netflix/vmaf
+License         : BSD-2-Clause-Patent
+Description     : The vmaf-models package contains model files.
+                : These are needed for apps that can't use the builtin models.
+Vendor          : Fedora Project
+
+Name            : vo-amrwbenc
+Epoch           : 0
+Version         : 0.1.3
+Release         : 22.fc42
+Architecture    : x86_64
+Installed size  : 153.9 KiB
+Source          : vo-amrwbenc-0.1.3-22.fc42.src.rpm
+From repository : fedora
+Summary         : VisualOn AMR-WB encoder library
+URL             : http://opencore-amr.sourceforge.net/
+License         : Apache-2.0
+Description     : This library contains an encoder implementation of the Adaptive
+                : Multi Rate Wideband (AMR-WB) audio codec. The library is based
+                : on a codec implementation by VisualOn as part of the Stagefright
+                : framework from the Google Android project.
+Vendor          : Fedora Project
+
 Name            : volume_key-libs
 Epoch           : 0
 Version         : 0.3.12
@@ -39862,6 +40802,20 @@ License         : Apache-2.0
 Description     : Vulkan tools
 Vendor          : Fedora Project
 
+Name            : vvenc-libs
+Epoch           : 0
+Version         : 1.13.1
+Release         : 3.fc42
+Architecture    : x86_64
+Installed size  : 3.3 MiB
+Source          : vvenc-1.13.1-3.fc42.src.rpm
+From repository : rpmfusion-free-updates
+Summary         : Library  files for vvenc
+URL             : https://github.com/fraunhoferhhi/vvenc
+License         : BSD-3-Clause-Clear
+Description     : The vvenc-libs package contains the library files
+Vendor          : RPM Fusion
+
 Name            : wavpack
 Epoch           : 0
 Version         : 5.8.1
@@ -39912,6 +40866,27 @@ Description     : wayland-protocols contains Wayland protocols that adds functio
                 : completely new functionality, or extends the functionality of some other
                 : protocol either in Wayland core, or some other protocol in
                 : wayland-protocols.
+Vendor          : Fedora Project
+
+Name            : waylandpp
+Epoch           : 0
+Version         : 1.0.1
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 2.0 MiB
+Source          : waylandpp-1.0.1-1.fc42.src.rpm
+From repository : updates
+Summary         : Wayland C++ bindings
+URL             : https://github.com/NilsBrause/waylandpp/
+License         : LicenseRef-Callaway-BSD AND LicenseRef-Callaway-MIT AND GPL-3.0-or-later
+Description     : Wayland is an object oriented display protocol, which features request and
+                : events. Requests can be seen as method calls on certain objects, whereas events
+                : can be seen as signals of an object. This makes the Wayland protocol a perfect
+                : candidate for a C++ binding.
+                : 
+                : The goal of this library is to create such a C++ binding for Wayland using the
+                : most modern C++ technology currently available, providing an easy to use C++ API
+                : to Wayland.
 Vendor          : Fedora Project
 
 Name            : webkit2gtk4.1
@@ -40222,6 +41197,39 @@ Description     : wsdd implements a Web Service Discovery host daemon. This enab
                 : hosts, like your local NAS device, to be found by Web Service Discovery Clients
                 : like Windows.
 Vendor          : Fedora Project
+
+Name            : x264-libs
+Epoch           : 0
+Version         : 0.164
+Release         : 16.20231001git31e19f92.fc42
+Architecture    : x86_64
+Installed size  : 2.7 MiB
+Source          : x264-0.164-16.20231001git31e19f92.fc42.src.rpm
+From repository : rpmfusion-free
+Summary         : Library for encoding H264/AVC video streams
+URL             : https://www.videolan.org/developers/x264.html
+License         : GPLv2+
+Description     : x264 is a free library for encoding H264/AVC video streams, written from
+                : scratch.
+Vendor          : RPM Fusion
+
+Name            : x265-libs
+Epoch           : 0
+Version         : 4.1
+Release         : 2.fc42
+Architecture    : x86_64
+Installed size  : 16.7 MiB
+Source          : x265-4.1-2.fc42.src.rpm
+From repository : rpmfusion-free
+Summary         : H.265/HEVC encoder library
+URL             : http://x265.org/
+License         : GPLv2+ and BSD
+Description     : The primary objective of x265 is to become the best H.265/HEVC encoder
+                : available anywhere, offering the highest compression efficiency and the
+                : highest performance on a wide variety of hardware platforms.
+                : 
+                : This package contains the shared library.
+Vendor          : RPM Fusion
 
 Name            : xcb-util
 Epoch           : 0
@@ -40780,6 +41788,26 @@ Description     : xrdb is used to get or set the contents of the RESOURCE_MANAGE
                 : root window of any or all screens, or everything combined.
 Vendor          : Fedora Project
 
+Name            : xvidcore
+Epoch           : 0
+Version         : 1.3.7
+Release         : 13.fc42
+Architecture    : x86_64
+Installed size  : 878.4 KiB
+Source          : xvidcore-1.3.7-13.fc42.src.rpm
+From repository : fedora
+Summary         : MPEG-4 Simple and Advanced Simple Profile codec
+URL             : https://www.xvid.com/
+License         : GPL-2.0-or-later
+Description     : The Xvid video codec implements MPEG-4 Simple Profile and Advanced Simple
+                : Profile standards. It permits compressing and decompressing digital video
+                : in order to reduce the required bandwidth of video data for transmission
+                : over computer networks or efficient storage on CDs or DVDs. Due to its
+                : unrivalled quality Xvid has gained great popularity and is used in many
+                : other GPLed applications, like e.g. Transcode, MEncoder, MPlayer, Xine and
+                : many more.
+Vendor          : Fedora Project
+
 Name            : xxd
 Epoch           : 2
 Version         : 9.1.1775
@@ -41029,6 +42057,27 @@ Description     : Zenity lets you display Gtk+ dialog boxes from the command lin
                 : from the same family as dialog, Xdialog, and cdialog.
 Vendor          : Fedora Project
 
+Name            : zeromq
+Epoch           : 0
+Version         : 4.3.5
+Release         : 21.fc42
+Architecture    : x86_64
+Installed size  : 890.1 KiB
+Source          : zeromq-4.3.5-21.fc42.src.rpm
+From repository : fedora
+Summary         : Software library for fast, message-based applications
+URL             : https://zeromq.org
+License         : MPL-2.0 AND BSD-3-Clause AND MIT
+Description     : The 0MQ lightweight messaging kernel is a library which extends the
+                : standard socket interfaces with features traditionally provided by
+                : specialized messaging middle-ware products. 0MQ sockets provide an
+                : abstraction of asynchronous message queues, multiple messaging
+                : patterns, message filtering (subscriptions), seamless access to
+                : multiple transport protocols and more.
+                : 
+                : This package contains the ZeroMQ shared library.
+Vendor          : Fedora Project
+
 Name            : zfs-fuse
 Epoch           : 0
 Version         : 0.7.2.2
@@ -41045,6 +42094,26 @@ Description     : ZFS is an advanced modern general-purpose filesystem from Sun
                 : 
                 : This project is a port of ZFS to the FUSE framework for the Linux
                 : operating system.
+Vendor          : Fedora Project
+
+Name            : zimg
+Epoch           : 0
+Version         : 3.0.6
+Release         : 2.fc42
+Architecture    : x86_64
+Installed size  : 570.9 KiB
+Source          : zimg-3.0.6-2.fc42.src.rpm
+From repository : updates
+Summary         : Scaling, color space conversion, and dithering library
+URL             : https://github.com/sekrit-twc/zimg
+License         : WTFPL
+Description     : The "z" library implements the commonly required image processing basics of
+                : scaling, color space conversion, and depth conversion. A simple API enables
+                : conversion between any supported formats to operate with minimal knowledge from
+                : the programmer. All library routines were designed from the ground-up with
+                : correctness, flexibility, and thread-safety as first priorities. Allocation,
+                : buffering, and I/O are cleanly separated from processing, allowing the
+                : programmer to adapt "z" to many scenarios.
 Vendor          : Fedora Project
 
 Name            : zip
@@ -41065,6 +42134,20 @@ Description     : The zip program is a compression and file packaging utility.  
                 : 
                 : Install the zip package if you need to compress files using the zip
                 : program.
+Vendor          : Fedora Project
+
+Name            : zix
+Epoch           : 0
+Version         : 0.6.2
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 58.7 KiB
+Source          : zix-0.6.2-1.fc42.src.rpm
+From repository : fedora
+Summary         : A lightweight C library of portability wrappers and data structures
+URL             : https://gitlab.com/drobilla/zix
+License         : ISC
+Description     : zix is a lightweight C library of portability wrappers and data structures.
 Vendor          : Fedora Project
 
 Name            : zlib-ng
@@ -41176,6 +42259,26 @@ URL             : https://github.com/facebook/zstd
 License         : BSD-3-Clause AND GPL-2.0-only
 Description     : Zstd, short for Zstandard, is a fast lossless compression algorithm,
                 : targeting real-time compression scenarios at zlib-level compression ratio.
+Vendor          : Fedora Project
+
+Name            : zvbi
+Epoch           : 0
+Version         : 0.2.43
+Release         : 2.fc42
+Architecture    : x86_64
+Installed size  : 1.2 MiB
+Source          : zvbi-0.2.43-2.fc42.src.rpm
+From repository : fedora
+Summary         : Raw VBI, Teletext and Closed Caption decoding library
+URL             : https://github.com/zapping-vbi/zvbi
+License         : GPL-2.0-or-later AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-2-Clause AND MIT
+Description     : ZVBI provides functions to capture and decode VBI data. The vertical blanking
+                : interval (VBI) is an interval in a television signal that temporarily suspends
+                : transmission of the signal for the electron gun to move back up to the first
+                : line of the television screen to trace the next screen field. The vertical
+                : blanking interval can be used to carry data, since anything sent during the VBI
+                : would naturally not be displayed; various test signals, closed captioning, and
+                : other digital data can be sent during this time period.
 Vendor          : Fedora Project
 
 Name            : zxcvbn-c
