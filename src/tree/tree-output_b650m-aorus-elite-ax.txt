@@ -174,8 +174,6 @@
 │   ├── sparky.sh
 │   ├── sync.sh
 │   ├── syncthing
-│   │   ├── syncthing-config-after.json
-│   │   ├── syncthing-config-before.json
 │   │   └── syncthing-config-mask.ts
 │   ├── syncthing.sh
 │   ├── timeshift
@@ -211,4 +209,4 @@
 └── .vscode
     └── settings.json
 
-61 directories, 151 files
+61 directories, 149 files

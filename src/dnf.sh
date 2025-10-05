@@ -22,8 +22,18 @@ if ! dnf repolist | grep -q "Visual Studio Code"; then
 	echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\nautorefresh=1\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo >/dev/null
 fi
 
-if ! dnf repolist | grep -q "terra"; then
-	sudo dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
+# if ! dnf repolist | grep -q "terra"; then
+# 	sudo dnf install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
+# fi
+
+if dnf repolist all | grep -q "^terra"; then
+	sudo dnf config-manager --remove-repo terra
+
+	# Check packages from terra repo
+	# dnf repoquery --installed --repoid=terra
+
+	# Sync packages installed from terra repo with fedora repo
+	sudo dnf distro-sync
 fi
 
 if ! dnf repolist | grep -q "copr:copr.fedorainfracloud.org:ilyaz:LACT"; then
