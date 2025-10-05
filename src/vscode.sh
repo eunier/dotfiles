@@ -6,7 +6,7 @@ REPO_PATH=~/.dotfiles
 cp ~/.config/Code/User/keybindings.json ~/.dotfiles/src/files/after/home/~/.config/Code/User/keybindings.json
 cp ~/.config/Code/User/settings.json ~/.dotfiles/src/files/after/home/~/.config/Code/User/settings.json
 
-code --update-extensions
+# code --update-extensions
 echo "Installing code extensions..."
 
 extensions=(
