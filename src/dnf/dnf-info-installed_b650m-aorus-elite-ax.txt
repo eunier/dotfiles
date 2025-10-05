@@ -8445,6 +8445,20 @@ Description     : This package provides utilities for formatting and printing te
                 : Hint Stream of a linearized PDF file.
 Vendor          : Fedora Project
 
+Name            : ghostty
+Epoch           : 0
+Version         : 1.2.0
+Release         : 2.fc42
+Architecture    : x86_64
+Installed size  : 31.7 MiB
+Source          : ghostty-1.2.0-2.fc42.src.rpm
+From repository : copr:copr.fedorainfracloud.org:scottames:ghostty
+Summary         : Fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration
+URL             : https://github.com/ghostty-org/ghostty
+License         : MIT
+Description     : Fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
+Vendor          : Fedora Copr - user scottames
+
 Name            : git
 Epoch           : 0
 Version         : 2.51.0
@@ -11876,6 +11890,25 @@ Description     : GTK is a multi-platform toolkit for creating graphical user
                 : 
                 : This package contains version 4 of GTK.
 Vendor          : Fedora Project
+
+Name            : gtk4-layer-shell
+Epoch           : 0
+Version         : 1.2.0
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 96.6 KiB
+Source          : gtk4-layer-shell-1.2.0-1.fc42.src.rpm
+From repository : copr:copr.fedorainfracloud.org:scottames:ghostty
+Summary         : Library to create panels and other desktop components for Wayland
+URL             : https://github.com/wmww/gtk4-layer-shell
+License         : MIT
+Description     : A library for using the Layer Shell Wayland protocol with GTK4. With this
+                : library you can build desktop shell components such as panels, notifications
+                : and wallpapers. You can use it to anchor your windows to a corner or edge of
+                : the output, or stretch them across the entire output. This Library is
+                : compatible with C, C++ and any language that supports GObject introspection
+                : files (Python, Vala, etc).
+Vendor          : Fedora Copr - user scottames
 
 Name            : gtkmm3.0
 Epoch           : 0
