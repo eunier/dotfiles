@@ -7,7 +7,7 @@ cp ~/.config/Code/User/keybindings.json ~/.dotfiles/src/files/after/home/~/.conf
 cp ~/.config/Code/User/settings.json ~/.dotfiles/src/files/after/home/~/.config/Code/User/settings.json
 
 # code --update-extensions
-echo "Installing code extensions..."
+# echo "Installing code extensions..."
 
 extensions=(
 	#spell-checker: disable
