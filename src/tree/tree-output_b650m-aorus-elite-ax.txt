@@ -77,8 +77,7 @@
 │   │   └── dnf-repo-list_b650m-aorus-elite-ax.txt
 │   ├── dnf.sh
 │   ├── doas
-│   │   ├── doas-after.conf
-│   │   └── doas-before.conf
+│   │   └── doas_b650m-aorus-elite-ax.conf
 │   ├── doas.sh
 │   ├── fastfetch
 │   │   ├── fastfetch-config_b650m-aorus-elite-ax.jsonc
@@ -213,4 +212,4 @@
 └── .vscode
     └── settings.json
 
-61 directories, 153 files
+61 directories, 152 files
