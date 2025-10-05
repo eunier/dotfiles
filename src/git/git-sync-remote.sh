@@ -3,8 +3,9 @@
 REPO_PATH=~/.dotfiles
 
 time=$(date +"%H")
+day_of_week=$(date +%u) # 6=Saturday, 7=Sunday
 
-if [ "$time" -ge 18 ] || [ "$time" -lt 7 ]; then
+if [ "$time" -ge 18 ] || [ "$time" -lt 7 ] || [ "$day_of_week" -ge 6 ]; then
 	echo "Syncing secondary git repos..."
 	cd ~/Projects/com.github.eunier.dotfiles/dotfiles || exit
 	git reset --hard

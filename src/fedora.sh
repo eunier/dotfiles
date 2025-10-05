@@ -31,7 +31,6 @@ sh ~/.dotfiles/src/fastfetch.sh
 sh ~/.dotfiles/src/fmt.sh
 sudo timeshift --check
 
-# sh ~/.dotfiles/src/diff.sh
 sh ~/.dotfiles/src/git/git-sync-repo.sh
 
 fastfetch

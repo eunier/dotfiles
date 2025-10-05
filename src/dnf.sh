@@ -3,8 +3,6 @@
 COMPUTER_MODEL=$(sudo dmidecode -s system-product-name | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
 REPO_PATH=~/.dotfiles
 
-cp /etc/dnf/dnf.conf ~/.dotfiles/src/files/after/etc/dnf/dnf.conf
-
 if ! dnf repolist | grep -q "Brave Browser"; then
 	sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 fi
@@ -159,6 +157,9 @@ sudo dnf install \
 	zed
 
 sudo systemctl enable --now lactd
+
+mkdir -p "$REPO_PATH/src/files/$COMPUTER_MODEL/etc/dnf"
+cp /etc/dnf/dnf.conf $REPO_PATH/src/files/"$COMPUTER_MODEL"/etc/dnf/dnf.conf
 
 DNF_INFO_INSTALLED_TXT_PATH="$REPO_PATH"/src/dnf/dnf-info-installed_"$COMPUTER_MODEL".txt
 dnf repoquery --info --installed >"$DNF_INFO_INSTALLED_TXT_PATH"
