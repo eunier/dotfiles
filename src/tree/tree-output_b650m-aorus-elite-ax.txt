@@ -179,8 +179,6 @@
 │   │   └── syncthing-config-mask.ts
 │   ├── syncthing.sh
 │   ├── timeshift
-│   │   ├── timeshift-after.json
-│   │   └── timeshift-before.json
 │   ├── timeshift.sh
 │   ├── tree
 │   │   └── tree-output_b650m-aorus-elite-ax.txt
@@ -212,4 +210,4 @@
 └── .vscode
     └── settings.json
 
-61 directories, 152 files
+61 directories, 150 files

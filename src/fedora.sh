@@ -22,14 +22,14 @@ sh ~/.dotfiles/src/font.sh
 sh ~/.dotfiles/src/gitlab.sh
 sh ~/.dotfiles/src/sync.sh
 # sh ~/.dotfiles/src/syncthing.sh
-# sh ~/.dotfiles/src/timeshift.sh
+sh ~/.dotfiles/src/timeshift.sh
 sh ~/.dotfiles/src/tree.sh
 sh ~/.dotfiles/src/vscode.sh
 
 sh ~/.dotfiles/src/fastfetch.sh
 
 # sh ~/.dotfiles/src/fmt.sh
-# sudo timeshift --check
+sudo timeshift --check
 
 # sh ~/.dotfiles/src/diff.sh
 sh ~/.dotfiles/src/git/git-sync-repo.sh
