@@ -119,7 +119,7 @@ keyLoop: for (const [key, settings] of data) {
 
     if (ignoredSettings) {
       const shouldIgnoreThisSettings = ignoredSettings.find((s) =>
-        setting.startsWith(s)
+        setting.startsWith(s),
       );
 
       if (!shouldIgnoreThisSettings) {

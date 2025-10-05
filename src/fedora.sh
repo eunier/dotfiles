@@ -28,7 +28,7 @@ sh ~/.dotfiles/src/vscode.sh
 
 sh ~/.dotfiles/src/fastfetch.sh
 
-# sh ~/.dotfiles/src/fmt.sh
+sh ~/.dotfiles/src/fmt.sh
 sudo timeshift --check
 
 # sh ~/.dotfiles/src/diff.sh

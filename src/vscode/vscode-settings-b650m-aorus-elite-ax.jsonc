@@ -1,43 +1,43 @@
 {
   "[aspnetcorerazor]": {
-    "editor.defaultFormatter": "ms-dotnettools.csharp"
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
   },
   "[csharp]": {
-    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+    "editor.defaultFormatter": "csharpier.csharpier-vscode",
   },
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[shellscript]": {
-    "editor.defaultFormatter": "mkhl.shfmt"
+    "editor.defaultFormatter": "mkhl.shfmt",
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[zig]": {
     "editor.defaultFormatter": "ziglang.vscode-zig",
     "editor.formatOnSave": true,
     "editor.stickyScroll.defaultModel": "foldingProviderModel",
     "editor.tabSize": 4,
-    "files.eol": "\n"
+    "files.eol": "\n",
   },
   "cSpell.language": "en,lorem",
   "cSpell.userWords": [
@@ -75,7 +75,7 @@
     "worktree",
     "yunieralvarez",
     "zflecs",
-    "zigversion"
+    "zigversion",
   ],
   "csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
   "csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": true,
@@ -93,7 +93,7 @@
   "dotnet.inlayHints.enableInlayHintsForParameters": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit",
-    "source.organizeImports": "explicit"
+    "source.organizeImports": "explicit",
   },
   "editor.codeLensFontFamily": "Cascadia Code",
   "editor.fontFamily": "Cascadia Code, Adwaita Mono, Fira Code, JetBrains Mono, Monoid, Noto Mono, Ubuntu Mono, 'Droid Sans Mono', 'monospace', monospace",
@@ -110,8 +110,8 @@
         {
           "scope": "entity.name.namespace",
           "settings": {
-            "foreground": "#4E57BA"
-          }
+            "foreground": "#4E57BA",
+          },
         },
         {
           "scope": [
@@ -157,13 +157,13 @@
             "text.xml meta.tag.preprocessor entity.name.tag",
             "text.xml meta.tag.preprocessor punctuation.definition.tag",
             "markup.heading.markdown",
-            "keyword.control.flow.ts"
+            "keyword.control.flow.ts",
           ],
           "settings": {
-            "fontStyle": ""
-          }
-        }
-      ]
+            "fontStyle": "",
+          },
+        },
+      ],
     },
     "[GitHub Light]": {
       "strings": "#138934",
@@ -171,29 +171,29 @@
         {
           "scope": [
             "punctuation.definition.string.end.ts",
-            "punctuation.definition.string.begin.ts"
+            "punctuation.definition.string.begin.ts",
           ],
           "settings": {
             "fontStyle": "bold",
-            "foreground": "#28a745"
-          }
-        }
-      ]
-    }
+            "foreground": "#28a745",
+          },
+        },
+      ],
+    },
   },
   "editor.wordWrap": "on",
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "files.associations": {
-    ".env.template": "properties"
+    ".env.template": "properties",
   },
   "files.autoSave": "afterDelay",
   "files.watcherExclude": {
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
     "**/.hg/store/**": true,
-    "**/node_modules/*/**": true
+    "**/node_modules/*/**": true,
   },
   "git.autofetch": true,
   "git.confirmSync": false,
@@ -213,14 +213,14 @@
   "jest.runMode": "on-demand",
   "material-icon-theme.activeIconPack": "none",
   "material-icon-theme.files.associations": {
-    ".zigversion": "lock"
+    ".zigversion": "lock",
   },
   "material-icon-theme.folders.theme": "classic",
   "material-icon-theme.saturation": 1,
   "outline.collapseItems": "alwaysExpand",
   "prettier.tabWidth": 2,
   "shellcheck.ignorePatterns": {
-    "**/*.snap": true
+    "**/*.snap": true,
   },
   "sortEditors.sortEditorsAutomatically": true,
   "telemetry.telemetryLevel": "off",
@@ -256,5 +256,5 @@
   "workspaceWizard.general.workspacesFolder": "/home/tron/Projects/workspaces",
   "zig.path": "zig",
   "zig.zls.enabled": "on",
-  "zig.zls.inlayHintsExcludeSingleArgument": false
+  "zig.zls.inlayHintsExcludeSingleArgument": false,
 }

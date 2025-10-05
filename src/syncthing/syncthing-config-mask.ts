@@ -14,7 +14,7 @@ const data: Record<PropertyKey, unknown> =
   await $`cat ${repoPath}/src/syncthing/syncthing-config_${computerModel}.json`.json();
 
 const masked = JSON.stringify(data, (key, val) =>
-  keys.includes(key) ? "***" : val
+  keys.includes(key) ? "***" : val,
 );
 
 await $`echo ${masked} > ${path}`;
