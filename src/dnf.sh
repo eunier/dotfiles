@@ -48,6 +48,10 @@ if ! dnf copr list | grep -q "dusansimic/themes"; then
 	sudo dnf copr enable dusansimic/themes
 fi
 
+if ! dnf copr list | grep -q "scottames/ghostty"; then
+	sudo dnf copr enable scottames/ghostty
+fi
+
 if ! command -v beaver-notes /dev/null 2>&1; then
 	echo -e "\e[31mDownload 'beaver-notes' from 'https://beavernotes.com/#/Download'\e[0m"
 fi

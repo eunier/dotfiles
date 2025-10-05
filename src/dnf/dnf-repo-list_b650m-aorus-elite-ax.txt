@@ -5,6 +5,7 @@ copr:copr.fedorainfracloud.org:dusansimic:themes Copr repo for themes owned by d
 copr:copr.fedorainfracloud.org:ilyaz:LACT        Copr repo for LACT owned by ilyaz
 copr:copr.fedorainfracloud.org:pgdev:ghostty     Copr repo for ghostty owned by pgdev
 copr:copr.fedorainfracloud.org:phracek:PyCharm   Copr repo for PyCharm owned by phracek
+copr:copr.fedorainfracloud.org:scottames:ghostty Copr repo for ghostty owned by scottames
 fedora                                           Fedora 42 - x86_64
 fedora-cisco-openh264                            Fedora 42 openh264 (From Cisco) - x86_64
 google-chrome                                    google-chrome
