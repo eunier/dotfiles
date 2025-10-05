@@ -1,5 +1,6 @@
 /home/tron/.config/autostart
 ├── com.mardojai.ForgeSparks.desktop
+├── com.odnoyko.valot.desktop
 ├── @filendesktop.desktop
 ├── io.github.nokse22.ultimate-tic-tac-toe.desktop
 ├── io.gitlab.news_flash.NewsFlash.desktop
@@ -12,9 +13,10 @@
 ├── steam.desktop
 └── syncthing-start.desktop
 
-1 directory, 12 files
-[drwxr-xr-x tron     tron             630 Oct  1 07:10]  /home/tron/.config/autostart
+1 directory, 13 files
+[drwxr-xr-x tron     tron             680 Oct  4 05:39]  /home/tron/.config/autostart
 ├── [-rw-r--r-- tron     tron            2255 Mar  3  2025]  com.mardojai.ForgeSparks.desktop
+├── [-rw-r--r-- tron     tron            1258 Oct  4 05:39]  com.odnoyko.valot.desktop
 ├── [-rw-r--r-- tron     tron             183 Mar  3  2025]  @filendesktop.desktop
 ├── [-rw-r--r-- tron     tron             761 Mar  4  2025]  io.github.nokse22.ultimate-tic-tac-toe.desktop
 ├── [-rw-r--r-- tron     tron            3096 Mar  3  2025]  io.gitlab.news_flash.NewsFlash.desktop
@@ -27,4 +29,4 @@
 ├── [-rw-r--r-- tron     tron            7473 Mar  3  2025]  steam.desktop
 └── [-rw-r--r-- tron     tron             308 Mar  3  2025]  syncthing-start.desktop
 
-1 directory, 12 files
+1 directory, 13 files

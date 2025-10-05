@@ -17,3 +17,19 @@ sh $REPO_PATH/src/flatpak/flatpak-install.auto.local.sh
 
 FLATPAK_LIST_TXT_PATH=$REPO_PATH/src/flatpak/flatpak-list_$COMPUTER_MODEL.txt
 flatpak list >"$FLATPAK_LIST_TXT_PATH"
+
+MEMORANDO_DB_PATH=~/Documents/Applications/Memorado/database.db
+MEMORANDO_DB_BAK_PATH=~/Documents/Applications/Memorado/database.db.bak
+MEMORANDO_SRC_DB_PATH=~/.var/app/im.bernard.Memorado/data/database.db
+
+if [ -f "$MEMORANDO_DB_PATH" ] && [ ! -f "$MEMORANDO_DB_BAK_PATH" ]; then
+	cp "$MEMORANDO_DB_PATH" "$MEMORANDO_DB_BAK_PATH"
+fi
+
+if [ -f "$MEMORANDO_DB_PATH" ] && [ -f "$MEMORANDO_DB_BAK_PATH" ]; then
+	rm "$MEMORANDO_DB_BAK_PATH"
+	cp "$MEMORANDO_DB_PATH" "$MEMORANDO_DB_BAK_PATH"
+	rm "$MEMORANDO_DB_PATH"
+fi
+
+cp "$MEMORANDO_SRC_DB_PATH" ~/Documents/Applications/Memorado/

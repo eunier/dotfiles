@@ -20,4 +20,4 @@ Version     Installed   ZLS
 0.3.0                   
 0.2.0                   
 0.1.1                   
-master (remote) (0.16.0-dev.577+c50aa2b95)            
+master (remote) (0.16.0-dev.600+12ed0ff1e)            

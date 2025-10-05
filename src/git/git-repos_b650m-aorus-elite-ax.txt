@@ -71,6 +71,7 @@
     ├── inbox.code-workspace
     ├── inbox-eta.code-workspace
     ├── inbox-tdg.code-workspace
+    ├── obsidian-workspace.code-workspace
     ├── raylib-zig.code-workspace
     ├── repo.code-workspace
     ├── top-down-game.code-workspace
@@ -78,4 +79,4 @@
     ├── zig.code-workspace
     └── zig-gamedev.code-workspace
 
-59 directories, 20 files
+59 directories, 21 files
