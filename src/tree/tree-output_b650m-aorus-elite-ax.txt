@@ -21,6 +21,7 @@
 │   ├── modules.xml
 │   ├── vcs.xml
 │   └── workspace.xml
+├── output.txt
 ├── package.json
 ├── readme.md
 ├── scripts
@@ -61,6 +62,9 @@
 │   ├── fedora.sh
 │   ├── files
 │   │   └── b650m-aorus-elite-ax
+│   │       ├── etc
+│   │       │   └── dnf
+│   │       │       └── dnf.conf
 │   │       └── home
 │   │           ├── ~
 │   │           │   ├── .bash_profile.txt
@@ -144,4 +148,4 @@
 └── .vscode
     └── settings.json
 
-37 directories, 108 files
+39 directories, 110 files

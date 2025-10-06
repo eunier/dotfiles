@@ -109,7 +109,7 @@ Buffer	org.gnome.gitlab.cheywood.Buffer	0.10.2	stable	system
 Cavalier	org.nickvision.cavalier	2024.1.0	stable	system
 Denaro	org.nickvision.money	2024.2.0	stable	system
 Tagger	org.nickvision.tagger	2024.6.0	stable	system
-Parabolic	org.nickvision.tubeconverter	2025.10.1	stable	system
+Parabolic	org.nickvision.tubeconverter	2025.10.2	stable	system
 pgAdmin 4	org.pgadmin.pgadmin4	9.8	stable	system
 Main Menu	page.codeberg.libre_menu_editor.LibreMenuEditor	1.9.4	stable	system
 Commit	re.sonny.Commit	4.3	stable	system

@@ -18468,11 +18468,11 @@ Vendor          : Fedora Project
 
 Name            : libdrm
 Epoch           : 0
-Version         : 2.4.125
+Version         : 2.4.126
 Release         : 1.fc42
 Architecture    : i686
-Installed size  : 415.4 KiB
-Source          : libdrm-2.4.125-1.fc42.src.rpm
+Installed size  : 415.5 KiB
+Source          : libdrm-2.4.126-1.fc42.src.rpm
 From repository : updates
 Summary         : Direct Rendering Manager runtime library
 URL             : https://dri.freedesktop.org
@@ -18482,11 +18482,11 @@ Vendor          : Fedora Project
 
 Name            : libdrm
 Epoch           : 0
-Version         : 2.4.125
+Version         : 2.4.126
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 395.8 KiB
-Source          : libdrm-2.4.125-1.fc42.src.rpm
+Installed size  : 399.9 KiB
+Source          : libdrm-2.4.126-1.fc42.src.rpm
 From repository : updates
 Summary         : Direct Rendering Manager runtime library
 URL             : https://dri.freedesktop.org
@@ -18496,11 +18496,11 @@ Vendor          : Fedora Project
 
 Name            : libdrm-devel
 Epoch           : 0
-Version         : 2.4.125
+Version         : 2.4.126
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 728.8 KiB
-Source          : libdrm-2.4.125-1.fc42.src.rpm
+Installed size  : 729.0 KiB
+Source          : libdrm-2.4.126-1.fc42.src.rpm
 From repository : updates
 Summary         : Direct Rendering Manager development package
 URL             : https://dri.freedesktop.org
@@ -20119,11 +20119,11 @@ Vendor          : Fedora Project
 
 Name            : libjcat
 Epoch           : 0
-Version         : 0.2.4
+Version         : 0.2.5
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 213.8 KiB
-Source          : libjcat-0.2.4-1.fc42.src.rpm
+Source          : libjcat-0.2.5-1.fc42.src.rpm
 From repository : updates
 Summary         : Library for reading Jcat files
 URL             : https://github.com/hughsie/libjcat
@@ -21127,11 +21127,11 @@ Vendor          : Fedora Project
 
 Name            : libnotify
 Epoch           : 0
-Version         : 0.8.6
+Version         : 0.8.7
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 122.2 KiB
-Source          : libnotify-0.8.6-1.fc42.src.rpm
+Installed size  : 123.6 KiB
+Source          : libnotify-0.8.7-1.fc42.src.rpm
 From repository : updates
 Summary         : Desktop notification library
 URL             : https://gitlab.gnome.org/GNOME/libnotify
@@ -40349,11 +40349,11 @@ Vendor          : Fedora Project
 
 Name            : vim-common
 Epoch           : 2
-Version         : 9.1.1775
+Version         : 9.1.1818
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 36.9 MiB
-Source          : vim-9.1.1775-1.fc42.src.rpm
+Source          : vim-9.1.1818-1.fc42.src.rpm
 From repository : updates
 Summary         : The common files needed by any version of the VIM editor
 URL             : https://www.vim.org/
@@ -40371,11 +40371,11 @@ Vendor          : Fedora Project
 
 Name            : vim-data
 Epoch           : 2
-Version         : 9.1.1775
+Version         : 9.1.1818
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 10.2 KiB
-Source          : vim-9.1.1775-1.fc42.src.rpm
+Source          : vim-9.1.1818-1.fc42.src.rpm
 From repository : updates
 Summary         : Shared data for Vi and Vim
 URL             : https://www.vim.org/
@@ -40386,11 +40386,11 @@ Vendor          : Fedora Project
 
 Name            : vim-enhanced
 Epoch           : 2
-Version         : 9.1.1775
+Version         : 9.1.1818
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 4.2 MiB
-Source          : vim-9.1.1775-1.fc42.src.rpm
+Source          : vim-9.1.1818-1.fc42.src.rpm
 From repository : updates
 Summary         : A version of the VIM editor which includes recent enhancements
 URL             : https://www.vim.org/
@@ -40410,11 +40410,11 @@ Vendor          : Fedora Project
 
 Name            : vim-filesystem
 Epoch           : 2
-Version         : 9.1.1775
+Version         : 9.1.1818
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 40.0   B
-Source          : vim-9.1.1775-1.fc42.src.rpm
+Source          : vim-9.1.1818-1.fc42.src.rpm
 From repository : updates
 Summary         : VIM filesystem layout
 URL             : https://www.vim.org/
@@ -40425,11 +40425,11 @@ Vendor          : Fedora Project
 
 Name            : vim-minimal
 Epoch           : 2
-Version         : 9.1.1775
+Version         : 9.1.1818
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.7 MiB
-Source          : vim-9.1.1775-1.fc42.src.rpm
+Source          : vim-9.1.1818-1.fc42.src.rpm
 From repository : updates
 Summary         : A minimal version of the VIM editor
 URL             : https://www.vim.org/
@@ -40713,11 +40713,11 @@ Vendor          : Fedora Project
 
 Name            : vte-profile
 Epoch           : 0
-Version         : 0.80.3
+Version         : 0.80.4
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 51.6 KiB
-Source          : vte291-0.80.3-1.fc42.src.rpm
+Source          : vte291-0.80.4-1.fc42.src.rpm
 From repository : updates
 Summary         : Profile script for VTE terminal emulator library
 URL             : https://wiki.gnome.org/Apps/Terminal/VTE
@@ -40728,11 +40728,11 @@ Vendor          : Fedora Project
 
 Name            : vte291
 Epoch           : 0
-Version         : 0.80.3
+Version         : 0.80.4
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.0 MiB
-Source          : vte291-0.80.3-1.fc42.src.rpm
+Source          : vte291-0.80.4-1.fc42.src.rpm
 From repository : updates
 Summary         : GTK terminal emulator library
 URL             : https://wiki.gnome.org/Apps/Terminal/VTE
@@ -40744,11 +40744,11 @@ Vendor          : Fedora Project
 
 Name            : vte291-gtk4
 Epoch           : 0
-Version         : 0.80.3
+Version         : 0.80.4
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 830.8 KiB
-Source          : vte291-0.80.3-1.fc42.src.rpm
+Source          : vte291-0.80.4-1.fc42.src.rpm
 From repository : updates
 Summary         : GTK4 terminal emulator library
 URL             : https://wiki.gnome.org/Apps/Terminal/VTE
@@ -41810,11 +41810,11 @@ Vendor          : Fedora Project
 
 Name            : xxd
 Epoch           : 2
-Version         : 9.1.1775
+Version         : 9.1.1818
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 37.2 KiB
-Source          : vim-9.1.1775-1.fc42.src.rpm
+Source          : vim-9.1.1818-1.fc42.src.rpm
 From repository : updates
 Summary         : A hex dump utility
 URL             : https://www.vim.org/
