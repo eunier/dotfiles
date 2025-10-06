@@ -135,6 +135,7 @@ sudo dnf install \
 	minecraft-launcher \
 	morewaita-icon-theme \
 	mullvad-vpn \
+	ollama \
 	opendoas \
 	picard \
 	podman-compose \

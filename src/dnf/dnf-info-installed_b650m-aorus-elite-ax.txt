@@ -101,6 +101,25 @@ Description     : LibRaw is a library for reading RAW files obtained from digita
                 : drawbacks have already been eliminated and part will be fixed in future.
 Vendor          : Fedora Project
 
+Name            : Lmod
+Epoch           : 0
+Version         : 8.7.58
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 1.3 MiB
+Source          : Lmod-8.7.58-1.fc42.src.rpm
+From repository : fedora
+Summary         : Environmental Modules System in Lua
+URL             : https://tacc.utexas.edu/research/tacc-research/lmod/
+License         : MIT AND LGPL-2.0-only
+Description     : Lmod is a Lua based module system that easily handles the MODULEPATH
+                : Hierarchical problem.  Environment Modules provide a convenient way to
+                : dynamically change the users' environment through modulefiles. This includes
+                : easily adding or removing directories to the PATH environment variable.
+                : Modulefiles for library packages provide environment variables that specify
+                : where the library and header files can be found.
+Vendor          : Fedora Project
+
 Name            : ModemManager
 Epoch           : 0
 Version         : 1.22.0
@@ -6597,6 +6616,22 @@ License         : LGPL-2.0-or-later
 Description     : This package contains translations for evolution-data-server.
 Vendor          : Fedora Project
 
+Name            : exempi
+Epoch           : 0
+Version         : 2.6.4
+Release         : 7.fc42
+Architecture    : x86_64
+Installed size  : 1.4 MiB
+Source          : exempi-2.6.4-7.fc42.src.rpm
+From repository : fedora
+Summary         : Library for easy parsing of XMP metadata
+URL             : http://libopenraw.freedesktop.org/wiki/Exempi
+License         : BSD-3-Clause
+Description     : Exempi provides a library for easy parsing of XMP metadata. It is a port of
+                : Adobe XMP SDK to work on UNIX and to be build with GNU automake.
+                : It includes XMPCore and XMPFiles.
+Vendor          : Fedora Project
+
 Name            : exfatprogs
 Epoch           : 0
 Version         : 1.2.9
@@ -12577,6 +12612,45 @@ Description     :
                 : applying the same operation to 'lanes'.
 Vendor          : Fedora Project
 
+Name            : hipblas
+Epoch           : 0
+Version         : 6.3.0
+Release         : 4.fc42
+Architecture    : x86_64
+Installed size  : 1.1 MiB
+Source          : hipblas-6.3.0-4.fc42.src.rpm
+From repository : fedora
+Summary         : ROCm BLAS marshalling library
+URL             : https://github.com/ROCmSoftwarePlatform/hipBLAS
+License         : MIT
+Description     : hipBLAS is a Basic Linear Algebra Subprograms (BLAS) marshalling
+                : library, with multiple supported backends. It sits between the
+                : application and a 'worker' BLAS library, marshalling inputs into
+                : the backend library and marshalling results back to the
+                : application. hipBLAS exports an interface that does not require
+                : the client to change, regardless of the chosen backend. Currently,
+                : hipBLAS supports rocBLAS and cuBLAS as backends.
+Vendor          : Fedora Project
+
+Name            : hipcc
+Epoch           : 0
+Version         : 18
+Release         : 37.rocm6.3.1.fc42
+Architecture    : x86_64
+Installed size  : 761.6 KiB
+Source          : rocm-compilersupport-18-37.rocm6.3.1.fc42.src.rpm
+From repository : fedora
+Summary         : HIP compiler driver
+URL             : https://github.com/ROCm/llvm-project
+License         : NCSA and MIT
+Description     : hipcc is a compiler driver utility that will call clang or nvcc, depending on
+                : target, and pass the appropriate include and library options for the target
+                : compiler and HIP infrastructure.
+                : 
+                : hipcc will pass-through options to the target compiler. The tools calling hipcc
+                : must ensure the compiler options are appropriate for the target compiler.
+Vendor          : Fedora Project
+
 Name            : hiredis
 Epoch           : 0
 Version         : 1.2.0
@@ -18041,6 +18115,21 @@ Description     : The libcrystalhd library provides userspace access to Broadcom
                 : bcm970015 hardware.
 Vendor          : Fedora Project
 
+Name            : libcue
+Epoch           : 0
+Version         : 2.3.0
+Release         : 11.fc42
+Architecture    : x86_64
+Installed size  : 89.8 KiB
+Source          : libcue-2.3.0-11.fc42.src.rpm
+From repository : fedora
+Summary         : Cue sheet parser library
+URL             : https://github.com/lipnitsk/libcue
+License         : GPL-2.0-only AND BSD-2-Clause
+Description     : Libcue is intended for parsing a so-called cue sheet from a char string or a
+                : file pointer. For handling of the parsed data a convenient API is available.
+Vendor          : Fedora Project
+
 Name            : libcupsfilters
 Epoch           : 1
 Version         : 2.1.1
@@ -19302,6 +19391,21 @@ Description     : libgee is a collection library providing GObject-based interfa
                 : library. It's planned to provide bindings for further languages.
 Vendor          : Fedora Project
 
+Name            : libgexiv2
+Epoch           : 0
+Version         : 0.14.6
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 279.2 KiB
+Source          : libgexiv2-0.14.6-1.fc42.src.rpm
+From repository : updates
+Summary         : Gexiv2 is a GObject-based wrapper around the Exiv2 library
+URL             : https://wiki.gnome.org/Projects/gexiv2
+License         : GPL-2.0-or-later
+Description     : libgexiv2 is a GObject-based wrapper around the Exiv2 library.
+                : It makes the basic features of Exiv2 available to GNOME applications.
+Vendor          : Fedora Project
+
 Name            : libgfapi0
 Epoch           : 0
 Version         : 11.2
@@ -19657,6 +19761,20 @@ Description     : This library provides Ghostscript's core functionality, based 
                 : 
                 : It also provides an X11-based driver for Ghostscript, which enables displaying
                 : of various document files (including PS and PDF).
+Vendor          : Fedora Project
+
+Name            : libgsf
+Epoch           : 0
+Version         : 1.14.53
+Release         : 3.fc42
+Architecture    : x86_64
+Installed size  : 969.5 KiB
+Source          : libgsf-1.14.53-3.fc42.src.rpm
+From repository : fedora
+Summary         : GNOME Structured File library
+URL             : https://gitlab.gnome.org/GNOME/libgsf/
+License         : LGPL-2.1-only
+Description     : A library for reading and writing structured files (e.g. MS OLE and Zip)
 Vendor          : Fedora Project
 
 Name            : libgtop2
@@ -20085,6 +20203,24 @@ License         : BSD-3-Clause
 Description     : The Intel Processor Trace (Intel PT) Decoder Library is Intel's reference
                 : implementation for decoding Intel PT.  It can be used as a standalone library
                 : or it can be partially or fully integrated into your tool.
+Vendor          : Fedora Project
+
+Name            : libiptcdata
+Epoch           : 0
+Version         : 1.0.5
+Release         : 21.fc42
+Architecture    : x86_64
+Installed size  : 171.9 KiB
+Source          : libiptcdata-1.0.5-21.fc42.src.rpm
+From repository : fedora
+Summary         : IPTC tag library
+URL             : https://github.com/ianw/libiptcdata
+License         : LGPL-2.0-only
+Description     : libiptcdata is a library for parsing, editing, and saving IPTC data
+                : stored inside images.  IPTC is a standard for encoding metadata such
+                : as captions, titles, locations, etc. in the headers of an image file.
+                : libiptcdata also includes a command-line utility for modifying the
+                : metadata.
 Vendor          : Fedora Project
 
 Name            : libiscsi
@@ -26012,6 +26148,23 @@ Description     : The lmdb-libs package contains shared libraries necessary for 
                 : applications that use the lmdb embedded database.
 Vendor          : Fedora Project
 
+Name            : localsearch
+Epoch           : 0
+Version         : 3.9.0
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 3.8 MiB
+Source          : localsearch-3.9.0-1.fc42.src.rpm
+From repository : fedora
+Summary         : Localsearch and metadata extractors
+URL             : https://gnome.pages.gitlab.gnome.org/localsearch/
+License         : GPL-2.0-or-later AND LGPL-2.1-or-later
+Description     : Tinysparql is a powerful desktop-neutral first class object database,
+                : tag/metadata database and search tool.
+                : 
+                : This package contains various miners and metadata extractors for tinysparql.
+Vendor          : Fedora Project
+
 Name            : lockdev
 Epoch           : 0
 Version         : 1.0.4
@@ -26168,6 +26321,59 @@ Description     : This library may be used by user-space applications to generat
                 : trace-points using LTTng.
 Vendor          : Fedora Project
 
+Name            : lua
+Epoch           : 0
+Version         : 5.4.8
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 602.2 KiB
+Source          : lua-5.4.8-1.fc42.src.rpm
+From repository : updates
+Summary         : Powerful light-weight programming language
+URL             : https://www.lua.org/
+License         : MIT
+Description     : Lua is a powerful light-weight programming language designed for
+                : extending applications. Lua is also frequently used as a
+                : general-purpose, stand-alone language. Lua is free software.
+                : Lua combines simple procedural syntax with powerful data description
+                : constructs based on associative arrays and extensible semantics. Lua
+                : is dynamically typed, interpreted from bytecodes, and has automatic
+                : memory management with garbage collection, making it ideal for
+                : configuration, scripting, and rapid prototyping.
+Vendor          : Fedora Project
+
+Name            : lua-filesystem
+Epoch           : 0
+Version         : 1.8.0
+Release         : 14.fc42
+Architecture    : x86_64
+Installed size  : 64.8 KiB
+Source          : lua-filesystem-1.8.0-14.fc42.src.rpm
+From repository : fedora
+Summary         : File System Library for the Lua Programming Language
+URL             : https://lunarmodules.github.io/luafilesystem/
+License         : MIT
+Description     : LuaFileSystem is a Lua library developed to complement the set of functions
+                : related to file systems offered by the standard Lua distribution.
+                : 
+                : LuaFileSystem offers a portable way to access the underlying directory
+                : structure and file attributes.
+Vendor          : Fedora Project
+
+Name            : lua-json
+Epoch           : 0
+Version         : 1.3.4
+Release         : 9.fc42
+Architecture    : noarch
+Installed size  : 59.4 KiB
+Source          : lua-json-1.3.4-9.fc42.src.rpm
+From repository : fedora
+Summary         : JSON Parser/Constructor for Lua
+URL             : https://github.com/harningt/luajson
+License         : MIT
+Description     : LuaJSON is a customizable JSON decoder/encoder, using LPEG for parsing.
+Vendor          : Fedora Project
+
 Name            : lua-libs
 Epoch           : 0
 Version         : 5.4.8
@@ -26180,6 +26386,50 @@ Summary         : Libraries for lua
 URL             : https://www.lua.org/
 License         : MIT
 Description     : This package contains the shared libraries for lua.
+Vendor          : Fedora Project
+
+Name            : lua-lpeg
+Epoch           : 0
+Version         : 1.1.0
+Release         : 5.fc42
+Architecture    : x86_64
+Installed size  : 181.4 KiB
+Source          : lua-lpeg-1.1.0-5.fc42.src.rpm
+From repository : fedora
+Summary         : Parsing Expression Grammars for Lua
+URL             : http://www.inf.puc-rio.br/~roberto/lpeg/
+License         : MIT
+Description     : LPeg is a new pattern-matching library for Lua, based on Parsing Expression
+                : Grammars (PEGs).
+Vendor          : Fedora Project
+
+Name            : lua-posix
+Epoch           : 0
+Version         : 36.2.1
+Release         : 8.fc42
+Architecture    : x86_64
+Installed size  : 553.0 KiB
+Source          : lua-posix-36.2.1-8.fc42.src.rpm
+From repository : fedora
+Summary         : POSIX library for Lua
+URL             : http://luaforge.net/projects/luaposix/
+License         : MIT
+Description     : This is a POSIX library for Lua which provides access to many POSIX features
+                : to Lua programs.
+Vendor          : Fedora Project
+
+Name            : lua-term
+Epoch           : 0
+Version         : 0.08
+Release         : 5.fc42
+Architecture    : x86_64
+Installed size  : 22.8 KiB
+Source          : lua-term-0.08-5.fc42.src.rpm
+From repository : fedora
+Summary         : Terminal functions for Lua
+URL             : https://github.com/hoelzro/lua-term
+License         : MIT
+Description     : Lua module for manipulating a terminal.
 Vendor          : Fedora Project
 
 Name            : lvm2
@@ -27353,6 +27603,38 @@ Description     : This package ensures the EDITOR shell variable
                 : is set in common shells to GNU nano.
 Vendor          : Fedora Project
 
+Name            : nautilus
+Epoch           : 0
+Version         : 48.3
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 13.6 MiB
+Source          : nautilus-48.3-1.fc42.src.rpm
+From repository : updates
+Summary         : File manager for GNOME
+URL             : https://apps.gnome.org/Nautilus/
+License         : GPL-3.0-or-later AND CC0-1.0
+Description     : Nautilus is the file manager and graphical shell for the GNOME desktop
+                : that makes it easy to manage your files and the rest of your system.
+                : It allows to browse directories on local and remote filesystems, preview
+                : files and launch applications associated with them.
+                : It is also responsible for handling the icons on the GNOME desktop.
+Vendor          : Fedora Project
+
+Name            : nautilus-extensions
+Epoch           : 0
+Version         : 48.3
+Release         : 1.fc42
+Architecture    : x86_64
+Installed size  : 82.7 KiB
+Source          : nautilus-48.3-1.fc42.src.rpm
+From repository : updates
+Summary         : Nautilus extensions library
+URL             : https://apps.gnome.org/Nautilus/
+License         : LGPL-2.1-or-later
+Description     : This package provides the libraries used by nautilus extensions.
+Vendor          : Fedora Project
+
 Name            : nbdkit
 Epoch           : 0
 Version         : 1.42.8
@@ -28313,6 +28595,21 @@ Summary         : OpenCL Library (Installable Client Library) Bindings
 URL             : https://github.com/OCL-dev/ocl-icd/
 License         : BSD-2-Clause
 Description     : OpenCL Library (Installable Client Library) Bindings.
+Vendor          : Fedora Project
+
+Name            : ollama
+Epoch           : 0
+Version         : 0.4.4
+Release         : 3.fc42
+Architecture    : x86_64
+Installed size  : 145.5 MiB
+Source          : ollama-0.4.4-3.fc42.src.rpm
+From repository : fedora
+Summary         : Get up and running AI LLMs
+URL             : https://github.com/ollama/ollama
+License         : Apache-2.0 AND MIT
+Description     : Get up and running with Llama 3.2, Mistral, Gemma 2, and other large language
+                : models.
 Vendor          : Fedora Project
 
 Name            : oniguruma
@@ -36622,6 +36919,289 @@ Description     : RIT Rachana is OpenType font for Malayalam traditional script 
                 : Hussain K H.
                 : It covers Unicode 13.0 and entire character set in 'definitive character set' of
                 : Malayalam.
+Vendor          : Fedora Project
+
+Name            : rocblas
+Epoch           : 0
+Version         : 6.3.0
+Release         : 4.fc42
+Architecture    : x86_64
+Installed size  : 3.8 GiB
+Source          : rocblas-6.3.0-4.fc42.src.rpm
+From repository : fedora
+Summary         : BLAS implementation for ROCm
+URL             : https://github.com/ROCmSoftwarePlatform/rocBLAS
+License         : MIT AND BSD-3-Clause
+Description     : rocBLAS is the AMD library for Basic Linear Algebra Subprograms
+                : (BLAS) on the ROCm platform. It is implemented in the HIP
+                : programming language and optimized for AMD GPUs.
+Vendor          : Fedora Project
+
+Name            : rocm-clang
+Epoch           : 0
+Version         : 18
+Release         : 37.rocm6.3.1.fc42
+Architecture    : x86_64
+Installed size  : 117.6 MiB
+Source          : rocm-compilersupport-18-37.rocm6.3.1.fc42.src.rpm
+From repository : fedora
+Summary         : The ROCm compiler
+URL             : https://github.com/ROCm/llvm-project
+License         : NCSA and MIT
+Description     : The ROCm compiler
+Vendor          : Fedora Project
+
+Name            : rocm-clang-devel
+Epoch           : 0
+Version         : 18
+Release         : 37.rocm6.3.1.fc42
+Architecture    : x86_64
+Installed size  : 21.8 MiB
+Source          : rocm-compilersupport-18-37.rocm6.3.1.fc42.src.rpm
+From repository : fedora
+Summary         : Libraries and header files for ROCm CLANG
+URL             : https://github.com/ROCm/llvm-project
+License         : NCSA and MIT
+Description     : Libraries and header files for ROCm CLANG
+Vendor          : Fedora Project
+
+Name            : rocm-clang-libs
+Epoch           : 0
+Version         : 18
+Release         : 37.rocm6.3.1.fc42
+Architecture    : x86_64
+Installed size  : 113.9 MiB
+Source          : rocm-compilersupport-18-37.rocm6.3.1.fc42.src.rpm
+From repository : fedora
+Summary         : The ROCm compiler libs
+URL             : https://github.com/ROCm/llvm-project
+License         : NCSA and MIT
+Description     : The ROCm compiler libs
+Vendor          : Fedora Project
+
+Name            : rocm-clang-runtime-devel
+Epoch           : 0
+Version         : 18
+Release         : 37.rocm6.3.1.fc42
+Architecture    : x86_64
+Installed size  : 6.9 MiB
+Source          : rocm-compilersupport-18-37.rocm6.3.1.fc42.src.rpm
+From repository : fedora
+Summary         : The ROCm compiler runtime
+URL             : https://github.com/ROCm/llvm-project
+License         : NCSA and MIT
+Description     : The ROCm compiler runtime
+Vendor          : Fedora Project
+
+Name            : rocm-comgr
+Epoch           : 0
+Version         : 18
+Release         : 37.rocm6.3.1.fc42
+Architecture    : x86_64
+Installed size  : 137.1 MiB
+Source          : rocm-compilersupport-18-37.rocm6.3.1.fc42.src.rpm
+From repository : fedora
+Summary         : AMD ROCm LLVM Code Object Manager
+URL             : https://github.com/ROCm/llvm-project
+License         : NCSA and MIT
+Description     : The AMD Code Object Manager (Comgr) is a shared library which provides
+                : operations for creating and inspecting code objects.
+Vendor          : Fedora Project
+
+Name            : rocm-device-libs
+Epoch           : 0
+Version         : 18
+Release         : 37.rocm6.3.1.fc42
+Architecture    : x86_64
+Installed size  : 3.2 MiB
+Source          : rocm-compilersupport-18-37.rocm6.3.1.fc42.src.rpm
+From repository : fedora
+Summary         : AMD ROCm LLVM bit code libraries
+URL             : https://github.com/ROCm/llvm-project
+License         : NCSA and MIT
+Description     : This package contains a set of AMD specific device-side language runtime
+                : libraries in the form of bit code. Specifically:
+                :  - Open Compute library controls
+                :  - Open Compute Math library
+                :  - Open Compute Kernel library
+                :  - OpenCL built-in library
+                :  - HIP built-in library
+                :  - Heterogeneous Compute built-in library
+Vendor          : Fedora Project
+
+Name            : rocm-hip
+Epoch           : 0
+Version         : 6.3.1
+Release         : 4.fc42
+Architecture    : x86_64
+Installed size  : 23.3 MiB
+Source          : rocclr-6.3.1-4.fc42.src.rpm
+From repository : updates
+Summary         : ROCm HIP platform and device tool
+URL             : https://github.com/ROCm-Developer-Tools/clr
+License         : MIT
+Description     : HIP is a C++ Runtime API and Kernel Language that allows developers to create
+                : portable applications for AMD and NVIDIA GPUs from the same source code.
+Vendor          : Fedora Project
+
+Name            : rocm-libc++
+Epoch           : 0
+Version         : 18
+Release         : 37.rocm6.3.1.fc42
+Architecture    : x86_64
+Installed size  : 1.5 MiB
+Source          : rocm-compilersupport-18-37.rocm6.3.1.fc42.src.rpm
+From repository : fedora
+Summary         : The ROCm libc++
+URL             : https://github.com/ROCm/llvm-project
+License         : NCSA and MIT
+Description     : The ROCm libc++
+Vendor          : Fedora Project
+
+Name            : rocm-libc++-devel
+Epoch           : 0
+Version         : 18
+Release         : 37.rocm6.3.1.fc42
+Architecture    : x86_64
+Installed size  : 7.0 MiB
+Source          : rocm-compilersupport-18-37.rocm6.3.1.fc42.src.rpm
+From repository : fedora
+Summary         : The ROCm libc++ libraries and headers
+URL             : https://github.com/ROCm/llvm-project
+License         : NCSA and MIT
+Description     : The ROCm libc++ libraries and headers
+Vendor          : Fedora Project
+
+Name            : rocm-lld
+Epoch           : 0
+Version         : 18
+Release         : 37.rocm6.3.1.fc42
+Architecture    : x86_64
+Installed size  : 6.5 MiB
+Source          : rocm-compilersupport-18-37.rocm6.3.1.fc42.src.rpm
+From repository : fedora
+Summary         : The ROCm Linker
+URL             : https://github.com/ROCm/llvm-project
+License         : NCSA and MIT
+Description     : The ROCm Linker
+Vendor          : Fedora Project
+
+Name            : rocm-llvm
+Epoch           : 0
+Version         : 18
+Release         : 37.rocm6.3.1.fc42
+Architecture    : x86_64
+Installed size  : 79.3 MiB
+Source          : rocm-compilersupport-18-37.rocm6.3.1.fc42.src.rpm
+From repository : fedora
+Summary         : The ROCm LLVM
+URL             : https://github.com/ROCm/llvm-project
+License         : NCSA and MIT
+Description     : The ROCm LLVM
+Vendor          : Fedora Project
+
+Name            : rocm-llvm-devel
+Epoch           : 0
+Version         : 18
+Release         : 37.rocm6.3.1.fc42
+Architecture    : x86_64
+Installed size  : 24.4 MiB
+Source          : rocm-compilersupport-18-37.rocm6.3.1.fc42.src.rpm
+From repository : fedora
+Summary         : Libraries and header files for ROCm LLVM
+URL             : https://github.com/ROCm/llvm-project
+License         : NCSA and MIT
+Description     : Libraries and header files for ROCm LLVM
+Vendor          : Fedora Project
+
+Name            : rocm-llvm-filesystem
+Epoch           : 0
+Version         : 18
+Release         : 37.rocm6.3.1.fc42
+Architecture    : x86_64
+Installed size  : 0.0   B
+Source          : rocm-compilersupport-18-37.rocm6.3.1.fc42.src.rpm
+From repository : fedora
+Summary         : Filesystem package that owns the rocm llvm directory
+URL             : https://github.com/ROCm/llvm-project
+License         : NCSA and MIT
+Description     : This package owns the rocm llvm directory : /usr/lib64/rocm/llvm
+Vendor          : Fedora Project
+
+Name            : rocm-llvm-libs
+Epoch           : 0
+Version         : 18
+Release         : 37.rocm6.3.1.fc42
+Architecture    : x86_64
+Installed size  : 93.8 MiB
+Source          : rocm-compilersupport-18-37.rocm6.3.1.fc42.src.rpm
+From repository : fedora
+Summary         : The ROCm LLVM lib
+URL             : https://github.com/ROCm/llvm-project
+License         : NCSA and MIT
+Description     : The ROCm LLVM lib
+Vendor          : Fedora Project
+
+Name            : rocm-llvm-static
+Epoch           : 0
+Version         : 18
+Release         : 37.rocm6.3.1.fc42
+Architecture    : x86_64
+Installed size  : 233.9 MiB
+Source          : rocm-compilersupport-18-37.rocm6.3.1.fc42.src.rpm
+From repository : fedora
+Summary         : Static libraries for ROCm LLVM
+URL             : https://github.com/ROCm/llvm-project
+License         : NCSA and MIT
+Description     : Static libraries for ROCm LLVM
+Vendor          : Fedora Project
+
+Name            : rocm-rpm-macros-modules
+Epoch           : 0
+Version         : 6.3.1
+Release         : 5.fc42
+Architecture    : noarch
+Installed size  : 24.8 KiB
+Source          : rocm-rpm-macros-6.3.1-5.fc42.src.rpm
+From repository : fedora
+Summary         : ROCm enviroment modules
+URL             : https://github.com/trixirt/rocm-rpm-macros
+License         : GPL-2.0-or-later
+Description     : This package contains ROCm environment modules for switching
+                : between different GPU families.
+Vendor          : Fedora Project
+
+Name            : rocm-runtime
+Epoch           : 0
+Version         : 6.3.1
+Release         : 4.fc42
+Architecture    : x86_64
+Installed size  : 2.9 MiB
+Source          : rocm-runtime-6.3.1-4.fc42.src.rpm
+From repository : fedora
+Summary         : ROCm Runtime Library
+URL             : https://github.com/ROCm/ROCR-Runtime
+License         : NCSA
+Description     : The ROCm Runtime Library is a thin, user-mode API that exposes the necessary
+                : interfaces to access and interact with graphics hardware driven by the AMDGPU
+                : driver set and the AMDKFD kernel driver. Together they enable programmers to
+                : directly harness the power of AMD discrete graphics devices by allowing host
+                : applications to launch compute kernels directly to the graphics hardware.
+Vendor          : Fedora Project
+
+Name            : rocsolver
+Epoch           : 0
+Version         : 6.3.0
+Release         : 4.fc42
+Architecture    : x86_64
+Installed size  : 130.2 MiB
+Source          : rocsolver-6.3.0-4.fc42.src.rpm
+From repository : fedora
+Summary         : Next generation LAPACK implementation for ROCm platform
+URL             : https://github.com/ROCm/rocSOLVER
+License         : BSD-3-Clause AND BSD-2-Clause
+Description     : rocSOLVER is a work-in-progress implementation of a subset
+                : of LAPACK functionality on the ROCm platform.
 Vendor          : Fedora Project
 
 Name            : rootfiles
