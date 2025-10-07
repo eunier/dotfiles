@@ -81,6 +81,7 @@ try {
     "org.gnome.design.Lorem",
     "org.gnome.design.Palette",
     "org.gnome.gitlab.cheywood.Buffer",
+    "org.gnome.Podcasts",
     "org.gnome.Solanum",
     "org.gnome.World.Iotas",
     "org.gnome.World.PikaBackup",

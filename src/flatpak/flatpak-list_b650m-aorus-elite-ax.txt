@@ -97,6 +97,7 @@ GNOME Application Platform version 46	org.gnome.Platform		46	system
 GNOME Application Platform version 47	org.gnome.Platform		47	system
 GNOME Application Platform version 48	org.gnome.Platform		48	system
 GNOME Application Platform version 49	org.gnome.Platform		49	system
+Podcasts	org.gnome.Podcasts	25.2	stable	system
 Solanum	org.gnome.Solanum	6.0.0	stable	system
 Iotas	org.gnome.World.Iotas	0.12.1	stable	system
 Pika Backup	org.gnome.World.PikaBackup	0.7.4	stable	system
