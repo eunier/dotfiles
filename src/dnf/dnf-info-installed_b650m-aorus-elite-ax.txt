@@ -14458,20 +14458,6 @@ Vendor          : Fedora Project
 
 Name            : kernel
 Epoch           : 0
-Version         : 6.16.7
-Release         : 200.fc42
-Architecture    : x86_64
-Installed size  : 0.0   B
-Source          : kernel-6.16.7-200.fc42.src.rpm
-From repository : updates
-Summary         : The Linux kernel
-URL             : https://www.kernel.org/
-License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : The kernel meta package
-Vendor          : Fedora Project
-
-Name            : kernel
-Epoch           : 0
 Version         : 6.16.8
 Release         : 200.fc42
 Architecture    : x86_64
@@ -14498,21 +14484,18 @@ License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND (
 Description     : The kernel meta package
 Vendor          : Fedora Project
 
-Name            : kernel-core
+Name            : kernel
 Epoch           : 0
-Version         : 6.16.7
+Version         : 6.16.10
 Release         : 200.fc42
 Architecture    : x86_64
-Installed size  : 97.3 MiB
-Source          : kernel-6.16.7-200.fc42.src.rpm
+Installed size  : 0.0   B
+Source          : kernel-6.16.10-200.fc42.src.rpm
 From repository : updates
 Summary         : The Linux kernel
 URL             : https://www.kernel.org/
 License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : The kernel package contains the Linux kernel (vmlinuz), the core of any
-                : Linux operating system.  The kernel handles the basic functions
-                : of the operating system: memory allocation, process allocation, device
-                : input and output, etc.
+Description     : The kernel meta package
 Vendor          : Fedora Project
 
 Name            : kernel-core
@@ -14539,6 +14522,23 @@ Release         : 200.fc42
 Architecture    : x86_64
 Installed size  : 97.3 MiB
 Source          : kernel-6.16.9-200.fc42.src.rpm
+From repository : updates
+Summary         : The Linux kernel
+URL             : https://www.kernel.org/
+License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
+Description     : The kernel package contains the Linux kernel (vmlinuz), the core of any
+                : Linux operating system.  The kernel handles the basic functions
+                : of the operating system: memory allocation, process allocation, device
+                : input and output, etc.
+Vendor          : Fedora Project
+
+Name            : kernel-core
+Epoch           : 0
+Version         : 6.16.10
+Release         : 200.fc42
+Architecture    : x86_64
+Installed size  : 97.3 MiB
+Source          : kernel-6.16.10-200.fc42.src.rpm
 From repository : updates
 Summary         : The Linux kernel
 URL             : https://www.kernel.org/
@@ -14569,20 +14569,6 @@ Vendor          : Fedora Project
 
 Name            : kernel-modules
 Epoch           : 0
-Version         : 6.16.7
-Release         : 200.fc42
-Architecture    : x86_64
-Installed size  : 94.6 MiB
-Source          : kernel-6.16.7-200.fc42.src.rpm
-From repository : updates
-Summary         : kernel modules to match the core kernel
-URL             : https://www.kernel.org/
-License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : This package provides commonly used kernel modules for the core kernel package.
-Vendor          : Fedora Project
-
-Name            : kernel-modules
-Epoch           : 0
 Version         : 6.16.8
 Release         : 200.fc42
 Architecture    : x86_64
@@ -14609,18 +14595,18 @@ License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND (
 Description     : This package provides commonly used kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
-Name            : kernel-modules-core
+Name            : kernel-modules
 Epoch           : 0
-Version         : 6.16.7
+Version         : 6.16.10
 Release         : 200.fc42
 Architecture    : x86_64
-Installed size  : 67.8 MiB
-Source          : kernel-6.16.7-200.fc42.src.rpm
+Installed size  : 94.6 MiB
+Source          : kernel-6.16.10-200.fc42.src.rpm
 From repository : updates
-Summary         : Core kernel modules to match the core kernel
+Summary         : kernel modules to match the core kernel
 URL             : https://www.kernel.org/
 License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : This package provides essential kernel modules for the core kernel package.
+Description     : This package provides commonly used kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
 Name            : kernel-modules-core
@@ -14651,18 +14637,18 @@ License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND (
 Description     : This package provides essential kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
-Name            : kernel-modules-extra
+Name            : kernel-modules-core
 Epoch           : 0
-Version         : 6.16.7
+Version         : 6.16.10
 Release         : 200.fc42
 Architecture    : x86_64
-Installed size  : 4.2 MiB
-Source          : kernel-6.16.7-200.fc42.src.rpm
+Installed size  : 67.9 MiB
+Source          : kernel-6.16.10-200.fc42.src.rpm
 From repository : updates
-Summary         : Extra kernel modules to match the kernel
+Summary         : Core kernel modules to match the core kernel
 URL             : https://www.kernel.org/
 License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : This package provides less commonly used kernel modules for the kernel package.
+Description     : This package provides essential kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
 Name            : kernel-modules-extra
@@ -14686,6 +14672,20 @@ Release         : 200.fc42
 Architecture    : x86_64
 Installed size  : 4.2 MiB
 Source          : kernel-6.16.9-200.fc42.src.rpm
+From repository : updates
+Summary         : Extra kernel modules to match the kernel
+URL             : https://www.kernel.org/
+License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
+Description     : This package provides less commonly used kernel modules for the kernel package.
+Vendor          : Fedora Project
+
+Name            : kernel-modules-extra
+Epoch           : 0
+Version         : 6.16.10
+Release         : 200.fc42
+Architecture    : x86_64
+Installed size  : 4.2 MiB
+Source          : kernel-6.16.10-200.fc42.src.rpm
 From repository : updates
 Summary         : Extra kernel modules to match the kernel
 URL             : https://www.kernel.org/
@@ -14695,11 +14695,11 @@ Vendor          : Fedora Project
 
 Name            : kernel-tools
 Epoch           : 0
-Version         : 6.16.9
+Version         : 6.16.10
 Release         : 200.fc42
 Architecture    : x86_64
 Installed size  : 2.3 MiB
-Source          : kernel-6.16.9-200.fc42.src.rpm
+Source          : kernel-6.16.10-200.fc42.src.rpm
 From repository : updates
 Summary         : Assortment of tools for the Linux kernel
 URL             : https://www.kernel.org/
@@ -14710,11 +14710,11 @@ Vendor          : Fedora Project
 
 Name            : kernel-tools-libs
 Epoch           : 0
-Version         : 6.16.9
+Version         : 6.16.10
 Release         : 200.fc42
 Architecture    : x86_64
 Installed size  : 30.3 KiB
-Source          : kernel-6.16.9-200.fc42.src.rpm
+Source          : kernel-6.16.10-200.fc42.src.rpm
 From repository : updates
 Summary         : Libraries for the kernels-tools
 URL             : https://www.kernel.org/
@@ -24550,10 +24550,10 @@ Vendor          : Fedora Project
 Name            : libvirt-client
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 965.1 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Client side utilities of the libvirt library
 URL             : https://libvirt.org/
@@ -24565,10 +24565,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 726.4 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Server side daemon and supporting files for libvirt library
 URL             : https://libvirt.org/
@@ -24581,10 +24581,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-common
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 327.3 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Files and utilities used by daemons
 URL             : https://libvirt.org/
@@ -24595,10 +24595,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-config-network
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 470.0   B
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Default configuration files for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24609,10 +24609,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-interface
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 750.3 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Interface driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24624,10 +24624,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-network
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 880.2 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Network driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24640,10 +24640,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-nodedev
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 815.0 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Nodedev driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24656,10 +24656,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-nwfilter
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 840.0 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Nwfilter driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24672,10 +24672,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-qemu
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 2.8 MiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : QEMU driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24688,10 +24688,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-secret
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
-Installed size  : 742.1 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Installed size  : 742.0 KiB
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Secret driver plugin for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24703,10 +24703,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 0.0   B
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Storage driver plugin including all backends for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24719,10 +24719,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-core
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 907.2 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Storage driver plugin including base backends for the libvirtd daemon
 URL             : https://libvirt.org/
@@ -24735,10 +24735,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-disk
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 27.8 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for disk
 URL             : https://libvirt.org/
@@ -24750,10 +24750,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-gluster
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 35.2 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for gluster
 URL             : https://libvirt.org/
@@ -24765,10 +24765,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-iscsi
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 19.7 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for iscsi
 URL             : https://libvirt.org/
@@ -24780,10 +24780,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-iscsi-direct
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 27.8 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for iscsi-direct
 URL             : https://libvirt.org/
@@ -24795,10 +24795,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-logical
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 27.9 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for lvm volumes
 URL             : https://libvirt.org/
@@ -24810,10 +24810,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-mpath
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 15.6 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for multipath volumes
 URL             : https://libvirt.org/
@@ -24825,10 +24825,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-rbd
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 40.0 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for rbd
 URL             : https://libvirt.org/
@@ -24840,10 +24840,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-scsi
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 19.7 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for local scsi devices
 URL             : https://libvirt.org/
@@ -24855,10 +24855,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-driver-storage-zfs
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 19.7 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Storage driver plugin for ZFS
 URL             : https://libvirt.org/
@@ -24870,10 +24870,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-kvm
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 0.0   B
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Server side daemon & driver required to run KVM guests
 URL             : https://libvirt.org/
@@ -24885,10 +24885,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-lock
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 99.6 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Server side daemon for managing locks
 URL             : https://libvirt.org/
@@ -24900,10 +24900,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-log
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 106.4 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Server side daemon for managing logs
 URL             : https://libvirt.org/
@@ -24914,10 +24914,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-plugin-lockd
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 27.7 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : lockd client plugin for virtlockd
 URL             : https://libvirt.org/
@@ -24929,10 +24929,10 @@ Vendor          : Fedora Project
 Name            : libvirt-daemon-proxy
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 724.2 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Server side daemon providing libvirtd proxy
 URL             : https://libvirt.org/
@@ -24989,10 +24989,10 @@ Vendor          : Fedora Project
 Name            : libvirt-libs
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 27.2 MiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Client side libraries
 URL             : https://libvirt.org/
@@ -25003,10 +25003,10 @@ Vendor          : Fedora Project
 Name            : libvirt-ssh-proxy
 Epoch           : 0
 Version         : 11.0.0
-Release         : 3.fc42
+Release         : 4.fc42
 Architecture    : x86_64
 Installed size  : 19.9 KiB
-Source          : libvirt-11.0.0-3.fc42.src.rpm
+Source          : libvirt-11.0.0-4.fc42.src.rpm
 From repository : updates
 Summary         : Libvirt SSH proxy
 URL             : https://libvirt.org/
@@ -32983,11 +32983,11 @@ Vendor          : Fedora Project
 
 Name            : python3-boto3
 Epoch           : 0
-Version         : 1.40.43
+Version         : 1.40.45
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 2.2 MiB
-Source          : python-boto3-1.40.43-1.fc42.src.rpm
+Source          : python-boto3-1.40.45-1.fc42.src.rpm
 From repository : updates
 Summary         : The AWS SDK for Python
 URL             : https://github.com/boto/boto3
@@ -32999,11 +32999,11 @@ Vendor          : Fedora Project
 
 Name            : python3-botocore
 Epoch           : 0
-Version         : 1.40.43
+Version         : 1.40.45
 Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 104.8 MiB
-Source          : python-botocore-1.40.43-1.fc42.src.rpm
+Installed size  : 104.9 MiB
+Source          : python-botocore-1.40.45-1.fc42.src.rpm
 From repository : updates
 Summary         : Low-level, data-driven core of boto 3
 URL             : https://github.com/boto/botocore
@@ -34155,11 +34155,11 @@ Vendor          : Fedora Project
 
 Name            : python3-perf
 Epoch           : 0
-Version         : 6.16.9
+Version         : 6.16.10
 Release         : 200.fc42
 Architecture    : x86_64
 Installed size  : 9.4 MiB
-Source          : kernel-6.16.9-200.fc42.src.rpm
+Source          : kernel-6.16.10-200.fc42.src.rpm
 From repository : updates
 Summary         : Python bindings for apps which will manipulate perf events
 URL             : https://www.kernel.org/
