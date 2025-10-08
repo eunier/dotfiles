@@ -14,7 +14,7 @@
 └── syncthing-start.desktop
 
 1 directory, 13 files
-[drwxr-xr-x tron     tron             680 Oct  4 05:39]  /home/tron/.config/autostart
+[drwxr-xr-x tron     tron             680 Oct  8 04:28]  /home/tron/.config/autostart
 ├── [-rw-r--r-- tron     tron            2255 Mar  3  2025]  com.mardojai.ForgeSparks.desktop
 ├── [-rw-r--r-- tron     tron            1258 Oct  4 05:39]  com.odnoyko.valot.desktop
 ├── [-rw-r--r-- tron     tron             183 Mar  3  2025]  @filendesktop.desktop
@@ -25,7 +25,7 @@
 ├── [-rw-r--r-- tron     tron             195 Mar  3  2025]  mullvad-vpn.desktop
 ├── [-rw-r--r-- tron     tron            3386 Mar  3  2025]  org.gnome.Solanum.desktop
 ├── [-rw-r--r-- tron     tron             219 Apr  5 19:18]  org.gnome.World.PikaBackup.desktop
-├── [-rw-r--r-- tron     tron             204 Oct  1 07:10]  re.sonny.Eloquent.desktop
+├── [-rw-r--r-- tron     tron             204 Oct  8 04:28]  re.sonny.Eloquent.desktop
 ├── [-rw-r--r-- tron     tron            7473 Mar  3  2025]  steam.desktop
 └── [-rw-r--r-- tron     tron             308 Mar  3  2025]  syncthing-start.desktop
 
