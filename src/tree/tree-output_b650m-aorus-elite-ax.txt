@@ -140,12 +140,11 @@
 │   ├── yadm.sh
 │   ├── zen.sh
 │   ├── zig
-│   │   ├── zig-version-list_b650m-aorus-elite-ax.txt
-│   │   └── zig-version-list_.txt
+│   │   └── zig-version-list_b650m-aorus-elite-ax.txt
 │   └── zig.sh
 ├── todo.md
 ├── tsconfig.json
 └── .vscode
     └── settings.json
 
-39 directories, 110 files
+39 directories, 109 files

@@ -1437,11 +1437,11 @@ Vendor          : Fedora Project
 Name            : appstream-data
 Epoch           : 0
 Version         : 42
-Release         : 7.fc42
+Release         : 8.fc42
 Architecture    : noarch
-Installed size  : 15.0 MiB
-Source          : appstream-data-42-7.fc42.src.rpm
-From repository : fedora
+Installed size  : 15.2 MiB
+Source          : appstream-data-42-8.fc42.src.rpm
+From repository : updates
 Summary         : Fedora AppStream metadata
 URL             : https://github.com/hughsie/appstream-glib
 License         : CC0-1.0 AND CC-BY-1.0 AND CC-BY-SA-1.0 AND GFDL-1.1-or-later
@@ -2845,11 +2845,11 @@ Vendor          : Fedora Project
 
 Name            : cargo
 Epoch           : 0
-Version         : 1.89.0
-Release         : 2.fc42
+Version         : 1.90.0
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 21.5 MiB
-Source          : rust-1.89.0-2.fc42.src.rpm
+Installed size  : 23.2 MiB
+Source          : rust-1.90.0-1.fc42.src.rpm
 From repository : updates
 Summary         : Rust's package manager and build tool
 URL             : https://www.rust-lang.org
@@ -8602,11 +8602,11 @@ Vendor          : Fedora Project
 
 Name            : ghostty
 Epoch           : 0
-Version         : 1.2.0
+Version         : 1.2.1
 Release         : 2.fc42
 Architecture    : x86_64
-Installed size  : 31.7 MiB
-Source          : ghostty-1.2.0-2.fc42.src.rpm
+Installed size  : 31.9 MiB
+Source          : ghostty-1.2.1-2.fc42.src.rpm
 From repository : copr:copr.fedorainfracloud.org:scottames:ghostty
 Summary         : Fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration
 URL             : https://github.com/ghostty-org/ghostty
@@ -9865,12 +9865,12 @@ Vendor          : Fedora Project
 
 Name            : gnome-user-docs
 Epoch           : 0
-Version         : 48.2
+Version         : 48.5
 Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 58.0 MiB
-Source          : gnome-user-docs-48.2-1.fc42.src.rpm
-From repository : <unknown>
+Installed size  : 58.6 MiB
+Source          : gnome-user-docs-48.5-1.fc42.src.rpm
+From repository : updates
 Summary         : GNOME User Documentation
 URL             : https://help.gnome.org/
 License         : CC-BY-SA-3.0
@@ -10095,11 +10095,11 @@ Vendor          : Fedora Project
 
 Name            : google-chrome-stable
 Epoch           : 0
-Version         : 141.0.7390.54
+Version         : 141.0.7390.65
 Release         : 1
 Architecture    : x86_64
 Installed size  : 378.4 MiB
-Source          : google-chrome-stable-141.0.7390.54-1.src.rpm
+Source          : google-chrome-stable-141.0.7390.65-1.src.rpm
 From repository : google-chrome
 Summary         : Google Chrome
 URL             : https://chrome.google.com/
@@ -12879,12 +12879,12 @@ Vendor          : Fedora Project
 
 Name            : hwdata
 Epoch           : 0
-Version         : 0.399
+Version         : 0.400
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 9.6 MiB
-Source          : hwdata-0.399-1.fc42.src.rpm
-From repository : <unknown>
+Source          : hwdata-0.400-1.fc42.src.rpm
+From repository : updates
 Summary         : Hardware identification and configuration data
 URL             : https://github.com/vcrhonek/hwdata
 License         : GPL-2.0-or-later
@@ -14186,12 +14186,12 @@ Vendor          : Fedora Project
 
 Name            : json-glib
 Epoch           : 0
-Version         : 1.10.6
-Release         : 2.fc42
+Version         : 1.10.8
+Release         : 1.fc42
 Architecture    : i686
-Installed size  : 602.0 KiB
-Source          : json-glib-1.10.6-2.fc42.src.rpm
-From repository : fedora
+Installed size  : 599.7 KiB
+Source          : json-glib-1.10.8-1.fc42.src.rpm
+From repository : updates
 Summary         : Library for JavaScript Object Notation format
 URL             : https://wiki.gnome.org/Projects/JsonGlib
 License         : LGPL-2.1-or-later
@@ -14201,12 +14201,12 @@ Vendor          : Fedora Project
 
 Name            : json-glib
 Epoch           : 0
-Version         : 1.10.6
-Release         : 2.fc42
+Version         : 1.10.8
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 590.7 KiB
-Source          : json-glib-1.10.6-2.fc42.src.rpm
-From repository : fedora
+Installed size  : 592.3 KiB
+Source          : json-glib-1.10.8-1.fc42.src.rpm
+From repository : updates
 Summary         : Library for JavaScript Object Notation format
 URL             : https://wiki.gnome.org/Projects/JsonGlib
 License         : LGPL-2.1-or-later
@@ -16788,11 +16788,11 @@ Vendor          : Fedora Project
 
 Name            : libadwaita
 Epoch           : 0
-Version         : 1.7.6
+Version         : 1.7.7
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 3.1 MiB
-Source          : libadwaita-1.7.6-1.fc42.src.rpm
+Source          : libadwaita-1.7.7-1.fc42.src.rpm
 From repository : updates
 Summary         : Building blocks for modern GNOME applications
 URL             : https://gitlab.gnome.org/GNOME/libadwaita
@@ -16802,11 +16802,11 @@ Vendor          : Fedora Project
 
 Name            : libadwaita-demo
 Epoch           : 0
-Version         : 1.7.6
+Version         : 1.7.7
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 7.6 KiB
-Source          : libadwaita-1.7.6-1.fc42.src.rpm
+Source          : libadwaita-1.7.7-1.fc42.src.rpm
 From repository : updates
 Summary         : Demo files for libadwaita
 URL             : https://gitlab.gnome.org/GNOME/libadwaita
@@ -22818,11 +22818,11 @@ Vendor          : Fedora Project
 
 Name            : librewolf
 Epoch           : 0
-Version         : 143.0.3
+Version         : 143.0.4
 Release         : 1
 Architecture    : x86_64
-Installed size  : 365.8 MiB
-Source          : librewolf-143.0.3-1.src.rpm
+Installed size  : 365.9 MiB
+Source          : librewolf-143.0.4-1.src.rpm
 From repository : repository
 Summary         : The LibreWolf browser
 URL             : https://librewolf-community.gitlab.io/
@@ -27213,12 +27213,12 @@ Vendor          : Fedora Project
 
 Name            : mod_http2
 Epoch           : 0
-Version         : 2.0.29
-Release         : 3.fc42
+Version         : 2.0.35
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 423.8 KiB
-Source          : mod_http2-2.0.29-3.fc42.src.rpm
-From repository : fedora
+Installed size  : 434.9 KiB
+Source          : mod_http2-2.0.35-1.fc42.src.rpm
+From repository : updates
 Summary         : module implementing HTTP/2 for Apache 2
 URL             : https://icing.github.io/mod_h2/
 License         : Apache-2.0
@@ -27605,11 +27605,11 @@ Vendor          : Fedora Project
 
 Name            : nautilus
 Epoch           : 0
-Version         : 48.3
+Version         : 48.4.1
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 13.6 MiB
-Source          : nautilus-48.3-1.fc42.src.rpm
+Source          : nautilus-48.4.1-1.fc42.src.rpm
 From repository : updates
 Summary         : File manager for GNOME
 URL             : https://apps.gnome.org/Nautilus/
@@ -27623,11 +27623,11 @@ Vendor          : Fedora Project
 
 Name            : nautilus-extensions
 Epoch           : 0
-Version         : 48.3
+Version         : 48.4.1
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 82.7 KiB
-Source          : nautilus-48.3-1.fc42.src.rpm
+Source          : nautilus-48.4.1-1.fc42.src.rpm
 From repository : updates
 Summary         : Nautilus extensions library
 URL             : https://apps.gnome.org/Nautilus/
@@ -28983,11 +28983,11 @@ Vendor          : Fedora Project
 
 Name            : openssl-libs
 Epoch           : 1
-Version         : 3.2.4
-Release         : 4.fc42
+Version         : 3.2.6
+Release         : 2.fc42
 Architecture    : i686
 Installed size  : 6.3 MiB
-Source          : openssl-3.2.4-4.fc42.src.rpm
+Source          : openssl-3.2.6-2.fc42.src.rpm
 From repository : updates
 Summary         : A general purpose cryptography library with TLS implementation
 URL             : http://www.openssl.org/
@@ -28999,11 +28999,11 @@ Vendor          : Fedora Project
 
 Name            : openssl-libs
 Epoch           : 1
-Version         : 3.2.4
-Release         : 4.fc42
+Version         : 3.2.6
+Release         : 2.fc42
 Architecture    : x86_64
 Installed size  : 7.8 MiB
-Source          : openssl-3.2.4-4.fc42.src.rpm
+Source          : openssl-3.2.6-2.fc42.src.rpm
 From repository : updates
 Summary         : A general purpose cryptography library with TLS implementation
 URL             : http://www.openssl.org/
@@ -29083,11 +29083,11 @@ Vendor          : Fedora Project
 
 Name            : orca
 Epoch           : 0
-Version         : 48.6
+Version         : 48.7
 Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 18.6 MiB
-Source          : orca-48.6-1.fc42.src.rpm
+Installed size  : 18.7 MiB
+Source          : orca-48.7-1.fc42.src.rpm
 From repository : updates
 Summary         : Assistive technology for people with visual impairments
 URL             : https://wiki.gnome.org/Projects/Orca
@@ -32505,11 +32505,11 @@ Vendor          : Fedora Project
 Name            : procps-ng
 Epoch           : 0
 Version         : 4.0.4
-Release         : 6.fc42
+Release         : 6.fc42.1
 Architecture    : x86_64
 Installed size  : 1.0 MiB
-Source          : procps-ng-4.0.4-6.fc42.src.rpm
-From repository : fedora
+Source          : procps-ng-4.0.4-6.fc42.1.src.rpm
+From repository : updates
 Summary         : System and process monitoring utilities
 URL             : https://sourceforge.net/projects/procps-ng/
 License         : GPL-2.0-or-later AND LGPL-2.0-or-later AND LGPL-2.1-or-later
@@ -32983,11 +32983,11 @@ Vendor          : Fedora Project
 
 Name            : python3-boto3
 Epoch           : 0
-Version         : 1.40.45
+Version         : 1.40.46
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 2.2 MiB
-Source          : python-boto3-1.40.45-1.fc42.src.rpm
+Source          : python-boto3-1.40.46-1.fc42.src.rpm
 From repository : updates
 Summary         : The AWS SDK for Python
 URL             : https://github.com/boto/boto3
@@ -32999,11 +32999,11 @@ Vendor          : Fedora Project
 
 Name            : python3-botocore
 Epoch           : 0
-Version         : 1.40.45
+Version         : 1.40.46
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 104.9 MiB
-Source          : python-botocore-1.40.45-1.fc42.src.rpm
+Source          : python-botocore-1.40.46-1.fc42.src.rpm
 From repository : updates
 Summary         : Low-level, data-driven core of boto 3
 URL             : https://github.com/boto/botocore
@@ -37455,11 +37455,11 @@ Vendor          : Fedora Project
 
 Name            : rust
 Epoch           : 0
-Version         : 1.89.0
-Release         : 2.fc42
+Version         : 1.90.0
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 91.6 MiB
-Source          : rust-1.89.0-2.fc42.src.rpm
+Installed size  : 92.8 MiB
+Source          : rust-1.90.0-1.fc42.src.rpm
 From repository : updates
 Summary         : The Rust Programming Language
 URL             : https://www.rust-lang.org
@@ -37472,11 +37472,11 @@ Vendor          : Fedora Project
 
 Name            : rust-std-static
 Epoch           : 0
-Version         : 1.89.0
-Release         : 2.fc42
+Version         : 1.90.0
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 160.3 MiB
-Source          : rust-1.89.0-2.fc42.src.rpm
+Installed size  : 161.0 MiB
+Source          : rust-1.90.0-1.fc42.src.rpm
 From repository : updates
 Summary         : Standard library for Rust
 URL             : https://www.rust-lang.org
@@ -42623,11 +42623,11 @@ Vendor          : Terra
 
 Name            : zenity
 Epoch           : 0
-Version         : 4.1.99
+Version         : 4.2.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 8.7 MiB
-Source          : zenity-4.1.99-1.fc42.src.rpm
+Source          : zenity-4.2.0-1.fc42.src.rpm
 From repository : updates
 Summary         : Display dialog boxes from shell scripts
 URL             : https://wiki.gnome.org/Projects/Zenity
