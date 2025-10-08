@@ -5,3 +5,5 @@ gitlab.com
   ✓ REST API Endpoint: https://gitlab.com/api/v4/
   ✓ GraphQL Endpoint: https://gitlab.com/api/graphql/
   ✓ Token found: **************************
+A new version of glab has been released: 1.67.0 -> v1.73.0
+https://gitlab.com/gitlab-org/cli/-/releases/v1.73.0
