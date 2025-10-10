@@ -1,5 +1,5 @@
 {
-  "backup_device_uuid": "bbb5d1ed-e066-462d-a3f0-e2d421dcb508",
+  "backup_device_uuid": "4d3b3f5d-51ee-42e9-aa9b-6d19c2582a6e",
   "parent_device_uuid": "",
   "do_first_run": "false",
   "btrfs_mode": "false",
@@ -16,8 +16,6 @@
   "count_daily": "5",
   "count_hourly": "6",
   "count_boot": "5",
-  "snapshot_size": "68413338363",
-  "snapshot_count": "636862",
   "date_format": "%Y-%m-%d %H:%M:%S",
   "exclude": ["/home/tron/**", "/root/**"],
   "exclude-apps": []

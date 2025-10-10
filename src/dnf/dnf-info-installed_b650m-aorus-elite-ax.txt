@@ -2499,11 +2499,11 @@ Vendor          : Fedora Project
 
 Name            : brave-browser
 Epoch           : 0
-Version         : 1.83.109
+Version         : 1.83.112
 Release         : 1
 Architecture    : x86_64
-Installed size  : 406.1 MiB
-Source          : brave-browser-1.83.109-1.src.rpm
+Installed size  : 406.2 MiB
+Source          : brave-browser-1.83.112-1.src.rpm
 From repository : brave-browser
 Summary         : Brave Web Browser
 URL             : https://brave.com/
@@ -3223,11 +3223,11 @@ Vendor          : Fedora Project
 
 Name            : code
 Epoch           : 0
-Version         : 1.104.3
-Release         : 1759409494.el8
+Version         : 1.105.0
+Release         : 1759933608.el8
 Architecture    : x86_64
-Installed size  : 433.1 MiB
-Source          : code-1.104.3-1759409494.el8.src.rpm
+Installed size  : 435.0 MiB
+Source          : code-1.105.0-1759933608.el8.src.rpm
 From repository : code
 Summary         : Code editing. Redefined.
 URL             : https://code.visualstudio.com/
@@ -7274,11 +7274,11 @@ Vendor          : Fedora Project
 
 Name            : firefox
 Epoch           : 0
-Version         : 143.0.3
+Version         : 143.0.4
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 250.0 MiB
-Source          : firefox-143.0.3-1.fc42.src.rpm
+Source          : firefox-143.0.4-1.fc42.src.rpm
 From repository : updates
 Summary         : Mozilla Firefox Web browser
 URL             : https://www.mozilla.org/firefox/
@@ -7289,11 +7289,11 @@ Vendor          : Fedora Project
 
 Name            : firefox-langpacks
 Epoch           : 0
-Version         : 143.0.3
+Version         : 143.0.4
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 41.2 MiB
-Source          : firefox-143.0.3-1.fc42.src.rpm
+Source          : firefox-143.0.4-1.fc42.src.rpm
 From repository : updates
 Summary         : Firefox langpacks
 URL             : https://www.mozilla.org/firefox/
@@ -8602,11 +8602,11 @@ Vendor          : Fedora Project
 
 Name            : ghostty
 Epoch           : 0
-Version         : 1.2.1
-Release         : 2.fc42
+Version         : 1.2.2
+Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 31.9 MiB
-Source          : ghostty-1.2.1-2.fc42.src.rpm
+Source          : ghostty-1.2.2-1.fc42.src.rpm
 From repository : copr:copr.fedorainfracloud.org:scottames:ghostty
 Summary         : Fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration
 URL             : https://github.com/ghostty-org/ghostty
@@ -10095,11 +10095,11 @@ Vendor          : Fedora Project
 
 Name            : google-chrome-stable
 Epoch           : 0
-Version         : 141.0.7390.65
+Version         : 141.0.7390.76
 Release         : 1
 Architecture    : x86_64
 Installed size  : 378.4 MiB
-Source          : google-chrome-stable-141.0.7390.65-1.src.rpm
+Source          : google-chrome-stable-141.0.7390.76-1.src.rpm
 From repository : google-chrome
 Summary         : Google Chrome
 URL             : https://chrome.google.com/
@@ -27495,11 +27495,11 @@ Vendor          : Fedora Project
 
 Name            : mullvad-vpn
 Epoch           : 0
-Version         : 2025.9
+Version         : 2025.10
 Release         : 1
 Architecture    : x86_64
-Installed size  : 357.1 MiB
-Source          : mullvad-vpn-2025.9-1.src.rpm
+Installed size  : 357.2 MiB
+Source          : mullvad-vpn-2025.10-1.src.rpm
 From repository : mullvad-stable
 Summary         : Mullvad VPN client
 URL             : https://github.com/mullvad/mullvadvpn-app#readme
@@ -28242,11 +28242,11 @@ Vendor          : Fedora Project
 Name            : nspr
 Epoch           : 0
 Version         : 4.37.0
-Release         : 2.fc42
+Release         : 3.fc42
 Architecture    : i686
 Installed size  : 332.2 KiB
-Source          : nss-3.115.1-1.fc42.src.rpm
-From repository : <unknown>
+Source          : nss-3.116.0-1.fc42.src.rpm
+From repository : updates
 Summary         : Netscape Portable Runtime
 URL             : http://www.mozilla.org/projects/nspr/
 License         : MPL-2.0
@@ -28259,11 +28259,11 @@ Vendor          : Fedora Project
 Name            : nspr
 Epoch           : 0
 Version         : 4.37.0
-Release         : 2.fc42
+Release         : 3.fc42
 Architecture    : x86_64
 Installed size  : 315.5 KiB
-Source          : nss-3.115.1-1.fc42.src.rpm
-From repository : <unknown>
+Source          : nss-3.116.0-1.fc42.src.rpm
+From repository : updates
 Summary         : Netscape Portable Runtime
 URL             : http://www.mozilla.org/projects/nspr/
 License         : MPL-2.0
@@ -28275,12 +28275,12 @@ Vendor          : Fedora Project
 
 Name            : nss
 Epoch           : 0
-Version         : 3.115.1
+Version         : 3.116.0
 Release         : 1.fc42
 Architecture    : i686
 Installed size  : 2.0 MiB
-Source          : nss-3.115.1-1.fc42.src.rpm
-From repository : <unknown>
+Source          : nss-3.116.0-1.fc42.src.rpm
+From repository : updates
 Summary         : Network Security Services
 URL             : http://www.mozilla.org/projects/security/pki/nss/
 License         : MPL-2.0
@@ -28293,12 +28293,12 @@ Vendor          : Fedora Project
 
 Name            : nss
 Epoch           : 0
-Version         : 3.115.1
+Version         : 3.116.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.9 MiB
-Source          : nss-3.115.1-1.fc42.src.rpm
-From repository : <unknown>
+Source          : nss-3.116.0-1.fc42.src.rpm
+From repository : updates
 Summary         : Network Security Services
 URL             : http://www.mozilla.org/projects/security/pki/nss/
 License         : MPL-2.0
@@ -28332,12 +28332,12 @@ Vendor          : Fedora Project
 
 Name            : nss-softokn
 Epoch           : 0
-Version         : 3.115.1
+Version         : 3.116.0
 Release         : 1.fc42
 Architecture    : i686
 Installed size  : 2.1 MiB
-Source          : nss-3.115.1-1.fc42.src.rpm
-From repository : <unknown>
+Source          : nss-3.116.0-1.fc42.src.rpm
+From repository : updates
 Summary         : Network Security Services Softoken Module
 URL             : http://www.mozilla.org/projects/security/pki/nss/
 License         : MPL-2.0
@@ -28346,12 +28346,12 @@ Vendor          : Fedora Project
 
 Name            : nss-softokn
 Epoch           : 0
-Version         : 3.115.1
+Version         : 3.116.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.9 MiB
-Source          : nss-3.115.1-1.fc42.src.rpm
-From repository : <unknown>
+Source          : nss-3.116.0-1.fc42.src.rpm
+From repository : updates
 Summary         : Network Security Services Softoken Module
 URL             : http://www.mozilla.org/projects/security/pki/nss/
 License         : MPL-2.0
@@ -28360,12 +28360,12 @@ Vendor          : Fedora Project
 
 Name            : nss-softokn-freebl
 Epoch           : 0
-Version         : 3.115.1
+Version         : 3.116.0
 Release         : 1.fc42
 Architecture    : i686
-Installed size  : 902.5 KiB
-Source          : nss-3.115.1-1.fc42.src.rpm
-From repository : <unknown>
+Installed size  : 902.6 KiB
+Source          : nss-3.116.0-1.fc42.src.rpm
+From repository : updates
 Summary         : Freebl library for the Network Security Services
 URL             : http://www.mozilla.org/projects/security/pki/nss/
 License         : MPL-2.0
@@ -28376,12 +28376,12 @@ Vendor          : Fedora Project
 
 Name            : nss-softokn-freebl
 Epoch           : 0
-Version         : 3.115.1
+Version         : 3.116.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 848.3 KiB
-Source          : nss-3.115.1-1.fc42.src.rpm
-From repository : <unknown>
+Source          : nss-3.116.0-1.fc42.src.rpm
+From repository : updates
 Summary         : Freebl library for the Network Security Services
 URL             : http://www.mozilla.org/projects/security/pki/nss/
 License         : MPL-2.0
@@ -28392,12 +28392,12 @@ Vendor          : Fedora Project
 
 Name            : nss-sysinit
 Epoch           : 0
-Version         : 3.115.1
+Version         : 3.116.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 18.1 KiB
-Source          : nss-3.115.1-1.fc42.src.rpm
-From repository : <unknown>
+Source          : nss-3.116.0-1.fc42.src.rpm
+From repository : updates
 Summary         : System NSS Initialization
 URL             : http://www.mozilla.org/projects/security/pki/nss/
 License         : MPL-2.0
@@ -28409,12 +28409,12 @@ Vendor          : Fedora Project
 
 Name            : nss-util
 Epoch           : 0
-Version         : 3.115.1
+Version         : 3.116.0
 Release         : 1.fc42
 Architecture    : i686
 Installed size  : 192.0 KiB
-Source          : nss-3.115.1-1.fc42.src.rpm
-From repository : <unknown>
+Source          : nss-3.116.0-1.fc42.src.rpm
+From repository : updates
 Summary         : Network Security Services Utilities Library
 URL             : http://www.mozilla.org/projects/security/pki/nss/
 License         : MPL-2.0
@@ -28423,12 +28423,12 @@ Vendor          : Fedora Project
 
 Name            : nss-util
 Epoch           : 0
-Version         : 3.115.1
+Version         : 3.116.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 200.8 KiB
-Source          : nss-3.115.1-1.fc42.src.rpm
-From repository : <unknown>
+Source          : nss-3.116.0-1.fc42.src.rpm
+From repository : updates
 Summary         : Network Security Services Utilities Library
 URL             : http://www.mozilla.org/projects/security/pki/nss/
 License         : MPL-2.0
@@ -31668,11 +31668,11 @@ Vendor          : Fedora Project
 
 Name            : pipewire
 Epoch           : 0
-Version         : 1.4.8
-Release         : 2.fc42
+Version         : 1.4.9
+Release         : 1.fc42
 Architecture    : i686
-Installed size  : 428.7 KiB
-Source          : pipewire-1.4.8-2.fc42.src.rpm
+Installed size  : 430.1 KiB
+Source          : pipewire-1.4.9-1.fc42.src.rpm
 From repository : updates
 Summary         : Media Sharing Server
 URL             : https://pipewire.org/
@@ -31683,11 +31683,11 @@ Vendor          : Fedora Project
 
 Name            : pipewire
 Epoch           : 0
-Version         : 1.4.8
-Release         : 2.fc42
+Version         : 1.4.9
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 429.6 KiB
-Source          : pipewire-1.4.8-2.fc42.src.rpm
+Installed size  : 430.9 KiB
+Source          : pipewire-1.4.9-1.fc42.src.rpm
 From repository : updates
 Summary         : Media Sharing Server
 URL             : https://pipewire.org/
@@ -31698,11 +31698,11 @@ Vendor          : Fedora Project
 
 Name            : pipewire-alsa
 Epoch           : 0
-Version         : 1.4.8
-Release         : 2.fc42
+Version         : 1.4.9
+Release         : 1.fc42
 Architecture    : i686
 Installed size  : 148.3 KiB
-Source          : pipewire-1.4.8-2.fc42.src.rpm
+Source          : pipewire-1.4.9-1.fc42.src.rpm
 From repository : updates
 Summary         : PipeWire media server ALSA support
 URL             : https://pipewire.org/
@@ -31712,11 +31712,11 @@ Vendor          : Fedora Project
 
 Name            : pipewire-alsa
 Epoch           : 0
-Version         : 1.4.8
-Release         : 2.fc42
+Version         : 1.4.9
+Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 158.0 KiB
-Source          : pipewire-1.4.8-2.fc42.src.rpm
+Source          : pipewire-1.4.9-1.fc42.src.rpm
 From repository : updates
 Summary         : PipeWire media server ALSA support
 URL             : https://pipewire.org/
@@ -31726,11 +31726,11 @@ Vendor          : Fedora Project
 
 Name            : pipewire-gstreamer
 Epoch           : 0
-Version         : 1.4.8
-Release         : 2.fc42
+Version         : 1.4.9
+Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 169.3 KiB
-Source          : pipewire-1.4.8-2.fc42.src.rpm
+Source          : pipewire-1.4.9-1.fc42.src.rpm
 From repository : updates
 Summary         : GStreamer elements for PipeWire
 URL             : https://pipewire.org/
@@ -31741,11 +31741,11 @@ Vendor          : Fedora Project
 
 Name            : pipewire-jack-audio-connection-kit
 Epoch           : 0
-Version         : 1.4.8
-Release         : 2.fc42
+Version         : 1.4.9
+Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 30.0   B
-Source          : pipewire-1.4.8-2.fc42.src.rpm
+Source          : pipewire-1.4.9-1.fc42.src.rpm
 From repository : updates
 Summary         : PipeWire JACK implementation
 URL             : https://pipewire.org/
@@ -31755,11 +31755,11 @@ Vendor          : Fedora Project
 
 Name            : pipewire-jack-audio-connection-kit-libs
 Epoch           : 0
-Version         : 1.4.8
-Release         : 2.fc42
+Version         : 1.4.9
+Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 496.6 KiB
-Source          : pipewire-1.4.8-2.fc42.src.rpm
+Source          : pipewire-1.4.9-1.fc42.src.rpm
 From repository : updates
 Summary         : PipeWire JACK implementation libraries
 URL             : https://pipewire.org/
@@ -31769,11 +31769,11 @@ Vendor          : Fedora Project
 
 Name            : pipewire-libs
 Epoch           : 0
-Version         : 1.4.8
-Release         : 2.fc42
+Version         : 1.4.9
+Release         : 1.fc42
 Architecture    : i686
 Installed size  : 8.5 MiB
-Source          : pipewire-1.4.8-2.fc42.src.rpm
+Source          : pipewire-1.4.9-1.fc42.src.rpm
 From repository : updates
 Summary         : Libraries for PipeWire clients
 URL             : https://pipewire.org/
@@ -31784,11 +31784,11 @@ Vendor          : Fedora Project
 
 Name            : pipewire-libs
 Epoch           : 0
-Version         : 1.4.8
-Release         : 2.fc42
+Version         : 1.4.9
+Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 8.6 MiB
-Source          : pipewire-1.4.8-2.fc42.src.rpm
+Source          : pipewire-1.4.9-1.fc42.src.rpm
 From repository : updates
 Summary         : Libraries for PipeWire clients
 URL             : https://pipewire.org/
@@ -31799,11 +31799,11 @@ Vendor          : Fedora Project
 
 Name            : pipewire-plugin-libcamera
 Epoch           : 0
-Version         : 1.4.8
-Release         : 2.fc42
+Version         : 1.4.9
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 146.5 KiB
-Source          : pipewire-1.4.8-2.fc42.src.rpm
+Installed size  : 146.6 KiB
+Source          : pipewire-1.4.9-1.fc42.src.rpm
 From repository : updates
 Summary         : PipeWire media server libcamera support
 URL             : https://pipewire.org/
@@ -31813,11 +31813,11 @@ Vendor          : Fedora Project
 
 Name            : pipewire-pulseaudio
 Epoch           : 0
-Version         : 1.4.8
-Release         : 2.fc42
+Version         : 1.4.9
+Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 436.1 KiB
-Source          : pipewire-1.4.8-2.fc42.src.rpm
+Source          : pipewire-1.4.9-1.fc42.src.rpm
 From repository : updates
 Summary         : PipeWire PulseAudio implementation
 URL             : https://pipewire.org/
@@ -31827,11 +31827,11 @@ Vendor          : Fedora Project
 
 Name            : pipewire-utils
 Epoch           : 0
-Version         : 1.4.8
-Release         : 2.fc42
+Version         : 1.4.9
+Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.4 MiB
-Source          : pipewire-1.4.8-2.fc42.src.rpm
+Source          : pipewire-1.4.9-1.fc42.src.rpm
 From repository : updates
 Summary         : PipeWire media server utilities
 URL             : https://pipewire.org/
@@ -37823,11 +37823,11 @@ Vendor          : Fedora Project
 
 Name            : selinux-policy
 Epoch           : 0
-Version         : 42.9
+Version         : 42.12
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 31.6 KiB
-Source          : selinux-policy-42.9-1.fc42.src.rpm
+Source          : selinux-policy-42.12-1.fc42.src.rpm
 From repository : updates
 Summary         : SELinux policy configuration
 URL             : https://github.com/fedora-selinux/selinux-policy
@@ -37839,11 +37839,11 @@ Vendor          : Fedora Project
 
 Name            : selinux-policy-targeted
 Epoch           : 0
-Version         : 42.9
+Version         : 42.12
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 18.6 MiB
-Source          : selinux-policy-42.9-1.fc42.src.rpm
+Source          : selinux-policy-42.12-1.fc42.src.rpm
 From repository : updates
 Summary         : SELinux targeted policy
 URL             : https://github.com/fedora-selinux/selinux-policy

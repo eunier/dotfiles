@@ -24,7 +24,7 @@
 ├── [-rw-r--r-- tron     tron             147 Apr 15 07:23]  mimeinfo.cache
 ├── [-rw-r--r-- tron     tron             195 Mar  3  2025]  mullvad-vpn.desktop
 ├── [-rw-r--r-- tron     tron            3386 Mar  3  2025]  org.gnome.Solanum.desktop
-├── [-rw-r--r-- tron     tron             219 Apr  5 19:18]  org.gnome.World.PikaBackup.desktop
+├── [-rw-r--r-- tron     tron             219 Apr  5  2025]  org.gnome.World.PikaBackup.desktop
 ├── [-rw-r--r-- tron     tron             204 Oct  8 04:28]  re.sonny.Eloquent.desktop
 ├── [-rw-r--r-- tron     tron            7473 Mar  3  2025]  steam.desktop
 └── [-rw-r--r-- tron     tron             308 Mar  3  2025]  syncthing-start.desktop
