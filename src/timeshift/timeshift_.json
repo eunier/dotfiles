@@ -1,0 +1,22 @@
+{
+  "backup_device_uuid": "f93bc2a8-03e8-4a5c-b4ac-72f9e1e1d0a8",
+  "parent_device_uuid": "742e3040-8948-4330-8309-700279cb693d",
+  "do_first_run": "false",
+  "btrfs_mode": "false",
+  "include_btrfs_home_for_backup": "false",
+  "include_btrfs_home_for_restore": "false",
+  "stop_cron_emails": "true",
+  "schedule_monthly": "true",
+  "schedule_weekly": "true",
+  "schedule_daily": "true",
+  "schedule_hourly": "true",
+  "schedule_boot": "true",
+  "count_monthly": "2",
+  "count_weekly": "3",
+  "count_daily": "5",
+  "count_hourly": "6",
+  "count_boot": "5",
+  "date_format": "%Y-%m-%d %H:%M:%S",
+  "exclude": ["+ /home/tron/.**", "/root/**"],
+  "exclude-apps": []
+}

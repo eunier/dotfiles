@@ -59,18 +59,18 @@ Progress	io.github.smolblackcat.Progress	1.6.0	stable	system
 Schedule	io.github.zhrexl.thisweekinmylife	0.0.6	stable	system
 Impression	io.gitlab.adhami3310.Impression	3.5.1	stable	system
 Password	io.gitlab.elescoute.password	1.6.7	stable	system
-Text Pieces	io.gitlab.liferooter.TextPieces	4.2.0	stable	system
+Text Pieces	io.gitlab.liferooter.TextPieces	4.3.0	stable	system
 Newsflash	io.gitlab.news_flash.NewsFlash	4.1.4	stable	system
 HTTPie	io.httpie.Httpie	2025.2.0	stable	system
 Mission Center	io.missioncenter.MissionCenter	1.0.2	stable	system
-Podman Desktop	io.podman_desktop.PodmanDesktop	1.21.0	stable	system
+Podman Desktop	io.podman_desktop.PodmanDesktop	1.22.0	stable	system
 Obsidian	md.obsidian.Obsidian	1.9.14	stable	system
 Ticket Booth	me.iepure.Ticketbooth	1.2.0	stable	system
 Dev Toolbox	me.iepure.devtoolbox	1.3.0	stable	system
 Syncthing GTK	me.kozec.syncthingtk	v0.9.4.5	stable	system
 Web Apps	net.codelogistics.webapps	0.5.11	stable	system
 Iconic	nl.emphisia.icon	2025.9.1	stable	system
-Lemma	org.cvfosammmm.Lemma	45	stable	system
+Lemma	org.cvfosammmm.Lemma	46	stable	system
 Flatpak External Data Checker	org.flathub.flatpak-external-data-checker		stable	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-23.08.34	23.08	system
 Freedesktop Platform	org.freedesktop.Platform	freedesktop-sdk-24.08.26	24.08	system
@@ -100,7 +100,7 @@ GNOME Application Platform version 49	org.gnome.Platform		49	system
 Podcasts	org.gnome.Podcasts	25.2	stable	system
 Solanum	org.gnome.Solanum	6.0.0	stable	system
 Iotas	org.gnome.World.Iotas	0.12.1	stable	system
-Pika Backup	org.gnome.World.PikaBackup	0.7.4	stable	system
+Pika Backup	org.gnome.World.PikaBackup	0.7.5	stable	system
 Secrets	org.gnome.World.Secrets	12.0	stable	system
 App Icon Preview	org.gnome.design.AppIconPreview	3.5.1	stable	system
 Emblem	org.gnome.design.Emblem	1.6.0	stable	system
