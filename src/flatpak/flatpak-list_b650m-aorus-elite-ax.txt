@@ -32,7 +32,7 @@ Restfox	dev.restfox.Restfox	0.40.0	stable	system
 Almond	edu.stanford.Almond	2.0.0~alpha.1	stable	system
 Morphosis	garden.jamie.Morphosis	49.0	stable	system
 Memorado	im.bernard.Memorado	0.5	stable	system
-FreeTube	io.freetubeapp.FreeTube	0.23.9 Beta	stable	system
+FreeTube	io.freetubeapp.FreeTube	0.23.10 Beta	stable	system
 AdwSteamGtk	io.github.Foldex.AdwSteamGtk	0.8.0	stable	system
 Godots	io.github.MakovWait.Godots	v1.3.stable	stable	system
 IP Lookup	io.github.bytezz.IPLookup	0.4.1	stable	system
