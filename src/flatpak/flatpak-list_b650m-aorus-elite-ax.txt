@@ -113,8 +113,8 @@ Tagger	org.nickvision.tagger	2024.6.0	stable	system
 Parabolic	org.nickvision.tubeconverter	2025.10.2	stable	system
 pgAdmin 4	org.pgadmin.pgadmin4	9.8	stable	system
 Main Menu	page.codeberg.libre_menu_editor.LibreMenuEditor	1.9.4	stable	system
-Commit	re.sonny.Commit	4.3	stable	system
-Eloquent	re.sonny.Eloquent	1.2	stable	system
+Commit	re.sonny.Commit	4.4	stable	system
+Eloquent	re.sonny.Eloquent	1.3	stable	system
 Graphs	se.sjoerd.Graphs	1.8.5	stable	system
 Zoom	us.zoom.Zoom	6.6.0.4410	stable	system
 Speedtest	xyz.ketok.Speedtest	1.4.0	stable	system
