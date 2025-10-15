@@ -10095,11 +10095,11 @@ Vendor          : Fedora Project
 
 Name            : google-chrome-stable
 Epoch           : 0
-Version         : 141.0.7390.76
+Version         : 141.0.7390.107
 Release         : 1
 Architecture    : x86_64
 Installed size  : 378.4 MiB
-Source          : google-chrome-stable-141.0.7390.76-1.src.rpm
+Source          : google-chrome-stable-141.0.7390.107-1.src.rpm
 From repository : google-chrome
 Summary         : Google Chrome
 URL             : https://chrome.google.com/
