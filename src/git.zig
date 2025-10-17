@@ -55,6 +55,7 @@ pub fn sync(allocator: mem.Allocator, user: []u8) !void {
     try syncRemotes(allocator, user);
 }
 
+/// tet
 pub fn syncRepo(allocator: mem.Allocator, user: []u8) !void {
     const path = try fmt.allocPrint(
         allocator,
