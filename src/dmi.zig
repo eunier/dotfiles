@@ -15,7 +15,7 @@ pub fn allocProductName(allocator: mem.Allocator) ![]u8 {
 
     _ = try shell.exec(
         allocator,
-        "sudo dmidecode -s system-product-name >~/.dotfiles/src/dmi/dmi_product_name.local.txt",
+        "sudo dmidecode -s system-product-name >~/.dotfiles/src/dmi/dmi_product_name__local.txt",
     );
 
     const home = try shell.getEnvVarOwned(allocator, shell.EnvVar.home.toOwnedSlice());
@@ -27,7 +27,7 @@ pub fn allocProductName(allocator: mem.Allocator) ![]u8 {
         repo.repo_folder_name,
         "src",
         "dmi",
-        "dmi_product_name.local.txt",
+        "dmi_product_name__local.txt",
     });
 
     defer allocator.free(path);

@@ -3,6 +3,6 @@
 cd ~/.dotfiles || exit
 git add *__auto.txt
 git add src/files/
-git commit -m "sync"
+git commit -m "Sync"
 git push
 git status
