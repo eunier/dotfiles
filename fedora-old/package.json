@@ -1,18 +1,19 @@
 {
-  "name": ".dotfiles",
-  "module": "index.ts",
+  "name": "dotfiles",
+  "module": "src/index.ts",
   "type": "module",
-  "private": true,
-  "scripts": {    "dconf:filter": "bun run src/dconf/dconf-filter.ts",
+  "scripts": {
+    "dconf:filter": "bun run src/dconf/dconf-filter.ts",
     "flatpak:install": "bun run src/flatpak/flatpak-install.ts",
     "gitlab:auth": "bun run src/gitlab/gitlab-auth.ts",
     "gitlab:repo:create": "bun run src/gitlab/gitlab-repo-create",
     "syncthing:config:mask": "bun run src/syncthing/syncthing-config-mask.ts",
-    "vscode:font:switch": "bun run src/vscode/vscode-font-switch.ts"},
+    "vscode:font:switch": "bun run src/vscode/vscode-font-switch.ts"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "1.3.0"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "5.9.3"
   }
 }

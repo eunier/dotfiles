@@ -72,9 +72,9 @@ extensions=(
 )
 
 # FATAL ERROR: v8::ToLocalChecked Empty MaybeLocal
-for ext in "${extensions[@]}"; do
-	code --install-extension "$ext"
-done
+# for ext in "${extensions[@]}"; do
+# 	code --install-extension "$ext"
+# done
 
 echo ""
 code --list-extensions >$REPO_PATH/src/vscode/vscode-extensions_"$COMPUTER_MODEL".txt

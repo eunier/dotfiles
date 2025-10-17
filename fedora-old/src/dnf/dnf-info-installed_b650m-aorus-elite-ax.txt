@@ -2544,11 +2544,11 @@ Vendor          : Fedora Project
 
 Name            : breeze-icon-theme
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 26.3 MiB
-Source          : kf6-breeze-icons-6.19.0-1.fc42.src.rpm
+Installed size  : 26.2 MiB
+Source          : kf6-breeze-icons-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : Breeze icon theme
 URL             : https://api.kde.org/frameworks/breeze-icons/html/
@@ -2558,11 +2558,11 @@ Vendor          : Fedora Project
 
 Name            : breeze-icon-theme-fedora
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 3.7 KiB
-Source          : kf6-breeze-icons-6.19.0-1.fc42.src.rpm
+Source          : kf6-breeze-icons-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : Breeze icon theme Fedora specific icons
 URL             : https://api.kde.org/frameworks/breeze-icons/html/
@@ -10095,11 +10095,11 @@ Vendor          : Fedora Project
 
 Name            : google-chrome-stable
 Epoch           : 0
-Version         : 141.0.7390.107
+Version         : 141.0.7390.76
 Release         : 1
 Architecture    : x86_64
 Installed size  : 378.4 MiB
-Source          : google-chrome-stable-141.0.7390.107-1.src.rpm
+Source          : google-chrome-stable-141.0.7390.76-1.src.rpm
 From repository : google-chrome
 Summary         : Google Chrome
 URL             : https://chrome.google.com/
@@ -14458,6 +14458,20 @@ Vendor          : Fedora Project
 
 Name            : kernel
 Epoch           : 0
+Version         : 6.16.8
+Release         : 200.fc42
+Architecture    : x86_64
+Installed size  : 0.0   B
+Source          : kernel-6.16.8-200.fc42.src.rpm
+From repository : updates
+Summary         : The Linux kernel
+URL             : https://www.kernel.org/
+License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
+Description     : The kernel meta package
+Vendor          : Fedora Project
+
+Name            : kernel
+Epoch           : 0
 Version         : 6.16.9
 Release         : 200.fc42
 Architecture    : x86_64
@@ -14484,18 +14498,21 @@ License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND (
 Description     : The kernel meta package
 Vendor          : Fedora Project
 
-Name            : kernel
+Name            : kernel-core
 Epoch           : 0
-Version         : 6.16.11
+Version         : 6.16.8
 Release         : 200.fc42
 Architecture    : x86_64
-Installed size  : 0.0   B
-Source          : kernel-6.16.11-200.fc42.src.rpm
+Installed size  : 97.3 MiB
+Source          : kernel-6.16.8-200.fc42.src.rpm
 From repository : updates
 Summary         : The Linux kernel
 URL             : https://www.kernel.org/
 License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : The kernel meta package
+Description     : The kernel package contains the Linux kernel (vmlinuz), the core of any
+                : Linux operating system.  The kernel handles the basic functions
+                : of the operating system: memory allocation, process allocation, device
+                : input and output, etc.
 Vendor          : Fedora Project
 
 Name            : kernel-core
@@ -14522,23 +14539,6 @@ Release         : 200.fc42
 Architecture    : x86_64
 Installed size  : 97.3 MiB
 Source          : kernel-6.16.10-200.fc42.src.rpm
-From repository : updates
-Summary         : The Linux kernel
-URL             : https://www.kernel.org/
-License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : The kernel package contains the Linux kernel (vmlinuz), the core of any
-                : Linux operating system.  The kernel handles the basic functions
-                : of the operating system: memory allocation, process allocation, device
-                : input and output, etc.
-Vendor          : Fedora Project
-
-Name            : kernel-core
-Epoch           : 0
-Version         : 6.16.11
-Release         : 200.fc42
-Architecture    : x86_64
-Installed size  : 97.3 MiB
-Source          : kernel-6.16.11-200.fc42.src.rpm
 From repository : updates
 Summary         : The Linux kernel
 URL             : https://www.kernel.org/
@@ -14569,6 +14569,20 @@ Vendor          : Fedora Project
 
 Name            : kernel-modules
 Epoch           : 0
+Version         : 6.16.8
+Release         : 200.fc42
+Architecture    : x86_64
+Installed size  : 94.6 MiB
+Source          : kernel-6.16.8-200.fc42.src.rpm
+From repository : updates
+Summary         : kernel modules to match the core kernel
+URL             : https://www.kernel.org/
+License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
+Description     : This package provides commonly used kernel modules for the core kernel package.
+Vendor          : Fedora Project
+
+Name            : kernel-modules
+Epoch           : 0
 Version         : 6.16.9
 Release         : 200.fc42
 Architecture    : x86_64
@@ -14595,18 +14609,18 @@ License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND (
 Description     : This package provides commonly used kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
-Name            : kernel-modules
+Name            : kernel-modules-core
 Epoch           : 0
-Version         : 6.16.11
+Version         : 6.16.8
 Release         : 200.fc42
 Architecture    : x86_64
-Installed size  : 94.6 MiB
-Source          : kernel-6.16.11-200.fc42.src.rpm
+Installed size  : 67.8 MiB
+Source          : kernel-6.16.8-200.fc42.src.rpm
 From repository : updates
-Summary         : kernel modules to match the core kernel
+Summary         : Core kernel modules to match the core kernel
 URL             : https://www.kernel.org/
 License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : This package provides commonly used kernel modules for the core kernel package.
+Description     : This package provides essential kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
 Name            : kernel-modules-core
@@ -14637,18 +14651,18 @@ License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND (
 Description     : This package provides essential kernel modules for the core kernel package.
 Vendor          : Fedora Project
 
-Name            : kernel-modules-core
+Name            : kernel-modules-extra
 Epoch           : 0
-Version         : 6.16.11
+Version         : 6.16.8
 Release         : 200.fc42
 Architecture    : x86_64
-Installed size  : 67.9 MiB
-Source          : kernel-6.16.11-200.fc42.src.rpm
+Installed size  : 4.2 MiB
+Source          : kernel-6.16.8-200.fc42.src.rpm
 From repository : updates
-Summary         : Core kernel modules to match the core kernel
+Summary         : Extra kernel modules to match the kernel
 URL             : https://www.kernel.org/
 License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : This package provides essential kernel modules for the core kernel package.
+Description     : This package provides less commonly used kernel modules for the kernel package.
 Vendor          : Fedora Project
 
 Name            : kernel-modules-extra
@@ -14679,27 +14693,13 @@ License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND (
 Description     : This package provides less commonly used kernel modules for the kernel package.
 Vendor          : Fedora Project
 
-Name            : kernel-modules-extra
-Epoch           : 0
-Version         : 6.16.11
-Release         : 200.fc42
-Architecture    : x86_64
-Installed size  : 4.2 MiB
-Source          : kernel-6.16.11-200.fc42.src.rpm
-From repository : updates
-Summary         : Extra kernel modules to match the kernel
-URL             : https://www.kernel.org/
-License         : ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-2-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-only WITH Linux-syscall-note) OR CDDL-1.0) AND ((GPL-2.0-only WITH Linux-syscall-note) OR Linux-OpenIB) AND ((GPL-2.0-only WITH Linux-syscall-note) OR MIT) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR BSD-3-Clause) AND ((GPL-2.0-or-later WITH Linux-syscall-note) OR MIT) AND 0BSD AND BSD-2-Clause AND (BSD-2-Clause OR Apache-2.0) AND BSD-3-Clause AND BSD-3-Clause-Clear AND CC0-1.0 AND GFDL-1.1-no-invariants-or-later AND GPL-1.0-or-later AND (GPL-1.0-or-later OR BSD-3-Clause) AND (GPL-1.0-or-later WITH Linux-syscall-note) AND GPL-2.0-only AND (GPL-2.0-only OR Apache-2.0) AND (GPL-2.0-only OR BSD-2-Clause) AND (GPL-2.0-only OR BSD-3-Clause) AND (GPL-2.0-only OR CDDL-1.0) AND (GPL-2.0-only OR GFDL-1.1-no-invariants-or-later) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-only) AND (GPL-2.0-only OR GFDL-1.2-no-invariants-or-later) AND (GPL-2.0-only WITH Linux-syscall-note) AND GPL-2.0-or-later AND (GPL-2.0-or-later OR BSD-2-Clause) AND (GPL-2.0-or-later OR BSD-3-Clause) AND (GPL-2.0-or-later OR CC-BY-4.0) AND (GPL-2.0-or-later WITH GCC-exception-2.0) AND (GPL-2.0-or-later WITH Linux-syscall-note) AND ISC AND LGPL-2.0-or-later AND (LGPL-2.0-or-later OR BSD-2-Clause) AND (LGPL-2.0-or-later WITH Linux-syscall-note) AND LGPL-2.1-only AND (LGPL-2.1-only OR BSD-2-Clause) AND (LGPL-2.1-only WITH Linux-syscall-note) AND LGPL-2.1-or-later AND (LGPL-2.1-or-later WITH Linux-syscall-note) AND (Linux-OpenIB OR GPL-2.0-only) AND (Linux-OpenIB OR GPL-2.0-only OR BSD-2-Clause) AND Linux-man-pages-copyleft AND MIT AND (MIT OR Apache-2.0) AND (MIT OR GPL-2.0-only) AND (MIT OR GPL-2.0-or-later) AND (MIT OR LGPL-2.1-only) AND (MPL-1.1 OR GPL-2.0-only) AND (X11 OR GPL-2.0-only) AND (X11 OR GPL-2.0-or-later) AND Zlib AND (copyleft-next-0.3.1 OR GPL-2.0-or-later)
-Description     : This package provides less commonly used kernel modules for the kernel package.
-Vendor          : Fedora Project
-
 Name            : kernel-tools
 Epoch           : 0
-Version         : 6.16.11
+Version         : 6.16.10
 Release         : 200.fc42
 Architecture    : x86_64
 Installed size  : 2.3 MiB
-Source          : kernel-6.16.11-200.fc42.src.rpm
+Source          : kernel-6.16.10-200.fc42.src.rpm
 From repository : updates
 Summary         : Assortment of tools for the Linux kernel
 URL             : https://www.kernel.org/
@@ -14710,11 +14710,11 @@ Vendor          : Fedora Project
 
 Name            : kernel-tools-libs
 Epoch           : 0
-Version         : 6.16.11
+Version         : 6.16.10
 Release         : 200.fc42
 Architecture    : x86_64
 Installed size  : 30.3 KiB
-Source          : kernel-6.16.11-200.fc42.src.rpm
+Source          : kernel-6.16.10-200.fc42.src.rpm
 From repository : updates
 Summary         : Libraries for the kernels-tools
 URL             : https://www.kernel.org/
@@ -15457,11 +15457,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-filesystem
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.5 KiB
-Source          : kf6-6.19.0-1.fc42.src.rpm
+Source          : kf6-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : Filesystem for KDE Frameworks 6
 URL             : http://www.kde.org
@@ -15471,11 +15471,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-karchive
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 801.8 KiB
-Source          : kf6-karchive-6.19.0-1.fc42.src.rpm
+Installed size  : 784.2 KiB
+Source          : kf6-karchive-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon with archive functions
 URL             : https://invent.kde.org/frameworks/karchive
@@ -15485,11 +15485,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kcolorscheme
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 236.2 KiB
-Source          : kf6-kcolorscheme-6.19.0-1.fc42.src.rpm
+Source          : kf6-kcolorscheme-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : Classes to read and interact with KColorScheme
 URL             : https://invent.kde.org/frameworks/kcolorscheme
@@ -15499,11 +15499,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kconfig
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 2.1 MiB
-Source          : kf6-kconfig-6.19.0-1.fc42.src.rpm
+Source          : kf6-kconfig-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon with advanced configuration system
 URL             : https://invent.kde.org/frameworks/kconfig
@@ -15514,11 +15514,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kcoreaddons
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.8 MiB
-Source          : kf6-kcoreaddons-6.19.0-1.fc42.src.rpm
+Source          : kf6-kcoreaddons-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon with various classes on top of QtCore
 URL             : https://invent.kde.org/frameworks/kcoreaddons
@@ -15531,11 +15531,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kcrash
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 87.8 KiB
-Source          : kf6-kcrash-6.19.0-1.fc42.src.rpm
+Source          : kf6-kcrash-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 2 addon for handling application crashes
 URL             : https://invent.kde.org/frameworks/kcrash
@@ -15545,11 +15545,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kdbusaddons
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 280.9 KiB
-Source          : kf6-kdbusaddons-6.19.0-1.fc42.src.rpm
+Source          : kf6-kdbusaddons-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon with various classes on top of QtDBus
 URL             : https://invent.kde.org/frameworks/kdbusaddons
@@ -15560,11 +15560,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kguiaddons
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 584.0 KiB
-Source          : kf6-kguiaddons-6.19.0-1.fc42.src.rpm
+Installed size  : 579.6 KiB
+Source          : kf6-kguiaddons-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon with various classes on top of QtGui
 URL             : https://invent.kde.org/frameworks/kguiaddons
@@ -15574,11 +15574,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-ki18n
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 17.5 MiB
-Source          : kf6-ki18n-6.19.0-1.fc42.src.rpm
+Installed size  : 17.4 MiB
+Source          : kf6-ki18n-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon for localization
 URL             : https://invent.kde.org/frameworks/ki18n
@@ -15588,11 +15588,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kimageformats
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 2.9 MiB
-Source          : kf6-kimageformats-6.19.0-1.fc42.src.rpm
+Installed size  : 2.8 MiB
+Source          : kf6-kimageformats-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon with additional image plugins for QtGui
 URL             : https://invent.kde.org/frameworks/kimageformats
@@ -15605,11 +15605,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-knotifications
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 428.5 KiB
-Source          : kf6-knotifications-6.19.0-1.fc42.src.rpm
+Source          : kf6-knotifications-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 2 solution with abstraction for system notifications
 URL             : https://invent.kde.org/frameworks/knotifications
@@ -15620,11 +15620,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kwallet
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 2.2 MiB
-Source          : kf6-kwallet-6.19.0-1.fc42.src.rpm
+Source          : kf6-kwallet-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 3 solution for password management
 URL             : https://invent.kde.org/frameworks/kwallet
@@ -15634,11 +15634,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kwallet-libs
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 282.2 KiB
-Source          : kf6-kwallet-6.19.0-1.fc42.src.rpm
+Source          : kf6-kwallet-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KWallet framework libraries
 URL             : https://invent.kde.org/frameworks/kwallet
@@ -15648,11 +15648,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kwidgetsaddons
 Epoch           : 0
-Version         : 6.19.0
+Version         : 6.18.0
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 4.9 MiB
-Source          : kf6-kwidgetsaddons-6.19.0-1.fc42.src.rpm
+Source          : kf6-kwidgetsaddons-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 addon with various classes on top of QtWidgets
 URL             : https://invent.kde.org/frameworks/kwidgetsaddons
@@ -15662,11 +15662,11 @@ Vendor          : Fedora Project
 
 Name            : kf6-kwindowsystem
 Epoch           : 0
-Version         : 6.19.0
-Release         : 2.fc42
+Version         : 6.18.0
+Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 700.9 KiB
-Source          : kf6-kwindowsystem-6.19.0-2.fc42.src.rpm
+Installed size  : 684.5 KiB
+Source          : kf6-kwindowsystem-6.18.0-1.fc42.src.rpm
 From repository : updates
 Summary         : KDE Frameworks 6 Tier 1 integration module with classes for windows management
 URL             : https://invent.kde.org/frameworks/kwindowsystem
@@ -20375,11 +20375,11 @@ Vendor          : Fedora Project
 
 Name            : libkexiv2-qt5
 Epoch           : 0
-Version         : 25.08.2
+Version         : 25.08.1
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 363.9 KiB
-Source          : libkexiv2-25.08.2-1.fc42.src.rpm
+Source          : libkexiv2-25.08.1-1.fc42.src.rpm
 From repository : updates
 Summary         : Qt5 version of libkexiv2
 URL             : https://invent.kde.org/graphics/libkexiv2
@@ -21537,11 +21537,11 @@ Vendor          : Fedora Project
 
 Name            : libpanel
 Epoch           : 0
-Version         : 1.10.2
+Version         : 1.10.1
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 568.9 KiB
-Source          : libpanel-1.10.2-1.fc42.src.rpm
+Installed size  : 568.7 KiB
+Source          : libpanel-1.10.1-1.fc42.src.rpm
 From repository : updates
 Summary         : IDE paneling library for GTK
 URL             : https://gitlab.gnome.org/GNOME/libpanel
@@ -32983,11 +32983,11 @@ Vendor          : Fedora Project
 
 Name            : python3-boto3
 Epoch           : 0
-Version         : 1.40.50
+Version         : 1.40.46
 Release         : 1.fc42
 Architecture    : noarch
 Installed size  : 2.2 MiB
-Source          : python-boto3-1.40.50-1.fc42.src.rpm
+Source          : python-boto3-1.40.46-1.fc42.src.rpm
 From repository : updates
 Summary         : The AWS SDK for Python
 URL             : https://github.com/boto/boto3
@@ -32999,11 +32999,11 @@ Vendor          : Fedora Project
 
 Name            : python3-botocore
 Epoch           : 0
-Version         : 1.40.50
+Version         : 1.40.46
 Release         : 1.fc42
 Architecture    : noarch
-Installed size  : 105.1 MiB
-Source          : python-botocore-1.40.50-1.fc42.src.rpm
+Installed size  : 104.9 MiB
+Source          : python-botocore-1.40.46-1.fc42.src.rpm
 From repository : updates
 Summary         : Low-level, data-driven core of boto 3
 URL             : https://github.com/boto/botocore
@@ -34155,11 +34155,11 @@ Vendor          : Fedora Project
 
 Name            : python3-perf
 Epoch           : 0
-Version         : 6.16.11
+Version         : 6.16.10
 Release         : 200.fc42
 Architecture    : x86_64
 Installed size  : 9.4 MiB
-Source          : kernel-6.16.11-200.fc42.src.rpm
+Source          : kernel-6.16.10-200.fc42.src.rpm
 From repository : updates
 Summary         : Python bindings for apps which will manipulate perf events
 URL             : https://www.kernel.org/
@@ -36385,11 +36385,11 @@ Vendor          : Fedora Project
 Name            : qt5-qtsvg
 Epoch           : 0
 Version         : 5.15.17
-Release         : 2.fc42
+Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 627.3 KiB
-Source          : qt5-qtsvg-5.15.17-2.fc42.src.rpm
-From repository : updates
+Source          : qt5-qtsvg-5.15.17-1.fc42.src.rpm
+From repository : <unknown>
 Summary         : Qt5 - Support for rendering and displaying SVG
 URL             : http://www.qt.io
 License         : LGPL-3.0-only OR GPL-3.0-only WITH Qt-GPL-exception-1.0
@@ -41664,11 +41664,11 @@ Vendor          : Fedora Project
 
 Name            : wireplumber
 Epoch           : 0
-Version         : 0.5.12
+Version         : 0.5.11
 Release         : 1.fc42
 Architecture    : x86_64
-Installed size  : 408.6 KiB
-Source          : wireplumber-0.5.12-1.fc42.src.rpm
+Installed size  : 398.8 KiB
+Source          : wireplumber-0.5.11-1.fc42.src.rpm
 From repository : updates
 Summary         : A modular session/policy manager for PipeWire
 URL             : https://pipewire.pages.freedesktop.org/wireplumber/
@@ -41681,11 +41681,11 @@ Vendor          : Fedora Project
 
 Name            : wireplumber-libs
 Epoch           : 0
-Version         : 0.5.12
+Version         : 0.5.11
 Release         : 1.fc42
 Architecture    : x86_64
 Installed size  : 1.3 MiB
-Source          : wireplumber-0.5.12-1.fc42.src.rpm
+Source          : wireplumber-0.5.11-1.fc42.src.rpm
 From repository : updates
 Summary         : Libraries for WirePlumber clients
 URL             : https://pipewire.pages.freedesktop.org/wireplumber/
