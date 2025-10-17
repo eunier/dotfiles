@@ -1,6 +1,6 @@
 const std = @import("std");
 const mem = std.mem;
-const fmt = std.fmt;
+const fmt_mod = std.fmt;
 const process = std.process;
 
 pub const getEnvVarOwned = process.getEnvVarOwned;
@@ -31,6 +31,12 @@ pub fn exec(
     return try process_child.spawnAndWait();
 }
 
+pub fn execFmt(allocator: mem.Allocator, comptime fmt: []const u8, args: anytype) !process.Child.Term {
+    const cmd = try fmt_mod.allocPrint(allocator, fmt, args);
+    defer allocator.free(cmd);
+    return try exec(allocator, cmd);
+}
+
 pub fn execFile(allocator: mem.Allocator, path: []const u8) !process.Child.Term {
     var process_child = process.Child.init(
         &[_][]const u8{ "sh", path },
@@ -43,9 +49,9 @@ pub fn execFile(allocator: mem.Allocator, path: []const u8) !process.Child.Term 
 }
 
 pub fn isCmdAvailable(allocator: mem.Allocator, cmd: []const u8) !bool {
-    const cmd_str = try fmt.allocPrint(
+    const cmd_str = try fmt_mod.allocPrint(
         allocator,
-        "which {s} > /dev/null 2>&1",
+        "which {s} >/dev/null 2>&1",
         .{cmd},
     );
 
@@ -67,7 +73,7 @@ pub fn isCmdAvailable(allocator: mem.Allocator, cmd: []const u8) !bool {
 }
 
 pub fn copy(allocator: mem.Allocator, src: []u8, dest: []u8) !void {
-    const cmd_str = try fmt.allocPrint(
+    const cmd_str = try fmt_mod.allocPrint(
         allocator,
         "cp {s} {s}",
         .{ src, dest },
@@ -78,7 +84,7 @@ pub fn copy(allocator: mem.Allocator, src: []u8, dest: []u8) !void {
 }
 
 pub fn makeDir(allocator: mem.Allocator, dir: []u8) !void {
-    const cmd_str = try fmt.allocPrint(
+    const cmd_str = try fmt_mod.allocPrint(
         allocator,
         "mkdir -p {s}",
         .{dir},

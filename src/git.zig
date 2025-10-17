@@ -11,7 +11,7 @@ const repo_mod = @import("repo.zig");
 
 const log = std.log.scoped(.git);
 
-pub fn sync(allocator: mem.Allocator, user: []u8) !void {
+pub fn refresh(allocator: mem.Allocator, user: []u8) !void {
     const product_name = try dmi.allocProductName(allocator);
     defer allocator.free(product_name);
 
@@ -51,11 +51,10 @@ pub fn sync(allocator: mem.Allocator, user: []u8) !void {
 
     defer allocator.free(home);
     try cloneRepos(allocator, home);
-    try treeGitRepos(allocator, user, product_name);
+    try captureGitRepos(allocator, user, product_name);
     try syncRemotes(allocator, user);
 }
 
-/// tet
 pub fn syncRepo(allocator: mem.Allocator, user: []u8) !void {
     const path = try fmt.allocPrint(
         allocator,
@@ -244,7 +243,7 @@ fn cloneRepos(allocator: mem.Allocator, home_path: []u8) !void {
     }
 }
 
-fn treeGitRepos(allocator: mem.Allocator, user: []u8, product_name: []u8) !void {
+fn captureGitRepos(allocator: mem.Allocator, user: []u8, product_name: []u8) !void {
     const git_repos_tree_path = try fmt.allocPrint(
         allocator,
         "/home/{s}/{s}/src/git/git_repos_{s}__auto.txt",
