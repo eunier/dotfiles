@@ -58,7 +58,7 @@ pub fn sync(allocator: mem.Allocator, user: []u8) !void {
 pub fn syncRepo(allocator: mem.Allocator, user: []u8) !void {
     const path = try fmt.allocPrint(
         allocator,
-        "/home/{s}/{s}/git/git_sync_repo.sh",
+        "/home/{s}/{s}/src/git/git_sync_repo.sh",
         .{ user, repo_mod.repo_folder_name },
     );
 
