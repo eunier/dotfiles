@@ -11,14 +11,7 @@ const repo_mod = @import("repo.zig");
 
 const log = std.log.scoped(.git);
 
-pub fn sync(allocator: mem.Allocator) !void {
-    const user = try shell.getEnvVarOwned(
-        allocator,
-        shell.EnvVar.user.toOwnedSlice(),
-    );
-
-    defer allocator.free(user);
-
+pub fn sync(allocator: mem.Allocator, user: []u8) !void {
     const product_name = try dmi.allocProductName(allocator);
     defer allocator.free(product_name);
 
@@ -60,6 +53,16 @@ pub fn sync(allocator: mem.Allocator) !void {
     try cloneRepos(allocator, home);
     try treeGitRepos(allocator, user, product_name);
     try syncRemotes(allocator, user);
+}
+
+pub fn syncRepo(allocator: mem.Allocator, user: []u8) !void {
+    const path = try fmt.allocPrint(
+        allocator,
+        "/home/{s}/{s}/git/git",
+        .{ user, repo_mod.repo_folder_name },
+    );
+
+    _ = try shell.execFile(allocator, path);
 }
 
 const Repo = enum {
@@ -261,7 +264,7 @@ fn treeGitRepos(allocator: mem.Allocator, user: []u8, product_name: []u8) !void 
 fn syncRemotes(allocator: mem.Allocator, user: []u8) !void {
     const path = try fmt.allocPrint(
         allocator,
-        "/home/{s}/{s}/src/git/git-sync-remote.sh",
+        "/home/{s}/{s}/src/git/git_sync_remote.sh",
         .{ user, repo_mod.repo_folder_name },
     );
 
