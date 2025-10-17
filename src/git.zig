@@ -246,7 +246,7 @@ fn cloneRepos(allocator: mem.Allocator, home_path: []u8) !void {
 fn treeGitRepos(allocator: mem.Allocator, user: []u8, product_name: []u8) !void {
     const git_repos_tree_path = try fmt.allocPrint(
         allocator,
-        "/home/{s}/{s}/src/git/git_repos_{s}.txt",
+        "/home/{s}/{s}/src/git/git_repos_{s}__auto.txt",
         .{ user, repo_mod.repo_folder_name, product_name },
     );
 
