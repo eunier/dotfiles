@@ -23,7 +23,8 @@ fn addRepo(allocator: mem.Allocator, uri: []const u8, alias: []const u8) !void {
 fn installPackages(allocator: mem.Allocator) !void {
     // zig (zvm) availalbe in zypper
     _ = try shell.exec(allocator,
-        \\sudo zypper install \
+        \\sudo zypper install --details \
+        \\  blanket \
         \\  code \
         \\  fastfetch \
         \\  git
