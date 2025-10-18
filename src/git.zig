@@ -53,6 +53,7 @@ pub fn refresh(allocator: mem.Allocator, user: []u8) !void {
     try cloneRepos(allocator, home);
     try captureGitRepos(allocator, user, product_name);
     try syncRemotes(allocator, user);
+    try symbLink(allocator);
 }
 
 pub fn syncRepo(allocator: mem.Allocator, user: []u8) !void {
@@ -269,4 +270,8 @@ fn syncRemotes(allocator: mem.Allocator, user: []u8) !void {
     );
 
     _ = try shell.execFile(allocator, path);
+}
+
+fn symbLink(allocator: mem.Allocator) !void {
+    _ = try shell.exec(allocator, "ln -sf ~/.dotfiles/git/.gitconfig ~/.gitconfig");
 }
