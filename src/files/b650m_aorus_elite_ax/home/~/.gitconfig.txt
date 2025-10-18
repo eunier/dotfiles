@@ -1,3 +1,0 @@
-[user]
-	name = Yunier Alvarez
-	email = yunieralvarez@gmail.com

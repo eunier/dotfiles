@@ -15,41 +15,13 @@ pub fn refresh(allocator: mem.Allocator, user: []u8) !void {
     const product_name = try dmi.allocProductName(allocator);
     defer allocator.free(product_name);
 
-    const git_config_src_path = try fmt.allocPrint(
-        allocator,
-        "/home/{s}/.gitconfig",
-        .{user},
-    );
-
-    defer allocator.free(git_config_src_path);
-    log.debug("Git confgi source path: {s}", .{git_config_src_path});
-
-    const git_config_dest_folder = try fmt.allocPrint(
-        allocator,
-        "/home/{s}/{s}/src/files/{s}/home/~",
-        .{ user, repo_mod.repo_folder_name, product_name },
-    );
-
-    defer allocator.free(git_config_dest_folder);
-    log.debug("Git config dest folder: {s}", .{git_config_dest_folder});
-    try shell.makeDir(allocator, git_config_dest_folder);
-
-    const git_config_dest_path = try fmt.allocPrint(
-        allocator,
-        "{s}/.gitconfig.txt",
-        .{git_config_dest_folder},
-    );
-
-    defer allocator.free(git_config_dest_path);
-    log.debug("Git config dest path: {s}", .{git_config_dest_path});
-    try shell.copy(allocator, git_config_src_path, git_config_dest_path);
-
     const home = try shell.getEnvVarOwned(
         allocator,
         shell.EnvVar.home.toOwnedSlice(),
     );
 
     defer allocator.free(home);
+    // TODO remove `home` use `~`
     try cloneRepos(allocator, home);
     try captureGitRepos(allocator, user, product_name);
     try syncRemotes(allocator, user);
