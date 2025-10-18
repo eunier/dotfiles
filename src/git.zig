@@ -273,5 +273,5 @@ fn syncRemotes(allocator: mem.Allocator, user: []u8) !void {
 }
 
 fn symbLink(allocator: mem.Allocator) !void {
-    _ = try shell.exec(allocator, "ln -sf ~/.dotfiles/git/.gitconfig ~/.gitconfig");
+    _ = try shell.exec(allocator, "ln -sf ~/.dotfiles/src/git/.gitconfig ~/.gitconfig");
 }
