@@ -84,12 +84,13 @@ fn installPackages(allocator: mem.Allocator) !void {
         \\  fastfetch \
         \\  fnm-bin \
         \\  keepassxc \
+        \\  obsidian-bin
         \\  pnpm-bin
     );
 }
 
 const ExportableCli = enum { bun, cmatrix, fnm, pnpm };
-const ExportableApp = enum { keepassxc };
+const ExportableApp = enum { keepassxc, obsidian };
 
 fn exportPackages(allocator: mem.Allocator) !void {
     log.info("exporting packages", .{});
