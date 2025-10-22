@@ -1,7 +1,9 @@
 const std = @import("std");
+const mem = std.mem;
 
-const shell = @import("shell.zig");
+const distrobox = @import("distrobox.zig");
 
-pub fn refresh(allocator: std.mem.Allocator) !void {
-    _ = try shell.execFile(allocator, "node/node.sh");
+pub fn sync(allocator: mem.Allocator) !void {
+    _ = try distrobox.exec(allocator, "fnm install 25");
+    _ = try distrobox.exec(allocator, "fnm use 25");
 }

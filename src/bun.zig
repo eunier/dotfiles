@@ -1,29 +1,22 @@
 const std = @import("std");
+const mem = std.mem;
 
+const distrobox = @import("distrobox.zig");
 const shell = @import("shell.zig");
 
-pub fn refresh(allocator: std.mem.Allocator) !void {
-    const installed = try shell.isCmdAvailable(
-        allocator,
-        "bun",
+pub fn sync(allocator: mem.Allocator) !void {
+    try updateGlobalPackages(allocator);
+    try installGlobalPackages(allocator);
+}
+
+fn updateGlobalPackages(allocator: mem.Allocator) !void {
+    _ = try distrobox.exec(allocator, "bun update --global --latest");
+}
+
+fn installGlobalPackages(allocator: mem.Allocator) !void {
+    _ = try distrobox.exec(allocator,
+        \\bun add --global --exact \
+        \\  bash-language-server \
+        \\  prettier
     );
-
-    if (!installed) {
-        _ = try shell.execFile(
-            allocator,
-            "bun/bun_install.sh",
-        );
-    } else {
-        _ = try shell.execFile(
-            allocator,
-            "bun/bun_upgrade.sh",
-        );
-    }
-
-    for (&[_][]const u8{
-        "bun/bun_add_global.sh",
-        "bun/bun_update.sh",
-    }) |script| {
-        _ = try shell.execFile(allocator, script);
-    }
 }

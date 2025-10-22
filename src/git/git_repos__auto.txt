@@ -51,9 +51,7 @@
 │   └── raylib
 ├── org.archlinux.aur.pikaur
 │   └── pikaur
-├── org.archlinux.aur.yay
-│   └── yay
 └── org.gitlab.gnome.GNOME.gnome-calendar
     └── gnome-calendar
 
-57 directories, 0 files
+55 directories, 0 files

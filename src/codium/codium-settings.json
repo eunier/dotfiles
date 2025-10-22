@@ -1,0 +1,39 @@
+{
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+    "autofetch",
+    "Cascadia",
+    "comptime",
+    "deinit",
+    "distrobox",
+    "kdbx",
+    "udisksctl",
+    "usize"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.fontFamily": "Cascadia Code, 'Droid Sans Mono', 'monospace', monospace",
+  "editor.formatOnSave": true,
+  "editor.rulers": [100],
+  "editor.wordWrap": "on",
+  "explorer.compactFolders": false,
+  "files.autoSave": "afterDelay",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "always",
+  "material-icon-theme.folders.theme": "none",
+  "todo-tree.highlights.enabled": false,
+  "window.autoDetectColorScheme": true,
+  "workbench.colorTheme": "ZED One Theme Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.preferredDarkColorTheme": "ZED One Theme Dark",
+  "workbench.preferredLightColorTheme": "ZED One Theme Dark",
+  "zig.path": "zig",
+  "zig.zls.enabled": "on",
+  "zig.zls.inlayHintsExcludeSingleArgument": false,
+  "zig.zls.warnStyle": true
+}

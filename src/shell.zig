@@ -1,10 +1,10 @@
 const std = @import("std");
-const mem = std.mem;
 const fmt_mod = std.fmt;
+const mem = std.mem;
 const process = std.process;
-
 pub const getEnvVarOwned = process.getEnvVarOwned;
-const log = std.log.scoped(.exec);
+
+const log = std.log.scoped(.shell);
 
 pub const EnvVar = enum {
     home,
@@ -37,15 +37,9 @@ pub fn execFmt(allocator: mem.Allocator, comptime fmt: []const u8, args: anytype
     return try exec(allocator, cmd);
 }
 
-pub fn execFile(allocator: mem.Allocator, path: []const u8) !process.Child.Term {
-    var process_child = process.Child.init(
-        &[_][]const u8{ "sh", path },
-        allocator,
-    );
-
-    process_child.cwd = "/home/tron/.dotfiles/src";
-    log.debug("sh {s}", .{path});
-    return try process_child.spawnAndWait();
+pub fn makeExecutable(allocator: mem.Allocator, path: []const u8) !void {
+    log.info("making file {s} executable", .{path});
+    _ = try execFmt(allocator, "chmod +x {s}", .{path});
 }
 
 pub fn isCmdAvailable(allocator: mem.Allocator, cmd: []const u8) !bool {
@@ -56,7 +50,6 @@ pub fn isCmdAvailable(allocator: mem.Allocator, cmd: []const u8) !bool {
     );
 
     defer allocator.free(cmd_str);
-
     const result = try exec(allocator, cmd_str);
 
     const available = switch (result) {
@@ -65,7 +58,7 @@ pub fn isCmdAvailable(allocator: mem.Allocator, cmd: []const u8) !bool {
     };
 
     log.debug(
-        "Command '{s}' available: {s}",
+        "command '{s}' available: {s}",
         .{ cmd, if (available) "true" else "false" },
     );
 
@@ -83,7 +76,7 @@ pub fn copy(allocator: mem.Allocator, src: []u8, dest: []u8) !void {
     _ = try exec(allocator, cmd_str);
 }
 
-pub fn makeDir(allocator: mem.Allocator, dir: []u8) !void {
+pub fn makeDir(allocator: mem.Allocator, dir: []const u8) !void {
     const cmd_str = try fmt_mod.allocPrint(
         allocator,
         "mkdir -p {s}",
@@ -92,6 +85,14 @@ pub fn makeDir(allocator: mem.Allocator, dir: []u8) !void {
 
     defer allocator.free(cmd_str);
     _ = try exec(allocator, cmd_str);
+}
+
+pub fn symLink(allocator: mem.Allocator, target: []const u8, dir: []const u8) !void {
+    _ = try execFmt(allocator, "ln -sf {s} {s}", .{ target, dir });
+}
+
+pub fn disableSpellchecker(allocator: mem.Allocator, path: []const u8) !void {
+    _ = try execFmt(allocator, "sed -i '1i spellchecker: disable' {s}", .{path});
 }
 
 test "exec" {

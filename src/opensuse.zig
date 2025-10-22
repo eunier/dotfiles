@@ -1,25 +1,30 @@
 const std = @import("std");
 const mem = std.mem;
 
+const bash = @import("bash.zig");
 const bun = @import("bun.zig");
-const fastfetch = @import("fastfetch.zig");
+const codium = @import("codium.zig");
+const distrobox = @import("distrobox.zig");
+const ghostty = @import("ghostty.zig");
 const git = @import("git.zig");
 const node = @import("node.zig");
-const shell = @import("shell.zig");
+const river = @import("river.zig");
+const zig = @import("zig.zig");
 const zypper = @import("zypper.zig");
 
-pub fn refresh(allocator: mem.Allocator) !void {
-    const user = try shell.getEnvVarOwned(
-        allocator,
-        shell.EnvVar.user.toOwnedSlice(),
-    );
+pub fn sync(allocator: mem.Allocator) !void {
+    try bash.sync(allocator);
+    try zypper.sync(allocator);
+    try zig.sync(allocator);
+    try distrobox.sync(allocator);
+    try node.sync(allocator);
+    try bun.sync(allocator);
 
-    defer allocator.free(user);
+    try codium.sync(allocator);
+    try ghostty.sync(allocator);
+    try git.sync(allocator);
+    try river.sync(allocator);
 
-    try zypper.refresh(allocator, user);
-    try bun.refresh(allocator);
-    try node.refresh(allocator);
-    try git.refresh(allocator, user);
-    try git.syncRepo(allocator, user);
-    try fastfetch.show(allocator);
+    try git.syncRemotes(allocator);
+    try git.syncDotfiles(allocator);
 }
