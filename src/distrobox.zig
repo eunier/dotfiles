@@ -90,14 +90,19 @@ fn installPackages(alc: mem.Allocator) !void {
     );
 }
 
-const ExportableCli = enum { bun, cmatrix, fnm, pnpm };
+const ExportableCli = enum { bun, cmatrix, filen_cli, fnm, pnpm };
 const ExportableApp = enum { keepassxc };
 
 fn exportPackages(alc: mem.Allocator) !void {
     log.info("exporting packages", .{});
 
     for (enums.values(ExportableCli)) |cli| {
-        const name = @tagName(cli);
+        const tag = @tagName(cli);
+
+        const name = switch (cli) {
+            .filen_cli => "file-cli",
+            else => tag,
+        };
 
         if (try shell.isCmdAvailable(alc, name)) {
             log.info("cli {s} already exported, skipping", .{name});
