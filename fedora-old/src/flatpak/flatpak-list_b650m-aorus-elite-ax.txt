@@ -32,7 +32,7 @@ Restfox	dev.restfox.Restfox	0.40.0	stable	system
 Almond	edu.stanford.Almond	2.0.0~alpha.1	stable	system
 Morphosis	garden.jamie.Morphosis	49.0	stable	system
 Memorado	im.bernard.Memorado	0.5	stable	system
-FreeTube	io.freetubeapp.FreeTube	0.23.9 Beta	stable	system
+FreeTube	io.freetubeapp.FreeTube	0.23.10 Beta	stable	system
 AdwSteamGtk	io.github.Foldex.AdwSteamGtk	0.8.0	stable	system
 Godots	io.github.MakovWait.Godots	v1.3.stable	stable	system
 IP Lookup	io.github.bytezz.IPLookup	0.4.1	stable	system
@@ -113,8 +113,8 @@ Tagger	org.nickvision.tagger	2024.6.0	stable	system
 Parabolic	org.nickvision.tubeconverter	2025.10.2	stable	system
 pgAdmin 4	org.pgadmin.pgadmin4	9.8	stable	system
 Main Menu	page.codeberg.libre_menu_editor.LibreMenuEditor	1.9.4	stable	system
-Commit	re.sonny.Commit	4.3	stable	system
-Eloquent	re.sonny.Eloquent	1.2	stable	system
+Commit	re.sonny.Commit	4.4	stable	system
+Eloquent	re.sonny.Eloquent	1.3	stable	system
 Graphs	se.sjoerd.Graphs	1.8.5	stable	system
 Zoom	us.zoom.Zoom	6.6.0.4410	stable	system
 Speedtest	xyz.ketok.Speedtest	1.4.0	stable	system
