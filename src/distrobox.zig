@@ -100,7 +100,7 @@ fn exportPackages(alc: mem.Allocator) !void {
         const tag = @tagName(cli);
 
         const name = switch (cli) {
-            .filen_cli => "file-cli",
+            .filen_cli => "filen-cli",
             else => tag,
         };
 
