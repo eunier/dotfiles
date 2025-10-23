@@ -43,12 +43,14 @@ i  | bash-completion                               | Programmable Completion for
 i  | bash-doc                                      | Documentation how to Use the GNU Bourne-Again Shell                                | package
 i  | bash-loadables                                | Loadable bash builtins                                                             | package
 i  | bash-sh                                       | Handle behaviour of /bin/sh                                                        | package
+i  | bc                                            | GNU Command Line Calculator                                                        | package
 i  | bind-utils                                    | Libraries for "bind" and utilities to query and test DNS                           | package
 i  | blog                                          | Boot logging                                                                       | package
 i  | bluez                                         | Bluetooth Stack for Linux                                                          | package
 i  | bluez-auto-enable-devices                     | Configuration that automatically enables all bluetooth devices                     | package
 i  | bluez-cups                                    | CUPS Driver for Bluetooth Printers                                                 | package
 i  | bluez-obexd                                   | Object Exchange daemon for sharing binary objects                                  | package
+i  | bluez-zsh-completion                          | Zsh completion for bluez                                                           | package
 i  | bolt                                          | Thunderbolt 3 device manager                                                       | package
 i  | boost-license1_89_0                           | Boost License                                                                      | package
 i  | branding-openSUSE                             | openSUSE Tumbleweed Brand File                                                     | package
@@ -64,6 +66,7 @@ i+ | btrfsprogs                                    | Utilities for the Btrfs fil
 i  | btrfsprogs-bash-completion                    | Bash completion for btrfsprogs                                                     | package
 i  | btrfsprogs-udev-rules                         | Udev rules for configuring btrfs file systems                                      | package
 i  | bubblewrap                                    | Core execution tool for unprivileged containers                                    | package
+i  | bubblewrap-zsh-completion                     | Zsh tab-completion for bubblewrap                                                  | package
 i  | busybox-static                                | Static linked version of Busybox, a compact UNIX utility collection                | package
 i  | bzip2                                         | A Program for Compressing Files                                                    | package
 i  | ca-certificates                               | Utilities for system wide CA certificate installation                              | package
@@ -80,6 +83,7 @@ i  | chrony-pool-openSUSE                          | Chrony preconfiguration for
 i  | cifs-utils                                    | Utilities for doing and managing mounts of the Linux CIFS filesystem               | package
 i  | cnf                                           | A command-not-found handler for openSUSE                                           | package
 i  | cnf-bash                                      | Integration of cnf with bash                                                       | package
+i  | cnf-zsh                                       | Integration of cnf with zsh                                                        | package
 i+ | codium                                        | Code editing. Redefined.                                                           | package
 i  | colord                                        | System Daemon for Managing Color Devices                                           | package
 i  | colord-color-profiles                         | Color profiles for colord                                                          | package
@@ -108,6 +112,8 @@ i  | cups-config                                   | CUPS library configuration 
 i  | cups-filters2                                 | OpenPrinting CUPS filters 2.x for CUPS 2.x                                         | package
 i  | cups-pk-helper                                | PolicyKit helper to configure cups with fine-grained privileges                    | package
 i  | curl                                          | A Tool for Transferring Data from URLs                                             | package
+i  | curl-fish-completion                          | Fish completion for curl                                                           | package
+i  | curl-zsh-completion                           | Zsh Completion for curl                                                            | package
 i  | dbus-1                                        | D-Bus Message Bus System                                                           | package
 i  | dbus-1-common                                 | D-BUS message bus configuration                                                    | package
 i  | dbus-1-daemon                                 | D-Bus message bus daemon                                                           | package
@@ -163,8 +169,11 @@ i  | expat                                         | XML Parser Toolkit         
 i  | f2fs-tools                                    | Utilities for the Flash-friendly Filesystem (F2FS)                                 | package
 i+ | fastfetch                                     | Neofetch-like tool written mostly in C                                             | package
 i  | fastfetch-bash-completion                     | Bash Completion for fastfetch                                                      | package
+i  | fastfetch-fish-completion                     | Fish Completion for fastfetch                                                      | package
+i  | fastfetch-zsh-completion                      | Zsh Completion for fastfetch                                                       | package
 i  | fdupes                                        | Tool to identify or delete duplicate files                                         | package
 i  | feh                                           | X11 image viewer                                                                   | package
+i  | feh-zsh-completion                            | ZSH Completion for feh                                                             | package
 i  | file                                          | A Tool to Determine File Types                                                     | package
 i  | file-magic                                    | Database for libmagic to help identify files                                       | package
 i  | filesystem                                    | Basic Directory Layout                                                             | package
@@ -172,10 +181,13 @@ i  | fillup                                        | Tool for Merging Config Fil
 i  | findutils                                     | The GNU versions of find utilities (find and xargs)                                | package
 i+ | firewalld                                     | A firewall daemon with D-Bus interface providing a dynamic firewall                | package
 i  | firewalld-bash-completion                     | Bash Completion for firewalld                                                      | package
+i  | firewalld-zsh-completion                      | Zsh Completion for firewalld                                                       | package
+i+ | fish                                          | The "friendly interactive shell"                                                   | package
 i  | fixmath                                       | Fixed-point math operations library                                                | package
 i  | flatpak                                       | OSTree based application bundles management                                        | package
 i  | flatpak-remote-flathub                        | Add Flathub repository to system flatpak                                           | package
 i  | flatpak-selinux                               | SELinux policy module for flatpak                                                  | package
+i  | flatpak-zsh-completion                        | Zsh tab-completion for flatpak                                                     | package
 i  | flute                                         | Java CSS parser using SAC                                                          | package
 i  | folks-data                                    | Data files for libfolks, a library to create metacontacts from many sources        | package
 i  | fontconfig                                    | Library for Font Configuration                                                     | package
@@ -190,6 +202,7 @@ i  | fuse3                                         | Reference implementation of
 i  | fwupd                                         | Device firmware updater daemon                                                     | package
 i  | fwupd-bash-completion                         | Bash completion for fwupd                                                          | package
 i  | fwupd-efi                                     | Firmware update EFI binaries                                                       | package
+i  | fwupd-fish-completion                         | Fish completion for fwupd                                                          | package
 i  | gawk                                          | Domain-specific language for text processing                                       | package
 i  | gcab                                          | Cabinet file library and tool                                                      | package
 i  | gcr-ssh-agent                                 | SSH agent binary for gcr                                                           | package
@@ -215,8 +228,10 @@ i  | ghostscript-fonts-std                         | Basic Fonts for Ghostscript
 i  | ghostscript-x11                               | X11 library for Ghostscript                                                        | package
 i+ | ghostty                                       | Cross-platform terminal emulator                                                   | package
 i  | ghostty-bash-completion                       | Bash Completion for ghostty                                                        | package
+i  | ghostty-fish-completion                       | Fish Completion for ghostty                                                        | package
 i  | ghostty-neovim                                | Neovim syntax highlighting for ghostty data files                                  | package
 i  | ghostty-vim                                   | Vim syntax highlighting for ghostty data files                                     | package
+i  | ghostty-zsh-completion                        | Zsh Completion for ghostty                                                         | package
 i  | gimp                                          | The GNU Image Manipulation Program                                                 | package
 i  | gimp-help                                     | Help System Data for GIMP                                                          | package
 i  | gimp-plugin-python3                           | The GNU Image Manipulation Program - python3 goject introspection plugins          | package
@@ -399,6 +414,8 @@ i  | javapackages-tools                            | Macros and scripts for Java
 i  | jq                                            | A lightweight and flexible command-line JSON processor                             | package
 i+ | jujutsu                                       | Git-compatible DVCS that is both simple and powerful                               | package
 i  | jujutsu-bash-completion                       | Bash Completion for jujutsu                                                        | package
+i  | jujutsu-fish-completion                       | Fish Completion for jujutsu                                                        | package
+i  | jujutsu-zsh-completion                        | Zsh Completion for jujutsu                                                         | package
 i  | kbd                                           | Keyboard and Font Utilities                                                        | package
 i+ | kernel-default                                | The Standard Kernel                                                                | package
 i  | kernel-firmware-all                           | Compatibility metapackage for kernel firmware files                                | package
@@ -1734,6 +1751,7 @@ i+ | numactl                                       | NUMA Policy Control        
 i  | numlockx                                      | Switch on/off or toggle numlock                                                    | package
 i+ | nvme-cli                                      | NVM Express user space tools                                                       | package
 i  | nvme-cli-bash-completion                      | NVM Express user space tools bash completion                                       | package
+i  | nvme-cli-zsh-completion                       | NVM Express user space tools zsh completion                                        | package
 i  | office                                        | Office Software                                                                    | pattern
 i  | openal-soft-data                              | OpenAL Soft auxiliary data and config                                              | package
 i  | openconnect                                   | Client for Cisco AnyConnect VPN                                                    | package
@@ -1969,8 +1987,10 @@ i  | rgb                                           | X color name database      
 i+ | river                                         | A dynamic tiling Wayland compositor                                                | package
 i  | river-bash-completion                         | Bash Completion for river                                                          | package
 i  | river-contrib                                 | Helper files for making river easy to use                                          | package
+i  | river-fish-completion                         | Fish Completion for river                                                          | package
 i  | river-riverctl                                | Command-line interface for controlling river                                       | package
 i  | river-rivertile                               | Tiled layout generator for river                                                   | package
+i  | river-zsh-completion                          | Zsh Completion for river                                                           | package
 i+ | rpm                                           | The RPM Package Manager                                                            | package
 i  | rpm-config-SUSE                               | SUSE specific RPM configuration files                                              | package
 i  | rsync                                         | Versatile tool for fast incremental file transfer                                  | package
@@ -2171,6 +2191,7 @@ i  | udev-configure-printer                        | Utility to autoconfigure pr
 i  | udftools                                      | UDF filesystem tools                                                               | package
 i  | udisks2                                       | Disk Manager                                                                       | package
 i  | udisks2-bash-completion                       | Bash Completion for udisksctl                                                      | package
+i  | udisks2-zsh-completion                        | Zsh Completion for udisksctl                                                       | package
 i  | unzip                                         | A program to unpack compressed files                                               | package
 i  | unzip-doc                                     | Documentation files for unzip                                                      | package
 i  | update-alternatives                           | Maintain symbolic links determining default commands                               | package
@@ -2208,8 +2229,11 @@ i  | wget                                          | A Tool for Mirroring FTP an
 i  | which                                         | Displays where a particular program in your path is located                        | package
 i  | wireless-tools                                | Tools for a wireless LAN                                                           | package
 i  | wireplumber                                   | Session / policy manager implementation for PipeWire                               | package
+i  | wireplumber-zsh-completion                    | Wireplumber zsh completion                                                         | package
 i  | wl-clipboard                                  | Wayland Clipboard Utilities                                                        | package
 i  | wl-clipboard-bash-completion                  | Bash completion for wl-clipboard                                                   | package
+i  | wl-clipboard-fish-completion                  | Fish completion for wl-clipboard                                                   | package
+i  | wl-clipboard-zsh-completion                   | Zsh completion for wl-clipboard                                                    | package
 i  | wmctrl                                        | Command line tool to interact with an EWMH/NetWM compatible X Window Manager       | package
 i  | wol                                           | Wake On Lan client                                                                 | package
 i  | wpa_supplicant                                | WPA supplicant implementation                                                      | package
@@ -2333,6 +2357,7 @@ i  | zenity                                        | GNOME Command Line Dialog U
 i  | zeromq-tools                                  | Tools to work with ZeroMQ                                                          | package
 i  | zip                                           | File compression program                                                           | package
 i  | zisofs-tools                                  | User tools for zisofs                                                              | package
+i+ | zsh                                           | Shell with comprehensive completion                                                | package
 i  | zstd                                          | Zstandard compression tools                                                        | package
 i+ | zvm                                           | Easily install/upgrade between different versions of Zig                           | package
 i  | zypper                                        | Command line software manager using libzypp                                        | package

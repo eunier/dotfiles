@@ -82,6 +82,7 @@ fn installPackages(allocator: mem.Allocator) !void {
         \\  codium \
         \\  distrobox \
         \\  fastfetch \
+        \\  fish \
         \\  foot \
         \\  ghostty \
         \\  git \
@@ -89,6 +90,7 @@ fn installPackages(allocator: mem.Allocator) !void {
         \\  podman \
         \\  river \
         \\  saja-cascadia-code-fonts \
+        \\  zsh \
         \\  zvm
     );
 
