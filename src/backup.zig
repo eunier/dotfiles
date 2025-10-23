@@ -1,39 +1,52 @@
 const std = @import("std");
+const fmt = std.fmt;
 const mem = std.mem;
+const time = std.time;
 
 const shell = @import("shell.zig");
 
 const log = std.log.scoped(.backup);
 
-pub fn sync(allocator: mem.Allocator) !void {
+pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
-    try mountBackupDisk(allocator);
-    try backupKeePass(allocator);
-    try backupDotfiles(allocator);
+    try mountBackupDisk(alc);
+    try backupKeePass(alc);
+    try backupDotfiles(alc);
 }
 
-fn mountBackupDisk(allocator: mem.Allocator) !void {
+fn mountBackupDisk(alc: mem.Allocator) !void {
     log.info("mounting backup disk", .{});
-    _ = try shell.exec(allocator, "udisksctl mount -b /dev/disk/by-label/External");
+    _ = try shell.exec(alc, "udisksctl mount -b /dev/disk/by-label/External");
 }
 
-fn backupKeePass(allocator: mem.Allocator) !void {
+fn backupKeePass(alc: mem.Allocator) !void {
     log.info("backing up keepass", .{});
-    try shell.makeDir(allocator, "/run/media/$USER/External/KeePass");
+    try shell.makeDir(alc, "/run/media/$USER/External/KeePass");
+    const now = try fmt.allocPrint(alc, "{d}", .{time.microTimestamp()});
+    defer alc.free(now);
 
-    _ = try shell.exec(allocator,
+    const dest = try fmt.allocPrint(
+        alc,
+        "/run/media/$USER/External/Safe_{s}.kdbx",
+        .{now},
+    );
+
+    defer alc.free(dest);
+    _ = try shell.copy(alc, "~/Documents/Applications/KeePass/Safe.kdbx", dest);
+
+    _ = try shell.exec(alc,
         \\rsync --archive --verbose --human-readable --progress \
         \\  ~/Documents/Applications/KeePass \
         \\  /run/media/$USER/External/
     );
 }
 
-fn backupDotfiles(allocator: mem.Allocator) !void {
+fn backupDotfiles(alc: mem.Allocator) !void {
     log.info("backing up dotfiles", .{});
-    _ = try shell.exec(allocator, "udisksctl mount -b /dev/sda");
-    try shell.makeDir(allocator, "/run/media/$USER/External/Dotfiles");
+    _ = try shell.exec(alc, "udisksctl mount -b /dev/sda");
+    try shell.makeDir(alc, "/run/media/$USER/External/Dotfiles");
 
-    _ = try shell.exec(allocator,
+    _ = try shell.exec(alc,
         \\rsync --archive --verbose --human-readable --progress --exclude=".zig-cache" \
         \\  ~/.dotfiles/ \
         \\  /run/media/$USER/External/Dotfiles
