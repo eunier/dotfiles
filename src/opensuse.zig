@@ -7,6 +7,7 @@ const codium = @import("codium.zig");
 const distrobox = @import("distrobox.zig");
 const ghostty = @import("ghostty.zig");
 const git = @import("git.zig");
+const jj = @import("jj.zig");
 const node = @import("node.zig");
 const river = @import("river.zig");
 const zig = @import("zig.zig");
@@ -19,7 +20,7 @@ pub fn sync(alc: mem.Allocator) !void {
     try distrobox.sync(alc);
     try node.sync(alc);
     try bun.sync(alc);
-
+    try jj.sync(alc);
     try codium.sync(alc);
     try ghostty.sync(alc);
     try git.sync(alc);

@@ -32,6 +32,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.preferredDarkColorTheme": "ZED One Theme Dark",
   "workbench.preferredLightColorTheme": "ZED One Theme Dark",
+  "zig.path": "zig",
   "zig.zls.enabled": "on",
   "zig.zls.inlayHintsExcludeSingleArgument": false,
   "zig.zls.warnStyle": true

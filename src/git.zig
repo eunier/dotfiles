@@ -10,40 +10,36 @@ const shell = @import("shell.zig");
 
 const log = std.log.scoped(.git);
 
-pub fn sync(allocator: mem.Allocator) !void {
-    try cloneRepos(allocator);
-    try captureGitRepos(allocator);
-    try symLink(allocator);
+pub fn sync(alc: mem.Allocator) !void {
+    try cloneRepos(alc);
+    try captureGitRepos(alc);
+    try symLink(alc);
 }
 
-pub fn syncRemotes(allocator: mem.Allocator) !void {
+pub fn syncRemotes(alc: mem.Allocator) !void {
     log.info("syncing remotes", .{});
-    _ = try shell.exec(allocator, "sh ~/.dotfiles/src/git/git_sync_remote.sh");
+    _ = try shell.exec(alc, "sh ~/.dotfiles/src/git/git_sync_remote.sh");
 }
 
-fn cloneRepos(allocator: mem.Allocator) !void {
-    _ = try shell.makeDir(allocator, "~/Projects");
+fn cloneRepos(alc: mem.Allocator) !void {
+    _ = try shell.makeDir(alc, "~/Projects");
 
     inline for (meta.fields(Repo)) |field| {
         const repo = @field(Repo, field.name);
-        const url = try repo.toOwnedUrl(allocator);
-        defer allocator.free(url);
-        const cmd = try fmt.allocPrint(allocator, "git clone {s}", .{url});
-        _ = try shell.exec(allocator, cmd);
+        const url = try repo.toOwnedUrl(alc);
+        defer alc.free(url);
+        const cmd = try fmt.allocPrint(alc, "git clone {s}", .{url});
+        _ = try shell.exec(alc, cmd);
     }
 }
 
-fn captureGitRepos(allocator: mem.Allocator) !void {
+fn captureGitRepos(alc: mem.Allocator) !void {
     _ = try shell.exec(
-        allocator,
+        alc,
         "tree -n ~/Projects -L 2 -a > ~/.dotfiles/src/git/git_repos__auto.txt",
     );
 }
 
-fn symLink(allocator: mem.Allocator) !void {
-    _ = try shell.symLink(
-        allocator,
-        "~/.dotfiles/src/git/.gitconfig",
-        "~/.gitconfig",
-    );
+fn symLink(alc: mem.Allocator) !void {
+    _ = try shell.symLink(alc, "~/.dotfiles/src/git/.gitconfig", "~/.gitconfig");
 }
