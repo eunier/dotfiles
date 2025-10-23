@@ -82,6 +82,7 @@ fn installPackages(allocator: mem.Allocator) !void {
         \\  bun-bin \
         \\  cmatrix \
         \\  fastfetch \
+        \\  filen-cli-bin \
         \\  fnm-bin \
         \\  keepassxc \
         \\  pnpm-bin
