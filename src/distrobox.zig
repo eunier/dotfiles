@@ -142,7 +142,7 @@ fn captureInstalled(alc: mem.Allocator) !void {
 
     const cmd = try fmt.allocPrint(
         alc,
-        "pickaur --query --info >> {s}",
+        "pikaur --query --info >> {s}",
         .{path},
     );
 
