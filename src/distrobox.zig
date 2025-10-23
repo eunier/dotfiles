@@ -17,6 +17,7 @@ pub fn sync(alc: mem.Allocator) !void {
     try installPackages(alc);
     try exportPackages(alc);
     try captureSystemInfo(alc);
+    try captureInstalled(alc);
 }
 
 pub fn exec(alc: mem.Allocator, cmd: []const u8) !process.Child.Term {
@@ -132,4 +133,19 @@ fn captureSystemInfo(alc: mem.Allocator) !void {
         fastfetch.Host.arch_container,
         "~/.dotfiles/src/distrobox/distrobox_fastfetch__auto.txt",
     );
+}
+
+fn captureInstalled(alc: mem.Allocator) !void {
+    log.info("Capturing installed", .{});
+    const path = "~/.dotfiles/src/distrobox/distrobox_installed__auto.txt";
+    _ = try shell.execFmt(alc, "echo \"spellchecker: disable\" > {s}", .{path});
+
+    const cmd = try fmt.allocPrint(
+        alc,
+        "pickaur --query --info >> {s}",
+        .{path},
+    );
+
+    defer alc.free(cmd);
+    _ = try exec(alc, cmd);
 }
