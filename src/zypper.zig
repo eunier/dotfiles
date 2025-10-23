@@ -85,6 +85,7 @@ fn installPackages(allocator: mem.Allocator) !void {
         \\  foot \
         \\  ghostty \
         \\  git \
+        \\  jujutsu \
         \\  podman \
         \\  river \
         \\  saja-cascadia-code-fonts \

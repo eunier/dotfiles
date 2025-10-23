@@ -397,6 +397,8 @@ i  | java-binfmt-misc                              | The binfmt_misc support for
 i  | javapackages-filesystem                       | Java packages filesystem layout                                                    | package
 i  | javapackages-tools                            | Macros and scripts for Java packaging support                                      | package
 i  | jq                                            | A lightweight and flexible command-line JSON processor                             | package
+i+ | jujutsu                                       | Git-compatible DVCS that is both simple and powerful                               | package
+i  | jujutsu-bash-completion                       | Bash Completion for jujutsu                                                        | package
 i  | kbd                                           | Keyboard and Font Utilities                                                        | package
 i+ | kernel-default                                | The Standard Kernel                                                                | package
 i  | kernel-firmware-all                           | Compatibility metapackage for kernel firmware files                                | package
