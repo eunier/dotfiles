@@ -27,7 +27,7 @@ fn backupKeePass(alc: mem.Allocator) !void {
 
     const dest = try fmt.allocPrint(
         alc,
-        "/run/media/$USER/External/Safe_{s}.kdbx",
+        "/run/media/$USER/External/KeePass/Backups/Safe_{s}.kdbx",
         .{now},
     );
 
