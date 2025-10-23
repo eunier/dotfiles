@@ -9,34 +9,34 @@ const shell = @import("shell.zig");
 
 const log = std.log.scoped(.distrobox);
 
-pub fn sync(allocator: mem.Allocator) !void {
+pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
-    try addArchBox(allocator);
-    try installPikaur(allocator);
-    try update(allocator);
-    try installPackages(allocator);
-    try exportPackages(allocator);
-    try captureSystemInfo(allocator);
+    try addArchBox(alc);
+    try installPikaur(alc);
+    try update(alc);
+    try installPackages(alc);
+    try exportPackages(alc);
+    try captureSystemInfo(alc);
 }
 
-pub fn exec(allocator: mem.Allocator, cmd: []const u8) !process.Child.Term {
-    return try shell.execFmt(allocator,
+pub fn exec(alc: mem.Allocator, cmd: []const u8) !process.Child.Term {
+    return try shell.execFmt(alc,
         \\distrobox enter --name arch -- bash -lc '
         \\  {s}
         \\'
     , .{cmd});
 }
 
-fn addArchBox(allocator: mem.Allocator) !void {
+fn addArchBox(alc: mem.Allocator) !void {
     log.info("adding Arch box to distrobox", .{});
 
-    _ = try shell.exec(allocator,
+    _ = try shell.exec(alc,
         \\if ! distrobox list | grep -q "arch"; then
         \\  distrobox create --image archlinux:latest --name arch
         \\fi
     );
 
-    _ = try shell.exec(allocator,
+    _ = try shell.exec(alc,
         \\distrobox enter arch -- bash -lc '
         \\  sudo pacman --sync --refresh --sysupgrade --needed --noconfirm \
         \\      base-devel \
@@ -46,20 +46,20 @@ fn addArchBox(allocator: mem.Allocator) !void {
     );
 }
 
-fn installPikaur(allocator: mem.Allocator) !void {
+fn installPikaur(alc: mem.Allocator) !void {
     log.info("installing pikaur", .{});
 
     _ = try shell.exec(
-        allocator,
+        alc,
         "git clone https://aur.archlinux.org/pikaur.git ~/Projects/org.archlinux.aur.pikaur/pikaur",
     );
 
-    _ = try shell.exec(allocator,
+    _ = try shell.exec(alc,
         \\cd ~/Projects/org.archlinux.aur.pikaur/pikaur &&
         \\git pull
     );
 
-    _ = try exec(allocator,
+    _ = try exec(alc,
         \\if ! command -v pikaur >/dev/null 2>&1; then
         \\  cd ~/Projects/org.archlinux.aur.pikaur/pikaur
         \\  git reset --hard
@@ -69,15 +69,15 @@ fn installPikaur(allocator: mem.Allocator) !void {
     );
 }
 
-fn update(allocator: mem.Allocator) !void {
+fn update(alc: mem.Allocator) !void {
     log.info("updating", .{});
-    _ = try exec(allocator, "pikaur --sync --refresh --sysupgrade --devel --noconfirm");
+    _ = try exec(alc, "pikaur --sync --refresh --sysupgrade --devel --noconfirm");
 }
 
-fn installPackages(allocator: mem.Allocator) !void {
+fn installPackages(alc: mem.Allocator) !void {
     log.info("installing packages", .{});
 
-    _ = try exec(allocator,
+    _ = try exec(alc,
         \\pikaur --sync --needed --noconfirm \
         \\  bun-bin \
         \\  cmatrix \
@@ -92,20 +92,20 @@ fn installPackages(allocator: mem.Allocator) !void {
 const ExportableCli = enum { bun, cmatrix, fnm, pnpm };
 const ExportableApp = enum { keepassxc };
 
-fn exportPackages(allocator: mem.Allocator) !void {
+fn exportPackages(alc: mem.Allocator) !void {
     log.info("exporting packages", .{});
 
     for (enums.values(ExportableCli)) |cli| {
         const name = @tagName(cli);
 
-        if (try shell.isCmdAvailable(allocator, name)) {
+        if (try shell.isCmdAvailable(alc, name)) {
             log.info("cli {s} already exported, skipping", .{name});
             continue;
         }
 
         log.info("exporting cli {s}.", .{name});
 
-        _ = try shell.execFmt(allocator,
+        _ = try shell.execFmt(alc,
             \\distrobox enter arch -- bash -lc '
             \\  distrobox-export --bin "$(which {s})"
             \\'
@@ -116,7 +116,7 @@ fn exportPackages(allocator: mem.Allocator) !void {
         const name = @tagName(app);
         log.info("exporting app {s}", .{name});
 
-        _ = try shell.execFmt(allocator,
+        _ = try shell.execFmt(alc,
             \\distrobox enter arch -- bash -lc '
             \\  distrobox-export --app {s} --export-label "none"
             \\'
@@ -124,11 +124,11 @@ fn exportPackages(allocator: mem.Allocator) !void {
     }
 }
 
-fn captureSystemInfo(allocator: mem.Allocator) !void {
+fn captureSystemInfo(alc: mem.Allocator) !void {
     log.info("capturing system info", .{});
 
     try fastfetch.capture(
-        allocator,
+        alc,
         fastfetch.Host.arch_container,
         "~/.dotfiles/src/distrobox/distrobox_fastfetch__auto.txt",
     );
