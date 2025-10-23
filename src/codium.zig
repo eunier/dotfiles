@@ -6,37 +6,49 @@ const shell = @import("shell.zig");
 
 const log = std.log.scoped(.codium);
 
-pub fn sync(allocator: mem.Allocator) !void {
+pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
-    try symLink(allocator);
-    try capture(allocator);
+    try symLink(alc);
+    try capture(alc);
 }
 
-fn symLink(allocator: mem.Allocator) !void {
+fn symLink(alc: mem.Allocator) !void {
     log.info("sym linking", .{});
-    try symLinkSettings(allocator);
-    try symLinkKeybindings(allocator);
+    try symLinkSettings(alc);
+    try symLinkKeybindings(alc);
 }
 
-fn symLinkSettings(allocator: mem.Allocator) !void {
+fn symLinkSettings(alc: mem.Allocator) !void {
     log.info("sym linking settings", .{});
-    try shell.symLink(allocator, "~/.dotfiles/src/codium/codium-settings.json", "~/.config/VSCodium/User/settings.json");
-    try git.addAndCommitFile(allocator, "~/.dotfiles/src/codium/codium-settings.json", "Codium settings");
+
+    try shell.symLink(
+        alc,
+        "~/.dotfiles/src/codium/codium-settings.json",
+        "~/.config/VSCodium/User/settings.json",
+    );
 }
 
-fn symLinkKeybindings(allocator: mem.Allocator) !void {
+fn symLinkKeybindings(alc: mem.Allocator) !void {
     log.info("sym linking keybindings", .{});
-    try shell.symLink(allocator, "~/.dotfiles/src/codium/codium-keybindings.json", "~/.config/VSCodium/User/keybindings.json");
-    try git.addAndCommitFile(allocator, "~/.dotfiles/src/codium/codium-keybindings.json", "Codium keybindings");
+
+    try shell.symLink(
+        alc,
+        "~/.dotfiles/src/codium/codium-keybindings.json",
+        "~/.config/VSCodium/User/keybindings.json",
+    );
 }
 
-fn capture(allocator: mem.Allocator) !void {
+fn capture(alc: mem.Allocator) !void {
     log.info("capturing", .{});
-    try captureExtensions(allocator);
+    try captureExtensions(alc);
 }
 
-fn captureExtensions(allocator: mem.Allocator) !void {
+fn captureExtensions(alc: mem.Allocator) !void {
     log.info("capturing extensions", .{});
-    _ = try shell.makeDir(allocator, "~/.dotfiles/src/codium");
-    _ = try shell.exec(allocator, "codium --list-extensions --show-versions > ~/.dotfiles/src/codium/codium_extensions__auto.txt");
+    _ = try shell.makeDir(alc, "~/.dotfiles/src/codium");
+
+    _ = try shell.exec(
+        alc,
+        "codium --list-extensions --show-versions > ~/.dotfiles/src/codium/codium_extensions__auto.txt",
+    );
 }

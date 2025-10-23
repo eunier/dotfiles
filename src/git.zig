@@ -16,19 +16,6 @@ pub fn sync(allocator: mem.Allocator) !void {
     try symLink(allocator);
 }
 
-pub fn syncDotfiles(allocator: mem.Allocator) !void {
-    try addAndCommitFile(
-        allocator,
-        "~/.dotfiles/.vscode/settings.json",
-        "Settings",
-    );
-}
-
-pub fn addAndCommitFile(allocator: mem.Allocator, file: []const u8, msg: []const u8) !void {
-    _ = try shell.execFmt(allocator, "git add {s}", .{file});
-    _ = try shell.execFmt(allocator, "git commit --message \"{s}\"", .{msg});
-}
-
 pub fn syncRemotes(allocator: mem.Allocator) !void {
     log.info("syncing remotes", .{});
     _ = try shell.exec(allocator, "sh ~/.dotfiles/src/git/git_sync_remote.sh");

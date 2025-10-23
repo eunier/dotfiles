@@ -12,19 +12,18 @@ const river = @import("river.zig");
 const zig = @import("zig.zig");
 const zypper = @import("zypper.zig");
 
-pub fn sync(allocator: mem.Allocator) !void {
-    try bash.sync(allocator);
-    try zypper.sync(allocator);
-    try zig.sync(allocator);
-    try distrobox.sync(allocator);
-    try node.sync(allocator);
-    try bun.sync(allocator);
+pub fn sync(alc: mem.Allocator) !void {
+    try bash.sync(alc);
+    try zypper.sync(alc);
+    try zig.sync(alc);
+    try distrobox.sync(alc);
+    try node.sync(alc);
+    try bun.sync(alc);
 
-    try codium.sync(allocator);
-    try ghostty.sync(allocator);
-    try git.sync(allocator);
-    try river.sync(allocator);
+    try codium.sync(alc);
+    try ghostty.sync(alc);
+    try git.sync(alc);
+    try river.sync(alc);
 
-    try git.syncRemotes(allocator);
-    try git.syncDotfiles(allocator);
+    try git.syncRemotes(alc);
 }

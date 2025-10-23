@@ -1,7 +1,6 @@
 const std = @import("std");
 const mem = std.mem;
 
-const git = @import("git.zig");
 const shell = @import("shell.zig");
 
 const log = std.log.scoped(.zig);
@@ -32,5 +31,4 @@ fn initScript(allocator: mem.Allocator) !void {
 fn captureVersion(allocator: mem.Allocator) !void {
     _ = try shell.makeDir(allocator, "~/.dotfiles/src/zig");
     _ = try shell.exec(allocator, "zvm ls --all > ~/.dotfiles/src/zig/zig-versions.txt");
-    try git.addAndCommitFile(allocator, "~/.dotfiles/src/zig/zig-versions.txt", "Zig versions");
 }

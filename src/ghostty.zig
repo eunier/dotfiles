@@ -6,23 +6,17 @@ const shell = @import("shell.zig");
 
 const log = std.log.scoped(.ghostty);
 
-pub fn sync(allocator: mem.Allocator) !void {
+pub fn sync(alc: mem.Allocator) !void {
     log.info("synching", .{});
-    try symLink(allocator);
+    try symLink(alc);
 }
 
-fn symLink(allocator: mem.Allocator) !void {
+fn symLink(alc: mem.Allocator) !void {
     log.info("sym linking", .{});
 
     _ = try shell.symLink(
-        allocator,
+        alc,
         "~/.dotfiles/src/ghostty/ghostty_config",
         "~/.config/ghostty/config",
-    );
-
-    _ = try git.addAndCommitFile(
-        allocator,
-        "~/.dotfiles/src/ghostty/ghostty_config",
-        "Ghostty config",
     );
 }
