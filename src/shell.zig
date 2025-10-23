@@ -18,10 +18,7 @@ pub const EnvVar = enum {
     }
 };
 
-pub fn exec(
-    alc: mem.Allocator,
-    cmd: []const u8,
-) !process.Child.Term {
+pub fn exec(alc: mem.Allocator, cmd: []const u8) !process.Child.Term {
     var process_child = process.Child.init(
         &[_][]const u8{ "bash", "-c", cmd },
         alc,

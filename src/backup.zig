@@ -32,7 +32,12 @@ fn backupKeePass(alc: mem.Allocator) !void {
     );
 
     defer alc.free(dest);
-    _ = try shell.copy(alc, "~/Documents/Applications/KeePass/Safe.kdbx", dest);
+
+    _ = try shell.execFmt(
+        alc,
+        "sudo cp ~/Documents/Applications/KeePass/Safe.kdbx {s}",
+        .{dest},
+    );
 
     _ = try shell.exec(alc,
         \\rsync --archive --verbose --human-readable --progress \
