@@ -11,6 +11,8 @@ pub fn sync(alc: mem.Allocator) !void {
 }
 
 fn symLin(alc: mem.Allocator) !void {
+    log.info("sym linking", .{});
+
     try shell.symLink(
         alc,
         "~/.dotfiles/src/jj/jj_config.toml",
