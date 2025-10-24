@@ -13,10 +13,7 @@ pub fn show(allocator: mem.Allocator) !void {
     _ = try distrobox.exec(allocator, "fastfetch");
 }
 
-// TODO move to distrobox?
-pub const Host = enum { local, arch_container };
-
-pub fn capture(allocator: mem.Allocator, host: Host, path: []const u8) !void {
+pub fn capture(allocator: mem.Allocator, host: distrobox.Host, path: []const u8) !void {
     log.info("capturing", .{});
 
     const cmd = try fmt.allocPrint(allocator,

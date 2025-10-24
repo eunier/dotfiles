@@ -2,6 +2,7 @@ const std = @import("std");
 const fmt = std.fmt;
 const mem = std.mem;
 
+const distrobox = @import("distrobox.zig");
 const fastfetch = @import("fastfetch.zig");
 const shell = @import("shell.zig");
 
@@ -23,7 +24,6 @@ fn addRepos(allocator: mem.Allocator) !void {
     try addBraveRepo(allocator);
 }
 
-// TODO do i need the alias?
 fn addRepo(allocator: mem.Allocator, uri: []const u8, alias: []const u8) !void {
     log.debug("adding repo with uri: {s}, and alias: {s}", .{ uri, alias });
 
@@ -128,7 +128,7 @@ fn captureSysInfo(allocator: mem.Allocator) !void {
 
     try fastfetch.capture(
         allocator,
-        fastfetch.Host.local,
+        distrobox.Host.local,
         "~/.dotfiles/src/zypper/zypper_fastfetch__auto.txt",
     );
 }

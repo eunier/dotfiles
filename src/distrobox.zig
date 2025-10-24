@@ -9,6 +9,8 @@ const shell = @import("shell.zig");
 
 const log = std.log.scoped(.distrobox);
 
+pub const Host = enum { local, arch_container };
+
 pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
     try addArchBox(alc);
@@ -135,7 +137,7 @@ fn captureSystemInfo(alc: mem.Allocator) !void {
 
     try fastfetch.capture(
         alc,
-        fastfetch.Host.arch_container,
+        Host.arch_container,
         "~/.dotfiles/src/distrobox/distrobox_fastfetch__auto.txt",
     );
 }
