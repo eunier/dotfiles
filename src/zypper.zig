@@ -114,7 +114,7 @@ fn captureRepos(allocator: mem.Allocator) !void {
 fn captureInstalled(allocator: mem.Allocator) !void {
     _ = try shell.exec(
         allocator,
-        "zypper se --installed-only > ~/.dotfiles/src/zypper/zypper_installed__auto.txt",
+        "zypper search --details --installed-only > ~/.dotfiles/src/zypper/zypper_installed__auto.txt",
     );
 
     _ = try shell.disableSpellchecker(
