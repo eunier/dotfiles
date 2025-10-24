@@ -16,7 +16,6 @@ fn updateGlobalPackages(allocator: mem.Allocator) !void {
 fn installGlobalPackages(allocator: mem.Allocator) !void {
     _ = try distrobox.exec(allocator,
         \\bun add --global --exact \
-        \\  bash-language-server \
-        \\  prettier
+        \\  cli-task-manager
     );
 }

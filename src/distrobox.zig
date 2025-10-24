@@ -81,14 +81,16 @@ fn installPackages(alc: mem.Allocator) !void {
     log.info("installing packages", .{});
 
     _ = try exec(alc,
-        \\pikaur --sync --needed --noconfirm \
-        \\  bun-bin \
-        \\  cmatrix \
-        \\  fastfetch \
-        \\  filen-cli-bin \
-        \\  fnm-bin \
-        \\  keepassxc \
-        \\  pnpm-bin
+        \\pikaur --sync --needed --exact --noconfirm \
+        \\  aur/bun-bin \
+        \\  aur/filen-cli-bin \
+        \\  aur/fnm-bin \
+        \\  aur/pnpm-bin \
+        \\  extra/bash-language-server \
+        \\  extra/cmatrix \
+        \\  extra/fastfetch \
+        \\  extra/keepassxc \
+        \\  extra/prettier
     );
 }
 
