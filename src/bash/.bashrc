@@ -12,8 +12,8 @@
 
 test -s ~/.alias && . ~/.alias || true
 
-export EDITOR=vim
-export VISUAL=vim
+export EDITOR=nvim
+export VISUAL=nvim
 
 # vscodium
 export VSCODE_GALLERY_SERVICE_URL="https://marketplace.visualstudio.com/_apis/public/gallery"
@@ -37,3 +37,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # fnm
 eval "$(fnm env --use-on-cd --shell bash)"
+
+# homebrew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+export HOMEBREW_NO_ANALYTICS=1

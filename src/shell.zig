@@ -18,7 +18,29 @@ pub const EnvVar = enum {
     }
 };
 
-pub fn exec(alc: mem.Allocator, cmd: []const u8) !process.Child.Term {
+/// Spawns a child process, waits for it, collecting stdout and stderr, and then returns. If it
+/// succeeds, the caller owns result.stdout and result.stderr memory.
+pub fn run(
+    alc: mem.Allocator,
+    comptime fmt: []const u8,
+    args: anytype,
+) process.Child.RunError!process.Child.RunResult {
+    const cmd = try fmt_mod.allocPrint(alc, fmt, args);
+    defer alc.free(cmd);
+    log.debug("running {s}", .{cmd});
+
+    return process.Child.run(
+        .{
+            .allocator = alc,
+            .argv = &[_][]const u8{ "bash", "-c", cmd },
+        },
+    );
+}
+
+pub fn exec(alc: mem.Allocator, comptime fmt: []const u8, args: anytype) !process.Child.Term {
+    const cmd = try fmt_mod.allocPrint(alc, fmt, args);
+    defer alc.free(cmd);
+
     var process_child = process.Child.init(
         &[_][]const u8{ "bash", "-c", cmd },
         alc,
@@ -28,26 +50,60 @@ pub fn exec(alc: mem.Allocator, cmd: []const u8) !process.Child.Term {
     return try process_child.spawnAndWait();
 }
 
-pub fn execFmt(alc: mem.Allocator, comptime fmt: []const u8, args: anytype) !process.Child.Term {
-    const cmd = try fmt_mod.allocPrint(alc, fmt, args);
-    defer alc.free(cmd);
-    return try exec(alc, cmd);
+pub fn ensureBackupExists(alc: mem.Allocator, file: []const u8) !void {
+    const fileExist = try doesFileExist(alc, file);
+
+    if (!fileExist) {
+        const dest = try fmt_mod.allocPrint(alc, "{s}.bak", .{file});
+        defer alc.free(dest);
+        log.info("{s} does not exist, making backup", .{file});
+        try copy(alc, file, dest);
+    } else {
+        log.info("{s} already exist, skipping backup", .{file});
+    }
+}
+
+pub fn doesFileExist(alc: mem.Allocator, file: []const u8) !bool {
+    const res = try run(alc, "[ -e {s} ] && echo 1 || echo 0", .{file});
+    defer alc.free(res.stderr);
+    defer alc.free(res.stdout);
+    const out = std.mem.trim(u8, res.stdout, " \r\n\t");
+    const exist = out.len > 0 and out[0] == '1';
+    log.debug("file \"{s}\" does {s} exist", .{ file, if (exist) "" else "not" });
+    return exist;
+}
+
+pub fn doesFileContains(
+    alc: mem.Allocator,
+    comptime file: []const u8,
+    comptime substr: []const u8,
+) !bool {
+    const res = try run(
+        alc,
+        "grep -q \"{s}\" {s} && echo 1 || echo 0",
+        .{ substr, file },
+    );
+
+    defer alc.free(res.stderr);
+    defer alc.free(res.stdout);
+    const out = std.mem.trim(u8, res.stdout, " \r\n\t");
+    const contains = out.len > 0 and out[0] == '1';
+
+    log.debug(
+        "file \"{s}\" does {s} contains",
+        .{ file, if (contains) "" else "not" },
+    );
+
+    return contains;
 }
 
 pub fn makeExecutable(alc: mem.Allocator, path: []const u8) !void {
     log.info("making file {s} executable", .{path});
-    _ = try execFmt(alc, "chmod +x {s}", .{path});
+    _ = try exec(alc, "chmod +x {s}", .{path});
 }
 
 pub fn isCmdAvailable(alc: mem.Allocator, cmd: []const u8) !bool {
-    const cmd_str = try fmt_mod.allocPrint(
-        alc,
-        "which {s} >/dev/null 2>&1",
-        .{cmd},
-    );
-
-    defer alc.free(cmd_str);
-    const result = try exec(alc, cmd_str);
+    const result = try exec(alc, "which {s} >/dev/null 2>&1", .{cmd});
 
     const available = switch (result) {
         .Exited => |code| code == 0,
@@ -62,29 +118,29 @@ pub fn isCmdAvailable(alc: mem.Allocator, cmd: []const u8) !bool {
     return available;
 }
 
-pub fn copy(alc: mem.Allocator, src: []const u8, dest: []u8) !void {
-    const cmd_str = try fmt_mod.allocPrint(
-        alc,
-        "cp {s} {s}",
-        .{ src, dest },
-    );
-
-    defer alc.free(cmd_str);
-    _ = try exec(alc, cmd_str);
+pub fn copy(alc: mem.Allocator, src: []const u8, dest: []const u8) !void {
+    log.debug("coping {s} {s}", .{ src, dest });
+    _ = try exec(alc, "cp {s} {s}", .{ src, dest });
 }
 
 pub fn makeDir(alc: mem.Allocator, dir: []const u8) !void {
-    const cmd_str = try fmt_mod.allocPrint(alc, "mkdir -p {s}", .{dir});
-    defer alc.free(cmd_str);
-    _ = try exec(alc, cmd_str);
+    log.debug("making dir {s}", .{dir});
+    _ = try exec(alc, "mkdir -p {s}", .{dir});
 }
 
 pub fn symLink(alc: mem.Allocator, target: []const u8, dir: []const u8) !void {
-    _ = try execFmt(alc, "ln -sf {s} {s}", .{ target, dir });
+    log.debug("sym linking {s} {s}", .{ target, dir });
+
+    _ = try exec(
+        alc,
+        "ln --symbolic --force --no-dereference --no-target-directory {s} {s}",
+        .{ target, dir },
+    );
 }
 
 pub fn disableSpellchecker(alc: mem.Allocator, path: []const u8) !void {
-    _ = try execFmt(alc, "sed -i '1i spellchecker: disable' {s}", .{path});
+    log.debug("disabling spell checker {s}", .{path});
+    _ = try exec(alc, "echo \"spellchecker: disable\" > {s}", .{path});
 }
 
 test "exec" {
@@ -118,4 +174,13 @@ test "isCmdAvailable" {
 
     try std.testing.expect(bashAvailable);
     try std.testing.expect(!nonExistentCmdAvailable);
+}
+
+test "fileExist" {
+    var gpa = std.heap.GeneralPurposeAllocator(.{}){};
+    const alc = gpa.alc();
+    const should_exist = try doesFileExist(alc, "~/.dotfiles/src/shell.zig");
+    try std.testing.expect(should_exist);
+    const should_not_exist = try doesFileExist(alc, "~/.dotfiles/src/z.zig");
+    try std.testing.expect(!should_not_exist);
 }

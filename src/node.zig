@@ -3,7 +3,7 @@ const mem = std.mem;
 
 const distrobox = @import("distrobox.zig");
 
-pub fn sync(allocator: mem.Allocator) !void {
-    _ = try distrobox.exec(allocator, "fnm install 25");
-    _ = try distrobox.exec(allocator, "fnm use 25");
+pub fn sync(alc: mem.Allocator) !void {
+    try distrobox.exec(alc, "fnm install 25", .{});
+    try distrobox.exec(alc, "fnm use 25", .{});
 }

@@ -5,18 +5,18 @@ const shell = @import("shell.zig");
 
 const log = std.log.scoped(.river);
 
-pub fn sync(allocator: mem.Allocator) !void {
+pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
-    try symLink(allocator);
+    try symLink(alc);
 }
 
-fn symLink(allocator: mem.Allocator) !void {
+fn symLink(alc: mem.Allocator) !void {
     log.info("sym linking", .{});
 
-    try shell.makeExecutable(allocator, "~/.dotfiles/src/river/river_init");
+    try shell.makeExecutable(alc, "~/.dotfiles/src/river/river_init");
 
     _ = try shell.symLink(
-        allocator,
+        alc,
         "~/.dotfiles/src/river/river_init",
         "~/.config/river/init",
     );

@@ -5,7 +5,6 @@ const shell = @import("shell.zig");
 
 const log = std.log.scoped(.jj);
 
-// TODO set editor to neovim
 pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
     try symLin(alc);

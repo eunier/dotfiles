@@ -16,7 +16,7 @@ pub fn sync(alc: mem.Allocator) !void {
 
 fn mountBackupDisk(alc: mem.Allocator) !void {
     log.info("mounting backup disk", .{});
-    _ = try shell.exec(alc, "udisksctl mount -b /dev/disk/by-label/External");
+    _ = try shell.exec(alc, "udisksctl mount -b /dev/disk/by-label/External", .{});
 }
 
 fn backupKeePass(alc: mem.Allocator) !void {
@@ -33,7 +33,7 @@ fn backupKeePass(alc: mem.Allocator) !void {
 
     defer alc.free(dest);
 
-    _ = try shell.execFmt(
+    _ = try shell.exec(
         alc,
         "sudo cp ~/Documents/Applications/KeePass/Safe.kdbx {s}",
         .{dest},
@@ -43,17 +43,35 @@ fn backupKeePass(alc: mem.Allocator) !void {
         \\rsync --archive --verbose --human-readable --progress \
         \\  ~/Documents/Applications/KeePass \
         \\  /run/media/$USER/External/
-    );
+    , .{});
 }
 
 fn backupDotfiles(alc: mem.Allocator) !void {
     log.info("backing up dotfiles", .{});
-    _ = try shell.exec(alc, "udisksctl mount -b /dev/sda");
+    _ = try shell.exec(alc, "udisksctl mount -b /dev/sda", .{});
     try shell.makeDir(alc, "/run/media/$USER/External/Dotfiles");
 
     _ = try shell.exec(alc,
-        \\rsync --archive --verbose --human-readable --progress --exclude=".zig-cache" \
+        \\rsync --archive --verbose --human-readable --progress \
+        \\  --exclude=".zig-cache" --exclude="zig-out" \
         \\  ~/.dotfiles/ \
         \\  /run/media/$USER/External/Dotfiles
-    );
+    , .{});
+
+    _ = try shell.exec(alc,
+        \\cd ~/code/com.github.eunier.dotfiles/dotfiles
+        \\find . -mindepth 1 -name .git -prune -o -exec rm -rf {{}} +
+    , .{});
+
+    _ = try shell.exec(alc,
+        \\rsync --archive --verbose --human-readable --progress \
+        \\  --exclude=".zig-cache" --exclude="zig-out" --exclude=".git" \
+        \\  ~/.dotfiles/ \
+        \\  ~/code/com.github.eunier.dotfiles/dotfiles
+    , .{});
+
+    _ = try shell.exec(alc,
+        \\  cd ~/code/reposync
+        \\  zig build run
+    , .{});
 }

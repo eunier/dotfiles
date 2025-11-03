@@ -6,3 +6,5 @@ email = "yunieralvarez@gmail.com"
 
 [ui]
 pager = "cat"
+default-revset = "all()"
+default-command = "log"

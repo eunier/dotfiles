@@ -4,5 +4,6 @@
 *.local.txt
 *.tar
 /.zig-cache/
+/logs/
 /zig-out/
 node_modules/

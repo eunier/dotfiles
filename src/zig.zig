@@ -5,30 +5,59 @@ const shell = @import("shell.zig");
 
 const log = std.log.scoped(.zig);
 
-pub fn sync(allocator: mem.Allocator) !void {
+pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
-    try install(allocator);
-    try use(allocator);
-    try initScript(allocator);
-    try captureVersion(allocator);
+    try add(alc);
+    try use(alc);
+    try initScript(alc);
+    try snapVersion(alc);
 }
 
-fn install(allocator: mem.Allocator) !void {
-    _ = try shell.exec(allocator, "zvm install --zls 0.15.2");
+fn add(alc: mem.Allocator) !void {
+    log.info("adding", .{});
+    _ = try shell.exec(alc, "zvm install --zls 0.15.2", .{});
 }
 
-fn use(allocator: mem.Allocator) !void {
-    _ = try shell.exec(allocator, "zvm use 0.15.2");
+fn use(alc: mem.Allocator) !void {
+    log.info("using", .{});
+    _ = try shell.exec(alc, "zvm use 0.15.2", .{});
 }
 
-fn initScript(allocator: mem.Allocator) !void {
-    _ = try shell.exec(allocator, "echo \"#!/usr/bin/env bash\" > ~/.dotfiles/scripts/init.sh");
-    _ = try shell.exec(allocator, "echo \"sudo zypper install zvm\" >> ~/.dotfiles/scripts/init.sh");
-    _ = try shell.exec(allocator, "echo \"zvm install --zls 0.15.2\" >> ~/.dotfiles/scripts/init.sh");
-    _ = try shell.exec(allocator, "echo \"zvm use 0.15.2\" >> ~/.dotfiles/scripts/init.sh");
+fn initScript(alc: mem.Allocator) !void {
+    log.info("init script", .{});
+
+    _ = try shell.exec(
+        alc,
+        "echo \"#!/usr/bin/env bash\" > ~/.dotfiles/scripts/init.sh",
+        .{},
+    );
+
+    _ = try shell.exec(
+        alc,
+        "echo \"sudo zypper install zvm\" >> ~/.dotfiles/scripts/init.sh",
+        .{},
+    );
+
+    _ = try shell.exec(
+        alc,
+        "echo \"zvm install --zls 0.15.2\" >> ~/.dotfiles/scripts/init.sh",
+        .{},
+    );
+
+    _ = try shell.exec(
+        alc,
+        "echo \"zvm use 0.15.2\" >> ~/.dotfiles/scripts/init.sh",
+        .{},
+    );
 }
 
-fn captureVersion(allocator: mem.Allocator) !void {
-    _ = try shell.makeDir(allocator, "~/.dotfiles/src/zig");
-    _ = try shell.exec(allocator, "zvm ls --all > ~/.dotfiles/src/zig/zig-versions.txt");
+fn snapVersion(alc: mem.Allocator) !void {
+    log.info("snapping version", .{});
+    try shell.makeDir(alc, "~/.dotfiles/src/zig");
+
+    _ = try shell.exec(
+        alc,
+        "zvm ls --all > ~/.dotfiles/src/zig/zig_versions.snap",
+        .{},
+    );
 }

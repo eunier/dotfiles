@@ -4,18 +4,34 @@ const mem = std.mem;
 const distrobox = @import("distrobox.zig");
 const shell = @import("shell.zig");
 
-pub fn sync(allocator: mem.Allocator) !void {
-    try updateGlobalPackages(allocator);
-    try installGlobalPackages(allocator);
+const log = std.log.scoped(.bun);
+
+pub fn sync(alc: mem.Allocator) !void {
+    log.info("syncing", .{});
+    try updateGlobalPkgs(alc);
+    try snapGlobalPkgs(alc);
 }
 
-fn updateGlobalPackages(allocator: mem.Allocator) !void {
-    _ = try distrobox.exec(allocator, "bun update --global --latest");
+fn updateGlobalPkgs(alc: mem.Allocator) !void {
+    log.info("updating global pkgs", .{});
+    _ = try shell.exec(alc, "bun update --global --latest", .{});
 }
 
-fn installGlobalPackages(allocator: mem.Allocator) !void {
-    _ = try distrobox.exec(allocator,
-        \\bun add --global --exact \
-        \\  cli-task-manager
+fn addGlobalPkgs(alc: mem.Allocator) !void {
+    log.info("adding global pkgs", .{});
+
+    _ = try shell.exec(alc,
+        \\bun add --global \
+        \\  @filen/cli
+    );
+}
+
+fn snapGlobalPkgs(alc: mem.Allocator) !void {
+    log.info("snapping global pkgs", .{});
+
+    _ = try shell.exec(
+        alc,
+        "bun pm ls -g --no-color > ~/.dotfiles/src/bun/bun_added.snap",
+        .{},
     );
 }

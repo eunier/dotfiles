@@ -1,9 +1,0 @@
-gitlab.com
-  ✓ Logged in to gitlab.com as yunieralvarez (/home/tron/.config/glab-cli/config.yml)
-  ✓ Git operations for gitlab.com configured to use ssh protocol.
-  ✓ API calls for gitlab.com are made over https protocol.
-  ✓ REST API Endpoint: https://gitlab.com/api/v4/
-  ✓ GraphQL Endpoint: https://gitlab.com/api/graphql/
-  ✓ Token found: **************************
-A new version of glab has been released: 1.67.0 -> v1.73.1
-https://gitlab.com/gitlab-org/cli/-/releases/v1.73.1

@@ -7,16 +7,21 @@ const shell = @import("shell.zig");
 
 const log = std.log.scoped(.fastfetch);
 
-pub fn show(allocator: mem.Allocator) !void {
+pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
-    _ = try shell.exec(allocator, "fastfetch --logo opensuse");
-    _ = try distrobox.exec(allocator, "fastfetch");
+    try symLink(alc);
 }
 
-pub fn capture(allocator: mem.Allocator, host: distrobox.Host, path: []const u8) !void {
-    log.info("capturing", .{});
+pub fn show(alc: mem.Allocator) !void {
+    log.info("showing", .{});
+    try distrobox.exec(alc, "fastfetch", .{});
+    _ = try shell.exec(alc, "fastfetch --logo opensuse", .{});
+}
 
-    const cmd = try fmt.allocPrint(allocator,
+pub fn snap(alc: mem.Allocator, host: distrobox.Host, path: []const u8) !void {
+    log.info("snapping", .{});
+
+    const cmd_fmt =
         \\fastfetch --logo none --structure os >{s}
         \\{{
         \\  fastfetch --logo none --structure kernel
@@ -31,12 +36,22 @@ pub fn capture(allocator: mem.Allocator, host: distrobox.Host, path: []const u8)
         \\  fastfetch --logo none --structure gpu
         \\  fastfetch --logo none --structure locale
         \\}} >>{s}
-    , .{ path, path });
+    ;
 
-    defer allocator.free(cmd);
+    const cmd_args = .{ path, path };
 
     _ = switch (host) {
-        .local => try shell.exec(allocator, cmd),
-        .arch_container => try distrobox.exec(allocator, cmd),
+        .local => try shell.exec(alc, cmd_fmt, cmd_args),
+        .arch_container => try distrobox.exec(alc, cmd_fmt, cmd_args),
     };
+}
+
+fn symLink(alc: mem.Allocator) !void {
+    log.info("sym linking", .{});
+
+    try shell.symLink(
+        alc,
+        "~/.dotfiles/src/fastfetch/fastfetch_config.jsonc",
+        "~/.config/fastfetch/config.jsonc",
+    );
 }

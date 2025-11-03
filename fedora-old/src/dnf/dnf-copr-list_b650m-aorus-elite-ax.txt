@@ -1,5 +1,0 @@
-copr.fedorainfracloud.org/dusansimic/themes
-copr.fedorainfracloud.org/ilyaz/LACT
-copr.fedorainfracloud.org/pgdev/ghostty
-copr.fedorainfracloud.org/phracek/PyCharm
-copr.fedorainfracloud.org/scottames/ghostty

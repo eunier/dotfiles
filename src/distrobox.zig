@@ -1,8 +1,7 @@
 const std = @import("std");
 const enums = std.enums;
-const fmt = std.fmt;
+const fmt_mod = std.fmt;
 const mem = std.mem;
-const process = std.process;
 
 const fastfetch = @import("fastfetch.zig");
 const shell = @import("shell.zig");
@@ -14,20 +13,23 @@ pub const Host = enum { local, arch_container };
 pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
     try addArchBox(alc);
-    try installPikaur(alc);
+    try addPikaur(alc);
     try update(alc);
-    try installPackages(alc);
+    try addPkgs(alc);
     try exportPackages(alc);
-    try captureSystemInfo(alc);
-    try captureInstalled(alc);
+    try snapSysInfo(alc);
+    try snapAdded(alc);
 }
 
-pub fn exec(alc: mem.Allocator, cmd: []const u8) !process.Child.Term {
-    return try shell.execFmt(alc,
+pub fn exec(alc: mem.Allocator, comptime fmt: []const u8, args: anytype) !void {
+    const box_cmd = try fmt_mod.allocPrint(alc, fmt, args);
+    defer alc.free(box_cmd);
+
+    _ = try shell.exec(alc,
         \\distrobox enter --name arch -- bash -lc '
         \\  {s}
         \\'
-    , .{cmd});
+    , .{box_cmd});
 }
 
 fn addArchBox(alc: mem.Allocator) !void {
@@ -37,74 +39,96 @@ fn addArchBox(alc: mem.Allocator) !void {
         \\if ! distrobox list | grep -q "arch"; then
         \\  distrobox create --image archlinux:latest --name arch
         \\fi
-    );
-
-    _ = try shell.exec(alc,
-        \\distrobox enter arch -- bash -lc '
-        \\  sudo pacman --sync --refresh --sysupgrade --needed --noconfirm \
-        \\      base-devel \
-        \\      git \
-        \\      vim
-        \\'
-    );
-}
-
-fn installPikaur(alc: mem.Allocator) !void {
-    log.info("installing pikaur", .{});
-
-    _ = try shell.exec(
-        alc,
-        "git clone https://aur.archlinux.org/pikaur.git ~/Projects/org.archlinux.aur.pikaur/pikaur",
-    );
-
-    _ = try shell.exec(alc,
-        \\cd ~/Projects/org.archlinux.aur.pikaur/pikaur &&
-        \\git pull
-    );
+    , .{});
 
     _ = try exec(alc,
+        \\sudo pacman --sync --refresh --sysupgrade --needed --noconfirm \
+        \\  base-devel \
+        \\  git \
+        \\  vim
+    , .{});
+}
+
+fn addPikaur(alc: mem.Allocator) !void {
+    log.info("add pikaur", .{});
+
+    _ = try shell.exec(alc,
+        \\cd ~/code/org.archlinux.aur.pikaur/pikaur &&
+        \\git pull
+    , .{});
+
+    try exec(alc,
         \\if ! command -v pikaur >/dev/null 2>&1; then
-        \\  cd ~/Projects/org.archlinux.aur.pikaur/pikaur
+        \\  cd ~/code/org.archlinux.aur.pikaur/pikaur
         \\  git reset --hard
         \\  git clean -xfd
         \\  makepkg -fsri --noconfirm
         \\fi
-    );
+    , .{});
 }
 
 fn update(alc: mem.Allocator) !void {
     log.info("updating", .{});
-    _ = try exec(alc, "pikaur --sync --refresh --sysupgrade --devel --noconfirm");
+    try exec(alc, "pikaur --sync --refresh --sysupgrade --devel --noconfirm", .{});
 }
 
-fn installPackages(alc: mem.Allocator) !void {
-    log.info("installing packages", .{});
+fn addPkgs(alc: mem.Allocator) !void {
+    log.info("add pkgs", .{});
 
-    _ = try exec(alc,
-        \\pikaur --sync --needed --exact --noconfirm \
-        \\  aur/bun-bin \
-        \\  aur/filen-cli-bin \
-        \\  aur/fnm-bin \
-        \\  aur/pnpm-bin \
-        \\  extra/bash-language-server \
-        \\  extra/cmatrix \
-        \\  extra/fastfetch \
-        \\  extra/keepassxc \
-        \\  extra/prettier
-    );
+    try exec(alc,
+        \\pikaur --sync --refresh --sysupgrade --needed --noconfirm \
+        \\  bash-language-server \
+        \\  blanket \
+        \\  bun-bin \
+        \\  cmatrix \
+        \\  extension-manager \
+        \\  fastfetch \
+        \\  filen-desktop-bin \
+        \\  fish \
+        \\  fnm-bin \
+        \\  gnome-font-viewer \
+        \\  keepassxc \
+        \\  meow-nvim \
+        \\  neovim-nightly-bin \
+        \\  obsidian \
+        \\  pnpm-bin \
+        \\  prettier \
+        \\  shellcheck \
+        \\  shfmt \
+        \\  syncthing \
+        \\  zsh
+    , .{});
 }
 
-const ExportableCli = enum { bun, cmatrix, filen_cli, fnm, pnpm };
-const ExportableApp = enum { keepassxc };
-
+/// `distrobox-export --delete --bin/--app "$(which cli-or-app-name)"` to manually remove exported
+/// cli or app
 fn exportPackages(alc: mem.Allocator) !void {
-    log.info("exporting packages", .{});
+    log.info("exporting pkgs", .{});
+    try exportClis(alc);
+    try exportApps(alc);
+}
+
+const ExportableCli = enum {
+    bash_language_server,
+    bun,
+    cmatrix,
+    fnm,
+    meow,
+    pnpm,
+    prettier,
+    shellcheck,
+    shfmt,
+    syncthing,
+};
+
+fn exportClis(alc: mem.Allocator) !void {
+    log.info("exporting clis", .{});
 
     for (enums.values(ExportableCli)) |cli| {
         const tag = @tagName(cli);
 
         const name = switch (cli) {
-            .filen_cli => "filen-cli",
+            .bash_language_server => "bash-language-server",
             else => tag,
         };
 
@@ -114,47 +138,50 @@ fn exportPackages(alc: mem.Allocator) !void {
         }
 
         log.info("exporting cli {s}.", .{name});
-
-        _ = try shell.execFmt(alc,
-            \\distrobox enter arch -- bash -lc '
-            \\  distrobox-export --bin "$(which {s})"
-            \\'
-        , .{name});
+        try exec(alc, "distrobox-export --bin \"$(which {s})\"", .{name});
     }
+}
+
+const ExportableApp = enum {
+    blanket,
+    extension_manager,
+    filen_desktop_bin,
+    gnome_font_viewer,
+    keepassxc,
+    obsidian,
+};
+
+fn exportApps(alc: mem.Allocator) !void {
+    log.info("exporting apps", .{});
 
     for (enums.values(ExportableApp)) |app| {
-        const name = @tagName(app);
-        log.info("exporting app {s}", .{name});
+        const tag = @tagName(app);
 
-        _ = try shell.execFmt(alc,
-            \\distrobox enter arch -- bash -lc '
-            \\  distrobox-export --app {s} --export-label "none"
-            \\'
-        , .{name});
+        const name = switch (app) {
+            .extension_manager => "extension-manager",
+            .filen_desktop_bin => "filen-desktop",
+            .gnome_font_viewer => "gnome-font-viewer",
+            else => tag,
+        };
+
+        log.info("exporting app {s}", .{name});
+        try exec(alc, "distrobox-export --app {s} --export-label \"none\"", .{name});
     }
 }
 
-fn captureSystemInfo(alc: mem.Allocator) !void {
-    log.info("capturing system info", .{});
+fn snapSysInfo(alc: mem.Allocator) !void {
+    log.info("snapping system info", .{});
 
-    try fastfetch.capture(
+    try fastfetch.snap(
         alc,
         Host.arch_container,
-        "~/.dotfiles/src/distrobox/distrobox_fastfetch__auto.txt",
+        "~/.dotfiles/src/distrobox/distrobox_fastfetch",
     );
 }
 
-fn captureInstalled(alc: mem.Allocator) !void {
-    log.info("Capturing installed", .{});
-    const path = "~/.dotfiles/src/distrobox/distrobox_installed__auto.txt";
-    _ = try shell.execFmt(alc, "echo \"spellchecker: disable\" > {s}", .{path});
-
-    const cmd = try fmt.allocPrint(
-        alc,
-        "pikaur --query --info >> {s}",
-        .{path},
-    );
-
-    defer alc.free(cmd);
-    _ = try exec(alc, cmd);
+fn snapAdded(alc: mem.Allocator) !void {
+    log.info("snapping added", .{});
+    const path = "~/.dotfiles/src/distrobox/distrobox_added.snap";
+    try shell.disableSpellchecker(alc, path);
+    try exec(alc, "pikaur --query --info >> {s}", .{path});
 }

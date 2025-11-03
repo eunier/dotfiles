@@ -1,21 +1,32 @@
 {
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "cSpell.userWords": [
+    "anytype",
     "autofetch",
     "Cascadia",
+    "Clis",
     "comptime",
     "deinit",
     "distrobox",
     "kdbx",
+    "keybinds",
+    "nvim",
+    "Pkgs",
+    "Propo",
     "udisksctl",
     "usize"
   ],
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit"
   },
-  "editor.fontFamily": "Cascadia Code, 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontFamily": "UbuntuMono Nerd Font Mono, JetBrainsMono Nerd Font Mono, CaskaydiaMono Nerd Font Mono, 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontSize": 16,
+  "editor.fontWeight": "normal",
   "editor.formatOnSave": true,
   "editor.rulers": [100],
   "editor.wordWrap": "on",
@@ -25,9 +36,14 @@
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "always",
-  "material-icon-theme.folders.theme": "none",
+  "material-icon-theme.folders.theme": "classic",
+  "outline.collapseItems": "alwaysCollapse",
+  "terminal.integrated.fontFamily": "UbuntuMono Nerd Font Propo",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "normal",
   "todo-tree.highlights.enabled": false,
   "window.autoDetectColorScheme": true,
+  "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${profileName}${separator}${appName}",
   "workbench.colorTheme": "ZED One Theme Dark",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.preferredDarkColorTheme": "ZED One Theme Dark",
