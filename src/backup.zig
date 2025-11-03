@@ -12,6 +12,8 @@ pub fn sync(alc: mem.Allocator) !void {
     try mountBackupDisk(alc);
     try backupKeePass(alc);
     try backupDotfiles(alc);
+    try backupUtils(alc);
+    try runReposync(alc);
 }
 
 fn mountBackupDisk(alc: mem.Allocator) !void {
@@ -69,6 +71,26 @@ fn backupDotfiles(alc: mem.Allocator) !void {
         \\  ~/.dotfiles/ \
         \\  ~/code/com.github.eunier.dotfiles/dotfiles
     , .{});
+}
+
+fn backupUtils(alc: mem.Allocator) !void {
+    log.info("backing up utils", .{});
+
+    _ = try shell.exec(alc,
+        \\cd ~/code/com.github.eunier.utils/utils
+        \\find . -mindepth 1 -name .git -prune -o -exec rm -rf {{}} +
+    , .{});
+
+    _ = try shell.exec(alc,
+        \\rsync --archive --verbose --human-readable --progress \
+        \\  --exclude=".zig-cache" --exclude="zig-out" --exclude=".git" \
+        \\  ~/code/utils/ \
+        \\  ~/code/com.github.eunier.utils/utils
+    , .{});
+}
+
+fn runReposync(alc: mem.Allocator) !void {
+    log.info("running reposync", .{});
 
     _ = try shell.exec(alc,
         \\  cd ~/code/reposync

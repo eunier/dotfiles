@@ -26,6 +26,7 @@ pub const Repo = enum {
     sdlwiki,
     top_down_game,
     utils,
+    utils_github,
     zap,
     zflecs,
     zig_ecs,
@@ -130,6 +131,10 @@ pub const Repo = enum {
             .utils => parts = &.{
                 "git@gitlab.com:yunieralvarez/utils.git ",
                 "~/code/com.gitlab.yunieralvarez.utils/utils",
+            },
+            .utils_github => parts = &.{
+                "git@github.com:eunier/utils.git ",
+                "~/code/com.github.eunier.utils/utils",
             },
             .zap => parts = &.{
                 "https://github.com/zigzap/zap.git ",

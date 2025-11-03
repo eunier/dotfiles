@@ -3,6 +3,8 @@
 │   └── ziglings
 ├── com.github.eunier.dotfiles
 │   └── dotfiles
+├── com.github.eunier.utils
+│   └── utils
 ├── com.github.libsdl-org.SDL
 │   └── SDL
 ├── com.github.libsdl-org.sdlwiki
@@ -60,4 +62,4 @@
 ├── reposync -> /home/tron/code/com.gitlab.yunieralvarez.reposync/reposync
 └── utils -> /home/tron/code/com.gitlab.yunieralvarez.utils/utils
 
-61 directories, 0 files
+63 directories, 0 files
