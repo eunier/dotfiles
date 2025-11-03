@@ -1,395 +1,0 @@
-[gitlab.com_paulcarroty_vscodium_repo]
-name=gitlab.com_paulcarroty_vscodium_repo
-baseurl=https://download.vscodium.com/rpms/
-enabled=1
-gpgcheck=1
-repo_gpgcheck=1
-gpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
-metadata_expire=1h
-Adding repository 'Brave Browser' [...error]
-Repository 'Main Update Repository' is up to date.
-Repository 'Brave Browser' is up to date.
-Repository 'Main Repository (NON-OSS)' is up to date.
-Repository 'Main Repository (OSS)' is up to date.
-Repository 'gitlab.com_paulcarroty_vscodium_repo' is up to date.
-Repository 'Open H.264 Codec (openSUSE Tumbleweed)' is up to date.
-All repositories have been refreshed.
-Loading repository data...
-Reading installed packages...
-Warning: You are about to do a distribution upgrade with all enabled repositories. Make sure these repositories are compatible before you continue. See 'man zypper' for more information about this command.
-Computing distribution upgrade...
-Nothing to do.
-Loading repository data...
-Reading installed packages...
-'brave-browser' is already installed.
-No update candidate for 'brave-browser-1.84.132-1.x86_64'. The highest available version is already installed.
-'zsh' is already installed.
-No update candidate for 'zsh-5.9-12.1.x86_64'. The highest available version is already installed.
-'fish' is already installed.
-No update candidate for 'fish-4.0.6-1.1.x86_64'. The highest available version is already installed.
-'gnome-boxes' is already installed.
-No update candidate for 'gnome-boxes-49.0-1.2.x86_64'. The highest available version is already installed.
-'git' is already installed.
-No update candidate for 'git-2.51.1-1.1.x86_64'. The highest available version is already installed.
-'podman' is already installed.
-No update candidate for 'podman-5.6.2-1.1.x86_64'. The highest available version is already installed.
-'river' is already installed.
-No update candidate for 'river-0.3.12-1.1.x86_64'. The highest available version is already installed.
-'ghostty' is already installed.
-No update candidate for 'ghostty-1.1.3-1.1.x86_64'. The highest available version is already installed.
-'fastfetch' is already installed.
-No update candidate for 'fastfetch-2.54.0-1.1.x86_64'. The highest available version is already installed.
-'distrobox' is already installed.
-No update candidate for 'distrobox-1.8.1.2-1.2.noarch'. The highest available version is already installed.
-'jujutsu' is already installed.
-No update candidate for 'jujutsu-0.34.0-1.1.x86_64'. The highest available version is already installed.
-'foot' is already installed.
-No update candidate for 'foot-1.25.0-1.1.x86_64'. The highest available version is already installed.
-'saja-cascadia-code-fonts' is already installed.
-No update candidate for 'saja-cascadia-code-fonts-2407.24-1.1.noarch'. The highest available version is already installed.
-'zvm' is already installed.
-No update candidate for 'zvm-0.8.10-1.1.x86_64'. The highest available version is already installed.
-'codium' is already installed.
-No update candidate for 'codium-1.105.17075-el8.x86_64'. The highest available version is already installed.
-Resolving package dependencies...
-Nothing to do.
-Loading repository data...
-Reading installed packages...
-Resolving package dependencies...
-Nothing to do.
-Loading repository data...
-Reading installed packages...
-'pattern:devel_C_C++' is already installed.
-No update candidate for 'pattern:devel_C_C++-20170319-4.8.noarch'. The highest available version is already installed.
-Resolving package dependencies...
-Nothing to do.
-Already up to date.
-Zig version 0.15.2 is already installed
-Rerun with the `--force` flag to install anyway
-Determining installed Zig version...
-Selecting ZLS version...
-ZLS version 0.15.0 is already installed
-Now using Zig 0.15.2
-:: Synchronizing package databases...
- core downloading...
- extra downloading...
-:: Starting full system upgrade...
- there is nothing to do
-Already up to date.
-:: Synchronizing package databases...
- core downloading...
- extra downloading...
-:: Starting full system upgrade...
- there is nothing to do
-
-
-:: Synchronizing package databases...
- core downloading...
- extra downloading...
-:: Starting full system upgrade...
- there is nothing to do
-
-Resolving AUR dependencies...
-Resolving AUR dependencies...
-
-Application blanket successfully exported.
-OK!
-blanket will appear in your applications list in a few seconds.
-Application extension-manager successfully exported.
-OK!
-extension-manager will appear in your applications list in a few seconds.
-Application filen-desktop successfully exported.
-OK!
-filen-desktop will appear in your applications list in a few seconds.
-Application gnome-font-viewer successfully exported.
-OK!
-gnome-font-viewer will appear in your applications list in a few seconds.
-Application keepassxc successfully exported.
-OK!
-keepassxc will appear in your applications list in a few seconds.
-Application obsidian successfully exported.
-OK!
-obsidian will appear in your applications list in a few seconds.
-Installing [36mNode v25.1.0[0m (x64)
-Using Node [36mv25.1.0[0m
-bun update v1.3.1 (89fa0f34)
-
-[1.00ms] done
-Installing extensions...
-Extension 'arrrrny.zed-one-theme' v0.2.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'arrrrny.zed-one-theme@1.2.3'.
-Installing extensions...
-Extension 'esbenp.prettier-vscode' v11.0.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'esbenp.prettier-vscode@1.2.3'.
-Installing extensions...
-Extension 'evan-buss.font-switcher' v4.1.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'evan-buss.font-switcher@1.2.3'.
-Installing extensions...
-Extension 'gruntfuggly.todo-tree' v0.0.215 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gruntfuggly.todo-tree@1.2.3'.
-Installing extensions...
-Extension 'jannisx11.batch-rename-extension' v0.0.6 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'jannisx11.batch-rename-extension@1.2.3'.
-Installing extensions...
-Extension 'pkief.copy-branch-name' v1.2.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'pkief.copy-branch-name@1.2.3'.
-Installing extensions...
-Extension 'pkief.material-icon-theme' v5.28.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'pkief.material-icon-theme@1.2.3'.
-Installing extensions...
-Extension 'richie5um2.vscode-sort-json' v1.20.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'richie5um2.vscode-sort-json@1.2.3'.
-Installing extensions...
-Extension 'streetsidesoftware.code-spell-checker' v4.2.6 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'streetsidesoftware.code-spell-checker@1.2.3'.
-Installing extensions...
-Extension 'tamasfe.even-better-toml' v0.21.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'tamasfe.even-better-toml@1.2.3'.
-Installing extensions...
-Extension 'ziglang.vscode-zig' v0.6.14 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'ziglang.vscode-zig@1.2.3'.
-sending incremental file list
-
-sent 1.19K bytes  received 21 bytes  2.42K bytes/sec
-total size is 1.19M  speedup is 986.18
-sending incremental file list
-.git/
-.git/FETCH_HEAD
-            214 100%    0.00kB/s    0:00:00              214 100%    0.00kB/s    0:00:00 (xfr#1, ir-chk=1014/1028)
-.git/HEAD
-             41 100%   40.04kB/s    0:00:00               41 100%   40.04kB/s    0:00:00 (xfr#2, ir-chk=1013/1028)
-.git/index
-          4.95K 100%    4.72MB/s    0:00:00            4.95K 100%    4.72MB/s    0:00:00 (xfr#3, ir-chk=1009/1028)
-.git/logs/HEAD
-         32.77K  88%   31.25MB/s    0:00:00           36.93K 100%   35.22MB/s    0:00:00 (xfr#4, ir-chk=1003/1044)
-.git/logs/refs/heads/main
-         10.62K 100%   10.13MB/s    0:00:00           10.62K 100%   10.13MB/s    0:00:00 (xfr#5, ir-chk=1008/1053)
-.git/logs/refs/remotes/origin/main
-          9.92K 100%    9.46MB/s    0:00:00            9.92K 100%    9.46MB/s    0:00:00 (xfr#6, ir-chk=1005/1053)
-.git/objects/
-.git/objects/33/
-.git/objects/33/a92540df8b315446324d3142e83c6c18196e61
-          1.42K 100%  691.89kB/s    0:00:00            1.42K 100%  691.89kB/s    0:00:00 (xfr#7, ir-chk=1002/1667)
-.git/objects/4e/
-.git/objects/4e/97c1e8980253092a779637279d4e94d627adbf
-            100 100%   48.83kB/s    0:00:00              100 100%   48.83kB/s    0:00:00 (xfr#8, ir-chk=1006/1861)
-.git/objects/7f/
-.git/objects/7f/47589ea212a6c8fc7c7756497ddf7e5c18b2a9
-            243 100%    0.00kB/s    0:00:00              243 100%    0.00kB/s    0:00:00 (xfr#9, ir-chk=1325/2553)
-.git/objects/82/
-.git/objects/82/80ed17e4a4f1ebfb9c530bb5f3befec9117813
-            427 100%  416.99kB/s    0:00:00              427 100%  416.99kB/s    0:00:00 (xfr#10, ir-chk=1300/2553)
-.git/objects/91/
-.git/objects/91/1678940cef6aca2fd153c6a76e247d95d40c06
-          1.96K 100%    1.87MB/s    0:00:00            1.96K 100%    1.87MB/s    0:00:00 (xfr#11, ir-chk=1206/2553)
-.git/objects/93/
-.git/objects/93/06b563e5f34c0677ae3125305778440d0c7485
-            252 100%  246.09kB/s    0:00:00              252 100%  246.09kB/s    0:00:00 (xfr#12, ir-chk=1194/2553)
-.git/objects/bc/
-.git/objects/bc/ed47e9b4ae832396a442848edabebccf630dac
-         32.77K  38%   31.25MB/s    0:00:00           84.51K 100%   80.59MB/s    0:00:00 (xfr#13, ir-chk=1371/3011)
-.git/objects/c0/
-.git/objects/c0/8e7f8e24e4ff6ae5836277fc6b00b1616918bf
-            221 100%  215.82kB/s    0:00:00              221 100%  215.82kB/s    0:00:00 (xfr#14, ir-chk=1338/3011)
-.git/objects/ce/
-.git/objects/ce/3b22bc00d46ec8c9cdfb29d80c5c108d333610
-          1.92K 100%    1.83MB/s    0:00:00            1.92K 100%    1.83MB/s    0:00:00 (xfr#15, ir-chk=1231/3011)
-.git/objects/ed/
-.git/objects/ed/41f30b1dbbbe374b7d23e83b6704462a44fb4f
-            221 100%  215.82kB/s    0:00:00              221 100%  215.82kB/s    0:00:00 (xfr#16, ir-chk=1029/3011)
-.git/objects/fe/
-.git/objects/fe/d634ef30de1fc251165af489b328ceb12c5443
-          1.12K 100%  546.39kB/s    0:00:00            1.12K 100%  546.39kB/s    0:00:00 (xfr#17, ir-chk=1346/3452)
-.git/refs/heads/
-.git/refs/heads/main
-             41 100%   20.02kB/s    0:00:00               41 100%   20.02kB/s    0:00:00 (xfr#18, ir-chk=1326/3452)
-.git/refs/jj/keep/
-.git/refs/jj/keep/9306b563e5f34c0677ae3125305778440d0c7485
-             41 100%   20.02kB/s    0:00:00               41 100%   20.02kB/s    0:00:00 (xfr#19, ir-chk=1375/3733)
-.git/refs/jj/keep/c08e7f8e24e4ff6ae5836277fc6b00b1616918bf
-             41 100%   20.02kB/s    0:00:00               41 100%   20.02kB/s    0:00:00 (xfr#20, ir-chk=1282/3733)
-.git/refs/jj/keep/ed41f30b1dbbbe374b7d23e83b6704462a44fb4f
-             41 100%   20.02kB/s    0:00:00               41 100%   20.02kB/s    0:00:00 (xfr#21, ir-chk=1207/3733)
-.git/refs/remotes/origin/
-.git/refs/remotes/origin/main
-             41 100%   20.02kB/s    0:00:00               41 100%   20.02kB/s    0:00:00 (xfr#22, ir-chk=1177/3733)
-.jj/repo/index/op_links/
-.jj/repo/index/op_links/5e7d64693a826d16dbf5247aa44be53bdf758baab2649156cae97d73c237a1ef270a39b9f173d3e62d6608f64318a373fb9e053432438395b5205f42377fb6ed
-             66 100%   21.48kB/s    0:00:00               66 100%   21.48kB/s    0:00:00 (xfr#23, ir-chk=1440/4179)
-.jj/repo/index/op_links/7279998843cf4088848cc6366720688a98ac8337edcc0f4dd032d7af82d7e142042e5e488c335a2abe64cb3ef2d2778396776271a06b537aa0f63b2a8d719a78
-             66 100%   21.48kB/s    0:00:00               66 100%   21.48kB/s    0:00:00 (xfr#24, ir-chk=1413/4179)
-.jj/repo/index/op_links/9f497bc2ebe50c961516ac5dec409d2c31e4ab3c9158d95501b42b0c4cc5ef83cac74b14b2df86cd0168fa7c42d5d4291f22e776c9e387311466fac3414e7611
-             66 100%   21.48kB/s    0:00:00               66 100%   21.48kB/s    0:00:00 (xfr#25, ir-chk=1325/4179)
-.jj/repo/index/op_links/f283733a83da8746aa7a49a840139265f5af1fe4bc81af5d18c449db5c9f7b787633ddc60f07d6e22e0e6390af6cceb66c86bbe848c11cadc414c72325a0097e
-             66 100%   21.48kB/s    0:00:00               66 100%   21.48kB/s    0:00:00 (xfr#26, ir-chk=1187/4179)
-.jj/repo/index/operations/
-.jj/repo/index/operations/5e7d64693a826d16dbf5247aa44be53bdf758baab2649156cae97d73c237a1ef270a39b9f173d3e62d6608f64318a373fb9e053432438395b5205f42377fb6ed
-            128 100%   31.25kB/s    0:00:00              128 100%   31.25kB/s    0:00:00 (xfr#27, ir-chk=1438/4618)
-.jj/repo/index/operations/7279998843cf4088848cc6366720688a98ac8337edcc0f4dd032d7af82d7e142042e5e488c335a2abe64cb3ef2d2778396776271a06b537aa0f63b2a8d719a78
-            128 100%   31.25kB/s    0:00:00              128 100%   31.25kB/s    0:00:00 (xfr#28, ir-chk=1411/4618)
-.jj/repo/index/operations/9f497bc2ebe50c961516ac5dec409d2c31e4ab3c9158d95501b42b0c4cc5ef83cac74b14b2df86cd0168fa7c42d5d4291f22e776c9e387311466fac3414e7611
-            128 100%   31.25kB/s    0:00:00              128 100%   31.25kB/s    0:00:00 (xfr#29, ir-chk=1323/4618)
-.jj/repo/index/operations/f283733a83da8746aa7a49a840139265f5af1fe4bc81af5d18c449db5c9f7b787633ddc60f07d6e22e0e6390af6cceb66c86bbe848c11cadc414c72325a0097e
-            128 100%   31.25kB/s    0:00:00              128 100%   31.25kB/s    0:00:00 (xfr#30, ir-chk=1185/4618)
-.jj/repo/index/segments/
-.jj/repo/index/segments/a10a6db04e74256c86bfd41ad2b88f5d38a4908a7b9af1d862e8f3cb24a16eeb9991ffe6844e10961cf73fc69f0dd85dd4764e2acefea06124142ee6e12e3dd3
-            320 100%   14.20kB/s    0:00:00              320 100%   14.20kB/s    0:00:00 (xfr#31, ir-chk=1417/5041)
-.jj/repo/index/segments/d4ae1d9688904711d9279617de86f77c358eb8e6799c56f699b4983c174390a380c5bf4dbd915d2e6afaa49a7ad4d0a9125c63ebd7b7c32c1ba7ada05bd83808
-            212 100%    9.41kB/s    0:00:00              212 100%    9.41kB/s    0:00:00 (xfr#32, ir-chk=1351/5041)
-.jj/repo/op_heads/heads/
-.jj/repo/op_heads/heads/9f497bc2ebe50c961516ac5dec409d2c31e4ab3c9158d95501b42b0c4cc5ef83cac74b14b2df86cd0168fa7c42d5d4291f22e776c9e387311466fac3414e7611
-              0 100%    0.00kB/s    0:00:00 (xfr#33, ir-chk=1305/5041)
-.jj/repo/op_store/operations/
-.jj/repo/op_store/operations/5e7d64693a826d16dbf5247aa44be53bdf758baab2649156cae97d73c237a1ef270a39b9f173d3e62d6608f64318a373fb9e053432438395b5205f42377fb6ed
-            332 100%   14.74kB/s    0:00:00              332 100%   14.74kB/s    0:00:00 (xfr#34, to-chk=1212/5119)
-.jj/repo/op_store/operations/7279998843cf4088848cc6366720688a98ac8337edcc0f4dd032d7af82d7e142042e5e488c335a2abe64cb3ef2d2778396776271a06b537aa0f63b2a8d719a78
-            380 100%   16.87kB/s    0:00:00              380 100%   16.87kB/s    0:00:00 (xfr#35, to-chk=1185/5119)
-.jj/repo/op_store/operations/9f497bc2ebe50c961516ac5dec409d2c31e4ab3c9158d95501b42b0c4cc5ef83cac74b14b2df86cd0168fa7c42d5d4291f22e776c9e387311466fac3414e7611
-            268 100%   11.90kB/s    0:00:00              268 100%   11.90kB/s    0:00:00 (xfr#36, to-chk=1097/5119)
-.jj/repo/op_store/operations/f283733a83da8746aa7a49a840139265f5af1fe4bc81af5d18c449db5c9f7b787633ddc60f07d6e22e0e6390af6cceb66c86bbe848c11cadc414c72325a0097e
-            312 100%   13.85kB/s    0:00:00              312 100%   13.85kB/s    0:00:00 (xfr#37, to-chk=959/5119)
-.jj/repo/op_store/views/
-.jj/repo/op_store/views/2dfa0570d4f1e6b377619449d2a285d9333afb37e565b30a42385bc79362d9b76f5a6c6c0d6194017438509ba3b7324af7e3d942a08df93eda075887b9bd67ac
-            556 100%   24.68kB/s    0:00:00              556 100%   24.68kB/s    0:00:00 (xfr#38, to-chk=867/5119)
-.jj/repo/op_store/views/8cd776945abeb117aafc0ccb39ce717f6c5778fe0bce5e4b2d148a497f336fc14d2d91e07c103d994e28261d308b1cbcf5645f56c97df4023bf39abc53db39c8
-            556 100%   24.68kB/s    0:00:00              556 100%   24.68kB/s    0:00:00 (xfr#39, to-chk=708/5119)
-.jj/repo/op_store/views/8d6f5fc7191f34450d721d88dc097e94f9f5a1a9d600936c2daca47bef84fca09165c762223ee572beaba2a0fc52058a0bb06e7b96f2ddebd582525bb8d783a6
-            556 100%   24.68kB/s    0:00:00              556 100%   24.68kB/s    0:00:00 (xfr#40, to-chk=704/5119)
-.jj/repo/op_store/views/9b2bc6fa1ce42fbd3530ac27ee9dd6a1e6d03d1704b53bb940915a0a8d6ba7459e43a52a367b14fcf312543cc9e831352de0c16be5c3746f8cc0fc0e83d230e9
-            556 100%   24.68kB/s    0:00:00              556 100%   24.68kB/s    0:00:00 (xfr#41, to-chk=673/5119)
-.jj/repo/store/extra/
-.jj/repo/store/extra/319cb49e0d52401a49e4a683220660fc55691526e1a325c71a99d170aa22aa82950bd27fe83234a1a068c889b7f31e7d52f7a4f53c2afbd997b7e2b2001374fb
-            202 100%    4.93kB/s    0:00:00              202 100%    4.93kB/s    0:00:00 (xfr#42, to-chk=409/5119)
-.jj/repo/store/extra/47fd3f8a3002795b4be37b89031d7e23b4602af2cab1a57bed30be2488ed0cf150589f819ce67831825289613c45bc2b868b4623ddb9bda1c4e6bffe6251f596
-            312 100%    7.62kB/s    0:00:00              312 100%    7.62kB/s    0:00:00 (xfr#43, to-chk=373/5119)
-.jj/repo/store/extra/f9d4ae65740e057068ef0cb56317d93f1e2418ba29edf8fbd129fc234e59f6aab088d81533c976147266f3e444dd40f72994d0131312ca4bae1c4654ef47b3df
-            268 100%    6.54kB/s    0:00:00              268 100%    6.54kB/s    0:00:00 (xfr#44, to-chk=88/5119)
-.jj/repo/store/extra/heads/
-.jj/repo/store/extra/heads/47fd3f8a3002795b4be37b89031d7e23b4602af2cab1a57bed30be2488ed0cf150589f819ce67831825289613c45bc2b868b4623ddb9bda1c4e6bffe6251f596
-              0 100%    0.00kB/s    0:00:00 (xfr#45, to-chk=77/5119)
-.jj/working_copy/
-.jj/working_copy/checkout
-             75 100%    1.83kB/s    0:00:00               75 100%    1.83kB/s    0:00:00 (xfr#46, to-chk=75/5119)
-.jj/working_copy/tree_state
-          2.08K 100%   50.88kB/s    0:00:00            2.08K 100%   50.88kB/s    0:00:00 (xfr#47, to-chk=74/5119)
-logs/
-logs/20251031_044411.log
-         18.42K 100%  449.68kB/s    0:00:00           18.42K 100%  449.68kB/s    0:00:00 (xfr#48, to-chk=70/5119)
-scripts/init.sh
-             84 100%    2.05kB/s    0:00:00               84 100%    2.05kB/s    0:00:00 (xfr#49, to-chk=69/5119)
-src/autostart/autostart.snap
-            237 100%    5.79kB/s    0:00:00              237 100%    5.79kB/s    0:00:00 (xfr#50, to-chk=27/5119)
-src/bun/bun_added.snap
-              0 100%    0.00kB/s    0:00:00 (xfr#51, to-chk=23/5119)
-src/codium/codium_extensions.snap
-            356 100%    8.69kB/s    0:00:00              356 100%    8.69kB/s    0:00:00 (xfr#52, to-chk=20/5119)
-src/distrobox/distrobox_added.snap
-         32.77K   8%  800.00kB/s    0:00:00          394.15K 100%    9.17MB/s    0:00:00 (xfr#53, to-chk=19/5119)
-src/distrobox/distrobox_fastfetch
-            423 100%   10.08kB/s    0:00:00              423 100%   10.08kB/s    0:00:00 (xfr#54, to-chk=18/5119)
-src/ghostty/ghostty_fonts.snap
-         32.77K  66%  780.49kB/s    0:00:00           49.08K 100%    1.14MB/s    0:00:00 (xfr#55, to-chk=15/5119)
-src/ghostty/ghostty_keybinds.snap
-          2.33K 100%   55.57kB/s    0:00:00            2.33K 100%   55.57kB/s    0:00:00 (xfr#56, to-chk=14/5119)
-src/git/git_repos.snap
-          1.94K 100%   46.28kB/s    0:00:00            1.94K 100%   46.28kB/s    0:00:00 (xfr#57, to-chk=11/5119)
-src/homebrew/homebrew_added.snap
-            241 100%    5.74kB/s    0:00:00              241 100%    5.74kB/s    0:00:00 (xfr#58, to-chk=10/5119)
-src/zig/zig_versions.snap
-            705 100%   16.79kB/s    0:00:00              705 100%   16.79kB/s    0:00:00 (xfr#59, to-chk=6/5119)
-src/zypper/zypper_added.snap
-         32.77K   9%  780.49kB/s    0:00:00          343.96K 100%    4.37MB/s    0:00:00 (xfr#60, to-chk=4/5119)
-src/zypper/zypper_fastfetch.snap
-            456 100%    5.94kB/s    0:00:00              456 100%    5.94kB/s    0:00:00 (xfr#61, to-chk=3/5119)
-src/zypper/zypper_repos.snap
-          1.33K 100%   17.38kB/s    0:00:00            1.33K 100%   17.38kB/s    0:00:00 (xfr#62, to-chk=2/5119)
-
-sent 1.46M bytes  received 1.67K bytes  418.50K bytes/sec
-total size is 78.18M  speedup is 53.38
-                  -`
-                 .o+`
-                `ooo/
-               `+oooo:
-              `+oooooo:
-              -+oooooo+:
-            `/:-:++oooo+:
-           `/++++/+++++++:
-          `/++++++++++++++:
-         `/+++ooooooooooooo/`
-        ./ooosssso++osssssso+`
-       .oossssso-````/ossssss+`
-      -osssssso.      :ssssssso.
-     :osssssss/        osssso+++.
-    /ossssssss/        +ssssooo/-
-  `/ossssso+/:-        -:/+osssso+-
- `+sso+:-`                 `.-/+oso:
-`++:.                           `-/+/
-.`                                 `/[1G[18A[41Ctron@localhost
-[41C--------------
-[41COS: Arch Linux x86_64
-[41CHost: B650M AORUS ELITE AX
-[41CKernel: Linux 6.17.5-1-default
-[41CUptime: 12 hours, 40 mins
-[41CPackages: 448 (pacman)
-[41CShell: conmon
-[41CDisplay (LG HDR QHD): 2560x1440 in 32", 60 Hz [External]
-[41CDisplay (Acer X34): 3440x1440 in 34", 100 Hz [External] *
-[41CDE: GNOME 49.1
-[41CWM: Mutter (Wayland)
-[41CWM Theme: Adwaita
-[41CTheme: Adwaita [GTK2/3/4]
-[41CIcons: Adwaita [GTK2/3/4]
-[41CFont: Adwaita Sans (11pt) [GTK2/3/4]
-[41CCursor: Adwaita (24px)
-[41CTerminal: GNOME Console 49.0
-[41CTerminal Font: CaskaydiaMono Nerd Font Mono (11pt)
-[41CCPU: AMD Ryzen 5 7600X (12) @ 5.46 GHz
-[41CGPU 1: AMD Radeon RX 6950 XT [Discrete]
-[41CGPU 2: AMD Raphael [Integrated]
-[41CMemory: 3.80 GiB / 30.50 GiB (12%)
-[41CSwap: 0 B / 30.50 GiB (0%)
-[41CDisk (/): 107.43 GiB / 900.49 GiB (12%) - overlay
-[41CDisk (/home/tron): 107.43 GiB / 900.49 GiB (12%) - btrfs
-[41CDisk (/run/host/boot/efi): 512.00 KiB / 510.98 MiB (0%) - vfat
-[41CDisk (/run/host/run/media/tron/External): 24.83 GiB / 915.82 GiB (3%) - ext4
-[41CLocal IP (enp14s0): 10.0.0.25/24
-[41CLocale: en_US.UTF-8
-[41C
-[41C[40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [m
-[41C[100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [m
-           .;ldkO0000Okdl;.
-       .;d00xl:^''''''^:ok00d;.
-     .d00l'                'o00d.
-   .d0Kd'  Okxol:;,.          :O0d
-  .OKKKK0kOKKKKKKKKKKOxo:,      lKO.
- ,0KKKKKKKKKKKKKKKK0P^,,,^dx:    ;00,
-.OKKKKKKKKKKKKKKKKk'.oOPPb.'0k.   cKO.
-:KKKKKKKKKKKKKKKKK: kKx..dd lKd   'OK:
-dKKKKKKKKKKKOx0KKKd ^0KKKO' kKKc   dKd
-dKKKKKKKKKKKK;.;oOKx,..^..;kKKK0.  dKd
-:KKKKKKKKKKKK0o;...^cdxxOK0O/^^'  .0K:
- kKKKKKKKKKKKKKKK0x;,,......,;od  lKk
- '0KKKKKKKKKKKKKKKKKKKKK00KKOo^  c00'
-  'kKKKOxddxkOO00000Okxoc;''   .dKk'
-    l0Ko.                    .c00l'
-     'l0Kk:.              .;xK0l'
-        'lkK0xl:;,,,,;:ldO0kl'
-            '^:ldxkkkkxdl:^'[1G[17A[42Ctron@localhost
-[42C--------------
-[42COS: openSUSE Tumbleweed x86_64
-[42CHost: B650M AORUS ELITE AX
-[42CKernel: Linux 6.17.5-1-default
-[42CUptime: 12 hours, 40 mins
-[42CPackages: 2556 (rpm), 10 (brew), 3 (brew-cask)
-[42CShell: _dotfiles
-[42CDisplay (LG HDR QHD): 2560x1440 in 32", 60 Hz [External]
-[42CDisplay (Acer X34): 3440x1440 in 34", 100 Hz [External] *
-[42CDE: GNOME 49.1
-[42CWM: Mutter (Wayland)
-[42CWM Theme: Adwaita
-[42CTheme: Adwaita [GTK2/3/4]
-[42CIcons: Adwaita [GTK2/3/4]
-[42CFont: Adwaita Sans (11pt) [GTK2/3/4]
-[42CCursor: Adwaita (24px)
-[42CTerminal: build
-[42CCPU: AMD Ryzen 5 7600X (12) @ 5.46 GHz
-[42CGPU 1: AMD Radeon RX 6950 XT [Discrete]
-[42CGPU 2: AMD Raphael [Integrated]
-[42CMemory: 3.80 GiB / 30.50 GiB (12%)
-[42CSwap: 0 B / 30.50 GiB (0%)
-[42CDisk (/): 107.43 GiB / 900.49 GiB (12%) - btrfs
-[42CDisk (/run/media/tron/External): 24.83 GiB / 915.82 GiB (3%) - ext4
-[42CLocal IP (enp14s0): 10.0.0.25/24
-[42CLocale: en_US.UTF-8
-[42C
-[42C[40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [m
-[42C[100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [m

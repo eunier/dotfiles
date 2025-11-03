@@ -1,280 +1,0 @@
-[gitlab.com_paulcarroty_vscodium_repo]
-name=gitlab.com_paulcarroty_vscodium_repo
-baseurl=https://download.vscodium.com/rpms/
-enabled=1
-gpgcheck=1
-repo_gpgcheck=1
-gpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
-metadata_expire=1h
-Adding repository 'Brave Browser' [...error]
-Repository 'Main Update Repository' is up to date.
-Repository 'Brave Browser' is up to date.
-Repository 'Main Repository (NON-OSS)' is up to date.
-Repository 'Main Repository (OSS)' is up to date.
-Repository 'gitlab.com_paulcarroty_vscodium_repo' is up to date.
-Repository 'Open H.264 Codec (openSUSE Tumbleweed)' is up to date.
-All repositories have been refreshed.
-Loading repository data...
-Reading installed packages...
-Warning: You are about to do a distribution upgrade with all enabled repositories. Make sure these repositories are compatible before you continue. See 'man zypper' for more information about this command.
-Computing distribution upgrade...
-Nothing to do.
-Loading repository data...
-Reading installed packages...
-'brave-browser' is already installed.
-No update candidate for 'brave-browser-1.84.132-1.x86_64'. The highest available version is already installed.
-'zsh' is already installed.
-No update candidate for 'zsh-5.9-12.1.x86_64'. The highest available version is already installed.
-'fish' is already installed.
-No update candidate for 'fish-4.0.6-1.1.x86_64'. The highest available version is already installed.
-'gnome-boxes' is already installed.
-No update candidate for 'gnome-boxes-49.0-1.2.x86_64'. The highest available version is already installed.
-'git' is already installed.
-No update candidate for 'git-2.51.1-1.1.x86_64'. The highest available version is already installed.
-'podman' is already installed.
-No update candidate for 'podman-5.6.2-1.1.x86_64'. The highest available version is already installed.
-'river' is already installed.
-No update candidate for 'river-0.3.12-1.1.x86_64'. The highest available version is already installed.
-'ghostty' is already installed.
-No update candidate for 'ghostty-1.1.3-1.1.x86_64'. The highest available version is already installed.
-'fastfetch' is already installed.
-No update candidate for 'fastfetch-2.54.0-1.1.x86_64'. The highest available version is already installed.
-'distrobox' is already installed.
-No update candidate for 'distrobox-1.8.1.2-1.2.noarch'. The highest available version is already installed.
-'jujutsu' is already installed.
-No update candidate for 'jujutsu-0.34.0-1.1.x86_64'. The highest available version is already installed.
-'foot' is already installed.
-No update candidate for 'foot-1.25.0-1.1.x86_64'. The highest available version is already installed.
-'saja-cascadia-code-fonts' is already installed.
-No update candidate for 'saja-cascadia-code-fonts-2407.24-1.1.noarch'. The highest available version is already installed.
-'zvm' is already installed.
-No update candidate for 'zvm-0.8.10-1.1.x86_64'. The highest available version is already installed.
-'codium' is already installed.
-No update candidate for 'codium-1.105.17075-el8.x86_64'. The highest available version is already installed.
-Resolving package dependencies...
-Nothing to do.
-Loading repository data...
-Reading installed packages...
-Resolving package dependencies...
-Nothing to do.
-Loading repository data...
-Reading installed packages...
-'pattern:devel_C_C++' is already installed.
-No update candidate for 'pattern:devel_C_C++-20170319-4.8.noarch'. The highest available version is already installed.
-Resolving package dependencies...
-Nothing to do.
-Already up to date.
-Zig version 0.15.2 is already installed
-Rerun with the `--force` flag to install anyway
-Determining installed Zig version...
-Selecting ZLS version...
-ZLS version 0.15.0 is already installed
-Now using Zig 0.15.2
-:: Synchronizing package databases...
- core downloading...
- extra downloading...
-:: Starting full system upgrade...
- there is nothing to do
-Already up to date.
-:: Synchronizing package databases...
- core downloading...
- extra downloading...
-:: Starting full system upgrade...
- there is nothing to do
-
-
-:: Synchronizing package databases...
- core downloading...
- extra downloading...
-:: Starting full system upgrade...
- there is nothing to do
-
-Resolving AUR dependencies...
-Resolving AUR dependencies...
-
-Application blanket successfully exported.
-OK!
-blanket will appear in your applications list in a few seconds.
-Application extension-manager successfully exported.
-OK!
-extension-manager will appear in your applications list in a few seconds.
-Application filen-desktop successfully exported.
-OK!
-filen-desktop will appear in your applications list in a few seconds.
-Application gnome-font-viewer successfully exported.
-OK!
-gnome-font-viewer will appear in your applications list in a few seconds.
-Application keepassxc successfully exported.
-OK!
-keepassxc will appear in your applications list in a few seconds.
-Application obsidian successfully exported.
-OK!
-obsidian will appear in your applications list in a few seconds.
-Installing [36mNode v25.1.0[0m (x64)
-Using Node [36mv25.1.0[0m
-bun update v1.3.1 (89fa0f34)
-
-[1.00ms] done
-Installing extensions...
-Extension 'arrrrny.zed-one-theme' v0.2.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'arrrrny.zed-one-theme@1.2.3'.
-Installing extensions...
-Extension 'esbenp.prettier-vscode' v11.0.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'esbenp.prettier-vscode@1.2.3'.
-Installing extensions...
-Extension 'gruntfuggly.todo-tree' v0.0.215 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gruntfuggly.todo-tree@1.2.3'.
-Installing extensions...
-Extension 'jannisx11.batch-rename-extension' v0.0.6 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'jannisx11.batch-rename-extension@1.2.3'.
-Installing extensions...
-Extension 'pkief.copy-branch-name' v1.2.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'pkief.copy-branch-name@1.2.3'.
-Installing extensions...
-Extension 'pkief.material-icon-theme' v5.28.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'pkief.material-icon-theme@1.2.3'.
-Installing extensions...
-Extension 'richie5um2.vscode-sort-json' v1.20.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'richie5um2.vscode-sort-json@1.2.3'.
-Installing extensions...
-Extension 'streetsidesoftware.code-spell-checker' v4.2.6 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'streetsidesoftware.code-spell-checker@1.2.3'.
-Installing extensions...
-Extension 'tamasfe.even-better-toml' v0.21.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'tamasfe.even-better-toml@1.2.3'.
-Installing extensions...
-Extension 'ziglang.vscode-zig' v0.6.14 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'ziglang.vscode-zig@1.2.3'.
-sending incremental file list
-
-sent 1.19K bytes  received 21 bytes  2.42K bytes/sec
-total size is 1.19M  speedup is 986.18
-sending incremental file list
-./
-.gitignore
-             99 100%    0.00kB/s    0:00:00               99 100%    0.00kB/s    0:00:00 (xfr#1, ir-chk=1016/1018)
-.git/FETCH_HEAD
-            214 100%  104.49kB/s    0:00:00              214 100%  104.49kB/s    0:00:00 (xfr#2, ir-chk=1014/1028)
-.git/objects/
-.git/refs/remotes/origin/
-logs/
-logs/20251030_065650.log
-          8.02K 100%  559.29kB/s    0:00:00            8.02K 100%  559.29kB/s    0:00:00 (xfr#3, to-chk=70/4768)
-scripts/
-scripts/init.sh
-             84 100%    5.86kB/s    0:00:00               84 100%    5.86kB/s    0:00:00 (xfr#4, to-chk=69/4768)
-scripts/run.sh
-             90 100%    6.28kB/s    0:00:00               90 100%    6.28kB/s    0:00:00 (xfr#5, to-chk=68/4768)
-src/autostart/autostart__auto.txt
-            237 100%   16.53kB/s    0:00:00              237 100%   16.53kB/s    0:00:00 (xfr#6, to-chk=27/4768)
-src/bun/bun_added__auto.txt
-              0 100%    0.00kB/s    0:00:00 (xfr#7, to-chk=23/4768)
-src/codium/codium_extensions__auto.txt
-            326 100%   22.74kB/s    0:00:00              326 100%   22.74kB/s    0:00:00 (xfr#8, to-chk=20/4768)
-src/distrobox/distrobox_added__auto.txt
-         32.77K   8%    2.23MB/s    0:00:00          394.15K 100% 1020.99kB/s    0:00:00 (xfr#9, to-chk=19/4768)
-src/distrobox/distrobox_fastfetch__auto.txt
-            423 100%    1.10kB/s    0:00:00              423 100%    1.10kB/s    0:00:00 (xfr#10, to-chk=18/4768)
-src/git/git_repos__auto.txt
-          1.94K 100%    5.03kB/s    0:00:00            1.94K 100%    5.03kB/s    0:00:00 (xfr#11, to-chk=12/4768)
-src/homebrew/homebrew_added__auto.txt
-            205 100%    0.53kB/s    0:00:00              205 100%    0.53kB/s    0:00:00 (xfr#12, to-chk=10/4768)
-src/zig/zig-versions.txt
-            705 100%    1.83kB/s    0:00:00              705 100%    1.83kB/s    0:00:00 (xfr#13, to-chk=6/4768)
-src/zypper/
-src/zypper/zypper_added__auto.txt
-         32.77K   9%   84.88kB/s    0:00:03          344.35K 100%  864.47kB/s    0:00:00 (xfr#14, to-chk=4/4768)
-src/zypper/zypper_fastfetch__auto.txt
-            456 100%    1.14kB/s    0:00:00              456 100%    1.14kB/s    0:00:00 (xfr#15, to-chk=3/4768)
-src/zypper/zypper_repos__auto.txt
-          1.33K 100%    3.35kB/s    0:00:00            1.33K 100%    3.35kB/s    0:00:00 (xfr#16, to-chk=2/4768)
-
-sent 1.20M bytes  received 715 bytes  802.26K bytes/sec
-total size is 77.07M  speedup is 64.04
-                  -`
-                 .o+`
-                `ooo/
-               `+oooo:
-              `+oooooo:
-              -+oooooo+:
-            `/:-:++oooo+:
-           `/++++/+++++++:
-          `/++++++++++++++:
-         `/+++ooooooooooooo/`
-        ./ooosssso++osssssso+`
-       .oossssso-````/ossssss+`
-      -osssssso.      :ssssssso.
-     :osssssss/        osssso+++.
-    /ossssssss/        +ssssooo/-
-  `/ossssso+/:-        -:/+osssso+-
- `+sso+:-`                 `.-/+oso:
-`++:.                           `-/+/
-.`                                 `/[1G[18A[41Ctron@localhost
-[41C--------------
-[41COS: Arch Linux x86_64
-[41CHost: B650M AORUS ELITE AX
-[41CKernel: Linux 6.17.5-1-default
-[41CUptime: 1 day, 9 hours, 52 mins
-[41CPackages: 448 (pacman)
-[41CShell: conmon
-[41CDisplay (LG HDR QHD): 2560x1440 in 32", 60 Hz [External]
-[41CDisplay (Acer X34): 3440x1440 in 34", 100 Hz [External] *
-[41CDE: GNOME 49.1
-[41CWM: Mutter (Wayland)
-[41CWM Theme: Adwaita
-[41CTheme: Adwaita [GTK2/3/4]
-[41CIcons: Adwaita [GTK2/3/4]
-[41CFont: Adwaita Sans (11pt) [GTK2/3/4]
-[41CCursor: Adwaita (24px)
-[41CTerminal: ghostty 1.1.3
-[41CCPU: AMD Ryzen 5 7600X (12) @ 5.46 GHz
-[41CGPU 1: AMD Radeon RX 6950 XT [Discrete]
-[41CGPU 2: AMD Raphael [Integrated]
-[41CMemory: 7.04 GiB / 30.50 GiB (23%)
-[41CSwap: 0 B / 30.50 GiB (0%)
-[41CDisk (/): 107.43 GiB / 900.49 GiB (12%) - overlay
-[41CDisk (/home/tron): 107.43 GiB / 900.49 GiB (12%) - btrfs
-[41CDisk (/run/host/boot/efi): 512.00 KiB / 510.98 MiB (0%) - vfat
-[41CDisk (/run/host/run/media/tron/External): 24.83 GiB / 915.82 GiB (3%) - ext4
-[41CLocal IP (enp14s0): 10.0.0.25/24
-[41CLocale: en_US.UTF-8
-[41C
-[41C[40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [m
-[41C[100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [m
-           .;ldkO0000Okdl;.
-       .;d00xl:^''''''^:ok00d;.
-     .d00l'                'o00d.
-   .d0Kd'  Okxol:;,.          :O0d
-  .OKKKK0kOKKKKKKKKKKOxo:,      lKO.
- ,0KKKKKKKKKKKKKKKK0P^,,,^dx:    ;00,
-.OKKKKKKKKKKKKKKKKk'.oOPPb.'0k.   cKO.
-:KKKKKKKKKKKKKKKKK: kKx..dd lKd   'OK:
-dKKKKKKKKKKKOx0KKKd ^0KKKO' kKKc   dKd
-dKKKKKKKKKKKK;.;oOKx,..^..;kKKK0.  dKd
-:KKKKKKKKKKKK0o;...^cdxxOK0O/^^'  .0K:
- kKKKKKKKKKKKKKKK0x;,,......,;od  lKk
- '0KKKKKKKKKKKKKKKKKKKKK00KKOo^  c00'
-  'kKKKOxddxkOO00000Okxoc;''   .dKk'
-    l0Ko.                    .c00l'
-     'l0Kk:.              .;xK0l'
-        'lkK0xl:;,,,,;:ldO0kl'
-            '^:ldxkkkkxdl:^'[1G[17A[42Ctron@localhost
-[42C--------------
-[42COS: openSUSE Tumbleweed x86_64
-[42CHost: B650M AORUS ELITE AX
-[42CKernel: Linux 6.17.5-1-default
-[42CUptime: 1 day, 9 hours, 52 mins
-[42CPackages: 2559 (rpm), 10 (brew), 2 (brew-cask)
-[42CShell: _dotfiles
-[42CDisplay (LG HDR QHD): 2560x1440 in 32", 60 Hz [External]
-[42CDisplay (Acer X34): 3440x1440 in 34", 100 Hz [External] *
-[42CDE: GNOME 49.1
-[42CWM: Mutter (Wayland)
-[42CWM Theme: Adwaita
-[42CTheme: Adwaita [GTK2/3/4]
-[42CIcons: Adwaita [GTK2/3/4]
-[42CFont: Adwaita Sans (11pt) [GTK2/3/4]
-[42CCursor: Adwaita (24px)
-[42CTerminal: build
-[42CCPU: AMD Ryzen 5 7600X (12) @ 5.46 GHz
-[42CGPU 1: AMD Radeon RX 6950 XT [Discrete]
-[42CGPU 2: AMD Raphael [Integrated]
-[42CMemory: 7.03 GiB / 30.50 GiB (23%)
-[42CSwap: 0 B / 30.50 GiB (0%)
-[42CDisk (/): 107.43 GiB / 900.49 GiB (12%) - btrfs
-[42CDisk (/run/media/tron/External): 24.83 GiB / 915.82 GiB (3%) - ext4
-[42CLocal IP (enp14s0): 10.0.0.25/24
-[42CLocale: en_US.UTF-8
-[42C
-[42C[40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [m
-[42C[100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [m
