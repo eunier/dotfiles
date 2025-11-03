@@ -95,7 +95,7 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  jujutsu \
         \\  podman \
         \\  river \
-        \\  saja-cascadia-code-fonts \
+        \\  zellij \
         \\  zsh \
         \\  zvm
     , .{});
