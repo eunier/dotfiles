@@ -1,0 +1,4 @@
+# spell-checker: disable
+
+zdharma-continuum/fast-syntax-highlighting kind:defer
+zsh-users/zsh-autosuggestions

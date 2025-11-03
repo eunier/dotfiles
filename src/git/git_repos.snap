@@ -1,0 +1,63 @@
+/home/tron/code
+├── com.codeberg.ziglings
+│   └── ziglings
+├── com.github.eunier.dotfiles
+│   └── dotfiles
+├── com.github.libsdl-org.SDL
+│   └── SDL
+├── com.github.libsdl-org.sdlwiki
+│   └── libsdl-org
+├── com.github.linuxy.coyote-ecs
+│   └── coyote-ecs
+├── com.github.Not-Nik.raylib-zig
+│   └── raylib-zig
+├── com.github.prime31.zig-ecs
+│   └── zig-ecs
+├── com.github.pwbh.SDL
+│   └── SDL
+├── com.github.SanderMertens.flecs
+│   └── flecs
+├── com.github.zig-gamedev.zflecs
+│   └── zflecs
+├── com.github.zig-gamedev.zig-gamedev
+│   └── zig-gamedev
+├── com.github.ziglang.zig
+│   └── zig
+├── com.github.zigzap.zap
+│   └── zap
+├── com.gitlab.yunieralvarez.ecs-ts
+│   └── ecs-ts
+├── com.gitlab.yunieralvarez.ecs-zig
+│   └── ecs-zig
+├── com.gitlab.yunieralvarez.expense-tracker
+│   └── expense-tracker
+├── com.gitlab.yunieralvarez.game-top-down-shooter-rs
+│   └── game-top-dow-shooter-rs
+├── com.gitlab.yunieralvarez.game-tracker
+│   └── game-tracker
+├── com.gitlab.yunieralvarez.godot-first-person-shooter-demo
+│   └── godot-first-person-shooter-demo
+├── com.gitlab.yunieralvarez.playground
+│   └── playground
+├── com.gitlab.yunieralvarez.qmkl
+│   └── qmkl
+├── com.gitlab.yunieralvarez.repo
+│   └── repo
+├── com.gitlab.yunieralvarez.repo-resources
+│   └── repo-resources
+├── com.gitlab.yunieralvarez.reposync
+│   └── reposync
+├── com.gitlab.yunieralvarez.top-down-game
+│   └── top-down-game
+├── com.gitlab.yunieralvarez.utils
+│   └── utils
+├── ocm.github.raysan5.raylib
+│   └── raylib
+├── org.archlinux.aur.pikaur
+│   └── pikaur
+├── org.gitlab.gnome.GNOME.gnome-calendar
+│   └── gnome-calendar
+├── reposync -> /home/tron/code/com.gitlab.yunieralvarez.reposync/reposync
+└── utils -> /home/tron/code/com.gitlab.yunieralvarez.utils/utils
+
+61 directories, 0 files

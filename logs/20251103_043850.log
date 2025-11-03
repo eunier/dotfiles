@@ -1,0 +1,356 @@
+[gitlab.com_paulcarroty_vscodium_repo]
+name=gitlab.com_paulcarroty_vscodium_repo
+baseurl=https://download.vscodium.com/rpms/
+enabled=1
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
+metadata_expire=1h
+Adding repository 'Brave Browser' [...error]
+Repository 'Main Update Repository' is up to date.
+Repository 'Brave Browser' is up to date.
+Repository 'Main Repository (NON-OSS)' is up to date.
+Repository 'Main Repository (OSS)' is up to date.
+Repository 'gitlab.com_paulcarroty_vscodium_repo' is up to date.
+Repository 'Open H.264 Codec (openSUSE Tumbleweed)' is up to date.
+All repositories have been refreshed.
+Loading repository data...
+Reading installed packages...
+Warning: You are about to do a distribution upgrade with all enabled repositories. Make sure these repositories are compatible before you continue. See 'man zypper' for more information about this command.
+Computing distribution upgrade...
+Nothing to do.
+Loading repository data...
+Reading installed packages...
+'brave-browser' is already installed.
+No update candidate for 'brave-browser-1.84.132-1.x86_64'. The highest available version is already installed.
+'zsh' is already installed.
+No update candidate for 'zsh-5.9-12.1.x86_64'. The highest available version is already installed.
+'fish' is already installed.
+No update candidate for 'fish-4.0.6-1.1.x86_64'. The highest available version is already installed.
+'gnome-boxes' is already installed.
+No update candidate for 'gnome-boxes-49.0-1.2.x86_64'. The highest available version is already installed.
+'git' is already installed.
+No update candidate for 'git-2.51.1-1.1.x86_64'. The highest available version is already installed.
+'podman' is already installed.
+No update candidate for 'podman-5.6.2-1.1.x86_64'. The highest available version is already installed.
+'river' is already installed.
+No update candidate for 'river-0.3.12-1.1.x86_64'. The highest available version is already installed.
+'ghostty' is already installed.
+No update candidate for 'ghostty-1.1.3-1.1.x86_64'. The highest available version is already installed.
+'fastfetch' is already installed.
+No update candidate for 'fastfetch-2.54.0-1.1.x86_64'. The highest available version is already installed.
+'distrobox' is already installed.
+No update candidate for 'distrobox-1.8.1.2-1.2.noarch'. The highest available version is already installed.
+'glab' is already installed.
+No update candidate for 'glab-1.74.0-1.1.x86_64'. The highest available version is already installed.
+'jujutsu' is already installed.
+No update candidate for 'jujutsu-0.34.0-1.1.x86_64'. The highest available version is already installed.
+'foot' is already installed.
+No update candidate for 'foot-1.25.0-1.1.x86_64'. The highest available version is already installed.
+'htop' is already installed.
+No update candidate for 'htop-3.4.1-1.1.x86_64'. The highest available version is already installed.
+'saja-cascadia-code-fonts' is already installed.
+No update candidate for 'saja-cascadia-code-fonts-2407.24-1.1.noarch'. The highest available version is already installed.
+'zvm' is already installed.
+No update candidate for 'zvm-0.8.10-1.1.x86_64'. The highest available version is already installed.
+'codium' is already installed.
+No update candidate for 'codium-1.105.17075-el8.x86_64'. The highest available version is already installed.
+Resolving package dependencies...
+Nothing to do.
+Loading repository data...
+Reading installed packages...
+Resolving package dependencies...
+Nothing to do.
+Loading repository data...
+Reading installed packages...
+'pattern:devel_C_C++' is already installed.
+No update candidate for 'pattern:devel_C_C++-20170319-4.8.noarch'. The highest available version is already installed.
+Resolving package dependencies...
+Nothing to do.
+Already up to date.
+Zig version 0.15.2 is already installed
+Rerun with the `--force` flag to install anyway
+Determining installed Zig version...
+Selecting ZLS version...
+ZLS version 0.15.0 is already installed
+Now using Zig 0.15.2
+:: Synchronizing package databases...
+ core downloading...
+ extra downloading...
+:: Starting full system upgrade...
+ there is nothing to do
+Already up to date.
+:: Synchronizing package databases...
+ core downloading...
+ extra downloading...
+:: Starting full system upgrade...
+ there is nothing to do
+
+
+:: Synchronizing package databases...
+ core downloading...
+ extra downloading...
+:: Starting full system upgrade...
+ there is nothing to do
+
+Resolving AUR dependencies...
+Resolving AUR dependencies...
+
+There is news from archlinux.org!
+
+dovecot >= 2.4 requires manual intervention (Fri, 31 Oct 2025 21:20:51 +0000)
+    The dovecot 2.4 release branch has made breaking changes which result
+    in it being incompatible with any <= 2.3 configuration file.
+    Thus, the dovecot service will no longer be able to start until the
+    configuration file was migrated, requiring manual intervention.
+    For guidance on the 2.3-to-2.4 migration, please refer to the
+    following upstream documentation:
+    [0;1m[036mUpgrading Dovecot CE from 2.3 to 2.4[0;0m: https://doc.dovecot.org/latest/installation/upgrade/2.3-to-2.4.html 
+    Furthermore, the dovecot 2.4 branch no longer supports their
+    replication feature, it was removed.
+    For users relying on the replication feature or who are unable to
+    perform the 2.4 migration right now, we provide alternative packages
+    available in [extra]:
+    
+    - dovecot23
+    - pigeonhole23
+    - dovecot23-fts-elastic
+    - dovecot23-fts-xapian
+    
+    The dovecot 2.3 release branch is going to [0;1m[036mreceive critical security
+    fixes[0;0m: https://dovecot.org/mailman3/archives/list/dovecot@dovecot.org/thread/3P45L76DOC3NKUNSSPIXQNKINGOCYH5K/ 
+    from upstream until stated otherwise.
+
+
+Application blanket successfully exported.
+OK!
+blanket will appear in your applications list in a few seconds.
+Application extension-manager successfully exported.
+OK!
+extension-manager will appear in your applications list in a few seconds.
+Application filen-desktop successfully exported.
+OK!
+filen-desktop will appear in your applications list in a few seconds.
+Application gnome-font-viewer successfully exported.
+OK!
+gnome-font-viewer will appear in your applications list in a few seconds.
+Application keepassxc successfully exported.
+OK!
+keepassxc will appear in your applications list in a few seconds.
+Application obsidian successfully exported.
+OK!
+obsidian will appear in your applications list in a few seconds.
+Installing [36mNode v25.1.0[0m (x64)
+Using Node [36mv25.1.0[0m
+bun update v1.3.1 (89fa0f34)
+
+[1.00ms] done
+Installing extensions...
+Extension 'arrrrny.zed-one-theme' v0.2.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'arrrrny.zed-one-theme@1.2.3'.
+Installing extensions...
+Extension 'esbenp.prettier-vscode' v11.0.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'esbenp.prettier-vscode@1.2.3'.
+Installing extensions...
+Extension 'evan-buss.font-switcher' v4.1.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'evan-buss.font-switcher@1.2.3'.
+Installing extensions...
+Extension 'gruntfuggly.todo-tree' v0.0.215 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'gruntfuggly.todo-tree@1.2.3'.
+Installing extensions...
+Extension 'jannisx11.batch-rename-extension' v0.0.6 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'jannisx11.batch-rename-extension@1.2.3'.
+Installing extensions...
+Extension 'pkief.copy-branch-name' v1.2.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'pkief.copy-branch-name@1.2.3'.
+Installing extensions...
+Extension 'pkief.material-icon-theme' v5.28.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'pkief.material-icon-theme@1.2.3'.
+Installing extensions...
+Extension 'richie5um2.vscode-sort-json' v1.20.0 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'richie5um2.vscode-sort-json@1.2.3'.
+Installing extensions...
+Extension 'streetsidesoftware.code-spell-checker' v4.2.6 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'streetsidesoftware.code-spell-checker@1.2.3'.
+Installing extensions...
+Extension 'tamasfe.even-better-toml' v0.21.2 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'tamasfe.even-better-toml@1.2.3'.
+Installing extensions...
+Extension 'ziglang.vscode-zig' v0.6.14 is already installed. Use '--force' option to update to latest version or provide '@<version>' to install a specific version, for example: 'ziglang.vscode-zig@1.2.3'.
+sending incremental file list
+
+sent 1.19K bytes  received 21 bytes  2.42K bytes/sec
+total size is 1.19M  speedup is 986.18
+sending incremental file list
+.git/FETCH_HEAD
+            214 100%    0.00kB/s    0:00:00              214 100%    0.00kB/s    0:00:00 (xfr#1, ir-chk=1012/1026)
+.git/objects/
+.git/refs/remotes/origin/
+logs/
+logs/20251103_043850.log
+          9.64K 100%  627.54kB/s    0:00:00            9.64K 100%  627.54kB/s    0:00:00 (xfr#2, to-chk=79/5766)
+scripts/init.sh
+             84 100%    5.47kB/s    0:00:00               84 100%    5.47kB/s    0:00:00 (xfr#3, to-chk=78/5766)
+src/autostart/autostart.snap
+            116 100%    7.55kB/s    0:00:00              116 100%    7.55kB/s    0:00:00 (xfr#4, to-chk=32/5766)
+src/bun/bun_added.snap
+              0 100%    0.00kB/s    0:00:00 (xfr#5, to-chk=26/5766)
+src/codium/codium_extensions.snap
+            393 100%   25.59kB/s    0:00:00              393 100%   25.59kB/s    0:00:00 (xfr#6, to-chk=23/5766)
+src/distrobox/distrobox_added.snap
+         32.77K   8%    2.08MB/s    0:00:00          394.22K 100% 1013.10kB/s    0:00:00 (xfr#7, to-chk=22/5766)
+src/distrobox/distrobox_fastfetch
+            423 100%    1.09kB/s    0:00:00              423 100%    1.09kB/s    0:00:00 (xfr#8, to-chk=21/5766)
+src/fonts/fonts.snap
+         11.91K 100%   30.61kB/s    0:00:00           11.91K 100%   30.61kB/s    0:00:00 (xfr#9, to-chk=19/5766)
+src/ghostty/ghostty_fonts.snap
+         32.77K  66%   84.21kB/s    0:00:00           49.54K 100%  127.32kB/s    0:00:00 (xfr#10, to-chk=17/5766)
+src/ghostty/ghostty_keybinds.snap
+          2.33K 100%    6.00kB/s    0:00:00            2.33K 100%    6.00kB/s    0:00:00 (xfr#11, to-chk=16/5766)
+src/git/git_repos.snap
+          2.23K 100%    5.74kB/s    0:00:00            2.23K 100%    5.74kB/s    0:00:00 (xfr#12, to-chk=13/5766)
+src/gitlab/gitlab_auth_status.snap
+            382 100%    0.98kB/s    0:00:00              382 100%    0.98kB/s    0:00:00 (xfr#13, to-chk=12/5766)
+src/homebrew/homebrew_added.snap
+            274 100%    0.70kB/s    0:00:00              274 100%    0.70kB/s    0:00:00 (xfr#14, to-chk=10/5766)
+src/zig/zig_versions.snap
+            706 100%    1.81kB/s    0:00:00              706 100%    1.81kB/s    0:00:00 (xfr#15, to-chk=6/5766)
+src/zypper/zypper_added.snap
+         32.77K   9%   84.21kB/s    0:00:03          345.03K 100%  850.86kB/s    0:00:00 (xfr#16, to-chk=4/5766)
+src/zypper/zypper_fastfetch.snap
+            456 100%    1.12kB/s    0:00:00              456 100%    1.12kB/s    0:00:00 (xfr#17, to-chk=3/5766)
+src/zypper/zypper_repos.snap
+          1.33K 100%    3.29kB/s    0:00:00            1.33K 100%    3.29kB/s    0:00:00 (xfr#18, to-chk=2/5766)
+
+sent 1.37M bytes  received 743 bytes  915.38K bytes/sec
+total size is 79.28M  speedup is 57.74
+sending incremental file list
+.git/FETCH_HEAD
+            214 100%    0.00kB/s    0:00:00              214 100%    0.00kB/s    0:00:00 (xfr#1, ir-chk=1012/1026)
+.git/objects/
+.git/refs/remotes/origin/
+logs/
+logs/20251103_043850.log
+         12.35K 100%  861.33kB/s    0:00:00           12.35K 100%  861.33kB/s    0:00:00 (xfr#2, to-chk=79/5766)
+scripts/init.sh
+             84 100%    5.47kB/s    0:00:00               84 100%    5.47kB/s    0:00:00 (xfr#3, to-chk=78/5766)
+src/autostart/autostart.snap
+            116 100%    7.55kB/s    0:00:00              116 100%    7.55kB/s    0:00:00 (xfr#4, to-chk=32/5766)
+src/bun/bun_added.snap
+              0 100%    0.00kB/s    0:00:00 (xfr#5, to-chk=26/5766)
+src/codium/codium_extensions.snap
+            393 100%   25.59kB/s    0:00:00              393 100%   25.59kB/s    0:00:00 (xfr#6, to-chk=23/5766)
+src/distrobox/distrobox_added.snap
+         32.77K   8%    2.08MB/s    0:00:00          394.22K 100%   25.06MB/s    0:00:00 (xfr#7, to-chk=22/5766)
+src/distrobox/distrobox_fastfetch
+            423 100%   27.54kB/s    0:00:00              423 100%   27.54kB/s    0:00:00 (xfr#8, to-chk=21/5766)
+src/fonts/fonts.snap
+         11.91K 100%  775.46kB/s    0:00:00           11.91K 100%  775.46kB/s    0:00:00 (xfr#9, to-chk=19/5766)
+src/ghostty/ghostty_fonts.snap
+         32.77K  66%    1.95MB/s    0:00:00           49.54K 100%    2.95MB/s    0:00:00 (xfr#10, to-chk=17/5766)
+src/ghostty/ghostty_keybinds.snap
+          2.33K 100%  142.40kB/s    0:00:00            2.33K 100%  142.40kB/s    0:00:00 (xfr#11, to-chk=16/5766)
+src/git/git_repos.snap
+          2.23K 100%  136.23kB/s    0:00:00            2.23K 100%  136.23kB/s    0:00:00 (xfr#12, to-chk=13/5766)
+src/gitlab/gitlab_auth_status.snap
+            382 100%   23.32kB/s    0:00:00              382 100%   23.32kB/s    0:00:00 (xfr#13, to-chk=12/5766)
+src/homebrew/homebrew_added.snap
+            274 100%   16.72kB/s    0:00:00              274 100%   16.72kB/s    0:00:00 (xfr#14, to-chk=10/5766)
+src/zig/zig_versions.snap
+            706 100%   43.09kB/s    0:00:00              706 100%   43.09kB/s    0:00:00 (xfr#15, to-chk=6/5766)
+src/zypper/zypper_added.snap
+         32.77K   9%    1.95MB/s    0:00:00          345.03K 100%   19.36MB/s    0:00:00 (xfr#16, to-chk=4/5766)
+src/zypper/zypper_fastfetch.snap
+            456 100%   26.19kB/s    0:00:00              456 100%   26.19kB/s    0:00:00 (xfr#17, to-chk=3/5766)
+src/zypper/zypper_repos.snap
+          1.33K 100%   76.69kB/s    0:00:00            1.33K 100%   76.69kB/s    0:00:00 (xfr#18, to-chk=2/5766)
+
+sent 1.38M bytes  received 751 bytes  2.75M bytes/sec
+total size is 79.28M  speedup is 57.62
+                  -`
+                 .o+`
+                `ooo/
+               `+oooo:
+              `+oooooo:
+              -+oooooo+:
+            `/:-:++oooo+:
+           `/++++/+++++++:
+          `/++++++++++++++:
+         `/+++ooooooooooooo/`
+        ./ooosssso++osssssso+`
+       .oossssso-````/ossssss+`
+      -osssssso.      :ssssssso.
+     :osssssss/        osssso+++.
+    /ossssssss/        +ssssooo/-
+  `/ossssso+/:-        -:/+osssso+-
+ `+sso+:-`                 `.-/+oso:
+`++:.                           `-/+/
+.`                                 `/[1G[18A[41Ctron@localhost
+[41C--------------
+[41COS: Arch Linux x86_64
+[41CHost: B650M AORUS ELITE AX
+[41CKernel: Linux 6.17.5-1-default
+[41CUptime: 2 days, 21 mins
+[41CPackages: 448 (pacman)
+[41CShell: conmon
+[41CDisplay (LG HDR QHD): 2560x1440 in 32", 60 Hz [External]
+[41CDisplay (Acer X34): 3440x1440 in 34", 100 Hz [External] *
+[41CDE: GNOME 49.1
+[41CWM: Mutter (Wayland)
+[41CWM Theme: Adwaita
+[41CTheme: Adwaita [GTK2/3/4]
+[41CIcons: Adwaita [GTK2/3/4]
+[41CFont: Adwaita Sans (11pt) [GTK2/3/4]
+[41CCursor: Adwaita (24px)
+[41CTerminal: ghostty 1.1.3
+[41CCPU: AMD Ryzen 5 7600X (12) @ 5.46 GHz
+[41CGPU 1: AMD Radeon RX 6950 XT [Discrete]
+[41CGPU 2: AMD Raphael [Integrated]
+[41CMemory: 9.86 GiB / 30.50 GiB (32%)
+[41CSwap: 0 B / 30.50 GiB (0%)
+[41CDisk (/): 82.31 GiB / 900.49 GiB (9%) - overlay
+[41CDisk (/etc/hosts): 82.31 GiB / 900.49 GiB (9%) - btrfs [Read-only]
+[41CDisk (/run/host/boot/efi): 512.00 KiB / 510.98 MiB (0%) - vfat
+[41CDisk (/run/host/run/media/tron/External): 24.84 GiB / 915.82 GiB (3%) - ext4
+[41CLocal IP (enp14s0): 10.0.0.25/24
+[41CLocale: en_US.UTF-8
+[41C
+[41C[40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [m
+[41C[100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [m
+           .;ldkO0000Okdl;.
+       .;d00xl:^''''''^:ok00d;.
+     .d00l'                'o00d.
+   .d0Kd'  Okxol:;,.          :O0d
+  .OKKKK0kOKKKKKKKKKKOxo:,      lKO.
+ ,0KKKKKKKKKKKKKKKK0P^,,,^dx:    ;00,
+.OKKKKKKKKKKKKKKKKk'.oOPPb.'0k.   cKO.
+:KKKKKKKKKKKKKKKKK: kKx..dd lKd   'OK:
+dKKKKKKKKKKKOx0KKKd ^0KKKO' kKKc   dKd
+dKKKKKKKKKKKK;.;oOKx,..^..;kKKK0.  dKd
+:KKKKKKKKKKKK0o;...^cdxxOK0O/^^'  .0K:
+ kKKKKKKKKKKKKKKK0x;,,......,;od  lKk
+ '0KKKKKKKKKKKKKKKKKKKKK00KKOo^  c00'
+  'kKKKOxddxkOO00000Okxoc;''   .dKk'
+    l0Ko.                    .c00l'
+     'l0Kk:.              .;xK0l'
+        'lkK0xl:;,,,,;:ldO0kl'
+            '^:ldxkkkkxdl:^'[1G[17A[42Ctron@localhost
+[42C--------------
+[42COS: openSUSE Tumbleweed x86_64
+[42CHost: B650M AORUS ELITE AX
+[42CKernel: Linux 6.17.5-1-default
+[42CUptime: 2 days, 21 mins
+[42CPackages: 2564 (rpm), 10 (brew), 4 (brew-cask)
+[42CShell: _dotfiles
+[42CDisplay (LG HDR QHD): 2560x1440 in 32", 60 Hz [External]
+[42CDisplay (Acer X34): 3440x1440 in 34", 100 Hz [External] *
+[42CDE: GNOME 49.1
+[42CWM: Mutter (Wayland)
+[42CWM Theme: Adwaita
+[42CTheme: Adwaita [GTK2/3/4]
+[42CIcons: Adwaita [GTK2/3/4]
+[42CFont: Adwaita Sans (11pt) [GTK2/3/4]
+[42CCursor: Adwaita (24px)
+[42CTerminal: build
+[42CCPU: AMD Ryzen 5 7600X (12) @ 5.46 GHz
+[42CGPU 1: AMD Radeon RX 6950 XT [Discrete]
+[42CGPU 2: AMD Raphael [Integrated]
+[42CMemory: 9.86 GiB / 30.50 GiB (32%)
+[42CSwap: 0 B / 30.50 GiB (0%)
+[42CDisk (/): 82.31 GiB / 900.49 GiB (9%) - btrfs
+[42CDisk (/run/media/tron/External): 24.84 GiB / 915.82 GiB (3%) - ext4
+[42CLocal IP (enp14s0): 10.0.0.25/24
+[42CLocale: en_US.UTF-8
+[42C
+[42C[40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [m
+[42C[100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [m

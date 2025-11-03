@@ -1,0 +1,14 @@
+OS: openSUSE Tumbleweed x86_64
+Kernel: Linux 6.17.5-1-default
+Packages: 2564 (rpm), 10 (brew), 4 (brew-cask)
+Display (LG HDR QHD): 2560x1440 in 32", 60 Hz [External]
+Display (Acer X34): 3440x1440 in 34", 100 Hz [External] *
+DE: GNOME 49.1
+WM: Mutter (Wayland)
+WM Theme: Adwaita
+Icons: Adwaita [GTK2/3/4]
+Font: Adwaita Sans (11pt) [GTK2/3/4]
+Cursor: Adwaita (24px)
+GPU 1: AMD Radeon RX 6950 XT [Discrete]
+GPU 2: AMD Raphael [Integrated]
+Locale: en_US.UTF-8

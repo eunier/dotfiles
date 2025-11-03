@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Filen
+Exec=/usr/bin/distrobox-enter  -n arch  --   filen-desktop  %U 
+Terminal=false
+Type=Application
+Icon=filen-desktop
+StartupWMClass=Filen
+Comment=Filen Desktop Client
+Categories=Utility;
