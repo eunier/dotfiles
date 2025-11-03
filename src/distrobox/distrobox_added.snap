@@ -4843,7 +4843,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : libdrm
-Version         : 2.4.127-1
+Version         : 2.4.128-1
 Description     : Userspace interface to kernel DRM services
 Architecture    : x86_64
 URL             : https://dri.freedesktop.org/
@@ -4856,10 +4856,10 @@ Required By     : electron34  electron37  gst-plugins-bad-libs  gst-plugins-base
 Optional For    : fastfetch
 Conflicts With  : None
 Replaces        : libdrm-new  libdrm-nouveau
-Installed Size  : 1293.30 KiB
+Installed Size  : 1293.25 KiB
 Packager        : Laurent Carlier <lordheavym@archlinux.org>
-Build Date      : Sun 19 Oct 2025 10:55:08 AM EDT
-Install Date    : Sat 01 Nov 2025 05:28:14 AM EDT
+Build Date      : Sun 02 Nov 2025 05:02:36 AM EST
+Install Date    : Mon 03 Nov 2025 05:56:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
