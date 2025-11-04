@@ -24,8 +24,8 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": "explicit"
   },
-  "editor.fontFamily": "UbuntuMono Nerd Font Mono, JetBrainsMono Nerd Font Mono, CaskaydiaMono Nerd Font Mono, 'Droid Sans Mono', 'monospace', monospace",
-  "editor.fontSize": 16,
+  "editor.fontFamily": "CaskaydiaMono Nerd Font Mono, UbuntuMono Nerd Font Mono, JetBrainsMono Nerd Font Mono, 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontSize": 15,
   "editor.fontWeight": "normal",
   "editor.formatOnSave": true,
   "editor.rulers": [100],
@@ -38,8 +38,8 @@
   "git.openRepositoryInParentFolders": "always",
   "material-icon-theme.folders.theme": "classic",
   "outline.collapseItems": "alwaysCollapse",
-  "terminal.integrated.fontFamily": "UbuntuMono Nerd Font Propo",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font Propo",
+  "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontWeight": "normal",
   "todo-tree.highlights.enabled": false,
   "window.autoDetectColorScheme": true,

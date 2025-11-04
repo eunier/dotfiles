@@ -34,7 +34,9 @@ export PATH="$PATH:$ZVM_INSTALL/"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(fnm env --use-on-cd --shell zsh)"
 eval "$(oh-my-posh init zsh --config 'stelbent-compact.minimal')"
+eval "$(zellij setup --generate-auto-start zsh)"
 
+# shellcheck disable=SC1091,SC2086
 source ${ZDOTDIR:-~}/.antidote/antidote.zsh
 antidote load
 

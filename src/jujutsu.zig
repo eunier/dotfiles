@@ -15,7 +15,7 @@ fn symLin(alc: mem.Allocator) !void {
 
     try shell.symLink(
         alc,
-        "~/.dotfiles/src/jj/jj_config.toml",
+        "~/.dotfiles/src/jujutsu/jujutsu_config.toml",
         "~/.config/jj/config.toml",
     );
 }

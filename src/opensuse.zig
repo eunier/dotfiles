@@ -13,7 +13,7 @@ const ghostty = @import("ghostty.zig");
 const git = @import("git.zig");
 const gitlab = @import("gitlab.zig");
 const homebrew = @import("homebrew.zig");
-const jj = @import("jj.zig");
+const jujutsu = @import("jujutsu.zig");
 const node = @import("node.zig");
 const river = @import("river.zig");
 const zig = @import("zig.zig");
@@ -32,7 +32,7 @@ pub fn sync(alc: mem.Allocator) !void {
     try distrobox.sync(alc);
     try node.sync(alc);
     try bun.sync(alc);
-    try jj.sync(alc);
+    try jujutsu.sync(alc);
     try codium.sync(alc);
     try ghostty.sync(alc);
     try river.sync(alc);
