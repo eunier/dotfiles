@@ -52,6 +52,7 @@ fn addExts(alc: mem.Allocator) !void {
         "pkief.material-icon-theme",
         "richie5um2.vscode-sort-json",
         "streetsidesoftware.code-spell-checker",
+        "sumneko.lua",
         "tamasfe.even-better-toml",
         "ziglang.vscode-zig",
     };

@@ -14,6 +14,7 @@ const git = @import("git.zig");
 const gitlab = @import("gitlab.zig");
 const homebrew = @import("homebrew.zig");
 const jujutsu = @import("jujutsu.zig");
+const neovim = @import("neovim.zig");
 const node = @import("node.zig");
 const river = @import("river.zig");
 const zig = @import("zig.zig");
@@ -39,4 +40,5 @@ pub fn sync(alc: mem.Allocator) !void {
     try autostart.sync(alc);
     try fonts.sync(alc);
     try fastfetch.sync(alc);
+    try neovim.sync(alc);
 }
