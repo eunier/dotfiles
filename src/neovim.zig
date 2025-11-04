@@ -7,7 +7,7 @@ const log = std.log.scoped(.neovim);
 
 pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
-    _ = alc;
+    try symLink(alc);
 }
 
 fn symLink(alc: mem.Allocator) !void {
