@@ -9,6 +9,6 @@ pub fn main() !void {
     var gpa = heap.GeneralPurposeAllocator(.{}){};
     const alc = gpa.allocator();
     try opensuse.sync(alc);
-    // try backup.sync(alc);
-    // try fastfetch.show(alc);
+    try backup.sync(alc);
+    try fastfetch.show(alc);
 }

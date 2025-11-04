@@ -20,17 +20,18 @@ pub fn sync(alc: mem.Allocator) !void {
 
 fn addRepos(alc: mem.Allocator) !void {
     log.info("adding repos", .{});
-    try addCodiumRepo(alc);
     try addBraveRepo(alc);
+    try addCodiumRepo(alc);
+    try addLuarocksRepo(alc);
 }
 
-fn addRepo(alc: mem.Allocator, uri: []const u8, alias: []const u8) !void {
-    log.debug("adding repo with uri: {s}, and alias: {s}", .{ uri, alias });
+fn addRepo(alc: mem.Allocator, uri: []const u8) !void {
+    log.debug("adding repo {s}", .{uri});
 
     _ = try shell.exec(
         alc,
-        "sudo zypper addrepo --check --refresh {s} {s}",
-        .{ uri, alias },
+        "sudo zypper addrepo --check --refresh {s}",
+        .{uri},
     );
 }
 
@@ -40,7 +41,16 @@ fn addCodeRepo(alc: mem.Allocator) !void {
     try addRepo(
         alc,
         "https://download.opensuse.org/repositories/devel:/tools:/ide:/vscode/openSUSE_Tumbleweed",
-        "devel_tools_ide_vscode",
+    );
+}
+
+fn addBraveRepo(alc: mem.Allocator) !void {
+    log.info("adding brave repo", .{});
+
+    _ = try shell.exec(
+        alc,
+        "sudo zypper addrepo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo",
+        .{},
     );
 }
 
@@ -60,13 +70,12 @@ fn addCodiumRepo(alc: mem.Allocator) !void {
     );
 }
 
-fn addBraveRepo(alc: mem.Allocator) !void {
-    log.info("Adding brave repo", .{});
+fn addLuarocksRepo(alc: mem.Allocator) !void {
+    log.info("adding luarocks repo", .{});
 
-    _ = try shell.exec(
+    try addRepo(
         alc,
-        "sudo zypper addrepo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo",
-        .{},
+        "https://download.opensuse.org/repositories/home:malkavi/openSUSE_Tumbleweed/home:malkavi.repo",
     );
 }
 
@@ -85,6 +94,7 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  codium \
         \\  distrobox \
         \\  fastfetch \
+        \\  fd \
         \\  fish \
         \\  foot \
         \\  ghostty \
@@ -93,7 +103,9 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  gnome-boxes \
         \\  htop \
         \\  jujutsu \
+        \\  luarocks \
         \\  podman \
+        \\  ripgrep \
         \\  river \
         \\  zellij \
         \\  zsh \
