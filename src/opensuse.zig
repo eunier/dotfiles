@@ -12,6 +12,7 @@ const fonts = @import("fonts.zig");
 const ghostty = @import("ghostty.zig");
 const git = @import("git.zig");
 const gitlab = @import("gitlab.zig");
+const helix = @import("helix.zig");
 const homebrew = @import("homebrew.zig");
 const jujutsu = @import("jujutsu.zig");
 const neovim = @import("neovim.zig");
@@ -41,4 +42,5 @@ pub fn sync(alc: mem.Allocator) !void {
     try fonts.sync(alc);
     try fastfetch.sync(alc);
     try neovim.sync(alc);
+    try helix.sync(alc);
 }
