@@ -2165,7 +2165,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : glycin
-Version         : 2.0.4-1
+Version         : 2.0.5-1
 Description     : Sandboxed and extendable image decoding
 Architecture    : x86_64
 URL             : https://gnome.pages.gitlab.gnome.org/glycin/
@@ -2178,10 +2178,10 @@ Required By     : gdk-pixbuf2
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 19.51 MiB
+Installed Size  : 19.55 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Tue 21 Oct 2025 08:24:31 AM EDT
-Install Date    : Sat 01 Nov 2025 05:29:44 AM EDT
+Build Date      : Tue 04 Nov 2025 09:22:28 PM EST
+Install Date    : Wed 05 Nov 2025 06:10:38 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7566,7 +7566,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : neovim-nightly-bin
-Version         : 0.12.0+dev+1557+gb92b95e2c2-1
+Version         : 0.12.0+dev+1565+gb80d390765-1
 Description     : Fork of Vim aiming to improve user experience, plugins, and GUIs (nightly build)
 Architecture    : x86_64
 URL             : https://neovim.io
@@ -7585,8 +7585,8 @@ Conflicts With  : neovim
 Replaces        : None
 Installed Size  : 29.97 MiB
 Packager        : Unknown Packager
-Build Date      : Sat 01 Nov 2025 05:29:53 AM EDT
-Install Date    : Sat 01 Nov 2025 05:30:25 AM EDT
+Build Date      : Tue 04 Nov 2025 07:47:29 PM EST
+Install Date    : Tue 04 Nov 2025 07:47:40 PM EST
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : None
@@ -7614,7 +7614,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : nodejs
-Version         : 25.1.0-2
+Version         : 25.1.0-3
 Description     : Evented I/O for V8 javascript ("Current" release)
 Architecture    : x86_64
 URL             : https://nodejs.org/
@@ -7628,9 +7628,9 @@ Optional For    : None
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 61.25 MiB
-Packager        : Daniel M. Capella <polyzen@archlinux.org>
-Build Date      : Fri 31 Oct 2025 02:06:15 PM EDT
-Install Date    : Sat 01 Nov 2025 05:29:38 AM EDT
+Packager        : Bert Peters <bertptrs@archlinux.org>
+Build Date      : Mon 03 Nov 2025 11:41:13 AM EST
+Install Date    : Tue 04 Nov 2025 07:47:22 PM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8839,7 +8839,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : simdjson
-Version         : 1:4.1.0-1
+Version         : 1:4.2.1-1
 Description     : A C++ library to see how fast we can parse JSON with complete validation.
 Architecture    : x86_64
 URL             : https://github.com/simdjson/simdjson
@@ -8852,10 +8852,10 @@ Required By     : nodejs
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 6.14 MiB
+Installed Size  : 6.28 MiB
 Packager        : Bert Peters <bertptrs@archlinux.org>
-Build Date      : Fri 31 Oct 2025 07:44:46 AM EDT
-Install Date    : Sat 01 Nov 2025 05:29:38 AM EDT
+Build Date      : Mon 03 Nov 2025 11:38:17 AM EST
+Install Date    : Tue 04 Nov 2025 07:47:22 PM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8993,7 +8993,7 @@ Install Script  : Yes
 Validated By    : Signature
 
 Name            : syncthing
-Version         : 2.0.10-1
+Version         : 2.0.11-1
 Description     : Open Source Continuous Replication / Cluster Synchronization Thing
 Architecture    : x86_64
 URL             : https://syncthing.net/
@@ -9008,8 +9008,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 24.97 MiB
 Packager        : Caleb Maclennan <alerque@archlinux.org>
-Build Date      : Wed 24 Sep 2025 12:20:46 PM EDT
-Install Date    : Sat 01 Nov 2025 05:29:47 AM EDT
+Build Date      : Tue 04 Nov 2025 04:44:22 PM EST
+Install Date    : Tue 04 Nov 2025 07:47:22 PM EST
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature

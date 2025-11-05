@@ -20,12 +20,12 @@ fn makeExecutable(alc: mem.Allocator, files: [2][]const u8) !void {
     for (files) |file| {
         const path = try fmt.allocPrint(
             alc,
-            "~/.dotfiles/src/autostart/{s}.desktop",
+            "~/.dotfiles/src/autostart/config/{s}.desktop",
             .{file},
         );
 
         defer alc.free(path);
-        try shell.makeExecutable(alc, file);
+        try shell.makeExecutable(alc, path);
     }
 }
 
@@ -36,7 +36,7 @@ fn symLink(alc: mem.Allocator) !void {
 }
 
 fn snap(alc: mem.Allocator) !void {
-    log.info("snap autostart", .{});
+    log.info("snapping autostart", .{});
 
     _ = try shell.exec(
         alc,
