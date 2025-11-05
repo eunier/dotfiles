@@ -101,6 +101,7 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  git \
         \\  glab \
         \\  gnome-boxes \
+        \\  helix \
         \\  htop \
         \\  jujutsu \
         \\  luarocks \
