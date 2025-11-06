@@ -1,6 +1,6 @@
 OS: openSUSE Tumbleweed x86_64
 Kernel: Linux 6.17.6-1-default
-Packages: 2581 (rpm), 10 (brew), 4 (brew-cask)
+Packages: 2582 (rpm), 10 (brew), 4 (brew-cask)
 Display (Acer X34): 3440x1440 in 34", 100 Hz [External] *
 Display (LG HDR QHD): 2560x1440 in 32", 60 Hz [External]
 DE: GNOME 49.1
