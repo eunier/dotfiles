@@ -22,26 +22,8 @@ fn addRepos(alc: mem.Allocator) !void {
     log.info("adding repos", .{});
     try addBraveRepo(alc);
     try addCodiumRepo(alc);
+    try addLibrewolfRepo(alc);
     try addLuarocksRepo(alc);
-}
-
-fn addRepo(alc: mem.Allocator, uri: []const u8) !void {
-    log.debug("adding repo {s}", .{uri});
-
-    _ = try shell.exec(
-        alc,
-        "sudo zypper addrepo --check --refresh {s}",
-        .{uri},
-    );
-}
-
-fn addCodeRepo(alc: mem.Allocator) !void {
-    log.info("adding vscode repo", .{});
-
-    try addRepo(
-        alc,
-        "https://download.opensuse.org/repositories/devel:/tools:/ide:/vscode/openSUSE_Tumbleweed",
-    );
 }
 
 fn addBraveRepo(alc: mem.Allocator) !void {
@@ -70,12 +52,43 @@ fn addCodiumRepo(alc: mem.Allocator) !void {
     );
 }
 
+fn addCodeRepo(alc: mem.Allocator) !void {
+    log.info("adding vscode repo", .{});
+
+    try addRepo(
+        alc,
+        "https://download.opensuse.org/repositories/devel:/tools:/ide:/vscode/openSUSE_Tumbleweed",
+    );
+}
+
+fn addLibrewolfRepo(alc: mem.Allocator) !void {
+    log.info("adding librewolf repo", .{});
+
+    _ = try shell.exec(
+        alc,
+        "sudo rpm --import https://rpm.librewolf.net/pubkey.gpg",
+        .{},
+    );
+
+    try addRepo(alc, "https://rpm.librewolf.net");
+}
+
 fn addLuarocksRepo(alc: mem.Allocator) !void {
     log.info("adding luarocks repo", .{});
 
     try addRepo(
         alc,
         "https://download.opensuse.org/repositories/home:malkavi/openSUSE_Tumbleweed/home:malkavi.repo",
+    );
+}
+
+fn addRepo(alc: mem.Allocator, uri: []const u8) !void {
+    log.debug("adding repo {s}", .{uri});
+
+    _ = try shell.exec(
+        alc,
+        "sudo zypper addrepo --check --refresh --enable {s}",
+        .{uri},
     );
 }
 
@@ -104,6 +117,7 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  helix \
         \\  htop \
         \\  jujutsu \
+        \\  librewolf \
         \\  luarocks \
         \\  podman \
         \\  ripgrep \

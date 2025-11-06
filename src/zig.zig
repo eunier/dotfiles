@@ -53,7 +53,6 @@ fn initScript(alc: mem.Allocator) !void {
 
 fn snapVersion(alc: mem.Allocator) !void {
     log.info("snapping version", .{});
-    try shell.makeDir(alc, "~/.dotfiles/src/zig");
 
     _ = try shell.exec(
         alc,

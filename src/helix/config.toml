@@ -1,7 +1,7 @@
 theme = "onedark"
 
 [editor]
-rules=[100]
+rulers = [100]
 
 [editor.cursor-shape]
 insert = "bar"
