@@ -1422,6 +1422,7 @@ i  | libreofficekit                                | package | 25.8.2.2-1.1     
 i  | librepository                                 | package | 1.1.6-2.5                             | noarch | Main Repository (OSS)
 i  | librest-1_0-0                                 | package | 0.10.2-1.2                            | x86_64 | Main Repository (OSS)
 i  | librevenge-0_0-0                              | package | 0.0.5-1.7                             | x86_64 | Main Repository (OSS)
+i+ | librewolf                                     | package | 144.0.2-1                             | x86_64 | librewolf
 i  | librist4                                      | package | 0.2.11-1.1                            | x86_64 | Main Repository (OSS)
 i  | librmt1_0                                     | package | 2024.03.21-52.1                       | x86_64 | Main Repository (OSS)
 i  | librscg1_0                                    | package | 2024.03.21-52.1                       | x86_64 | Main Repository (OSS)

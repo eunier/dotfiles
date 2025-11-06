@@ -9,7 +9,8 @@ Repository priorities are without effect. All enabled repositories share the sam
  4 | download.opensuse.org-tumbleweed     | Main Update Repository                       | Yes     | (r ) Yes  | Yes
  5 | gitlab.com_paulcarroty_vscodium_repo | gitlab.com_paulcarroty_vscodium_repo         | Yes     | (r ) Yes  | No
  6 | home_malkavi                         | Malkavi's Home Project (openSUSE_Tumbleweed) | Yes     | (r ) Yes  | Yes
- 7 | openSUSE-20251007-0                  | openSUSE-20251007-0                          | No      | ----      | ----
- 8 | repo-debug                           | openSUSE-Tumbleweed-Debug                    | No      | ----      | ----
- 9 | repo-openh264                        | Open H.264 Codec (openSUSE Tumbleweed)       | Yes     | (r ) Yes  | Yes
-10 | repo-source                          | openSUSE-Tumbleweed-Source                   | No      | ----      | ----
+ 7 | librewolf                            | librewolf                                    | Yes     | (r ) Yes  | Yes
+ 8 | openSUSE-20251007-0                  | openSUSE-20251007-0                          | No      | ----      | ----
+ 9 | repo-debug                           | openSUSE-Tumbleweed-Debug                    | No      | ----      | ----
+10 | repo-openh264                        | Open H.264 Codec (openSUSE Tumbleweed)       | Yes     | (r ) Yes  | Yes
+11 | repo-source                          | openSUSE-Tumbleweed-Source                   | No      | ----      | ----

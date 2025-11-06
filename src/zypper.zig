@@ -64,13 +64,10 @@ fn addCodeRepo(alc: mem.Allocator) !void {
 fn addLibrewolfRepo(alc: mem.Allocator) !void {
     log.info("adding librewolf repo", .{});
 
-    _ = try shell.exec(
-        alc,
-        "sudo rpm --import https://rpm.librewolf.net/pubkey.gpg",
-        .{},
-    );
-
-    try addRepo(alc, "https://rpm.librewolf.net");
+    _ = try shell.exec(alc,
+        \\sudo rpm --import https://rpm.librewolf.net/pubkey.gpg
+        \\sudo zypper ar -ef https://rpm.librewolf.net librewolf
+    , .{});
 }
 
 fn addLuarocksRepo(alc: mem.Allocator) !void {
