@@ -612,6 +612,28 @@ Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 
+Name            : bob
+Version         : 4.1.4-1
+Description     : A version manager for neovim
+Architecture    : x86_64
+URL             : https://github.com/MordechaiHadad/bob
+Licenses        : MIT
+Groups          : None
+Provides        : None
+Depends On      : gcc-libs
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 9.00 MiB
+Packager        : Orhun Parmaksız <orhun@archlinux.org>
+Build Date      : Mon 13 Oct 2025 11:44:28 PM EDT
+Install Date    : Thu 06 Nov 2025 07:44:23 AM EST
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : Signature
+
 Name            : botan
 Version         : 3.9.0-1
 Description     : Crypto library written in C++
@@ -1838,11 +1860,12 @@ Provides        : gcc-libs-multilib  libgo.so=24-64  libgfortran.so=5-64  libgph
                   libtsan.so=2-64  liblsan.so=0-64
 Depends On      : glibc>=2.27
 Optional Deps   : None
-Required By     : appstream  at-spi2-core  base  botan  bubblewrap  db5.3  dbus-broker  dconf  double-conversion  electron34  electron37
-                  fish  flac  gc  gcc  gettext  glu  glycin  gmp  gnome-font-viewer  gnutls  gperftools  gpgme  graphite  groff  gssdp
-                  gst-plugins-bad-libs  gst-plugins-good  gstreamer  gtest  gtk4  gupnp  highway  icu  libcaca  libcolord  libgudev  libjxl
-                  libnl  libproxy  librsvg  libtiff  libvpx  libxmlb  llvm-libs  mesa  mpdecimal  ncurses  obsidian  pcre  shared-mime-info
-                  simdjson  speex  speexdsp  spirv-tools  systemd-libs  taglib  tinysparql  v4l-utils  vulkan-intel  vulkan-radeon  zstd
+Required By     : appstream  at-spi2-core  base  bob  botan  bubblewrap  db5.3  dbus-broker  dconf  double-conversion  electron34
+                  electron37  fish  flac  gc  gcc  gettext  glu  glycin  gmp  gnome-font-viewer  gnutls  gperftools  gpgme  graphite  groff
+                  gssdp  gst-plugins-bad-libs  gst-plugins-good  gstreamer  gtest  gtk4  gupnp  highway  icu  libcaca  libcolord  libgudev
+                  libjxl  libnl  libproxy  librsvg  libtiff  libvpx  libxmlb  llvm-libs  mesa  mpdecimal  ncurses  obsidian  pcre
+                  shared-mime-info  simdjson  speex  speexdsp  spirv-tools  systemd-libs  taglib  tinysparql  v4l-utils  vulkan-intel
+                  vulkan-radeon  zstd
 Optional For    : None
 Conflicts With  : None
 Replaces        : gcc-libs-multilib  libgphobos

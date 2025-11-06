@@ -79,6 +79,7 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\pikaur --sync --refresh --sysupgrade --needed --noconfirm \
         \\  bash-language-server \
         \\  blanket \
+        \\  bob \
         \\  bun-bin \
         \\  cmatrix \
         \\  extension-manager \
@@ -110,6 +111,7 @@ fn exportPackages(alc: mem.Allocator) !void {
 
 const ExportableCli = enum {
     bash_language_server,
+    bob,
     bun,
     cmatrix,
     fnm,

@@ -1,0 +1,24 @@
+{
+  "plugins": {
+    "mini.icons": {
+      "rev": "ff2e4f1",
+      "src": "https://github.com/nvim-mini/mini.icons"
+    },
+    "nvim-lspconfig": {
+      "rev": "2010fc6",
+      "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "nvim-web-devicons": {
+      "rev": "8dcb311",
+      "src": "https://github.com/nvim-tree/nvim-web-devicons"
+    },
+    "onedark.nvim": {
+      "rev": "de495fa",
+      "src": "https://github.com/navarasu/onedark.nvim"
+    },
+    "which-key.nvim": {
+      "rev": "3aab214",
+      "src": "https://github.com/folke/which-key.nvim"
+    }
+  }
+}
