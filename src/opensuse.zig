@@ -18,6 +18,7 @@ const jujutsu = @import("jujutsu.zig");
 const neovim = @import("neovim.zig");
 const node = @import("node.zig");
 const river = @import("river.zig");
+const rust = @import("rust.zig");
 const zig = @import("zig.zig");
 const zsh = @import("zsh.zig");
 const zypper = @import("zypper.zig");
@@ -30,6 +31,7 @@ pub fn sync(alc: mem.Allocator) !void {
     try gitlab.sync(alc);
     try git.sync(alc);
     try zig.sync(alc);
+    try rust.sync(alc);
     try code.sync(alc);
     try distrobox.sync(alc);
     try node.sync(alc);

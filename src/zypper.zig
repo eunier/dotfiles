@@ -120,6 +120,7 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  podman \
         \\  ripgrep \
         \\  river \
+        \\  rustup \
         \\  zellij \
         \\  zsh \
         \\  zvm
