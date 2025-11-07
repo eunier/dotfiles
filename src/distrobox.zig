@@ -37,7 +37,9 @@ fn addArchBox(alc: mem.Allocator) !void {
 
     _ = try shell.exec(alc,
         \\if ! distrobox list | grep -q "arch"; then
-        \\  distrobox create --image archlinux:latest --name arch
+        \\  distrobox create --image archlinux:latest --name arch \
+        \\      --volume /usr/bin/fd:/usr/local/bin/fd:ro \
+        \\      --volume /usr/bin/rg:/usr/local/bin/rg:ro
         \\fi
     , .{});
 
