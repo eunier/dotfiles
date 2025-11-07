@@ -9,6 +9,7 @@ pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
     try install(alc);
     try update(alc);
+    try snap(alc);
 }
 
 fn install(alc: mem.Allocator) !void {
@@ -19,4 +20,9 @@ fn install(alc: mem.Allocator) !void {
 fn update(alc: mem.Allocator) !void {
     log.info("updating", .{});
     _ = try sh.exec(alc, "rustup update", .{});
+}
+
+fn snap(alc: mem.Allocator) !void {
+    log.info("snapping", .{});
+    _ = try sh.exec(alc, "rustup toolchain list > ~/.dotfiles/src/rust/rust.snap", .{});
 }
