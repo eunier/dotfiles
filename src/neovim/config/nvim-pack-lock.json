@@ -1,5 +1,9 @@
 {
   "plugins": {
+    "hardtime.nvim": {
+      "rev": "b4e4319",
+      "src": "https://github.com/m4xshen/hardtime.nvim"
+    },
     "lualine.nvim": {
       "rev": "3946f01",
       "src": "https://github.com/nvim-lualine/lualine.nvim"
@@ -15,6 +19,10 @@
     "mini.icons": {
       "rev": "ff2e4f1",
       "src": "https://github.com/nvim-mini/mini.icons"
+    },
+    "nui.nvim": {
+      "rev": "de74099",
+      "src": "https://github.com/MunifTanjim/nui.nvim"
     },
     "nvim-lspconfig": {
       "rev": "2010fc6",
@@ -36,6 +44,10 @@
       "rev": "b9fd522",
       "src": "https://github.com/nvim-lua/plenary.nvim"
     },
+    "precognition.nvim": {
+      "rev": "2aae268",
+      "src": "https://github.com/tris203/precognition.nvim"
+    },
     "ripgrep": {
       "rev": "57c190d",
       "src": "https://github.com/BurntSushi/ripgrep"
@@ -43,6 +55,10 @@
     "telescope.nvim": {
       "rev": "d143e80",
       "src": "https://github.com/nvim-telescope/telescope.nvim"
+    },
+    "vim-be-good": {
+      "rev": "0ae3de1",
+      "src": "https://github.com/ThePrimeagen/vim-be-good"
     },
     "which-key.nvim": {
       "rev": "3aab214",
