@@ -206,8 +206,7 @@ URL             : https://distributions.freedesktop.org/wiki/AppStream
 Licenses        : LGPL-2.1-or-later
 Groups          : None
 Provides        : None
-Depends On      : cairo  curl  fontconfig  freetype2  gcc-libs  gdk-pixbuf2  glib2  glibc  libfyaml  librsvg  libstemmer  libxml2  libxmlb  pango
-                  systemd-libs  zstd
+Depends On      : cairo  curl  fontconfig  freetype2  gcc-libs  gdk-pixbuf2  glib2  glibc  libfyaml  librsvg  libstemmer  libxml2  libxmlb  pango  systemd-libs  zstd
 Optional Deps   : None
 Required By     : libadwaita
 Optional For    : gettext
@@ -383,8 +382,7 @@ Architecture    : x86_64
 URL             : https://github.com/avahi/avahi
 Licenses        : LGPL-2.1-or-later
 Groups          : None
-Provides        : libavahi-client.so=3-64  libavahi-common.so=3-64  libavahi-core.so=7-64  libavahi-glib.so=1-64  libavahi-gobject.so=0-64
-                  libavahi-libevent.so=1-64  libavahi-ui-gtk3.so=0-64  libdns_sd.so=1-64
+Provides        : libavahi-client.so=3-64  libavahi-common.so=3-64  libavahi-core.so=7-64  libavahi-glib.so=1-64  libavahi-gobject.so=0-64  libavahi-libevent.so=1-64  libavahi-ui-gtk3.so=0-64  libdns_sd.so=1-64
 Depends On      : bash  dbus  expat  gdbm  glib2  glibc  libcap  libdaemon  systemd-libs  libdbus-1.so=3-64
 Optional Deps   : gtk3: avahi-discover, avahi-discover-standalone, bshell, bssh, bvnc [installed]
                   libevent: libevent bindings [installed]
@@ -412,8 +410,7 @@ URL             : https://www.archlinux.org
 Licenses        : GPL
 Groups          : None
 Provides        : None
-Depends On      : filesystem  gcc-libs  glibc  bash  coreutils  file  findutils  gawk  grep  procps-ng  sed  tar  gettext  pciutils  psmisc  shadow
-                  util-linux  bzip2  gzip  xz  licenses  pacman  archlinux-keyring  systemd  systemd-sysvcompat  iputils  iproute2
+Depends On      : filesystem  gcc-libs  glibc  bash  coreutils  file  findutils  gawk  grep  procps-ng  sed  tar  gettext  pciutils  psmisc  shadow  util-linux  bzip2  gzip  xz  licenses  pacman  archlinux-keyring  systemd  systemd-sysvcompat  iputils  iproute2
 Optional Deps   : linux: bare metal support
 Required By     : None
 Optional For    : None
@@ -435,8 +432,7 @@ URL             : https://www.archlinux.org
 Licenses        : GPL
 Groups          : None
 Provides        : None
-Depends On      : archlinux-keyring  autoconf  automake  binutils  bison  debugedit  fakeroot  file  findutils  flex  gawk  gcc  gettext  grep  groff
-                  gzip  libtool  m4  make  pacman  patch  pkgconf  sed  sudo  texinfo  which
+Depends On      : archlinux-keyring  autoconf  automake  binutils  bison  debugedit  fakeroot  file  findutils  flex  gawk  gcc  gettext  grep  groff  gzip  libtool  m4  make  pacman  patch  pkgconf  sed  sudo  texinfo  which
 Optional Deps   : None
 Required By     : None
 Optional For    : pacman
@@ -460,10 +456,9 @@ Groups          : None
 Provides        : sh
 Depends On      : readline  libreadline.so=8-64  glibc  ncurses
 Optional Deps   : bash-completion: for tab completion [installed]
-Required By     : at-spi2-core  audit  autoconf  automake  avahi  base  bash-completion  bison  bzip2  ca-certificates-utils  cairo  db5.3  dconf
-                  diffutils  e2fsprogs  fakeroot  flex  fontconfig  gawk  gdbm  gettext  glib2  gnupg  gpm  gtk-update-icon-cache  gtk4  gzip  icu
-                  iptables  keyutils  krb5  libassuan  libcups  libgpg-error  libksba  libpcap  libpng  libpulse  libtool  libxml2  libxslt  lm_sensors
-                  m4  man-db  man-pages  npth  nspr  nss  obsidian  pacman  pcre  spirv-tools  systemd  taglib  texinfo  unzip  which  xdg-utils  xz
+Required By     : at-spi2-core  audit  autoconf  automake  avahi  base  bash-completion  bison  bzip2  ca-certificates-utils  cairo  db5.3  dconf  diffutils  e2fsprogs  fakeroot  flex  fontconfig  gawk  gdbm  gettext  glib2  gnupg  gpm  gtk-update-icon-cache  gtk4  gzip  icu
+                  iptables  keyutils  krb5  libassuan  libcups  libgpg-error  libksba  libpcap  libpng  libpulse  libtool  libxml2  libxslt  lm_sensors  m4  man-db  man-pages  npth  nspr  nss  obsidian  pacman  pcre  spirv-tools  systemd  taglib  texinfo  unzip  which  xdg-utils
+                  xz
 Optional For    : ncurses  openssh  pcre2  tzdata  vim-runtime
 Conflicts With  : None
 Replaces        : None
@@ -596,8 +591,7 @@ URL             : https://apps.gnome.org/Blanket/
 Licenses        : GPL-3.0-or-later
 Groups          : gnome-circle
 Provides        : None
-Depends On      : dconf  glib2  gst-plugins-bad-libs  gst-plugins-base  gst-plugins-good  gst-python  gstreamer  gtk4  hicolor-icon-theme  libadwaita
-                  python  python-gobject
+Depends On      : dconf  glib2  gst-plugins-bad-libs  gst-plugins-base  gst-plugins-good  gst-python  gstreamer  gtk4  hicolor-icon-theme  libadwaita  python  python-gobject
 Optional Deps   : None
 Required By     : None
 Optional For    : None
@@ -702,8 +696,7 @@ Validated By    : Signature
 
 Name            : bun-bin
 Version         : 1.3.2-1
-Description     : All-in-one JavaScript runtime built for speed, with bundler, transpiler, test runner, and package manager. Includes bunx, shell
-                  completions and support for baseline CPUs
+Description     : All-in-one JavaScript runtime built for speed, with bundler, transpiler, test runner, and package manager. Includes bunx, shell completions and support for baseline CPUs
 Architecture    : x86_64
 URL             : https://github.com/oven-sh/bun
 Licenses        : MIT
@@ -930,8 +923,7 @@ URL             : https://gitlab.com/cryptsetup/cryptsetup/
 Licenses        : GPL-2.0-or-later
 Groups          : None
 Provides        : libcryptsetup.so=12-64
-Depends On      : device-mapper  libdevmapper.so=1.02-64  glibc  openssl  libcrypto.so=3-64  popt  util-linux-libs  libblkid.so=1-64  libuuid.so=1-64
-                  json-c  libjson-c.so=5-64
+Depends On      : device-mapper  libdevmapper.so=1.02-64  glibc  openssl  libcrypto.so=3-64  popt  util-linux-libs  libblkid.so=1-64  libuuid.so=1-64  json-c  libjson-c.so=5-64
 Optional Deps   : None
 Required By     : systemd
 Optional For    : None
@@ -953,9 +945,8 @@ URL             : https://curl.se/
 Licenses        : MIT
 Groups          : None
 Provides        : libcurl.so=4-64
-Depends On      : ca-certificates  brotli  libbrotlidec.so=1-64  krb5  libgssapi_krb5.so=2-64  libidn2  libidn2.so=0-64  libnghttp2  libnghttp2.so=14-64
-                  libnghttp3  libnghttp3.so=9-64  libpsl  libpsl.so=5-64  libssh2  libssh2.so=1-64  zlib  libz.so=1-64  zstd  libzstd.so=1-64  openssl
-                  libcrypto.so=3-64  libssl.so=3-64
+Depends On      : ca-certificates  brotli  libbrotlidec.so=1-64  krb5  libgssapi_krb5.so=2-64  libidn2  libidn2.so=0-64  libnghttp2  libnghttp2.so=14-64  libnghttp3  libnghttp3.so=9-64  libpsl  libpsl.so=5-64  libssh2  libssh2.so=1-64  zlib  libz.so=1-64  zstd  libzstd.so=1-64
+                  openssl  libcrypto.so=3-64  libssl.so=3-64
 Optional Deps   : None
 Required By     : appstream  git  libelf  libproxy  pacman  tpm2-tss
 Optional For    : pciutils  systemd
@@ -1309,10 +1300,8 @@ URL             : https://electronjs.org
 Licenses        : MIT  BSD-3-Clause
 Groups          : None
 Provides        : None
-Depends On      : c-ares  gcc-libs  glibc  gtk3  libgtk-3.so=0-64  libevent  libffi  libffi.so=8-64  libpulse  libpulse.so=0-64  nss  zlib  libz.so=1-64
-                  fontconfig  libfontconfig.so=1-64  brotli  libjpeg-turbo  libjpeg.so=8-64  flac  libFLAC.so=14-64  libdrm  libxml2  libxml2.so=16-64
-                  minizip  opus  libopus.so=0-64  harfbuzz  libharfbuzz.so=0-64  libharfbuzz-subset.so=0-64  libxslt  libxslt.so=1-64  libpng
-                  libpng16.so=16-64  freetype2  libfreetype.so=6-64
+Depends On      : c-ares  gcc-libs  glibc  gtk3  libgtk-3.so=0-64  libevent  libffi  libffi.so=8-64  libpulse  libpulse.so=0-64  nss  zlib  libz.so=1-64  fontconfig  libfontconfig.so=1-64  brotli  libjpeg-turbo  libjpeg.so=8-64  flac  libFLAC.so=14-64  libdrm  libxml2
+                  libxml2.so=16-64  minizip  opus  libopus.so=0-64  harfbuzz  libharfbuzz.so=0-64  libharfbuzz-subset.so=0-64  libxslt  libxslt.so=1-64  libpng  libpng16.so=16-64  freetype2  libfreetype.so=6-64
 Optional Deps   : kde-cli-tools: file deletion support (kioclient5)
                   pipewire: WebRTC desktop sharing under Wayland
                   qt5-base: enable Qt5 with --enable-features=AllowQt [installed]
@@ -1339,10 +1328,8 @@ URL             : https://electronjs.org
 Licenses        : MIT  BSD-3-Clause
 Groups          : None
 Provides        : None
-Depends On      : c-ares  gcc-libs  glibc  gtk3  libgtk-3.so=0-64  libevent  libffi  libffi.so=8-64  libpulse  libpulse.so=0-64  nss  zlib  libz.so=1-64
-                  fontconfig  libfontconfig.so=1-64  brotli  libjpeg-turbo  libjpeg.so=8-64  flac  libFLAC.so=14-64  libdrm  libxml2  libxml2.so=16-64
-                  minizip  opus  libopus.so=0-64  harfbuzz  libharfbuzz.so=0-64  libharfbuzz-subset.so=0-64  libxslt  libxslt.so=1-64  libpng
-                  libpng16.so=16-64  freetype2  libfreetype.so=6-64
+Depends On      : c-ares  gcc-libs  glibc  gtk3  libgtk-3.so=0-64  libevent  libffi  libffi.so=8-64  libpulse  libpulse.so=0-64  nss  zlib  libz.so=1-64  fontconfig  libfontconfig.so=1-64  brotli  libjpeg-turbo  libjpeg.so=8-64  flac  libFLAC.so=14-64  libdrm  libxml2
+                  libxml2.so=16-64  minizip  opus  libopus.so=0-64  harfbuzz  libharfbuzz.so=0-64  libharfbuzz-subset.so=0-64  libxslt  libxslt.so=1-64  libpng  libpng16.so=16-64  freetype2  libfreetype.so=6-64
 Optional Deps   : kde-cli-tools: file deletion support (kioclient5)
                   pipewire: WebRTC desktop sharing under Wayland
                   qt5-base: enable Qt5 with --enable-features=AllowQt [installed]
@@ -1489,8 +1476,7 @@ Validated By    : Signature
 
 Name            : filen-desktop-bin
 Version         : 3.0.47-1
-Description     : Desktop client including Syncing, Virtual Drive mounting, S3, WebDAV, File Browsing, Chats, Notes, Contacts and more.(Prebuilt
-                  version.Use system-wide electron)
+Description     : Desktop client including Syncing, Virtual Drive mounting, S3, WebDAV, File Browsing, Chats, Notes, Contacts and more.(Prebuilt version.Use system-wide electron)
 Architecture    : x86_64
 URL             : https://filen.io/
 Licenses        : AGPL-3.0-only
@@ -1853,14 +1839,11 @@ Architecture    : x86_64
 URL             : https://gcc.gnu.org
 Licenses        : GPL-3.0-with-GCC-exception  GFDL-1.3-or-later
 Groups          : None
-Provides        : gcc-libs-multilib  libgo.so=24-64  libgfortran.so=5-64  libgphobos.so=6-64  libubsan.so=1-64  libasan.so=8-64  libtsan.so=2-64
-                  liblsan.so=0-64
+Provides        : gcc-libs-multilib  libgo.so=24-64  libgfortran.so=5-64  libgphobos.so=6-64  libubsan.so=1-64  libasan.so=8-64  libtsan.so=2-64  liblsan.so=0-64
 Depends On      : glibc>=2.27
 Optional Deps   : None
-Required By     : appstream  at-spi2-core  base  bob  botan  bubblewrap  db5.3  dbus-broker  dconf  double-conversion  electron34  electron37  fish
-                  flac  gc  gcc  gettext  glu  glycin  gmp  gnome-font-viewer  gnutls  gperftools  gpgme  graphite  groff  gssdp  gst-plugins-bad-libs
-                  gst-plugins-good  gstreamer  gtest  gtk4  gupnp  highway  icu  libcaca  libcolord  libgudev  libjxl  libnl  libproxy  librsvg  libtiff
-                  libvpx  libxmlb  llvm-libs  mesa  mpdecimal  ncurses  obsidian  pcre  shared-mime-info  simdjson  speex  speexdsp  spirv-tools
+Required By     : appstream  at-spi2-core  base  bob  botan  bubblewrap  db5.3  dbus-broker  dconf  double-conversion  electron34  electron37  fish  flac  gc  gcc  gettext  glu  glycin  gmp  gnome-font-viewer  gnutls  gperftools  gpgme  graphite  groff  gssdp  gst-plugins-bad-libs
+                  gst-plugins-good  gstreamer  gtest  gtk4  gupnp  highway  icu  libcaca  libcolord  libgudev  libjxl  libnl  libproxy  librsvg  libtiff  libvpx  libxmlb  llvm-libs  mesa  mpdecimal  ncurses  obsidian  pcre  shared-mime-info  simdjson  speex  speexdsp  spirv-tools
                   systemd-libs  taglib  tinysparql  v4l-utils  vulkan-intel  vulkan-radeon  zstd
 Optional For    : None
 Conflicts With  : None
@@ -1949,30 +1932,21 @@ Architecture    : x86_64
 URL             : https://www.haskell.org/ghc/
 Licenses        : custom
 Groups          : None
-Provides        : haskell-array=0.5.6.0  haskell-base=4.18.2.1  haskell-binary=0.8.9.1  haskell-bytestring=0.11.5.3  haskell-cabal=3.10.3.0
-                  haskell-cabal-syntax=3.10.3.0  haskell-containers=0.6.7  haskell-deepseq=1.4.8.1  haskell-directory=1.3.8.5  haskell-exceptions=0.10.7
-                  haskell-filepath=1.4.300.1  haskell-ghc-bignum=1.3  haskell-ghc-boot=9.6.6  haskell-ghc-boot-th=9.6.6  haskell-ghc-compact=0.1.0.0
-                  haskell-ghc-heap=9.6.6  haskell-ghc-prim=0.10.0  haskell-haskeline=0.8.2.1  haskell-hpc=0.6.2.0  haskell-integer-gmp=1.1
-                  haskell-libiserv=9.6.6  haskell-mtl=2.3.1  haskell-parsec=3.1.16.1  haskell-pretty=1.1.3.6  haskell-process=1.6.19.0
-                  haskell-stm=2.5.1.0  haskell-template-haskell=2.20.0.0  haskell-terminfo=0.4.1.6  haskell-text=2.0.2  haskell-time=1.12.2
+Provides        : haskell-array=0.5.6.0  haskell-base=4.18.2.1  haskell-binary=0.8.9.1  haskell-bytestring=0.11.5.3  haskell-cabal=3.10.3.0  haskell-cabal-syntax=3.10.3.0  haskell-containers=0.6.7  haskell-deepseq=1.4.8.1  haskell-directory=1.3.8.5  haskell-exceptions=0.10.7
+                  haskell-filepath=1.4.300.1  haskell-ghc-bignum=1.3  haskell-ghc-boot=9.6.6  haskell-ghc-boot-th=9.6.6  haskell-ghc-compact=0.1.0.0  haskell-ghc-heap=9.6.6  haskell-ghc-prim=0.10.0  haskell-haskeline=0.8.2.1  haskell-hpc=0.6.2.0  haskell-integer-gmp=1.1
+                  haskell-libiserv=9.6.6  haskell-mtl=2.3.1  haskell-parsec=3.1.16.1  haskell-pretty=1.1.3.6  haskell-process=1.6.19.0  haskell-stm=2.5.1.0  haskell-template-haskell=2.20.0.0  haskell-terminfo=0.4.1.6  haskell-text=2.0.2  haskell-time=1.12.2
                   haskell-transformers=0.6.1.0  haskell-unix=2.8.4.0  haskell-xhtml=3000.2.2.1  haskell-ghc-pkg=9.6.6  haskell-ghci=9.6.6
 Depends On      : gmp  libffi  numactl  perl
 Optional Deps   : None
-Required By     : haskell-aeson  haskell-ansi-terminal  haskell-ansi-terminal-types  haskell-assoc  haskell-attoparsec  haskell-base-compat
-                  haskell-base-compat-batteries  haskell-base-orphans  haskell-bifunctors  haskell-colour  haskell-comonad  haskell-contravariant
-                  haskell-data-fix  haskell-diff  haskell-distributive  haskell-dlist  haskell-erf  haskell-fgl  haskell-foldable1-classes-compat
-                  haskell-generically  haskell-hashable  haskell-indexed-traversable  haskell-indexed-traversable-instances  haskell-integer-logarithms
-                  haskell-onetuple  haskell-optparse-applicative  haskell-os-string  haskell-prettyprinter  haskell-prettyprinter-ansi-terminal
-                  haskell-primitive  haskell-quickcheck  haskell-random  haskell-regex-base  haskell-regex-tdfa  haskell-scientific  haskell-semialign
-                  haskell-semigroupoids  haskell-splitmix  haskell-statevar  haskell-strict  haskell-tagged  haskell-tasty  haskell-text-short
-                  haskell-th-abstraction  haskell-these  haskell-time-compat  haskell-transformers-compat  haskell-unordered-containers
-                  haskell-uuid-types  haskell-vector  haskell-vector-stream  haskell-witherable  shellcheck
+Required By     : haskell-aeson  haskell-ansi-terminal  haskell-ansi-terminal-types  haskell-assoc  haskell-attoparsec  haskell-base-compat  haskell-base-compat-batteries  haskell-base-orphans  haskell-bifunctors  haskell-colour  haskell-comonad  haskell-contravariant
+                  haskell-data-fix  haskell-diff  haskell-distributive  haskell-dlist  haskell-erf  haskell-fgl  haskell-foldable1-classes-compat  haskell-generically  haskell-hashable  haskell-indexed-traversable  haskell-indexed-traversable-instances  haskell-integer-logarithms
+                  haskell-onetuple  haskell-optparse-applicative  haskell-os-string  haskell-prettyprinter  haskell-prettyprinter-ansi-terminal  haskell-primitive  haskell-quickcheck  haskell-random  haskell-regex-base  haskell-regex-tdfa  haskell-scientific  haskell-semialign
+                  haskell-semigroupoids  haskell-splitmix  haskell-statevar  haskell-strict  haskell-tagged  haskell-tasty  haskell-text-short  haskell-th-abstraction  haskell-these  haskell-time-compat  haskell-transformers-compat  haskell-unordered-containers  haskell-uuid-types
+                  haskell-vector  haskell-vector-stream  haskell-witherable  shellcheck
 Optional For    : None
 Conflicts With  : haskell-ghci
-Replaces        : haskell-array  haskell-base  haskell-binary  haskell-bytestring  haskell-cabal  haskell-cabal-syntax  haskell-containers
-                  haskell-deepseq  haskell-directory  haskell-exceptions  haskell-filepath  haskell-ghc-bignum  haskell-ghc-boot  haskell-ghc-boot-th
-                  haskell-ghc-compact  haskell-ghc-heap  haskell-ghc-prim  haskell-haskeline  haskell-hpc  haskell-integer-gmp  haskell-libiserv
-                  haskell-mtl  haskell-parsec  haskell-pretty  haskell-process  haskell-stm  haskell-template-haskell  haskell-terminfo  haskell-text
+Replaces        : haskell-array  haskell-base  haskell-binary  haskell-bytestring  haskell-cabal  haskell-cabal-syntax  haskell-containers  haskell-deepseq  haskell-directory  haskell-exceptions  haskell-filepath  haskell-ghc-bignum  haskell-ghc-boot  haskell-ghc-boot-th
+                  haskell-ghc-compact  haskell-ghc-heap  haskell-ghc-prim  haskell-haskeline  haskell-hpc  haskell-integer-gmp  haskell-libiserv  haskell-mtl  haskell-parsec  haskell-pretty  haskell-process  haskell-stm  haskell-template-haskell  haskell-terminfo  haskell-text
                   haskell-time  haskell-transformers  haskell-unix  haskell-xhtml  haskell-ghc-pkg
 Installed Size  : 125.35 MiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
@@ -2068,16 +2042,13 @@ Architecture    : x86_64
 URL             : https://gitlab.gnome.org/GNOME/glib
 Licenses        : LGPL-2.1-or-later
 Groups          : None
-Provides        : libglib-2.0.so=0-64  libgio-2.0.so=0-64  libgirepository-2.0.so=0-64  libgmodule-2.0.so=0-64  libgobject-2.0.so=0-64
-                  libgthread-2.0.so=0-64
+Provides        : libglib-2.0.so=0-64  libgio-2.0.so=0-64  libgirepository-2.0.so=0-64  libgmodule-2.0.so=0-64  libgobject-2.0.so=0-64  libgthread-2.0.so=0-64
 Depends On      : bash  glibc  libffi  libsysprof-capture  pcre2  util-linux-libs  zlib  libffi.so=8-64  libmount.so=1-64
 Optional Deps   : dconf: GSettings storage backend [installed]
                   glib2-devel: development tools
                   gvfs: most gio functionality
-Required By     : appstream  at-spi2-core  avahi  blanket  cairo  dconf  desktop-file-utils  gdk-pixbuf2  glib-networking  glycin  gnome-font-viewer
-                  gpgme  graphene  gssdp  gst-plugins-bad-libs  gst-plugins-base  gst-plugins-base-libs  gst-plugins-good  gst-python  gstreamer
-                  gtk-update-icon-cache  gtk3  gtk4  gupnp  gupnp-igd  harfbuzz  json-glib  libadwaita  libcloudproviders  libcolord  libgirepository
-                  libgudev  libnice  libproxy  libpulse  librsvg  libsecret  libsoup3  libwacom  libxmlb  pango  pinentry  polkit  python-gobject
+Required By     : appstream  at-spi2-core  avahi  blanket  cairo  dconf  desktop-file-utils  gdk-pixbuf2  glib-networking  glycin  gnome-font-viewer  gpgme  graphene  gssdp  gst-plugins-bad-libs  gst-plugins-base  gst-plugins-base-libs  gst-plugins-good  gst-python  gstreamer
+                  gtk-update-icon-cache  gtk3  gtk4  gupnp  gupnp-igd  harfbuzz  json-glib  libadwaita  libcloudproviders  libcolord  libgirepository  libgudev  libnice  libproxy  libpulse  librsvg  libsecret  libsoup3  libwacom  libxmlb  pango  pinentry  polkit  python-gobject
                   shared-mime-info  tinysparql
 Optional For    : fastfetch
 Conflicts With  : None
@@ -2101,27 +2072,17 @@ Provides        : None
 Depends On      : linux-api-headers>=4.10  tzdata  filesystem
 Optional Deps   : gd: for memusagestat
                   perl: for mtrace [installed]
-Required By     : aalib  acl  alsa-lib  appstream  argon2  at-spi2-core  attr  audit  avahi  base  bash  binutils  bison  botan  brotli  bubblewrap
-                  bzip2  c-ares  cairo  cdparanoia  coreutils  cryptsetup  dav1d  dbus  dbus-broker  dconf  debugedit  desktop-file-utils  device-mapper
-                  diffutils  double-conversion  duktape  electron34  electron37  expat  fakeroot  fastfetch  file  findutils  fish  flac  flex
-                  fontconfig  freeglut  freetype2  fribidi  fuse2  gawk  gcc-libs  gdbm  gdk-pixbuf2  giflib  glib-networking  glib2  glibc-locales  glu
-                  glycin  gmp  gnome-font-viewer  gnupg  gnutls  gperftools  gpgme  graphene  graphite  grep  gssdp  gst-plugins-bad-libs
-                  gst-plugins-base  gst-plugins-base-libs  gst-plugins-good  gst-python  gstreamer  gtest  gtk-update-icon-cache  gtk3  gtk4  gupnp
-                  gupnp-igd  gzip  harfbuzz  highway  icu  inetutils  iproute2  jansson  jbigkit  json-c  json-glib  kbd  keyutils  kmod  krb5  lame
-                  leancrypto  less  libadwaita  libarchive  libassuan  libasyncns  libavc1394  libbpf  libcaca  libcap  libcap-ng  libcolord  libcups
-                  libdaemon  libdatrie  libdeflate  libdrm  libdv  libedit  libelf  libepoxy  libevdev  libffi  libfyaml  libgcrypt  libgirepository
-                  libgpg-error  libgudev  libice  libinput  libjpeg-turbo  libjxl  libksba  libmnl  libmpc  libnfnetlink  libnghttp2  libnghttp3
-                  libngtcp2  libnice  libnl  libnsl  libogg  libp11-kit  libpcap  libpciaccess  libpipeline  libproxy  libpulse  libraw1394  librsvg
-                  libsasl  libseccomp  libsecret  libsm  libsndfile  libsoup3  libstemmer  libtasn1  libthai  libtheora  libtiff  libtirpc  libtool
-                  libunistring  libunwind  libusb  libuv  libverto  libvorbis  libvpx  libwacom  libwebp  libx11  libxau  libxcb  libxcomposite
-                  libxcrypt  libxcursor  libxdamage  libxdmcp  libxext  libxfixes  libxft  libxi  libxinerama  libxkbcommon  libxkbcommon-x11  libxml2
-                  libxmlb  libxmu  libxrandr  libxrender  libxshmfence  libxslt  libxt  libxtst  libxv  libxxf86vm  lm_sensors  lmdb  lsof  lz4  lzo  m4
-                  make  man-db  md4c  mesa  minizip  mpdecimal  mpfr  mtdev  mtr  ncurses  nettle  npth  nspr  nss  nss-mdns  numactl  obsidian
-                  opencore-amr  openssh  openssl  opus  orc  p11-kit  pacman  pam  pango  patch  pciutils  pcre  pcre2  perl  pinentry  pixman  pkgconf
-                  polkit  popt  procps-ng  python-gobject  readline  sed  shadow  shared-mime-info  shfmt  slang  spirv-tools  sqlite  sudo  syncthing
-                  systemd-libs  taglib  tar  tcpdump  time  tinysparql  traceroute  tree  tslib  twolame  util-linux  util-linux-libs  vim  vte-common
-                  vulkan-icd-loader  vulkan-intel  vulkan-mesa-device-select  vulkan-radeon  wavpack  wayland  wget  which  xcb-util  xcb-util-image
-                  xcb-util-keysyms  xcb-util-renderutil  xcb-util-wm  xorg-xauth  xorg-xprop  xxhash  yyjson  zlib  zlib-ng  zstd
+Required By     : aalib  acl  alsa-lib  appstream  argon2  at-spi2-core  attr  audit  avahi  base  bash  binutils  bison  botan  brotli  bubblewrap  bzip2  c-ares  cairo  cdparanoia  coreutils  cryptsetup  dav1d  dbus  dbus-broker  dconf  debugedit  desktop-file-utils
+                  device-mapper  diffutils  double-conversion  duktape  electron34  electron37  expat  fakeroot  fastfetch  file  findutils  fish  flac  flex  fontconfig  freeglut  freetype2  fribidi  fuse2  gawk  gcc-libs  gdbm  gdk-pixbuf2  giflib  glib-networking  glib2
+                  glibc-locales  glu  glycin  gmp  gnome-font-viewer  gnupg  gnutls  gperftools  gpgme  graphene  graphite  grep  gssdp  gst-plugins-bad-libs  gst-plugins-base  gst-plugins-base-libs  gst-plugins-good  gst-python  gstreamer  gtest  gtk-update-icon-cache  gtk3  gtk4
+                  gupnp  gupnp-igd  gzip  harfbuzz  highway  icu  inetutils  iproute2  jansson  jbigkit  json-c  json-glib  kbd  keyutils  kmod  krb5  lame  leancrypto  less  libadwaita  libarchive  libassuan  libasyncns  libavc1394  libbpf  libcaca  libcap  libcap-ng  libcolord
+                  libcups  libdaemon  libdatrie  libdeflate  libdrm  libdv  libedit  libelf  libepoxy  libevdev  libffi  libfyaml  libgcrypt  libgirepository  libgpg-error  libgudev  libice  libinput  libjpeg-turbo  libjxl  libksba  libmnl  libmpc  libnfnetlink  libnghttp2
+                  libnghttp3  libngtcp2  libnice  libnl  libnsl  libogg  libp11-kit  libpcap  libpciaccess  libpipeline  libproxy  libpulse  libraw1394  librsvg  libsasl  libseccomp  libsecret  libsm  libsndfile  libsoup3  libstemmer  libtasn1  libthai  libtheora  libtiff
+                  libtirpc  libtool  libunistring  libunwind  libusb  libuv  libverto  libvorbis  libvpx  libwacom  libwebp  libx11  libxau  libxcb  libxcomposite  libxcrypt  libxcursor  libxdamage  libxdmcp  libxext  libxfixes  libxft  libxi  libxinerama  libxkbcommon
+                  libxkbcommon-x11  libxml2  libxmlb  libxmu  libxrandr  libxrender  libxshmfence  libxslt  libxt  libxtst  libxv  libxxf86vm  lm_sensors  lmdb  lsof  lz4  lzo  m4  make  man-db  md4c  mesa  minizip  mpdecimal  mpfr  mtdev  mtr  ncurses  nettle  npth  nspr  nss
+                  nss-mdns  numactl  obsidian  opencore-amr  openssh  openssl  opus  orc  p11-kit  pacman  pam  pango  patch  pciutils  pcre  pcre2  perl  pinentry  pixman  pkgconf  polkit  popt  procps-ng  python-gobject  readline  sed  shadow  shared-mime-info  shfmt  slang
+                  spirv-tools  sqlite  sudo  syncthing  systemd-libs  taglib  tar  tcpdump  time  tinysparql  traceroute  tree  tslib  twolame  util-linux  util-linux-libs  vim  vte-common  vulkan-icd-loader  vulkan-intel  vulkan-mesa-device-select  vulkan-radeon  wavpack  wayland
+                  wget  which  xcb-util  xcb-util-image  xcb-util-keysyms  xcb-util-renderutil  xcb-util-wm  xorg-xauth  xorg-xprop  xxhash  yyjson  zlib  zlib-ng  zstd
 Optional For    : tzdata
 Conflicts With  : None
 Replaces        : None
@@ -2270,12 +2231,10 @@ Version         : 2.4.8-3
 Description     : Complete and free implementation of the OpenPGP standard
 Architecture    : x86_64
 URL             : https://www.gnupg.org/
-Licenses        : BSD-2-Clause  BSD-3-Clause  BSD-4-Clause  CC0-1.0  GPL-2.0-or-later  GPL-3.0-or-later  LGPL-2.1-or-later
-                  LGPL-3.0-or-later OR GPL-2.0-or-later  MIT  Unicode-TOU
+Licenses        : BSD-2-Clause  BSD-3-Clause  BSD-4-Clause  CC0-1.0  GPL-2.0-or-later  GPL-3.0-or-later  LGPL-2.1-or-later  LGPL-3.0-or-later OR GPL-2.0-or-later  MIT  Unicode-TOU
 Groups          : None
 Provides        : None
-Depends On      : glibc  gnutls  libgcrypt  libgpg-error  libksba  libldap  libusb  pinentry  sh  sqlite  tpm2-tss  zlib  bzip2  libbz2.so=1.0-64
-                  libassuan  libassuan.so=9-64  npth  libnpth.so=0-64  readline  libreadline.so=8-64
+Depends On      : glibc  gnutls  libgcrypt  libgpg-error  libksba  libldap  libusb  pinentry  sh  sqlite  tpm2-tss  zlib  bzip2  libbz2.so=1.0-64  libassuan  libassuan.so=9-64  npth  libnpth.so=0-64  readline  libreadline.so=8-64
 Optional Deps   : pcsclite: for using scdaemon not with the gnupg internal card driver [installed]
 Required By     : gpgme  pacman
 Optional For    : None
@@ -2564,8 +2523,7 @@ URL             : https://gstreamer.freedesktop.org/
 Licenses        : LGPL-2.1-or-later
 Groups          : None
 Provides        : None
-Depends On      : gst-plugins-base-libs=1.26.8-1  gstreamer=1.26.8-1  gcc-libs  glib2  glibc  libdrm  libglvnd  libgudev  libnice  libusb  libva  libx11
-                  libxcb  libxkbcommon  libxkbcommon-x11  mesa  orc  vulkan-icd-loader  wayland  zlib
+Depends On      : gst-plugins-base-libs=1.26.8-1  gstreamer=1.26.8-1  gcc-libs  glib2  glibc  libdrm  libglvnd  libgudev  libnice  libusb  libva  libx11  libxcb  libxkbcommon  libxkbcommon-x11  mesa  orc  vulkan-icd-loader  wayland  zlib
 Optional Deps   : None
 Required By     : blanket  gtk4
 Optional For    : None
@@ -2587,8 +2545,7 @@ URL             : https://gstreamer.freedesktop.org/
 Licenses        : LGPL-2.1-or-later
 Groups          : None
 Provides        : None
-Depends On      : gst-plugins-base-libs=1.26.8-1  gstreamer=1.26.8-1  alsa-lib  cairo  cdparanoia  glib2  glibc  libogg  libtheora  libvorbis  opus
-                  pango
+Depends On      : gst-plugins-base-libs=1.26.8-1  gstreamer=1.26.8-1  alsa-lib  cairo  cdparanoia  glib2  glibc  libogg  libtheora  libvorbis  opus  pango
 Optional Deps   : None
 Required By     : blanket
 Optional For    : None
@@ -2610,8 +2567,7 @@ URL             : https://gstreamer.freedesktop.org/
 Licenses        : LGPL-2.1-or-later
 Groups          : None
 Provides        : None
-Depends On      : gstreamer=1.26.8-1  glib2  glibc  graphene  iso-codes  libdrm  libglvnd  libgudev  libjpeg-turbo  libpng  libx11  libxcb  libxext
-                  libxi  libxv  mesa  orc  wayland  zlib
+Depends On      : gstreamer=1.26.8-1  glib2  glibc  graphene  iso-codes  libdrm  libglvnd  libgudev  libjpeg-turbo  libpng  libx11  libxcb  libxext  libxi  libxv  mesa  orc  wayland  zlib
 Optional Deps   : None
 Required By     : gst-plugins-bad-libs  gst-plugins-base  gst-plugins-good  gst-python  gtk4
 Optional For    : None
@@ -2633,9 +2589,8 @@ URL             : https://gstreamer.freedesktop.org/
 Licenses        : LGPL-2.1-or-later
 Groups          : None
 Provides        : None
-Depends On      : gst-plugins-base-libs=1.26.8-1  gstreamer=1.26.8-1  aalib  bzip2  cairo  flac  gcc-libs  gdk-pixbuf2  glib2  glibc  lame  libavc1394
-                  libcaca  libdv  libgudev  libiec61883  libjpeg-turbo  libpng  libpulse  libraw1394  libshout  libsoup3  libvpx  libx11  libxdamage
-                  libxext  libxfixes  libxml2  libxtst  mpg123  nettle  opencore-amr  orc  speex  taglib  twolame  v4l-utils  wavpack  zlib
+Depends On      : gst-plugins-base-libs=1.26.8-1  gstreamer=1.26.8-1  aalib  bzip2  cairo  flac  gcc-libs  gdk-pixbuf2  glib2  glibc  lame  libavc1394  libcaca  libdv  libgudev  libiec61883  libjpeg-turbo  libpng  libpulse  libraw1394  libshout  libsoup3  libvpx  libx11
+                  libxdamage  libxext  libxfixes  libxml2  libxtst  mpg123  nettle  opencore-amr  orc  speex  taglib  twolame  v4l-utils  wavpack  zlib
 Optional Deps   : jack: JACK backend
 Required By     : blanket
 Optional For    : None
@@ -2745,10 +2700,8 @@ URL             : https://www.gtk.org/
 Licenses        : LGPL-2.1-or-later
 Groups          : None
 Provides        : gtk3-print-backends  libgailutil-3.so=0-64  libgdk-3.so=0-64  libgtk-3.so=0-64
-Depends On      : adwaita-fonts  adwaita-icon-theme  at-spi2-core  cairo  dconf  desktop-file-utils  fontconfig  fribidi  gdk-pixbuf2  glib2  glibc
-                  harfbuzz  iso-codes  libcloudproviders  libcolord  libcups  libegl  libepoxy  libgl  librsvg  libx11  libxcomposite  libxcursor
-                  libxdamage  libxext  libxfixes  libxi  libxinerama  libxkbcommon  libxrandr  libxrender  pango  shared-mime-info  tinysparql  wayland
-                  gtk-update-icon-cache
+Depends On      : adwaita-fonts  adwaita-icon-theme  at-spi2-core  cairo  dconf  desktop-file-utils  fontconfig  fribidi  gdk-pixbuf2  glib2  glibc  harfbuzz  iso-codes  libcloudproviders  libcolord  libcups  libegl  libepoxy  libgl  librsvg  libx11  libxcomposite  libxcursor
+                  libxdamage  libxext  libxfixes  libxi  libxinerama  libxkbcommon  libxrandr  libxrender  pango  shared-mime-info  tinysparql  wayland  gtk-update-icon-cache
 Optional Deps   : evince: Default print preview command
 Required By     : electron34  electron37
 Optional For    : avahi  pinentry  qt5-base
@@ -2770,10 +2723,8 @@ URL             : https://www.gtk.org/
 Licenses        : LGPL-2.1-or-later
 Groups          : None
 Provides        : libgtk-4.so=1-64
-Depends On      : adwaita-fonts  adwaita-icon-theme  at-spi2-core  bash  cairo  dconf  desktop-file-utils  fontconfig  fribidi  gcc-libs  gdk-pixbuf2
-                  glib2  glibc  graphene  gst-plugins-bad-libs  gst-plugins-base-libs  gstreamer  gtk-update-icon-cache  harfbuzz  iso-codes
-                  libcloudproviders  libcolord  libcups  libegl  libepoxy  libgl  libjpeg-turbo  libpng  librsvg  libtiff  libx11  libxcursor
-                  libxdamage  libxext  libxfixes  libxi  libxinerama  libxkbcommon  libxrandr  libxrender  pango  shared-mime-info  tinysparql
+Depends On      : adwaita-fonts  adwaita-icon-theme  at-spi2-core  bash  cairo  dconf  desktop-file-utils  fontconfig  fribidi  gcc-libs  gdk-pixbuf2  glib2  glibc  graphene  gst-plugins-bad-libs  gst-plugins-base-libs  gstreamer  gtk-update-icon-cache  harfbuzz  iso-codes
+                  libcloudproviders  libcolord  libcups  libegl  libepoxy  libgl  libjpeg-turbo  libpng  librsvg  libtiff  libx11  libxcursor  libxdamage  libxext  libxfixes  libxi  libxinerama  libxkbcommon  libxrandr  libxrender  pango  shared-mime-info  tinysparql
                   vulkan-icd-loader  wayland
 Optional Deps   : evince: Default print preview command
                   xdg-desktop-portal-gtk: Fallback portals for various APIs
@@ -2819,8 +2770,7 @@ URL             : https://wiki.gnome.org/Projects/GUPnP
 Licenses        : LGPL-2.1-or-later
 Groups          : None
 Provides        : libgupnp-1.6.so=0-64
-Depends On      : gcc-libs  glib2  glibc  gssdp  libxml2  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64  libgmodule-2.0.so=0-64
-                  libgssdp-1.6.so=0-64  libsoup-3.0.so=0-64
+Depends On      : gcc-libs  glib2  glibc  gssdp  libxml2  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64  libgmodule-2.0.so=0-64  libgssdp-1.6.so=0-64  libsoup-3.0.so=0-64
 Optional Deps   : python: gupnp-binding-tool [installed]
 Required By     : gupnp-igd
 Optional For    : None
@@ -2910,10 +2860,8 @@ URL             : https://github.com/haskell/aeson
 Licenses        : GPL
 Groups          : None
 Provides        : None
-Depends On      : ghc-libs  haskell-onetuple  haskell-quickcheck  haskell-attoparsec  haskell-base-compat-batteries  haskell-data-fix  haskell-dlist
-                  haskell-generically  haskell-hashable  haskell-indexed-traversable  haskell-primitive  haskell-scientific  haskell-semialign
-                  haskell-strict  haskell-tagged  haskell-text-short  haskell-th-abstraction  haskell-these  haskell-time-compat
-                  haskell-unordered-containers  haskell-uuid-types  haskell-vector  haskell-witherable
+Depends On      : ghc-libs  haskell-onetuple  haskell-quickcheck  haskell-attoparsec  haskell-base-compat-batteries  haskell-data-fix  haskell-dlist  haskell-generically  haskell-hashable  haskell-indexed-traversable  haskell-primitive  haskell-scientific  haskell-semialign
+                  haskell-strict  haskell-tagged  haskell-text-short  haskell-th-abstraction  haskell-these  haskell-time-compat  haskell-unordered-containers  haskell-uuid-types  haskell-vector  haskell-witherable
 Optional Deps   : None
 Required By     : shellcheck
 Optional For    : None
@@ -3355,8 +3303,7 @@ Groups          : None
 Provides        : None
 Depends On      : ghc-libs  haskell-os-string
 Optional Deps   : None
-Required By     : haskell-aeson  haskell-data-fix  haskell-scientific  haskell-semialign  haskell-semigroupoids  haskell-strict  haskell-text-short
-                  haskell-these  haskell-time-compat  haskell-unordered-containers  haskell-uuid-types  haskell-witherable
+Required By     : haskell-aeson  haskell-data-fix  haskell-scientific  haskell-semialign  haskell-semigroupoids  haskell-strict  haskell-text-short  haskell-these  haskell-time-compat  haskell-unordered-containers  haskell-uuid-types  haskell-witherable
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
@@ -3684,8 +3631,7 @@ URL             : https://github.com/haskellari/these
 Licenses        : BSD-3-Clause
 Groups          : None
 Provides        : None
-Depends On      : ghc-libs  haskell-hashable  haskell-indexed-traversable  haskell-indexed-traversable-instances  haskell-semigroupoids  haskell-tagged
-                  haskell-these  haskell-unordered-containers  haskell-vector
+Depends On      : ghc-libs  haskell-hashable  haskell-indexed-traversable  haskell-indexed-traversable-instances  haskell-semigroupoids  haskell-tagged  haskell-these  haskell-unordered-containers  haskell-vector
 Optional Deps   : None
 Required By     : haskell-aeson
 Optional For    : None
@@ -3707,8 +3653,7 @@ URL             : https://github.com/ekmett/semigroupoids
 Licenses        : BSD
 Groups          : None
 Provides        : None
-Depends On      : ghc-libs  haskell-base-orphans  haskell-bifunctors  haskell-comonad  haskell-contravariant  haskell-distributive
-                  haskell-foldable1-classes-compat  haskell-hashable  haskell-tagged  haskell-transformers-compat  haskell-unordered-containers
+Depends On      : ghc-libs  haskell-base-orphans  haskell-bifunctors  haskell-comonad  haskell-contravariant  haskell-distributive  haskell-foldable1-classes-compat  haskell-hashable  haskell-tagged  haskell-transformers-compat  haskell-unordered-containers
 Optional Deps   : None
 Required By     : haskell-semialign
 Optional For    : None
@@ -3798,8 +3743,7 @@ Groups          : None
 Provides        : None
 Depends On      : ghc-libs
 Optional Deps   : None
-Required By     : haskell-aeson  haskell-assoc  haskell-bifunctors  haskell-comonad  haskell-distributive  haskell-foldable1-classes-compat
-                  haskell-indexed-traversable-instances  haskell-semialign  haskell-semigroupoids  haskell-tasty
+Required By     : haskell-aeson  haskell-assoc  haskell-bifunctors  haskell-comonad  haskell-distributive  haskell-foldable1-classes-compat  haskell-indexed-traversable-instances  haskell-semialign  haskell-semigroupoids  haskell-tasty
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
@@ -4039,8 +3983,7 @@ URL             : https://github.com/fumieval/witherable
 Licenses        : BSD
 Groups          : None
 Provides        : None
-Depends On      : ghc-libs  haskell-base-orphans  haskell-hashable  haskell-indexed-traversable  haskell-indexed-traversable-instances
-                  haskell-unordered-containers  haskell-vector
+Depends On      : ghc-libs  haskell-base-orphans  haskell-hashable  haskell-indexed-traversable  haskell-indexed-traversable-instances  haskell-unordered-containers  haskell-vector
 Optional Deps   : None
 Required By     : haskell-aeson
 Optional For    : None
@@ -4064,8 +4007,7 @@ Groups          : None
 Provides        : None
 Depends On      : None
 Optional Deps   : None
-Required By     : adwaita-icon-theme  adwaita-icon-theme-legacy  blanket  gnome-font-viewer  gtk-update-icon-cache  keepassxc  neovim-nightly-bin
-                  obsidian  v4l-utils
+Required By     : adwaita-icon-theme  adwaita-icon-theme-legacy  blanket  gnome-font-viewer  gtk-update-icon-cache  keepassxc  neovim-nightly-bin  obsidian  v4l-utils
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
@@ -4489,10 +4431,8 @@ Architecture    : x86_64
 URL             : https://web.mit.edu/kerberos/
 Licenses        : custom
 Groups          : None
-Provides        : libgssapi_krb5.so=2-64  libgssrpc.so=4-64  libk5crypto.so=3-64  libkadm5clnt_mit.so=12-64  libkadm5srv_mit.so=12-64  libkdb5.so=10-64
-                  libkdb_ldap.so=1-64  libkrad.so=0-64  libkrb5.so=3-64  libkrb5support.so=0-64
-Depends On      : bash  e2fsprogs  glibc  keyutils  libldap  libverto-module-base  openssl  lmdb  libcom_err.so=2-64  libkeyutils.so=1-64  libss.so=2-64
-                  libverto.so=1-64
+Provides        : libgssapi_krb5.so=2-64  libgssrpc.so=4-64  libk5crypto.so=3-64  libkadm5clnt_mit.so=12-64  libkadm5srv_mit.so=12-64  libkdb5.so=10-64  libkdb_ldap.so=1-64  libkrad.so=0-64  libkrb5.so=3-64  libkrb5support.so=0-64
+Depends On      : bash  e2fsprogs  glibc  keyutils  libldap  libverto-module-base  openssl  lmdb  libcom_err.so=2-64  libkeyutils.so=1-64  libss.so=2-64  libverto.so=1-64
 Optional Deps   : None
 Required By     : audit  curl  libsoup3  libtirpc  openssh
 Optional For    : None
@@ -4624,8 +4564,7 @@ URL             : https://libarchive.org/
 Licenses        : BSD-2-Clause
 Groups          : None
 Provides        : libarchive.so=13-64
-Depends On      : acl  libacl.so=1-64  bzip2  libbz2.so=1.0-64  glibc  libxml2  libxml2.so=16-64  lz4  openssl  libcrypto.so=3-64  xz  liblzma.so=5-64
-                  zlib  libz.so=1-64  zstd  libzstd.so=1-64
+Depends On      : acl  libacl.so=1-64  bzip2  libbz2.so=1.0-64  glibc  libxml2  libxml2.so=16-64  lz4  openssl  libcrypto.so=3-64  xz  liblzma.so=5-64  zlib  libz.so=1-64  zstd  libzstd.so=1-64
 Optional Deps   : None
 Required By     : pacman
 Optional For    : systemd
@@ -4935,8 +4874,7 @@ Groups          : None
 Provides        : None
 Depends On      : libpciaccess  glibc
 Optional Deps   : cairo: needed for modetest tool [installed]
-Required By     : electron34  electron37  gst-plugins-bad-libs  gst-plugins-base-libs  libva  mesa  vulkan-intel  vulkan-mesa-device-select
-                  vulkan-radeon
+Required By     : electron34  electron37  gst-plugins-bad-libs  gst-plugins-base-libs  libva  mesa  vulkan-intel  vulkan-mesa-device-select  vulkan-radeon
 Optional For    : fastfetch
 Conflicts With  : None
 Replaces        : libdrm-new  libdrm-nouveau
@@ -5065,8 +5003,7 @@ Architecture    : x86_64
 URL             : https://libevent.org/
 Licenses        : BSD
 Groups          : None
-Provides        : libevent-2.1.so=7-64  libevent_core-2.1.so=7-64  libevent_extra-2.1.so=7-64  libevent_openssl-2.1.so=7-64
-                  libevent_pthreads-2.1.so=7-64
+Provides        : libevent-2.1.so=7-64  libevent_core-2.1.so=7-64  libevent_extra-2.1.so=7-64  libevent_openssl-2.1.so=7-64  libevent_pthreads-2.1.so=7-64
 Depends On      : openssl
 Optional Deps   : python: event_rpcgen.py [installed]
 Required By     : electron34  electron37  libverto
@@ -5130,8 +5067,7 @@ Version         : 1.11.2-1
 Description     : General purpose cryptographic library based on the code from GnuPG
 Architecture    : x86_64
 URL             : https://www.gnupg.org
-Licenses        : BSD-3-Clause  BSD-3-Clause OR GPL-2.0-only  GPL-2.0-or-later  LGPL-2.0-or-later  LGPL-2.1-or-later  X11
-                  LicenseRef-scancode-public-domain  LicenseRef-OCB1
+Licenses        : BSD-3-Clause  BSD-3-Clause OR GPL-2.0-only  GPL-2.0-or-later  LGPL-2.0-or-later  LGPL-2.1-or-later  X11  LicenseRef-scancode-public-domain  LicenseRef-OCB1
 Groups          : None
 Provides        : None
 Depends On      : libgpg-error  glibc
@@ -5642,8 +5578,7 @@ Architecture    : x86_64
 URL             : https://github.com/thom311/libnl/
 Licenses        : GPL
 Groups          : None
-Provides        : libnl-3.so=200-64  libnl-cli-3.so=200-64  libnl-genl-3.so=200-64  libnl-idiag-3.so=200-64  libnl-nf-3.so=200-64
-                  libnl-route-3.so=200-64  libnl-xfrm-3.so=200-64
+Provides        : libnl-3.so=200-64  libnl-cli-3.so=200-64  libnl-genl-3.so=200-64  libnl-idiag-3.so=200-64  libnl-nf-3.so=200-64  libnl-route-3.so=200-64  libnl-xfrm-3.so=200-64
 Depends On      : glibc  gcc-libs
 Optional Deps   : None
 Required By     : libpcap
@@ -6040,8 +5975,7 @@ URL             : https://libsndfile.github.io/libsndfile/
 Licenses        : LGPL-2.1-or-later
 Groups          : None
 Provides        : libsndfile.so=1-64
-Depends On      : glibc  flac  libFLAC.so=14-64  lame  libmp3lame.so=0-64  libogg  libogg.so=0-64  libvorbis  libvorbis.so=0-64  libvorbisenc.so=2-64
-                  mpg123  libmpg123.so=0-64  opus  libopus.so=0-64
+Depends On      : glibc  flac  libFLAC.so=14-64  lame  libmp3lame.so=0-64  libogg  libogg.so=0-64  libvorbis  libvorbis.so=0-64  libvorbisenc.so=2-64  mpg123  libmpg123.so=0-64  opus  libopus.so=0-64
 Optional Deps   : alsa-lib: for sndfile-play [installed]
 Required By     : libpulse  twolame
 Optional For    : None
@@ -6063,8 +5997,7 @@ URL             : https://wiki.gnome.org/Projects/libsoup
 Licenses        : LGPL-2.0-or-later
 Groups          : None
 Provides        : libsoup-3.0.so=0-64
-Depends On      : brotli  glib-networking  glib2  glibc  krb5  libnghttp2  libpsl  libsysprof-capture  sqlite  zlib  libbrotlidec.so=1-64
-                  libgssapi_krb5.so=2-64  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64  libpsl.so=5-64
+Depends On      : brotli  glib-networking  glib2  glibc  krb5  libnghttp2  libpsl  libsysprof-capture  sqlite  zlib  libbrotlidec.so=1-64  libgssapi_krb5.so=2-64  libglib-2.0.so=0-64  libgobject-2.0.so=0-64  libgio-2.0.so=0-64  libpsl.so=5-64
 Optional Deps   : samba: Windows Domain SSO
 Required By     : extension-manager  gssdp  gst-plugins-good  gupnp  tinysparql
 Optional For    : None
@@ -6509,8 +6442,7 @@ Groups          : None
 Provides        : None
 Depends On      : libxcb  glibc  xorgproto
 Optional Deps   : None
-Required By     : aalib  at-spi2-core  cairo  freeglut  gst-plugins-bad-libs  gst-plugins-base-libs  gst-plugins-good  gtk3  gtk4  libcaca  libepoxy
-                  libva  libxcomposite  libxcursor  libxdamage  libxext  libxfixes  libxft  libxi  libxinerama  libxmu  libxrandr  libxrender  libxt
+Required By     : aalib  at-spi2-core  cairo  freeglut  gst-plugins-bad-libs  gst-plugins-base-libs  gst-plugins-good  gtk3  gtk4  libcaca  libepoxy  libva  libxcomposite  libxcursor  libxdamage  libxext  libxfixes  libxft  libxi  libxinerama  libxmu  libxrandr  libxrender  libxt
                   libxtst  libxv  libxxf86vm  mesa  pango  vulkan-intel  vulkan-radeon  xorg-xauth  xorg-xprop
 Optional For    : None
 Conflicts With  : None
@@ -6555,8 +6487,7 @@ Groups          : None
 Provides        : None
 Depends On      : xcb-proto  libxdmcp  libxau  glibc
 Optional Deps   : None
-Required By     : cairo  gst-plugins-bad-libs  gst-plugins-base-libs  libpulse  libx11  libxkbcommon-x11  mesa  vulkan-intel  vulkan-mesa-device-select
-                  vulkan-radeon  xcb-util  xcb-util-image  xcb-util-keysyms  xcb-util-renderutil  xcb-util-wm
+Required By     : cairo  gst-plugins-bad-libs  gst-plugins-base-libs  libpulse  libx11  libxkbcommon-x11  mesa  vulkan-intel  vulkan-mesa-device-select  vulkan-radeon  xcb-util  xcb-util-image  xcb-util-keysyms  xcb-util-renderutil  xcb-util-wm
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
@@ -6688,8 +6619,7 @@ Groups          : None
 Provides        : None
 Depends On      : libx11  glibc  xorgproto
 Optional Deps   : None
-Required By     : cairo  gst-plugins-base-libs  gst-plugins-good  gtk3  gtk4  imlib2  libglvnd  libva  libxi  libxinerama  libxmu  libxrandr  libxtst
-                  libxv  libxxf86vm  mesa  xorg-xauth
+Required By     : cairo  gst-plugins-base-libs  gst-plugins-good  gtk3  gtk4  imlib2  libglvnd  libva  libxi  libxinerama  libxmu  libxrandr  libxtst  libxv  libxxf86vm  mesa  xorg-xauth
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
@@ -6844,8 +6774,7 @@ Groups          : None
 Provides        : libxml2.so=16-64
 Depends On      : bash  glibc  icu  readline  zlib
 Optional Deps   : python: Python bindings [installed]
-Required By     : appstream  electron34  electron37  extension-manager  gettext  gst-plugins-good  gupnp  libarchive  librsvg  libxkbcommon  libxslt
-                  llvm-libs  shared-mime-info  tinysparql  wayland
+Required By     : appstream  electron34  electron37  extension-manager  gettext  gst-plugins-good  gupnp  libarchive  librsvg  libxkbcommon  libxslt  llvm-libs  shared-mime-info  tinysparql  wayland
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
@@ -7325,8 +7254,7 @@ Version         : 6.16-1
 Description     : Linux man pages
 Architecture    : any
 URL             : https://www.kernel.org/doc/man-pages/
-Licenses        : BSD-2-Clause  BSD-3-Clause  BSD-4.3TAHOE  BSD-4-Clause-UC  GPL-1.0-or-later  GPL-2.0-only  GPL-2.0-or-later  GPL-3.0-or-later
-                  LGPL-3.0-or-later  LGPL-3.0-linking-exception  LicenseRef-Public-Domain  LicenseRef-UltraPermissive  Linux-man-pages-1-para
+Licenses        : BSD-2-Clause  BSD-3-Clause  BSD-4.3TAHOE  BSD-4-Clause-UC  GPL-1.0-or-later  GPL-2.0-only  GPL-2.0-or-later  GPL-3.0-or-later  LGPL-3.0-or-later  LGPL-3.0-linking-exception  LicenseRef-Public-Domain  LicenseRef-UltraPermissive  Linux-man-pages-1-para
                   Linux-man-pages-copyleft  Linux-man-pages-copyleft-2-para  Linux-man-pages-copyleft-var  MIT  Spencer-94
 Groups          : None
 Provides        : None
@@ -7396,8 +7324,7 @@ URL             : https://www.mesa3d.org/
 Licenses        : MIT AND BSD-3-Clause AND SGI-B-2.0
 Groups          : None
 Provides        : libva-mesa-driver=1:25.2.6-1  mesa-libgl=1:25.2.6-1  mesa-vdpau=1:25.2.6-1  libva-driver  opengl-driver  vdpau-driver
-Depends On      : expat  gcc-libs  glibc  libdrm  libelf  libglvnd  libx11  libxcb  libxext  libxshmfence  libxxf86vm  llvm-libs  lm_sensors
-                  spirv-tools  wayland  zlib  zstd
+Depends On      : expat  gcc-libs  glibc  libdrm  libelf  libglvnd  libx11  libxcb  libxext  libxshmfence  libxxf86vm  llvm-libs  lm_sensors  spirv-tools  wayland  zlib  zstd
 Optional Deps   : opengl-man-pages: for the OpenGL API man pages
 Required By     : gst-plugins-bad-libs  gst-plugins-base-libs  libglvnd  qt5-base
 Optional For    : libva
@@ -7556,8 +7483,7 @@ Groups          : None
 Provides        : libncurses++w.so=6-64  libformw.so=6-64  libmenuw.so=6-64  libpanelw.so=6-64  libncursesw.so=6-64
 Depends On      : glibc  gcc-libs
 Optional Deps   : bash: for ncursesw6-config [installed]
-Required By     : aalib  bash  cmatrix  fish  gettext  guile  inetutils  lame  less  libcaca  libedit  mtr  pinentry  procps-ng  psmisc  readline
-                  texinfo  util-linux
+Required By     : aalib  bash  cmatrix  fish  gettext  guile  inetutils  lame  less  libcaca  libedit  mtr  pinentry  procps-ng  psmisc  readline  texinfo  util-linux
 Optional For    : None
 Conflicts With  : None
 Replaces        : alacritty-terminfo  rio-terminfo  wezterm-terminfo
@@ -7801,8 +7727,7 @@ URL             : https://www.openssh.com/portable.html
 Licenses        : 0BSD  BSD-2-Clause  BSD-3-Clause  ISC  LicenseRef-Public-Domain  MIT
 Groups          : None
 Provides        : None
-Depends On      : glibc  krb5  libkrb5.so=3-64  libgssapi_krb5.so=2-64  libedit  libedit.so=0-64  libxcrypt  libcrypt.so=2-64  openssl
-                  libcrypto.so=3-64  pam  libpam.so=0-64  zlib  libz.so=1-64
+Depends On      : glibc  krb5  libkrb5.so=3-64  libgssapi_krb5.so=2-64  libedit  libedit.so=0-64  libxcrypt  libcrypt.so=2-64  openssl  libcrypto.so=3-64  pam  libpam.so=0-64  zlib  libz.so=1-64
 Optional Deps   : libfido2: FIDO/U2F support
                   sh: for ssh-copy-id and findssl.sh [installed]
                   x11-ssh-askpass: input passphrase in X
@@ -7830,8 +7755,7 @@ Provides        : libcrypto.so=3-64  libssl.so=3-64
 Depends On      : glibc
 Optional Deps   : ca-certificates [installed]
                   perl [installed]
-Required By     : coreutils  cryptsetup  curl  git  kmod  krb5  libarchive  libevent  libngtcp2  libsasl  libshout  libssh2  nodejs  openssh  pacman
-                  python  rsync  sudo  systemd  tcpdump  tpm2-tss
+Required By     : coreutils  cryptsetup  curl  git  kmod  krb5  libarchive  libevent  libngtcp2  libsasl  libshout  libssh2  nodejs  openssh  pacman  python  rsync  sudo  systemd  tcpdump  tpm2-tss
 Optional For    : None
 Conflicts With  : None
 Replaces        : openssl-perl  openssl-doc
@@ -7917,8 +7841,7 @@ URL             : https://www.archlinux.org/pacman/
 Licenses        : GPL-2.0-or-later
 Groups          : None
 Provides        : libalpm.so=15-64
-Depends On      : bash  coreutils  curl  libcurl.so=4-64  gawk  gettext  glibc  gnupg  gpgme  libgpgme.so=45-64  grep  libarchive  libarchive.so=13-64
-                  openssl  libcrypto.so=3-64  pacman-mirrorlist  systemd
+Depends On      : bash  coreutils  curl  libcurl.so=4-64  gawk  gettext  glibc  gnupg  gpgme  libgpgme.so=45-64  grep  libarchive  libarchive.so=13-64  openssl  libcrypto.so=3-64  pacman-mirrorlist  systemd
 Optional Deps   : base-devel: required to use makepkg [installed]
                   perl-locale-gettext: translation support in makepkg-template
 Required By     : archlinux-keyring  base  base-devel  pyalpm
@@ -8141,28 +8064,17 @@ Architecture    : x86_64
 URL             : https://www.perl.org
 Licenses        : Artistic-1.0-Perl OR GPL-1.0-or-later
 Groups          : None
-Provides        : perl-archive-tar=3.04  perl-attribute-handlers=1.03  perl-autodie=2.37  perl-autoloader=5.74  perl-autouse=1.11  perl-base=2.27
-                  perl-bignum=0.67  perl-carp=1.54  perl-compress-raw-bzip2=2.213  perl-compress-raw-zlib=2.213  perl-config-perl-v=0.38
-                  perl-constant=1.33  perl-cpan-meta-requirements=2.143  perl-cpan-meta-yaml=0.020  perl-cpan-meta=2.150010  perl-cpan=2.38
-                  perl-data-dumper=2.192  perl-db_file=1.859  perl-devel-ppport=3.73  perl-devel-selfstubber=1.06  perl-digest-md5=2.59
-                  perl-digest-sha=6.04  perl-digest=1.20  perl-dumpvalue=1.21  perl-encode=3.21  perl-encoding-warnings=0.14  perl-env=1.06
-                  perl-experimental=0.035  perl-exporter=5.79  perl-extutils-cbuilder=0.280242  perl-extutils-constant=0.25  perl-extutils-install=2.22
-                  perl-extutils-makemaker=7.76  perl-extutils-manifest=1.75  perl-extutils-parsexs=3.57  perl-extutils-pl2bat=0.005
-                  perl-file-fetch=1.04  perl-file-path=2.18  perl-file-temp=0.2311  perl-filter-simple=0.96  perl-filter-util-call=1.64
-                  perl-findbin=1.54  perl-getopt-long=2.58  perl-http-tiny=0.090  perl-i18n-collate=1.02  perl-i18n-langtags=0.45  perl-if=0.0610
-                  perl-io-compress=2.213  perl-io-socket-ip=0.43  perl-io-zlib=1.15  perl-io=1.55  perl-ipc-cmd=1.04  perl-ipc-sysv=2.09
-                  perl-json-pp=4.16  perl-lib=0.65  perl-libnet=3.15  perl-locale-maketext-simple=0.21_01  perl-locale-maketext=1.33
-                  perl-math-bigint-fastcalc=0.5020  perl-math-bigint=2.005002  perl-math-complex=1.63  perl-memoize=1.17  perl-mime-base64=3.16_01
-                  perl-module-corelist=5.20250702  perl-module-load-conditional=0.74  perl-module-load=0.36  perl-module-loaded=0.08
-                  perl-module-metadata=1.000038  perl-net-ping=2.76  perl-params-check=0.38  perl-parent=0.244  perl-pathtools=3.94
-                  perl-perl-ostype=1.010  perl-perlfaq=5.20250619  perl-perlio-via-quotedprint=0.10  perl-pod-checker=1.77  perl-pod-escapes=1.07
-                  perl-pod-perldoc=3.2801  perl-pod-simple=3.45  perl-pod-usage=2.05  perl-podlators=6.0.2  perl-safe=2.47
-                  perl-scalar-list-utils=1.68_01  perl-search-dict=1.08  perl-selfloader=1.28  perl-socket=2.038  perl-storable=3.37
-                  perl-sys-syslog=0.36  perl-term-ansicolor=5.01  perl-term-cap=1.18  perl-term-complete=1.403  perl-term-readline=1.17
-                  perl-term-table=0.024  perl-test-harness=3.50  perl-test-simple=1.302210  perl-test=1.31  perl-text-abbrev=1.02
-                  perl-text-balanced=2.06  perl-text-parsewords=3.31  perl-text-tabs=2024.001  perl-thread-queue=3.14  perl-thread-semaphore=2.13
-                  perl-threads-shared=1.70  perl-threads=2.43  perl-tie-file=1.10  perl-tie-refhash=1.41  perl-time-hires=1.9778  perl-time-local=1.35
-                  perl-time-piece=1.36  perl-unicode-collate=1.31  perl-unicode-normalize=1.32  perl-version=0.9933  perl-xsloader=0.32
+Provides        : perl-archive-tar=3.04  perl-attribute-handlers=1.03  perl-autodie=2.37  perl-autoloader=5.74  perl-autouse=1.11  perl-base=2.27  perl-bignum=0.67  perl-carp=1.54  perl-compress-raw-bzip2=2.213  perl-compress-raw-zlib=2.213  perl-config-perl-v=0.38
+                  perl-constant=1.33  perl-cpan-meta-requirements=2.143  perl-cpan-meta-yaml=0.020  perl-cpan-meta=2.150010  perl-cpan=2.38  perl-data-dumper=2.192  perl-db_file=1.859  perl-devel-ppport=3.73  perl-devel-selfstubber=1.06  perl-digest-md5=2.59  perl-digest-sha=6.04
+                  perl-digest=1.20  perl-dumpvalue=1.21  perl-encode=3.21  perl-encoding-warnings=0.14  perl-env=1.06  perl-experimental=0.035  perl-exporter=5.79  perl-extutils-cbuilder=0.280242  perl-extutils-constant=0.25  perl-extutils-install=2.22
+                  perl-extutils-makemaker=7.76  perl-extutils-manifest=1.75  perl-extutils-parsexs=3.57  perl-extutils-pl2bat=0.005  perl-file-fetch=1.04  perl-file-path=2.18  perl-file-temp=0.2311  perl-filter-simple=0.96  perl-filter-util-call=1.64  perl-findbin=1.54
+                  perl-getopt-long=2.58  perl-http-tiny=0.090  perl-i18n-collate=1.02  perl-i18n-langtags=0.45  perl-if=0.0610  perl-io-compress=2.213  perl-io-socket-ip=0.43  perl-io-zlib=1.15  perl-io=1.55  perl-ipc-cmd=1.04  perl-ipc-sysv=2.09  perl-json-pp=4.16  perl-lib=0.65
+                  perl-libnet=3.15  perl-locale-maketext-simple=0.21_01  perl-locale-maketext=1.33  perl-math-bigint-fastcalc=0.5020  perl-math-bigint=2.005002  perl-math-complex=1.63  perl-memoize=1.17  perl-mime-base64=3.16_01  perl-module-corelist=5.20250702
+                  perl-module-load-conditional=0.74  perl-module-load=0.36  perl-module-loaded=0.08  perl-module-metadata=1.000038  perl-net-ping=2.76  perl-params-check=0.38  perl-parent=0.244  perl-pathtools=3.94  perl-perl-ostype=1.010  perl-perlfaq=5.20250619
+                  perl-perlio-via-quotedprint=0.10  perl-pod-checker=1.77  perl-pod-escapes=1.07  perl-pod-perldoc=3.2801  perl-pod-simple=3.45  perl-pod-usage=2.05  perl-podlators=6.0.2  perl-safe=2.47  perl-scalar-list-utils=1.68_01  perl-search-dict=1.08  perl-selfloader=1.28
+                  perl-socket=2.038  perl-storable=3.37  perl-sys-syslog=0.36  perl-term-ansicolor=5.01  perl-term-cap=1.18  perl-term-complete=1.403  perl-term-readline=1.17  perl-term-table=0.024  perl-test-harness=3.50  perl-test-simple=1.302210  perl-test=1.31
+                  perl-text-abbrev=1.02  perl-text-balanced=2.06  perl-text-parsewords=3.31  perl-text-tabs=2024.001  perl-thread-queue=3.14  perl-thread-semaphore=2.13  perl-threads-shared=1.70  perl-threads=2.43  perl-tie-file=1.10  perl-tie-refhash=1.41  perl-time-hires=1.9778
+                  perl-time-local=1.35  perl-time-piece=1.36  perl-unicode-collate=1.31  perl-unicode-normalize=1.32  perl-version=0.9933  perl-xsloader=0.32
 Depends On      : gdbm>=1.17  db5.3  glibc  libxcrypt  libcrypt.so=2-64
 Optional Deps   : None
 Required By     : autoconf  automake  ghc-libs  git  groff  perl-error  perl-timedate  texinfo
@@ -8531,8 +8443,7 @@ Optional Deps   : python-setuptools: for building Python packages using tooling 
                   xz: for lzma [installed]
                   tk: for tkinter
 Required By     : blanket  gst-python  pyalpm  python-gobject
-Optional For    : botan  fastfetch  fish  git  gstreamer  gtest  gupnp  iproute2  libcaca  libevent  libxml2  libxslt  pcsclite  rsync  util-linux-libs
-                  vim  vim-runtime
+Optional For    : botan  fastfetch  fish  git  gstreamer  gtest  gupnp  iproute2  libcaca  libevent  libxml2  libxslt  pcsclite  rsync  util-linux-libs  vim  vim-runtime
 Conflicts With  : None
 Replaces        : python3  python-externally-managed
 Installed Size  : 67.54 MiB
@@ -8595,8 +8506,7 @@ URL             : https://www.qt.io
 Licenses        : GPL3  LGPL3  FDL  custom
 Groups          : qt5
 Provides        : None
-Depends On      : libjpeg-turbo  xcb-util-keysyms  xcb-util-renderutil  libgl  fontconfig  harfbuzz  xdg-utils  shared-mime-info  xcb-util-wm
-                  libxrender  libxi  sqlite  xcb-util-image  mesa  tslib  libinput  libxkbcommon-x11  libproxy  libcups  double-conversion  md4c
+Depends On      : libjpeg-turbo  xcb-util-keysyms  xcb-util-renderutil  libgl  fontconfig  harfbuzz  xdg-utils  shared-mime-info  xcb-util-wm  libxrender  libxi  sqlite  xcb-util-image  mesa  tslib  libinput  libxkbcommon-x11  libproxy  libcups  double-conversion  md4c
                   qt5-translations
 Optional Deps   : qt5-svg: to use SVG icon themes [installed]
                   qt5-wayland: to run Qt applications in a Wayland session
@@ -8759,8 +8669,7 @@ URL             : https://github.com/shadow-maint/shadow
 Licenses        : BSD-3-Clause
 Groups          : None
 Provides        : None
-Depends On      : glibc  acl  libacl.so=1-64  attr  libattr.so  audit  libaudit.so=1-64  libxcrypt  libcrypt.so=2-64  pam  libpam.so=0-64
-                  libpam_misc.so=0-64
+Depends On      : glibc  acl  libacl.so=1-64  attr  libattr.so  audit  libaudit.so=1-64  libxcrypt  libcrypt.so=2-64  pam  libpam.so=0-64  libpam_misc.so=0-64
 Optional Deps   : None
 Required By     : base  git  util-linux
 Optional For    : None
@@ -9024,8 +8933,7 @@ URL             : https://www.github.com/systemd/systemd
 Licenses        : LGPL-2.1-or-later  CC0-1.0  GPL-2.0-or-later  MIT-0
 Groups          : None
 Provides        : nss-myhostname  systemd-tools=258.2  udev=258.2
-Depends On      : systemd-libs=258.2  acl  libacl.so=1-64  bash  cryptsetup  libcryptsetup.so=12-64  dbus  dbus-units  kbd  kmod  hwdata  libcap
-                  libcap.so=2-64  libgcrypt  libxcrypt  libcrypt.so=2-64  libidn2  lz4  pam  libelf  libseccomp  libseccomp.so=2-64  util-linux
+Depends On      : systemd-libs=258.2  acl  libacl.so=1-64  bash  cryptsetup  libcryptsetup.so=12-64  dbus  dbus-units  kbd  kmod  hwdata  libcap  libcap.so=2-64  libgcrypt  libxcrypt  libcrypt.so=2-64  libidn2  lz4  pam  libelf  libseccomp  libseccomp.so=2-64  util-linux
                   libblkid.so=1-64  libmount.so=1-64  xz  pcre2  audit  libaudit.so=1-64  openssl  libcrypto.so=3-64  libssl.so=3-64
 Optional Deps   : libmicrohttpd: systemd-journal-gatewayd and systemd-journal-remote
                   apparmor: additional security features
@@ -9065,8 +8973,7 @@ Groups          : None
 Provides        : libsystemd  libsystemd.so=0-64  libudev.so=1-64
 Depends On      : glibc  gcc-libs  libcap  libgcrypt  lz4  xz  zstd
 Optional Deps   : None
-Required By     : appstream  at-spi2-core  avahi  dbus  dbus-broker  device-mapper  libcolord  libgudev  libinput  libpulse  libusb  pam  pcsclite
-                  polkit  procps-ng  systemd  util-linux  v4l-utils  vulkan-intel  vulkan-radeon
+Required By     : appstream  at-spi2-core  avahi  dbus  dbus-broker  device-mapper  libcolord  libgudev  libinput  libpulse  libusb  pam  pcsclite  polkit  procps-ng  systemd  util-linux  v4l-utils  vulkan-intel  vulkan-radeon
 Optional For    : None
 Conflicts With  : libsystemd
 Replaces        : libsystemd
@@ -9392,12 +9299,10 @@ Version         : 2.41.2-1
 Description     : Miscellaneous system utilities for Linux
 Architecture    : x86_64
 URL             : https://github.com/util-linux/util-linux
-Licenses        : BSD-2-Clause  BSD-3-Clause  BSD-4-Clause-UC  GPL-2.0-only  GPL-2.0-or-later  GPL-3.0-or-later  ISC  LGPL-2.1-or-later
-                  LicenseRef-PublicDomain
+Licenses        : BSD-2-Clause  BSD-3-Clause  BSD-4-Clause-UC  GPL-2.0-only  GPL-2.0-or-later  GPL-3.0-or-later  ISC  LGPL-2.1-or-later  LicenseRef-PublicDomain
 Groups          : None
 Provides        : rfkill  hardlink
-Depends On      : util-linux-libs=2.41.2  coreutils  file  libmagic.so=1-64  glibc  libcap-ng  libxcrypt  libcrypt.so=2-64  ncurses  libncursesw.so=6-64
-                  pam  readline  shadow  systemd-libs  libsystemd.so=0-64  libudev.so=1-64  zlib
+Depends On      : util-linux-libs=2.41.2  coreutils  file  libmagic.so=1-64  glibc  libcap-ng  libxcrypt  libcrypt.so=2-64  ncurses  libncursesw.so=6-64  pam  readline  shadow  systemd-libs  libsystemd.so=0-64  libudev.so=1-64  zlib
 Optional Deps   : words: default dictionary for look [installed]
 Required By     : base  fakeroot  systemd
 Optional For    : e2fsprogs  gzip
@@ -9416,8 +9321,7 @@ Version         : 2.41.2-1
 Description     : util-linux runtime libraries
 Architecture    : x86_64
 URL             : https://github.com/util-linux/util-linux
-Licenses        : BSD-2-Clause  BSD-3-Clause  BSD-4-Clause-UC  GPL-2.0-only  GPL-2.0-or-later  GPL-3.0-or-later  ISC  LGPL-2.1-or-later
-                  LicenseRef-PublicDomain
+Licenses        : BSD-2-Clause  BSD-3-Clause  BSD-4-Clause-UC  GPL-2.0-only  GPL-2.0-or-later  GPL-3.0-or-later  ISC  LGPL-2.1-or-later  LicenseRef-PublicDomain
 Groups          : None
 Provides        : libutil-linux  libblkid.so=1-64  libfdisk.so=1-64  libmount.so=1-64  libsmartcols.so=1-64  libuuid.so=1-64
 Depends On      : glibc  sqlite
@@ -9560,8 +9464,7 @@ URL             : https://www.mesa3d.org/
 Licenses        : MIT AND BSD-3-Clause AND SGI-B-2.0
 Groups          : None
 Provides        : vulkan-driver
-Depends On      : expat  gcc-libs  glibc  libdrm  libx11  libxcb  libxshmfence  spirv-tools  systemd-libs  vulkan-icd-loader  vulkan-mesa-device-select
-                  wayland  xcb-util-keysyms  zlib  zstd
+Depends On      : expat  gcc-libs  glibc  libdrm  libx11  libxcb  libxshmfence  spirv-tools  systemd-libs  vulkan-icd-loader  vulkan-mesa-device-select  wayland  xcb-util-keysyms  zlib  zstd
 Optional Deps   : vulkan-mesa-layers: additional vulkan layers
 Required By     : None
 Optional For    : vulkan-icd-loader
@@ -9605,8 +9508,7 @@ URL             : https://www.mesa3d.org/
 Licenses        : MIT AND BSD-3-Clause AND SGI-B-2.0
 Groups          : None
 Provides        : vulkan-driver
-Depends On      : expat  gcc-libs  glibc  libdrm  libelf  libx11  libxcb  libxshmfence  llvm-libs  spirv-tools  systemd-libs  vulkan-icd-loader
-                  vulkan-mesa-device-select  wayland  xcb-util-keysyms  zlib  zstd
+Depends On      : expat  gcc-libs  glibc  libdrm  libelf  libx11  libxcb  libxshmfence  llvm-libs  spirv-tools  systemd-libs  vulkan-icd-loader  vulkan-mesa-device-select  wayland  xcb-util-keysyms  zlib  zstd
 Optional Deps   : vulkan-mesa-layers: additional vulkan layers
 Required By     : None
 Optional For    : vulkan-icd-loader
@@ -9672,8 +9574,7 @@ URL             : https://www.gnu.org/software/wget/wget.html
 Licenses        : GPL-3.0-or-later
 Groups          : None
 Provides        : None
-Depends On      : glibc  zlib  gnutls  libidn2  libidn2.so=0-64  util-linux-libs  libuuid.so=1-64  libpsl  libpsl.so=5-64  pcre2  nettle
-                  libnettle.so=8-64
+Depends On      : glibc  zlib  gnutls  libidn2  libidn2.so=0-64  util-linux-libs  libuuid.so=1-64  libpsl  libpsl.so=5-64  pcre2  nettle  libnettle.so=8-64
 Optional Deps   : ca-certificates: HTTPS downloads [installed]
 Required By     : None
 Optional For    : None
@@ -9988,8 +9889,7 @@ Groups          : None
 Provides        : None
 Depends On      : None
 Optional Deps   : None
-Required By     : libice  libsm  libx11  libxau  libxcomposite  libxcursor  libxdamage  libxdmcp  libxext  libxfixes  libxft  libxi  libxinerama  libxmu
-                  libxrender  libxt  libxtst  libxv  libxxf86vm
+Required By     : libice  libsm  libx11  libxau  libxcomposite  libxcursor  libxdamage  libxdmcp  libxext  libxfixes  libxft  libxi  libxinerama  libxmu  libxrender  libxt  libxtst  libxv  libxxf86vm
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
@@ -10099,10 +9999,8 @@ Groups          : None
 Provides        : libz.so=1-64
 Depends On      : glibc
 Optional Deps   : None
-Required By     : binutils  botan  cairo  curl  electron34  electron37  file  freetype2  glib2  gnupg  gnutls  gst-plugins-bad-libs
-                  gst-plugins-base-libs  gst-plugins-good  kmod  libarchive  libbpf  libcaca  libcups  libelf  libpciaccess  libpng  libsoup3  libssh2
-                  libtiff  libunwind  libxml2  llvm-libs  man-db  mesa  minizip  nodejs  nss  obsidian  openssh  pcre  pcre2  pigz  python  rsync  slang
-                  sqlite  sudo  taglib  util-linux  vim  vulkan-intel  vulkan-radeon  wget  zstd
+Required By     : binutils  botan  cairo  curl  electron34  electron37  file  freetype2  glib2  gnupg  gnutls  gst-plugins-bad-libs  gst-plugins-base-libs  gst-plugins-good  kmod  libarchive  libbpf  libcaca  libcups  libelf  libpciaccess  libpng  libsoup3  libssh2  libtiff
+                  libunwind  libxml2  llvm-libs  man-db  mesa  minizip  nodejs  nss  obsidian  openssh  pcre  pcre2  pigz  python  rsync  slang  sqlite  sudo  taglib  util-linux  vim  vulkan-intel  vulkan-radeon  wget  zstd
 Optional For    : fastfetch
 Conflicts With  : None
 Replaces        : None
@@ -10168,8 +10066,7 @@ Groups          : None
 Provides        : libzstd.so=1-64
 Depends On      : glibc  gcc-libs  zlib  xz  lz4
 Optional Deps   : None
-Required By     : appstream  binutils  curl  file  gcc  gnutls  kmod  libarchive  libelf  libtiff  libxmlb  llvm-libs  mesa  rsync  systemd-libs
-                  vulkan-intel  vulkan-radeon
+Required By     : appstream  binutils  curl  file  gcc  gnutls  kmod  libarchive  libelf  libtiff  libxmlb  llvm-libs  mesa  rsync  systemd-libs  vulkan-intel  vulkan-radeon
 Optional For    : None
 Conflicts With  : None
 Replaces        : None

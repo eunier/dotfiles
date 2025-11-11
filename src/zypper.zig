@@ -116,7 +116,7 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  htop \
         \\  jujutsu \
         \\  librewolf \
-        \\  luarocks \
+        \\  luajit-luarocks \
         \\  podman \
         \\  ripgrep \
         \\  river \
