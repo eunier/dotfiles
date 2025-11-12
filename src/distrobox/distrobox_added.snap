@@ -17,7 +17,7 @@ Replaces        : None
 Installed Size  : 284.26 KiB
 Packager        : Balló György <bgyorgy@archlinux.org>
 Build Date      : Mon 04 Aug 2025 10:31:09 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -61,7 +61,7 @@ Replaces        : None
 Installed Size  : 11.41 MiB
 Packager        : Fabian Bornschein <fabiscafe@archlinux.org>
 Build Date      : Sat 13 Sep 2025 04:55:17 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -83,7 +83,7 @@ Replaces        : None
 Installed Size  : 7.22 MiB
 Packager        : Fabian Bornschein <fabiscafe@archlinux.org>
 Build Date      : Sun 29 Jun 2025 05:15:44 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -105,7 +105,7 @@ Replaces        : None
 Installed Size  : 1195.88 KiB
 Packager        : Fabian Bornschein <fabiscafe@archlinux.org>
 Build Date      : Sat 13 Sep 2025 04:55:17 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -127,7 +127,7 @@ Replaces        : None
 Installed Size  : 2.23 MiB
 Packager        : Balló György <bgyorgy@archlinux.org>
 Build Date      : Wed 18 Sep 2024 10:33:43 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -149,7 +149,7 @@ Replaces        : None
 Installed Size  : 1718.99 KiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Sun 19 Oct 2025 04:44:25 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -171,7 +171,7 @@ Replaces        : None
 Installed Size  : 335.73 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Thu 11 Jul 2024 06:20:21 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -193,7 +193,7 @@ Replaces        : None
 Installed Size  : 555.70 KiB
 Packager        : Daniel Bermond <dbermond@archlinux.org>
 Build Date      : Thu 01 May 2025 01:18:53 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -215,7 +215,7 @@ Replaces        : None
 Installed Size  : 17.11 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Thu 02 Oct 2025 05:37:35 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -237,7 +237,7 @@ Replaces        : None
 Installed Size  : 1731.91 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Thu 30 Oct 2025 12:32:07 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:42 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:35 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -259,7 +259,7 @@ Replaces        : None
 Installed Size  : 106.02 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Tue 23 Jul 2024 12:53:38 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -281,7 +281,7 @@ Replaces        : at-spi2-atk<=2.38.0-2  atk<=2.38.0-2
 Installed Size  : 3.98 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Sat 11 Oct 2025 12:47:47 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -326,7 +326,7 @@ Replaces        : None
 Installed Size  : 1024.08 KiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Sat 25 Oct 2025 06:47:35 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -348,7 +348,7 @@ Replaces        : None
 Installed Size  : 2.22 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Fri 22 Dec 2023 07:16:19 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -370,7 +370,7 @@ Replaces        : None
 Installed Size  : 1677.76 KiB
 Packager        : Lukas Fleischer <lfleischer@archlinux.org>
 Build Date      : Sat 12 Jul 2025 08:12:09 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -398,7 +398,7 @@ Replaces        : None
 Installed Size  : 1986.83 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Thu 31 Jul 2025 08:23:42 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -444,7 +444,7 @@ Replaces        : None
 Installed Size  : 0.00 B
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Fri 06 Sep 2024 03:08:35 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -490,7 +490,7 @@ Replaces        : None
 Installed Size  : 1037.93 KiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
 Build Date      : Sat 01 Nov 2025 04:53:21 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -515,7 +515,7 @@ Replaces        : None
 Installed Size  : 13.47 MiB
 Packager        : Daniel M. Capella <polyzen@archlinux.org>
 Build Date      : Wed 23 Apr 2025 10:30:58 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -537,7 +537,7 @@ Replaces        : bc-readline
 Installed Size  : 173.15 KiB
 Packager        : George Rawlinson <grawlinson@archlinux.org>
 Build Date      : Mon 26 May 2025 08:48:45 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -559,7 +559,7 @@ Replaces        : binutils-multilib
 Installed Size  : 42.74 MiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Wed 13 Aug 2025 09:45:37 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -581,7 +581,7 @@ Replaces        : None
 Installed Size  : 2.52 MiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
 Build Date      : Sun 08 Sep 2024 11:27:20 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -603,29 +603,7 @@ Replaces        : None
 Installed Size  : 17.80 MiB
 Packager        : Balló György <bgyorgy@archlinux.org>
 Build Date      : Thu 31 Jul 2025 06:02:32 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
-Install Reason  : Explicitly installed
-Install Script  : No
-Validated By    : Signature
-
-Name            : bob
-Version         : 4.1.4-1
-Description     : A version manager for neovim
-Architecture    : x86_64
-URL             : https://github.com/MordechaiHadad/bob
-Licenses        : MIT
-Groups          : None
-Provides        : None
-Depends On      : gcc-libs
-Optional Deps   : None
-Required By     : None
-Optional For    : None
-Conflicts With  : None
-Replaces        : None
-Installed Size  : 9.00 MiB
-Packager        : Orhun Parmaksız <orhun@archlinux.org>
-Build Date      : Mon 13 Oct 2025 11:44:28 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -648,7 +626,7 @@ Replaces        : None
 Installed Size  : 11.20 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Fri 07 Nov 2025 04:52:33 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -692,7 +670,7 @@ Replaces        : None
 Installed Size  : 97.03 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 30 Oct 2024 05:18:35 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -714,7 +692,7 @@ Replaces        : None
 Installed Size  : 100.32 MiB
 Packager        : Unknown Packager
 Build Date      : Tue 11 Nov 2025 04:23:29 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:59 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:53 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : None
@@ -758,7 +736,7 @@ Replaces        : None
 Installed Size  : 520.11 KiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Tue 08 Apr 2025 09:26:46 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -846,7 +824,7 @@ Replaces        : None
 Installed Size  : 1631.10 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 10 Mar 2025 05:30:11 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:38 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -868,7 +846,7 @@ Replaces        : None
 Installed Size  : 185.99 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Fri 22 Dec 2023 04:05:40 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:38 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -891,7 +869,7 @@ Replaces        : None
 Installed Size  : 94.82 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Fri 25 Jul 2025 12:24:37 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -958,7 +936,7 @@ Replaces        : wcurl
 Installed Size  : 2.08 MiB
 Packager        : Leonidas Spyropoulos <artafinde@archlinux.org>
 Build Date      : Wed 05 Nov 2025 02:53:09 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -980,7 +958,7 @@ Replaces        : None
 Installed Size  : 1823.45 KiB
 Packager        : Robin Candau <antiz@archlinux.org>
 Build Date      : Sat 01 Nov 2025 06:40:56 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1002,7 +980,7 @@ Replaces        : None
 Installed Size  : 6.45 MiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Wed 01 May 2024 11:27:30 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1112,7 +1090,7 @@ Replaces        : None
 Installed Size  : 458.44 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 15 Sep 2025 12:19:47 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -1134,7 +1112,7 @@ Replaces        : None
 Installed Size  : 113.37 KiB
 Packager        : Jelle van der Waa <jelle@archlinux.org>
 Build Date      : Mon 07 Jul 2025 12:13:16 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1156,7 +1134,7 @@ Replaces        : None
 Installed Size  : 30.00 B
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Fri 20 Sep 2024 06:10:39 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1178,7 +1156,7 @@ Replaces        : None
 Installed Size  : 180.66 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Sat 26 Oct 2024 09:31:32 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1200,7 +1178,7 @@ Replaces        : None
 Installed Size  : 771.03 KiB
 Packager        : Morten Linderud <foxboron@archlinux.org>
 Build Date      : Tue 04 Nov 2025 05:31:07 PM EST
-Install Date    : Wed 12 Nov 2025 06:59:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1222,7 +1200,7 @@ Replaces        : None
 Installed Size  : 1539.49 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Sat 26 Apr 2025 06:06:06 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1244,7 +1222,7 @@ Replaces        : None
 Installed Size  : 194.17 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Fri 14 Feb 2025 02:57:42 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1266,7 +1244,7 @@ Replaces        : None
 Installed Size  : 802.98 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Fri 12 Jul 2024 12:47:47 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1319,7 +1297,7 @@ Replaces        : None
 Installed Size  : 258.38 MiB
 Packager        : Caleb Maclennan <alerque@archlinux.org>
 Build Date      : Wed 04 Jun 2025 07:34:37 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:59 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:53 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1348,7 +1326,7 @@ Replaces        : None
 Installed Size  : 282.62 MiB
 Packager        : Caleb Maclennan <alerque@archlinux.org>
 Build Date      : Wed 17 Sep 2025 12:53:02 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1392,7 +1370,7 @@ Replaces        : None
 Installed Size  : 775.51 KiB
 Packager        : George Hu <integral@archlinux.org>
 Build Date      : Wed 01 Oct 2025 10:58:41 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1414,7 +1392,7 @@ Replaces        : None
 Installed Size  : 141.62 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Tue 13 May 2025 02:37:01 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -1452,7 +1430,7 @@ Replaces        : None
 Installed Size  : 1606.66 KiB
 Packager        : Robin Candau <antiz@archlinux.org>
 Build Date      : Tue 11 Nov 2025 07:34:50 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1496,7 +1474,7 @@ Replaces        : None
 Installed Size  : 547.77 MiB
 Packager        : Unknown Packager
 Build Date      : Sat 25 Oct 2025 04:57:27 AM EDT
-Install Date    : Wed 12 Nov 2025 07:01:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:54 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : None
@@ -1518,7 +1496,7 @@ Replaces        : None
 Installed Size  : 23.98 KiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Sun 12 Oct 2025 12:21:41 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1568,7 +1546,7 @@ Replaces        : None
 Installed Size  : 40.33 MiB
 Packager        : George Rawlinson <grawlinson@archlinux.org>
 Build Date      : Mon 10 Nov 2025 05:26:37 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -1590,7 +1568,7 @@ Replaces        : None
 Installed Size  : 1167.81 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 19 Feb 2025 11:37:50 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1612,7 +1590,7 @@ Replaces        : None
 Installed Size  : 955.65 KiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Fri 17 Mar 2023 07:32:09 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1634,7 +1612,7 @@ Replaces        : None
 Installed Size  : 7.06 MiB
 Packager        : Unknown Packager
 Build Date      : Wed 22 Oct 2025 05:43:07 AM EDT
-Install Date    : Wed 12 Nov 2025 07:01:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:54 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : None
@@ -1656,7 +1634,7 @@ Replaces        : fontconfig-docs<2:2.13.93-1
 Installed Size  : 1149.76 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 02 Jul 2025 02:43:25 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -1678,7 +1656,7 @@ Replaces        : None
 Installed Size  : 349.18 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Sat 08 Nov 2025 12:22:46 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1700,7 +1678,7 @@ Replaces        : None
 Installed Size  : 1697.26 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Thu 11 Sep 2025 09:15:34 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -1722,7 +1700,7 @@ Replaces        : None
 Installed Size  : 249.70 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Tue 13 May 2025 06:53:36 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:38 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1744,7 +1722,7 @@ Replaces        : None
 Installed Size  : 725.00 B
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Fri 24 Oct 2025 01:32:04 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1766,7 +1744,7 @@ Replaces        : fuse
 Installed Size  : 451.70 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Fri 12 Jul 2024 11:27:19 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1810,7 +1788,7 @@ Replaces        : None
 Installed Size  : 781.23 KiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Wed 22 Oct 2025 01:28:23 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1832,7 +1810,7 @@ Replaces        : gcc-multilib
 Installed Size  : 208.47 MiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Wed 13 Aug 2025 10:30:10 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1847,10 +1825,10 @@ Groups          : None
 Provides        : gcc-libs-multilib  libgo.so=24-64  libgfortran.so=5-64  libgphobos.so=6-64  libubsan.so=1-64  libasan.so=8-64  libtsan.so=2-64  liblsan.so=0-64
 Depends On      : glibc>=2.27
 Optional Deps   : None
-Required By     : appstream  at-spi2-core  base  bob  botan  bubblewrap  db5.3  dbus-broker  dconf  double-conversion  electron34  electron37  fish  flac  gc  gcc  gettext  glu  glycin  gmp
-                  gnome-font-viewer  gnutls  gperftools  gpgme  graphite  groff  gssdp  gst-plugins-bad-libs  gst-plugins-good  gstreamer  gtest  gtk4  gupnp  highway  icu  libcaca  libcolord  libgudev
-                  libjxl  libnl  libproxy  librsvg  libtiff  libvpx  libxmlb  llvm-libs  mesa  mpdecimal  ncurses  obsidian  pcre  shared-mime-info  simdjson  speex  speexdsp  spirv-tools  systemd-libs
-                  taglib  tinysparql  v4l-utils  vulkan-intel  vulkan-radeon  zstd
+Required By     : appstream  at-spi2-core  base  botan  bubblewrap  db5.3  dbus-broker  dconf  double-conversion  electron34  electron37  fish  flac  gc  gcc  gettext  glu  glycin  gmp  gnome-font-viewer
+                  gnutls  gperftools  gpgme  graphite  groff  gssdp  gst-plugins-bad-libs  gst-plugins-good  gstreamer  gtest  gtk4  gupnp  highway  icu  libcaca  libcolord  libgudev  libjxl  libnl
+                  libproxy  librsvg  libtiff  libvpx  libxmlb  llvm-libs  mesa  mpdecimal  ncurses  obsidian  pcre  shared-mime-info  simdjson  speex  speexdsp  spirv-tools  systemd-libs  taglib
+                  tinysparql  v4l-utils  vulkan-intel  vulkan-radeon  zstd
 Optional For    : None
 Conflicts With  : None
 Replaces        : gcc-libs-multilib  libgphobos
@@ -1903,7 +1881,7 @@ Replaces        : None
 Installed Size  : 2.95 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Tue 21 Oct 2025 12:09:11 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -1961,7 +1939,7 @@ Replaces        : haskell-array  haskell-base  haskell-binary  haskell-bytestrin
 Installed Size  : 125.35 MiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Sun 12 Oct 2025 05:37:29 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -1983,7 +1961,7 @@ Replaces        : None
 Installed Size  : 279.98 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Mon 14 Apr 2025 04:01:48 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2018,7 +1996,7 @@ Replaces        : None
 Installed Size  : 29.25 MiB
 Packager        : Christian Heusel <gromit@archlinux.org>
 Build Date      : Mon 27 Oct 2025 12:20:10 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -2040,7 +2018,7 @@ Replaces        : None
 Installed Size  : 660.48 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 08 Jan 2025 06:17:59 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2066,7 +2044,7 @@ Replaces        : None
 Installed Size  : 37.26 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Tue 21 Oct 2025 11:59:23 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -2103,7 +2081,7 @@ Replaces        : None
 Installed Size  : 49.70 MiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Wed 13 Aug 2025 08:30:26 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:55 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:46 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -2125,7 +2103,7 @@ Replaces        : None
 Installed Size  : 221.79 MiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Wed 13 Aug 2025 08:30:26 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:55 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:47 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -2147,7 +2125,7 @@ Replaces        : None
 Installed Size  : 363.02 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Tue 02 Jul 2024 03:07:48 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2169,7 +2147,7 @@ Replaces        : None
 Installed Size  : 19.56 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Tue 11 Nov 2025 05:46:07 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2213,7 +2191,7 @@ Replaces        : None
 Installed Size  : 1173.77 KiB
 Packager        : Fabian Bornschein <fabiscafe@archlinux.org>
 Build Date      : Sat 13 Sep 2025 02:19:37 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -2258,7 +2236,7 @@ Replaces        : None
 Installed Size  : 10.27 MiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Thu 23 Oct 2025 05:08:02 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -2302,7 +2280,7 @@ Replaces        : None
 Installed Size  : 150.84 KiB
 Packager        : Fabian Bornschein <fabiscafe@archlinux.org>
 Build Date      : Sat 13 Sep 2025 03:06:07 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2324,7 +2302,7 @@ Replaces        : None
 Installed Size  : 2.01 MiB
 Packager        : Balló György <bgyorgy@archlinux.org>
 Build Date      : Tue 02 Sep 2025 05:25:14 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2368,7 +2346,7 @@ Replaces        : None
 Installed Size  : 393.39 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Tue 23 Jul 2024 02:19:03 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:01 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:53 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2390,7 +2368,7 @@ Replaces        : None
 Installed Size  : 1001.49 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Thu 03 Oct 2024 09:21:25 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2412,7 +2390,7 @@ Replaces        : None
 Installed Size  : 206.17 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Thu 10 Jul 2025 10:38:46 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:38 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2459,7 +2437,7 @@ Replaces        : None
 Installed Size  : 8.84 MiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
 Build Date      : Wed 28 Aug 2024 04:19:27 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2481,7 +2459,7 @@ Replaces        : None
 Installed Size  : 5.69 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 13 Oct 2025 04:41:46 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2503,7 +2481,7 @@ Replaces        : None
 Installed Size  : 14.97 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 13 Oct 2025 04:41:46 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2525,7 +2503,7 @@ Replaces        : None
 Installed Size  : 243.24 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Sat 28 Jun 2025 11:03:02 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2548,7 +2526,7 @@ Replaces        : None
 Installed Size  : 12.56 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 10 Nov 2025 08:18:11 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2570,7 +2548,7 @@ Replaces        : None
 Installed Size  : 636.16 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 10 Nov 2025 08:18:11 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2592,7 +2570,7 @@ Replaces        : None
 Installed Size  : 12.43 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 10 Nov 2025 08:18:11 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2616,7 +2594,7 @@ Replaces        : None
 Installed Size  : 7.20 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 10 Nov 2025 08:18:11 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2638,7 +2616,7 @@ Replaces        : None
 Installed Size  : 236.80 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 10 Nov 2025 08:18:11 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2660,7 +2638,7 @@ Replaces        : None
 Installed Size  : 11.42 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 10 Nov 2025 08:18:11 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -2682,7 +2660,7 @@ Replaces        : gmock
 Installed Size  : 1666.59 KiB
 Packager        : Carl Smedstad <carsme@archlinux.org>
 Build Date      : Sun 11 May 2025 08:20:00 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2704,7 +2682,7 @@ Replaces        : None
 Installed Size  : 36.06 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Sat 04 Oct 2025 09:44:03 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2728,7 +2706,7 @@ Replaces        : gtk3-print-backends<=3.22.26-1
 Installed Size  : 52.56 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 29 Sep 2025 11:02:31 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -2753,7 +2731,7 @@ Replaces        : None
 Installed Size  : 49.29 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Sat 04 Oct 2025 09:44:03 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2775,7 +2753,7 @@ Replaces        : None
 Installed Size  : 54.73 MiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Mon 24 Jun 2024 04:16:00 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2797,7 +2775,7 @@ Replaces        : None
 Installed Size  : 716.23 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Sat 28 Jun 2025 11:05:05 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2819,7 +2797,7 @@ Replaces        : None
 Installed Size  : 114.81 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 14 May 2025 10:07:38 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2865,7 +2843,7 @@ Replaces        : None
 Installed Size  : 4.37 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 05 Nov 2025 03:48:45 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:38 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2889,7 +2867,7 @@ Replaces        : None
 Installed Size  : 9.53 MiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 07:36:05 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2911,7 +2889,7 @@ Replaces        : None
 Installed Size  : 227.45 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 04:43:12 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2933,7 +2911,7 @@ Replaces        : None
 Installed Size  : 455.27 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 04:42:17 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2955,7 +2933,7 @@ Replaces        : None
 Installed Size  : 39.43 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Sun 12 Oct 2025 07:23:17 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2977,7 +2955,7 @@ Replaces        : None
 Installed Size  : 2.97 MiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 06:23:17 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2999,7 +2977,7 @@ Replaces        : None
 Installed Size  : 379.23 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Sun 12 Oct 2025 06:48:47 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3021,7 +2999,7 @@ Replaces        : None
 Installed Size  : 368.98 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:55:02 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3043,7 +3021,7 @@ Replaces        : None
 Installed Size  : 373.21 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:23:04 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3065,7 +3043,7 @@ Replaces        : None
 Installed Size  : 2.57 MiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 07:19:09 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3087,7 +3065,7 @@ Replaces        : None
 Installed Size  : 815.56 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 04:41:21 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3109,7 +3087,7 @@ Replaces        : None
 Installed Size  : 519.97 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 06:16:08 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3131,7 +3109,7 @@ Replaces        : None
 Installed Size  : 341.35 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Sun 12 Oct 2025 06:58:02 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3153,7 +3131,7 @@ Replaces        : None
 Installed Size  : 171.69 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 04:29:43 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3175,7 +3153,7 @@ Replaces        : None
 Installed Size  : 226.92 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 06:05:56 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3197,7 +3175,7 @@ Replaces        : None
 Installed Size  : 218.91 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:23:47 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3219,7 +3197,7 @@ Replaces        : None
 Installed Size  : 231.29 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 03:56:31 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3241,7 +3219,7 @@ Replaces        : None
 Installed Size  : 53.66 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Sun 12 Oct 2025 06:50:25 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3263,7 +3241,7 @@ Replaces        : None
 Installed Size  : 1680.25 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 06:09:14 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3285,7 +3263,7 @@ Replaces        : None
 Installed Size  : 3.49 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:52:17 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3307,7 +3285,7 @@ Replaces        : None
 Installed Size  : 10.92 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 06:13:59 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3330,7 +3308,7 @@ Replaces        : None
 Installed Size  : 647.55 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 04:18:40 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3352,7 +3330,7 @@ Replaces        : None
 Installed Size  : 738.55 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 06:00:28 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3374,7 +3352,7 @@ Replaces        : None
 Installed Size  : 86.77 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 06:16:07 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3396,7 +3374,7 @@ Replaces        : None
 Installed Size  : 139.27 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 04:40:13 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3418,7 +3396,7 @@ Replaces        : None
 Installed Size  : 19.14 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 04:24:47 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3440,7 +3418,7 @@ Replaces        : None
 Installed Size  : 1396.87 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:42:23 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3462,7 +3440,7 @@ Replaces        : None
 Installed Size  : 901.74 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 04:16:55 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3484,7 +3462,7 @@ Replaces        : None
 Installed Size  : 1505.14 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:39:48 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3506,7 +3484,7 @@ Replaces        : None
 Installed Size  : 267.56 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:41:06 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3528,7 +3506,7 @@ Replaces        : None
 Installed Size  : 1663.93 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 04:16:45 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3550,7 +3528,7 @@ Replaces        : None
 Installed Size  : 3.30 MiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:06:59 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3572,7 +3550,7 @@ Replaces        : None
 Installed Size  : 1832.04 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:05:34 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3594,7 +3572,7 @@ Replaces        : None
 Installed Size  : 295.84 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Sun 12 Oct 2025 06:50:50 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3616,7 +3594,7 @@ Replaces        : None
 Installed Size  : 2.94 MiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 07:20:50 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3638,7 +3616,7 @@ Replaces        : None
 Installed Size  : 506.26 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:00:19 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3661,7 +3639,7 @@ Replaces        : None
 Installed Size  : 711.38 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 07:33:06 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3684,7 +3662,7 @@ Replaces        : None
 Installed Size  : 2.07 MiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 07:27:13 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3706,7 +3684,7 @@ Replaces        : None
 Installed Size  : 160.46 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:03:56 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3728,7 +3706,7 @@ Replaces        : None
 Installed Size  : 75.18 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Sun 12 Oct 2025 06:41:42 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3750,7 +3728,7 @@ Replaces        : None
 Installed Size  : 913.44 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:55:51 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3773,7 +3751,7 @@ Replaces        : None
 Installed Size  : 301.16 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Sun 12 Oct 2025 06:45:08 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3795,7 +3773,7 @@ Replaces        : None
 Installed Size  : 1453.93 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:43:13 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3817,7 +3795,7 @@ Replaces        : None
 Installed Size  : 334.68 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 04:40:11 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3839,7 +3817,7 @@ Replaces        : None
 Installed Size  : 811.34 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Sun 12 Oct 2025 06:48:18 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3861,7 +3839,7 @@ Replaces        : None
 Installed Size  : 555.69 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:55:00 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3883,7 +3861,7 @@ Replaces        : None
 Installed Size  : 471.36 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:24:42 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3905,7 +3883,7 @@ Replaces        : None
 Installed Size  : 576.73 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Sun 12 Oct 2025 06:48:21 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3927,7 +3905,7 @@ Replaces        : None
 Installed Size  : 1949.93 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:36:50 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3949,7 +3927,7 @@ Replaces        : None
 Installed Size  : 288.11 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:14:15 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3971,7 +3949,7 @@ Replaces        : None
 Installed Size  : 10.83 MiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 05:48:25 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -3993,7 +3971,7 @@ Replaces        : None
 Installed Size  : 559.68 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Sun 12 Oct 2025 06:48:13 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4015,7 +3993,7 @@ Replaces        : None
 Installed Size  : 851.18 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Wed 15 Oct 2025 07:18:56 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4037,7 +4015,7 @@ Replaces        : None
 Installed Size  : 54.32 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Thu 23 May 2024 09:27:37 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4059,7 +4037,7 @@ Replaces        : None
 Installed Size  : 9.87 MiB
 Packager        : Daniel Bermond <dbermond@archlinux.org>
 Build Date      : Thu 14 Aug 2025 04:41:28 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4081,7 +4059,7 @@ Replaces        : hwids
 Installed Size  : 9.59 MiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
 Build Date      : Wed 05 Nov 2025 03:25:18 PM EST
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4103,7 +4081,7 @@ Replaces        : None
 Installed Size  : 4.00 MiB
 Packager        : Jelle van der Waa <jelle@archlinux.org>
 Build Date      : Sun 02 Nov 2025 11:40:11 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4125,7 +4103,7 @@ Replaces        : None
 Installed Size  : 43.23 MiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Tue 04 Nov 2025 10:46:17 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:42 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:35 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4153,7 +4131,7 @@ Replaces        : None
 Installed Size  : 1507.65 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Mon 07 Apr 2025 03:29:04 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4175,7 +4153,7 @@ Replaces        : None
 Installed Size  : 1102.30 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Tue 15 Apr 2025 12:57:18 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -4265,7 +4243,7 @@ Replaces        : None
 Installed Size  : 22.22 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Sun 09 Nov 2025 04:17:39 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4287,7 +4265,7 @@ Replaces        : None
 Installed Size  : 271.51 KiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Wed 26 Mar 2025 04:01:54 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4309,7 +4287,7 @@ Replaces        : None
 Installed Size  : 166.74 KiB
 Packager        : Balló György <bgyorgy@archlinux.org>
 Build Date      : Wed 08 May 2024 07:47:26 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4353,7 +4331,7 @@ Replaces        : None
 Installed Size  : 1038.53 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Sat 13 Sep 2025 02:13:09 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4398,7 +4376,7 @@ Replaces        : None
 Installed Size  : 30.08 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Fri 07 Nov 2025 07:18:44 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4487,7 +4465,7 @@ Replaces        : None
 Installed Size  : 1227.34 KiB
 Packager        : Maxime Gauduin <alucryd@archlinux.org>
 Build Date      : Thu 14 Aug 2025 04:51:11 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4509,7 +4487,7 @@ Replaces        : None
 Installed Size  : 686.06 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Mon 10 Feb 2025 02:58:59 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4531,7 +4509,7 @@ Replaces        : None
 Installed Size  : 6.00 MiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sun 26 Oct 2025 03:39:57 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4553,7 +4531,7 @@ Replaces        : None
 Installed Size  : 305.02 KiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
 Build Date      : Fri 17 Oct 2025 03:38:24 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -4575,7 +4553,7 @@ Replaces        : None
 Installed Size  : 5.11 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Thu 09 Oct 2025 10:04:03 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4641,7 +4619,7 @@ Replaces        : None
 Installed Size  : 47.89 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Fri 12 Jul 2024 03:22:47 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4663,7 +4641,7 @@ Replaces        : None
 Installed Size  : 122.57 KiB
 Packager        : Balló György <bgyorgy@archlinux.org>
 Build Date      : Tue 19 Aug 2025 06:16:33 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4707,7 +4685,7 @@ Replaces        : None
 Installed Size  : 2.68 MiB
 Packager        : Carl Smedstad <carsme@archlinux.org>
 Build Date      : Sat 16 Nov 2024 06:52:14 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4729,7 +4707,7 @@ Replaces        : None
 Installed Size  : 2045.87 KiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Mon 27 Oct 2025 04:57:48 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4773,7 +4751,7 @@ Replaces        : None
 Installed Size  : 483.27 KiB
 Packager        : Christian Heusel <gromit@archlinux.org>
 Build Date      : Thu 12 Jun 2025 09:23:16 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4795,7 +4773,7 @@ Replaces        : None
 Installed Size  : 1269.26 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Sun 29 Jun 2025 10:59:32 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4817,7 +4795,7 @@ Replaces        : None
 Installed Size  : 788.90 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Fri 12 Sep 2025 09:13:34 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4839,7 +4817,7 @@ Replaces        : None
 Installed Size  : 58.53 KiB
 Packager        : Jelle van der Waa <jelle@archlinux.org>
 Build Date      : Sat 06 Jul 2024 03:55:55 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4861,7 +4839,7 @@ Replaces        : None
 Installed Size  : 488.54 KiB
 Packager        : Balló György <bgyorgy@archlinux.org>
 Build Date      : Wed 31 May 2023 05:59:58 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:38 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4883,7 +4861,7 @@ Replaces        : None
 Installed Size  : 142.91 KiB
 Packager        : Maxime Gauduin <alucryd@archlinux.org>
 Build Date      : Mon 12 May 2025 01:11:51 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4905,7 +4883,7 @@ Replaces        : libdrm-new  libdrm-nouveau
 Installed Size  : 1293.25 KiB
 Packager        : Laurent Carlier <lordheavym@archlinux.org>
 Build Date      : Sun 02 Nov 2025 05:02:36 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4927,7 +4905,7 @@ Replaces        : None
 Installed Size  : 205.29 KiB
 Packager        : Balló György <bgyorgy@archlinux.org>
 Build Date      : Thu 01 Jun 2023 05:58:06 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4949,7 +4927,7 @@ Replaces        : None
 Installed Size  : 268.96 KiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
 Build Date      : Mon 24 Feb 2025 05:09:02 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4971,7 +4949,7 @@ Replaces        : None
 Installed Size  : 3.22 MiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Sat 25 Oct 2025 02:42:07 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -4993,7 +4971,7 @@ Replaces        : None
 Installed Size  : 2.64 MiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Fri 12 Jul 2024 04:09:42 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5015,7 +4993,7 @@ Replaces        : None
 Installed Size  : 219.95 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sun 26 Oct 2025 03:28:51 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5081,7 +5059,7 @@ Replaces        : None
 Installed Size  : 943.69 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Tue 16 Sep 2025 05:24:40 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5125,7 +5103,7 @@ Replaces        : None
 Installed Size  : 1556.34 KiB
 Packager        : Fabian Bornschein <fabiscafe@archlinux.org>
 Build Date      : Sat 13 Sep 2025 03:06:07 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5147,7 +5125,7 @@ Replaces        : None
 Installed Size  : 3.34 MiB
 Packager        : Sven-Hendrik Haase <svenstaro@archlinux.org>
 Build Date      : Fri 13 Jun 2025 07:55:06 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5191,7 +5169,7 @@ Replaces        : None
 Installed Size  : 390.48 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 14 May 2025 09:17:26 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5213,7 +5191,7 @@ Replaces        : None
 Installed Size  : 365.74 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sat 14 Dec 2024 03:07:46 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5257,7 +5235,7 @@ Replaces        : None
 Installed Size  : 126.81 KiB
 Packager        : Christian Heusel <gromit@archlinux.org>
 Build Date      : Sun 31 Aug 2025 06:44:47 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5282,7 +5260,7 @@ Replaces        : None
 Installed Size  : 1291.41 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sun 26 Oct 2025 03:32:08 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5304,7 +5282,7 @@ Replaces        : isl
 Installed Size  : 5.75 MiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Mon 02 Sep 2024 05:45:50 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5326,7 +5304,7 @@ Replaces        : None
 Installed Size  : 2.42 MiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Fri 05 Sep 2025 02:45:57 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5348,7 +5326,7 @@ Replaces        : None
 Installed Size  : 9.74 MiB
 Packager        : Daniel Bermond <dbermond@archlinux.org>
 Build Date      : Sun 19 Oct 2025 06:59:50 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5436,7 +5414,7 @@ Replaces        : None
 Installed Size  : 179.50 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Thu 04 Jul 2024 04:43:38 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5524,7 +5502,7 @@ Replaces        : None
 Installed Size  : 394.76 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Sun 26 Oct 2025 05:18:33 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5568,7 +5546,7 @@ Replaces        : None
 Installed Size  : 655.79 KiB
 Packager        : kpcyrd <kpcyrd@archlinux.org>
 Build Date      : Thu 23 Oct 2025 11:41:46 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5590,7 +5568,7 @@ Replaces        : None
 Installed Size  : 1847.54 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 14 May 2025 10:02:39 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5656,7 +5634,7 @@ Replaces        : None
 Installed Size  : 449.24 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Mon 14 Jul 2025 06:57:33 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:38 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5722,7 +5700,7 @@ Replaces        : None
 Installed Size  : 58.06 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Mon 01 Apr 2024 03:36:32 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5744,7 +5722,7 @@ Replaces        : None
 Installed Size  : 92.24 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Wed 28 Aug 2024 09:45:59 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5766,7 +5744,7 @@ Replaces        : None
 Installed Size  : 585.20 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Wed 02 Jul 2025 12:52:59 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5788,7 +5766,7 @@ Replaces        : None
 Installed Size  : 100.84 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Tue 09 Sep 2025 09:07:14 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5832,7 +5810,7 @@ Replaces        : None
 Installed Size  : 1499.32 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 10 Nov 2025 07:41:56 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5854,7 +5832,7 @@ Replaces        : None
 Installed Size  : 166.10 KiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
 Build Date      : Mon 01 Jul 2024 06:13:10 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5876,7 +5854,7 @@ Replaces        : None
 Installed Size  : 10.39 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 03 Nov 2025 06:10:10 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5964,7 +5942,7 @@ Replaces        : None
 Installed Size  : 201.78 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Thu 24 Apr 2025 03:17:46 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -5986,7 +5964,7 @@ Replaces        : None
 Installed Size  : 265.39 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sun 09 Mar 2025 03:42:19 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6008,7 +5986,7 @@ Replaces        : None
 Installed Size  : 954.60 KiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Sun 19 Oct 2025 04:40:53 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6031,7 +6009,7 @@ Replaces        : None
 Installed Size  : 1996.19 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Fri 21 Mar 2025 02:36:01 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6075,7 +6053,7 @@ Replaces        : None
 Installed Size  : 618.96 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Sun 11 May 2025 06:25:19 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6141,7 +6119,7 @@ Replaces        : None
 Installed Size  : 1247.45 KiB
 Packager        : Balló György <bgyorgy@archlinux.org>
 Build Date      : Wed 31 May 2023 06:05:15 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:38 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6163,7 +6141,7 @@ Replaces        : None
 Installed Size  : 2.34 MiB
 Packager        : Balló György <bgyorgy@archlinux.org>
 Build Date      : Thu 17 Apr 2025 03:42:01 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:38 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6185,7 +6163,7 @@ Replaces        : None
 Installed Size  : 1293.36 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Thu 18 Sep 2025 09:59:42 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6229,7 +6207,7 @@ Replaces        : libltdl  libtool-multilib
 Installed Size  : 2.33 MiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Thu 18 Sep 2025 11:58:43 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6273,7 +6251,7 @@ Replaces        : None
 Installed Size  : 294.60 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Fri 27 Jun 2025 06:55:58 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6317,7 +6295,7 @@ Replaces        : None
 Installed Size  : 635.94 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Fri 25 Apr 2025 09:15:27 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6341,7 +6319,7 @@ Replaces        : None
 Installed Size  : 992.08 KiB
 Packager        : Maxime Gauduin <alucryd@archlinux.org>
 Build Date      : Thu 20 Jun 2024 11:59:14 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6385,7 +6363,7 @@ Replaces        : None
 Installed Size  : 853.66 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 27 Jan 2025 05:55:14 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:38 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6407,7 +6385,7 @@ Replaces        : None
 Installed Size  : 3.66 MiB
 Packager        : Lukas Fleischer <lfleischer@archlinux.org>
 Build Date      : Wed 24 Sep 2025 12:58:41 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6430,7 +6408,7 @@ Replaces        : None
 Installed Size  : 1535.74 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Mon 16 Jun 2025 07:10:39 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6452,7 +6430,7 @@ Replaces        : None
 Installed Size  : 1059.92 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 15 Sep 2025 08:34:09 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6475,7 +6453,7 @@ Replaces        : None
 Installed Size  : 9.78 MiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sun 09 Mar 2025 03:28:05 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6497,7 +6475,7 @@ Replaces        : None
 Installed Size  : 22.61 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sat 14 Dec 2024 03:22:30 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6520,7 +6498,7 @@ Replaces        : None
 Installed Size  : 3.87 MiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Mon 15 Apr 2024 03:12:32 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6542,7 +6520,7 @@ Replaces        : None
 Installed Size  : 24.06 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Wed 03 Jul 2024 11:21:04 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6564,7 +6542,7 @@ Replaces        : None
 Installed Size  : 195.12 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Mon 10 Nov 2025 04:07:47 PM EST
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -6586,7 +6564,7 @@ Replaces        : None
 Installed Size  : 69.75 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Wed 06 Nov 2024 02:35:54 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6608,7 +6586,7 @@ Replaces        : None
 Installed Size  : 17.50 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Wed 03 Jul 2024 02:36:44 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6630,7 +6608,7 @@ Replaces        : None
 Installed Size  : 132.40 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sun 03 Mar 2024 12:07:45 PM EST
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6652,7 +6630,7 @@ Replaces        : None
 Installed Size  : 311.71 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Mon 05 Feb 2024 01:31:06 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6674,7 +6652,7 @@ Replaces        : None
 Installed Size  : 37.25 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Tue 02 Sep 2025 02:29:09 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6696,7 +6674,7 @@ Replaces        : None
 Installed Size  : 130.88 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Mon 21 Apr 2025 01:05:31 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:38 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6718,7 +6696,7 @@ Replaces        : None
 Installed Size  : 494.55 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Thu 05 Sep 2024 01:41:12 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6740,7 +6718,7 @@ Replaces        : None
 Installed Size  : 24.54 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Wed 03 Jul 2024 02:56:50 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6763,7 +6741,7 @@ Replaces        : None
 Installed Size  : 1056.01 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 05 Nov 2025 03:41:02 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6785,7 +6763,7 @@ Replaces        : None
 Installed Size  : 104.81 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 05 Nov 2025 03:41:02 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6807,7 +6785,7 @@ Replaces        : None
 Installed Size  : 2.99 MiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Tue 04 Nov 2025 10:50:10 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:42 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:35 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6829,7 +6807,7 @@ Replaces        : None
 Installed Size  : 1230.42 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Wed 10 Sep 2025 01:39:41 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6851,7 +6829,7 @@ Replaces        : None
 Installed Size  : 339.37 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Wed 17 Apr 2024 02:25:47 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6873,7 +6851,7 @@ Replaces        : None
 Installed Size  : 71.27 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Thu 05 Oct 2023 12:31:27 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6895,7 +6873,7 @@ Replaces        : None
 Installed Size  : 94.36 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sat 14 Dec 2024 03:05:23 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:38 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6917,7 +6895,7 @@ Replaces        : None
 Installed Size  : 16.89 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sat 14 Dec 2024 03:27:47 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6939,7 +6917,7 @@ Replaces        : None
 Installed Size  : 800.14 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Tue 22 Apr 2025 02:12:56 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6961,7 +6939,7 @@ Replaces        : None
 Installed Size  : 2.02 MiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sun 17 Nov 2024 12:15:07 PM EST
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6983,7 +6961,7 @@ Replaces        : None
 Installed Size  : 112.38 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sun 04 Aug 2024 06:03:17 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7005,7 +6983,7 @@ Replaces        : None
 Installed Size  : 60.21 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sat 14 Dec 2024 03:29:50 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7027,7 +7005,7 @@ Replaces        : None
 Installed Size  : 35.32 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sat 14 Dec 2024 03:31:22 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7093,7 +7071,7 @@ Replaces        : None
 Installed Size  : 150.01 MiB
 Packager        : Leonidas Spyropoulos <artafinde@archlinux.org>
 Build Date      : Tue 04 Nov 2025 07:20:48 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7116,7 +7094,7 @@ Replaces        : None
 Installed Size  : 486.65 KiB
 Packager        : Laurent Carlier <lordheavym@archlinux.org>
 Build Date      : Wed 14 May 2025 01:23:35 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7160,7 +7138,7 @@ Replaces        : None
 Installed Size  : 376.16 KiB
 Packager        : Robin Candau <antiz@archlinux.org>
 Build Date      : Tue 29 Jul 2025 05:39:27 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -7204,7 +7182,7 @@ Replaces        : None
 Installed Size  : 386.40 KiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Tue 27 Dec 2022 08:21:20 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:38 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7226,7 +7204,7 @@ Replaces        : None
 Installed Size  : 711.88 KiB
 Packager        : Lukas Fleischer <lfleischer@archlinux.org>
 Build Date      : Sun 11 May 2025 09:57:16 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7248,7 +7226,7 @@ Replaces        : None
 Installed Size  : 1708.60 KiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Fri 17 Mar 2023 07:12:39 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7270,7 +7248,7 @@ Replaces        : man
 Installed Size  : 2.41 MiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sat 03 May 2025 01:35:33 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -7293,7 +7271,7 @@ Replaces        : None
 Installed Size  : 5.54 MiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Wed 29 Oct 2025 11:18:58 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -7315,7 +7293,7 @@ Replaces        : None
 Installed Size  : 255.38 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Tue 30 Jan 2024 01:21:07 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7337,7 +7315,7 @@ Replaces        : None
 Installed Size  : 1093.23 KiB
 Packager        : Unknown Packager
 Build Date      : Tue 28 Oct 2025 07:17:14 AM EDT
-Install Date    : Wed 12 Nov 2025 07:01:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:54 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : None
@@ -7359,7 +7337,7 @@ Replaces        : libva-mesa-driver<1:24.2.7-1  mesa-libgl<17.0.1-2  mesa-vdpau<
 Installed Size  : 44.44 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 29 Oct 2025 04:46:45 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -7381,7 +7359,7 @@ Replaces        : None
 Installed Size  : 85.95 KiB
 Packager        : Leonidas Spyropoulos <artafinde@archlinux.org>
 Build Date      : Thu 02 May 2024 03:47:11 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7403,7 +7381,7 @@ Replaces        : None
 Installed Size  : 334.92 KiB
 Packager        : Jelle van der Waa <jelle@archlinux.org>
 Build Date      : Thu 08 May 2025 03:21:18 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:04 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:56 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7450,7 +7428,7 @@ Replaces        : None
 Installed Size  : 1205.17 KiB
 Packager        : Sven-Hendrik Haase <svenstaro@archlinux.org>
 Build Date      : Sat 01 Nov 2025 12:07:09 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7472,7 +7450,7 @@ Replaces        : None
 Installed Size  : 51.50 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Thu 04 Jul 2024 02:51:57 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7494,7 +7472,7 @@ Replaces        : None
 Installed Size  : 134.69 KiB
 Packager        : Thore Bödecker <foxxx0@archlinux.org>
 Build Date      : Fri 17 Oct 2025 02:22:15 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -7542,7 +7520,7 @@ Replaces        : None
 Installed Size  : 29.97 MiB
 Packager        : Unknown Packager
 Build Date      : Tue 04 Nov 2025 07:47:29 PM EST
-Install Date    : Wed 12 Nov 2025 07:01:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:54 AM EST
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : None
@@ -7586,7 +7564,7 @@ Replaces        : None
 Installed Size  : 61.25 MiB
 Packager        : Daniel M. Capella <polyzen@archlinux.org>
 Build Date      : Tue 11 Nov 2025 10:35:56 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7630,7 +7608,7 @@ Replaces        : None
 Installed Size  : 724.74 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Tue 11 Nov 2025 12:27:03 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7652,7 +7630,7 @@ Replaces        : None
 Installed Size  : 5.18 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Fri 03 Oct 2025 09:17:47 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7674,7 +7652,7 @@ Replaces        : None
 Installed Size  : 107.70 KiB
 Packager        : Jelle van der Waa <jelle@archlinux.org>
 Build Date      : Sat 06 Jul 2024 12:03:59 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -7696,7 +7674,7 @@ Replaces        : None
 Installed Size  : 241.18 KiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Tue 29 Oct 2024 04:57:54 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7718,7 +7696,7 @@ Replaces        : None
 Installed Size  : 25.05 MiB
 Packager        : Sven-Hendrik Haase <svenstaro@archlinux.org>
 Build Date      : Tue 11 Nov 2025 12:11:45 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -7740,7 +7718,7 @@ Replaces        : None
 Installed Size  : 292.57 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Fri 12 Jul 2024 09:16:03 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7765,7 +7743,7 @@ Replaces        : None
 Installed Size  : 6.37 MiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Sat 25 Oct 2025 04:36:14 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -7810,7 +7788,7 @@ Replaces        : None
 Installed Size  : 5.30 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Tue 16 Apr 2024 08:57:01 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:38 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7832,7 +7810,7 @@ Replaces        : None
 Installed Size  : 1317.05 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Tue 18 Feb 2025 05:14:26 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7900,7 +7878,7 @@ Replaces        : None
 Installed Size  : 49.88 KiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
 Build Date      : Tue 21 Oct 2025 01:27:46 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7966,7 +7944,7 @@ Replaces        : None
 Installed Size  : 2.33 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Mon 29 Sep 2025 05:57:04 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7988,7 +7966,7 @@ Replaces        : None
 Installed Size  : 169.71 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Tue 15 Apr 2025 11:22:47 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8034,7 +8012,7 @@ Replaces        : None
 Installed Size  : 3.50 MiB
 Packager        : Sébastien Luttringer <seblu@archlinux.org>
 Build Date      : Tue 15 Aug 2023 06:30:22 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8056,7 +8034,7 @@ Replaces        : None
 Installed Size  : 7.00 MiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Wed 22 Oct 2025 08:36:35 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8079,7 +8057,7 @@ Replaces        : None
 Installed Size  : 307.45 KiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Tue 21 Oct 2025 06:20:39 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8116,7 +8094,7 @@ Replaces        : None
 Installed Size  : 69.88 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Sun 13 Jul 2025 12:43:52 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8138,7 +8116,7 @@ Replaces        : None
 Installed Size  : 41.86 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Sun 13 Jul 2025 03:27:49 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8160,7 +8138,7 @@ Replaces        : None
 Installed Size  : 104.25 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Sun 13 Jul 2025 05:33:58 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8182,7 +8160,7 @@ Replaces        : timedate
 Installed Size  : 83.35 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Mon 14 Jul 2025 04:14:21 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8204,7 +8182,7 @@ Replaces        : None
 Installed Size  : 176.29 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Sat 13 Jul 2024 12:10:47 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -8228,8 +8206,8 @@ Conflicts With  : pikaur-git
 Replaces        : None
 Installed Size  : 2017.29 KiB
 Packager        : Unknown Packager
-Build Date      : Wed 12 Nov 2025 07:00:02 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:09 AM EST
+Build Date      : Wed 12 Nov 2025 07:03:54 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:01 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : None
@@ -8278,7 +8256,7 @@ Replaces        : None
 Installed Size  : 756.12 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sun 20 Jul 2025 12:54:37 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:38 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8300,7 +8278,7 @@ Replaces        : pkg-config
 Installed Size  : 200.48 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Tue 24 Jun 2025 10:06:54 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8322,7 +8300,7 @@ Replaces        : None
 Installed Size  : 62.76 MiB
 Packager        : Unknown Packager
 Build Date      : Tue 11 Nov 2025 04:23:25 AM EST
-Install Date    : Wed 12 Nov 2025 07:01:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:54 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : None
@@ -8344,7 +8322,7 @@ Replaces        : None
 Installed Size  : 1933.92 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Wed 15 Jan 2025 03:36:32 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -8388,7 +8366,7 @@ Replaces        : None
 Installed Size  : 8.07 MiB
 Packager        : Daniel M. Capella <polyzen@archlinux.org>
 Build Date      : Mon 30 Jun 2025 06:37:18 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -8454,7 +8432,7 @@ Replaces        : None
 Installed Size  : 285.69 KiB
 Packager        : Jelle van der Waa <jelle@archlinux.org>
 Build Date      : Thu 29 May 2025 06:14:17 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:04 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:56 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8481,7 +8459,7 @@ Replaces        : python3  python-externally-managed
 Installed Size  : 67.54 MiB
 Packager        : Jelle van der Waa <jelle@archlinux.org>
 Build Date      : Fri 15 Aug 2025 08:34:02 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:04 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:56 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8503,7 +8481,7 @@ Replaces        : pygobject-devel<=3.36.1-1
 Installed Size  : 1495.79 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Sat 18 Oct 2025 08:53:04 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8525,7 +8503,7 @@ Replaces        : None
 Installed Size  : 110.56 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Mon 19 May 2025 06:03:32 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8556,7 +8534,7 @@ Replaces        : None
 Installed Size  : 63.20 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Tue 04 Nov 2025 12:37:56 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8578,7 +8556,7 @@ Replaces        : None
 Installed Size  : 503.27 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Sat 01 Nov 2025 07:50:10 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8600,7 +8578,7 @@ Replaces        : None
 Installed Size  : 14.71 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Sat 01 Nov 2025 07:22:33 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8622,7 +8600,7 @@ Replaces        : None
 Installed Size  : 40.91 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Sat 01 Nov 2025 07:53:21 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8666,7 +8644,7 @@ Replaces        : None
 Installed Size  : 695.11 KiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
 Build Date      : Sun 02 Feb 2025 05:41:25 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -8732,7 +8710,7 @@ Replaces        : None
 Installed Size  : 4.57 MiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Wed 23 Apr 2025 07:01:37 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -8754,7 +8732,7 @@ Replaces        : None
 Installed Size  : 24.20 MiB
 Packager        : Felix Yan <felixonmars@archlinux.org>
 Build Date      : Thu 16 Oct 2025 08:10:49 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -8776,7 +8754,7 @@ Replaces        : None
 Installed Size  : 2.81 MiB
 Packager        : Carl Smedstad <carsme@archlinux.org>
 Build Date      : Mon 07 Jul 2025 04:35:25 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -8798,7 +8776,7 @@ Replaces        : None
 Installed Size  : 6.28 MiB
 Packager        : Bert Peters <bertptrs@archlinux.org>
 Build Date      : Mon 03 Nov 2025 11:38:17 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:33 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8820,7 +8798,7 @@ Replaces        : None
 Installed Size  : 3.36 MiB
 Packager        : Jelle van der Waa <jelle@archlinux.org>
 Build Date      : Sat 26 Jul 2025 09:19:15 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8842,7 +8820,7 @@ Replaces        : None
 Installed Size  : 636.52 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Sat 13 Jul 2024 06:52:19 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8864,7 +8842,7 @@ Replaces        : None
 Installed Size  : 549.04 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Sat 13 Jul 2024 06:52:59 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8886,7 +8864,7 @@ Replaces        : None
 Installed Size  : 7.43 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 08 Oct 2025 07:40:14 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8908,7 +8886,7 @@ Replaces        : sqlite3
 Installed Size  : 17.39 MiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Wed 05 Nov 2025 01:31:11 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8930,7 +8908,7 @@ Replaces        : None
 Installed Size  : 7.83 MiB
 Packager        : Evangelos Foutras <foutrelis@archlinux.org>
 Build Date      : Thu 14 Aug 2025 11:41:00 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -8952,7 +8930,7 @@ Replaces        : None
 Installed Size  : 24.97 MiB
 Packager        : Caleb Maclennan <alerque@archlinux.org>
 Build Date      : Tue 04 Nov 2025 04:44:22 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:41 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:34 AM EST
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -8990,7 +8968,7 @@ Replaces        : nss-myhostname  systemd-tools  udev
 Installed Size  : 35.29 MiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Mon 10 Nov 2025 04:11:12 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:42 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:35 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -9013,7 +8991,7 @@ Replaces        : libsystemd
 Installed Size  : 3.19 MiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Mon 10 Nov 2025 04:11:12 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9035,7 +9013,7 @@ Replaces        : None
 Installed Size  : 2.65 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Mon 10 Nov 2025 04:11:12 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:42 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:35 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9057,7 +9035,7 @@ Replaces        : None
 Installed Size  : 2012.31 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Mon 30 Jun 2025 02:34:57 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9101,7 +9079,7 @@ Replaces        : None
 Installed Size  : 1090.69 KiB
 Packager        : David Runge <dvzrv@archlinux.org>
 Build Date      : Sat 31 Aug 2024 06:19:22 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -9123,7 +9101,7 @@ Replaces        : None
 Installed Size  : 11.51 MiB
 Packager        : Frederik Schwan <freswa@archlinux.org>
 Build Date      : Sat 28 Dec 2024 08:17:55 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9145,7 +9123,7 @@ Replaces        : None
 Installed Size  : 35.70 KiB
 Packager        : George Rawlinson <grawlinson@archlinux.org>
 Build Date      : Wed 21 May 2025 04:58:26 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -9167,7 +9145,7 @@ Replaces        : tracker3<=3.7.3-2
 Installed Size  : 3.85 MiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Tue 04 Nov 2025 03:26:52 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9211,7 +9189,7 @@ Replaces        : None
 Installed Size  : 78.77 KiB
 Packager        : Robin Candau <antiz@archlinux.org>
 Build Date      : Tue 26 Nov 2024 11:33:50 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -9233,7 +9211,7 @@ Replaces        : None
 Installed Size  : 85.59 KiB
 Packager        : Jelle van der Waa <jelle@archlinux.org>
 Build Date      : Sat 11 Jan 2025 06:52:16 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -9255,7 +9233,7 @@ Replaces        : None
 Installed Size  : 478.98 KiB
 Packager        : Antonio Rojas <arojas@archlinux.org>
 Build Date      : Wed 05 Nov 2025 04:42:03 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9277,7 +9255,7 @@ Replaces        : None
 Installed Size  : 242.80 KiB
 Packager        : Christian Heusel <gromit@archlinux.org>
 Build Date      : Mon 01 Jul 2024 03:30:30 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9322,7 +9300,7 @@ Replaces        : None
 Installed Size  : 308.07 KiB
 Packager        : Lukas Fleischer <lfleischer@archlinux.org>
 Build Date      : Fri 25 Jul 2025 09:41:31 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -9391,7 +9369,7 @@ Replaces        : libv4l
 Installed Size  : 11.33 MiB
 Packager        : Jelle van der Waa <jelle@archlinux.org>
 Build Date      : Sat 18 Oct 2025 09:44:12 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9417,7 +9395,7 @@ Replaces        : vim-minimal
 Installed Size  : 5.00 MiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Thu 09 Oct 2025 03:38:56 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:01 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:53 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -9441,7 +9419,7 @@ Replaces        : None
 Installed Size  : 36.88 MiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Thu 09 Oct 2025 03:38:56 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:01 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:53 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9463,7 +9441,7 @@ Replaces        : None
 Installed Size  : 190.31 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Tue 04 Nov 2025 12:14:26 PM EST
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -9485,7 +9463,7 @@ Replaces        : None
 Installed Size  : 594.01 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 08 Oct 2025 07:43:22 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9507,7 +9485,7 @@ Replaces        : None
 Installed Size  : 35.63 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 29 Oct 2025 04:46:45 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -9529,7 +9507,7 @@ Replaces        : None
 Installed Size  : 92.56 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 29 Oct 2025 04:46:45 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9552,7 +9530,7 @@ Replaces        : amdvlk<=2025.Q2.1-1
 Installed Size  : 14.31 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 Build Date      : Wed 29 Oct 2025 04:46:45 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -9574,7 +9552,7 @@ Replaces        : None
 Installed Size  : 909.57 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Tue 28 Jan 2025 03:17:29 PM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9596,7 +9574,7 @@ Replaces        : None
 Installed Size  : 839.80 KiB
 Packager        : Laurent Carlier <lordheavym@archlinux.org>
 Build Date      : Sun 03 Aug 2025 09:38:23 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9618,7 +9596,7 @@ Replaces        : None
 Installed Size  : 5.69 MiB
 Packager        : Robin Candau <antiz@archlinux.org>
 Build Date      : Fri 07 Nov 2025 12:13:46 PM EST
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -9640,7 +9618,7 @@ Replaces        : None
 Installed Size  : 30.49 KiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
 Build Date      : Mon 24 Feb 2025 04:14:17 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9662,7 +9640,7 @@ Replaces        : None
 Installed Size  : 13.78 MiB
 Packager        : Caleb Maclennan <alerque@archlinux.org>
 Build Date      : Tue 27 Feb 2024 10:42:33 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -9684,7 +9662,7 @@ Replaces        : None
 Installed Size  : 1043.65 KiB
 Packager        : Jelle van der Waa <jelle@archlinux.org>
 Build Date      : Sun 17 Nov 2024 10:24:27 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9706,7 +9684,7 @@ Replaces        : None
 Installed Size  : 34.43 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Wed 03 Jul 2024 03:50:15 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9728,7 +9706,7 @@ Replaces        : None
 Installed Size  : 53.04 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Fri 05 Jul 2024 12:53:54 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9750,7 +9728,7 @@ Replaces        : None
 Installed Size  : 17.55 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Wed 10 Jul 2024 03:27:26 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9772,7 +9750,7 @@ Replaces        : None
 Installed Size  : 26.35 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Wed 10 Jul 2024 03:33:43 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9794,7 +9772,7 @@ Replaces        : None
 Installed Size  : 216.93 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Wed 10 Jul 2024 03:38:00 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9821,7 +9799,7 @@ Replaces        : None
 Installed Size  : 310.68 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Tue 06 Feb 2024 08:00:43 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9843,7 +9821,7 @@ Replaces        : xkbdata
 Installed Size  : 10.21 MiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Mon 06 Oct 2025 07:16:12 AM EDT
-Install Date    : Wed 12 Nov 2025 07:00:34 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9865,7 +9843,7 @@ Replaces        : None
 Installed Size  : 48.12 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Sun 09 Mar 2025 03:38:45 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -9887,7 +9865,7 @@ Replaces        : None
 Installed Size  : 52.20 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Thu 14 Nov 2024 02:30:29 AM EST
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9909,7 +9887,7 @@ Replaces        : None
 Installed Size  : 40.07 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Sat 13 Jul 2024 11:38:39 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:40 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9931,7 +9909,7 @@ Replaces        : None
 Installed Size  : 1491.28 KiB
 Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Mon 01 Apr 2024 03:42:18 AM EDT
-Install Date    : Wed 12 Nov 2025 06:59:51 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:43 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9953,7 +9931,7 @@ Replaces        : None
 Installed Size  : 400.10 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Mon 06 Jan 2025 02:26:25 AM EST
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -9997,7 +9975,7 @@ Replaces        : None
 Installed Size  : 665.20 KiB
 Packager        : Robin Candau <antiz@archlinux.org>
 Build Date      : Mon 18 Aug 2025 05:10:11 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:39 AM EST
+Install Date    : Wed 12 Nov 2025 07:04:33 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -10019,7 +9997,7 @@ Replaces        : None
 Installed Size  : 558.81 KiB
 Packager        : T.J. Townsend <blakkheim@archlinux.org>
 Build Date      : Fri 06 Oct 2023 02:44:35 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:52 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:44 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -10065,7 +10043,7 @@ Replaces        : None
 Installed Size  : 262.03 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Thu 07 Aug 2025 04:57:18 PM EDT
-Install Date    : Wed 12 Nov 2025 07:00:00 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:52 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -10087,7 +10065,7 @@ Replaces        : None
 Installed Size  : 6.56 MiB
 Packager        : Christian Hesse <eworm@archlinux.org>
 Build Date      : Thu 14 Mar 2024 06:28:04 PM EDT
-Install Date    : Wed 12 Nov 2025 06:59:45 AM EST
+Install Date    : Wed 12 Nov 2025 07:03:37 AM EST
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
