@@ -75,7 +75,7 @@ fn addParu(alc: mem.Allocator) !void {
     log.info("adding paru", .{});
 
     try exec(alc,
-        \\if ! command -v pikaur >/dev/null 2>&1; then
+        \\if ! command -v paru >/dev/null 2>&1; then
         \\  cd ~/code/org.archlinux.aur.paru/paru
         \\  git reset --hard
         \\  git clean -xfd
