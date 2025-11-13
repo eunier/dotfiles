@@ -55,6 +55,8 @@
 │   └── utils
 ├── ocm.github.raysan5.raylib
 │   └── raylib
+├── org.archlinux.aur.paru
+│   └── paru
 ├── org.archlinux.aur.pikaur
 │   └── pikaur
 ├── org.gitlab.gnome.GNOME.gnome-calendar
@@ -62,4 +64,4 @@
 ├── reposync -> /home/tron/code/com.gitlab.yunieralvarez.reposync/reposync
 └── utils -> /home/tron/code/com.gitlab.yunieralvarez.utils/utils
 
-63 directories, 0 files
+65 directories, 0 files

@@ -3,8 +3,8 @@ const enums = std.enums;
 const fmt_mod = std.fmt;
 const mem = std.mem;
 
-const fastfetch = @import("fastfetch.zig");
-const shell = @import("shell.zig");
+const ff = @import("fastfetch.zig");
+const sh = @import("shell.zig");
 
 const log = std.log.scoped(.distrobox);
 
@@ -14,6 +14,7 @@ pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
     try addArchBox(alc);
     try addPikaur(alc);
+    try addParu(alc);
     try update(alc);
     try addPkgs(alc);
     try exportPackages(alc);
@@ -25,7 +26,7 @@ pub fn exec(alc: mem.Allocator, comptime fmt: []const u8, args: anytype) !void {
     const box_cmd = try fmt_mod.allocPrint(alc, fmt, args);
     defer alc.free(box_cmd);
 
-    _ = try shell.exec(alc,
+    _ = try sh.exec(alc,
         \\distrobox enter --name arch -- bash -lc '
         \\  {s}
         \\'
@@ -35,7 +36,7 @@ pub fn exec(alc: mem.Allocator, comptime fmt: []const u8, args: anytype) !void {
 fn addArchBox(alc: mem.Allocator) !void {
     log.info("adding Arch box to distrobox", .{});
 
-    _ = try shell.exec(alc,
+    _ = try sh.exec(alc,
         \\if ! distrobox list | grep -q "arch"; then
         \\  distrobox create --image archlinux:latest --name arch \
         \\      --volume /usr/bin/fd:/usr/local/bin/fd:ro \
@@ -54,7 +55,7 @@ fn addArchBox(alc: mem.Allocator) !void {
 fn addPikaur(alc: mem.Allocator) !void {
     log.info("add pikaur", .{});
 
-    _ = try shell.exec(alc,
+    _ = try sh.exec(alc,
         \\cd ~/code/org.archlinux.aur.pikaur/pikaur &&
         \\git pull
     , .{});
@@ -64,7 +65,22 @@ fn addPikaur(alc: mem.Allocator) !void {
         \\  cd ~/code/org.archlinux.aur.pikaur/pikaur
         \\  git reset --hard
         \\  git clean -xfd
+        \\  git pull --depth=1
         \\  makepkg -fsri --noconfirm
+        \\fi
+    , .{});
+}
+
+fn addParu(alc: mem.Allocator) !void {
+    log.info("adding paru", .{});
+
+    try exec(alc,
+        \\if ! command -v pikaur >/dev/null 2>&1; then
+        \\  cd ~/code/org.archlinux.aur.paru/paru
+        \\  git reset --hard
+        \\  git clean -xfd
+        \\  git pull --depth=1
+        \\  makepkg -fsri --no:confirm
         \\fi
     , .{});
 }
@@ -134,7 +150,7 @@ fn exportClis(alc: mem.Allocator) !void {
             else => tag,
         };
 
-        if (try shell.isCmdAvailable(alc, name)) {
+        if (try sh.isCmdAvailable(alc, name)) {
             log.info("cli {s} already exported, skipping", .{name});
             continue;
         }
@@ -174,7 +190,7 @@ fn exportApps(alc: mem.Allocator) !void {
 fn snapSysInfo(alc: mem.Allocator) !void {
     log.info("snapping system info", .{});
 
-    try fastfetch.snap(
+    try ff.snap(
         alc,
         Host.arch_container,
         "~/.dotfiles/src/distrobox/distrobox_fastfetch",
@@ -184,6 +200,6 @@ fn snapSysInfo(alc: mem.Allocator) !void {
 fn snapAdded(alc: mem.Allocator) !void {
     log.info("snapping added", .{});
     const path = "~/.dotfiles/src/distrobox/distrobox_added.snap";
-    try shell.disableSpellchecker(alc, path);
+    try sh.disableSpellchecker(alc, path);
     try exec(alc, "pikaur --query --info >> {s}", .{path});
 }

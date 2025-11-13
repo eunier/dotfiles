@@ -13,6 +13,7 @@ pub const Repo = enum {
     game_tracker,
     gnome_calendar,
     godot_first_person_shooter_demo,
+    paru,
     pikaur,
     playground,
     pwbh_sdl,
@@ -79,6 +80,10 @@ pub const Repo = enum {
             .godot_first_person_shooter_demo => parts = &.{
                 "git@gitlab.com:yunieralvarez/godot-first-person-shooter-demo.git ",
                 "~/code/com.gitlab.yunieralvarez.godot-first-person-shooter-demo/godot-first-person-shooter-demo",
+            },
+            .paru => parts = &.{
+                "https://aur.archlinux.org/paru.git --depth 1 ",
+                "~/code/org.archlinux.aur.paru/paru",
             },
             .pikaur => parts = &.{
                 "https://aur.archlinux.org/pikaur.git ",
