@@ -80,7 +80,7 @@ fn addParu(alc: mem.Allocator) !void {
         \\  git reset --hard
         \\  git clean -xfd
         \\  git pull --depth=1
-        \\  makepkg -fsri --no:confirm
+        \\  makepkg -fsri --noconfirm
         \\fi
     , .{});
 }

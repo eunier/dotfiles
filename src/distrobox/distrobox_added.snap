@@ -2007,7 +2007,7 @@ Optional Deps   : git-zsh-completion: upstream zsh completion
                   org.freedesktop.secrets: keyring credential helper [installed]
                   libsecret: libsecret credential helper [installed]
                   less: the default pager for git [installed]
-Required By     : pikaur  pnpm-bin
+Required By     : paru  pikaur  pnpm-bin
 Optional For    : gettext
 Conflicts With  : None
 Replaces        : None
@@ -7903,7 +7903,7 @@ Depends On      : bash  coreutils  curl  libcurl.so=4-64  gawk  gettext  glibc  
                   libarchive.so=13-64  openssl  libcrypto.so=3-64  pacman-mirrorlist  systemd
 Optional Deps   : base-devel: required to use makepkg [installed]
                   perl-locale-gettext: translation support in makepkg-template
-Required By     : archlinux-keyring  base  base-devel  pyalpm
+Required By     : archlinux-keyring  base  base-devel  paru  pyalpm
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
@@ -8002,6 +8002,51 @@ Install Date    : Wed 12 Nov 2025 07:04:32 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
+
+Name            : paru
+Version         : 2.1.0-1
+Description     : Feature packed AUR helper
+Architecture    : x86_64
+URL             : https://github.com/morganamilo/paru
+Licenses        : GPL-3.0-or-later
+Groups          : None
+Provides        : None
+Depends On      : git  pacman  libalpm.so>=14
+Optional Deps   : bat: colored pkgbuild printing
+                  devtools: build in chroot and downloading pkgbuilds
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 8.32 MiB
+Packager        : Unknown Packager
+Build Date      : Thu 13 Nov 2025 07:55:30 AM EST
+Install Date    : Thu 13 Nov 2025 07:57:34 AM EST
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : None
+
+Name            : paru-debug
+Version         : 2.1.0-1
+Description     : Detached debugging symbols for paru
+Architecture    : x86_64
+URL             : https://github.com/morganamilo/paru
+Licenses        : GPL-3.0-or-later
+Groups          : None
+Provides        : None
+Depends On      : None
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 1002.59 KiB
+Packager        : Unknown Packager
+Build Date      : Thu 13 Nov 2025 07:55:30 AM EST
+Install Date    : Thu 13 Nov 2025 07:57:34 AM EST
+Install Reason  : Explicitly installed
+Install Script  : No
+Validated By    : None
 
 Name            : patch
 Version         : 2.8-1
