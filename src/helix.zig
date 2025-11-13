@@ -28,5 +28,10 @@ fn snap(alc: mem.Allocator) !void {
 
 fn snapHealth(alc: mem.Allocator) !void {
     log.info("snapping health", .{});
-    _ = try sh.exec(alc, "hx --health > ~/.dotfiles/src/helix/heath.snap", .{});
+
+    _ = try sh.exec(
+        alc,
+        "hx --health | grep --color=never > ~/.dotfiles/src/helix/heath.snap",
+        .{},
+    );
 }
