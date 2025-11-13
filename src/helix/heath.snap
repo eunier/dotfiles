@@ -1,10 +1,12 @@
+spellchecker: disable
 Config file: /home/tron/.config/helix/config.toml
 Language file: default
 Log file: /home/tron/.cache/helix/helix.log
 Runtime directories: /home/tron/.config/helix/runtime;/usr/lib64/helix/runtime;/usr/bin/runtime
-[38;5;11mRuntime directory does not exist: /home/tron/.config/helix/runtime[39m
-[38;5;11mRuntime directory does not exist: /usr/bin/runtime[39m
+Runtime directory does not exist: /home/tron/.config/helix/runtime
+Runtime directory does not exist: /usr/bin/runtime
 System clipboard provider: wayland (wl-paste+wl-copy)
+
 Language          Language servers… Debug adapter     Formatter         Highlight         Textobject        Indent            
 ada               ✘ ada-language…   None              None              ✓                 ✓                 ✘                 
 adl               None              None              None              ✓                 ✓                 ✓                 

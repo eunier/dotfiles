@@ -29,9 +29,11 @@ fn snap(alc: mem.Allocator) !void {
 fn snapHealth(alc: mem.Allocator) !void {
     log.info("snapping health", .{});
 
+    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/heath.snap");
+
     _ = try sh.exec(
         alc,
-        "hx --health | grep --color=never . > ~/.dotfiles/src/helix/heath.snap",
+        "hx --health | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/heath.snap",
         .{},
     );
 }
