@@ -15,6 +15,7 @@ vim.pack.add({
     { src = "https://github.com/nvim-treesitter/nvim-treesitter", branch = "main" },
     { src = "https://github.com/ThePrimeagen/vim-be-good" },
     { src = "https://github.com/tris203/precognition.nvim" },
+    { src = "https://github.com/WhoIsSethDaniel/mason-tool-installer.nvim" },
 })
 
 -- TODO: update

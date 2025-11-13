@@ -28,9 +28,19 @@ require("mason-lspconfig").setup({
     ---@type boolean | string[] | { exclude: string[] }
     automatic_enable = true,
 
-    -- A list of servers to automatically install if they're not already installed.
-    -- Example: { "rust_analyzer@nightly", "lua_ls" }
-    ---@type string[]
+    -- -- A list of servers to automatically install if they're not already installed.
+    -- -- Example: { "rust_analyzer@nightly", "lua_ls" }
+    -- ---@type string[]
+    -- ensure_installed = {
+    --     "eslint",
+    --     "lua_ls",
+    --     "stylua",
+    --     "ts_ls",
+    --     "zls",
+    -- }
+})
+
+require("mason-tool-installer").setup({
     ensure_installed = {
         "eslint",
         "lua_ls",

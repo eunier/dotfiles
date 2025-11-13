@@ -16,6 +16,8 @@ export VSCODE_GALLERY_SERVICE_URL="https://marketplace.visualstudio.com/_apis/pu
 export ZVM_INSTALL="$HOME/.zvm/self"
 
 export PATH="$BUN_INSTALL/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.local/share/bob/nvim-bin:$PATH"
 export PATH="$PATH:$HOME/.zvm/bin"
 export PATH="$PATH:$ZVM_INSTALL/"
 
