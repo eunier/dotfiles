@@ -98,7 +98,6 @@ fn update(alc: mem.Allocator) !void {
 fn addPkgs(alc: mem.Allocator) !void {
     log.info("adding pkgs", .{});
 
-    //  ghostty-neovim ghostty-vim neovim (needed for neovim)
     _ = try shell.exec(alc,
         \\sudo zypper install --details \
         \\  brave-browser \
@@ -116,6 +115,7 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  htop \
         \\  jujutsu \
         \\  librewolf \
+        \\  lldb \
         \\  luajit-luarocks \
         \\  podman \
         \\  ripgrep \

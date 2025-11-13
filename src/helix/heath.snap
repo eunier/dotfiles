@@ -23,7 +23,7 @@ bicep             ✘ bicep-langse…   None              None              ✓ 
 bitbake           ✘ bitbake-lang…   None              None              ✓                 ✘                 ✘                 
 blade             None              None              None              ✓                 ✘                 ✘                 
 blueprint         ✘ blueprint-co…   None              None              ✓                 ✘                 ✘                 
-c                 ✘ clangd          ✘ lldb-dap        None              ✓                 ✓                 ✓                 
+c                 ✘ clangd          ✓ lldb-dap        None              ✓                 ✓                 ✓                 
 c-sharp           ✘ omnisharp       ✘ netcoredbg      None              ✓                 ✓                 ✘                 
 cabal             ✘ haskell-lang…   None              None              ✘                 ✘                 ✘                 
 caddyfile         None              None              ✘ caddy           ✓                 ✓                 ✓                 
@@ -39,7 +39,7 @@ codeql            ✘ codeql          None              None              ✓   
 comment           None              None              None              ✓                 ✘                 ✘                 
 common-lisp       ✘ cl-lsp          None              None              ✓                 ✘                 ✓                 
 cpon              None              None              None              ✓                 ✘                 ✓                 
-cpp               ✘ clangd          ✘ lldb-dap        None              ✓                 ✓                 ✓                 
+cpp               ✘ clangd          ✓ lldb-dap        None              ✓                 ✓                 ✓                 
 crystal           ✘ crystalline     None              ✘ crystal         ✓                 ✓                 ✓                 
                   ✘ ameba-ls        
 css               ✘ vscode-css-l…   None              None              ✓                 ✘                 ✓                 
@@ -189,7 +189,7 @@ nu                ✘ nu-lsp          None              None              ✓   
 nunjucks          None              None              None              ✓                 ✘                 ✘                 
 ocaml             ✘ ocamllsp        None              None              ✓                 ✘                 ✓                 
 ocaml-interface   ✘ ocamllsp        None              None              ✓                 ✘                 ✘                 
-odin              ✘ ols             ✘ lldb-dap        ✘ odinfmt         ✓                 ✓                 ✓                 
+odin              ✘ ols             ✓ lldb-dap        ✘ odinfmt         ✓                 ✓                 ✓                 
 ohm               None              None              None              ✓                 ✓                 ✓                 
 opencl            ✘ clangd          None              None              ✓                 ✓                 ✓                 
 openscad          ✘ openscad-lsp…   None              None              ✓                 ✘                 ✘                 
@@ -235,7 +235,7 @@ ron               None              None              None              ✓     
 rst               None              None              None              ✓                 ✘                 ✘                 
 ruby              ✘ ruby-lsp        None              None              ✓                 ✓                 ✓                 
                   ✘ solargraph      
-rust              ✓ rust-analyze…   ✘ lldb-dap        None              ✓                 ✓                 ✓                 
+rust              ✓ rust-analyze…   ✓ lldb-dap        None              ✓                 ✓                 ✓                 
 rust-format-args… None              None              None              ✓                 ✘                 ✘                 
 rust-format-args… None              None              None              ✓                 ✓                 ✓                 
 sage              None              None              None              ✓                 ✓                 ✘                 
@@ -307,4 +307,4 @@ yaml              ✘ yaml-languag…   None              None              ✓ 
                   ✘ ansible-lang…   
 yara              ✘ yls             None              None              ✓                 ✘                 ✘                 
 yuck              None              None              None              ✓                 ✘                 ✘                 
-zig               ✓ zls             ✘ lldb-dap        ✓ zig             ✓                 ✓                 ✓                 
+zig               ✓ zls             ✓ lldb-dap        ✓ zig             ✓                 ✓                 ✓                 
