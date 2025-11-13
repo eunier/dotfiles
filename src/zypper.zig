@@ -117,6 +117,7 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  librewolf \
         \\  lldb \
         \\  luajit-luarocks \
+        \\  lua-language-server \
         \\  podman \
         \\  ripgrep \
         \\  river \
