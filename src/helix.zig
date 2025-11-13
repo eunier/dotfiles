@@ -31,7 +31,7 @@ fn snapHealth(alc: mem.Allocator) !void {
 
     _ = try sh.exec(
         alc,
-        "hx --health | grep --color=never > ~/.dotfiles/src/helix/heath.snap",
+        "hx --health | grep --color=never . > ~/.dotfiles/src/helix/heath.snap",
         .{},
     );
 }
