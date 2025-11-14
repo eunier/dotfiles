@@ -120,7 +120,7 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  shfmt \
         \\  syncthing \
         \\  tombi \
-        \\  typos-lsp
+        \\  typos-lsp \
         \\  zsh
     , .{});
 }
