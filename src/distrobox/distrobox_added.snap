@@ -1837,7 +1837,7 @@ Groups          : None
 Provides        : gcc-libs-multilib  libgo.so=24-64  libgfortran.so=5-64  libgphobos.so=6-64  libubsan.so=1-64  libasan.so=8-64  libtsan.so=2-64  liblsan.so=0-64
 Depends On      : glibc>=2.27
 Optional Deps   : None
-Required By     : appstream  at-spi2-core  base  botan  bubblewrap  compiler-rt  db5.3  dbus-broker  dconf  double-conversion  electron34  electron37  fish  flac  gc  gcc  gettext  glu  glycin  gmp  gnome-font-viewer  gnutls  gperftools  gpgme  graphite  groff  gssdp  gst-plugins-bad-libs  gst-plugins-good  gstreamer  gtest  gtk4  gupnp  highway  icu  libcaca  libcolord  libgudev  libjxl  libnl  libproxy  librsvg  libtiff  libvpx  libxmlb  lld  llvm-libs  mesa  mpdecimal  ncurses  obsidian  pcre  rust  shared-mime-info  simdjson  speex  speexdsp  spirv-tools  systemd-libs  taglib  tinysparql  v4l-utils  vulkan-intel  vulkan-radeon  zstd
+Required By     : appstream  at-spi2-core  base  botan  bubblewrap  compiler-rt  db5.3  dbus-broker  dconf  double-conversion  electron34  electron37  fish  flac  gc  gcc  gettext  glu  glycin  gmp  gnome-font-viewer  gnutls  gperftools  gpgme  graphite  groff  gssdp  gst-plugins-bad-libs  gst-plugins-good  gstreamer  gtest  gtk4  gupnp  highway  icu  libcaca  libcolord  libgudev  libjxl  libnl  libproxy  librsvg  libtiff  libvpx  libxmlb  lld  llvm-libs  mesa  mpdecimal  ncurses  obsidian  pcre  rust  shared-mime-info  simdjson  speex  speexdsp  spirv-tools  systemd-libs  taglib  tinysparql  tombi  v4l-utils  vulkan-intel  vulkan-radeon  zstd
 Optional For    : None
 Conflicts With  : None
 Replaces        : gcc-libs-multilib  libgphobos
@@ -9176,6 +9176,28 @@ Packager        : Andreas Radke <andyrtr@archlinux.org>
 Build Date      : Tue 04 Nov 2025 03:26:52 PM EST
 Install Date    : Thu 13 Nov 2025 08:22:54 PM EST
 Install Reason  : Installed as a dependency for another package
+Install Script  : No
+Validated By    : Signature
+
+Name            : tombi
+Version         : 0.6.47-1
+Description     : TOML Formatter / Linter / Language Server
+Architecture    : x86_64
+URL             : https://tombi-toml.github.io/tombi/
+Licenses        : MIT
+Groups          : None
+Provides        : None
+Depends On      : gcc-libs
+Optional Deps   : None
+Required By     : None
+Optional For    : None
+Conflicts With  : None
+Replaces        : None
+Installed Size  : 20.13 MiB
+Packager        : Daniel M. Capella <polyzen@archlinux.org>
+Build Date      : Wed 12 Nov 2025 01:04:11 PM EST
+Install Date    : Thu 13 Nov 2025 08:34:04 PM EST
+Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
 

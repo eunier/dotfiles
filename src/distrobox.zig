@@ -119,6 +119,7 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  shellcheck \
         \\  shfmt \
         \\  syncthing \
+        \\  tombi \
         \\  zsh
     , .{});
 }
@@ -142,6 +143,7 @@ const ExportableCli = enum {
     shellcheck,
     shfmt,
     syncthing,
+    tombi,
 };
 
 fn exportClis(alc: mem.Allocator) !void {
