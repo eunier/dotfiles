@@ -274,7 +274,7 @@ tfvars               ✘ terraform-ls       None                 None           
 thrift               None                 None                 None                 ✓                    ✘                    ✘                    
 tlaplus              None                 None                 ✘ tlafmt             ✓                    ✘                    ✘                    
 todotxt              None                 None                 ✓ sort               ✓                    ✘                    ✘                    
-toml                 ✘ taplo              None                 None                 ✓                    ✓                    ✘                    
+toml                 ✓ taplo              None                 None                 ✓                    ✓                    ✘                    
                      ✘ tombi              
 tsq                  ✘ ts_query_ls        None                 None                 ✓                    ✘                    ✘                    
 tsx                  ✘ typescript-lang…   None                 None                 ✓                    ✓                    ✓                    

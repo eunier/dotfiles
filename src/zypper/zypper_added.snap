@@ -2324,6 +2324,7 @@ i  | systemd-rpm-macros                            | package | 26-1.1           
 i  | sysuser-shadow                                | package | 3.3-12.1                              | noarch | Main Repository (OSS)
 i  | sysvinit-tools                                | package | 3.14-1.2                              | x86_64 | Main Repository (OSS)
 i  | tack                                          | package | 1.11.20250503-85.1                    | x86_64 | Main Repository (OSS)
+i+ | taplo                                         | package | 0.9.3-1.3                             | x86_64 | Main Repository (OSS)
 i  | tar                                           | package | 1.35-4.1                              | x86_64 | Main Repository (OSS)
 i  | tar-rmt                                       | package | 1.35-4.1                              | x86_64 | Main Repository (OSS)
 i  | tcl                                           | package | 8.6.16-2.1                            | x86_64 | Main Repository (OSS)
