@@ -13,8 +13,8 @@ pub const Host = enum { local, arch_container };
 pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
     try addArchBox(alc);
-    try addPikaur(alc);
     try addParu(alc);
+    try genParuDB(alc);
     try update(alc);
     try addPkgs(alc);
     try exportPackages(alc);
@@ -85,16 +85,21 @@ fn addParu(alc: mem.Allocator) !void {
     , .{});
 }
 
+fn genParuDB(alc: mem.Allocator) !void {
+    log.info("gennereting paru db", .{});
+    try exec(alc, "paru --gendb", .{});
+}
+
 fn update(alc: mem.Allocator) !void {
     log.info("updating", .{});
-    try exec(alc, "pikaur --sync --refresh --sysupgrade --devel --noconfirm", .{});
+    try exec(alc, "paru --sync --refresh --sysupgrade --devel --noconfirm", .{});
 }
 
 fn addPkgs(alc: mem.Allocator) !void {
     log.info("add pkgs", .{});
 
     try exec(alc,
-        \\pikaur --sync --refresh --sysupgrade --needed --noconfirm \
+        \\paru --sync --refresh --sysupgrade --needed --noconfirm \
         \\  bash-language-server \
         \\  blanket \
         \\  bun-bin \
@@ -201,5 +206,5 @@ fn snapAdded(alc: mem.Allocator) !void {
     log.info("snapping added", .{});
     const path = "~/.dotfiles/src/distrobox/distrobox_added.snap";
     try sh.disableSpellchecker(alc, path);
-    try exec(alc, "pikaur --query --info >> {s}", .{path});
+    try exec(alc, "paru --query --info >> {s}", .{path});
 }
