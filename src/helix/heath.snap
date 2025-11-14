@@ -1,6 +1,6 @@
 spellchecker: disable
 Config file: /home/tron/.config/helix/config.toml
-Language file: default
+Language file: /home/tron/.config/helix/languages.toml
 Log file: /home/tron/.cache/helix/helix.log
 Runtime directories: /home/tron/.config/helix/runtime;/usr/lib64/helix/runtime;/usr/bin/runtime
 Runtime directory does not exist: /home/tron/.config/helix/runtime

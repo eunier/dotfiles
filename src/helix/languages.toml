@@ -1,5 +1,5 @@
 [language-server.typos]
 command = "typos-lsp"
 
-
-
+[editor.lsp]
+display-inlay-hints = true

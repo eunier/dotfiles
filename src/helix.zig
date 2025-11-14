@@ -19,6 +19,12 @@ fn symLink(alc: mem.Allocator) !void {
         "~/.dotfiles/src/helix/config.toml",
         "~/.config/helix/config.toml",
     );
+
+    _ = try sh.symLink(
+        alc,
+        "~/.dotfiles/src/helix/languages.toml",
+        "~/.config/helix/languages.toml",
+    );
 }
 
 fn snap(alc: mem.Allocator) !void {
