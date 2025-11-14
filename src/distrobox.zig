@@ -120,6 +120,7 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  shfmt \
         \\  syncthing \
         \\  tombi \
+        \\  typos-lsp
         \\  zsh
     , .{});
 }
@@ -144,6 +145,7 @@ const ExportableCli = enum {
     shfmt,
     syncthing,
     tombi,
+    typos_lsp,
 };
 
 fn exportClis(alc: mem.Allocator) !void {
@@ -154,6 +156,7 @@ fn exportClis(alc: mem.Allocator) !void {
 
         const name = switch (cli) {
             .bash_language_server => "bash-language-server",
+            .typos_lsp => "typos-lsp",
             else => tag,
         };
 

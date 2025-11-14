@@ -1,2 +1,5 @@
 [language-server.typos]
 command = "typos-lsp"
+
+
+
