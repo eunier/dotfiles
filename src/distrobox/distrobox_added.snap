@@ -221,7 +221,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : archlinux-keyring
-Version         : 20251027-3
+Version         : 20251116-1
 Description     : Arch Linux PGP keyring
 Architecture    : any
 URL             : https://gitlab.archlinux.org/archlinux/archlinux-keyring/
@@ -234,10 +234,10 @@ Required By     : base  base-devel
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 1731.91 KiB
+Installed Size  : 1735.37 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
-Build Date      : Thu 30 Oct 2025 12:32:07 PM EDT
-Install Date    : Thu 13 Nov 2025 08:19:42 PM EST
+Build Date      : Sun 16 Nov 2025 04:47:57 AM EST
+Install Date    : Mon 17 Nov 2025 07:23:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -265,23 +265,23 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : at-spi2-core
-Version         : 2.58.1-1
+Version         : 2.58.1-2
 Description     : Protocol definitions and daemon for D-Bus at-spi
 Architecture    : x86_64
 URL             : https://gitlab.gnome.org/GNOME/at-spi2-core
 Licenses        : LGPL-2.1-or-later
 Groups          : None
-Provides        : at-spi2-atk=2.58.1-1  atk=2.58.1-1  libatk-1.0.so=0-64  libatk-bridge-2.0.so=0-64  libatspi.so=0-64
+Provides        : at-spi2-atk=2.58.1-2  atk=2.58.1-2  libatk-1.0.so=0-64  libatk-bridge-2.0.so=0-64  libatspi.so=0-64
 Depends On      : bash  dbus  gcc-libs  glib2  glibc  gsettings-desktop-schemas  libx11  libxi  libxtst  systemd-libs  xorg-xprop
 Optional Deps   : None
 Required By     : gtk3  gtk4
 Optional For    : None
 Conflicts With  : at-spi2-atk<=2.38.0-2  atk<=2.38.0-2
 Replaces        : at-spi2-atk<=2.38.0-2  atk<=2.38.0-2
-Installed Size  : 3.98 MiB
+Installed Size  : 3.97 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Sat 11 Oct 2025 12:47:47 PM EDT
-Install Date    : Thu 13 Nov 2025 08:22:54 PM EST
+Build Date      : Sat 15 Nov 2025 12:48:14 PM EST
+Install Date    : Mon 17 Nov 2025 07:23:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -892,7 +892,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : coreutils
-Version         : 9.8-2
+Version         : 9.9-1
 Description     : The basic file, shell and text manipulation utilities of the GNU operating system
 Architecture    : x86_64
 URL             : https://www.gnu.org/software/coreutils/
@@ -905,10 +905,10 @@ Required By     : base  ca-certificates-utils  gzip  p11-kit  pacman  util-linux
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 16.91 MiB
+Installed Size  : 27.33 MiB
 Packager        : Tobias Powalowski <tpowa@archlinux.org>
-Build Date      : Thu 25 Sep 2025 07:39:58 AM EDT
-Install Date    : Sat 18 Oct 2025 08:04:04 PM EDT
+Build Date      : Mon 10 Nov 2025 01:28:58 PM EST
+Install Date    : Sat 15 Nov 2025 11:39:00 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1410,7 +1410,7 @@ Install Script  : Yes
 Validated By    : Signature
 
 Name            : fastfetch
-Version         : 2.55.0-1
+Version         : 2.55.1-1
 Description     : A feature-rich and performance oriented neofetch like system information tool
 Architecture    : x86_64
 URL             : https://github.com/fastfetch-cli/fastfetch
@@ -1439,10 +1439,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 1606.66 KiB
+Installed Size  : 1606.67 KiB
 Packager        : Robin Candau <antiz@archlinux.org>
-Build Date      : Tue 11 Nov 2025 07:34:50 AM EST
-Install Date    : Thu 13 Nov 2025 08:22:54 PM EST
+Build Date      : Sun 16 Nov 2025 04:27:19 AM EST
+Install Date    : Mon 17 Nov 2025 07:23:27 AM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : Signature
@@ -1536,7 +1536,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : fish
-Version         : 4.2.0-1
+Version         : 4.2.1-1
 Description     : Smart and user friendly shell intended mostly for interactive use
 Architecture    : x86_64
 URL             : https://fishshell.com/
@@ -1557,8 +1557,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 40.33 MiB
 Packager        : George Rawlinson <grawlinson@archlinux.org>
-Build Date      : Mon 10 Nov 2025 05:26:37 PM EST
-Install Date    : Thu 13 Nov 2025 08:22:54 PM EST
+Build Date      : Thu 13 Nov 2025 11:00:18 PM EST
+Install Date    : Sat 15 Nov 2025 11:39:00 AM EST
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -1652,7 +1652,7 @@ Install Script  : Yes
 Validated By    : Signature
 
 Name            : freeglut
-Version         : 3.6.0-3
+Version         : 3.8.0-1
 Description     : Free OpenGL Utility Toolkit
 Architecture    : x86_64
 URL             : https://freeglut.sourceforge.net/
@@ -1665,10 +1665,10 @@ Required By     : libcaca
 Optional For    : libtiff
 Conflicts With  : glut
 Replaces        : None
-Installed Size  : 349.18 KiB
+Installed Size  : 423.56 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Sat 08 Nov 2025 12:22:46 PM EST
-Install Date    : Thu 13 Nov 2025 08:22:53 PM EST
+Build Date      : Sun 16 Nov 2025 02:12:31 PM EST
+Install Date    : Mon 17 Nov 2025 07:23:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -8791,7 +8791,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : simdjson
-Version         : 1:4.2.1-1
+Version         : 1:4.2.2-1
 Description     : A C++ library to see how fast we can parse JSON with complete validation.
 Architecture    : x86_64
 URL             : https://github.com/simdjson/simdjson
@@ -8806,8 +8806,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 6.28 MiB
 Packager        : Bert Peters <bertptrs@archlinux.org>
-Build Date      : Mon 03 Nov 2025 11:38:17 AM EST
-Install Date    : Thu 13 Nov 2025 08:22:48 PM EST
+Build Date      : Wed 12 Nov 2025 12:45:29 PM EST
+Install Date    : Mon 17 Nov 2025 07:23:27 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
