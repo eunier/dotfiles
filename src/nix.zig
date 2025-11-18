@@ -33,5 +33,5 @@ fn symLink(alc: mem.Allocator) !void {
     log.info("sym linking", .{});
     _ = try sh.makeDir(alc, "~/.config/nix");
     // _ = try sh.exec(alc, "touch ~/.config/nix/nix.conf", .{});
-    try sh.symLink(alc, "~/.dotfiles/src/nix/nix.conf", "~/.config/nix");
+    try sh.symLink(alc, "~/.dotfiles/src/nix/nix.conf", "~/.config/nix/nix.conf");
 }
