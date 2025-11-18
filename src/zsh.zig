@@ -39,7 +39,7 @@ fn ensureShell(alc: mem.Allocator) !void {
     );
 }
 
-fn source(alc: mem.Allocator) !void {
+pub fn source(alc: mem.Allocator) !void {
     log.info("sourcing", .{});
     _ = try exec(alc, "source ~/.zshrc", .{});
 }
