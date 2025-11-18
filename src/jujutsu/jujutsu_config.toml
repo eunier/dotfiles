@@ -5,6 +5,7 @@ name = "Yunier Alvarez"
 email = "yunieralvarez@gmail.com"
 
 [ui]
+editor = "hx"
 pager = "cat"
 default-revset = "all()"
 default-command = "log"

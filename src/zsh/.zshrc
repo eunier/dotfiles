@@ -45,3 +45,5 @@ antidote load
 zstyle :compinstall filename '/home/tron/.zshrc'
 autoload -Uz compinit
 compinit
+
+if [ -e /home/tron/.nix-profile/etc/profile.d/nix.sh ]; then . /home/tron/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer

@@ -122,6 +122,7 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  ripgrep \
         \\  river \
         \\  rustup \
+        \\  steam \
         \\  taplo \
         \\  zellij \
         \\  zsh \

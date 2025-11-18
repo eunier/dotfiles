@@ -22,12 +22,14 @@ const rust = @import("rust.zig");
 const zig = @import("zig.zig");
 const zsh = @import("zsh.zig");
 const zypper = @import("zypper.zig");
+const nix = @import("nix.zig");
 
 pub fn sync(alc: mem.Allocator) !void {
     try bash.sync(alc);
     try zypper.sync(alc);
     try zsh.sync(alc);
     try homebrew.sync(alc);
+    try nix.sync(alc);
     try gitlab.sync(alc);
     try git.sync(alc);
     try zig.sync(alc);

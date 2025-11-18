@@ -1963,7 +1963,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : git
-Version         : 2.51.2-2
+Version         : 2.52.0-1
 Description     : the fast distributed version control system
 Architecture    : x86_64
 URL             : https://git-scm.com/
@@ -1989,10 +1989,10 @@ Required By     : paru  pnpm-bin
 Optional For    : gettext
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 29.25 MiB
+Installed Size  : 29.62 MiB
 Packager        : Christian Heusel <gromit@archlinux.org>
-Build Date      : Mon 27 Oct 2025 12:20:10 PM EDT
-Install Date    : Thu 13 Nov 2025 08:20:25 PM EST
+Build Date      : Mon 17 Nov 2025 01:27:43 PM EST
+Install Date    : Mon 17 Nov 2025 06:37:48 PM EST
 Install Reason  : Explicitly installed
 Install Script  : Yes
 Validated By    : Signature
@@ -4854,7 +4854,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : libdrm
-Version         : 2.4.128-1
+Version         : 2.4.129-1
 Description     : Userspace interface to kernel DRM services
 Architecture    : x86_64
 URL             : https://dri.freedesktop.org/
@@ -4867,10 +4867,10 @@ Required By     : electron34  electron37  gst-plugins-bad-libs  gst-plugins-base
 Optional For    : fastfetch
 Conflicts With  : None
 Replaces        : libdrm-new  libdrm-nouveau
-Installed Size  : 1293.25 KiB
-Packager        : Laurent Carlier <lordheavym@archlinux.org>
-Build Date      : Sun 02 Nov 2025 05:02:36 AM EST
-Install Date    : Thu 13 Nov 2025 08:19:51 PM EST
+Installed Size  : 1299.17 KiB
+Packager        : Andreas Radke <andyrtr@archlinux.org>
+Build Date      : Mon 17 Nov 2025 10:32:33 AM EST
+Install Date    : Mon 17 Nov 2025 06:37:48 PM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6753,23 +6753,23 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : libxml2
-Version         : 2.15.1-3
+Version         : 2.15.1-4
 Description     : XML C parser and toolkit
 Architecture    : x86_64
 URL             : https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home
 Licenses        : MIT
 Groups          : None
 Provides        : libxml2.so=16-64
-Depends On      : bash  glibc  icu  readline  zlib
+Depends On      : bash  glibc  icu  readline  zlib  libicuuc.so=78-64
 Optional Deps   : python: Python bindings [installed]
 Required By     : appstream  electron34  electron37  extension-manager  gettext  gst-plugins-good  gupnp  libarchive  librsvg  libxkbcommon  libxslt  llvm-libs  shared-mime-info  tinysparql  wayland
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 2.99 MiB
-Packager        : Andreas Radke <andyrtr@archlinux.org>
-Build Date      : Tue 04 Nov 2025 10:50:10 AM EST
-Install Date    : Thu 13 Nov 2025 08:19:42 PM EST
+Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Build Date      : Sun 16 Nov 2025 04:41:29 PM EST
+Install Date    : Tue 18 Nov 2025 05:33:21 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature

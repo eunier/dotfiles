@@ -42,3 +42,6 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 font-family = CaskaydiaCove Nerd Font Propo
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig

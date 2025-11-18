@@ -23,3 +23,5 @@ test -z "$PROFILEREAD" && . /etc/profile || true
 #    /usr/bin/fortune
 #    echo
 #fi
+
+if [ -e /home/tron/.nix-profile/etc/profile.d/nix.sh ]; then . /home/tron/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
