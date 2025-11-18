@@ -12,6 +12,8 @@ pub fn sync(alc: mem.Allocator) !void {
     try update(alc);
     try symLink(alc);
     try snap(alc);
+    try addPkgs(alc);
+    try clean(alc);
 }
 
 fn add(alc: mem.Allocator) !void {
@@ -51,8 +53,21 @@ fn snap(alc: mem.Allocator) !void {
     _ = try sh.exec(
         alc,
         \\nix-channel --list > ~/.dotfiles/src/nix/channels.snap
-        \\nix --version > ~/.dotfiles/src/nix/version.snap
+        \\nix --version > ~/.dotfiles/src/nix/channels.snap
     ,
         .{},
     );
+}
+
+fn addPkgs(alc: mem.Allocator) !void {
+    log.info("adding pkgs", .{});
+
+    _ = try sh.exec(alc,
+        \\nix-env -iA nixpkgs.mullvad-vpn
+    , .{});
+}
+
+fn clean(alc: mem.Allocator) !void {
+    log.info("cleanning", .{});
+    _ = try sh.exec(alc, "nix-collect-garbage -d", .{});
 }
