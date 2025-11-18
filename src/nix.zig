@@ -50,7 +50,7 @@ fn snap(alc: mem.Allocator) !void {
 
     _ = try sh.exec(
         alc,
-        \\nix-channel --list > ~/.dotfiles/src/nix/channels.snap"
+        \\nix-channel --list > ~/.dotfiles/src/nix/channels.snap
         \\nix --version > ~/.dotfiles/src/nix/version.snap
     ,
         .{},
