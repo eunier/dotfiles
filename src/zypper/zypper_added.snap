@@ -2053,6 +2053,7 @@ i  | MozillaFirefox-branding-openSUSE              | package | 68-5.2           
 i  | mpg123-openal                                 | package | 1.33.3-1.1                            | x86_64 | Main Repository (OSS)
 i  | mpt-status                                    | package | 1.2.0-194.20                          | x86_64 | Main Repository (OSS)
 i  | mtools                                        | package | 4.0.49-1.1                            | x86_64 | Main Repository (OSS)
+i+ | mullvadvpn                                    | package | 2025.9-1.6                            | x86_64 | home_nuklly_mullvadvpn
 i  | multimedia                                    | pattern | 20201106-5.1                          | x86_64 | Main Repository (OSS)
 i  | multipath-tools                               | package | 0.13.0+127+suse.37f9a4c9-1.1          | x86_64 | Main Repository (OSS)
 i  | mutter                                        | package | 49.1.1-1.1                            | x86_64 | Main Repository (OSS)

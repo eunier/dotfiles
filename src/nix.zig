@@ -63,7 +63,7 @@ fn addPkgs(alc: mem.Allocator) !void {
     log.info("adding pkgs", .{});
 
     _ = try sh.exec(alc,
-        \\nix-env -iA nixpkgs.mullvad-vpn
+        \\
     , .{});
 }
 
