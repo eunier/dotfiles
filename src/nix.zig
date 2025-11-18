@@ -9,6 +9,7 @@ pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
     try add(alc);
     try update(alc);
+    try symLink(alc);
 }
 
 fn add(alc: mem.Allocator) !void {
@@ -26,4 +27,10 @@ fn add(alc: mem.Allocator) !void {
 fn update(alc: mem.Allocator) !void {
     log.info("updating", .{});
     _ = try sh.exec(alc, "nix upgrade-nix", .{});
+}
+
+fn symLink(alc: mem.Allocator) !void {
+    log.info("sym linking", .{});
+    _ = try sh.makeDir(alc, "~/.config/nix");
+    _ = try sh.exec(alc, "touch ~/.config/nix/nix.conf", .{});
 }
