@@ -8,6 +8,7 @@ const log = std.log.scoped(.nix);
 pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
     try add(alc);
+    try update(alc);
 }
 
 fn add(alc: mem.Allocator) !void {
@@ -20,4 +21,9 @@ fn add(alc: mem.Allocator) !void {
             .{},
         );
     }
+}
+
+fn update(alc: mem.Allocator) !void {
+    log.info("updating", .{});
+    _ = try sh.exec(alc, "nix upgrade-nix", .{});
 }
