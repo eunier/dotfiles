@@ -6,9 +6,9 @@ setopt autocd beep extendedglob nomatch notify
 bindkey -v
 
 export BUN_INSTALL="$HOME/.bun"
-export EDITOR=nvim
+export EDITOR=hx
 export HOMEBREW_NO_ANALYTICS=1
-export VISUAL=nvim
+export VISUAL=hx
 export VSCODE_GALLERY_CACHE_URL="https://vscode.blob.core.windows.net/gallery/index"
 export VSCODE_GALLERY_CONTROL_URL=""
 export VSCODE_GALLERY_ITEM_URL="https://marketplace.visualstudio.com/items"
@@ -38,6 +38,8 @@ eval "$(fnm env --use-on-cd --shell zsh)"
 eval "$(oh-my-posh init zsh --config 'stelbent-compact.minimal')"
 eval "$(zellij setup --generate-auto-start zsh)"
 
+if [ -e /home/tron/.nix-profile/etc/profile.d/nix.sh ]; then . /home/tron/.nix-profile/etc/profile.d/nix.sh; fi
+
 # shellcheck disable=SC1091,SC2086
 source ${ZDOTDIR:-~}/.antidote/antidote.zsh
 antidote load
@@ -46,4 +48,4 @@ zstyle :compinstall filename '/home/tron/.zshrc'
 autoload -Uz compinit
 compinit
 
-if [ -e /home/tron/.nix-profile/etc/profile.d/nix.sh ]; then . /home/tron/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
