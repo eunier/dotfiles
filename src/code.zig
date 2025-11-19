@@ -14,7 +14,7 @@ pub fn sync(alc: mem.Allocator) !void {
 
 fn addDotfiles(alc: mem.Allocator) !void {
     log.info("adding dotfiles", .{});
-    _ = try sh.symLink(alc, "~/.dotfiles", "~/.code/dotfiles");
+    _ = try sh.symLink(alc, "~/.dotfiles", "~/code/dotfiles");
 }
 
 fn addReposync(alc: mem.Allocator) !void {
