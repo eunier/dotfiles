@@ -4546,7 +4546,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : libarchive
-Version         : 3.8.2-1
+Version         : 3.8.3-1
 Description     : Multi-format archive and compression library
 Architecture    : x86_64
 URL             : https://libarchive.org/
@@ -4559,10 +4559,10 @@ Required By     : pacman
 Optional For    : systemd
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 1249.49 KiB
+Installed Size  : 1249.50 KiB
 Packager        : Christian Hesse <eworm@archlinux.org>
-Build Date      : Thu 16 Oct 2025 12:53:56 AM EDT
-Install Date    : Sat 18 Oct 2025 08:04:05 PM EDT
+Build Date      : Mon 17 Nov 2025 06:12:01 PM EST
+Install Date    : Wed 19 Nov 2025 04:55:38 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7553,7 +7553,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : nodejs
-Version         : 25.2.0-1
+Version         : 25.2.1-1
 Description     : Evented I/O for V8 javascript ("Current" release)
 Architecture    : x86_64
 URL             : https://nodejs.org/
@@ -7567,9 +7567,9 @@ Optional For    : None
 Conflicts With  : None
 Replaces        : None
 Installed Size  : 61.25 MiB
-Packager        : Daniel M. Capella <polyzen@archlinux.org>
-Build Date      : Tue 11 Nov 2025 10:35:56 PM EST
-Install Date    : Thu 13 Nov 2025 08:22:48 PM EST
+Packager        : Jelle van der Waa <jelle@archlinux.org>
+Build Date      : Tue 18 Nov 2025 07:49:51 AM EST
+Install Date    : Wed 19 Nov 2025 04:55:38 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature

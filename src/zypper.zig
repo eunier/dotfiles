@@ -143,6 +143,12 @@ fn addPkgs(alc: mem.Allocator) !void {
 
     _ = try sh.exec(alc, "sudo zypper install-new-recommends", .{});
     _ = try sh.exec(alc, "sudo zypper install --type pattern devel_C_C++", .{});
+
+    _ = try sh.exec(alc,
+        \\sudo systemctl enable --now mullvad-daemon.service
+        \\sudo firewall-cmd --zone=public --add-service=mullvad --permanent
+        \\sudo firewall-cmd --reload
+    , .{});
 }
 
 fn snapRepos(alc: mem.Allocator) !void {
