@@ -54,11 +54,13 @@ fn snap(alc: mem.Allocator) !void {
         alc,
         \\nix-channel --list > ~/.dotfiles/src/nix/channels.snap
         \\nix --version > ~/.dotfiles/src/nix/channels.snap
+        \\nix-store -q --references $(readlink -f ~/.nix-profile) > ~/.dotfiles/src/nix/store.snap
     ,
         .{},
     );
 }
 
+/// To remove a pakcage use `nix-env -e <pkg name>`.
 fn addPkgs(alc: mem.Allocator) !void {
     log.info("adding pkgs", .{});
 
