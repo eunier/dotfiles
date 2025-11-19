@@ -128,19 +128,19 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  gnome-font-viewer \
         \\  helix \
         \\  htop \
-        \\  keepassxc \
-        \\  syncthing \
         \\  jujutsu \
+        \\  keepassxc \
         \\  librewolf \
         \\  lldb \
-        \\  luajit-luarocks \
         \\  lua-language-server \
+        \\  luajit-luarocks \
         \\  mullvadvpn \
         \\  podman \
         \\  ripgrep \
         \\  river \
         \\  rustup \
         \\  steam \
+        \\  syncthing \
         \\  taplo \
         \\  zellij \
         \\  zsh \
