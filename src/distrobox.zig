@@ -101,16 +101,11 @@ fn addPkgs(alc: mem.Allocator) !void {
     try exec(alc,
         \\paru --sync --refresh --sysupgrade --needed --noconfirm \
         \\  bash-language-server \
-        \\  blanket \
         \\  bun-bin \
-        \\  cmatrix \
-        \\  extension-manager \
         \\  fastfetch \
         \\  filen-desktop-bin \
         \\  fish \
         \\  fnm-bin \
-        \\  gnome-font-viewer \
-        \\  keepassxc \
         \\  meow-nvim \
         \\  neovim-nightly-bin \
         \\  obsidian \
@@ -118,7 +113,6 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  prettier \
         \\  shellcheck \
         \\  shfmt \
-        \\  syncthing \
         \\  tombi \
         \\  typos-lsp \
         \\  zsh

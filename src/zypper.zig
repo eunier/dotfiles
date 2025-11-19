@@ -111,9 +111,12 @@ fn addPkgs(alc: mem.Allocator) !void {
 
     _ = try sh.exec(alc,
         \\sudo zypper install --details \
+        \\  blanket \
         \\  brave-browser \
+        \\  cmatrix \
         \\  codium \
         \\  distrobox \
+        \\  extension-manager \
         \\  fastfetch \
         \\  fd \
         \\  fish \
@@ -122,8 +125,11 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  git \
         \\  glab \
         \\  gnome-boxes \
+        \\  gnome-font-viewer \
         \\  helix \
         \\  htop \
+        \\  keepassxc \
+        \\  syncthing \
         \\  jujutsu \
         \\  librewolf \
         \\  lldb \
