@@ -5,6 +5,9 @@ const process = std.process;
 pub const getEnvVarOwned = process.getEnvVarOwned;
 
 const utils = @import("utils");
+const shell = utils.shell;
+pub const exec = shell.exec;
+pub const execInter = shell.execInteractive;
 
 const log = std.log.scoped(.shell);
 
@@ -67,7 +70,7 @@ pub fn ensureBackupExists(alc: mem.Allocator, file: []const u8) !void {
 }
 
 pub fn doesFileExist(alc: mem.Allocator, file: []const u8) !bool {
-    const res = try run(alc, "[ -e {s} ] && echo 1 || echo 0", .{file});
+    const res = try exec(alc, "[ -e {s} ] && echo 1 || echo 0", .{file});
     defer alc.free(res.stderr);
     defer alc.free(res.stdout);
     const out = std.mem.trim(u8, res.stdout, " \r\n\t");
