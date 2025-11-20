@@ -2,7 +2,7 @@ const std = @import("std");
 const mem = std.mem;
 
 const git = @import("git.zig");
-const shell = @import("shell.zig");
+const sh = @import("shell.zig");
 
 const log = std.log.scoped(.codium);
 
@@ -22,7 +22,7 @@ fn symLink(alc: mem.Allocator) !void {
 fn symLinkSettings(alc: mem.Allocator) !void {
     log.info("sym linking settings", .{});
 
-    try shell.symLink(
+    try sh.symLink(
         alc,
         "~/.dotfiles/src/codium/codium-settings.json",
         "~/.config/VSCodium/User/settings.json",
@@ -32,7 +32,7 @@ fn symLinkSettings(alc: mem.Allocator) !void {
 fn symLinkKeybindings(alc: mem.Allocator) !void {
     log.info("sym linking keybindings", .{});
 
-    try shell.symLink(
+    try sh.symLink(
         alc,
         "~/.dotfiles/src/codium/codium-keybindings.json",
         "~/.config/VSCodium/User/keybindings.json",
@@ -62,7 +62,7 @@ fn addExts(alc: mem.Allocator) !void {
 
 fn addExt(alc: mem.Allocator, ext: []const u8) !void {
     log.info("adding ext {s}", .{ext});
-    _ = try shell.exec(alc, "codium --install-extension {s}", .{ext});
+    _ = try sh.spawnAndWait(alc, "codium --install-extension {s}", .{ext});
 }
 
 fn snap(alc: mem.Allocator) !void {
@@ -73,7 +73,7 @@ fn snap(alc: mem.Allocator) !void {
 fn snapExtensions(alc: mem.Allocator) !void {
     log.info("snapping extensions", .{});
 
-    _ = try shell.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "codium --list-extensions --show-versions > ~/.dotfiles/src/codium/codium_extensions.snap",
         .{},

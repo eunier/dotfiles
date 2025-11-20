@@ -1,7 +1,7 @@
 const std = @import("std");
 const mem = std.mem;
 
-const shell = @import("shell.zig");
+const sh = @import("shell.zig");
 
 const log = std.log.scoped(.fonts);
 
@@ -12,9 +12,9 @@ pub fn sync(alc: mem.Allocator) !void {
 
 fn snap(alc: mem.Allocator) !void {
     log.info("snapping", .{});
-    try shell.disableSpellchecker(alc, "~/.dotfiles/src/fonts/fonts.snap");
+    try sh.disableSpellchecker(alc, "~/.dotfiles/src/fonts/fonts.snap");
 
-    _ = try shell.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "fc-list : family | sort | uniq >> ~/.dotfiles/src/fonts/fonts.snap",
         .{},

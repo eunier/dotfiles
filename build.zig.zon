@@ -34,7 +34,7 @@
     .dependencies = .{
         .utils = .{
             .url = "../code/utils",
-            .hash = "utils-0.1.1-Ry1sbpQ_AAA_zgsy37E-33HwiuPxjVyv81zLk3VawWVo",
+            .hash = "utils-0.1.2-Ry1sbrc4AADwkzd90QGANYAAQBLUS8bcK4BANj8oz21V",
         },
     },
     .paths = .{

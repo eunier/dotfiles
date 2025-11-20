@@ -3,7 +3,7 @@ const mem = std.mem;
 const fmt = std.fmt;
 
 const distrobox = @import("distrobox.zig");
-const shell = @import("shell.zig");
+const sh = @import("shell.zig");
 
 const log = std.log.scoped(.fastfetch);
 
@@ -15,7 +15,7 @@ pub fn sync(alc: mem.Allocator) !void {
 pub fn show(alc: mem.Allocator) !void {
     log.info("showing", .{});
     try distrobox.exec(alc, "fastfetch", .{});
-    _ = try shell.exec(alc, "fastfetch --logo opensuse", .{});
+    _ = try sh.spawnAndWait(alc, "fastfetch --logo opensuse", .{});
 }
 
 pub fn snap(alc: mem.Allocator, host: distrobox.Host, path: []const u8) !void {
@@ -41,7 +41,7 @@ pub fn snap(alc: mem.Allocator, host: distrobox.Host, path: []const u8) !void {
     const cmd_args = .{ path, path };
 
     _ = switch (host) {
-        .local => try shell.exec(alc, cmd_fmt, cmd_args),
+        .local => try sh.spawnAndWait(alc, cmd_fmt, cmd_args),
         .arch_container => try distrobox.exec(alc, cmd_fmt, cmd_args),
     };
 }
@@ -49,7 +49,7 @@ pub fn snap(alc: mem.Allocator, host: distrobox.Host, path: []const u8) !void {
 fn symLink(alc: mem.Allocator) !void {
     log.info("sym linking", .{});
 
-    try shell.symLink(
+    try sh.symLink(
         alc,
         "~/.dotfiles/src/fastfetch/fastfetch_config.jsonc",
         "~/.config/fastfetch/config.jsonc",

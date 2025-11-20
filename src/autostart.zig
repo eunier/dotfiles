@@ -2,7 +2,7 @@ const std = @import("std");
 const fmt = std.fmt;
 const mem = std.mem;
 
-const shell = @import("shell.zig");
+const sh = @import("shell.zig");
 
 const log = std.log.scoped(.autostart);
 
@@ -25,20 +25,20 @@ fn makeExecutable(alc: mem.Allocator, files: [2][]const u8) !void {
         );
 
         defer alc.free(path);
-        try shell.makeExecutable(alc, path);
+        try sh.makeExecutable(alc, path);
     }
 }
 
 fn symLink(alc: mem.Allocator) !void {
     log.info("sym linking", .{});
-    _ = try shell.exec(alc, "rm -rf ~/.config/autostart", .{});
-    try shell.symLink(alc, "~/.dotfiles/src/autostart/config", "~/.config/autostart");
+    _ = try sh.spawnAndWait(alc, "rm -rf ~/.config/autostart", .{});
+    try sh.symLink(alc, "~/.dotfiles/src/autostart/config", "~/.config/autostart");
 }
 
 fn snap(alc: mem.Allocator) !void {
     log.info("snapping autostart", .{});
 
-    _ = try shell.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "tree -n ~/.config/autostart > ~/.dotfiles/src/autostart/autostart.snap",
         .{},

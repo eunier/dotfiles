@@ -3,7 +3,7 @@ const fmt = std.fmt;
 const mem = std.mem;
 const time = std.time;
 
-const shell = @import("shell.zig");
+const sh = @import("shell.zig");
 
 const log = std.log.scoped(.backup);
 
@@ -18,12 +18,12 @@ pub fn sync(alc: mem.Allocator) !void {
 
 fn mountBackupDisk(alc: mem.Allocator) !void {
     log.info("mounting backup disk", .{});
-    _ = try shell.exec(alc, "udisksctl mount -b /dev/disk/by-label/External", .{});
+    _ = try sh.spawnAndWait(alc, "udisksctl mount -b /dev/disk/by-label/External", .{});
 }
 
 fn backupKeePass(alc: mem.Allocator) !void {
     log.info("backing up keepass", .{});
-    try shell.makeDir(alc, "/run/media/$USER/External/KeePass");
+    try sh.makeDir(alc, "/run/media/$USER/External/KeePass");
     const now = try fmt.allocPrint(alc, "{d}", .{time.microTimestamp()});
     defer alc.free(now);
 
@@ -35,13 +35,13 @@ fn backupKeePass(alc: mem.Allocator) !void {
 
     defer alc.free(dest);
 
-    _ = try shell.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "sudo cp ~/Documents/Applications/KeePass/Safe.kdbx {s}",
         .{dest},
     );
 
-    _ = try shell.exec(alc,
+    _ = try sh.spawnAndWait(alc,
         \\rsync --archive --verbose --human-readable --progress \
         \\  ~/Documents/Applications/KeePass \
         \\  /run/media/$USER/External/
@@ -50,22 +50,22 @@ fn backupKeePass(alc: mem.Allocator) !void {
 
 fn backupDotfiles(alc: mem.Allocator) !void {
     log.info("backing up dotfiles", .{});
-    _ = try shell.exec(alc, "udisksctl mount -b /dev/sda", .{});
-    try shell.makeDir(alc, "/run/media/$USER/External/Dotfiles");
+    _ = try sh.spawnAndWait(alc, "udisksctl mount -b /dev/sda", .{});
+    try sh.makeDir(alc, "/run/media/$USER/External/Dotfiles");
 
-    _ = try shell.exec(alc,
+    _ = try sh.spawnAndWait(alc,
         \\rsync --archive --verbose --human-readable --progress \
         \\  --exclude=".zig-cache" --exclude="zig-out" \
         \\  ~/.dotfiles/ \
         \\  /run/media/$USER/External/Dotfiles
     , .{});
 
-    _ = try shell.exec(alc,
+    _ = try sh.spawnAndWait(alc,
         \\cd ~/code/com.github.eunier.dotfiles/dotfiles
         \\find . -mindepth 1 -name .git -prune -o -exec rm -rf {{}} +
     , .{});
 
-    _ = try shell.exec(alc,
+    _ = try sh.spawnAndWait(alc,
         \\rsync --archive --verbose --human-readable --progress \
         \\  --exclude=".zig-cache" --exclude="zig-out" --exclude=".git" \
         \\  ~/.dotfiles/ \
@@ -76,12 +76,12 @@ fn backupDotfiles(alc: mem.Allocator) !void {
 fn backupUtils(alc: mem.Allocator) !void {
     log.info("backing up utils", .{});
 
-    _ = try shell.exec(alc,
+    _ = try sh.spawnAndWait(alc,
         \\cd ~/code/com.github.eunier.utils/utils
         \\find . -mindepth 1 -name .git -prune -o -exec rm -rf {{}} +
     , .{});
 
-    _ = try shell.exec(alc,
+    _ = try sh.spawnAndWait(alc,
         \\rsync --archive --verbose --human-readable --progress \
         \\  --exclude=".zig-cache" --exclude="zig-out" --exclude=".git" \
         \\  ~/code/utils/ \
@@ -92,7 +92,7 @@ fn backupUtils(alc: mem.Allocator) !void {
 fn runReposync(alc: mem.Allocator) !void {
     log.info("running reposync", .{});
 
-    _ = try shell.exec(alc,
+    _ = try sh.spawnAndWait(alc,
         \\  cd ~/code/reposync
         \\  zig build run
     , .{});

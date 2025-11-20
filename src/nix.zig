@@ -20,7 +20,7 @@ fn add(alc: mem.Allocator) !void {
     if (!(try sh.isCmdAvailable(alc, "nix"))) {
         log.info("adding", .{});
 
-        _ = try sh.exec(
+        _ = try sh.spawnAndWait(
             alc,
             "sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install) --no-daemon",
             .{},
@@ -33,12 +33,12 @@ fn add(alc: mem.Allocator) !void {
 fn update(alc: mem.Allocator) !void {
     log.info("updating", .{});
 
-    _ = try sh.exec(alc,
+    _ = try sh.spawnAndWait(alc,
         \\nix-channel --add https://nixos.org/channels/nixpkgs-unstable nixpkgs
         \\nix-channel --update
     , .{});
 
-    _ = try sh.exec(alc, "nix upgrade-nix", .{});
+    _ = try sh.spawnAndWait(alc, "nix upgrade-nix", .{});
 }
 
 fn symLink(alc: mem.Allocator) !void {
@@ -50,7 +50,7 @@ fn symLink(alc: mem.Allocator) !void {
 fn snap(alc: mem.Allocator) !void {
     log.info("snapping", .{});
 
-    _ = try sh.exec(
+    _ = try sh.spawnAndWait(
         alc,
         \\nix-channel --list > ~/.dotfiles/src/nix/channels.snap
         \\nix --version > ~/.dotfiles/src/nix/channels.snap
@@ -64,12 +64,12 @@ fn snap(alc: mem.Allocator) !void {
 fn addPkgs(alc: mem.Allocator) !void {
     log.info("adding pkgs", .{});
 
-    _ = try sh.exec(alc,
+    _ = try sh.spawnAndWait(alc,
         \\
     , .{});
 }
 
 fn clean(alc: mem.Allocator) !void {
     log.info("cleanning", .{});
-    _ = try sh.exec(alc, "nix-collect-garbage -d", .{});
+    _ = try sh.spawnAndWait(alc, "nix-collect-garbage -d", .{});
 }

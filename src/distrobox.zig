@@ -26,7 +26,7 @@ pub fn exec(alc: mem.Allocator, comptime fmt: []const u8, args: anytype) !void {
     const box_cmd = try fmt_mod.allocPrint(alc, fmt, args);
     defer alc.free(box_cmd);
 
-    _ = try sh.exec(alc,
+    _ = try sh.spawnAndWait(alc,
         \\distrobox enter --name arch -- bash -lc '
         \\  {s}
         \\'
@@ -36,7 +36,7 @@ pub fn exec(alc: mem.Allocator, comptime fmt: []const u8, args: anytype) !void {
 fn addArchBox(alc: mem.Allocator) !void {
     log.info("adding Arch box to distrobox", .{});
 
-    _ = try sh.exec(alc,
+    _ = try sh.spawnAndWait(alc,
         \\if ! distrobox list | grep -q "arch"; then
         \\  distrobox create --image archlinux:latest --name arch \
         \\      --volume /usr/bin/fd:/usr/local/bin/fd:ro \
@@ -55,7 +55,7 @@ fn addArchBox(alc: mem.Allocator) !void {
 fn addPikaur(alc: mem.Allocator) !void {
     log.info("add pikaur", .{});
 
-    _ = try sh.exec(alc,
+    _ = try sh.spawnAndWait(alc,
         \\cd ~/code/org.archlinux.aur.pikaur/pikaur &&
         \\git pull
     , .{});

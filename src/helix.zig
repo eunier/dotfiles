@@ -37,7 +37,7 @@ fn snapHealth(alc: mem.Allocator) !void {
 
     _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/heath.snap");
 
-    _ = try sh.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "hx --health | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/heath.snap",
         .{},

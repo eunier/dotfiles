@@ -30,7 +30,7 @@ fn addRepos(alc: mem.Allocator) !void {
 fn addBraveRepo(alc: mem.Allocator) !void {
     log.info("adding brave repo", .{});
 
-    _ = try sh.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "sudo zypper addrepo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo",
         .{},
@@ -40,13 +40,13 @@ fn addBraveRepo(alc: mem.Allocator) !void {
 fn addCodiumRepo(alc: mem.Allocator) !void {
     log.info("adding vscodium repo", .{});
 
-    _ = try sh.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg",
         .{},
     );
 
-    _ = try sh.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "printf \"[gitlab.com_paulcarroty_vscodium_repo]\\nname=gitlab.com_paulcarroty_vscodium_repo\\nbaseurl=https://download.vscodium.com/rpms/\\nenabled=1\\ngpgcheck=1\\nrepo_gpgcheck=1\\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\\nmetadata_expire=1h\\n\" | sudo tee -a /etc/zypp/repos.d/vscodium.repo",
         .{},
@@ -65,7 +65,7 @@ fn addCodeRepo(alc: mem.Allocator) !void {
 fn addLibrewolfRepo(alc: mem.Allocator) !void {
     log.info("adding librewolf repo", .{});
 
-    _ = try sh.exec(alc,
+    _ = try sh.spawnAndWait(alc,
         \\sudo rpm --import https://rpm.librewolf.net/pubkey.gpg
         \\sudo zypper ar -ef https://rpm.librewolf.net librewolf
     , .{});
@@ -83,7 +83,7 @@ fn addLuarocksRepo(alc: mem.Allocator) !void {
 fn addMullvadvpnRepo(alc: mem.Allocator) !void {
     log.info("adding mullvadvpn repo", .{});
 
-    _ = try sh.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "sudo zypper ar -f https://download.opensuse.org/repositories/home:/nuklly/openSUSE_Tumbleweed/ home_nuklly_mullvadvpn",
         .{},
@@ -93,7 +93,7 @@ fn addMullvadvpnRepo(alc: mem.Allocator) !void {
 fn addRepo(alc: mem.Allocator, uri: []const u8) !void {
     log.debug("adding repo {s}", .{uri});
 
-    _ = try sh.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "sudo zypper addrepo --check --refresh --enable {s}",
         .{uri},
@@ -102,14 +102,14 @@ fn addRepo(alc: mem.Allocator, uri: []const u8) !void {
 
 fn update(alc: mem.Allocator) !void {
     log.info("updating", .{});
-    _ = try sh.exec(alc, "sudo zypper refresh", .{});
-    _ = try sh.exec(alc, "sudo zypper dist-upgrade --details", .{});
+    _ = try sh.spawnAndWait(alc, "sudo zypper refresh", .{});
+    _ = try sh.spawnAndWait(alc, "sudo zypper dist-upgrade --details", .{});
 }
 
 fn addPkgs(alc: mem.Allocator) !void {
     log.info("adding pkgs", .{});
 
-    _ = try sh.exec(alc,
+    _ = try sh.spawnAndWait(alc,
         \\sudo zypper install --details \
         \\  blanket \
         \\  brave-browser \
@@ -147,10 +147,10 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  zvm
     , .{});
 
-    _ = try sh.exec(alc, "sudo zypper install-new-recommends", .{});
-    _ = try sh.exec(alc, "sudo zypper install --type pattern devel_C_C++", .{});
+    _ = try sh.spawnAndWait(alc, "sudo zypper install-new-recommends", .{});
+    _ = try sh.spawnAndWait(alc, "sudo zypper install --type pattern devel_C_C++", .{});
 
-    _ = try sh.exec(alc,
+    _ = try sh.spawnAndWait(alc,
         \\sudo systemctl enable --now mullvad-daemon.service
         \\sudo firewall-cmd --zone=public --add-service=mullvad --permanent
         \\sudo firewall-cmd --reload
@@ -161,7 +161,7 @@ fn snapRepos(alc: mem.Allocator) !void {
     log.info("snapping repos", .{});
     try sh.disableSpellchecker(alc, "~/.dotfiles/src/zypper/zypper_repos.snap");
 
-    _ = try sh.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "zypper repos >> ~/.dotfiles/src/zypper/zypper_repos.snap",
         .{},
@@ -172,7 +172,7 @@ fn snapAdded(alc: mem.Allocator) !void {
     log.info("snapping added", .{});
     try sh.disableSpellchecker(alc, "~/.dotfiles/src/zypper/zypper_added.snap");
 
-    _ = try sh.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "zypper search --details --installed-only >> ~/.dotfiles/src/zypper/zypper_added.snap",
         .{},

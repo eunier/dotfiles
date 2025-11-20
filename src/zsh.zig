@@ -5,7 +5,7 @@ const process = std.process;
 
 const antidote = @import("antidote.zig");
 const ohmyposh = @import("ohmyposh.zig");
-const shell = @import("shell.zig");
+const sh = @import("shell.zig");
 
 const log = std.log.scoped(.zsh);
 
@@ -21,18 +21,18 @@ pub fn sync(alc: mem.Allocator) !void {
 
 fn backup(alc: mem.Allocator) !void {
     log.info("backing", .{});
-    try shell.ensureBackupExists(alc, "~/.zshrc");
+    try sh.ensureBackupExists(alc, "~/.zshrc");
 }
 
 fn symLink(alc: mem.Allocator) !void {
     log.info("sym linking", .{});
-    try shell.symLink(alc, "~/.dotfiles/src/zsh/.zshrc", "~/.zshrc");
+    try sh.symLink(alc, "~/.dotfiles/src/zsh/.zshrc", "~/.zshrc");
 }
 
 fn ensureShell(alc: mem.Allocator) !void {
     log.info("ensuring shell", .{});
 
-    _ = try shell.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "[[ \"$SHELL\" != \"/usr/bin/zsh\" ]] && chsh -s /usr/bin/zsh",
         .{},

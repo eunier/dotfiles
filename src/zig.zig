@@ -1,7 +1,7 @@
 const std = @import("std");
 const mem = std.mem;
 
-const shell = @import("shell.zig");
+const sh = @import("shell.zig");
 
 const log = std.log.scoped(.zig);
 
@@ -15,36 +15,36 @@ pub fn sync(alc: mem.Allocator) !void {
 
 fn add(alc: mem.Allocator) !void {
     log.info("adding", .{});
-    _ = try shell.exec(alc, "zvm install --zls 0.15.2", .{});
+    _ = try sh.spawnAndWait(alc, "zvm install --zls 0.15.2", .{});
 }
 
 fn use(alc: mem.Allocator) !void {
     log.info("using", .{});
-    _ = try shell.exec(alc, "zvm use 0.15.2", .{});
+    _ = try sh.spawnAndWait(alc, "zvm use 0.15.2", .{});
 }
 
 fn initScript(alc: mem.Allocator) !void {
     log.info("init script", .{});
 
-    _ = try shell.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "echo \"#!/usr/bin/env bash\" > ~/.dotfiles/scripts/init.sh",
         .{},
     );
 
-    _ = try shell.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "echo \"sudo zypper install zvm\" >> ~/.dotfiles/scripts/init.sh",
         .{},
     );
 
-    _ = try shell.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "echo \"zvm install --zls 0.15.2\" >> ~/.dotfiles/scripts/init.sh",
         .{},
     );
 
-    _ = try shell.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "echo \"zvm use 0.15.2\" >> ~/.dotfiles/scripts/init.sh",
         .{},
@@ -54,7 +54,7 @@ fn initScript(alc: mem.Allocator) !void {
 fn snapVersion(alc: mem.Allocator) !void {
     log.info("snapping version", .{});
 
-    _ = try shell.exec(
+    _ = try sh.spawnAndWait(
         alc,
         "zvm ls --all > ~/.dotfiles/src/zig/zig_versions.snap",
         .{},

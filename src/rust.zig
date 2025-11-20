@@ -15,20 +15,20 @@ pub fn sync(alc: mem.Allocator) !void {
 
 fn install(alc: mem.Allocator) !void {
     log.info("installing", .{});
-    _ = try sh.exec(alc, "rustup toolchain install stable", .{});
+    _ = try sh.spawnAndWait(alc, "rustup toolchain install stable", .{});
 }
 
 fn update(alc: mem.Allocator) !void {
     log.info("updating", .{});
-    _ = try sh.exec(alc, "rustup update", .{});
+    _ = try sh.spawnAndWait(alc, "rustup update", .{});
 }
 
 fn cargoInstall(alc: mem.Allocator) !void {
     log.info("cargo installing", .{});
-    _ = try sh.exec(alc, "cargo install bob-nvim", .{});
+    _ = try sh.spawnAndWait(alc, "cargo install bob-nvim", .{});
 }
 
 fn snap(alc: mem.Allocator) !void {
     log.info("snapping", .{});
-    _ = try sh.exec(alc, "rustup toolchain list > ~/.dotfiles/src/rust/rust.snap", .{});
+    _ = try sh.spawnAndWait(alc, "rustup toolchain list > ~/.dotfiles/src/rust/rust.snap", .{});
 }

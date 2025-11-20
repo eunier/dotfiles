@@ -4,6 +4,8 @@ const mem = std.mem;
 const process = std.process;
 pub const getEnvVarOwned = process.getEnvVarOwned;
 
+const utils = @import("utils");
+
 const log = std.log.scoped(.shell);
 
 pub const EnvVar = enum {
@@ -37,7 +39,8 @@ pub fn run(
     );
 }
 
-pub fn exec(alc: mem.Allocator, comptime fmt: []const u8, args: anytype) !process.Child.Term {
+// TODO: remove, update this fn usage for utils.exec
+pub fn spawnAndWait(alc: mem.Allocator, comptime fmt: []const u8, args: anytype) !process.Child.Term {
     const cmd = try fmt_mod.allocPrint(alc, fmt, args);
     defer alc.free(cmd);
 
@@ -99,11 +102,11 @@ pub fn doesFileContains(
 
 pub fn makeExecutable(alc: mem.Allocator, path: []const u8) !void {
     log.info("making file {s} executable", .{path});
-    _ = try exec(alc, "chmod +x {s}", .{path});
+    _ = try spawnAndWait(alc, "chmod +x {s}", .{path});
 }
 
 pub fn isCmdAvailable(alc: mem.Allocator, cmd: []const u8) !bool {
-    const result = try exec(alc, "which {s} >/dev/null 2>&1", .{cmd});
+    const result = try spawnAndWait(alc, "which {s} >/dev/null 2>&1", .{cmd});
 
     const available = switch (result) {
         .Exited => |code| code == 0,
@@ -120,18 +123,18 @@ pub fn isCmdAvailable(alc: mem.Allocator, cmd: []const u8) !bool {
 
 pub fn copy(alc: mem.Allocator, src: []const u8, dest: []const u8) !void {
     log.debug("coping {s} {s}", .{ src, dest });
-    _ = try exec(alc, "cp {s} {s}", .{ src, dest });
+    _ = try spawnAndWait(alc, "cp {s} {s}", .{ src, dest });
 }
 
 pub fn makeDir(alc: mem.Allocator, dir: []const u8) !void {
     log.debug("making dir {s}", .{dir});
-    _ = try exec(alc, "mkdir -p {s}", .{dir});
+    _ = try spawnAndWait(alc, "mkdir -p {s}", .{dir});
 }
 
 pub fn symLink(alc: mem.Allocator, target: []const u8, dir: []const u8) !void {
     log.debug("sym linking {s} {s}", .{ target, dir });
 
-    _ = try exec(
+    _ = try spawnAndWait(
         alc,
         "ln --symbolic --force --no-dereference --no-target-directory {s} {s}",
         .{ target, dir },
@@ -140,14 +143,14 @@ pub fn symLink(alc: mem.Allocator, target: []const u8, dir: []const u8) !void {
 
 pub fn disableSpellchecker(alc: mem.Allocator, path: []const u8) !void {
     log.debug("disabling spell checker {s}", .{path});
-    _ = try exec(alc, "echo \"spellchecker: disable\" > {s}", .{path});
+    _ = try spawnAndWait(alc, "echo \"spellchecker: disable\" > {s}", .{path});
 }
 
 test "exec" {
     var gpa = std.heap.GeneralPurposeAllocator(.{}){};
     const alc = gpa.alc();
 
-    const term = try exec(
+    const term = try spawnAndWait(
         &[_][]const u8{ "echo", "Hello, World!" },
         alc,
     );
