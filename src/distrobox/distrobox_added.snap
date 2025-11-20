@@ -647,10 +647,10 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : ca-certificates-mozilla
-Version         : 3.117-1
+Version         : 3.118.1-1
 Description     : Mozilla's set of trusted CA certificates
 Architecture    : x86_64
-URL             : https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS
+URL             : https://firefox-source-docs.mozilla.org/security/nss/index.html
 Licenses        : MPL-2.0
 Groups          : None
 Provides        : None
@@ -660,10 +660,10 @@ Required By     : ca-certificates
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 1110.87 KiB
+Installed Size  : 1088.24 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Fri 03 Oct 2025 09:17:47 AM EDT
-Install Date    : Sat 18 Oct 2025 08:04:05 PM EDT
+Build Date      : Tue 18 Nov 2025 02:29:44 PM EST
+Install Date    : Thu 20 Nov 2025 05:28:20 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -1614,7 +1614,7 @@ Groups          : None
 Provides        : gcc-libs-multilib  libgo.so=24-64  libgfortran.so=5-64  libgphobos.so=6-64  libubsan.so=1-64  libasan.so=8-64  libtsan.so=2-64  liblsan.so=0-64
 Depends On      : glibc>=2.27
 Optional Deps   : None
-Required By     : at-spi2-core  base  bubblewrap  compiler-rt  db5.3  dbus-broker  dconf  electron34  electron37  fish  flac  gc  gcc  gettext  glycin  gmp  gnutls  gperftools  gpgme  graphite  groff  gtest  highway  icu  libcolord  libjxl  libnl  libproxy  librsvg  libtiff  lld  llvm-libs  mesa  ncurses  obsidian  rust  shared-mime-info  simdjson  spirv-tools  systemd-libs  tinysparql  tombi  typos-lsp  vulkan-intel  vulkan-radeon  zstd
+Required By     : at-spi2-core  base  bubblewrap  compiler-rt  db5.3  dbus-broker  dconf  electron34  electron37  fish  flac  gc  gcc  gettext  glib2  glycin  gmp  gnutls  gperftools  gpgme  graphite  groff  gtest  highway  icu  libcolord  libjxl  libnl  libproxy  librsvg  libtiff  lld  llvm-libs  mesa  ncurses  obsidian  rust  shared-mime-info  simdjson  spirv-tools  systemd-libs  tinysparql  tombi  typos-lsp  vulkan-intel  vulkan-radeon  zstd
 Optional For    : None
 Conflicts With  : None
 Replaces        : gcc-libs-multilib  libgphobos
@@ -1797,14 +1797,14 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : glib2
-Version         : 2.86.1-1
+Version         : 2.86.2-1
 Description     : Low level core library
 Architecture    : x86_64
 URL             : https://gitlab.gnome.org/GNOME/glib
 Licenses        : LGPL-2.1-or-later
 Groups          : None
 Provides        : libglib-2.0.so=0-64  libgio-2.0.so=0-64  libgirepository-2.0.so=0-64  libgmodule-2.0.so=0-64  libgobject-2.0.so=0-64  libgthread-2.0.so=0-64
-Depends On      : bash  glibc  libffi  libsysprof-capture  pcre2  util-linux-libs  zlib  libffi.so=8-64  libmount.so=1-64
+Depends On      : bash  gcc-libs  glibc  libffi  libsysprof-capture  pcre2  util-linux-libs  zlib  libffi.so=8-64  libmount.so=1-64
 Optional Deps   : dconf: GSettings storage backend [installed]
                   glib2-devel: development tools
                   gvfs: most gio functionality
@@ -1814,8 +1814,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 37.26 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Tue 21 Oct 2025 11:59:23 AM EDT
-Install Date    : Wed 19 Nov 2025 05:58:48 AM EST
+Build Date      : Tue 18 Nov 2025 02:40:22 PM EST
+Install Date    : Thu 20 Nov 2025 05:28:21 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : Yes
 Validated By    : Signature
@@ -2177,7 +2177,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : gtk-update-icon-cache
-Version         : 1:4.20.2-3
+Version         : 1:4.20.2-4
 Description     : GTK icon cache updater
 Architecture    : x86_64
 URL             : https://www.gtk.org/
@@ -2192,8 +2192,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 36.06 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Sat 04 Oct 2025 09:44:03 AM EDT
-Install Date    : Wed 19 Nov 2025 06:01:33 AM EST
+Build Date      : Wed 19 Nov 2025 04:12:15 PM EST
+Install Date    : Thu 20 Nov 2025 05:28:21 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -6524,10 +6524,10 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : nss
-Version         : 3.117-1
+Version         : 3.118.1-1
 Description     : Network Security Services
 Architecture    : x86_64
-URL             : https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS
+URL             : https://firefox-source-docs.mozilla.org/security/nss/index.html
 Licenses        : MPL-2.0
 Groups          : None
 Provides        : None
@@ -6537,10 +6537,10 @@ Required By     : electron34  electron37
 Optional For    : None
 Conflicts With  : None
 Replaces        : None
-Installed Size  : 5.18 MiB
+Installed Size  : 5.22 MiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Fri 03 Oct 2025 09:17:47 AM EDT
-Install Date    : Wed 19 Nov 2025 06:01:33 AM EST
+Build Date      : Tue 18 Nov 2025 02:29:44 PM EST
+Install Date    : Thu 20 Nov 2025 05:28:21 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature

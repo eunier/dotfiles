@@ -1,8 +1,8 @@
 OS: openSUSE Tumbleweed x86_64
 Kernel: Linux 6.17.7-1-default
-Packages: 2804 (rpm), 60 (nix-user), 10 (brew), 4 (brew-cask)
-Display (LG HDR QHD): 2560x1440 in 32", 60 Hz [External]
+Packages: 2802 (rpm), 60 (nix-user), 10 (brew), 4 (brew-cask)
 Display (Acer X34): 3440x1440 in 34", 100 Hz [External] *
+Display (LG HDR QHD): 2560x1440 in 32", 60 Hz [External]
 DE: GNOME 49.1
 WM: Mutter (Wayland)
 WM Theme: Adwaita

@@ -53,6 +53,7 @@
 │   └── top-down-game
 ├── com.gitlab.yunieralvarez.utils
 │   └── utils
+├── dotfiles -> /home/tron/.dotfiles
 ├── ocm.github.raysan5.raylib
 │   └── raylib
 ├── org.archlinux.aur.paru
@@ -64,4 +65,4 @@
 ├── reposync -> /home/tron/code/com.gitlab.yunieralvarez.reposync/reposync
 └── utils -> /home/tron/code/com.gitlab.yunieralvarez.utils/utils
 
-65 directories, 0 files
+66 directories, 0 files
