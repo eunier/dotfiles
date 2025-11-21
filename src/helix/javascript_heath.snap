@@ -1,6 +1,6 @@
 spellchecker: disable
 Configured language servers:
-  ✘ typescript-language-server: 'typescript-language-server' not found in $PATH
+  ✓ typescript-language-server: /home/tron/.bun/bin/typescript-language-server
 Configured debug adapter:
   ✘ '' not found in $PATH
 Configured formatter: None

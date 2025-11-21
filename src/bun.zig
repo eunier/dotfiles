@@ -23,7 +23,8 @@ fn addGlobalPkgs(alc: mem.Allocator) !void {
 
     _ = try sh.spawnAndWait(alc,
         \\bun add --global \
-        \\  typescript
+        \\  typescript \
+        \\  typescript-language-server
     , .{});
 }
 

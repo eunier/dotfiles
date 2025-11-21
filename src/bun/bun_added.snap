@@ -1,2 +1,3 @@
-/home/tron/.bun/install/global node_modules (1)
-└── typescript@5.9.3
+/home/tron/.bun/install/global node_modules (2)
+├── typescript@5.9.3
+└── typescript-language-server@5.1.3
