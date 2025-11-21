@@ -1087,7 +1087,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : e2fsprogs
-Version         : 1.47.3-1
+Version         : 1.47.3-2
 Description     : Ext2/3/4 filesystem utilities
 Architecture    : x86_64
 URL             : http://e2fsprogs.sourceforge.net
@@ -1104,8 +1104,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 5.28 MiB
 Packager        : Christian Hesse <eworm@archlinux.org>
-Build Date      : Wed 09 Jul 2025 01:56:19 AM EDT
-Install Date    : Sat 18 Oct 2025 08:04:04 PM EDT
+Build Date      : Wed 19 Nov 2025 08:19:25 AM EST
+Install Date    : Fri 21 Nov 2025 04:32:09 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -2177,7 +2177,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : gtk-update-icon-cache
-Version         : 1:4.20.2-4
+Version         : 1:4.20.3-1
 Description     : GTK icon cache updater
 Architecture    : x86_64
 URL             : https://www.gtk.org/
@@ -2192,8 +2192,8 @@ Conflicts With  : None
 Replaces        : None
 Installed Size  : 36.06 KiB
 Packager        : Jan Alexander Steffens (heftig) <heftig@archlinux.org>
-Build Date      : Wed 19 Nov 2025 04:12:15 PM EST
-Install Date    : Thu 20 Nov 2025 05:28:21 AM EST
+Build Date      : Thu 20 Nov 2025 07:01:31 AM EST
+Install Date    : Thu 20 Nov 2025 08:06:48 AM EST
 Install Reason  : Installed as a dependency for another package
 Install Script  : No
 Validated By    : Signature
@@ -7131,7 +7131,7 @@ Install Script  : No
 Validated By    : Signature
 
 Name            : pnpm-bin
-Version         : 10.22.0-1
+Version         : 10.23.0-1
 Description     : Fast, disk space efficient package manager (No dependency on nodejs)
 Architecture    : x86_64
 URL             : https://github.com/pnpm/pnpm
@@ -7144,10 +7144,10 @@ Required By     : None
 Optional For    : None
 Conflicts With  : pnpm
 Replaces        : None
-Installed Size  : 62.76 MiB
+Installed Size  : 62.72 MiB
 Packager        : Unknown Packager
-Build Date      : Thu 13 Nov 2025 08:10:06 AM EST
-Install Date    : Wed 19 Nov 2025 06:02:13 AM EST
+Build Date      : Thu 20 Nov 2025 06:39:55 PM EST
+Install Date    : Thu 20 Nov 2025 06:39:57 PM EST
 Install Reason  : Explicitly installed
 Install Script  : No
 Validated By    : None
