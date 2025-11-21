@@ -58,7 +58,7 @@ fn snapHealthCategory(alc: mem.Allocator, category: []const u8) !void {
 
     _ = try sh.spawnAndWait(
         alc,
-        "hx --health zig | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> {s}",
-        .{path},
+        "hx --health {s} | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> {s}",
+        .{ category, path },
     );
 }
