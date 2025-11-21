@@ -40,6 +40,8 @@ eval "$(zellij setup --generate-auto-start zsh)"
 
 if [ -e /home/tron/.nix-profile/etc/profile.d/nix.sh ]; then . /home/tron/.nix-profile/etc/profile.d/nix.sh; fi
 
+alias ls='eza --icons'
+
 # shellcheck disable=SC1091,SC2086
 source ${ZDOTDIR:-~}/.antidote/antidote.zsh
 antidote load
