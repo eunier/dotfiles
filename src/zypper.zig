@@ -144,7 +144,6 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  steam \
         \\  syncthing \
         \\  taplo \
-        \\  typescript \
         \\  zellij \
         \\  zsh \
         \\  zvm
