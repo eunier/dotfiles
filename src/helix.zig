@@ -35,11 +35,59 @@ fn snap(alc: mem.Allocator) !void {
 fn snapHealth(alc: mem.Allocator) !void {
     log.info("snapping health", .{});
 
-    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/heath.snap");
+    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/javascript_heath.snap");
 
     _ = try sh.spawnAndWait(
         alc,
-        "hx --health | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/heath.snap",
+        "hx --health javascript | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/javascript_heath.snap",
+        .{},
+    );
+
+    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/lua_heath.snap");
+
+    _ = try sh.spawnAndWait(
+        alc,
+        "hx --health lua | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/lua_heath.snap",
+        .{},
+    );
+
+    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/markdown_heath.snap");
+
+    _ = try sh.spawnAndWait(
+        alc,
+        "hx --health markdown | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/markdown_heath.snap",
+        .{},
+    );
+
+    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/rust_heath.snap");
+
+    _ = try sh.spawnAndWait(
+        alc,
+        "hx --health rust | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/rust_heath.snap",
+        .{},
+    );
+
+    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/toml_heath.snap");
+
+    _ = try sh.spawnAndWait(
+        alc,
+        "hx --health toml | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/toml_heath.snap",
+        .{},
+    );
+
+    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/typescript_heath.snap");
+
+    _ = try sh.spawnAndWait(
+        alc,
+        "hx --health typescript | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/typescript_heath.snap",
+        .{},
+    );
+
+    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/zig_heath.snap");
+
+    _ = try sh.spawnAndWait(
+        alc,
+        "hx --health zig | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/zig_heath.snap",
         .{},
     );
 }

@@ -1,0 +1,11 @@
+spellchecker: disable
+Configured language servers:
+  ✓ zls: /home/tron/.zvm/bin/zls
+Configured debug adapter:
+  ✓ /usr/bin/lldb-dap
+Configured formatter:
+  ✓ /home/tron/.zvm/bin/zig
+Tree-sitter parser: ✓
+Highlight queries: ✓
+Textobject queries: ✓
+Indent queries: ✓

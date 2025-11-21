@@ -1,0 +1,10 @@
+spellchecker: disable
+Configured language servers:
+  ✘ typescript-language-server: 'typescript-language-server' not found in $PATH
+Configured debug adapter:
+  ✘ '' not found in $PATH
+Configured formatter: None
+Tree-sitter parser: ✓
+Highlight queries: ✓
+Textobject queries: ✓
+Indent queries: ✓

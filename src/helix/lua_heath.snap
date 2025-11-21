@@ -1,0 +1,9 @@
+spellchecker: disable
+Configured language servers:
+  ✓ lua-language-server: /usr/bin/lua-language-server
+Configured debug adapter: None
+Configured formatter: None
+Tree-sitter parser: ✓
+Highlight queries: ✓
+Textobject queries: ✓
+Indent queries: ✓

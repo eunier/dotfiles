@@ -1,0 +1,10 @@
+spellchecker: disable
+Configured language servers:
+  ✘ marksman: 'marksman' not found in $PATH
+  ✘ markdown-oxide: 'markdown-oxide' not found in $PATH
+Configured debug adapter: None
+Configured formatter: None
+Tree-sitter parser: ✓
+Highlight queries: ✓
+Textobject queries: ✘
+Indent queries: ✘
