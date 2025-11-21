@@ -1,9 +1,10 @@
 spellchecker: disable
 Configured language servers:
-  ✓ rust-analyzer: /usr/bin/rust-analyzer
+  ✓ zls: /home/tron/.zvm/bin/zls
 Configured debug adapter:
   ✓ /usr/bin/lldb-dap
-Configured formatter: None
+Configured formatter:
+  ✓ /home/tron/.zvm/bin/zig
 Tree-sitter parser: ✓
 Highlight queries: ✓
 Textobject queries: ✓

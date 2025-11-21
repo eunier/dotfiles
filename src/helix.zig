@@ -1,5 +1,6 @@
 const std = @import("std");
 const mem = std.mem;
+const fmt = std.fmt;
 
 const sh = @import("shell.zig");
 
@@ -34,60 +35,30 @@ fn snap(alc: mem.Allocator) !void {
 
 fn snapHealth(alc: mem.Allocator) !void {
     log.info("snapping health", .{});
+    try snapHealthCategory(alc, "javascript");
+    try snapHealthCategory(alc, "lua");
+    try snapHealthCategory(alc, "markdown");
+    try snapHealthCategory(alc, "rust");
+    try snapHealthCategory(alc, "toml");
+    try snapHealthCategory(alc, "typescript");
+    try snapHealthCategory(alc, "zig");
+}
 
-    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/javascript_heath.snap");
+fn snapHealthCategory(alc: mem.Allocator, category: []const u8) !void {
+    log.info("snapping health category {s}", .{category});
 
-    _ = try sh.spawnAndWait(
+    const path = try fmt.allocPrint(
         alc,
-        "hx --health javascript | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/javascript_heath.snap",
-        .{},
+        "~/.dotfiles/src/helix/{s}_heath.snap",
+        .{category},
     );
 
-    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/lua_heath.snap");
+    defer alc.free(path);
+    _ = try sh.disableSpellchecker(alc, path);
 
     _ = try sh.spawnAndWait(
         alc,
-        "hx --health lua | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/lua_heath.snap",
-        .{},
-    );
-
-    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/markdown_heath.snap");
-
-    _ = try sh.spawnAndWait(
-        alc,
-        "hx --health markdown | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/markdown_heath.snap",
-        .{},
-    );
-
-    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/rust_heath.snap");
-
-    _ = try sh.spawnAndWait(
-        alc,
-        "hx --health rust | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/rust_heath.snap",
-        .{},
-    );
-
-    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/toml_heath.snap");
-
-    _ = try sh.spawnAndWait(
-        alc,
-        "hx --health toml | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/toml_heath.snap",
-        .{},
-    );
-
-    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/typescript_heath.snap");
-
-    _ = try sh.spawnAndWait(
-        alc,
-        "hx --health typescript | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/typescript_heath.snap",
-        .{},
-    );
-
-    _ = try sh.disableSpellchecker(alc, "~/.dotfiles/src/helix/zig_heath.snap");
-
-    _ = try sh.spawnAndWait(
-        alc,
-        "hx --health zig | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> ~/.dotfiles/src/helix/zig_heath.snap",
-        .{},
+        "hx --health zig | sed -r 's/\\x1B\\[[0-9;]*[A-Za-z]//g' >> {s}",
+        .{path},
     );
 }

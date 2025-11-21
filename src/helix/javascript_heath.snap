@@ -1,9 +1,10 @@
 spellchecker: disable
 Configured language servers:
-  ✘ typescript-language-server: 'typescript-language-server' not found in $PATH
+  ✓ zls: /home/tron/.zvm/bin/zls
 Configured debug adapter:
-  ✘ '' not found in $PATH
-Configured formatter: None
+  ✓ /usr/bin/lldb-dap
+Configured formatter:
+  ✓ /home/tron/.zvm/bin/zig
 Tree-sitter parser: ✓
 Highlight queries: ✓
 Textobject queries: ✓

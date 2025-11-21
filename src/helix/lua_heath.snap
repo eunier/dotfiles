@@ -1,8 +1,10 @@
 spellchecker: disable
 Configured language servers:
-  ✓ lua-language-server: /usr/bin/lua-language-server
-Configured debug adapter: None
-Configured formatter: None
+  ✓ zls: /home/tron/.zvm/bin/zls
+Configured debug adapter:
+  ✓ /usr/bin/lldb-dap
+Configured formatter:
+  ✓ /home/tron/.zvm/bin/zig
 Tree-sitter parser: ✓
 Highlight queries: ✓
 Textobject queries: ✓
