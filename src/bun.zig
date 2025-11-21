@@ -9,6 +9,7 @@ const log = std.log.scoped(.bun);
 pub fn sync(alc: mem.Allocator) !void {
     log.info("syncing", .{});
     try updateGlobalPkgs(alc);
+    try addGlobalPkgs(alc);
     try snapGlobalPkgs(alc);
 }
 
@@ -22,9 +23,8 @@ fn addGlobalPkgs(alc: mem.Allocator) !void {
 
     _ = try sh.spawnAndWait(alc,
         \\bun add --global \
-        \\  @filen/cli \
         \\  typescript
-    );
+    , .{});
 }
 
 fn snapGlobalPkgs(alc: mem.Allocator) !void {
