@@ -117,8 +117,9 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  codium \
         \\  distrobox \
         \\  extension-manager \
+        \\  eza # Replacement for ls written in Rust \
         \\  fastfetch \
-        \\  fd \
+        \\  fd # An alternative to the "find" utility \
         \\  fish \
         \\  foot \
         \\  ghostty \
@@ -128,6 +129,7 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  gnome-font-viewer \
         \\  helix \
         \\  htop \
+        \\  hyperfine # Command-line benchmarking tool \
         \\  jujutsu \
         \\  keepassxc \
         \\  librewolf \
@@ -136,12 +138,12 @@ fn addPkgs(alc: mem.Allocator) !void {
         \\  luajit-luarocks \
         \\  mullvadvpn \
         \\  podman \
-        \\  ripgrep \
+        \\  ripgrep # A search tool that combines ag with grep \
         \\  river \
         \\  rustup \
         \\  steam \
         \\  syncthing \
-        \\  taplo \
+        \\  taplo # A TOML toolkit written in Rust \
         \\  zellij \
         \\  zsh \
         \\  zvm
